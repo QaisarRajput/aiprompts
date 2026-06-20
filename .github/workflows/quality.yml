@@ -48,8 +48,8 @@ jobs:
           npx @lhci/cli@0.15.1 autorun \
             --collect.staticDistDir=apps/web/out \
             --collect.url=http://127.0.0.1:4173/ \
-            --collect.url=http://127.0.0.1:4173/browse \
-            --collect.url=http://127.0.0.1:4173/browse/gpt-image-2 \
+            --collect.url=http://127.0.0.1:4173/browse.html \
+            --collect.url=http://127.0.0.1:4173/browse/gpt-image-2.html \
             --collect.numberOfRuns=1
 
       - name: Run axe-core CLI
@@ -58,4 +58,4 @@ jobs:
           server_pid=$!
           trap "kill $server_pid" EXIT
           sleep 2
-          npx @axe-core/cli@4.10.2 http://127.0.0.1:4173/ http://127.0.0.1:4173/browse http://127.0.0.1:4173/browse/gpt-image-2 --exit
+          npx @axe-core/cli@4.10.2 http://127.0.0.1:4173/ http://127.0.0.1:4173/browse.html http://127.0.0.1:4173/browse/gpt-image-2.html --exit
