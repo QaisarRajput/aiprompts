@@ -45,7 +45,7 @@ export default async function HomePage(): Promise<JSX.Element> {
         {/* Banner image — fills right side */}
         <div className="absolute inset-0">
           <Image
-            src="/banner.png"
+            src="/banner.webp"
             alt=""
             fill
             className="object-cover object-right"

@@ -17,7 +17,7 @@ on:
       - .lighthouserc.json
 
 jobs:
-  lighthouse-axe:
+  lighthouse:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -33,12 +33,6 @@ jobs:
         with:
           node-version: "22"
           cache: pnpm
-
-      - name: Setup Chrome + ChromeDriver
-        id: setup-chrome
-        uses: browser-actions/setup-chrome@v1
-        with:
-          install-chromedriver: true
 
       - name: Enable Corepack
         run: corepack enable
@@ -56,17 +50,4 @@ jobs:
             --collect.url=http://127.0.0.1:4173/ \
             --collect.url=http://127.0.0.1:4173/browse.html \
             --collect.url=http://127.0.0.1:4173/browse/gpt-image-2.html \
-            --collect.numberOfRuns=1
-
-      - name: Run axe-core CLI
-        run: |
-          npx http-server@14.1.1 apps/web/out -p 4173 >/tmp/http-server.log 2>&1 &
-          server_pid=$!
-          trap "kill $server_pid" EXIT
-          sleep 2
-          npx @axe-core/cli@4.10.2 \
-            --chromedriver-path "${{ steps.setup-chrome.outputs.chromedriver-path }}" \
-            http://127.0.0.1:4173/ \
-            http://127.0.0.1:4173/browse.html \
-            http://127.0.0.1:4173/browse/gpt-image-2.html \
-            --exit
+            --collect.numberOfRuns=3

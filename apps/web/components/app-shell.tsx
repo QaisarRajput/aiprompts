@@ -61,7 +61,7 @@ export function AppShell({
           {/* Logo — light/dark swap */}
           <Link href="/" className="flex items-center gap-2 shrink-0">
             <Image
-              src="/logo.png"
+              src="/logo.webp"
               alt="AI Prompts"
               width={200}
               height={58}
@@ -69,7 +69,7 @@ export function AppShell({
               priority
             />
             <Image
-              src="/logo-dark.png"
+              src="/logo-dark.webp"
               alt="AI Prompts"
               width={200}
               height={58}
@@ -152,14 +152,14 @@ export function AppShell({
           <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
             <div>
               <Image
-                src="/logo.png"
+                src="/logo.webp"
                 alt="AI Prompts"
                 width={160}
                 height={46}
                 className="h-[3.75rem] w-auto opacity-80 dark:hidden"
               />
               <Image
-                src="/logo-dark.png"
+                src="/logo-dark.webp"
                 alt="AI Prompts"
                 width={160}
                 height={46}
