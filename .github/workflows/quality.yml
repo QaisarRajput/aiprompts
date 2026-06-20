@@ -54,8 +54,17 @@ jobs:
 
       - name: Run axe-core CLI
         run: |
+          chrome_major=$(google-chrome --version | grep -oE '[0-9]+' | head -1)
+          npm install --no-save --no-package-lock "chromedriver@${chrome_major}"
+          chromedriver_path=$(node -e "process.stdout.write(require('chromedriver').path)")
+
           npx http-server@14.1.1 apps/web/out -p 4173 >/tmp/http-server.log 2>&1 &
           server_pid=$!
           trap "kill $server_pid" EXIT
           sleep 2
-          npx @axe-core/cli@4.10.2 http://127.0.0.1:4173/ http://127.0.0.1:4173/browse.html http://127.0.0.1:4173/browse/gpt-image-2.html --exit
+          npx @axe-core/cli@4.10.2 \
+            --chromedriver-path "$chromedriver_path" \
+            http://127.0.0.1:4173/ \
+            http://127.0.0.1:4173/browse.html \
+            http://127.0.0.1:4173/browse/gpt-image-2.html \
+            --exit
