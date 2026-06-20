@@ -27,6 +27,8 @@ const CATEGORY_TAGLINE: Record<string, string> = {
   "Infographic / Edu Visual": "Make learning beautiful"
 };
 
+const assetBase = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export default async function HomePage(): Promise<JSX.Element> {
   const summary = await getSourcesSummary();
   const sourceId = summary.sources[0]?.id;
@@ -45,7 +47,7 @@ export default async function HomePage(): Promise<JSX.Element> {
         {/* Banner image — fills right side */}
         <div className="absolute inset-0">
           <Image
-            src="/banner.webp"
+            src={`${assetBase}/banner.webp`}
             alt=""
             fill
             className="object-cover object-right"

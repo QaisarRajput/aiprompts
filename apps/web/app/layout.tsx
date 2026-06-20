@@ -18,6 +18,8 @@ const jetBrainsMono = JetBrains_Mono({
   subsets: ["latin"]
 });
 
+const assetBase = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export const metadata: Metadata = {
   title: {
     default: "AI Prompts — Discover • Create • Inspire",
@@ -31,20 +33,20 @@ export const metadata: Metadata = {
     siteName: "AI Prompts",
     title: "AI Prompts — Discover • Create • Inspire",
     description: "The most fire AI image prompts on the internet. Browse, copy, and remix.",
-    images: [{ url: "/og-image.svg", width: 1200, height: 630 }]
+    images: [{ url: `${assetBase}/og-image.svg`, width: 1200, height: 630 }]
   },
   twitter: {
     card: "summary_large_image",
     title: "AI Prompts — Discover • Create • Inspire",
     description: "The most fire AI image prompts on the internet.",
-    images: ["/og-image.svg"]
+    images: [`${assetBase}/og-image.svg`]
   },
   icons: {
     icon: [
-      { url: "/favicon.svg", type: "image/svg+xml" }
+      { url: `${assetBase}/favicon.svg`, type: "image/svg+xml" }
     ],
-    shortcut: "/favicon.svg",
-    apple: "/favicon.svg"
+    shortcut: `${assetBase}/favicon.svg`,
+    apple: `${assetBase}/favicon.svg`
   }
 };
 
