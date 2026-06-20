@@ -40,51 +40,64 @@ export function PromptCard({
   highlightQuery?: string;
 }): JSX.Element {
   const hero = prompt.images[0];
+
   return (
-    <article className="group relative overflow-hidden rounded-card border border-border bg-surface shadow-card transition hover:-translate-y-0.5">
+    <article className="group relative overflow-hidden rounded-2xl bg-surface shadow-card transition hover:-translate-y-0.5 hover:shadow-lg">
+      {/* Full-bleed image */}
       <Link href={`/prompt/${prompt.sourceId}/${prompt.externalId}`} className="block">
-        <div className="relative bg-surface-muted">
+        <div className="relative w-full overflow-hidden" style={{ aspectRatio: "3/4" }}>
           {hero ? (
             <AdaptiveImage
               src={hero.url}
               alt={hero.alt || prompt.title}
-              className="h-auto w-full object-cover"
-              fallbackClassName="aspect-[4/5] w-full bg-surface-muted"
+              className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+              fallbackClassName="absolute inset-0 flex items-center justify-center bg-surface-muted"
               {...(hero.width ? { width: hero.width } : {})}
               {...(hero.height ? { height: hero.height } : {})}
             />
           ) : (
-            <div className="aspect-[4/5] w-full" aria-hidden="true" />
+            <div className="absolute inset-0 bg-surface-muted" aria-hidden="true" />
           )}
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent opacity-0 transition group-hover:opacity-100" />
-          <div className="pointer-events-none absolute bottom-0 left-0 right-0 p-3 text-white opacity-0 transition group-hover:opacity-100">
-            <p className="line-clamp-2 text-sm font-semibold">{highlightText(prompt.title, highlightQuery)}</p>
-            {prompt.category ? (
-              <p className="mt-1 inline-flex rounded-full bg-white/20 px-2 py-0.5 text-xs">{prompt.category}</p>
-            ) : null}
+
+          {/* Permanent bottom gradient overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent" />
+
+          {/* Title + tags always visible at bottom */}
+          <div className="absolute bottom-0 left-0 right-0 p-2.5">
+            <p className="line-clamp-2 text-xs font-semibold leading-snug text-white drop-shadow">
+              {highlightText(prompt.title, highlightQuery)}
+            </p>
+            <div className="mt-1.5 flex flex-wrap gap-1">
+              {prompt.category ? (
+                <span className="inline-flex rounded-full bg-white/20 px-2 py-0.5 text-[10px] font-medium text-white/90 backdrop-blur-sm">
+                  {prompt.category}
+                </span>
+              ) : null}
+              {prompt.featured ? (
+                <span className="inline-flex rounded-full bg-accent/80 px-2 py-0.5 text-[10px] font-medium text-white">
+                  ✨ Featured
+                </span>
+              ) : null}
+            </div>
           </div>
         </div>
       </Link>
-      <div className="flex items-center justify-between gap-2 p-3">
-        <p className="line-clamp-1 text-sm font-medium text-text">{highlightText(prompt.title, highlightQuery)}</p>
-        <div className="flex items-center gap-2">
-          <span className="shrink-0 text-xs text-text-muted">{prompt.language.toUpperCase()}</span>
-          {onToggleSaved ? (
-            <button
-              type="button"
-              onClick={() => onToggleSaved(prompt.id)}
-              aria-label={isSaved ? "Remove from saved" : "Save prompt"}
-              className={`rounded-full border px-2 py-1 text-xs font-medium transition ${
-                isSaved
-                  ? "border-accent bg-accent text-accent-contrast"
-                  : "border-border bg-surface text-text-muted hover:border-accent hover:text-accent"
-              }`}
-            >
-              {isSaved ? "Saved" : "Save"}
-            </button>
-          ) : null}
-        </div>
-      </div>
+
+      {/* Save button — top right, visible on hover */}
+      {onToggleSaved ? (
+        <button
+          type="button"
+          onClick={() => onToggleSaved(prompt.id)}
+          aria-label={isSaved ? "Remove from saved" : "Save prompt"}
+          className={`absolute right-2 top-2 rounded-full px-2.5 py-1 text-[10px] font-bold shadow transition ${
+            isSaved
+              ? "bg-accent text-white opacity-100"
+              : "bg-black/40 text-white/80 opacity-0 backdrop-blur-sm group-hover:opacity-100 hover:bg-accent/80"
+          }`}
+        >
+          {isSaved ? "♥" : "♡"}
+        </button>
+      ) : null}
     </article>
   );
 }

@@ -447,12 +447,27 @@ function parseEntry(
   const templateArguments = extractTemplateArguments(promptCode.value);
   const badges = parseBadges(entry.nodes);
 
+  // Clean image alt texts: strip category prefix and "- Image N" suffix
+  const cleanTitle = titleParts.title;
+  const cleanedImages = images.map((img) => {
+    let alt = img.alt ?? "";
+    // Remove "Category - " prefix if present
+    if (titleParts.category && alt.startsWith(`${titleParts.category} - `)) {
+      alt = alt.slice(titleParts.category.length + 3);
+    }
+    // Remove " - Image N" suffix
+    alt = alt.replace(/\s*-\s*Image\s*\d+\s*$/i, "").trim();
+    // Fallback to clean title
+    if (!alt) alt = cleanTitle;
+    return { ...img, alt };
+  });
+
   return {
     id: `${options.sourceId}:${externalId}`,
     sourceId: options.sourceId,
     tool: options.tool,
     externalId,
-    title: titleParts.title,
+    title: cleanTitle,
     category: titleParts.category,
     description,
     promptText: promptCode.value,
@@ -468,7 +483,7 @@ function parseEntry(
     raycastFriendly: badges.raycastFriendly || templateArguments.length > 0,
     featured: badges.featured,
     language: badges.language ?? details.language,
-    images,
+    images: cleanedImages,
     author: {
       name: details.authorName,
       url: details.authorUrl

@@ -76,3 +76,8 @@ export async function getAllPrompts(): Promise<NormalizedPrompt[]> {
   const all = await Promise.all(summary.sources.map(async (source) => getSourcePrompts(source.id)));
   return all.flat();
 }
+
+export async function getAllCategories(): Promise<string[]> {
+  const prompts = await getAllPrompts();
+  return [...new Set(prompts.map((p) => p.category).filter(Boolean))] as string[];
+}
