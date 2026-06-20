@@ -95,6 +95,19 @@ function sectionRange(root: Root, headingNeedle: string): [number, number] | nul
   return [start, end];
 }
 
+function isValidHttpUrl(value: string | undefined): value is string {
+  if (!value) {
+    return false;
+  }
+
+  try {
+    const parsed = new URL(value);
+    return parsed.protocol === "http:" || parsed.protocol === "https:";
+  } catch {
+    return false;
+  }
+}
+
 function collectPromptEntries(nodes: Content[]): PromptEntry[] {
   const entries: PromptEntry[] = [];
   let current: PromptEntry | null = null;
@@ -171,6 +184,16 @@ function nextSectionContent(nodes: Content[], marker: string): Content[] {
   return [];
 }
 
+function nextSectionContentAny(nodes: Content[], markers: readonly string[]): Content[] {
+  for (const marker of markers) {
+    const section = nextSectionContent(nodes, marker);
+    if (section.length > 0) {
+      return section;
+    }
+  }
+  return [];
+}
+
 function parseTaxonomy(root: Root): string[] {
   const range = sectionRange(root, "Browse by Category");
   if (!range) {
@@ -240,12 +263,15 @@ function parseDetails(listNode: List | undefined): {
     }
   }
 
-  if (publishedRaw && links.Source) {
+  if (publishedRaw) {
+    const sourceUrl = isValidHttpUrl(links.Source) ? links.Source : undefined;
+    const authorUrl = isValidHttpUrl(links.Author) ? links.Author : undefined;
+
     return {
       authorName: details.Author ?? "Unknown",
-      ...(links.Author ? { authorUrl: links.Author } : {}),
+      ...(authorUrl ? { authorUrl } : {}),
       sourceLabel: details.Source ?? "Source",
-      sourceUrl: links.Source,
+      sourceUrl: sourceUrl ?? "https://youmind.com",
       publishedAt: parsePublishedDate(publishedRaw),
       language: normalizeLanguageCode(details.Languages ?? "en")
     };
@@ -292,9 +318,9 @@ function parseInlineDetailsFromNodes(nodes: Content[]): {
 
   return {
     authorName: author.text || "Unknown",
-    ...(author.url ? { authorUrl: author.url } : {}),
+    ...(isValidHttpUrl(author.url) ? { authorUrl: author.url } : {}),
     sourceLabel: source.text || "Source",
-    sourceUrl: source.url,
+    sourceUrl: isValidHttpUrl(source.url) ? source.url : "https://youmind.com",
     publishedAt: parsePublishedDate(publishedRaw),
     language: "en"
   };
@@ -351,7 +377,7 @@ function tryGetExternalUrl(nodes: Content[]): string {
       if (found) {
         return;
       }
-      if (/youmind\.com\/[^\s?#]+\?id=\d+/.test(linkNode.url)) {
+      if (/youmind\.com\//i.test(linkNode.url)) {
         found = linkNode.url;
       }
     });
@@ -363,12 +389,25 @@ function tryGetExternalUrl(nodes: Content[]): string {
   throw new Error("Missing external Try-it URL");
 }
 
-function getExternalId(url: string): string {
-  const id = new URL(url).searchParams.get("id");
-  if (!id) {
-    throw new Error("Missing external id");
+function getExternalId(url: string, headingText: string): string {
+  const parsed = new URL(url);
+  const explicitId = parsed.searchParams.get("id");
+  if (explicitId) {
+    return explicitId;
   }
-  return id;
+
+  const promptParam = parsed.searchParams.get("prompt");
+  if (promptParam) {
+    const noMatch = headingText.match(/^No\.\s*(\d+)\s*:/i)?.[1];
+    return noMatch ? `no-${noMatch}` : `prompt-${promptParam.length}`;
+  }
+
+  const noMatch = headingText.match(/^No\.\s*(\d+)\s*:/i)?.[1];
+  if (noMatch) {
+    return `no-${noMatch}`;
+  }
+
+  throw new Error("Missing external id");
 }
 
 function headingToRawTitle(headingText: string): string {
@@ -403,7 +442,11 @@ function parseEntry(
   }
 
   const imageNodes = (() => {
-    const fromImages = nextSectionContent(entry.nodes, "🖼️ Generated Images");
+    const fromImages = nextSectionContentAny(entry.nodes, [
+      "🖼️ Generated Images",
+      "🖼️ Example Images",
+      "🖼️ Images"
+    ]);
     if (fromImages.length > 0) {
       return fromImages;
     }
@@ -443,7 +486,7 @@ function parseEntry(
   const details = detailsList ? parseDetails(detailsList) : parseInlineDetailsFromNodes(entry.nodes);
 
   const externalUrl = tryGetExternalUrl(entry.nodes);
-  const externalId = getExternalId(externalUrl);
+  const externalId = getExternalId(externalUrl, entry.headingText);
   const templateArguments = extractTemplateArguments(promptCode.value);
   const badges = parseBadges(entry.nodes);
 
