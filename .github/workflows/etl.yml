@@ -1,0 +1,122 @@
+name: ETL Sync
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: pnpm
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Install Dependencies
+        run: corepack pnpm install --frozen-lockfile
+
+      - name: ETL Sync
+        run: |
+          set -euo pipefail
+          corepack pnpm etl:sync | tee etl-sync.log
+
+      - name: Build Search Index
+        run: corepack pnpm etl:index
+
+      - name: Validate Data
+        run: corepack pnpm etl:validate
+
+      - name: Commit Generated Data
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- data; then
+            echo "No data changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "chore(data): automated ETL sync"
+          git push
+
+      - name: Parse Skipped Count
+        id: parse_skips
+        run: |
+          set -euo pipefail
+          if [[ ! -f etl-sync.log ]]; then
+            echo "max_skipped=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          max_skipped=$(grep -Eo 'skipped=[0-9]+' etl-sync.log | cut -d '=' -f 2 | sort -nr | head -n 1 || true)
+          if [[ -z "${max_skipped:-}" ]]; then
+            max_skipped=0
+          fi
+          echo "max_skipped=$max_skipped" >> "$GITHUB_OUTPUT"
+
+      - name: Create or Update Drift Issue
+        if: ${{ steps.parse_skips.outputs.max_skipped != '0' }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const skipped = Number("${{ steps.parse_skips.outputs.max_skipped }}");
+            const threshold = 3;
+            if (Number.isNaN(skipped) || skipped <= threshold) {
+              core.info(`Skipped count ${skipped} does not exceed threshold ${threshold}`);
+              return;
+            }
+
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const title = "ETL drift alert: skipped entries exceeded threshold";
+            const body = [
+              `Automated ETL run detected skipped entries above threshold.`,
+              "",
+              `- Threshold: ${threshold}`,
+              `- Observed max skipped: ${skipped}`,
+              `- Workflow run: https://github.com/${owner}/${repo}/actions/runs/${context.runId}`,
+              "",
+              "Please inspect upstream format changes and parser resilience."
+            ].join("\n");
+
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner,
+              repo,
+              state: "open",
+              per_page: 100
+            });
+
+            const existing = issues.find((issue) => issue.title === title);
+            if (existing) {
+              await github.rest.issues.update({
+                owner,
+                repo,
+                issue_number: existing.number,
+                body
+              });
+              core.info(`Updated drift issue #${existing.number}`);
+              return;
+            }
+
+            const created = await github.rest.issues.create({
+              owner,
+              repo,
+              title,
+              body,
+              labels: ["etl", "drift-alert"]
+            });
+            core.info(`Created drift issue #${created.data.number}`);

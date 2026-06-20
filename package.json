@@ -1,0 +1,48 @@
+{
+  "name": "aiprompts",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "web:dev": "corepack pnpm --filter @aiprompts/web dev",
+    "web:build": "corepack pnpm --filter @aiprompts/web build",
+    "web:start": "corepack pnpm --filter @aiprompts/web start",
+    "etl:sync": "tsx etl/sync.ts",
+    "etl:index": "tsx etl/build-search-index.ts",
+    "etl:validate": "tsx etl/validate.ts",
+    "etl": "corepack pnpm etl:sync && corepack pnpm etl:index && corepack pnpm etl:validate",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "corepack pnpm --filter @aiprompts/schema exec tsc -p tsconfig.json --noEmit && corepack pnpm --filter @aiprompts/etl exec tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "lint-staged": {
+    "*.{js,mjs,cjs,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md,yaml,yml}": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.0",
+    "@types/node": "^26.0.0",
+    "eslint": "^9.30.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.8.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.11",
+    "prettier": "^3.3.3",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.35.1",
+    "vitest": "^2.1.8"
+  }
+}

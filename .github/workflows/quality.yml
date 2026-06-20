@@ -1,0 +1,56 @@
+name: Quality Checks
+
+on:
+  pull_request:
+    paths:
+      - apps/web/**
+      - packages/**
+      - data/**
+      - .lighthouserc.json
+  push:
+    branches:
+      - main
+    paths:
+      - apps/web/**
+      - packages/**
+      - data/**
+      - .lighthouserc.json
+
+jobs:
+  lighthouse-axe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: pnpm
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Install Dependencies
+        run: corepack pnpm install --frozen-lockfile
+
+      - name: Build Static Site
+        run: corepack pnpm web:build
+
+      - name: Run Lighthouse CI
+        run: |
+          npx @lhci/cli@0.15.1 autorun \
+            --collect.staticDistDir=apps/web/out \
+            --collect.url=http://127.0.0.1:4173/ \
+            --collect.url=http://127.0.0.1:4173/browse \
+            --collect.url=http://127.0.0.1:4173/browse/gpt-image-2 \
+            --collect.numberOfRuns=1
+
+      - name: Run axe-core CLI
+        run: |
+          npx http-server@14.1.1 apps/web/out -p 4173 >/tmp/http-server.log 2>&1 &
+          server_pid=$!
+          trap "kill $server_pid" EXIT
+          sleep 2
+          npx @axe-core/cli@4.10.2 http://127.0.0.1:4173/ http://127.0.0.1:4173/browse http://127.0.0.1:4173/browse/gpt-image-2 --exit
