@@ -33,20 +33,23 @@ export const metadata: Metadata = {
     siteName: "AI Prompts",
     title: "AI Prompts — Discover • Create • Inspire",
     description: "The most fire AI image prompts on the internet. Browse, copy, and remix.",
-    images: [{ url: `${assetBase}/og-image.svg`, width: 1200, height: 630 }]
+    images: [{ url: `${assetBase}/banner.webp`, width: 1536, height: 1024 }]
   },
   twitter: {
     card: "summary_large_image",
     title: "AI Prompts — Discover • Create • Inspire",
     description: "The most fire AI image prompts on the internet.",
-    images: [`${assetBase}/og-image.svg`]
+    images: [`${assetBase}/banner.webp`]
   },
+  manifest: `${assetBase}/manifest.webmanifest`,
   icons: {
     icon: [
-      { url: `${assetBase}/favicon.svg`, type: "image/svg+xml" }
+      { url: `${assetBase}/favicon.ico`, type: "image/x-icon" },
+      { url: `${assetBase}/icons/icon-192.png`, sizes: "192x192", type: "image/png" },
+      { url: `${assetBase}/icons/icon-512.png`, sizes: "512x512", type: "image/png" }
     ],
-    shortcut: `${assetBase}/favicon.svg`,
-    apple: `${assetBase}/favicon.svg`
+    shortcut: `${assetBase}/favicon.ico`,
+    apple: [{ url: `${assetBase}/apple-touch-icon.png`, sizes: "180x180", type: "image/png" }]
   }
 };
 
