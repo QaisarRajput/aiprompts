@@ -191,18 +191,26 @@ export function AppShell({
           </div>
           <div className="mt-8 flex flex-col gap-1 border-t border-border pt-6 text-xs text-text-muted sm:flex-row sm:justify-between">
             <p>© {new Date().getFullYear()} AI Prompts. All rights reserved.</p>
-            <p>
-              Prompt data sourced from community repos &amp; licensed under{" "}
-              <a
-                href="https://creativecommons.org/licenses/by/4.0/"
-                className="hover:text-accent underline underline-offset-2"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                CC BY 4.0
-              </a>
-              .
-            </p>
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+              <Link href="/terms-and-conditions" className="hover:text-accent underline underline-offset-2">
+                Terms &amp; Conditions
+              </Link>
+              <Link href="/policies" className="hover:text-accent underline underline-offset-2">
+                Policies
+              </Link>
+              <p>
+                Prompt data sourced from community repos &amp; licensed under{" "}
+                <a
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  className="hover:text-accent underline underline-offset-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+                .
+              </p>
+            </div>
           </div>
         </div>
       </footer>
