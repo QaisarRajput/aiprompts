@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 
-import { AdaptiveImage } from "../../../../components/adaptive-image";
+import { PromptImageViewer } from "../../../../components/prompt-image-viewer";
 import { PromptCopy } from "../../../../components/prompt-copy";
 import { PromptRemix } from "../../../../components/prompt-remix";
 import { getPromptById, getSourcePrompts, getSourcesSummary } from "../../../../lib/data";
@@ -54,20 +54,7 @@ export default async function PromptDetailPage({
   return (
     <article className="lg:grid lg:grid-cols-[minmax(0,2fr)_minmax(0,3fr)] lg:gap-10 lg:items-start">
       {/* Left — images */}
-      <div className="space-y-3">
-        {prompt.images.map((image, idx) => (
-          <div key={`${image.url}-${idx}`} className="overflow-hidden rounded-2xl border border-border bg-surface">
-            <AdaptiveImage
-              src={image.url}
-              alt={image.alt || prompt.title}
-              className="h-auto w-full"
-              fallbackClassName="aspect-[4/5] w-full bg-surface-muted"
-              {...(image.width ? { width: image.width } : {})}
-              {...(image.height ? { height: image.height } : {})}
-            />
-          </div>
-        ))}
-      </div>
+      <PromptImageViewer images={prompt.images} promptTitle={prompt.title} />
 
       {/* Right — metadata + prompt */}
       <div className="mt-6 space-y-6 lg:mt-0 lg:sticky lg:top-20">
