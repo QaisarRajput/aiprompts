@@ -1,5 +1,405 @@
 [
   {
+    "id": "nano-banana-pro:25753",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "25753",
+    "title": "Structural Image Inpainting Prompt",
+    "category": "Game Asset",
+    "description": "An image transformation prompt used to replace simple blocks with complex buildings while keeping the UI elements static.",
+    "promptText": "Replace {argument name=\"original object\" default=\"the simple arrangement of rectangular parallelepipeds\"} with {argument name=\"new subject\" default=\"a group of buildings\"} while keeping the UI as it is.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "original object",
+        "default": "the simple arrangement of rectangular parallelepipeds"
+      },
+      {
+        "name": "new subject",
+        "default": "a group of buildings"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781598288853_6wujdv_HK3O0sTa4AAtR04.jpg",
+        "alt": "Structural Image Inpainting Prompt",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ft-lab",
+      "url": "https://x.com/cg_ftLab"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/cg_ftLab/status/2066536139587215452"
+    },
+    "publishedAt": "2026-06-15T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=25753",
+    "contentHash": "6deca3e0164822f96cebd6d3d44ce7184cb7a966"
+  },
+  {
+    "id": "nano-banana-pro:25743",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "25743",
+    "title": "Steampunk Pastel Pink Portrait",
+    "category": "Game Asset",
+    "description": "A highly detailed steampunk portrait of a woman with pastel pink hair and intricate mechanical headgear, set against a retro-futuristic background.",
+    "promptText": "A meticulously detailed steampunk portrait of a {argument name=\"subject\" default=\"young woman\"} shown from the chest up, centered in a vertical composition. She has pale porcelain skin with subtle freckles, striking turquoise-blue eyes, and soft natural makeup. Her hair is a voluminous {argument name=\"hair color\" default=\"pastel pink\"} updo, loosely gathered into an intricate messy bun with wispy strands escaping around her face, creating a delicate yet rebellious appearance. She wears an elaborate brass and bronze mechanical headpiece fused with industrial engineering and Victorian aesthetics. The headgear features polished gears, rivets, miniature lenses, pressure valves, copper tubing, metallic spikes, and a large circular glowing optical device positioned above her forehead, emitting a cool cyan light. A smaller illuminated lens and precision-crafted mechanical components add complexity and realism. A delicate metallic heart-shaped ornament with filigree detailing decorates her cheek. Her outfit consists of a richly textured burgundy leather jacket with a dramatic raised collar, visible stitching, metal studs, buckles, straps, and layered steampunk machinery attached to the shoulder. Brass mechanisms, articulated joints, cables, and engraved metallic plates merge seamlessly with the garment. The lighting is cinematic and atmospheric, combining cool teal ambient illumination with warm copper highlights, emphasizing textures, depth, and reflective surfaces. The background is softly blurred, suggesting the interior of an advanced retro-futuristic airship or industrial laboratory with circular metallic structures and faint machinery silhouettes. Ultra-realistic rendering, extraordinary craftsmanship, razor-sharp focus on the face, shallow depth of field, highly detailed skin texture, premium materials, volumetric lighting, subtle particles floating in the air, masterpiece quality, dramatic mood, luxury steampunk fashion, photorealistic, 8K, HDR, flawless composition",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "young woman"
+      },
+      {
+        "name": "hair color",
+        "default": "pastel pink"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781598284404_bzlplg_HK2-jJsW0AA9Ny0.jpg",
+        "alt": "Steampunk Pastel Pink Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1781598283981_zexgyv_HK2-7SPWIAAPlyX.jpg",
+        "alt": "Steampunk Pastel Pink Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Noname Oasis",
+      "url": "https://x.com/nonameoasis"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/nonameoasis/status/2066517742828519454"
+    },
+    "publishedAt": "2026-06-15T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=25743",
+    "contentHash": "d9cab68201691f203e697e18f6cb6deb2d604003"
+  },
+  {
+    "id": "nano-banana-pro:25453",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "25453",
+    "title": "Pixar Style 3D Businessman",
+    "category": "Game Asset",
+    "description": "A charming 3D animated character design of a businessman walking in a city, inspired by Pixar film renders.",
+    "promptText": "Charming stylized 3D animated {argument name=\"character\" default=\"African American businessman\"} character standing walking outside on a {argument name=\"setting\" default=\"busy city sidewalk\"} talking on his mobile phone on a sunny day, large expressive brown eyes, soft rounded facial features, slightly exaggerated proportions, short brown hair hair, warm rosy cheeks, warm golden morning light, cinematic soft lighting, shallow depth of field, subsurface scattering skin, ultra-detailed 3D animated film render, {argument name=\"style\" default=\"Pixar-inspired style\"}, 85mm lens, high resolution, highly detailed, soft bokeh background, volumetric light, hyperreal human, ultra realistic face, doll face, realistic 3d human portrait",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character",
+        "default": "African American businessman"
+      },
+      {
+        "name": "setting",
+        "default": "busy city sidewalk"
+      },
+      {
+        "name": "style",
+        "default": "Pixar-inspired style"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781424055171_gzis1m_HKM7uAuX0AAWB_h.jpg",
+        "alt": "Pixar Style 3D Businessman",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Mystique Licorne 🇨🇦",
+      "url": "https://x.com/MystiqueLicorne"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/MystiqueLicorne/status/2065868807248437446"
+    },
+    "publishedAt": "2026-06-13T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=25453",
+    "contentHash": "7cd3dcc96a9893f18479dc0707f3fd236188fb88"
+  },
+  {
+    "id": "nano-banana-pro:25313",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "25313",
+    "title": "Celestial Archive Sandalpunk Miniature",
+    "category": "Game Asset",
+    "description": "A detailed prompt for generating a whimsical miniature world featuring a celestial archive rotunda in a unique sandalpunk style.",
+    "promptText": "Whimsical {argument name=\"subject\" default=\"miniature world\"} depiction of a {argument name=\"location\" default=\"celestial archive rotunda\"} in an artistic {argument name=\"style\" default=\"sandalpunk\"} style.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "miniature world"
+      },
+      {
+        "name": "location",
+        "default": "celestial archive rotunda"
+      },
+      {
+        "name": "style",
+        "default": "sandalpunk"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781336391510_w8ldgq_HKn_tMba4AAD7QQ.png",
+        "alt": "Celestial Archive Sandalpunk Miniature",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "sayobonita",
+      "url": "https://x.com/sayobonito"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/sayobonito/status/2065463205879754995"
+    },
+    "publishedAt": "2026-06-12T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=25313",
+    "contentHash": "e97d65749c5f3aac2c848366dbad0439c2b7145d"
+  },
+  {
+    "id": "nano-banana-pro:25299",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "25299",
+    "title": "Math Projection Portrait in Neon Yellow",
+    "category": "Game Asset",
+    "description": "A cinematic portrait of an East Asian woman with glowing math equations projected onto her face, wearing a neon yellow puffer jacket.",
+    "promptText": "A cinematic, hyper-realistic close-up portrait of a {argument name=\"subject\" default=\"young East Asian woman\"} with dark hair tied up in a loose, casual bun, with a few stray strands framing her face. She has clear skin, warm brown eyes, and a neutral, calm expression. She is wearing {argument name=\"eyewear\" default=\"thick, transparent neon-yellow clear-frame glasses\"}. Glowing, golden-yellow mathematical and physics equations, symbols, and formulas are projected directly onto her face, forehead, cheek, and the lenses of her glasses, casting a subtle warm light on her skin. She is dressed in a {argument name=\"outfit\" default=\"bright, vibrant yellow puffer jacket with a hood\"}, which also has faint, glowing math formulas patterned across the fabric. The background is a soft, dreamlike, out-of-focus bokeh of cool teal and blue lights, creating a striking color contrast with her warm yellow attire. Shot with a professional DSLR, 85mm lens, f/1.4 aperture, shallow depth of field, 3D Pixar-style digital art realism, clean studio lighting, high-end commercial aesthetic, 16k resolution.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "young East Asian woman"
+      },
+      {
+        "name": "eyewear",
+        "default": "thick, transparent neon-yellow clear-frame glasses"
+      },
+      {
+        "name": "outfit",
+        "default": "bright, vibrant yellow puffer jacket with a hood"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781336385091_l8k81x_HKlHwCEasAALBPu.jpg",
+        "alt": "Math Projection Portrait in Neon Yellow",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "auqib",
+      "url": "https://x.com/auqibhabib"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/auqibhabib/status/2065260804946223271"
+    },
+    "publishedAt": "2026-06-12T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=25299",
+    "contentHash": "9816dfd06d9cc5e239e22889d87e4b0a26e784e8"
+  },
+  {
+    "id": "nano-banana-pro:25119",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "25119",
+    "title": "Atlas Titan Heavy Cargo Hauler",
+    "category": "Game Asset",
+    "description": "A cinematic and mechanical prompt for an autonomous heavy-duty cargo truck designed for planetary transport, featuring brutalist industrial design.",
+    "promptText": "The Atlas Titan Freight Hauler  \nA massive autonomous heavy-duty cargo truck designed to transport entire {argument name=\"cargo type\" default=\"modular cities\"} across hostile planetary environments. The colossal vehicle rides on twelve gigantic independently articulated wheel assemblies, each containing complex suspension mechanisms, armored shock systems, and adaptive terrain-control technology. The cab resembles a mobile command center with panoramic reinforced observation glass, advanced sensor arrays, communication towers, navigation radars, and layered defensive plating. The rear transport platform supports enormous cargo modules secured by robotic loading systems, magnetic containment locks, articulated cranes, and automated maintenance drones. Every section is packed with mechanical detail including hydraulic systems, exposed engineering components, power conduits, cooling infrastructure, access panels, maintenance platforms, warning lights, and industrial machinery. {argument name=\"style\" default=\"Brutalist industrial design\"}, cinematic scale, highly detailed mechanical engineering, photorealistic rendering, masterpiece quality, 8K.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "cargo type",
+        "default": "modular cities"
+      },
+      {
+        "name": "style",
+        "default": "Brutalist industrial design"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781251719885_mry7vv_HKiKC-uaUAAhd5z.jpg",
+        "alt": "Atlas Titan Heavy Cargo Hauler",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Artingent",
+      "url": "https://x.com/artingent"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/artingent/status/2065052689789227310"
+    },
+    "publishedAt": "2026-06-11T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=25119",
+    "contentHash": "e96c0b51a0c5bb63c61f121734c77ded0a7e6dae"
+  },
+  {
+    "id": "nano-banana-pro:25127",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "25127",
+    "title": "Fantasy Festival Fantasy Portrait",
+    "category": "Game Asset",
+    "description": "A vibrant medium close-up of a young woman at an evening market, featuring elaborate gemstone makeup and fantasy warrior attire.",
+    "promptText": "A vibrant, medium close-up shot of a cheerful {argument name=\"subject\" default=\"young woman with long, curly blonde hair\"} streaked with subtle hints of purple, smiling broadly at an outdoor festival evening market. Her face features intricate glitter and gemstone makeup artistry above and around her sparkling eyes. She is dressed in {argument name=\"outfit style\" default=\"fantasy-inspired attire\"}, complete with detailed metallic shoulder armor featuring a prominent ammonite fossil, intricate filigree, and chainmail accents. In one hand, adorned with multiple ornate rings and stacked silver bangles, she holds a detailed silver staff topped with a large, multi-faceted crystal cluster glowing with {argument name=\"glow colors\" default=\"purple and green hues\"}. The background is beautifully blurred into warm bokeh lights from festive string lamps illuminating a bustling market street filled with colorful stalls and festival-goers at dusk.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "young woman with long, curly blonde hair"
+      },
+      {
+        "name": "outfit style",
+        "default": "fantasy-inspired attire"
+      },
+      {
+        "name": "glow colors",
+        "default": "purple and green hues"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781251722469_abf7ba_HKhVo3tXwAAzfZv.jpg",
+        "alt": "Fantasy Festival Fantasy Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Minahil",
+      "url": "https://x.com/Minahil42298354"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Minahil42298354/status/2064994604852658308"
+    },
+    "publishedAt": "2026-06-11T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=25127",
+    "contentHash": "a23b1ed9d09d58f749178fe4261653726f7a75d9"
+  },
+  {
+    "id": "nano-banana-pro:25020",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "25020",
+    "title": "Retro 80s Action Figure Aesthetic",
+    "category": "Game Asset",
+    "description": "A prompt instruction for generating character images that look like vintage action figures with realistic paint wear and damage.",
+    "promptText": "{argument name=\"style\" default=\"80s retro action figure\"}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "style",
+        "default": "80s retro action figure"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781165163474_9y3ovd_HKc80V5aEAAO_mj.jpg",
+        "alt": "Retro 80s Action Figure Aesthetic",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1781165163535_rm3cyn_HKc80VybkAEEuN_.jpg",
+        "alt": "Retro 80s Action Figure Aesthetic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "篠原保",
+      "url": "https://x.com/tam2shino"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/tam2shino/status/2064685836072010124"
+    },
+    "publishedAt": "2026-06-10T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=25020",
+    "contentHash": "d7675e71092d424c5b5fc09a5bc385d4e25f422e"
+  },
+  {
+    "id": "nano-banana-pro:24712",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "24712",
+    "title": "Surreal Miniature Universe Bubble Portrait",
+    "category": "Game Asset",
+    "description": "A unique prompt that transforms a portrait into a surreal diorama, where the subject's head is encased in a transparent bubble containing a miniature world.",
+    "promptText": "A surreal, photorealistic portrait of {argument name=\"character\" default=\"[User Face/Character]\"} standing naturally in a textured knit sweater. The head is seamlessly attached to the body. Surrounding the head is a large, transparent spherical bubble acting as a diorama. Inside this circular space is a highly detailed, miniature {argument name=\"theme\" default=\"[Subject/Theme]\"} environment, complete with tiny intricate props, rich lighting, and a tiny miniature version of the character. The main character's head sits naturally in the center of this spherical room. Cinematic volumetric lighting, sharp focus on the miniature details, minimal soft-gradient background. 8k, masterpiece",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character",
+        "default": "[User Face/Character]"
+      },
+      {
+        "name": "theme",
+        "default": "[Subject/Theme]"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1780990822267_5yq8zj_HKUJLZgWwAA7_0m.jpg",
+        "alt": "Surreal Miniature Universe Bubble Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Saman | AI",
+      "url": "https://x.com/Samann_ai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Samann_ai/status/2064066116234989886"
+    },
+    "publishedAt": "2026-06-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=24712",
+    "contentHash": "c0d49aae15d84b839def1b97f2925038233d81cd"
+  },
+  {
     "id": "nano-banana-pro:24735",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
