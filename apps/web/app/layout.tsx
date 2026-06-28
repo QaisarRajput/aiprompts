@@ -59,6 +59,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     <html lang="en" suppressHydrationWarning>
       <head>
         <ThemeScript />
+        {/* Google AdSense account meta tag (added for verification) */}
+        <meta name="google-adsense-account" content="ca-pub-5974949409227096" />
       </head>
       <body className={`${inter.variable} ${jetBrainsMono.variable} antialiased`}>
         <Providers>
