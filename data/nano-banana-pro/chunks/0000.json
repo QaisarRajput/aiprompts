@@ -1,5 +1,958 @@
 [
   {
+    "id": "nano-banana-pro:30566",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30566",
+    "title": "Bright CCD Style Vacation Lifestyle Photography",
+    "category": "Profile / Avatar",
+    "description": "Generates high-light lifestyle vacation photos with a digital CCD camera aesthetic. The prompt specifies bright lighting, relaxed poses, and specific outfit details for a refreshing dating-style look.",
+    "promptText": "Photography style: Daytime bright high-light CCD lifestyle style\nPortrait direction: Vacation lifestyle photo\nScene direction: {argument name=\"scene\" default=\"Yacht marina rest area / white railings / light-colored deck / distant ships\"}\nOutfit direction: {argument name=\"outfit\" default=\"Coral pink slim-fit halter neck crop top + white high-waisted shorts\"}\nTemperament tags: Bright, relaxed, refreshing, dating vibe, attractive\nFeatures direction: First-love style light facial features\nBody shape direction: Light and slender\nLine emphasis: Strong\nCamera direction: Half-body to thigh\nPosture/Action: {argument name=\"action\" default=\"Standing by the white railing, body slightly turned sideways, one hand holding the railing, looking back at the camera\"}\nLighting atmosphere: Dominated by bright daylight on a sunny day, sunlight from the side front clearly illuminating the subject; high-lights from white railings, the deck, and the sea surface provide natural reflective fill light; extremely weak soft flash slightly supplements catchlights and facial shadows\nFilter effect: High-brightness clear CCD colors + clean white highlights + clear midtones + stable black levels + light grain + very light digital noise\nAspect ratio: 9:16\nAdditional requirements: The coral pink top should be bright and fresh, not dirty or greyish; the halter design naturally highlights the neck, collarbones, and chest line, and the overall image should look like a bright lifestyle photo taken with a digital card camera during a sunny vacation.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "scene",
+        "default": "Yacht marina rest area / white railings / light-colored deck / distant ships"
+      },
+      {
+        "name": "outfit",
+        "default": "Coral pink slim-fit halter neck crop top + white high-waisted shorts"
+      },
+      {
+        "name": "action",
+        "default": "Standing by the white railing, body slightly turned sideways, one hand holding the railing, looking back at the camera"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654884469_bdqj45_HOsh1ZSbUAApH65.jpg",
+        "alt": "Bright CCD Style Vacation Lifestyle Photography",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654883757_yya22p_HOsh2kbaIAAENxi.jpg",
+        "alt": "Bright CCD Style Vacation Lifestyle Photography",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "李岳",
+      "url": "https://x.com/liyue_ai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/liyue_ai/status/2083802423496474770"
+    },
+    "publishedAt": "2026-08-02T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30566",
+    "contentHash": "c421437087bf9157d207ccb9a2d703b0433b4739"
+  },
+  {
+    "id": "nano-banana-pro:30545",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30545",
+    "title": "Underwater Macro Face Portrait",
+    "category": "Profile / Avatar",
+    "description": "A hyper-realistic prompt for a macro portrait of a face partially submerged in water, featuring caustic light reflections and air bubbles.",
+    "promptText": "Hyper-realistic, ultra-detailed macro portrait capturing only the {argument name=\"subject part\" default=\"left half\"} of a {argument name=\"subject\" default=\"human face\"} partially submerged {argument name=\"environment\" default=\"underwater\"}. One eye in sharp focus near the far-left edge of the frame. Light rays create dynamic caustic reflections across the skin, emphasizing pores, wet lips, eyelashes, and fine textures with lifelike subsurface scattering. Suspended droplets and air bubbles add depth and motion. Cinematic underwater lighting with soft shadows and crisp highlights enhances the surreal, dreamlike atmosphere. Extremely shallow depth of field, photorealistic rendering, 4:5 aspect ratio.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject part",
+        "default": "left half"
+      },
+      {
+        "name": "subject",
+        "default": "human face"
+      },
+      {
+        "name": "environment",
+        "default": "underwater"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654868805_qi4cxo_HOqIDolWMAAeyTl.jpg",
+        "alt": "Underwater Macro Face Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654869143_34kztt_HOqIELuXsAEvF8r.jpg",
+        "alt": "Underwater Macro Face Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Aatif J",
+      "url": "https://x.com/aatif_j"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/aatif_j/status/2083627392866627587"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30545",
+    "contentHash": "29fe520c24a62ee4960c00dfc120277bc64d134c"
+  },
+  {
+    "id": "nano-banana-pro:30552",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30552",
+    "title": "Vintage Mustard Dress Portrait",
+    "category": "Profile / Avatar",
+    "description": "A fine-art oil painting style portrait with dramatic Rembrandt lighting, featuring a woman in a vintage lace dress.",
+    "promptText": "A fine-art oil painting style portrait of a young woman with a classic updo hairstyle and soft, wavy tendrils framing her face, featuring expressive {argument name=\"eye color\" default=\"hazel-green\"} eyes, light freckles across her nose and cheeks, and a thoughtful expression. She is wearing a {argument name=\"dress style\" default=\"vintage-style mustard-yellow\"} long-sleeve dress accented with delicate lace panels on the bodice and sleeves, layered amber-gemstone pendant necklaces, and small gold hoop earrings, set against a {argument name=\"background\" default=\"moody, dark-toned textured backdrop\"} with dramatic Rembrandt-style lighting.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "eye color",
+        "default": "hazel-green"
+      },
+      {
+        "name": "dress style",
+        "default": "vintage-style mustard-yellow"
+      },
+      {
+        "name": "background",
+        "default": "moody, dark-toned textured backdrop"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654873640_5k2qj9_HOpGOpgXUAALP8p.jpg",
+        "alt": "Vintage Mustard Dress Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654873623_76vwcm_HOpGPeJXsAAAF8E.jpg",
+        "alt": "Vintage Mustard Dress Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654873615_zwdv7r_HOpGQNtWoAAiRu5.jpg",
+        "alt": "Vintage Mustard Dress Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654874492_egn1ui_HOpGQ_bWwAAyXOp.jpg",
+        "alt": "Vintage Mustard Dress Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Minahil",
+      "url": "https://x.com/Minahil42298354"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Minahil42298354/status/2083555046906638841"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30552",
+    "contentHash": "6806359a9e66d07cb98965d4a73d45c4eef418fe"
+  },
+  {
+    "id": "nano-banana-pro:30551",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30551",
+    "title": "Candid Portrait at Golden Hour",
+    "category": "Profile / Avatar",
+    "description": "A warm and dreamy close-up portrait of a young woman in a cozy bedroom setting, featuring natural lighting and a film-like texture.",
+    "promptText": "Close-up portrait of a {argument name=\"subject\" default=\"young Asian woman\"} with dark hair in a {argument name=\"hairstyle\" default=\"messy bun\"} with loose face-framing strands, winking one eye playfully while blowing a kiss toward the camera with an outstretched hand. Soft candid smile, warm golden-hour sunlight streaming through blinds in the background, cozy bedroom setting with polaroid photos pinned to a beige wall and a potted plant softly blurred in the background. She wears an {argument name=\"outfit\" default=\"oversized cream/off-white t-shirt\"} and a thin gold necklace. Shallow depth of field, warm and dreamy color grading, natural film-like texture, soft diffused lighting, intimate and candid mood, shot on 50mm lens, shallow bokeh",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "young Asian woman"
+      },
+      {
+        "name": "hairstyle",
+        "default": "messy bun"
+      },
+      {
+        "name": "outfit",
+        "default": "oversized cream/off-white t-shirt"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654873250_793wqw_HOo6aT8asAA9jiV.jpg",
+        "alt": "Candid Portrait at Golden Hour",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Ahmad Faraz",
+      "url": "https://x.com/iamahmedfaraz66"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/iamahmedfaraz66/status/2083542009042915719"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30551",
+    "contentHash": "d0af02dcfe29100b862acfd25f692375b1c078b5"
+  },
+  {
+    "id": "nano-banana-pro:30556",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30556",
+    "title": "Painterly Studio Portrait",
+    "category": "Profile / Avatar",
+    "description": "A timeless, painterly portrait of an elegant woman with amber eyes, captured with soft warm studio lighting.",
+    "promptText": "A cinematic, high-detail portrait of a young woman with a classic, elegant appearance, captured with {argument name=\"lighting\" default=\"soft, warm studio lighting\"}. She has {argument name=\"hair\" default=\"light blonde hair with darker roots\"}, styled in an updo with loose strands framing her face. Her striking amber-brown eyes gaze thoughtfully off to the side, and her expression is gentle and contemplative. She wears a {argument name=\"outfit\" default=\"muted mauve-pink lace dress\"}, paired with a matching fabric choker and delicate silver necklaces and earrings. The background is a dark, moody, and textured studio backdrop, enhancing the timeless, painterly quality of the shot.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "lighting",
+        "default": "soft, warm studio lighting"
+      },
+      {
+        "name": "hair",
+        "default": "light blonde hair with darker roots"
+      },
+      {
+        "name": "outfit",
+        "default": "muted mauve-pink lace dress"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654876134_38h849_HOodhXeXIAAmKEC.jpg",
+        "alt": "Painterly Studio Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Minahil",
+      "url": "https://x.com/Minahil42298354"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Minahil42298354/status/2083510252150849639"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30556",
+    "contentHash": "281eb1d2e930ce570fd5e1a8e84a84931144d863"
+  },
+  {
+    "id": "nano-banana-pro:30557",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30557",
+    "title": "Dark Cinematic Skin Portrait",
+    "category": "Profile / Avatar",
+    "description": "A highly detailed, cinematic prompt focusing on extreme skin realism and forensic-level texture in a dark, obsessive aesthetic with dramatic lighting.",
+    "promptText": "Same face as reference. Same dark, obsessive aesthetic. New pose, new angle, new visual narrative.\n\n**{argument name=\"pose and angle\" default=\"Pose & Angle:\"}** Sharp 45° three-quarter turn. Nose crosses into the light; one eye fully illuminated, the other dissolving into shadow. Far cheekbone briefly catches light before vanishing. Shadow-side jaw disappears entirely. The angle exposes the face's underlying structure — brow ridge, nose bridge, cheekbone, jawline — as distinct planes of light and dark.\n\n**Head Tilt:** Chin lowered a few degrees, gaze lifted toward camera through the brows — heavy-lidded, intense, quietly vulnerable. Slightly raised brows add natural forehead creasing. The tilt sharpens the jaw and lengthens the neck line.\n\n**{argument name=\"expression\" default=\"Expression:\"}** Lips parted about 3mm — a subtle exhale, not an emotional cue. The effect should feel candid and unguarded, like a private moment caught rather than staged.\n\n**Skin Rendering:** Same forensic-level detail, applied to new areas revealed by the angle — nose wing texture in raking light, under-eye skin from a fresh perspective, lit-side jaw stubble pattern, forehead topography under top light, and partial ear detail. Neck and collarbone edge just visible at the bottom, fading into darkness.\n\n**{argument name=\"lighting\" default=\"Lighting:\"}** A single hard light source, positioned higher and more to the side than before, producing a narrow, surgical beam. Lit skin rendered with cold clarity; shadow side pure black. A thin blue-white rim light traces the far cheekbone. Near eye has a crisp single catchlight; far eye shows only a rim-lit iris edge and sliver of white.\n\n**Background:** Solid black, no elements — silhouette shaped purely by the new angle.\n\n**Color & Texture:** Crushed blacks, cool skin tones with warm undertone contrast, blue-white rim accent, 10% Ilford HP5 grain. Fully unretouched — pores, texture, and imperfections preserved.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "pose and angle",
+        "default": "Pose & Angle:"
+      },
+      {
+        "name": "expression",
+        "default": "Expression:"
+      },
+      {
+        "name": "lighting",
+        "default": "Lighting:"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654877873_khz9j0_HOn0N65akAAthee.jpg",
+        "alt": "Dark Cinematic Skin Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Ozair AI",
+      "url": "https://x.com/Ozayrr_irl"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Ozayrr_irl/status/2083464925851074742"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30557",
+    "contentHash": "b9f84b18abcc2a7a15e042199a6f4db51fbc881b"
+  },
+  {
+    "id": "nano-banana-pro:30558",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30558",
+    "title": "Urban Luxury Streetwear Portrait",
+    "category": "Social Media Post",
+    "description": "An editorial fashion portrait of a person in high-end luxury streetwear, set against an urban raw concrete wall.",
+    "promptText": "Ultra-realistic editorial fashion portrait of the {argument name=\"subject\" default=\"person in refrence\"}, standing casually against a {argument name=\"background\" default=\"smooth raw concrete wall in an urban setting\"}. Hands in jacket pockets, relaxed confident expression, looking directly at the camera. Wearing a {argument name=\"outfit\" default=\"black oversized leather bomber jacket over a black hoodie and black t-shirt\"}, loose black cargo pants with subtle faded texture, silver chain accessory, black-and-white low-top sneakers. Soft overcast daylight, muted grey color palette, minimal background, luxury streetwear aesthetic, high-end fashion campaign, clean composition, natural skin tones, realistic fabric textures, shallow depth of field, full-body shot, 85mm lens, photorealistic, ultra-detailed, cinematic lighting, Vogue editorial quality, 8K.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "person in refrence"
+      },
+      {
+        "name": "background",
+        "default": "smooth raw concrete wall in an urban setting"
+      },
+      {
+        "name": "outfit",
+        "default": "black oversized leather bomber jacket over a black hoodie and black t-shirt"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654877952_s3wtkv_HOsPPQnagAE1IkP.jpg",
+        "alt": "Urban Luxury Streetwear Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Weinberg",
+      "url": "https://x.com/weiinberg"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/weiinberg/status/2083776018763157835"
+    },
+    "publishedAt": "2026-08-02T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30558",
+    "contentHash": "be82d66ae045c4ba057b8233be202849d129facc"
+  },
+  {
+    "id": "nano-banana-pro:30564",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30564",
+    "title": "First Person POV Unusual Scenes",
+    "category": "Social Media Post",
+    "description": "A simple yet creative prompt for generating unique first-person perspective images of unusual or rarely-seen subjects, perfect for storytelling or concept art.",
+    "promptText": "first person pov of {argument name=\"subject\" default=\"something you don't normally see\"}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "something you don't normally see"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654882500_rx54di_HOq-jzOWoAAmnMT.jpg",
+        "alt": "First Person POV Unusual Scenes",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654883399_jlu9p7_HOq-jzSX0AAI823.jpg",
+        "alt": "First Person POV Unusual Scenes",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654882516_y5gb7v_HOq-jzGXcAAtR6q.jpg",
+        "alt": "First Person POV Unusual Scenes",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "fofr",
+      "url": "https://x.com/fofrAI"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/fofrAI/status/2083747614840045928"
+    },
+    "publishedAt": "2026-08-02T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30564",
+    "contentHash": "9187603867956f974fc2f3fdad38af9cb233fe73"
+  },
+  {
+    "id": "nano-banana-pro:30562",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30562",
+    "title": "Identity Preserving Cartoon Mural",
+    "category": "Social Media Post",
+    "description": "A complex prompt designed to preserve facial identity from a reference image while recreating a specific scene with an anime/chibi mural background.",
+    "promptText": "Use the separately supplied face reference image ONLY to preserve the exact facial identity of the person. Keep the face 100% identical to the face reference while matching the hairstyle, facial proportions, eyes, nose, lips, smile and overall identity perfectly.\n\nRecreate this scene as close as humanly possible with no creative changes.\n\nA {argument name=\"subject description\" default=\"young woman standing beside a colorful outdoor cartoon mural wall\"}. She is wearing a {argument name=\"outfit\" default=\"light blue oversized striped shirt over a white crop top, loose cream jogger pants, white sneakers and a matching blue shoulder bag\"}. Her left arm is raised touching the mural exactly like the reference while her right hand rests naturally inside her pocket. Her body stance, leg position, foot placement, arm angle, shoulder position, head tilt, facial expression, eye direction and overall pose must match the reference exactly.\n\nThe {argument name=\"mural background\" default=\"mural behind her is a giant cute anime/chibi illustration of the same girl sitting on a rainbow while winking\"}. The cartoon character must wear the same outfit and have the exact same hairstyle. The cartoon character's pose, hand placement, body position and expression must match the reference exactly.\n\nThe wall is filled with identical colorful doodles including rainbow, clouds, flowers, stars, paper airplanes, butterflies, smiley faces, mountains, balloons and decorative illustrations arranged exactly like the reference.\n\nSoft natural daylight, realistic outdoor lighting, vibrant pastel colors, eye-level camera, full body composition, 50mm lens, shallow depth of field, ultra detailed, photorealistic, HDR, masterpiece, premium fashion photography, 8K.\n\nABSOLUTE REQUIREMENTS:\n- Face must match the supplied face reference exactly.\n- Keep the exact same composition.\n- Keep the exact same pose.\n- Keep the exact same camera angle.\n- Keep the exact same framing.\n- Keep the exact same mural concept.\n- The cartoon illustration must copy the girl's pose exactly.\n- No additional objects.\n- No removed objects.\n- No different outfit.\n- No different expression.\n- No different perspective.\n- No redesign.\n- No artistic interpretation.\n- Recreate the reference scene as faithfully as possible while replacing only the face with the supplied face reference identity.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject description",
+        "default": "young woman standing beside a colorful outdoor cartoon mural wall"
+      },
+      {
+        "name": "outfit",
+        "default": "light blue oversized striped shirt over a white crop top, loose cream jogger pants, white sneakers and a matching blue shoulder bag"
+      },
+      {
+        "name": "mural background",
+        "default": "mural behind her is a giant cute anime/chibi illustration of the same girl sitting on a rainbow while winking"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654881107_maa71t_HOrgkqjasAAVvn6.jpg",
+        "alt": "Identity Preserving Cartoon Mural",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Aiza",
+      "url": "https://x.com/AizaAi12"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AizaAi12/status/2083724715496243703"
+    },
+    "publishedAt": "2026-08-02T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30562",
+    "contentHash": "e53ae9f8eca36cadb87c0dad7c70b992a75f2c85"
+  },
+  {
+    "id": "nano-banana-pro:30565",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30565",
+    "title": "Cyberpunk Surrealism Dali Style",
+    "category": "Social Media Post",
+    "description": "A stylistic fusion prompt combining cyberpunk aesthetics with the surrealist techniques of Salvador Dali.",
+    "promptText": "{argument name=\"style one\" default=\"Cyberpunk\"} {argument name=\"style two\" default=\"Surrealism\"} {argument name=\"artist\" default=\"Salvador Dali\"}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "style one",
+        "default": "Cyberpunk"
+      },
+      {
+        "name": "style two",
+        "default": "Surrealism"
+      },
+      {
+        "name": "artist",
+        "default": "Salvador Dali"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654884106_38fv5u_HOrJWtpbYAAR5S2.jpg",
+        "alt": "Cyberpunk Surrealism Dali Style",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "クラリネットクラリオンNOBU",
+      "url": "https://x.com/NOBU79834619"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/NOBU79834619/status/2083699176945405953"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30565",
+    "contentHash": "7a85415b14d052a16cdda8f76a5b01734b5e435b"
+  },
+  {
+    "id": "nano-banana-pro:30568",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30568",
+    "title": "Floating Schoolgirl in Dark",
+    "category": "Social Media Post",
+    "description": "A simple atmospheric prompt for a schoolgirl floating in a dark environment, highlighting character beauty.",
+    "promptText": "{argument name=\"action\" default=\"floatin'\"} in the {argument name=\"lighting\" default=\"dark\"}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "action",
+        "default": "floatin'"
+      },
+      {
+        "name": "lighting",
+        "default": "dark"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654886415_t8vibg_HOq74l3a0AAl03b.jpg",
+        "alt": "Floating Schoolgirl in Dark",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "元荒川ちゃん❤",
+      "url": "https://x.com/mtArakawa"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/mtArakawa/status/2083685009299570866"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30568",
+    "contentHash": "48b79cfabd79d0f8ca1b6ed913bc7fc034f94a97"
+  },
+  {
+    "id": "nano-banana-pro:30544",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30544",
+    "title": "Red and Gold Saree Portrait",
+    "category": "Social Media Post",
+    "description": "This prompt generates a photorealistic image of a woman in a gold sequined blouse and red satin saree, using a reference image for facial identity while changing all other stylistic elements.",
+    "promptText": "Use only the woman's facial identity from the reference image. Preserve her facial features, skin tone, eye shape, eyebrows, nose, lips, and overall facial proportions. Do not copy the hairstyle, pose, clothing, jewelry, background, lighting, or composition from the reference.\\n\\nOutfit: A {argument name=\"blouse style\" default=\"shimmering gold sequined\"} blouse paired with a {argument name=\"saree color\" default=\"rich deep-red\"} satin saree featuring elegant flowing drapes and a modern silhouette. The fabric has a luxurious satin sheen with subtle folds that catch the light naturally.\\n\\nHairstyle: {argument name=\"hair style\" default=\"Long, softly wavy dark hair\"}.\\n\\nGenerate a highly photorealistic image with natural skin texture, realistic lighting, and cinematic detail. Only the facial identity should match the reference; all other elements should follow this prompt.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "blouse style",
+        "default": "shimmering gold sequined"
+      },
+      {
+        "name": "saree color",
+        "default": "rich deep-red"
+      },
+      {
+        "name": "hair style",
+        "default": "Long, softly wavy dark hair"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654867709_m5llxh_HOqcztwaMAAkfT4.jpg",
+        "alt": "Red and Gold Saree Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654867585_s4yfx4_HOqc0NUbsAAE02X.jpg",
+        "alt": "Red and Gold Saree Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ANKIT PATEL 🇮🇳 | AI",
+      "url": "https://x.com/Ankit_patel211"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Ankit_patel211/status/2083650206424514969"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30544",
+    "contentHash": "1b5ca511b23cb0a7405e8641db3723f9371dec0a"
+  },
+  {
+    "id": "nano-banana-pro:30549",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30549",
+    "title": "Monochromatic Red Carpet Tuxedo Portrait",
+    "category": "Social Media Post",
+    "description": "A sophisticated monochromatic prompt for a red carpet event, emphasizing high-contrast lighting and facial feature retention.",
+    "promptText": "A {argument name=\"subject\" default=\"man\"} stands centrally composed in a medium shot, his body angled in a 45 degree turn with level shoulders and a balanced weight distribution, dressed sharply in a {argument name=\"outfit\" default=\"black double breasted tuxedo over a crisp white shirt and collar\"}. His hair is styled in a {argument name=\"hairstyle\" default=\"pompadour with three inches of top volume\"}, tight faded sides, and visible texture from strong hold product, complete with minor natural flyaways. His expression is candid and serious, featuring a closed neutral mouth, furrowed eyebrows, and an intense downward gaze. Caught mid motion in a tense gesture, his left hand extends forward with an exposed wrist and slightly curled fingers adorned with two rings, while his right hand firmly pinches the left shirt cuff with his thumb and index finger to adjust the sleeve. In the blurred foreground at the bottom left, the top of a woman's styled dark pulled back hair is visible, leading into a layered red carpet event setting with shallow spatial depth. Behind the man, a solid light gray carpet grounds the scene, while the deeply out of focus background reveals patchy dark gray silhouettes of a bustling crowd, worn telephoto camera lenses clustered in the top right, and the obscured legs of a bystander in the mid right. A dramatic, high contrast monochromatic black and white color palette infuses the scene with tense glamour. Highly directional hard light from multiple top front sources casts bright, preserved highlights across the man's forehead, nose bridge, and the knuckles of his adjusting hands, while casting harsh, short, deep black shadows with sharply defined edges beneath his chin, along his jawline, and deep within the folds of his tuxedo, balanced by a neutral ambient fill. Captured with straight on perspective digital photography utilizing a fast shutter speed, an open f/2.8 aperture, and ISO 400 to achieve tack sharp focus on the subject amidst minimal digital noise. The realistic, paparazzi influenced editorial style is enhanced in post processing through stark black and white conversion, crushed blacks, and high clarity, culminating in a sophisticated image framed in a 9:16 aspect ratio.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "man"
+      },
+      {
+        "name": "outfit",
+        "default": "black double breasted tuxedo over a crisp white shirt and collar"
+      },
+      {
+        "name": "hairstyle",
+        "default": "pompadour with three inches of top volume"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654872281_yitryr_HOqLfg0XQAA9fNU.jpg",
+        "alt": "Monochromatic Red Carpet Tuxedo Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Aatif J",
+      "url": "https://x.com/aatif_j"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/aatif_j/status/2083631160740196806"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30549",
+    "contentHash": "049c171599a9147d9a083fec03cf5660ada6871c"
+  },
+  {
+    "id": "nano-banana-pro:30559",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30559",
+    "title": "Botanical Rebellion Editorial Prompt",
+    "category": "Social Media Post",
+    "description": "A highly structured editorial surrealism prompt featuring a giant moss crocodile snout in a pink studio setting.",
+    "promptText": "{  \"vibe_title_en\": \"Botanical Rebellion\",  \"master_prompt\": \"The Protagonist, an editorial archetype with perfect, high-gloss dewy skin, shot in a tight-mid composition from the mid-chest up. They wear a crisp, pastel-pink tailored silk blazer, maintaining a confident posture with hands kept entirely out of frame to emphasize a striking jawline. Their expression features a challenging, direct gaze and a slight, rebellious smirk. The individual is leaning against the massive, hyper-realistic snout of a giant crocodile made entirely of dense, wet terrarium moss and blooming pink flora. This surreal element feels like a high-budget practical effect with dripping water and intricate organic weight. The setting is a sterile, matte pastel-pink seamless studio cyclorama. Lighting is a harsh, direct ring-flash style that creates intense specular highlights on the sweaty skin, combined with subtle Rembrandt directional fill to carve out facial features. Captured on a Hasselblad H6D-100c with a 70mm lens at f/5.6. Authentic Kodak Portra 400 film stock look, showcasing raw pore details and analog grain. No neon, hyper-tactile, uncanny editorial realism.\",  \"meta\": {    \"intent\": \"Editorial Surrealism\",    \"priorities\": \"Hyper-realistic moss textures, glossy skin specular highlights, strict tight-mid framing, practical effect illusion.\",    \"device_profile\": \"Hasselblad H6D-100c Medium Format\"  },  \"frame\": {    \"aspect\": \"4:5\",    \"composition\": \"The Editorial Tight-Mid (mid-chest up)\",    \"layout\": \"Subject centered, massive moss crocodile snout dominating the lower foreground and side.\",    \"camera_angle\": \"Eye-level direct\",    \"tilt_roll_degrees\": \"0\"  },  \"subject\": {    \"gender\": \"Female\",    \"identity\": \"The Protagonist, an androgynous or universal editorial model\",    \"demographics\": \"Ageless, universal\",    \"face\": \"High-gloss perfect skin, sweaty and dewy, prominent specular highlights, striking jawline\",    \"hair\": \"Slicked back, slightly damp, tightly controlled\",    \"body\": \"Confident posture, chest open, leaning slightly forward\",    \"expression\": \"Challenging direct gaze, slight rebellious smirk\",    \"pose\": \"Leaning against the surreal creature, hands completely out of frame to leave the jawline unobstructed\"  },  \"wardrobe_accessories\": {    \"garments\": [      {        \"item\": \"Tailored blazer\",        \"material\": \"Silk blend\",        \"color\": \"Pastel pink\",        \"fit\": \"Sharp, structured shoulders\"      }    ],    \"accessories\": [      {        \"item\": \"Thick-framed optical glasses\",        \"color\": \"Pastel pink\",        \"material\": \"Acetate\",        \"brand_style\": \"High-fashion avant-garde\"      }    ]  },  \"environment\": {    \"setting\": \"Matte pastel-pink seamless studio cyclorama\",    \"surfaces\": \"Wet dense terrarium moss, smooth pink paper backdrop\",    \"depth\": \"Shallow depth of field separating the hyper-detailed subject from the flat",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654877778_0rjmz8_HOp71vBWIAAfFrg.jpg",
+        "alt": "Botanical Rebellion Editorial Prompt",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654877751_iqq9ng_HOp71wTWkAAOIa-.jpg",
+        "alt": "Botanical Rebellion Editorial Prompt",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "timedoctor.eth",
+      "url": "https://x.com/timedoctor_nft"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/timedoctor_nft/status/2083613945743413744"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30559",
+    "contentHash": "0df72e73a20a0b854e88097bc6448e13e1e930da"
+  },
+  {
+    "id": "nano-banana-pro:30561",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30561",
+    "title": "East Asian Woman on Seawall",
+    "category": "Social Media Post",
+    "description": "A full-body photorealistic prompt of a young woman in casual attire sitting by the coast, emphasizing natural textures, lighting, and landscape details.",
+    "promptText": "A realistic photograph of a {argument name=\"subject\" default=\"young East Asian woman with long, straight, glossy black hair cascading over her shoulders and back\"}, sitting casually on a low white concrete seawall. She is wearing a {argument name=\"outfit\" default=\"plain white short-sleeve t-shirt, light gray denim mini shorts with frayed hems, and white New Balance sneakers with green accents\"}, black N logos, and orange details on the soles. Her legs are bent with feet resting on the grass, body slightly turned toward the camera, head tilted, eyes softly closed in a gentle, relaxed smile.\n\n{argument name=\"scenery\" default=\"Foreground shows patchy green grass and the textured white concrete barrier. Background features a rocky shoreline with dark gray stones, gentle ocean waves under an overcast cloudy sky, distant green forested hills and mountains, and large palm fronds and leafy green trees framing the upper left.\"} Soft natural daylight, slightly muted tones from the cloudy weather, photorealistic style, full-body shot from a slightly low angle, high detail, natural skin texture, sharp focus on the subject.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "young East Asian woman with long, straight, glossy black hair cascading over her shoulders and back"
+      },
+      {
+        "name": "outfit",
+        "default": "plain white short-sleeve t-shirt, light gray denim mini shorts with frayed hems, and white New Balance sneakers with green accents"
+      },
+      {
+        "name": "scenery",
+        "default": "Foreground shows patchy green grass and the textured white concrete barrier. Background features a rocky shoreline with dark gray stones, gentle ocean waves under an overcast cloudy sky, distant green forested hills and mountains, and large palm fronds and leafy green trees framing the upper left."
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654879779_vfs5ey_HOnBvhDagAAeR6k.jpg",
+        "alt": "East Asian Woman on Seawall",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654879771_0czncg_HOnBvhMb0AEec5a.jpg",
+        "alt": "East Asian Woman on Seawall",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654879750_2tlbdb_HOnBvhEaYAACOrB.jpg",
+        "alt": "East Asian Woman on Seawall",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654880863_4dypvq_HOnBvhXbcAAS4gc.jpg",
+        "alt": "East Asian Woman on Seawall",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Feyber | AI Creator",
+      "url": "https://x.com/woleswoosh"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/woleswoosh/status/2083613737282679171"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30561",
+    "contentHash": "83da03a639699263bb435d7567baf627e41ebdf2"
+  },
+  {
+    "id": "nano-banana-pro:30567",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30567",
+    "title": "Infinite Mirror World Concept",
+    "category": "Social Media Post",
+    "description": "A conceptual prompt using infinite mirrors to test the model's spatial reasoning and character placement.",
+    "promptText": "{argument name=\"theme\" default=\"world beyond the mirror2\"} with {argument name=\"object\" default=\"infinite mirror\"}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "theme",
+        "default": "world beyond the mirror2"
+      },
+      {
+        "name": "object",
+        "default": "infinite mirror"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654885673_hhipg8_HOp6TK9bYAAoApp.jpg",
+        "alt": "Infinite Mirror World Concept",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "元荒川ちゃん❤",
+      "url": "https://x.com/mtArakawa"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/mtArakawa/status/2083612377116016680"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30567",
+    "contentHash": "a07e03c65214ac377b422e817e35f38ccdf17d56"
+  },
+  {
+    "id": "nano-banana-pro:30560",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30560",
+    "title": "Stylish Man Garden Path",
+    "category": "Social Media Post",
+    "description": "A sophisticated editorial-style prompt for a man walking through a luxury garden, featuring detailed descriptions of clothing textures, accessories, and atmospheric lighting.",
+    "promptText": "A {argument name=\"subject\" default=\"stylishly dressed man\"} walks confidently forward toward the camera, his weight naturally shifted and shoulders relaxed as he steps along a {argument name=\"setting\" default=\"landscaped garden path\"}. His short hair, about one to two inches on top, is styled back with a natural-finish product, intricately detailed with natural growth patterns, slight texture variations, and minor flyaways to avoid an artificially flat look, while the sides are neatly trimmed without a deep fade. He wears a {argument name=\"clothing\" default=\"dark navy, almost black, long-sleeve quarter-zip knit sweater that contrasts sharply against his crisp, bright white tailored trousers\"} and dark leather dress shoes. His serious, candid expression features a closed, neutral mouth and relaxed eyebrows, his eyes completely obscured by dark aviator-style sunglasses catching subtle, soft reflection highlights on the lenses. His left hand is tucked cleanly into his trouser pocket so that only his wrist, bearing a silver watch, and the edge of his hand are minimally visible, while his organically relaxed right hand is raised to his ear, lightly holding a white smartphone with fingers naturally curled around its back and edges, catching a faint highlight along the top edge of the device. He is grounded in the foreground on weathered, rough-hewn rectangular light gray stone slabs set directly into medium green grass, casting short, faint, soft-edged shadows directly beneath his shoes and slightly behind the pavers. In the midground, a dense, thriving dark green manicured boxwood hedge forms a neatly squared horizontal band, punctuated on the right by two distinct, tall Italian cypress trees projecting vertically into the sky. The deep, slightly blurred background opens up to a sprawling landscape where a calm body of desaturated blue-gray water meets a sweeping, sloping mountain range faintly dotted with small white structures. The environment is bathed in cool, soft, diffused natural daylight from a single overhead overcast sky, casting a calm, moody, and sophisticated atmosphere of quiet luxury. The color profile emphasizes cool temperatures and complementary contrast, juxtaposing the stark black and white of the man's attire against the muted pine greens of the foliage and the desaturated background. Captured straight on at eye level as a highly photorealistic digital photograph using an 85mm lens with a fast aperture, the cinematic editorial shot features tack-sharp focus on the subject with a medium depth of field resolving into soft background bokeh, finished with subtle digital noise, slightly lowered exposure, and crisp cool tones, all beautifully framed in a 4:5 aspect ratio.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "stylishly dressed man"
+      },
+      {
+        "name": "setting",
+        "default": "landscaped garden path"
+      },
+      {
+        "name": "clothing",
+        "default": "dark navy, almost black, long-sleeve quarter-zip knit sweater that contrasts sharply against his crisp, bright white tailored trousers"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654880255_5m23vy_HNgQnCAXUAAvBWu.jpg",
+        "alt": "Stylish Man Garden Path",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Picts by AI",
+      "url": "https://x.com/pictsbyai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/pictsbyai/status/2083594859399508456"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30560",
+    "contentHash": "75d2a56d8b695503710679e10b5fcfe0a7e6e5f6"
+  },
+  {
+    "id": "nano-banana-pro:30548",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30548",
+    "title": "Barbie Boutique Fashion Portrait",
+    "category": "Social Media Post",
+    "description": "A photorealistic prompt for a fashion photoshoot featuring a blonde woman and a 3D Barbie doll in a pink-themed boutique.",
+    "promptText": "Photorealistic full-body portrait of a {argument name=\"subject\" default=\"smiling young blonde girl\"} standing inside a {argument name=\"setting\" default=\"stylish Barbie-themed fashion boutique\"}. She is wearing an {argument name=\"outfit\" default=\"oversized soft pastel-yellow hoodie with a large white collegiate-style 'California' university logo\"} across the chest, layered over a crisp white collared shirt with the collar visible above the neckline, paired with a short white pleated tennis-style mini skirt. She wears high white Nike crew socks with a small black swoosh logo and clean white Nike Air Force 1 sneakers. She stands in a playful pose with one leg bent behind her while gently placing one arm around the shoulder of a life-sized 3D Barbie doll. She has long wavy blonde hair, natural makeup, a cheerful, slightly playful smile, and looks directly into the camera. Beside her stands a life-sized 3D Barbie doll with long blonde hair, wearing a sleeveless pastel pink skater dress, pink high heels, and standing on a round pink display pedestal. The background features a vibrant Barbie fashion store with a glowing pink neon \"Barbie\" sign, a vintage pink bicycle, clusters of pink, white, and blush balloons, and a luxurious pink interior. In the foreground on the right is an open wardrobe displaying neatly hung pink sweaters and clothing in multiple shades of pink with shelves of matching shoes below. Style: Hyper-realistic photography blended seamlessly with a premium 3D Barbie render, cinematic studio lighting, soft diffused illumination, vibrant pastel colors, shallow depth of field, razor-sharp focus on the girl and Barbie doll, luxurious fashion editorial aesthetic, ultra-detailed textures, professional studio photoshoot, HDR, 8K, vertical composition, 3:4 aspect ratio.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "smiling young blonde girl"
+      },
+      {
+        "name": "setting",
+        "default": "stylish Barbie-themed fashion boutique"
+      },
+      {
+        "name": "outfit",
+        "default": "oversized soft pastel-yellow hoodie with a large white collegiate-style 'California' university logo"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654871641_r696ux_HOpkNTLbQAAssk-.jpg",
+        "alt": "Barbie Boutique Fashion Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Anissa",
+      "url": "https://x.com/SimplyAnnisa"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/SimplyAnnisa/status/2083587973644251360"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30548",
+    "contentHash": "7576c5cbbcbe002c9161a90d175dcda530718b99"
+  },
+  {
+    "id": "nano-banana-pro:30547",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30547",
+    "title": "Avant-Garde Botanical Alchemist Portrait",
+    "category": "Social Media Post",
+    "description": "A complex structured prompt for a high-fashion portrait featuring intricate organic skeletal leaves and sculptural headpieces in a dark archive.",
+    "promptText": "{\"vibe_title_en\": \"The Amber Spiral\", \"master_prompt\": \"A hyper-realistic, medium-format portrait of The Protagonist staring directly into the lens with a piercing, ethereal gaze. They are wearing an impossible, avant-garde sculptural headpiece and neck-wrap made entirely of layered, translucent skeletal leaves, organic amber mesh, and spiraling ribbed plant veins, twisting in a perfect golden-ratio spiral around their head. The setting is a pitch-dark, densely cluttered, chaotic botanical alchemist's archive. Behind them, barely visible in the deep shadows, are towering, chaotic stacks of dried flora, amber specimens, and hanging papery seed pods creating a textured, busy void. Cinematic lighting: high-contrast chiaroscuro, with a single, soft golden Rembrandt key light illuminating the intricate micro-details of the leaf veins and the natural pores of the subject's skin. Shot on Hasselblad H6D-100c, 100mm f/2.2 lens, focusing razor-sharp on the eyes and the front of the leaf-sculpture, while the densely packed background falls off into a rich, dark, bokeh-filled abyss. Authentic film grain, Kodak Portra 160 color science, deep ochre and golden-yellow palette against pure black. NO NEON.\", \"meta\": {\"intent\": \"Create an avant-garde, surreal editorial portrait blending high-fashion practical effects with organic botany in a deeply shadowed environment.\", \"priorities\": \"Skin texture, intricate structural leaf/mesh details, chiaroscuro lighting, and a dense but deeply shadowed background.\", \"device_profile\": \"Medium Format Digital\"}, \"frame\": {\"aspect\": \"Portrait\", \"composition\": \"Symmetrical, center-framed bust portrait.\", \"layout\": \"The subject dominates the center, wrapped tightly in the spiraling structure, with a dense, shadowy botanical archive filling the extreme edges.\", \"camera_angle\": \"Eye-level, straight-on.\", \"tilt_roll_degrees\": \"0\"}, \"subject\": {\"gender\": \"Female\", \"identity\": \"The Protagonist\", \"demographics\": \"Ageless, androgynous, universal features.\", \"face\": \"Symmetrical, hyper-detailed skin pores, flawless but natural, subtle moisture on the lips.\", \"hair\": \"Completely concealed by the organic spiraling headpiece.\", \"body\": \"Shoulders and neck completely engulfed by the sculptural leaf structure.\", \"expression\": \"Stoic, ethereal, intense, unblinking gaze.\", \"pose\": \"Perfectly still, facing directly forward into the lens.\"}, \"wardrobe_accessories\": {\"garments\": [{\"item\": \"Avant-garde spiraling headpiece and neck-wrap\", \"material\": \"Translucent skeletal leaves, organic ribbed plant veins, microscopic amber mesh\", \"color\": \"Golden-yellow, ochre, translucent amber\", \"fit\": \"Architectural, sculptural, wrapping tightly around the neck and expanding outward\"}], \"accessories\": [{\"item\": \"Microscopic ambient floating dust motes mimicking pollen\", \"color\": \"Gold\", \"material\": \"Organic dust\", \"brand_style\": \"Macro practical effect\"}]}, \"environment\": {\"setting\": \"A pitch-dark, deeply cluttered botanical alchemist's archive.\", \"surfaces\": \"Dried flora, brittle papery leaves, glass amber vials hidden in shadow.\", \"depth\": \"Deep, shadowy depth of field. The background is densely packed but falls into absolute darkness.\", \"atmosphere\": \"Dusty, dry, ancient, silent. Heavy shadow.\", \"lens_interaction\": \"Soft bokeh on the chaotic background elements, sharp micro-contrast on the foreground leaf veins.\"}, \"lighting\": {\"key\": \"Soft, directional golden key light (Rembrandt style) from slightly above and to the right.\", \"fill\": \"Barely-there bounce light to retain faint detail in the darkest shadows of the headpiece.\", \"rim\": \"Subtle amber rim light separating the subject from the busy dark background.\", \"shadows\": \"Deep, rich, crushing blacks. High-contrast chiaroscuro.\", \"color_temperature\": \"Warm, 3200K.\", \"sensor_flare\": \"None. Clean optical rendering.\"}, \"camera\": {\"lens_type\": \"Prime portrait lens.\", \"focal_length\": \"100mm\", \"aperture\": \"f/2.2\", \"focus\": \"Razor-sharp on the subject's irises and the immediate edge of the leaf sculpture.\", \"sensor_format\": \"Medium Format\", \"perspective_distortion\": \"Subtle compression from the telephoto lens, flattening the spiral slightly.\"}, \"post_processing\": {\"color\": \"Rich ochres, golden-yellows, amber, pure blacks.\", \"tonality\": \"High contrast, deep shadows, preserved highlights.\", \"texture\": \"Authentic Kodak Portra 160 film grain, tactile micro-contrast on skin and leaves.\", \"digital_sharpening\": \"None. Natural medium format sharpness.\", \"chromatic_aberration\": \"Extremely subtle on the extreme outer edges of the frame.\"}, \"negative_specifications\": [\"Neon\", \"Cyberpunk\", \"Digital painting\", \"3D render\", \"Illustration\", \"Smooth plastic skin\", \"Empty minimalist background\", \"Bright white background\", \"Casual clothing\"]}",
+    "promptFormat": "json",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654870634_2jbtwz_HOo2wuEWEAAKMy9.jpg",
+        "alt": "Avant-Garde Botanical Alchemist Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654870695_quxp66_HOo2wnaXcAA-JCq.jpg",
+        "alt": "Avant-Garde Botanical Alchemist Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654870669_aczure_HOo2wsLWUAAH2zA.jpg",
+        "alt": "Avant-Garde Botanical Alchemist Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654871455_a1gdt5_HOo2wo3XsAACeOk.jpg",
+        "alt": "Avant-Garde Botanical Alchemist Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "timedoctor.eth",
+      "url": "https://x.com/timedoctor_nft"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/timedoctor_nft/status/2083537991432090078"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30547",
+    "contentHash": "7cc36552df8885b6915d98c5fda991bb7cda8256"
+  },
+  {
+    "id": "nano-banana-pro:30563",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "30563",
+    "title": "Ergonomic Office Chair E-commerce Mobile Detail Page",
+    "category": "Infographic / Edu Visual",
+    "description": "A comprehensive prompt for generating a mobile-optimized e-commerce product page for an ergonomic office chair. It includes multiple angles, structural callouts, and usage scenarios with a clean, blueprint-inspired aesthetic.",
+    "promptText": "A single, continuous, and complete mobile e-commerce detail page for an ergonomic office chair, with an aspect ratio of {argument name=\"aspect ratio\" default=\"3:7\"}. The product is the \"{argument name=\"product name\" default=\"Axis M3 Ergonomic Chair\"}\" concept model, featuring a dark graphite grey mesh back, black frame, silver-grey five-star base, visible headrest, armrests, seat cushion, and lumbar support, maintaining structural consistency across all perspectives. The overall design uses a vertical grid system combining architectural blueprints with modern office spaces, featuring {argument name=\"color scheme\" default=\"paper white, graphite grey, steel blue, and subtle orange\"} annotations, clear narrow sans-serif, and monospace parameter fonts. The first screen shows the identity of the product with a 3/4 angle view; followed by front, side, back, and top-down auxiliary angles; using human sitting postures and desk relationships to show scale without inferring specific height suitability ranges; labeling headrest, backrest, armrests, seat cushion, lumbar support, and chair feet by outline without providing internal exploded structures; showcasing office, reading, and brief rest scenarios; the evidence section only shows structural descriptions and sources provided by the user, with missing items marked \"information to be confirmed\"; the parameter section includes full chair dimensions, seat height range, load capacity, materials, and adjustment items, with unknown values not guessed; the packaging section shows the chair body, confirmed accessories, installation instructions, and care information, with missing accessories marked \"information to be confirmed\"; and ends with a summary of confirmed structures and a \"view dimensions and installation instructions\" note. Every parameter unit, dimension line, and information card must be fully filled out. Fictional ergonomic certifications, load-bearing values, adjustment levels, health improvements, patents, or test results are prohibited.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "aspect ratio",
+        "default": "3:7"
+      },
+      {
+        "name": "product name",
+        "default": "Axis M3 Ergonomic Chair"
+      },
+      {
+        "name": "color scheme",
+        "default": "paper white, graphite grey, steel blue, and subtle orange"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785654882513_3vc9ml_HOrtQQ_bAAAeu64.jpg",
+        "alt": "Ergonomic Office Chair E-commerce Mobile Detail Page",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Mr.pinecone",
+      "url": "https://x.com/Mrpinecone888"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Mrpinecone888/status/2083738681949802588"
+    },
+    "publishedAt": "2026-08-02T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30563",
+    "contentHash": "3706d9b0a3eef60f3a6cd46a889e20ffab6016e8"
+  },
+  {
     "id": "nano-banana-pro:30347",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
@@ -6328,973 +7281,5 @@
     "publishedAt": "2026-07-26T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29764",
     "contentHash": "4037ce80faaa8632d8e9692a42878db7c6863fd2"
-  },
-  {
-    "id": "nano-banana-pro:29745",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29745",
-    "title": "Japanese Street Fashion Photography",
-    "category": "Profile / Avatar",
-    "description": "A highly detailed prompt for capturing an amateur realism urban fashion shot of a young Japanese woman in a leather blazer against a brutalist wall.",
-    "promptText": "Amateur realism photography, candid urban moment, natural and spontaneous feel, shot on Canon EOS R5 with 35mm lens, natural available light, subtle motion blur on hair, realistic skin texture, film grain, photorealistic, highly detailed, 8k.  \n\nA stunningly beautiful {argument name=\"subject\" default=\"young Japanese woman\"} in her {argument name=\"age\" default=\"early 20s\"}, flawless porcelain-smooth skin with soft milky almost translucent Japanese \"lokum\" texture, extremely smooth poreless velvety skin, subtle natural blush on cheeks, perfect fair Japanese skin tone with delicate pink undertones, luminous radiant masterpiece skin details.  \n\nLong flowing black hair with gentle waves, some strands moving in the wind. Delicate natural makeup, big expressive doe-like eyes with soft genuine gaze, gentle real smile.  \n\nWearing a full monochrome look: {argument name=\"outfit\" default=\"oversized black leather blazer\"} with silver buttons, white ribbed tank top, high-waisted black tailored shorts, black sheer tights, chunky black combat boots with silver details, multiple thin silver necklaces. ITOUCH branding subtly on blazer lapel and boot strap.  \n\nPose: Leaning against a brutalist concrete wall, legs crossed, arms folded loosely, strong direct gaze at camera, powerful yet feminine stance.  \n\nCool neutral tones with strong shadows and highlights, minimalist modern mood, dramatic urban lighting, amateur realism, 8k, masterpiece.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "young Japanese woman"
-      },
-      {
-        "name": "age",
-        "default": "early 20s"
-      },
-      {
-        "name": "outfit",
-        "default": "oversized black leather blazer"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050317579_20gt1o_HOGHV9aWMAAYyyp.jpg",
-        "alt": "Japanese Street Fashion Photography",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050316081_6k1bqc_HOGHXPZXgAEJBM6.jpg",
-        "alt": "Japanese Street Fashion Photography",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050317379_tfzy4l_HOGHVq0XYAAsf6H.jpg",
-        "alt": "Japanese Street Fashion Photography",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050316863_99u5fe_HOGHXPLXcAETLEb.jpg",
-        "alt": "Japanese Street Fashion Photography",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Aytaç Altıntepe",
-      "url": "https://x.com/aytacaltintepe"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/aytacaltintepe/status/2081093345498087598"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29745",
-    "contentHash": "95a7b66be7a1d565fca8f3258e621f59b88e6981"
-  },
-  {
-    "id": "nano-banana-pro:29767",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29767",
-    "title": "Sahara Desert Cinematic Portrait Prompt",
-    "category": "Profile / Avatar",
-    "description": "A detailed prompt for generating a cinematic desert portrait featuring a man in linen clothing walking through sand dunes, designed for face-swap or image-to-image workflows.",
-    "promptText": "A weathered {argument name=\"subject description\" default=\"late-20s man\"}. Clothing: Flowing cream-colored linen tunic, wide-leg loose-fitting desert trousers in a sandy hue, draped pashmina scarf. Footwear: Distressed leather open-toe sandals. Accessories: Silver cuff bracelets, leather satchel worn across the body, dark square-frame sunglasses. Pose: Walking away from the camera, looking back over his shoulder towards a vast landscape. Camera Setup: Nikon Z9, 70-200mm lens (shot at 150mm), f/4.0. Angle of Capture: Full body, wide shot, slightly elevated to capture the environment. Setting: {argument name=\"setting\" default=\"Endless sand dunes\"} under a clear blue sky. Lighting/Mood/Time of Day: {argument name=\"lighting\" default=\"Harsh, direct mid-day sun\"}, creating strong shadows, epic and mysterious mood. Style and Finish: Cinematic landscape portrait, extreme depth-of-field, warm desert color palette, high detail on sand texture.\nKEEP FACE FEATURES IDENTICAL FROM ATTACHED PHOTO\nNegative Prompt : Modern buildings, lush vegetation, blur, bad anatomy, extra limbs, poor quality, noisy, out of focus, duplicate elements, weird textures, digital, beige turtleneck.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject description",
-        "default": "late-20s man"
-      },
-      {
-        "name": "setting",
-        "default": "Endless sand dunes"
-      },
-      {
-        "name": "lighting",
-        "default": "Harsh, direct mid-day sun"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050330799_7drsyc_HOF1EAMW8AABzaT.jpg",
-        "alt": "Sahara Desert Cinematic Portrait Prompt",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050331489_gfbfnc_HOF1EAaW0AAOtUS.jpg",
-        "alt": "Sahara Desert Cinematic Portrait Prompt",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Alex Prompts",
-      "url": "https://x.com/AlexPromptsAI"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AlexPromptsAI/status/2081073370783682633"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29767",
-    "contentHash": "22e23637c733c10a4a00d875611e6a87bf05f6b7"
-  },
-  {
-    "id": "nano-banana-pro:29759",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29759",
-    "title": "Realistic iPhone Selfie Portrait with Glass Skin",
-    "category": "Profile / Avatar",
-    "description": "A highly detailed prompt for creating ultra-realistic 8K portraits with specific focus on skin texture, lighting, and facial features. It mimics the quality of a high-end smartphone camera selfie while maintaining consistent facial identity.",
-    "promptText": "Maintain the original facial features exactly as they are, preserving the natural 100% facial identity and perfectly balanced proportions. The appearance should be youthful and feminine, using the exact same face from “Image 1.” The skin should look radiant, luminous, and healthy with a soft pearlescent glow, featuring naturally detailed texture that creates a realistic dewy glass skin effect without looking plastic or artificial. {argument name=\"eye color\" default=\"Large dark brown eyes\"} should have bright, natural catchlights, complemented by thick black eyelashes curled upward, softly arched eyebrows that are natural and not overly dark, a fresh rosy blush blended delicately across the cheeks, a subtle pink tint on the tip of the nose, and soft gradient pink lips with a light glossy finish. Makeup should be seamlessly blended into the skin with no patchiness or harsh lines. The body should appear proportionate with very fair, smooth, glowing skin. The hair should be a {argument name=\"hair color\" default=\"light milk-tea brown colour\"}, tied back with an ivory-white hair tie visible at the back of the head, with loose strands and soft baby hairs naturally framing the forehead and face. The character has multiple piercings in the right ear (left side of the image), including the earlobe and upper helix, wearing small diamond or crystal earrings shaped like stars and flowers. Around the neck is a delicate gold or rose gold necklace with a white \"{argument name=\"pendant shape\" default=\"Z\"}\"-shaped pendant surrounded by a gold frame. The setting is inside a car, with a grey fabric or synthetic seatback visible behind the subject and a black seatbelt crossing the lower-right corner of the frame, reinforcing the confined interior space. The subject is centred in the composition, filling most of the frame while taking a selfie with her head noticeably tilted toward the right side of the image (left from the subject’s perspective), looking directly into the camera with a confident, captivating gaze. She wears a white collared shirt with the top buttons left open, revealing the neck, collarbones, and upper chest. Natural sunlight streams through the front of the car, creating strong, direct hard lighting that highlights the glow of the face, eyes, and hair, with the light likely reflected by the hand or smartphone holding the camera. The image is captured as an extreme close-up selfie using a Dutch angle that matches the head tilt, with the camera positioned at eye level or slightly above and angled downward. The composition focuses almost entirely on the face, neck, and upper chest, leaving very little of the surrounding environment visible to emphasise the skin texture, lighting, shadows, and expressive eyes. The image should have a 9:16 aspect ratio, ultra-high 8K resolution, and the realistic quality of a photo taken with the latest iPhone. Negative Prompt: low quality, worst quality (1.4), bad anatomy, deformed, ugly appearance, crossed eyes, extra limbs, missing limbs, fused fingers, extra fingers, watermark, text, signature, illustr",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "eye color",
-        "default": "Large dark brown eyes"
-      },
-      {
-        "name": "hair color",
-        "default": "light milk-tea brown colour"
-      },
-      {
-        "name": "pendant shape",
-        "default": "Z"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050326728_mezdem_HOEoshmaYAAhQ8B.jpg",
-        "alt": "Realistic iPhone Selfie Portrait with Glass Skin",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050326865_tdi5pp_HOEot9FbkAA6lnk.jpg",
-        "alt": "Realistic iPhone Selfie Portrait with Glass Skin",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050326766_zw5i68_HOEov5tbcAA6fij.jpg",
-        "alt": "Realistic iPhone Selfie Portrait with Glass Skin",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Simply Ray",
-      "url": "https://x.com/kingofdairyque"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/kingofdairyque/status/2080989326557487445"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29759",
-    "contentHash": "352440a4e21ea0d611294fb71b56e4cebdf5c068"
-  },
-  {
-    "id": "nano-banana-pro:29753",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29753",
-    "title": "Luxury Skyscraper Penthouse Portrait",
-    "category": "Profile / Avatar",
-    "description": "A highly detailed prompt for generating a photorealistic portrait of a man in a luxury skyscraper penthouse above the clouds, emphasizing facial identity and premium architectural details.",
-    "promptText": "Ultra-photorealistic 8K RAW DSLR portrait of the {argument name=\"subject\" default=\"exact same man from the reference image\"} — preserve his face with near-perfect identity, facial proportions, skin tone, hairstyle, beard, and natural expression. He is standing confidently inside an ultra-luxurious modern glass penthouse perched atop one of the world's tallest skyscrapers, positioned high above a vast sea of soft white clouds. The atmosphere feels exclusive, peaceful, and impossibly elegant. The penthouse features floor-to-ceiling crystal-clear glass walls with invisible frameless panels, polished Italian white marble flooring with subtle natural veining, warm walnut wood accents, brushed champagne-gold architectural details, and minimalist designer furniture crafted from leather and natural stone. A grand floating staircase, sculptural lighting fixtures, indoor olive trees, curated contemporary artwork, and an elegant black grand piano add refined sophistication without distracting from the subject. Behind him, an awe-inspiring sunrise bathes the skyline in rich golden-hour light. Hundreds of glass skyscrapers stretch toward the horizon, their reflective facades glowing with warm amber, soft orange, and pale pink hues. Thick clouds drift far below the building, creating the illusion that the penthouse floats above the world. The distant city gradually disappears into atmospheric haze, enhancing the immense scale and realism. He wears an {argument name=\"outfit\" default=\"impeccably tailored luxury charcoal double-breasted suit\"} with subtle textured fabric, a crisp white dress shirt with the top button undone, premium leather loafers, and an elegant mechanical wristwatch. His posture is relaxed yet powerful—one hand casually in his pocket while the other lightly rests against the glass wall, looking toward the sunrise with quiet confidence. His clothing reacts naturally to a gentle breeze from an open terrace. Natural sunlight pours through the glass, producing physically accurate global illumination, realistic soft shadows, subtle reflections on the polished floor, and lifelike highlights across his face. His skin shows authentic pores, fine facial hair, natural imperfections, realistic subsurface scattering, and balanced tonal transitions. Every material—glass, marble, leather, brushed metal, wood, and fabric—exhibits true-to-life textures and physically accurate reflections. Captured with a full-frame professional DSLR using an 85mm f/1.4 prime lens, shallow depth of field, HDR imaging, cinematic composition, razor-sharp focus on the face, realistic optical bokeh, high dynamic range, volumetric sunlight, atmospheric perspective, perfectly balanced exposure, editorial luxury fashion photography aesthetic, architectural photography quality, National Geographic-level realism, premium real-estate visualization quality, natural color grading, hyper-detailed, masterpiece, visually breathtaking.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "exact same man from the reference image"
-      },
-      {
-        "name": "outfit",
-        "default": "impeccably tailored luxury charcoal double-breasted suit"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050323836_v36pgj_HOEe7qXaIAEJ-x6.jpg",
-        "alt": "Luxury Skyscraper Penthouse Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "WeWant Mars",
-      "url": "https://x.com/Madhuribhai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Madhuribhai/status/2080978526711243002"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29753",
-    "contentHash": "66890549ed6199d2fc401c4dc99b90068c9b3fb1"
-  },
-  {
-    "id": "nano-banana-pro:29765",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29765",
-    "title": "Black and White Fashion Portrait",
-    "category": "Profile / Avatar",
-    "description": "A detailed prompt for a black and white fashion portrait featuring a woman in a pinstripe blazer, emphasizing studio lighting and composition.",
-    "promptText": "ultra-detailed black and white fashion portrait of a woman posing in a studio. Camera angle: medium portrait shot captured from slightly above eye level, framing the subject from chest upward. Pose: the woman tilts her head slightly back and to the side while her shoulders turn subtly away from the camera. Her gaze is directed toward the viewer through her glasses with a confident composed expression. Outfit: {argument name=\"outfit\" default=\"structured black pinstripe blazer with thin vertical white lines layered over a black fitted top with a low neckline\"}. Accessories: {argument name=\"accessories\" default=\"sleek rectangular eyeglasses with dark frames and small round stud earrings\"}. Hair: {argument name=\"hair style\" default=\"long voluminous hair styled in loose waves cascading over the shoulders\"}. Environment: minimal studio background with smooth neutral tones enhancing the monochrome editorial aesthetic. Lighting: classic studio portrait lighting creating soft highlights on the hair and face while maintaining deep contrast typical of black and white fashion photography",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "outfit",
-        "default": "structured black pinstripe blazer with thin vertical white lines layered over a black fitted top with a low neckline"
-      },
-      {
-        "name": "accessories",
-        "default": "sleek rectangular eyeglasses with dark frames and small round stud earrings"
-      },
-      {
-        "name": "hair style",
-        "default": "long voluminous hair styled in loose waves cascading over the shoulders"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050330940_7tbvsq_HN-M5xhbwAAQ2FP.jpg",
-        "alt": "Black and White Fashion Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "dreamy digital arts",
-      "url": "https://x.com/dreamydigiarts"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/dreamydigiarts/status/2080971325925953560"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29765",
-    "contentHash": "46944c67714859f0cf26019e4c755f40dac8daae"
-  },
-  {
-    "id": "nano-banana-pro:29761",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29761",
-    "title": "Summer Beach Guitarist Portrait",
-    "category": "Profile / Avatar",
-    "description": "A high-quality travel photography prompt designed to generate a relaxed summer scene featuring a person playing guitar on a tropical beach, with specific settings for vibrant colors and facial consistency.",
-    "promptText": "Subject: A late-20s {argument name=\"gender\" default=\"man\"}. Clothing: Loose, open-collared Hawaiian shirt with a {argument name=\"shirt pattern\" default=\"vibrant tropical print\"}, faded denim shorts. Footwear: Barefoot in the sand. Accessories: Acoustic guitar, dreadlock beads (optional to exclude), shell necklace. Pose: Sitting on a beach towel under a palm tree, strumming his guitar, smiling. Camera Setup: Canon EOS R6, 28mm lens, f/2.8. Angle of Capture: Medium wide shot, eye-level. Setting: {argument name=\"location\" default=\"Tropical beach with calm turquoise water and swaying palm trees\"}. Lighting/Mood/Time of Day: Bright, clear mid-day sun, happy and relaxed mood. Style and Finish: Vibrant, colorful travel photography, high saturation, clear detail on water and sand.\nKEEP FACE FEATURES IDENTICAL FROM ATTACHED PHOTO\nNegative Prompt : Winter clothes, formal attire, blur, bad anatomy, extra limbs, poor quality, noisy, out of focus, duplicate elements, weird textures, digital, beige turtleneck.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "gender",
-        "default": "man"
-      },
-      {
-        "name": "shirt pattern",
-        "default": "vibrant tropical print"
-      },
-      {
-        "name": "location",
-        "default": "Tropical beach with calm turquoise water and swaying palm trees"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050328822_e220rh_HODvt4fWAAAe-ja.jpg",
-        "alt": "Summer Beach Guitarist Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Alex Prompts",
-      "url": "https://x.com/AlexPromptsAI"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AlexPromptsAI/status/2080926972775915859"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29761",
-    "contentHash": "f08dad3932836c1ee4f2c9c91f1d4e6a97ea91d5"
-  },
-  {
-    "id": "nano-banana-pro:29755",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29755",
-    "title": "Elegant European Street Portrait",
-    "category": "Profile / Avatar",
-    "description": "A detailed prompt for a luxury fashion editorial style portrait on a European street, focusing on specific poses, tailoring, and urban atmosphere.",
-    "promptText": "I am standing confidently on a {argument name=\"location\" default=\"quiet European city street\"} with my exact face and identity preserved with pixel-perfect accuracy. The atmosphere is elegant, timeless, and cinematic, inspired by luxury fashion editorials. I am standing in a relaxed, masculine pose with my torso turned slightly about 20 degrees to the left. My shoulders are broad but relaxed, creating a natural, confident posture. My left arm is bent with my left hand resting firmly on my left hip, fingers naturally curved and the elbow pointing outward. My right arm is positioned behind my lower back with the hand resting casually behind my waist, creating an asymmetrical, effortless pose. My chest is open, posture upright, and my weight is shifted mostly onto one leg while the other leg remains relaxed. My head is turned approximately 45 degrees toward the left side of the frame as I look confidently into the distance. rather than at the camera. My facial expression is calm, composed, and… I am wearing {argument name=\"outfit\" default=\"high-waisted black tailored trousers with a clean front, soft pleats, and a relaxed straight-leg silhouette\"}. A classic black leather belt with a polished silver rectangular buckle is visible around my waist. The monochromatic combination of black trousers and the ivory knit polo creates a timeless old-money fashion aesthetic. I am wearing classic black rectangular sunglasses with dark lenses and a refined minimalist frame. I am not wearing necklaces, bracelets, rings, hats, or additional accessories. The background features an elegant European street with historic stone buildings, large windows, architectural details, street signs, and industrial metal structures softly fading into the distance. Everything behind me remains naturally blurred with realistic depth of field while preserving the recognizable urban atmosphere. The image has a luxurious editorial feel with clean composition and timeless architecture. Lighting is soft natural daylight with gentle diffused contrast, producing flattering shadows across my face and clothing. The overall mood is sophisticated, relaxed, and cinematic. Camera angle: eye-level, vertical composition (4:5). Lens: 85mm portrait lens. Medium portrait framing from approximately mid-thigh upward. Very shallow depth of field with smooth background bokeh. Ultra-realistic luxury fashion editorial photography, RAW image, natural skin texture, highly detailed knit fabric, photorealistic lighting, premium magazine aesthetic, no HDR, no excessive sharpening, no color grading, natural contrast, ultra-detailed, realistic proportions.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "location",
-        "default": "quiet European city street"
-      },
-      {
-        "name": "outfit",
-        "default": "high-waisted black tailored trousers with a clean front, soft pleats, and a relaxed straight-leg silhouette"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050324780_6jmze6_HODM-CcbUAA3kuz.jpg",
-        "alt": "Elegant European Street Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Weinberg",
-      "url": "https://x.com/weiinberg"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/weiinberg/status/2080888406520033699"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29755",
-    "contentHash": "f8ffe1a7b1b34c11b8b67f68c8cc2e9e565a0ba6"
-  },
-  {
-    "id": "nano-banana-pro:29762",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29762",
-    "title": "Candid Luxury Ferris Wheel Portrait",
-    "category": "Profile / Avatar",
-    "description": "This prompt generates an ultra-photorealistic, candid image of a woman in luxury streetwear inside a modern Ferris wheel capsule, capturing a peaceful, spontaneous moment with a futuristic city background.",
-    "promptText": "Use the same {argument name=\"subject\" default=\"Korean female\"} from the reference image. Preserve her facial identity exactly.\n\nAspect Ratio: 3:4\n\nUltra-photorealistic candid {argument name=\"camera\" default=\"iPhone 16 Pro\"} photo captured inside a {argument name=\"setting\" default=\"modern luxury Ferris wheel capsule\"} during blue hour. The capsule features floor-to-ceiling curved crystal-clear glass, brushed champagne-gold metal frames, soft hidden ambient LED strips integrated into the architecture, and breathtaking panoramic views of a glittering futuristic skyline far below. Tiny realistic reflections naturally appear on the curved glass, enhancing realism without obscuring the subject.\n\nShe stands casually beside the curved window with one hand lightly resting on the glass while quietly admiring the city outside, completely unaware of the camera. Her posture feels relaxed, effortless, and naturally elegant, like an off-duty Korean actress enjoying a peaceful evening. The moment feels spontaneous rather than posed.\n\nOutfit:\nModern Korean Gen Z luxury streetwear. Oversized premium heavyweight washed charcoal",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "Korean female"
-      },
-      {
-        "name": "camera",
-        "default": "iPhone 16 Pro"
-      },
-      {
-        "name": "setting",
-        "default": "modern luxury Ferris wheel capsule"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050329052_4p1cvx_HOCycKzbgAA-Nzx.jpg",
-        "alt": "Candid Luxury Ferris Wheel Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "lovimg_com",
-      "url": "https://x.com/lovimg_com"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/lovimg_com/status/2080859233571258474"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29762",
-    "contentHash": "a883161163ffab8941d11b53a598fe02bcf06445"
-  },
-  {
-    "id": "nano-banana-pro:29750",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29750",
-    "title": "Vintage Coquette Beauty Portrait",
-    "category": "Profile / Avatar",
-    "description": "A beauty portrait prompt focusing on a vintage coquette aesthetic, designed to maintain facial identity from a reference image while adding romantic styling.",
-    "promptText": "use the attached image as the main facial reference while preserving recognizable identity, natural facial proportions, facial harmony, realistic skin texture, visible pores, and natural asymmetry. Create a premium close-up studio beauty portrait with the locked dreamy vintage coquette rendering. The subject is photographed in a softly angled three-quarter composition with the shoulders gently turned while the face remains almost square to the camera. Her expression is calm, elegant, and quietly confident with naturally relaxed half-lidded eyes, softly parted lips, and a refined elongated neck. The composition remains intimate and face-dominant with elegant negative space above the head. Her {argument name=\"hair color\" default=\"ash chocolate-brown\"} hair is styled into a {argument name=\"hairstyle\" default=\"soft romantic French twist inspired updo\"} with airy crown volume, naturally separated strands, wispy face-framing tendrils around the temples and jawline, delicate baby hairs, and realistic strand separation. The hairstyle feels effortless, lightweight, and soft…",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "ash chocolate-brown"
-      },
-      {
-        "name": "hairstyle",
-        "default": "soft romantic French twist inspired updo"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050321874_c80y43_HOCyEw3aoAAAis6.jpg",
-        "alt": "Vintage Coquette Beauty Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "lovimg_com",
-      "url": "https://x.com/lovimg_com"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/lovimg_com/status/2080858834093138403"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29750",
-    "contentHash": "c613ca3b123d510e6aa7f123ad66a906d8c5b9d1"
-  },
-  {
-    "id": "nano-banana-pro:29662",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29662",
-    "title": "Indoor Lifestyle Portrait Photography",
-    "category": "Profile / Avatar",
-    "description": "A structured JSON prompt for generating an indoor lifestyle portrait with specific framing and composition settings.",
-    "promptText": "{ \"image_type\": \"{argument name=\"image type\" default=\"photograph\"}\", \"genre\": \"{argument name=\"genre\" default=\"indoor lifestyle portrait\"}\", \"composition\": { \"framing\": \"{argument name=\"framing\" default=\"medium close-up\"}\", \"orientation\": \"vertical\", \"subject_position\": \"center-right, seated at a table\"",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "image type",
-        "default": "photograph"
-      },
-      {
-        "name": "genre",
-        "default": "indoor lifestyle portrait"
-      },
-      {
-        "name": "framing",
-        "default": "medium close-up"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050332785_0ncnvc_HAw_CxvbQAAgbXM.jpg",
-        "alt": "Indoor Lifestyle Portrait Photography",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "なぁさん｜AI",
-      "url": "https://x.com/nasan_0422"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/nasan_0422/status/2080850533959803123"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29662",
-    "contentHash": "236b4217116e981072d0a6a291ed9e8e0cd024c6"
-  },
-  {
-    "id": "nano-banana-pro:29749",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29749",
-    "title": "Opulent Velvet Interior Portrait",
-    "category": "Social Media Post",
-    "description": "A prompt for an opulent late-night fashion portrait set in a dark wood and velvet interior, emphasizing intimate lighting and sculptural poise.",
-    "promptText": "A {argument name=\"setting\" default=\"private interior space\"} draped in dark wood paneling and deep purple-magenta velvet breathes an atmosphere of late-night opulence. A close-up of a solitary woman reclines with cool detachment, her dark ponytail and direct gaze exuding an aura of controlled allure. A {argument name=\"clothing\" default=\"liquid black satin slip short dress\"} clings gracefully beneath an open faux-fur coat with a small sign 'Keor' embroidered on border, draped loosely across her shoulders and hips. Plus she wears black stockings. {argument name=\"lighting\" default=\"Soft warm key light\"} sweeps gently from the side, illuminating her silhouette against the rich velvet texture of the sofa. Deep jewel tones and dark wood shadows merge into a softly muted palette anchored by subtle crimson accents. The quiet composition captures a transcendent editorial moment where sculptural poise seamlessly meets intimate, high-fashion mystery.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "setting",
-        "default": "private interior space"
-      },
-      {
-        "name": "clothing",
-        "default": "liquid black satin slip short dress"
-      },
-      {
-        "name": "lighting",
-        "default": "Soft warm key light"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050320882_83krqq_HOHFzmIXsAErDL5.jpg",
-        "alt": "Opulent Velvet Interior Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050320952_xlx0rw_HOHFzmCXoAANGFR.jpg",
-        "alt": "Opulent Velvet Interior Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050320896_owdz32_HOHFzicX0AA84Iw.jpg",
-        "alt": "Opulent Velvet Interior Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050321754_giba4f_HOHFzmJWYAEHMW9.jpg",
-        "alt": "Opulent Velvet Interior Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "KeorUnreal",
-      "url": "https://x.com/KeorUnreal"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/KeorUnreal/status/2081162004245426665"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29749",
-    "contentHash": "8717637e91818dd9eeb5881ccf9faea22e0a0e83"
-  },
-  {
-    "id": "nano-banana-pro:29748",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29748",
-    "title": "Nighttime Beach Fashion Candid",
-    "category": "Social Media Post",
-    "description": "A prompt for capturing a photorealistic nighttime fashion photo on a beach, featuring a candid smartphone aesthetic with motion blur and flash.",
-    "promptText": "Photorealistic nighttime lifestyle fashion photo of a {argument name=\"subject\" default=\"woman\"} on a {argument name=\"location\" default=\"beach by the sea\"}. Vertical composition, shot on a smartphone with flash, creating the effect of a spontaneous candid photo captured in motion. The woman is standing on dark sand near the shoreline during a {argument name=\"lighting\" default=\"deep crimson sunset\"}. In the background, the dark ocean, waves with white foam, and an almost black sky with faint crimson sunset highlights are visible. The atmosphere evokes a nighttime walk by the ocean, with a windy beach night aesthetic and the feeling of a genuine, unposed moment. The woman is captured in motion as strong wind dramatically blows her very long hair to one side, with strands partially covering her face. One hand is raised toward her face or hair as if she is brushing the hair away. Her pose is natural, dynamic, and slightly chaotic, like a random smartphone snapshot. Her face is partially blurred and obscured by her hair, making her expression barely visible while maintaining a stylish, effortless appearance. She is wearing a long black silhouette dress with thin shoulder straps, and she has an hourglass figure.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "woman"
-      },
-      {
-        "name": "location",
-        "default": "beach by the sea"
-      },
-      {
-        "name": "lighting",
-        "default": "deep crimson sunset"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050319017_zifx4z_HOFhFAWbAAAB0mP.jpg",
-        "alt": "Nighttime Beach Fashion Candid",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050319018_7n02ks_HOFhFyPa4AASK7-.jpg",
-        "alt": "Nighttime Beach Fashion Candid",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Anissa",
-      "url": "https://x.com/SimplyAnnisa"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/SimplyAnnisa/status/2081051262175371617"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29748",
-    "contentHash": "461918693520184f55e3ae34825c5efe03cc0014"
-  },
-  {
-    "id": "nano-banana-pro:29766",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29766",
-    "title": "Surreal Brutalist Editorial Portrait",
-    "category": "Social Media Post",
-    "description": "A highly detailed editorial prompt for a stoic protagonist in a brutalist concrete chamber, featuring an upside-down vapor reflection and cinematic lighting.",
-    "promptText": "{\n  \"vibe_title_en\": \"The Sovereign's Rigid Silence In Anti-Gravity Reflection\",\n  \"master_prompt\": \"Three-Quarter Editorial waist-up portrait of a {argument name=\"subject\" default=\"stoic protagonist\"}. Body angled 45-degrees, face anchored directly toward the lens. Sovereign Minimalist pose: absolute stillness, resembling a rigid architectural monument. Hair: Long, bone-straight raven black, structurally gelled. Makeup: Bleached eyebrows, razor-sharp contour, matte slate-grey lip. Wardrobe: Rigid obsidian reptilian-leather jacket. Setting: {argument name=\"setting\" default=\"Brutalist concrete acoustic chamber\"}. Surreal practical effect: Suspended directly above, an upside-down perfect reflection of the subject formed entirely from dense volumetric vapor and suspended glowing magnesium embers. Lighting: High-contrast chiaroscuro. Hard cool cyan strobe sculpts the upright subject; warm golden optical spot backlight shapes the upside-down vapor figure. Shot on Hasselblad H6D-100c, 50mm f/1.4 lens, Kodak Portra 800. Hyper-realistic skin pores, heavy analog grain, physical light refraction.\",\n  \"meta\": {\n    \"intent\": \"Surreal Editorial Portrait\",\n    \"priorities\": \"Rigid Geometry, Practical Surrealism, Sculptural Lighting\",\n    \"device_profile\": \"High-Resolution Display\"\n  },\n  \"frame\": {\n    \"aspect\": \"4:5\",\n    \"composition\": \"Waist-up mid-shot, upside-down mirror reflection occupying the top frame\",\n    \"layout\": \"Vertical symmetry, anchor face in lower-mid third\",\n    \"camera_angle\": \"Eye-level with the upright subject\",\n    \"tilt_roll_degrees\": \"0\"\n  },\n  \"subject\": {\n    \"gender\": \"Female\",\n    \"identity\": \"The Sovereign Protagonist\",\n    \"demographics\": \"Ageless Adult\",\n    \"face\": \"Sharp jawline, bleached eyebrows, structural contouring, matte slate-grey lips\",\n    \"hair\": \"Long, bone-straight raven black, rigidly gelled, no loose strands\",\n    \"body\": \"Rigid, angular, architectural posture\",\n    \"expression\": \"Absolute stoicism, powerful rigid silence\",\n    \"pose\": \"Waist-up, 45-degree angle body, head turned perfectly straight to camera\"\n  },\n  \"wardrobe_accessories\": {\n    \"garments\": [\n      {\n        \"item\": \"{argument name=\"garment\" default=\"Structural Jacket\"}\",\n        \"material\": \"Reptilian-textured leather\",\n        \"color\": \"Obsidian Black\",\n        \"fit\": \"Rigid and tailored\"\n      }\n    ],\n    \"accessories\": [\n      {\n        \"item\": \"Micro-chain collar\",\n        \"color\": \"Matte Black\",\n        \"material\": \"Tungsten\",\n        \"brand_style\": \"Minimalist Avant-Garde\"\n      }\n    ]\n  },\n  \"environment\": {\n    \"setting\": \"Brutalist concrete acoustic chamber\",\n    \"surfaces\": \"Porous concrete, dense volumetric vapor\",\n    \"depth\": \"Shallow depth of field, dropping into a dark foggy abyss\",\n    \"atmosphere\": \"Cold, cinematic, dense with suspended magnesium dust\",\n    \"lens_interaction\": \"Light refracting through physical dust motes\"\n  },\n  \"lighting\": {\n    \"key\": \"Hard directional cool cyan strobe on the upright subject\",\n    \"fill\": \"None, deep crushing shadows\",\n    \"rim\": \"Warm golden opti",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "stoic protagonist"
-      },
-      {
-        "name": "setting",
-        "default": "Brutalist concrete acoustic chamber"
-      },
-      {
-        "name": "garment",
-        "default": "Structural Jacket"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050331478_1levsb_HOEzoYwXUAADezF.jpg",
-        "alt": "Surreal Brutalist Editorial Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785050331464_k4yx7w_HOEzoYCW8AAgtAR.jpg",
-        "alt": "Surreal Brutalist Editorial Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "timedoctor.eth",
-      "url": "https://x.com/timedoctor_nft"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/timedoctor_nft/status/2081001274938441934"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29766",
-    "contentHash": "514f10b14b3fb672a46c7c51d8e3b372017d866f"
-  },
-  {
-    "id": "nano-banana-pro:29654",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29654",
-    "title": "Realistic Close-up Portrait with Green Eyes",
-    "category": "Profile / Avatar",
-    "description": "A detailed photorealistic portrait of a woman featuring striking green eyes and soft indoor lighting, including customizable character and clothing details.",
-    "promptText": "{\n  \"subject\": {\n    \"description\": \"{argument name=\\\"woman description\\\" default=\\\"A beautiful young woman with fair skin, long dark hair, striking green eyes, defined eyebrows, and glossy pink lips. She has a soft, intimate expression with her mouth slightly open.\\\"}\",\n    \"pose\": \"Extreme close-up, head tilted slightly, one hand gently touching her cheek or temple with fingers visible, watching directly on camera\",\n    \"clothing\": \"{argument name=\\\"clothing style\\\" default=\\\"zebra top with deep neckline (partially visible).\\\"}\",\n    \"modifications\": \"Add a small, elegant '{argument name=\\\"tattoo text\\\" default=\\\"Keor\\\"}' tattoo in minimalist script on the side of her hand or on one of her fingers, subtly visible.\"\n  },\n  \"setting\": {\n    \"environment\": \"Soft, neutral indoor background with diffused lighting.\",\n    \"lighting\": \"Soft, flattering light highlighting her facial features and creating a gentle glow on her skin.\"\n  },\n  \"style\": {\n    \"photography\": \"Realistic, high-resolution close-up portrait with exceptional detail on skin texture, eyes, lips, and hair strands.\",\n    \"mood\": \"Intimate, soft, and captivating.\",\n    \"composition\": \"Tight facial close-up focusing on eyes and expression.\"\n  },\n  \"full_prompt\": \"Photorealistic extreme close-up portrait of a beautiful woman with dark hair and striking green eyes, her hand gently touching her cheek. She has glossy pink lips and a soft expression. Add a small elegant 'Keor' tattoo on the side of her hand or finger. Soft diffused lighting, ultra-detailed skin, eyes, and hair textures.\"\n}",
-    "promptFormat": "json",
-    "templateArguments": [],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784963080596_i2ztx2_HOAHDqtXEAAFIBf.jpg",
-        "alt": "Realistic Close-up Portrait with Green Eyes",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784963079851_44ld7s_HOAHDqpWEAAegPJ.jpg",
-        "alt": "Realistic Close-up Portrait with Green Eyes",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784963080678_8scov3_HOAHDqwWkAAYEUZ.jpg",
-        "alt": "Realistic Close-up Portrait with Green Eyes",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784963080911_bnr75u_HOAHDqnWgAE8qMP.jpg",
-        "alt": "Realistic Close-up Portrait with Green Eyes",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "KeorUnreal",
-      "url": "https://x.com/KeorUnreal"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/KeorUnreal/status/2080670803876565222"
-    },
-    "publishedAt": "2026-07-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29654",
-    "contentHash": "3380e2cf4c51756d8000a38de7d3d6ad3d08626f"
-  },
-  {
-    "id": "nano-banana-pro:29652",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29652",
-    "title": "Chestnut Brown Hair Portrait Watercolor Background",
-    "category": "Profile / Avatar",
-    "description": "A medium close-up portrait of a woman with long wavy hair, combining photographic realism with artistic watercolor brushwork.",
-    "promptText": "A captivating and deeply detailed medium close-up portrait featuring the beautiful young woman from image_0.png. Her {argument name=\"hair description\" default=\"long, wavy, multi-tonal chestnut-brown hair\"} flows gracefully over her shoulders, rendered with soft, dimensional lighting. She has a deep, genuine, and radiant smile, and her warm, engaging brown eyes look directly into the viewer's, establishing a profound connection. She wears the same {argument name=\"clothing\" default=\"soft, blue-grey button-down chambray shirt\"}, with the fabric texture and folds clearly visible. The background is a {argument name=\"background style\" default=\"refined, ethereal watercolor wash inspired by image_0.png, consisting of muted blues, greys, and warm ochre tones\"}, softly blending and receding to focus attention on the subject. The lighting is natural, diffused, providing a flattering glow on her face and highlighting hair texture. Every detail is rendered with precision: individual hair strands, subtle skin texture, and clothing fabric. The style is a beautiful fusion of artistic brushwork and photographic realism, feeling like a high-definition, gallery-quality fine art print.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair description",
-        "default": "long, wavy, multi-tonal chestnut-brown hair"
-      },
-      {
-        "name": "clothing",
-        "default": "soft, blue-grey button-down chambray shirt"
-      },
-      {
-        "name": "background style",
-        "default": "refined, ethereal watercolor wash inspired by image_0.png, consisting of muted blues, greys, and warm ochre tones"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784963080574_f0u8ab_HN-PCXfbUAAuRnk.jpg",
-        "alt": "Chestnut Brown Hair Portrait Watercolor Background",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Masooma :)",
-      "url": "https://x.com/Maevehere1"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Maevehere1/status/2080538919985455448"
-    },
-    "publishedAt": "2026-07-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29652",
-    "contentHash": "ac03f820a9af3441d35c1fc5139194d86b37c8b8"
-  },
-  {
-    "id": "nano-banana-pro:29561",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29561",
-    "title": "Golden Hour Car Selfie",
-    "category": "Profile / Avatar",
-    "description": "Generates a realistic smartphone-style selfie of a person in a car during the golden hour, featuring natural textures and cinematic lighting.",
-    "promptText": "Ultra-realistic golden hour car selfie, close-up, vertical 4:5, high-end smartphone front camera, 26mm, f/1.8, ISO 40, HDR, natural skin texture, subtle film grain, 8K. A {argument name=\"subject\" default=\"young woman sitting in the front passenger seat of a modern black leather car\"}, wearing a seatbelt, long dark chestnut-brown wavy hair, fair skin, light blue-gray eyes, thick brows, soft winged eyeliner, glossy pink lips, {argument name=\"clothing\" default=\"black spaghetti-strap top\"}, silver hoop earrings, and a silver Hamsa pendant necklace. {argument name=\"lighting\" default=\"Warm golden sunlight\"} from the side window casts cinematic shadows across her face, clear blue sky outside, calm neutral expression, photorealistic, premium smartphone photography.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "young woman sitting in the front passenger seat of a modern black leather car"
-      },
-      {
-        "name": "clothing",
-        "default": "black spaghetti-strap top"
-      },
-      {
-        "name": "lighting",
-        "default": "Warm golden sunlight"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784963082510_72c3d7_HN9s0mJWoAEwDXE.jpg",
-        "alt": "Golden Hour Car Selfie",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784963082658_xdvfuk_HN9s6oQX0AAGkrJ.jpg",
-        "alt": "Golden Hour Car Selfie",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Simply Ray",
-      "url": "https://x.com/kingofdairyque"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/kingofdairyque/status/2080501476896760048"
-    },
-    "publishedAt": "2026-07-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29561",
-    "contentHash": "d2e6bc88233d06af498b38b0651a2cb6ef819825"
-  },
-  {
-    "id": "nano-banana-pro:29655",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29655",
-    "title": "Creative Woman with Chibi Mini-Versions in Pink Office",
-    "category": "Social Media Post",
-    "description": "A whimsical scene of a woman in a pink office surrounded by funny chibi versions of herself, based on a reference photo.",
-    "promptText": "{\nUse the reference photo to create a realistic female character, soft smile, with a fun and natural expression, without changing the facial structure or features, keeping it as realistic as possible.\nHair: Same as in the reference photo, with natural movement and shine.\nOutfit: Modern, stylish casual clothing.\nScene: Set in a {argument name=\"office color\" default=\"cute pink office\"}, showing her being creative. Around her, include mini {argument name=\"character style\" default=\"chibi versions\"} of herself doing funny actions (drinking coffee from a cup, pulling her hair, making silly faces, lying on her stomach on the desk drawing in a notebook). Add {argument name=\"extra elements\" default=\"doodles and emojis\"}, and include a matching phrase.\nLighting & Format: Natural light, aspect ratio 1080:1350 (4:5).",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "office color",
-        "default": "cute pink office"
-      },
-      {
-        "name": "character style",
-        "default": "chibi versions"
-      },
-      {
-        "name": "extra elements",
-        "default": "doodles and emojis"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784963081792_ge9512_HOC6qB8bMAAiwGw.jpg",
-        "alt": "Creative Woman with Chibi Mini-Versions in Pink Office",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "lovimg_com",
-      "url": "https://x.com/lovimg_com"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/lovimg_com/status/2080868268320182403"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29655",
-    "contentHash": "0843c0cb1a2c587b05565a5f84de79823b460f93"
-  },
-  {
-    "id": "nano-banana-pro:29653",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29653",
-    "title": "Elegant Older Woman Luxury Street Style Editorial",
-    "category": "Social Media Post",
-    "description": "A sophisticated fashion portrait of an older woman with silver-gray hair in a royal-blue dress, captured in soft daylight with a minimalist urban background.",
-    "promptText": "Ultra-realistic luxury street-style editorial portrait of an elegant older woman with timeless beauty, photographed in soft natural daylight against a clean, minimalist urban background. She gazes gracefully to the side with a warm, confident smile, radiating sophistication, wisdom, and effortless style.\nShe has beautifully styled {argument name=\"hair style\" default=\"silver-gray hair swept into a sleek, low chignon\"} with smooth volume and refined texture. Her skin shows natural mature beauty with delicate expression lines, soft wrinkles, and a luminous healthy complexion. She wears {argument name=\"lipstick color\" default=\"bold matte red lipstick\"}, subtle natural makeup, and oversized round black designer sunglasses with glossy frames, adding a chic high-fashion aesthetic.\nHer outfit consists of a striking {argument name=\"dress color\" default=\"royal-blue\"} pleated sleeveless designer dress featuring an elegant asymmetrical folded collar with sculptural architectural lines. She accessorizes with luxurious statement drop earrings in antique silver and black gemstone detailing, along with a thin metallic crossbody chain strap that subtly drapes across her shoulder.\nSoft diffused daylight creates flattering illumination with gentle highlights on her skin and hair while maintaining realistic textures. The background is artistically blurred with a shallow depth of field, emphasizing her refined profile and sophisticated styling. The overall mood conveys confidence, elegance, and timeless fashion.\nStyle: Ultra-photorealistic luxury fashion photography, street-style editorial portrait, Vogue editorial aesthetic, minimalist composition, authentic mature beauty, cinematic soft lighting, premium designer styling, realistic skin texture, natural silver hair detail, shallow depth of field, 85mm portrait lens, DSLR quality, HDR, magazine-quality retouching, ultra-detailed, 8K resolution, luxury lifestyle campaign, timeless elegance, award-winning editorial photography.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair style",
-        "default": "silver-gray hair swept into a sleek, low chignon"
-      },
-      {
-        "name": "lipstick color",
-        "default": "bold matte red lipstick"
-      },
-      {
-        "name": "dress color",
-        "default": "royal-blue"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784963080626_vqhp1z_HOC1wSaa8AA6XM7.jpg",
-        "alt": "Elegant Older Woman Luxury Street Style Editorial",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784963080542_3cfh48_HOC1yQybUAEN5Z0.jpg",
-        "alt": "Elegant Older Woman Luxury Street Style Editorial",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Jahan Zaib",
-      "url": "https://x.com/jzaib4269"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/jzaib4269/status/2080862915847193063"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29653",
-    "contentHash": "e2fbeab9e98fa4efa8c1a4864195b6e2b02c50d4"
-  },
-  {
-    "id": "nano-banana-pro:29659",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29659",
-    "title": "Fashion Portrait with Custom Graffiti Wall",
-    "category": "Social Media Post",
-    "description": "A photorealistic fashion portrait of a woman against a graffiti-decorated white wall, featuring detailed fabric textures and specific embroidery elements.",
-    "promptText": "Photorealistic portrait of a beautiful blonde-haired woman squatting against a white wall in a grey sleeveless crop tank top, loose-fitting with thin straps and a deep side cutout prominently visible revealing skin, and white black plaid skirt with white lace-up high heels stilettos. Add small elegant 'Keor' embroidery on the border of her outfit and colorful graffiti 'Keor' on the wall behind her. Bright natural daylight, highly detailed skin, hair, and fabric textures.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784963085608_xd05qk_HOBKtvaWIAAKuTd.jpg",
-        "alt": "Fashion Portrait with Custom Graffiti Wall",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784963085590_n7jkug_HOBKtvZXgAAp0uA.jpg",
-        "alt": "Fashion Portrait with Custom Graffiti Wall",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784963085836_bxn6vv_HOBKtvfXsAE_P2g.jpg",
-        "alt": "Fashion Portrait with Custom Graffiti Wall",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "KeorUnreal",
-      "url": "https://x.com/KeorUnreal"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/KeorUnreal/status/2080745269793116467"
-    },
-    "publishedAt": "2026-07-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29659",
-    "contentHash": "55301d85b374757179d1cef77cef7e762641fa63"
-  },
-  {
-    "id": "nano-banana-pro:29656",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "29656",
-    "title": "Monochrome Carbon Dust Art Style",
-    "category": "Social Media Post",
-    "description": "Transforms any image into an abstract, high-contrast monochrome piece composed of millions of tiny carbon dust and toner particles for a DIY punk zine aesthetic.",
-    "promptText": "Transform the image into an ultra-high-contrast monochrome dust-particle artwork.\n\nRender the entire image using millions of tiny {argument name=\"particle types\" default=\"black toner particles, carbon dust, xerox powder, ink speckles, and stochastic grain\"}. Every object, person, vehicle, shadow, and texture must be reconstructed entirely from particle density rather than photographic shading.\n\nAggressively destroy photographic detail. Faces become simplified silhouettes and abstract particle masses. Clothing folds, vehicle reflections, windows, and environmental details dissolve into dense dust clusters. Large portions of the image disappear into pure white negative space.\n\nUse extreme information loss, photocopy degradation, toner scatter, print erosion, xerox artifacting, and particle abstraction. Dark areas become dense black dust masses. Midtones become sparse particle fields. Highlights vanish completely into white.\n\nThe image should feel like a {argument name=\"aesthetic\" default=\"photocopy of a photocopy of a photocopy, printed with black toner on white paper\"}. Raw underground streetwear aesthetic, underground car culture poster, DIY punk zine, archive fashion graphic design, bootleg magazine artwork.\n\nMassive white negative space. Floating isolated subjects. Broken contours. Fading edges. Subjects emerging from particle density. Toner-built forms. Dust-built silhouettes. Scanned print imperfections. Carbon particle rendering. Stochastic grain shading.\n\nThe final image must look as if it was created entirely from black dust particles scattered across white paper, not a photograph with a filter applied.\n\nNEGATIVE PROMPT:\n\nclean photography, realistic photo, detailed faces, realistic skin texture, smooth gradients, cinematic lighting, HDR, glossy surfaces, realistic reflections, painterly artwork, digital painting, 3D render, CGI, sharp details, clean edges, modern graphic design, vector art, comic halftone dots, newspaper halftone dots, color, grayscale gradients, high-detail realism, polished commercial photography, realistic backgrounds, environmental depth, perfect image quality, beauty retouching, hyperrealism, crisp details, professional studio photography",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "particle types",
-        "default": "black toner particles, carbon dust, xerox powder, ink speckles, and stochastic grain"
-      },
-      {
-        "name": "aesthetic",
-        "default": "photocopy of a photocopy of a photocopy, printed with black toner on white paper"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784963082293_ppmycd_HN_fy-CbUAA0CKs.jpg",
-        "alt": "Monochrome Carbon Dust Art Style",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Synthia",
-      "url": "https://x.com/AIwithSynthia"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AIwithSynthia/status/2080627630400012329"
-    },
-    "publishedAt": "2026-07-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=29656",
-    "contentHash": "e59347215e92a831cdb6a4a6d730c7e1390d62ba"
   }
 ]
