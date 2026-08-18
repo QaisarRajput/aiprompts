@@ -1,5 +1,272 @@
 [
   {
+    "id": "nano-banana-pro:25979",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "25979",
+    "title": "4K Realistic Photo Restoration",
+    "category": "Profile / Avatar",
+    "description": "A comprehensive restoration prompt for upscaling images to 4K quality, removing noise and artifacts while enhancing skin textures and hair details to professional DSLR standards.",
+    "promptText": "Maintain the original aspect ratio and use professional photo restoration techniques to super-resolve and repair this image to {argument name=\"resolution\" default=\"4K Ultra HD (3840x2160)\"}. Remove blur, noise, scratches, stains, creases, and compression artifacts. Restore and enhance skin texture, pores, hair strands, fabric textures, and edge sharpness. Restore natural and realistic colors, accurate lighting, and depth to generate a photo quality similar to that of a {argument name=\"camera style\" default=\"professional DSLR camera\"}. Keep all content, composition, and style of the original image completely unchanged, aiming for extreme realism without artistic stylization, making it a crystal-clear high-definition photo while maintaining 100% original composition and authenticity.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "resolution",
+        "default": "4K Ultra HD (3840x2160)"
+      },
+      {
+        "name": "camera style",
+        "default": "professional DSLR camera"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781770020271_rjyj4t_HLAWScIbgAALpsa.jpg",
+        "alt": "4K Realistic Photo Restoration",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "𝟡𝟜 ᴾᴸᴬʸᶠᴼᴿᴳᴱ",
+      "url": "https://x.com/94vanAI"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/94vanAI/status/2067176749293797610"
+    },
+    "publishedAt": "2026-06-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=25979",
+    "contentHash": "e20af75e428cddb41a379ed967c0c68e8f820329"
+  },
+  {
+    "id": "nano-banana-pro:25980",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "25980",
+    "title": "Cinematic Evening Event Portrait",
+    "category": "Profile / Avatar",
+    "description": "A photography prompt for generating a detailed portrait of a woman at a nighttime event, featuring cinematic bokeh and warm atmospheric lighting. It allows for identity preservation using a reference image.",
+    "promptText": "{argument name=\"subject\" default=\"close-up to mid body photo of a young woman\"} walking alone at an {argument name=\"setting\" default=\"outdoor evening event\"}, surrounded by warm decorative lights and a softly blurred crowd in the background, nighttime atmosphere with cinematic bokeh,\n\nsubject: use reference image face,",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "close-up to mid body photo of a young woman"
+      },
+      {
+        "name": "setting",
+        "default": "outdoor evening event"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781770019940_l464rg_HLAK4tJa8AEu_Hi.jpg",
+        "alt": "Cinematic Evening Event Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1781770019975_8h32g8_HLAK5WLakAA1Ktr.jpg",
+        "alt": "Cinematic Evening Event Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1781770019982_oht5n6_HLAK6ORaYAARaB5.jpg",
+        "alt": "Cinematic Evening Event Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1781770020731_mvfoii_HLAK7E7bwAAmTqB.jpg",
+        "alt": "Cinematic Evening Event Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "glena Jenner",
+      "url": "https://x.com/GlenaJenne"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/GlenaJenne/status/2067166098890580227"
+    },
+    "publishedAt": "2026-06-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=25980",
+    "contentHash": "63d2854d30d1d0ab3f5e1e9886a7499cb2f96a68"
+  },
+  {
+    "id": "nano-banana-pro:532",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "532",
+    "title": "Train-ad style book advertisement image",
+    "category": "Social Media Post",
+    "description": "A detailed Japanese prompt for generating a 16:9 business-book-style advertisement featuring a specific book image with Japanese copy points.",
+    "promptText": "Please generate an advertisement image.\n\n==== Ad specifications ===\n- Aspect ratio: 16:9 (horizontal)\n- Product to advertise: the book in the first attached image\n- Main eye-catcher: place the book from the first attached image in a three-dimensional way\n- Language: Japanese\n- Taste: advertisement for a business book\n\n# Text to include:\n- Pre-head copy: 【New print run decided about one week after release】\n\nBook “{argument name=\"book_title_en\" default=\"Designing from Zero with AI\"}” now on sale and doing well.\n\nAmazon Best Seller Ranking\nRanked No.1 in commercial design sales (as of 10/15)\nhttps://t.co/QxbYpfFVj6",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "book_title_en",
+        "default": "Designing from Zero with AI"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1763885539326_yao7in_G6WBYReawAAcp2x.jpg",
+        "alt": "Train-ad style book advertisement image",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "KAWAI",
+      "url": "https://x.com/kawai_design"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/kawai_design/status/1992142466255114727"
+    },
+    "publishedAt": "2025-11-22T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=532",
+    "contentHash": "469e0b0a08a0b4e1def262d4d62bf6bbfc06c8a2"
+  },
+  {
+    "id": "nano-banana-pro:26190",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "26190",
+    "title": "Mediterranean Vintage Car Portrait",
+    "category": "Social Media Post",
+    "description": "A sophisticated prompt for generating a high-quality portrait of a well-dressed man leaning against a classic Mercedes-Benz in warm, golden Mediterranean sunlight.",
+    "promptText": "A straight-on, full-body shot displays a {argument name=\"subject\" default=\"man\"}, casually leaning against the front grille of a {argument name=\"car\" default=\"white classic Mercedes-Benz convertible\"}. He sports a {argument name=\"outfit\" default=\"beige long-sleeve knit polo shirt\"} with the sleeves rolled to the forearms and relaxed-fit, high-waisted white pleated linen trousers. His ensemble is complemented by dark brown leather loafers and he accessorizes with square-lensed sunglasses and a wristwatch with a metallic band, contributing to a suave, affluent aesthetic. The background reveals an exterior stone building in golden afternoon or early evening sunlight, with climbing foliage and deep shadows creating a warm, luxurious atmosphere. The setting is elegantly Mediterranean, with an impression of ended or approaching leisure. The vintage car’s emblem is in sharp detail, occupying the foreground. The overall color palette is dominated by soft creams, sun-warmed sand, and deep ogre shadows. Captured using a digital or high-quality film camera with moderate depth of field, the subject is crisply in focus and the image exhibits rich, dense shadows, volumetric sunlight, and a mood which is nostalgic and aspirational.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "man"
+      },
+      {
+        "name": "car",
+        "default": "white classic Mercedes-Benz convertible"
+      },
+      {
+        "name": "outfit",
+        "default": "beige long-sleeve knit polo shirt"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781941370303_9j7ozy_HLNEnyeWkAAeATv.jpg",
+        "alt": "Mediterranean Vintage Car Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Alex Prompts",
+      "url": "https://x.com/AlexPromptsAI"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AlexPromptsAI/status/2068072298226000066"
+    },
+    "publishedAt": "2026-06-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=26190",
+    "contentHash": "8dc4bfbad973cc541e9fb8eaf1ca76e063ecb733"
+  },
+  {
+    "id": "nano-banana-pro:26187",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "26187",
+    "title": "Cartoon Skull with Gold Teeth",
+    "category": "Social Media Post",
+    "description": "A vibrant, cartoonish illustration of a skull with golden details against a pastel rainbow background.",
+    "promptText": "A cartoonish skull with {argument name=\"tooth detail\" default=\"gold teeth\"} and a cracked forehead is positioned in the foreground, tilted to the left. Behind it, a rainbow arches upwards, with a black star centered within its arc. The background is a solid {argument name=\"background color\" default=\"pastel pink\"}, and a wavy green line runs along the bottom edge of the image.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "tooth detail",
+        "default": "gold teeth"
+      },
+      {
+        "name": "background color",
+        "default": "pastel pink"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781941368291_e0vx4r_HLBqy42XUAAkXLA.jpg",
+        "alt": "Cartoon Skull with Gold Teeth",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Heather Green",
+      "url": "https://x.com/heathergreen"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/heathergreen/status/2068046159436734604"
+    },
+    "publishedAt": "2026-06-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=26187",
+    "contentHash": "70a04eea7eb660200f05d5779de522e5fe035c1e"
+  },
+  {
+    "id": "nano-banana-pro:26199",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "26199",
+    "title": "Nighttime Marina Fashion Portrait",
+    "category": "Social Media Post",
+    "description": "A detailed nighttime portrait prompt of a male model in a marina setting with glowing city lights and reflections.",
+    "promptText": "A confident {argument name=\"subject\" default=\"young adult male\"} stands facing the camera in a posed, sophisticated portrait, his weight leaning slightly to the left with level shoulders. He has a dense, dark brown-black neatly trimmed box beard and a modern haircut with tapered sides and a {argument name=\"hairstyle\" default=\"two-to-three-inch textured quiff\"} pushed upward and mostly swept forward. The naturally straight hair features a slightly off-center right part and is styled with a matte paste to create volume and separation without shine, distinctly showing natural imperfections like slight frizz on the extreme edges, minor flyaways, and unequal clumping. His expression is self-assured with a neutral mouth, direct gaze, and relaxed eyebrows. He wears a short-sleeve pitch-black polo shirt and charcoal grey trousers. His left hand rests lightly on a slanted, pristine polished tubular steel boat railing in the foreground, revealing a leather-strap watch. His right hand is in his pocket. This is a layered scene, leading into a deep, thriving marina midground where the pitch-black water forms fluid ripples that intensely reflect bright golden-yellow and white city lights. To the right, a massive curved high-rise building glows with warm golden interior lights across dense horizontal balconies, balancing the asymmetric composition. On the left, a brightly lit passenger boat moves across the water channel, backed by a background cluster of tall, rectangular dark glass skyscrapers exhibiting vertical lines, cooler cyan architectural accents, and rooftop construction lighting against the deep night sky. The energetic, cosmopolitan atmosphere features a highly saturated, warm, and high-contrast complementary color profile heavily emphasizing pitch black, warm gold, charcoal grey, and neon blue. A bright, soft, and continuous frontal fill light illuminates the subject, leaving soft, gradual gray shadows under his chin, behind his trouser folds, and beneath the railing, while preserved specular highlights glisten on his forehead, nose tip, arms, the metallic railing, and the water surface. Captured as realistic digital photography with a straight-on perspective, the image channels low-light smartphone portraiture aesthetics, featuring slightly soft sharpness, characteristic digital noise, a deep depth of field, and post-processing that boosts city light saturation and applies a high-contrast curve, all smoothly framed in a 3:4 aspect ratio.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "young adult male"
+      },
+      {
+        "name": "hairstyle",
+        "default": "two-to-three-inch textured quiff"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781941376402_p3dqwf_HLMY8nuXQAAxAYd.jpg",
+        "alt": "Nighttime Marina Fashion Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Picts by AI",
+      "url": "https://x.com/pictsbyai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/pictsbyai/status/2068024177898963003"
+    },
+    "publishedAt": "2026-06-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=26199",
+    "contentHash": "a98bd54b3eaeb81b0bb3ab2deffbd09ce0a49575"
+  },
+  {
     "id": "nano-banana-pro:26197",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
