@@ -1,5 +1,262 @@
 [
   {
+    "id": "nano-banana-pro:28203",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "28203",
+    "title": "Wavy Hair Studio Portrait",
+    "category": "Profile / Avatar",
+    "description": "A clean, minimalist studio portrait prompt for creating high-quality images of women in cozy knitwear.",
+    "promptText": "A high-quality studio portrait of a beautiful young {argument name=\"ethnicity\" default=\"East Asian\"} woman with a soft, flawless complexion. She has short, shoulder-length {argument name=\"hair style\" default=\"wavy black hair\"} with light, wispy see-through bangs framing her face. She has a natural, subtle makeup look with soft coral-pink lips and gentle blush.She is wearing an oversized, cozy {argument name=\"sweater color\" default=\"dark navy blue\"} knit turtleneck sweater, resting her face slightly against her hand. Clean minimal muted grey background, soft diffused studio lighting, aesthetic, clean, and photorealistic look.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "ethnicity",
+        "default": "East Asian"
+      },
+      {
+        "name": "hair style",
+        "default": "wavy black hair"
+      },
+      {
+        "name": "sweater color",
+        "default": "dark navy blue"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783753510296_5v2s94_HM1r2HEasAA5Fjz.jpg",
+        "alt": "Wavy Hair Studio Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783753510333_5e5957_HM1r2fubEAAX_g-.jpg",
+        "alt": "Wavy Hair Studio Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Kashberg",
+      "url": "https://x.com/Kashberg_0"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Kashberg_0/status/2075433594726842594"
+    },
+    "publishedAt": "2026-07-10T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=28203",
+    "contentHash": "950857957167815dfba273139b3dd7fe62e586d0"
+  },
+  {
+    "id": "nano-banana-pro:28216",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "28216",
+    "title": "Shy Studio Fashion Portrait",
+    "category": "Social Media Post",
+    "description": "A comprehensive JSON-structured prompt for a high-fidelity studio portrait focusing on delicate expressions and specific fashion details.",
+    "promptText": "{\n  \"type\": \"image_prompt\",\n  \"description\": {\n    \"subject\": {\n      \"identity\": \"{argument name=\"subject name\" default=\"Madison Beer\"}\",\n      \"appearance\": {\n        \"hair\": \"Medium-length dark hair secured with a silver hair clip on the left side, naturally falling with a few loose strands framing her face.\",\n        \"expression\": \"Looking downward with a subtly shy, soft, and gentle expression.\",\n        \"accessories\": [\n          \"Silver earrings on the left ear, including a hoop earring\",\n          \"Silver hair clip\"\n        ]\n      }\n    },\n    \"outfit\": {\n      \"top\": \"White short-sleeve button-up shirt featuring a heart-shaped chest cutout. The shirt is slightly cropped, revealing the midriff and navel.\",\n      \"bottom\": \"Navy blue and white plaid pleated mini skirt.\",\n      \"belt\": \"Black leather belt with metal eyelets, a decorative silver floral-emblem buckle, and a long hanging strap.\"\n    },\n    \"pose\": {\n      \"body\": \"Standing facing forward with a relaxed posture.\",\n      \"head\": \"Slightly tilted downward, gaze directed down and slightly to the side.\",\n      \"right_hand\": \"Raised gently, fingers lightly touching her hair near the temple.\",\n      \"left_hand\": \"Resting naturally against her thigh.\",\n      \"legs\": \"Slightly apart, visible from the upper thighs downward.\",\n      \"overall_feeling\": \"A candid, spontaneous moment conveying quiet shyness.\"\n    },\n    \"environment\": {\n      \"location\": \"Minimalist photography studio.\",\n      \"background\": \"Clean seamless light lavender/pastel purple backdrop that isolates the subject.\"\n    },\n    \"lighting\": {\n      \"type\": \"Soft professional studio lighting.\",\n      \"description\": \"Evenly balanced illumination that gently defines facial features while revealing the texture of the clothing with natural contrast and controlled highlights.\"\n    },\n    \"composition\": {\n      \"framing\": \"Medium shot, framed from the knees to the top of the head.\",\n      \"camera_angle\": \"Eye-level.\",\n      \"focus\": \"Eyes in perfect focus with consistent sharpness across the subject.\"\n    },\n    \"mood\": {\n      \"atmosphere\": \"Casual, intimate, aesthetically harmonious, and subtly alternative.\",\n      \"emotion\": \"Quiet confidence mixed with gentle shyness.\"\n    },\n    \"technical\": {\n      \"camera\": {\n        \"lens\": \"85mm prime lens\",\n        \"aperture\": \"f/4\",\n        \"shutter_speed\": \"1/200s\",\n        \"iso\": \"100\"\n      },\n      \"style\": \"High-fidelity studio portrait photography with realistic color reproduction and balanced dynamic range.\",\n      \"quality\": [\n        \"Ultra-high-definition skin and fabric textures\",\n        \"Critical subject sharpness\",\n        \"Controlled depth of field\",\n        \"Clean background separation\",\n        \"Noise-free image\",\n        \"Natural skin rendering\"\n      ],\n      \"aspect_ratio\": \"9:16\"\n    },\n    \"negative_prompt\": [\n      \"low resolution\",\n      \"blur\",\n      \"motion blur\",\n      \"noise\",\n      \"overexposure\"\n    ]\n  }\n}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject name",
+        "default": "Madison Beer"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783753516253_78wx3f_HM4vPM3WsAEeAKP.jpg",
+        "alt": "Shy Studio Fashion Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783753516277_k7lk4o_HM4vPOpWgAASOck.jpg",
+        "alt": "Shy Studio Fashion Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783753516213_8ekq4q_HM4vPO-XMAA7GBA.jpg",
+        "alt": "Shy Studio Fashion Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783753518061_o126rc_HM4vPQSW8AAt5Nq.jpg",
+        "alt": "Shy Studio Fashion Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Giulia",
+      "url": "https://x.com/Giulia_4i"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Giulia_4i/status/2075648419897430170"
+    },
+    "publishedAt": "2026-07-10T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=28216",
+    "contentHash": "f5c9adafd46c5a6ce36f1fc4c3bf145bad9b87c9"
+  },
+  {
+    "id": "nano-banana-pro:28210",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "28210",
+    "title": "Golden Hour Cafe Cinematic Portrait",
+    "category": "Social Media Post",
+    "description": "A nostalgic and melancholic portrait prompt for a woman in a café, featuring dreamy sunset lighting and vintage film aesthetics.",
+    "promptText": "A cinematic portrait of a {argument name=\"subject\" default=\"young woman\"} sitting in a {argument name=\"location\" default=\"cozy café\"} at {argument name=\"time\" default=\"golden hour\"}, looking back over her shoulder toward the camera. Long dark hair with soft wispy bangs gently blown across her face, natural makeup, calm and melancholic expression. Warm sunset backlighting pouring through a large window, creating a glowing halo around her hair. Dreamy nostalgic atmosphere, soft haze, creamy bokeh, shallow depth of field, warm amber and brown color grading, subtle film grain, vintage film photography, Kodak Portra 400 aesthetic, soft focus, realistic skin texture, intimate composition, 50mm lens, f/1.4, photorealistic, ultra-detailed, cinematic lighting, moody, high quality.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "young woman"
+      },
+      {
+        "name": "location",
+        "default": "cozy café"
+      },
+      {
+        "name": "time",
+        "default": "golden hour"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783753513477_bcvspi_HM4dvQ1acAAOnAj.jpg",
+        "alt": "Golden Hour Cafe Cinematic Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783753513477_sisdre_HM4dv0fbgAAs4er.jpg",
+        "alt": "Golden Hour Cafe Cinematic Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Aijaz",
+      "url": "https://x.com/iamsofiaijaz"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/iamsofiaijaz/status/2075629195024326724"
+    },
+    "publishedAt": "2026-07-10T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=28210",
+    "contentHash": "df0fa42299cf69d0e64d745e42c4418177b3b2bf"
+  },
+  {
+    "id": "nano-banana-pro:28200",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "28200",
+    "title": "Woman with Platinum Hair and Snake",
+    "category": "Social Media Post",
+    "description": "A poetic, cinematic prompt for a woman in a dramatic pose with a snake, featuring neoclassical architecture and soft lighting.",
+    "promptText": "close-up of a {argument name=\"subject\" default=\"woman\"} with striking facial features and {argument name=\"hair color\" default=\"platinum blonde\"} hair stands in a dramatic, inward contrapposto pose holding a {argument name=\"animal\" default=\"yellow snake\"} among her hands. Her composed intensity is directed downward, conveying a contemplative melancholy rather than outward engagement. She wears a white halter-style cropped top and floor-length skirt, both crafted from ivory white open-mesh crochet that casts subtle micro-shadow grids across her skin. The diffused ambient daylight under an overcast sky gently wraps her form, creating an almost painterly even illumination. A neoclassical circular temple rotunda with a sign 'love' engraved on it and densely layered garden trees provide a backdrop of elegant antiquity and cool, muted tones. The solitary figure asserts chromatic dominance within the otherwise desaturated, monumental environment, creating a sense of poetic sovereignty and intimate containment.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "woman"
+      },
+      {
+        "name": "hair color",
+        "default": "platinum blonde"
+      },
+      {
+        "name": "animal",
+        "default": "yellow snake"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783753508892_jfr6j3_HM3jEjvbMAAMluU.jpg",
+        "alt": "Woman with Platinum Hair and Snake",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783753507488_axm8wt_HM3jG5iaoAAoD36.jpg",
+        "alt": "Woman with Platinum Hair and Snake",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783753507564_4gf9id_HM3jJlAbAAAc_sj.jpg",
+        "alt": "Woman with Platinum Hair and Snake",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ANKIT PATEL 🇮🇳 | AI",
+      "url": "https://x.com/Ankit_patel211"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Ankit_patel211/status/2075564873527050435"
+    },
+    "publishedAt": "2026-07-10T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=28200",
+    "contentHash": "7892deb3965f243bed8ffa6bee35610440a4b2c7"
+  },
+  {
+    "id": "nano-banana-pro:28209",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "28209",
+    "title": "Moody Direct Flash Club Portrait",
+    "category": "Social Media Post",
+    "description": "A sophisticated club atmosphere portrait featuring a man against a Renaissance mural, with a 35mm film aesthetic and sharp frontal flash.",
+    "promptText": "A {argument name=\"subject\" default=\"handsome young man with subtly wavy, matte brown hair\"}, light stubble, and a calm, observant gaze looks off-camera to the right. He wears a {argument name=\"outfit\" default=\"tailored black blazer over a light beige knit polo\"}, his posture relaxed with his right hand resting near a gold watch on his wrist. In the foreground, a glossy table holds a gold-rimmed coffee cup, leading to a midground of dark seating and warm, pleated table lamps. The background is defined by a {argument name=\"background\" default=\"large classical Renaissance mural of draped figures\"} and a glowing amber wall sconce. The scene features moody, low-key lighting with a direct frontal flash that casts sharp shadows behind him and bright highlights on his skin and watch, dominated by deep blacks and warm ambers for a sophisticated, exclusive club atmosphere. The image is captured with a raw 35mm direct-flash aesthetic, exhibiting high contrast, deep shadows, natural film grain, and rich saturation, framed in a 3:4 aspect ratio.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "handsome young man with subtly wavy, matte brown hair"
+      },
+      {
+        "name": "outfit",
+        "default": "tailored black blazer over a light beige knit polo"
+      },
+      {
+        "name": "background",
+        "default": "large classical Renaissance mural of draped figures"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783753513565_ewqh7b_HMOVwMnXEAEtoMx.jpg",
+        "alt": "Moody Direct Flash Club Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Picts by AI",
+      "url": "https://x.com/pictsbyai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/pictsbyai/status/2075491463907962917"
+    },
+    "publishedAt": "2026-07-10T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=28209",
+    "contentHash": "88c3ef5e20985adb46f1036af97e7c9b70481eb6"
+  },
+  {
     "id": "nano-banana-pro:28215",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
@@ -6789,245 +7046,5 @@
     "publishedAt": "2026-06-24T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=26641",
     "contentHash": "84a8dd6ed5c769596fd54e62e8e086a2c21088ae"
-  },
-  {
-    "id": "nano-banana-pro:26640",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "26640",
-    "title": "High-contrast black and white intense male portrait",
-    "category": "Profile / Avatar",
-    "description": "A striking prompt for generating a high-contrast black and white portrait of a man with a beard and sunglasses, focusing on intense expressions and dramatic directional lighting.",
-    "promptText": "A close-up, high-contrast black and white portrait of a {argument name=\"subject\" default=\"man\"} looking directly into the camera with an intense expression. He has thick, voluminous messy dark hair, a neatly trimmed beard, and a mustache. He is wearing {argument name=\"eyewear\" default=\"dark aviator-style sunglasses\"} with a double bridge bar, which he lowers slightly down his nose with his right hand, peering directly over the top rims. On the ring finger of his right hand, he wears a prominent {argument name=\"accessory\" default=\"square signet ring\"} with a dark center inlay. He is dressed in a dark button-up shirt, left open at the collar to reveal a hint of his chest. The background is a dark, out-of-focus brick wall with faint horizontal lines. The lighting is soft and directional, coming from the front-top oblique angle, highlighting his forehead, nose bridge, and knuckles while leaving the rest of the scene in deep shadow.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "man"
-      },
-      {
-        "name": "eyewear",
-        "default": "dark aviator-style sunglasses"
-      },
-      {
-        "name": "accessory",
-        "default": "square signet ring"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782372809922_wnuhh0_HLlTHrmW4AAyu9V.jpg",
-        "alt": "High-contrast black and white intense male portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Heisenberg",
-      "url": "https://x.com/rovvmut_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/rovvmut_/status/2069776901326114821"
-    },
-    "publishedAt": "2026-06-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=26640",
-    "contentHash": "094941a7d386dc938a82112745e304d8e1b48443"
-  },
-  {
-    "id": "nano-banana-pro:26642",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "26642",
-    "title": "Lionel Messi Birthday Tribute Poster",
-    "category": "Social Media Post",
-    "description": "A cinematic and ultra-realistic prompt for creating a premium sports tribute poster for Lionel Messi, featuring stadium lighting and Argentina national team details.",
-    "promptText": "Create a premium birthday tribute poster for {argument name=\"athlete\" default=\"Lionel Messi\"}. Ultra-realistic sports photography, celebrating {argument name=\"athlete\" default=\"Messi\"}'s birthday. {argument name=\"athlete\" default=\"Messi\"} wearing the {argument name=\"team\" default=\"Argentina national team\"} jersey (sky blue and white stripes, number 10), standing proudly in a packed stadium atmosphere.\n\n{argument name=\"athlete\" default=\"Messi\"} is smiling warmly with both arms raised high in celebration, acknowledging the crowd. Detailed tattoos visible on one arm, blue captain's armband, realistic facial features, authentic athlete physique. Bright stadium floodlights, cheering fans, Argentina flags waving in the background, cinematic depth of field and emotional victory atmosphere.\n\nInclude elegant birthday poster typography:\n\n\"HAPPY BIRTHDAY LEO {argument name=\"athlete\" default=\"MESSI\"}\"\n\nSubtitle:\n\n\"{argument name=\"subtitle\" default=\"THE GREATEST OF ALL TIME\"}\"\n\nLuxury sports editorial style, premium magazine cover aesthetic, realistic jersey fabric, dramatic lighting, photorealistic skin texture, vibrant colors, confetti falling through the air, ultra-detailed, 8K quality, masterpiece sports poster.\n\nNegative Prompt: blurry face, extra fingers, distorted hands, bad anatomy, low quality, cropped body, watermark, logo, text artifacts, cartoon style, AI artifacts.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "athlete",
-        "default": "Lionel Messi"
-      },
-      {
-        "name": "team",
-        "default": "Argentina national team"
-      },
-      {
-        "name": "subtitle",
-        "default": "THE GREATEST OF ALL TIME"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782372812337_vuilog_HLkh-pSXwAAtCxy.jpg",
-        "alt": "Lionel Messi Birthday Tribute Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782372812279_yac7gc_HLkh-pfXUAA3s7J.jpg",
-        "alt": "Lionel Messi Birthday Tribute Poster",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Sadia",
-      "url": "https://x.com/SadiaMalik182"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/SadiaMalik182/status/2069722882997891213"
-    },
-    "publishedAt": "2026-06-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=26642",
-    "contentHash": "af27ec8fd25ff4da8e502eb39a09f593f612f7f7"
-  },
-  {
-    "id": "nano-banana-pro:26566",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "26566",
-    "title": "Cinematic Car Interior Male Portrait",
-    "category": "Profile / Avatar",
-    "description": "A sharp digital photography style portrait of a male in a car interior, utilizing high-contrast natural lighting and a warm social media aesthetic.",
-    "promptText": "A close-up portrait of a {argument name=\"subject\" default=\"young male sitting centrally and facing the camera straight on with level shoulders and a centered weight distribution\"}. He wears a {argument name=\"clothing\" default=\"light grey hoodie and dark charcoal sunglasses that hide his eyes\"}, maintaining a serious and candid expression with a neutral mouth and relaxed eyebrows. He is situated inside a pristine car interior surrounded by a smooth, matte, dark charcoal grey fabric headliner detailing a grab handle and sun visor edge. A black leather headrest sits in the left midground beside a visible seatbelt, while directly above in the top center, an open sunroof reveals the sky. Through the window in the right background, slightly blurred thriving green hills and a guardrail are visible. {argument name=\"atmosphere\" default=\"An energetic, warm, sunny road trip vibe permeates the scene\"}, driven by a bright, highly directional single source of natural hard light streaming from above. This golden lighting creates high contrast with zero ambient fill, casting deep black, short shadows with harsh defined edges under his chin, nose, and beside his face. Intense blown-out highlights form a brilliant sun flare at the top of the frame and leave sharp specular reflections on his forehead and sunglasses. Captured as tack sharp, grain-free digital photography reflecting a clean social media lifestyle aesthetic, the image utilizes a mobile camera style with a fast shutter, high dynamic range, and a warm color grade. A medium depth of field ensures the interior remains crisp while the exterior softens, guiding the visual hierarchy symmetrically from the top sun flare down to the subject's face, all naturally framed in a 9:16 aspect ratio.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "young male sitting centrally and facing the camera straight on with level shoulders and a centered weight distribution"
-      },
-      {
-        "name": "clothing",
-        "default": "light grey hoodie and dark charcoal sunglasses that hide his eyes"
-      },
-      {
-        "name": "atmosphere",
-        "default": "An energetic, warm, sunny road trip vibe permeates the scene"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782286585159_cbiqot_HLbhhmQWcAAqoJ8.jpg",
-        "alt": "Cinematic Car Interior Male Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Picts by AI",
-      "url": "https://x.com/pictsbyai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/pictsbyai/status/2069089116617154566"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=26566",
-    "contentHash": "3806a15ddcf2c89ce379e8159e2c259ae07b70bc"
-  },
-  {
-    "id": "nano-banana-pro:26571",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "26571",
-    "title": "Frozen Wrecked Car Cinematic Shot",
-    "category": "Social Media Post",
-    "description": "A high-contrast, cinematic prompt for a wrecked car in a frozen landscape featuring a fashion model, designed for dramatic scale and lighting.",
-    "promptText": "Low-angle cinematic shot captured at night in a frozen, snow-buried landscape. The camera looks upward from near ground level, emphasizing scale and dominance. A wrecked {argument name=\"car color\" default=\"COLOR\"} {argument name=\"car model\" default=\"CAR MODEL\"} lies partially sunk into deep snow, the front end swallowed by ice, metal twisted and buried. Only the rear remains clearly visible - the massive rear wing rising above the snow. Mounted on the rear bumper, a bent and slightly frosted license plate is clearly visible, reading \"{argument name=\"license plate\" default=\"LICENSE PLATE\"}\". Sitting directly on top of the exposed spoiler is a fashion model, perfectly composed despite the chaos. She wears an oversized, fluffy fur coat that contrasts sharply with the brutal environment, the soft texture standing out against frozen steel. Her posture is relaxed, confident, legs balanced on the wing, body steady. She looks down toward the camera with a calm, powerful expression. Harsh direct flash from below freezes the scene, overexposing parts of her face and coat while carving deep shadows into the snowdrifts. Snow particles float in the air, caught mid-fall, the atmosphere is cold, silent, hostile. Hyperrealistic detail, gritty cinematic and dramatic contrast.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "car color",
-        "default": "COLOR"
-      },
-      {
-        "name": "car model",
-        "default": "CAR MODEL"
-      },
-      {
-        "name": "license plate",
-        "default": "LICENSE PLATE"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782286586820_ax77ts_HLggkxcWUAERM5h.jpg",
-        "alt": "Frozen Wrecked Car Cinematic Shot",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782286587149_wsk02l_HLggkxnWYAA7KFq.jpg",
-        "alt": "Frozen Wrecked Car Cinematic Shot",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "carpe",
-      "url": "https://x.com/ftcarpe"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/ftcarpe/status/2069439942061637751"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=26571",
-    "contentHash": "f9b5238dacf8f8b1f63f276c713085b515846920"
-  },
-  {
-    "id": "nano-banana-pro:26569",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "26569",
-    "title": "Ermine in a Japanese Tea Room",
-    "category": "Social Media Post",
-    "description": "A serene prompt for creating an image of a cute ermine observing steam from a tea cup inside a quiet, traditional Japanese-style room.",
-    "promptText": "An {argument name=\"animal\" default=\"ermine\"} looking at the steam from {argument name=\"beverage\" default=\"tea\"} in a {argument name=\"location\" default=\"quiet Japanese-style room\"}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "animal",
-        "default": "ermine"
-      },
-      {
-        "name": "beverage",
-        "default": "tea"
-      },
-      {
-        "name": "location",
-        "default": "quiet Japanese-style room"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782286586450_760a3k_HLfnQ6TbEAAiqyx.jpg",
-        "alt": "Ermine in a Japanese Tea Room",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "okojoya（ECショップ準備中）",
-      "url": "https://x.com/okojoya"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/okojoya/status/2069376850749805018"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=26569",
-    "contentHash": "35fcc4bd8b2a007c7c61d8033ab1ef039e5a3ec6"
   }
 ]
