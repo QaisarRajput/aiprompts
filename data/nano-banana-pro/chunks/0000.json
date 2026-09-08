@@ -1,5 +1,177 @@
 [
   {
+    "id": "nano-banana-pro:33662",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "33662",
+    "title": "Korean Editorial Beauty Portrait",
+    "category": "Profile / Avatar",
+    "description": "An ultra-realistic beauty portrait prompt using a cinematic teal-and-orange Korean editorial style, emphasizing glass skin and specific lighting.",
+    "promptText": "Use the face from the reference photo and preserve the exact identity, facial structure, face shape, eyes, nose, lips, jawline, skin tone, proportions, and natural expression. Do not beautify, slim, reshape, or change the face. Keep realistic skin texture, visible pores, subtle peach fuzz, and authentic details.\n\nCreate an ultra-realistic close-up beauty portrait in a cinematic {argument name=\"color grade\" default=\"teal-and-orange\"} Korean editorial style. Tight shoulder-up composition, soft three-quarter angle, slightly tilted head, calm magnetic eyes, softly parted lips, and a quiet confident expression.\n\nUse a deep teal studio background with cinematic lighting: cool teal light on one side and warm amber-orange highlights on the cheekbones, nose, lips, collarbone, and wet-look hair. Create glossy highlights, soft shadows, subtle halation, and a dreamy luxury beauty-campaign mood.\n\nWear a {argument name=\"clothing\" default=\"dark chocolate brown or black satin thin-strap top\"} with small gold earrings, delicate rings, and a thin gold necklace. Hair is long, dark, glossy, and wet-look, pushed back with a few soft damp strands framing the face without covering the eyes.\n\nMakeup: fresh Korean dewy glam with luminous realistic glass skin, feathered brows, champagne-peach shimmer eyeshadow, soft brown eyeliner, lifted lashes, subtle aegyo-sal highlight, coral-peach blush, and glossy coral-rose gradient lips.\n\nOne hand rests gently near the hair or side of the face without covering features. Show elegant long almond nails with {argument name=\"nail style\" default=\"translucent aqua jelly polish, gold chrome wave details, tiny crystals, pearl droplets\"}, and a glossy water-like finish.\n\nUltra-realistic DSLR beauty photography, 85mm lens, shallow depth of field, sharp facial details, soft background blur, cinematic teal-orange grading, subtle 35mm film grain, gentle bloom, high-definition Korean editorial style.\n\nAspect ratio: 1:1 square profile picture or 3:4.\n\nNegative prompt: changed identity, different face, beautified face, plastic or over-smoothed skin, distorted features, bad anatomy, extra fingers, deformed hands, hair covering eyes, harsh neon lighting, low quality, cartoon, anime, text, logo, watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "color grade",
+        "default": "teal-and-orange"
+      },
+      {
+        "name": "clothing",
+        "default": "dark chocolate brown or black satin thin-strap top"
+      },
+      {
+        "name": "nail style",
+        "default": "translucent aqua jelly polish, gold chrome wave details, tiny crystals, pearl droplets"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788764292371_uv7wha_HRiuKW5bcAEUSrT.jpg",
+        "alt": "Korean Editorial Beauty Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Elvorya",
+      "url": "https://x.com/Elvorya"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Elvorya/status/2096617128753516585"
+    },
+    "publishedAt": "2026-09-06T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33662",
+    "contentHash": "706f5c8ab95864f5d943dcc052d469e92ae2e2ec"
+  },
+  {
+    "id": "nano-banana-pro:33665",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "33665",
+    "title": "Indian Woman Window Portrait",
+    "category": "Profile / Avatar",
+    "description": "A delicate and detailed portrait of a young Indian woman in a lavender dress, set by a window with soft lighting.",
+    "promptText": "A {argument name=\"subject\" default=\"beautiful young Indian woman\"} with soft natural makeup, hair tied up in messy bun with loose strands framing face, wearing a {argument name=\"outfit\" default=\"pastel lavender sleeveless maxi dress with tie-up bows on shoulders and pearl bead embellishments on bodice\"}, sweetheart neckline, sitting on a chair with arms crossed gently hugging her own arms, soft smile looking at camera, pearl necklace with small pendant, silver metal wrist watch on left wrist, delicate pearl bracelets on right wrist, {argument name=\"setting\" default=\"indoor setting near a window\"}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "beautiful young Indian woman"
+      },
+      {
+        "name": "outfit",
+        "default": "pastel lavender sleeveless maxi dress with tie-up bows on shoulders and pearl bead embellishments on bodice"
+      },
+      {
+        "name": "setting",
+        "default": "indoor setting near a window"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788764294500_6nekrh_HRik2nObcAAdh4t.jpg",
+        "alt": "Indian Woman Window Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Aynelle",
+      "url": "https://x.com/aynellex"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/aynellex/status/2096606893976482178"
+    },
+    "publishedAt": "2026-09-06T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33665",
+    "contentHash": "7be944b16790814cec7a32fb4022d46099e90ff5"
+  },
+  {
+    "id": "nano-banana-pro:33567",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "33567",
+    "title": "Cinematic Selective Color Portrait",
+    "category": "Profile / Avatar",
+    "description": "An image-to-image restoration and transformation prompt that creates a dark, intense cinematic portrait with selective color effects based on an uploaded photo.",
+    "promptText": "Create a dark, intense cinematic close-up portrait of the {argument name=\"subject\" default=\"uploaded man\"} with messy, styled hair with loose strands, staring over his shoulder into the camera with a deep, serious, intense sad look. His body turned to the side, left arm is raised accross the face to the ear with elbow extending upward and forward covering his face only one eye visible, creating a strong layered pose. He wears a {argument name=\"clothing\" default=\"dark teal-blue rolled up sleeve open silk shirt\"}, clean chest slightly visible. DSLR quality, shot taken from side while he is looking. Keep the face mostly desaturated with natural skin tones while the shirt remains rich deep teal-blue, creating a selective-color cinematic look. Dramatic low-key side lighting, deep black shadows, subtle film grain, high contrast, moody black background with lower foreground, slight vignette, realistic skin texture, shallow depth of field, editorial fashion photography, 85mm lens, ultra-realistic, atmospheric, 4:5 portrait. Maintain the face same as the uploaded photo.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "uploaded man"
+      },
+      {
+        "name": "clothing",
+        "default": "dark teal-blue rolled up sleeve open silk shirt"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788764294501_pvx9xq_HRfyOzraYAAF_lo.jpg",
+        "alt": "Cinematic Selective Color Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Muhammad Jamil",
+      "url": "https://x.com/JamilAI55"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/JamilAI55/status/2096410503090520259"
+    },
+    "publishedAt": "2026-09-06T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33567",
+    "contentHash": "a6118e128a54707e6120bc97ad1e0d762387ec0c"
+  },
+  {
+    "id": "nano-banana-pro:33559",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "33559",
+    "title": "Absurd Sans Serif Meme",
+    "category": "Social Media Post",
+    "description": "A short, effective prompt for generating an absurd meme with specific typography instructions.",
+    "promptText": "absurd meme with the caption: {argument name=\"caption\" default=\"sans serif\"}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "caption",
+        "default": "sans serif"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788764296027_iudgum_HRf0jFHaMAAkukf.jpg",
+        "alt": "Absurd Sans Serif Meme",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "larped",
+      "url": "https://x.com/_larpGPT"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/_larpGPT/status/2096413501770359093"
+    },
+    "publishedAt": "2026-09-06T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33559",
+    "contentHash": "d906e37368d1947798661c682b80681c591ed698"
+  },
+  {
     "id": "nano-banana-pro:33565",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
@@ -286,44 +458,6 @@
     "publishedAt": "2026-09-05T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33465",
     "contentHash": "97256ec7ebb42c4476d982df5939bca40327e2e6"
-  },
-  {
-    "id": "nano-banana-pro:33559",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "33559",
-    "title": "Absurd Meme with Custom Caption",
-    "category": "Social Media Post",
-    "description": "A simple prompt for generating an absurd meme style image with a specific sans-serif font caption.",
-    "promptText": "absurd meme with the caption: {argument name=\"caption\" default=\"sans serif\"}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "caption",
-        "default": "sans serif"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788676670841_lwts26_HRf0jFHaMAAkukf.jpg",
-        "alt": "Absurd Meme with Custom Caption",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "larped",
-      "url": "https://x.com/_larpGPT"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/_larpGPT/status/2096413501770359093"
-    },
-    "publishedAt": "2026-09-06T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33559",
-    "contentHash": "25cd7676a1541d476702c7fcb9d521ad7d80dee6"
   },
   {
     "id": "nano-banana-pro:33563",
@@ -6906,132 +7040,5 @@
     "publishedAt": "2026-08-24T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32512",
     "contentHash": "499a1d8ad73d122930ed46f157544f365a90deb6"
-  },
-  {
-    "id": "nano-banana-pro:32513",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "32513",
-    "title": "Mediterranean Yacht Club Editorial",
-    "category": "Social Media Post",
-    "description": "A sharp, high-contrast editorial prompt for a man at a waterfront restaurant with luxury yachts in the background, utilizing hard natural sunlight.",
-    "promptText": "A young adult male with dark curly hair sits casually at a 45-degree angle towards the right, gazing downward through geometric sunglasses with a serious, focused, and candid expression. He is dressed in a fitted warm gray long-sleeve crewneck shirt, maintaining relaxed, perfectly level shoulders. His right hand holds the top right edge of a dark open menu, his thumb resting naturally on the front cover pointing slightly upward while his fingers remain organically tucked behind. The scene unfolds on a waterfront restaurant patio, where he sits straight on at eye level behind a wooden table in the immediate foreground. This table arrangement features an empty pristine clear wine glass catching bright light reflections, a small worn light-wood traditional pepper grinder, a new clear glass olive oil bottle containing dark golden oil, a white plate with a cloth napkin, a vintage woven wicker chair back exhibiting a light tan and pale blue-green pattern, and a smooth dark olive-green pot blooming with vibrant white Kalanchoe flower clusters. Behind him, a worn silver metallic patio umbrella pole extends vertically out of frame, giving way to a deep, gently soft background revealing a Mediterranean seaside environment with distant landmasses under a cloudy blue summer sky, alongside massive multi-deck white luxury motor yachts featuring dark tinted windows and radar domes resting on deep ocean blue waters. The atmosphere is illuminated by bright, highly directional hard natural sunlight striking from the front and top right at a 45-degree angle, bathing the scene in a warm golden light with absolutely no ambient fill. This intense single light source creates an energetic, highly saturated, and high-contrast environment, casting short, deep black, harsh-edged shadows under his chin, onto his cheeks from his sunglasses, and beneath the foreground objects, while preserving crisp specular highlights on his textured hair, shoulders, the rims of the glassware, and the brilliant white yachts. The luxurious, breezy seaside dining aesthetic is captured as a medium-shot editorial digital photograph with a clean, structured visual style and a complementary palette emphasizing deep ocean blue, warm gray, crisp white, and warm wood tones. Shot with a 35mm lens at f/4 and a fast 1/1000s shutter speed at ISO 100 to ensure tack-sharp focus on the subject while retaining context in the distinct but naturally blurred background, the image utilizes post-processing that enhances blue and white saturation, slightly lifts shadows to maintain the dark shirt's detail, and warms the overall white balance to emphasize the sunny Mediterranean atmosphere, all perfectly framed in a 4:5 aspect ratio.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787639846316_5jwkga_HQZQOloXcAAnqgc.jpg",
-        "alt": "Mediterranean Yacht Club Editorial",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Picts by AI",
-      "url": "https://x.com/pictsbyai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/pictsbyai/status/2091802189161447609"
-    },
-    "publishedAt": "2026-08-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32513",
-    "contentHash": "49508bd7042e7111252450825b7b1a5bf814c82e"
-  },
-  {
-    "id": "nano-banana-pro:32501",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "32501",
-    "title": "Whimsical Coloring Page Illustration",
-    "category": "Infographic / Edu Visual",
-    "description": "A playful black and white line drawing prompt for a dense, sticker-style coloring page with customizable text.",
-    "promptText": "A black and white line drawing features the text \"{argument name=\"quote\" default=\"DOING MY BEST RESULTS MAY VARY\"}\" in large, bold, bubble-style lettering. The text is surrounded by various cute and whimsical elements, including smiling stars, a cat face, clouds, daisies, hearts, cupcakes, a boba tea, and sparkly starbursts. The overall composition is dense and playful, designed as a coloring page.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "quote",
-        "default": "DOING MY BEST RESULTS MAY VARY"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787639835929_41tdel_HPMiazuWYAA5e7F.jpg",
-        "alt": "Whimsical Coloring Page Illustration",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Heather Green",
-      "url": "https://x.com/heathergreen"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/heathergreen/status/2091812770274492604"
-    },
-    "publishedAt": "2026-08-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32501",
-    "contentHash": "238cad09e5d4e1d7bf6b2b81eb1e3133c58bfe3c"
-  },
-  {
-    "id": "nano-banana-pro:32402",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "32402",
-    "title": "Indonesian Woman Hijab Portrait",
-    "category": "Profile / Avatar",
-    "description": "A photorealistic vertical portrait of a Southeast Asian woman wearing a beige hijab and black top against a muted gray wall.",
-    "promptText": "A photorealistic vertical portrait of {argument name=\"subject\" default=\"a young Southeast Asian woman (Indonesian features)\"} standing indoors in front of {argument name=\"background\" default=\"a plain muted gray wall\"}. She wears a smooth light beige hijab wrapped neatly around her head and neck. Her expression is soft and slightly smiling, with gentle eyes looking straight at the camera. She has light natural makeup and clear skin. She is dressed in {argument name=\"outfit\" default=\"a fitted black long-sleeve top and high-waisted light beige trousers\"}. A thin gold metallic chain of a shoulder bag hangs across her body. Soft diffused indoor lighting casts a subtle shadow behind her on the wall. Shallow depth of field, natural skin texture, realistic fabric folds, calm and modest aesthetic, high detail, 4k quality.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "a young Southeast Asian woman (Indonesian features)"
-      },
-      {
-        "name": "background",
-        "default": "a plain muted gray wall"
-      },
-      {
-        "name": "outfit",
-        "default": "a fitted black long-sleeve top and high-waisted light beige trousers"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787552785582_xr3gth_HQJjX9QaUAAL9X7.jpg",
-        "alt": "Indonesian Woman Hijab Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787552785355_ovjx08_HQJjX-DboAAU9cX.jpg",
-        "alt": "Indonesian Woman Hijab Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787552785892_h15ytn_HQJjX9Ya4AAGLFq.jpg",
-        "alt": "Indonesian Woman Hijab Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Feyber | AI Creator",
-      "url": "https://x.com/woleswoosh"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/woleswoosh/status/2091616465212330374"
-    },
-    "publishedAt": "2026-08-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32402",
-    "contentHash": "1607169b61178e060db65819ab386d0001920b81"
   }
 ]
