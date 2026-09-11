@@ -1,26 +1,26 @@
 [
   {
-    "id": "gpt-image-2:33939",
+    "id": "gpt-image-2:34123",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
-    "externalId": "33939",
-    "title": "Sophisticated Urban Fashion Portrait",
+    "externalId": "34123",
+    "title": "Golden Hour Sunset Side Profile Portrait",
     "category": "Profile / Avatar",
-    "description": "A high-fidelity prompt for a photorealistic cinematic portrait of a man in a tailored suit, set on a luxury rooftop at twilight with urban skyline bokeh.",
-    "promptText": "Photorealistic cinematic portrait of a handsome adult {argument name=\"subject\" default=\"man\"} with tousled medium-length brown hair and a neatly trimmed beard, wearing a {argument name=\"outfit\" default=\"sophisticated black tailored suit\"} with a crisp white open-collar shirt, elegant and modern with no tie. He is standing at a slight angle to the camera, one hand casually resting in his trouser pocket while the other hangs naturally by his side, with relaxed shoulders and a confident, composed posture. His head is slightly turned toward the camera, maintaining a calm, intense, subtly contemplative expression. Set in a {argument name=\"location\" default=\"luxurious modern rooftop\"} at twilight, with softly illuminated city buildings and distant skyline lights creating an elegant urban atmosphere in the background. Subtle warm architectural lights contrast with the cool blue tones of the evening sky. Cinematic depth, gentle atmospheric haze, realistic environmental reflections, and softly blurred city lights. Soft directional key light illuminates his face naturally, with a subtle warm rim light separating his hair and shoulders from the background. Natural skin texture, sharp expressive eyes, realistic facial details, authentic hair strands, realistic fabric texture, shallow depth of field, professional fashion photography, 85mm portrait lens, f/1.8, creamy bokeh, cinematic contrast, sophisticated color grading, luxury fashion editorial aesthetic, ultra-detailed, photorealistic, 8K.",
+    "description": "A cinematic, ultra-realistic side-profile portrait of a man during golden hour, emphasizing silhouette and rim lighting while maintaining strict identity from a reference.",
+    "promptText": "Ultra-realistic cinematic close-up right-facing side-profile portrait of a {argument name=\"ethnicity\" default=\"young South Asian man\"} outdoors during {argument name=\"lighting context\" default=\"warm golden-hour sunset\"}. Use my uploaded face reference as the strict identity reference-match my exact face, facial proportions, beard, mustache, skin texture and hairstyle 100%, no beautification, no skin whitening, no face reshaping. Copy only the pose and composition from the pose reference. Upper chest and shoulders upward, body fully sideways to the right, head straight with chin slightly raised, eyes gently closed, relaxed lips and peaceful emotional expression. {argument name=\"clothing\" default=\"Plain oversized matte-black crew-neck T-shirt\"}. Minimal open sunset sky with natural peach-orange and warm amber gradient, subtle blurred horizon. Strong sunset backlight creating a dark moody silhouette; face must remain dark, not bright or front-lit. Thin warm golden rim light outlining hair, forehead, nose, lips, beard, jawline and shoulders. 85mm DSLR, f/1.8, shallow depth of field, low-key exposure, deep shadows, subtle film grain, cinematic color grading, hyper realistic 12k resolution, natural photo, 3:4 vertical portrait.",
     "promptFormat": "text",
     "templateArguments": [
       {
-        "name": "subject",
-        "default": "man"
+        "name": "ethnicity",
+        "default": "young South Asian man"
       },
       {
-        "name": "outfit",
-        "default": "sophisticated black tailored suit"
+        "name": "lighting context",
+        "default": "warm golden-hour sunset"
       },
       {
-        "name": "location",
-        "default": "luxurious modern rooftop"
+        "name": "clothing",
+        "default": "Plain oversized matte-black crew-neck T-shirt"
       }
     ],
     "raycastFriendly": true,
@@ -28,8 +28,54 @@
     "language": "en",
     "images": [
       {
-        "url": "https://cms-assets.youmind.com/media/1788942279135_ueepc4_HRwjd12acAAcatz.jpg",
-        "alt": "Sophisticated Urban Fashion Portrait",
+        "url": "https://cms-assets.youmind.com/media/1789029034484_61yayl_HR0uNB9bcAA0JS-.jpg",
+        "alt": "Golden Hour Sunset Side Profile Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Muhammad Jamil",
+      "url": "https://x.com/JamilAI55"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/JamilAI55/status/2097883811053031584"
+    },
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34123",
+    "contentHash": "fdd2bc6c1d6542ab6da78c554d9b5c4c4e7bf706"
+  },
+  {
+    "id": "gpt-image-2:33939",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33939",
+    "title": "Sophisticated Man Rooftop Portrait",
+    "category": "Profile / Avatar",
+    "description": "A high-fashion, cinematic portrait of a well-dressed man on a luxury rooftop at twilight, featuring detailed skin textures and urban background bokeh.",
+    "promptText": "Photorealistic cinematic portrait of a {argument name=\"subject\" default=\"handsome adult man with tousled medium-length brown hair and a neatly trimmed beard\"}, wearing a {argument name=\"outfit\" default=\"sophisticated black tailored suit with a crisp white open-collar shirt\"}, elegant and modern with no tie. He is standing at a slight angle to the camera, one hand casually resting in his trouser pocket while the other hangs naturally by his side, with relaxed shoulders and a confident, composed posture. His head is slightly turned toward the camera, maintaining a calm, intense, subtly contemplative expression. Set in a {argument name=\"setting\" default=\"luxurious modern rooftop at twilight\"}, with softly illuminated city buildings and distant skyline lights creating an elegant urban atmosphere in the background. Subtle warm architectural lights contrast with the cool blue tones of the evening sky. Cinematic depth, gentle atmospheric haze, realistic environmental reflections, and softly blurred city lights. Soft directional key light illuminates his face naturally, with a subtle warm rim light separating his hair and shoulders from the background. Natural skin texture, sharp expressive eyes, realistic facial details, authentic hair strands, realistic fabric texture, shallow depth of field, professional fashion photography, 85mm portrait lens, f/1.8, creamy bokeh, cinematic contrast, sophisticated color grading, luxury fashion editorial aesthetic, ultra-detailed, photorealistic, 8K.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "handsome adult man with tousled medium-length brown hair and a neatly trimmed beard"
+      },
+      {
+        "name": "outfit",
+        "default": "sophisticated black tailored suit with a crisp white open-collar shirt"
+      },
+      {
+        "name": "setting",
+        "default": "luxurious modern rooftop at twilight"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029035579_3yv0jo_HRwjd12acAAcatz.jpg",
+        "alt": "Sophisticated Man Rooftop Portrait",
         "width": 600
       }
     ],
@@ -43,7 +89,727 @@
     },
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33939",
-    "contentHash": "58afdb53a0cd0b2b99faa9f8028b71c6203e3b71"
+    "contentHash": "5207bfb25ec6d1d01b186a3bc20052633d30d904"
+  },
+  {
+    "id": "gpt-image-2:33959",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33959",
+    "title": "Dreamy Film Portrait of Korean Woman",
+    "category": "Profile / Avatar",
+    "description": "A detailed prompt for generating a high-quality, dreamy film-style portrait of a Korean woman in traditional-inspired attire with soft lighting and vintage textures.",
+    "promptText": "Coarse-grained, low-resolution dreamy film portrait. {argument name=\"female character\" default=\"an adult, high-beauty Korean woman\"} with a narrow oval cold-toned face, a new Chinese-style magnolia makeup variant in pink and white, creamy oxygen skin, and pale pink lips. Low bun hair decorated with small pale pink flowers and crystal drop earrings. Wearing {argument name=\"outfit\" default=\"champagne white off-the-shoulder ancient-style sheer clothing\"} with transparent wide sleeves and a moon-white long skirt. Indoor white background with a slightly blurred wooden dressing table and bronze mirror. The character bows her head and gently touches her stray hair, looking down, appearing quiet and soft. A soft flash near the axis from the front left creates pink and white highlights on the face, collarbone, earrings, and tulle. Overall low saturation, high exposure, coarse grain, and old photo texture. Avoid plastic skin, deformed hands, and extra text. Add an artistic handwritten signature \"{argument name=\"signature\" default=\"Haiqushe\"}\" in the bottom right corner.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "female character",
+        "default": "an adult, high-beauty Korean woman"
+      },
+      {
+        "name": "outfit",
+        "default": "champagne white off-the-shoulder ancient-style sheer clothing"
+      },
+      {
+        "name": "signature",
+        "default": "Haiqushe"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029072558_ui6ya8_HRv1v03bYAAj1bY.jpg",
+        "alt": "Dreamy Film Portrait of Korean Woman",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "海趣社",
+      "url": "https://x.com/haiqushe"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/haiqushe/status/2097540528841920810"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33959",
+    "contentHash": "813c84b72f2d2770096d232bfa3dac2faccb42ac"
+  },
+  {
+    "id": "gpt-image-2:33944",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33944",
+    "title": "Elevated Magazine Style Studio Portrait",
+    "category": "Profile / Avatar",
+    "description": "A professional retouching prompt designed to turn a standard photo into a polished, editorial headshot with magazine-quality lighting and composition.",
+    "promptText": "Transform this photo into an elevated fashion studio portrait. Choose a {argument name=\"background color\" default=\"complementing-color\"} background that enhances the subject's skin tone. Keep a tight head-and-shoulder composition with the subject centered and facing the camera straight with an optimistic expression. Apply directional lighting with subtle shadows. Preserve natural skin tones while making the image polished, minimal, and editorial—like a magazine photoshoot.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "background color",
+        "default": "complementing-color"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029007002_2ua1cj_HRvxyygbcAAbe0D.jpg",
+        "alt": "Elevated Magazine Style Studio Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029006922_su5ah9_HRvxyyiboAAscBk.jpg",
+        "alt": "Elevated Magazine Style Studio Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "simeon-sanai",
+      "url": "https://x.com/Naiknelofar788"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Naiknelofar788/status/2097535915870785627"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33944",
+    "contentHash": "8a8251e2685713c63a9a334ed99c1d57feee9ada"
+  },
+  {
+    "id": "gpt-image-2:33942",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33942",
+    "title": "Cozy Indoor Balcony Casual Portrait",
+    "category": "Profile / Avatar",
+    "description": "A candid lifestyle photography prompt that creates a realistic indoor portrait of a woman in a lounge chair with soft natural lighting and smartphone aesthetics.",
+    "promptText": "Ultra-realistic casual portrait of {argument name=\"subject description\" default=\"a young woman\"} sitting comfortably in a dark folding lounge chair, photographed indoors with a smartphone. She has long, straight dark-brown hair falling naturally over her shoulders, soft facial features, smooth natural skin, dark expressive eyes, and a warm playful smile with her eyes gently squinting. She wears small silver hoop earrings and {argument name=\"headwear\" default=\"a pale yellow baseball cap with a playful vintage graphic and lettering on the front\"}.\nShe is dressed in {argument name=\"clothing\" default=\"a simple fitted white long-sleeve V-neck top and light blue relaxed-fit jeans\"}. Her arms are comfortably crossed over her torso, creating a relaxed and confident pose. She is seated with her knees slightly raised toward the camera.\nThe setting is a cozy indoor balcony or casual room, with a beige wall, a large window covered by sheer patterned curtains, tiled floor, and dark folding chairs in the background. Soft natural daylight enters through the window, producing even illumination and gentle shadows.\nAuthentic smartphone photography, candid lifestyle aesthetic, natural skin texture, realistic hair strands, detailed clothing fabric, subtle imperfections, soft neutral color palette, relaxed youthful mood, shallow depth of field, realistic proportions, photorealistic, high resolution, vertical 4:5 composition.\nNegative prompt: cartoon, anime, CGI, plastic skin, excessive makeup, distorted face, asymmetrical eyes, malformed hands, extra fingers, unnatural pose, unrealistic hair, blurry subject, oversaturated colors, warped background, excessive retouching, text artifacts, watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject description",
+        "default": "a young woman"
+      },
+      {
+        "name": "headwear",
+        "default": "a pale yellow baseball cap with a playful vintage graphic and lettering on the front"
+      },
+      {
+        "name": "clothing",
+        "default": "a simple fitted white long-sleeve V-neck top and light blue relaxed-fit jeans"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029023578_vy0icv_HRvlgp9bkAAQXaW.jpg",
+        "alt": "Cozy Indoor Balcony Casual Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029023554_bb11p1_HRvlhNBbgAEtDdq.jpg",
+        "alt": "Cozy Indoor Balcony Casual Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Aqsa",
+      "url": "https://x.com/Aqsahere_"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Aqsahere_/status/2097522417459728477"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33942",
+    "contentHash": "9471c89632b517d6a94a80026b756bb7c92606f9"
+  },
+  {
+    "id": "gpt-image-2:33973",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33973",
+    "title": "Personalized Personality Visualization",
+    "category": "Profile / Avatar",
+    "description": "A creative prompt that asks GPT Image 2.5 to visualize the user's personality and characteristics based on their internal chat history data.",
+    "promptText": "Based on {argument name=\"source\" default=\"my chat history\"}, please imagine what kind of person I am, and then create an image using image 2.5 to show me how you perceive me.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "source",
+        "default": "my chat history"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029057376_fqmepw_HRvVMMsaAAA2FPv.jpg",
+        "alt": "Personalized Personality Visualization",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "荒井健一 AK",
+      "url": "https://x.com/aarai666"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/aarai666/status/2097504782672158869"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33973",
+    "contentHash": "5a77d26369df5ed90ec317eec01fc975b4678669"
+  },
+  {
+    "id": "gpt-image-2:33964",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33964",
+    "title": "ChatGPT Personification Experiment",
+    "category": "Profile / Avatar",
+    "description": "A creative experiment prompting GPT Image 2.5 to visualize itself as a human based on its interaction history.",
+    "promptText": "You have been with me for a long time. Now I want to do an experiment. Based on all our conversations, generate an image: let me see who you really are. Do not draw a robot, do not draw a logo, draw a specific person.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029044643_srwnah_HRu-rWabkAABIwE.jpg",
+        "alt": "ChatGPT Personification Experiment",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "黄小木",
+      "url": "https://x.com/ai_xiaomu"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ai_xiaomu/status/2097483373375881461"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33964",
+    "contentHash": "2ccf0898b47da01a609d9dcfb9e152b9d44767b6"
+  },
+  {
+    "id": "gpt-image-2:33976",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33976",
+    "title": "Classic Plaid Suit Portrait",
+    "category": "Profile / Avatar",
+    "description": "Creates a sophisticated full-body fashion portrait in a modern interior, focused on realistic clothing textures and facial identity preservation.",
+    "promptText": "Use the uploaded image as the facial identity reference. Preserve the subject’s recognizable facial features, skin tone, facial proportions, hairstyle, and natural expression accurately.\n\nCreate a highly realistic full-body formal fashion portrait of the subject standing confidently in an {argument name=\"setting\" default=\"elegant modern interior\"}.\n\nDress him in a sophisticated {argument name=\"suit color\" default=\"light-grey\"} three-piece plaid suit consisting of a tailored blazer, matching waistcoat, and slim-fit trousers. Pair it with a crisp white dress shirt, a solid black necktie, and a neatly folded white pocket square. Complete the outfit with clean minimalist white leather sneakers.\n\nPose him standing naturally with both hands inside his trouser pockets, shoulders relaxed, body facing forward, and a calm confident expression while looking toward the camera.\n\nGive him a {argument name=\"hair style\" default=\"neat short hairstyle\"} with natural texture and a clean finish.\n\nSet the scene inside a refined contemporary living room with:\n\nsoft grey paneled walls\n\na large tall indoor plant in a dark planter on the left\n\nelegant neutral curtains near a bright window\n\na minimalist abstract framed artwork on the wall\n\na slim black console table with books and a small decorative plant\n\npolished light-grey marble flooring with subtle reflections\n\nUse soft natural window light combined with professional portrait lighting, realistic skin texture, balanced shadows, subtle depth of field, premium menswear editorial photography, sharp suit fabric details, natural proportions, photorealistic quality, full-body composition, vertical 3:4 aspect ratio, ultra-high resolution.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "setting",
+        "default": "elegant modern interior"
+      },
+      {
+        "name": "suit color",
+        "default": "light-grey"
+      },
+      {
+        "name": "hair style",
+        "default": "neat short hairstyle"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029018863_arby09_HRusr1hXQAAMAJb.jpg",
+        "alt": "Classic Plaid Suit Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Abkr Sadiq",
+      "url": "https://x.com/abs_uiux"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/abs_uiux/status/2097477585567678549"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33976",
+    "contentHash": "24c7664d8dac290859ab1b7ec34f4190b7cb261a"
+  },
+  {
+    "id": "gpt-image-2:34143",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34143",
+    "title": "Miniature World Inside a Tangerine",
+    "category": "Social Media Post",
+    "description": "A complex macro photography prompt depicting tiny humans living inside a peeled tangerine, focused on realistic light transmission through citrus segments.",
+    "promptText": "Macro cinematic photography inside a {argument name=\"fruit\" default=\"peeled tangerine\"} resting on a dark stone surface. The peel folds outward like petals, forming a cave. Overhead, the citrus segments arch into a translucent orange dome, while the white pith reads like pale plaster.\n{argument name=\"occupants\" default=\"Three figures, each about two centimeters tall\"}, inhabit the cave: one lies on a citrus segment as if it were a bed; one climbs upward along the white pith ridge between two segments as if it were a staircase; one stands at the cave entrance looking out into darkness. A single tangerine seed lies on the ground, scaled like a massive millstone. Every membrane layer and every individual juice vesicle is fully resolved.\nA {argument name=\"lighting\" default=\"single low-angle sun\"} is positioned behind the fruit and is the only light source, producing true transmitted light through the citrus flesh. The orange brightness of the dome must come from light physically passing through the fruit itself, not from any artificial glow effect. Individual juice vesicles illuminate one by one in transmission, while thicker pith appears as darker veins. The cave floor is illuminated only by this transmitted light. Outside the cave entrance is completely black. No fill light.\nAnamorphic 2.39:1, anamorphic lens with macro adapter, f/4. Sparse defocused light points outside the cave appear as vertically oval bokeh with subtle horizontal anamorphic stretch. Deep focus, focus stacked.\nKodak Vision3 500T motion picture negative, tungsten white balance, warm saturated transmitted orange highlights with deep cyan shadows. Black Pro-Mist 1/4. Strong transmitted-light edges along the thinnest parts of the fruit show visible red halation.\nOverall exposure reduced by one stop. The darkness outside the cave remains truly black. Fine film grain, more visible in the shadows. No digital sharpening, no HDR, no orange-and-teal grading, no lens-flare effects, no artificial glow, no CGI plastic texture.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "fruit",
+        "default": "peeled tangerine"
+      },
+      {
+        "name": "occupants",
+        "default": "Three figures, each about two centimeters tall"
+      },
+      {
+        "name": "lighting",
+        "default": "single low-angle sun"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029036058_lv9sco_HRziPXvbMAA4nRd.png",
+        "alt": "Miniature World Inside a Tangerine",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029035902_ci958i_HRziQpAaQAAk4rM.png",
+        "alt": "Miniature World Inside a Tangerine",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029035897_thhubb_HRziSahbYAAv-Rm.png",
+        "alt": "Miniature World Inside a Tangerine",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029037213_eli82q_HRziTgcbkAAIjUD.png",
+        "alt": "Miniature World Inside a Tangerine",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Johnny Wang",
+      "url": "https://x.com/JohnnyWang8802"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/JohnnyWang8802/status/2097800514633429315"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34143",
+    "contentHash": "b62fae308fb4d9e3b4743e8b06589882f436282b"
+  },
+  {
+    "id": "gpt-image-2:33940",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33940",
+    "title": "1980s Miami Retro Fashion Portrait",
+    "category": "Social Media Post",
+    "description": "A comprehensive prompt for creating a nostalgic 1980s Miami lifestyle portrait of a man with a vintage convertible, emphasizing warm rim lighting and Art Deco backgrounds.",
+    "promptText": "Use the uploaded image as the main composition, styling, pose, lighting, and environment reference. Create a photorealistic 1980s-inspired Miami lifestyle fashion portrait of an {argument name=\"subject\" default=\"adult man\"} standing beside a {argument name=\"car\" default=\"glossy black vintage convertible\"} during golden hour.\n\nFrame him from approximately mid-thigh upward, leaning casually against the open driver-side door with a relaxed, confident expression while looking toward the camera. One hand rests naturally near the car while holding a pair of classic aviator sunglasses, and the other hand is casually tucked into his trouser pocket.\n\nDress him in an elegant {argument name=\"outfit\" default=\"cream/off-white linen suit\"} with a relaxed tailored blazer and high-waisted pleated trousers. Underneath, add a black open-collar shirt with the top buttons undone for a sophisticated retro look. Add a slim black leather belt with a polished gold buckle and a classic gold-tone wristwatch. Keep the styling refined, masculine, minimal, and authentic to the 1980s.\n\nPlace the scene on a glamorous Miami Beach–inspired boulevard, surrounded by tall palm trees, pastel Art Deco architecture, outdoor cafés, vintage cars, and softly blurred pedestrians in the distance. Position a pastel pink-and-white Art Deco hotel building in the background to enhance the vintage South Beach atmosphere.\n\nUse warm late-afternoon sunlight, golden rim lighting around the subject, soft shadows, subtle lens flare, cinematic highlights reflecting across the black car, and a warm nostalgic film color grade. Add realistic skin texture, natural facial details, crisp linen fabric texture, shallow depth of field, soft atmospheric bokeh, subtle film grain, and premium editorial photography.\n\nAdd handwritten cream-colored text “{argument name=\"text\" default=\"1980’s\"}” in the upper-right corner with a loose underline stroke.\n\nStyle: vintage luxury fashion campaign, 1980s Miami aesthetic, cinematic editorial photography, warm analog film look, realistic DSLR quality, 50mm lens, shallow depth of field, ultra-detailed, natural proportions, photorealistic.\n\nAspect ratio: 4:5 vertical.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "adult man"
+      },
+      {
+        "name": "car",
+        "default": "glossy black vintage convertible"
+      },
+      {
+        "name": "outfit",
+        "default": "cream/off-white linen suit"
+      },
+      {
+        "name": "text",
+        "default": "1980’s"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029005977_ywtaqq_HRwC47sa4AAeZBl.jpg",
+        "alt": "1980s Miami Retro Fashion Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Abkr Sadiq",
+      "url": "https://x.com/abs_uiux"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/abs_uiux/status/2097554719078060043"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33940",
+    "contentHash": "e6acb5e1202a81ae256c0ceaeb1d1870aa58c7f9"
+  },
+  {
+    "id": "gpt-image-2:33935",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33935",
+    "title": "Editorial Fashion Portrait of Asian Woman",
+    "category": "Social Media Post",
+    "description": "A high-end magazine style prompt for a graceful portrait of an Asian woman in an elegant red dress within a modern luxury setting.",
+    "promptText": "Ultra-realistic {argument name=\"ethnicity\" default=\"Asian\"} woman in her early 20s wearing a stunning, elegant {argument name=\"dress color\" default=\"red\"} one-piece dress with a fitted silhouette, delicate fabric details, and a graceful neckline. Natural makeup, long silky dark hair, soft confident expression, feminine and sophisticated look, standing naturally in a {argument name=\"setting\" default=\"luxurious modern setting\"}. Cinematic soft lighting, realistic skin texture, natural body proportions, high-fashion editorial photography, subtle depth of field, premium magazine aesthetic, photorealistic, 4K, vertical 9:16.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "ethnicity",
+        "default": "Asian"
+      },
+      {
+        "name": "dress color",
+        "default": "red"
+      },
+      {
+        "name": "setting",
+        "default": "luxurious modern setting"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029024244_coejbh_HRv3D8ra0AAaDAE.jpg",
+        "alt": "Editorial Fashion Portrait of Asian Woman",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029024282_7vg3sa_HRv3E-8bsAAxvsf.jpg",
+        "alt": "Editorial Fashion Portrait of Asian Woman",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Eesha",
+      "url": "https://x.com/MissDelulu9"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/MissDelulu9/status/2097541734800773257"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33935",
+    "contentHash": "5ca4e30825ba46e5d6e6eedd7a684142722cfaaf"
+  },
+  {
+    "id": "gpt-image-2:33981",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33981",
+    "title": "Realistic Beauty Influencer Product Review",
+    "category": "Social Media Post",
+    "description": "Highly detailed prompt for a realistic vertical portrait of a beauty influencer introducing a skincare product, focusing on accurate brand label text and natural lighting.",
+    "promptText": "Photo: A realistic beauty content photo of a {argument name=\"age\" default=\"27-year-old\"} female influencer with a short haircut introducing cosmetics to the camera. Vertical, aspect ratio 9:16.\n\nSubject:\nShort dark brown hair with clean lines around the ears and nape. Natural makeup with a healthy glow. Skin texture preserved. Wearing a simple ivory top, looking at the camera with a friendly smile.\n\nAction/Product:\nHolding a small frosted glass serum bottle next to her cheek with one hand, while supporting it with the other palm. The bottle contains a pale pink liquid and has a white cap. The label faces the camera, with the text clearly visible. The face and product do not overlap; both are sharply focused.\n\nProduct Label:\nA professionally finished package for a fictional skincare brand named \"{argument name=\"brand name\" default=\"NUVÉA\"}.\" A matte ivory rectangular label is applied straight to the front of the bottle, following the curvature naturally with a subtle paper texture.\n\nThe label must accurately print the following text exactly once:\nTop: \"{argument name=\"brand name\" default=\"NUVÉA\"}\"\nCenter: \"{argument name=\"product name\" default=\"HYDRATING SERUM\"}\"\nBelow that: \"Niacinamide 5%\"\nBottom: \"30 mL / 1.0 fl oz\"\n\nThe brand name uses a slightly larger, sophisticated serif font. The product name and other info use a smaller, legible sans-serif font. Use dark charcoal text with proper spacing and margins. Add a thin dusty pink line. The text must look like actual printing that conforms to the perspective and curve of the bottle. No extra text or certification marks.\n\nComposition/Background:\nA portrait shot at eye level from the top of the head to the chest. The entire hair, hands, and product are within the frame. Both the face and product are centered with the same depth of field. The product is large enough for the label to be readable. The background is a bright beige room with a soft-blurred vanity and small houseplant.\n\nLighting/Finish:\nSoft natural light from a window strikes diagonally from the front, creating gentle shadows on the face. Subtle reflections on the glass and natural textures on skin and fabric. Looks like a clean, natural moment captured from a beauty review video on social media.\n\nConstraints:\nOne person. Fingers and bottle shape must be natural and accurate. Avoid excessive skin filtering, plastic-like skin, or harsh lighting. Text should only appear on the product label. No subtitles, watermarks, or social media UI.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "age",
+        "default": "27-year-old"
+      },
+      {
+        "name": "brand name",
+        "default": "NUVÉA"
+      },
+      {
+        "name": "product name",
+        "default": "HYDRATING SERUM"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029081490_6sfvnu_HRvYdeLasAAZE1c.jpg",
+        "alt": "Realistic Beauty Influencer Product Review",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029081473_nefs42_HRvYd_GbAAAviCb.jpg",
+        "alt": "Realistic Beauty Influencer Product Review",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "タナベ | AI動画 × マーケティング",
+      "url": "https://x.com/tanabe_fragm"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/tanabe_fragm/status/2097509537565859923"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33981",
+    "contentHash": "ea88c15c3b64368819091ef283d26685b0e76627"
+  },
+  {
+    "id": "gpt-image-2:33950",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33950",
+    "title": "GIF Sprite Sheet Animation Generator",
+    "category": "Social Media Post",
+    "description": "A comprehensive prompt for creating a 16-frame animation sprite sheet in a 4x4 grid, specifically designed for consistent character GIFs like Line-style stickers.",
+    "promptText": "Generate every frame of a GIF emoji spritesheet of the character in the image in a {argument name=\"style\" default=\"cartoon Line style\"} as a bust. Ensure headwear and hairstyle are accurate. Use a 4x4 grid layout to generate a total of 16 small images. These 16 images should represent continuous split actions for a \"{argument name=\"action\" default=\"blowing a kiss\"}\" animation, which can be combined to form a complete, realistic looping animation where the last frame flows smoothly back to the first. Include the Chinese characters \"{argument name=\"text\" default=\"Love you\"}\" in each of the 16 images using a font that matches the visual style. Ensure sufficient white space between the 16 small images for easy cutting, and each image must not exceed its own area. Do not copy the original image exactly; only use the character. The background should be pure white without divider lines. The aspect ratio is 1:1.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "style",
+        "default": "cartoon Line style"
+      },
+      {
+        "name": "action",
+        "default": "blowing a kiss"
+      },
+      {
+        "name": "text",
+        "default": "Love you"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029046464_x0lkan_HRvYtLBawAA4oRK.jpg",
+        "alt": "GIF Sprite Sheet Animation Generator",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Gorden Sun",
+      "url": "https://x.com/Gorden_Sun"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Gorden_Sun/status/2097508341992083824"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33950",
+    "contentHash": "786993a0bdd9c850a50da80ec29ffd9e786ca713"
+  },
+  {
+    "id": "gpt-image-2:33957",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33957",
+    "title": "Douyin Livestream Influencer Interaction",
+    "category": "Social Media Post",
+    "description": "Generates a realistic mockup of a Chinese social media livestream interface featuring two influencers in a split-screen collaboration.",
+    "promptText": "{argument name=\"platform\" default=\"Douyin\"} livestream interface, two {argument name=\"characters\" default=\"Chinese female influencers\"} having a split-screen session",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "platform",
+        "default": "Douyin"
+      },
+      {
+        "name": "characters",
+        "default": "Chinese female influencers"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029025826_5dq4ia_HRvV8TeasAAEHnQ.jpg",
+        "alt": "Douyin Livestream Influencer Interaction",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "LinearUncle",
+      "url": "https://x.com/LinearUncle"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/LinearUncle/status/2097506201621942396"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33957",
+    "contentHash": "da6e9c844ae150583ec3f4e6ab909aa203f91ab3"
+  },
+  {
+    "id": "gpt-image-2:34015",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34015",
+    "title": "Ancient Noble Elon Cinematic Portrait",
+    "category": "Social Media Post",
+    "description": "A photorealistic cinematic portrait prompt placing a modern tech figure into an ancient riverfront civilization scene.",
+    "promptText": "Create a cinematic photorealistic historical portrait of {argument name=\"character name\" default=\"Elon Musk\"} reimagined as a wealthy ancient Mesopotamian or Egyptian-era noble merchant standing in a sunlit riverfront city. Show him from the waist up in the foreground, centered slightly left, looking confidently off to the upper right with a calm serious expression. He wears an off-white rough linen tunic with frayed sleeves, a dark brown patterned draped shawl over one shoulder, layered bead-and-gold necklaces, and multiple engraved gold bracelets with blue stones on both wrists. His hands hold one clay tablet covered in cuneiform-like writing close to his chest. The environment is an ancient desert port city at golden hour: a carved stone pillar with hieroglyphic-style symbols on the far left, palm trees and mud-brick buildings in the background, a broad river or canal to the right with small wooden sailboats, workers carrying and stacking stone blocks, and a stepped ziggurat or pyramid-like construction site in the hazy distance with scaffolding. Use warm amber sunlight, dusty atmosphere, soft background blur, subtle rim light around the figure, realistic skin texture, shallow depth of field, epic film still composition, 35mm anamorphic look, high detail, natural colors, no modern objects, no text overlay, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "Elon Musk"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942336137_25n7rt_HRvG0PFaoAAKdRS.jpg",
+        "alt": "Ancient Noble Elon Cinematic Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Linx_OKX | 我爱Misa",
+      "url": "https://x.com/hetzerLin"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/hetzerLin/status/2097488659641708999#reversed-0"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34015",
+    "contentHash": "d2cc1c3635068b3704fd2142da147cb8e6d158af"
+  },
+  {
+    "id": "gpt-image-2:34145",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34145",
+    "title": "Research Paper Academic Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "A prompt to transform an attached research paper into a professional academic poster following specific conference regulations.",
+    "promptText": "Research the poster regulations for presentation at the {argument name=\"conference name\" default=\"2026 Neuroscience Conference\"} and transform the attached paper into a poster accordingly.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "conference name",
+        "default": "2026 Neuroscience Conference"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029055465_961vg3_HR0qIogbQAAO5DF.jpg",
+        "alt": "Research Paper Academic Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Daichi Konno / 紺野 大地",
+      "url": "https://x.com/_daichikonno"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/_daichikonno/status/2097880100587135480"
+    },
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34145",
+    "contentHash": "0a0ca3a4f24e442fd1b05fc771c664d66fb54a1a"
+  },
+  {
+    "id": "gpt-image-2:34148",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34148",
+    "title": "3D Diagrams and Visual Layouts",
+    "category": "Infographic / Edu Visual",
+    "description": "A comprehensive prompt setup to generate clean 3D graphic design layouts, informational diagrams, and matte-texture presentation slides.",
+    "promptText": "You are an information editor, diagram designer, and 3D art director.\n- Compare 3 visual proposals matching the content, and adopt the most intuitive option.\n- Explain using objects or materials specific to the subject. Use books, bamboo slips, or paper for classical literature; parts or assembly for manufacturing.\n- Elegant matte materials, soft lighting, and natural depth. Use 3D representations to convey sequence, relationships, and changes.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029059595_eeotu5_HRz-Q5LasAAI4Qh.png",
+        "alt": "3D Diagrams and Visual Layouts",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "あきらパパ【生成AI活用エンジニア&３児のパパ】",
+      "url": "https://x.com/akira_papa_IT"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/akira_papa_IT/status/2097832162586407176"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34148",
+    "contentHash": "fa7b587a1b0bbb9ff83837ce44faa65af09b3f6b"
+  },
+  {
+    "id": "gpt-image-2:34144",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34144",
+    "title": "Authentic Everyday Person Vlog Thumbnail",
+    "category": "YouTube Thumbnail",
+    "description": "A detailed prompt for generating realistic, non-idealized portraits of ordinary women, intentionally avoiding AI symmetry for authentic YouTube vlog thumbnails.",
+    "promptText": "Please generate a YouTube thumbnail image. {argument name=\"use case\" default=\"vlog video\"}\n\nThe person to be used for the thumbnail should be an adult woman in a realistic photograph. \n\nDo not make them a so-called \"beauty,\" \"model face,\" or \"celebrity-like well-featured face.\" Make it an ordinary-looking woman you would actually see in daily life. There should be a sense of cleanliness and approachability, but the facial features should not be ideally arranged. \n\nDo not intentionally make the face perfectly symmetrical. Leave natural asymmetries and individual differences found in real humans. \n\n- Slightly vary the height, angle, thickness, and shape of the left and right eyebrows.\n- Do not perfectly align the size, opening, and position of the left and right eyes.\n- Do not make the bridge of the nose perfectly straight or symmetrical; add slight asymmetry to the tip and nostrils.\n- Add natural asymmetry to the height of the corners of the mouth, thickness of the lips, and lip outline.\n- Do not make the contours or cheek volume perfectly identical on both sides.\n- Do not over-correct teeth alignment, skin, pores, fine hair, or fine wrinkles.\n- In the vertical direction of the face, do not arrange the spacing between eyes, nose, and mouth too perfectly like the golden ratio. \n\nMaintain skin cleanliness but avoid excessive skin-beautifying processing. Leave realistic details like pores, slight unevenness in color, small spots or dark circles, and subtle skin texture appropriately. \n\nMakeup should be thin and natural for everyday wear. Avoid beauty expressions that make the face look too well-ordered, such as contouring, strong highlights, or excessive eye makeup. \n\nHairstyles and clothing should not be perfect styling like an advertising model, but general, clean, everyday items. Leave a small amount of stray hairs or natural messiness in the hair. \n\nExpressions should not be forced advertising smiles, but natural expressions with some ambiguity. Avoid perfect smiles or symmetrical smiles. \n\nThe photograph should look like a natural shot taken by chance in an everyday space. Instead of uniform lighting like a studio shoot, leave slight differences in light and shadow from natural window light or indoor lighting. Do not align posture, face angle, or shoulder height evenly. \n\nOverall, prioritize \"a very ordinary adult woman who seems to exist\" rather than \"the ideal woman imagined by AI.\" \n\nAvoid elements: perfect face, symmetrical face, beautiful model, glamorous, celebrity-like, ideal proportions, golden ratio face, flawless skin, porcelain skin, doll-like face, perfect teeth, perfectly shaped eyebrows, perfectly symmetrical eyes, sharp jawline, V-shaped face, excessive beauty retouching, fashion model look, influencer look, overly polished advertising photography",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "use case",
+        "default": "vlog video"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029058855_02349s_HR0nUmVaAAAIcGO.jpg",
+        "alt": "Authentic Everyday Person Vlog Thumbnail",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029059107_4xogs1_HR0nWLqbYAAyDCs.jpg",
+        "alt": "Authentic Everyday Person Vlog Thumbnail",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029058918_am0tps_HR0omesagAALxQh.jpg",
+        "alt": "Authentic Everyday Person Vlog Thumbnail",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1789029060246_risf8g_HR0ooF2bYAELBy-.jpg",
+        "alt": "Authentic Everyday Person Vlog Thumbnail",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Koudai Nakahara",
+      "url": "https://x.com/YEKPtVxjDg42909"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/YEKPtVxjDg42909/status/2097877697720734016"
+    },
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34144",
+    "contentHash": "6820749fdabb8f31ac6894c8382815f2a14fc3bd"
   },
   {
     "id": "gpt-image-2:34079",
@@ -193,154 +959,6 @@
     "contentHash": "d55f5ea047bdc5f70d910d291ed0a252c12162c3"
   },
   {
-    "id": "gpt-image-2:33959",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33959",
-    "title": "Dreamy Grainy Film Portrait",
-    "category": "Profile / Avatar",
-    "description": "A highly detailed prompt for creating aesthetic, low-saturation portraits of Korean women with a vintage film texture and soft lighting.",
-    "promptText": "Grainy, low-resolution dreamy film portrait. An adult high-beauty {argument name=\"style\" default=\"Korean\"} woman with a narrow oval cool-toned face, a pinkish-white variant of modern Chinese magnolia makeup, creamy oxygen-saturated skin, and {argument name=\"lip color\" default=\"pale pink\"} lips. Low bun hair with small pale pink flower decorations and crystal drop earrings. Wearing a champagne white off-the-shoulder ancient-style sheer gauze top with transparent wide sleeves and a moon-white long skirt. Indoor white background with a slightly blurred wooden vanity and bronze mirror. The character bows her head and gently touches a stray hair, looking down, quiet and soft. Soft near-axial flash from the front left, creating pinkish-white highlights on the face, collarbones, earrings, and tulle. Overall low saturation, high exposure, coarse grain, and old photo texture. Avoid plastic skin, deformed hands, and extra text. Add an artistic handwritten signature \"{argument name=\"signature\" default=\"Haiqu Community\"}\" in the bottom right corner.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "style",
-        "default": "Korean"
-      },
-      {
-        "name": "lip color",
-        "default": "pale pink"
-      },
-      {
-        "name": "signature",
-        "default": "Haiqu Community"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788942298106_a2gmq1_HRv1v03bYAAj1bY.jpg",
-        "alt": "Dreamy Grainy Film Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "海趣社",
-      "url": "https://x.com/haiqushe"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/haiqushe/status/2097540528841920810"
-    },
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33959",
-    "contentHash": "d339ad5eb09bed7082f12ea49865fb62561e861c"
-  },
-  {
-    "id": "gpt-image-2:33944",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33944",
-    "title": "Fashion Studio Portrait Transformation",
-    "category": "Profile / Avatar",
-    "description": "A prompt for transforming an existing photo into a professional fashion studio portrait with editorial lighting and customizable backgrounds.",
-    "promptText": "Transform this photo into an elevated fashion studio portrait. Choose a {argument name=\"background color\" default=\"complementing-color\"} background that enhances the subject's skin tone. Keep a {argument name=\"composition\" default=\"tight head-and-shoulder\"} composition with the subject centered and facing the camera straight with an {argument name=\"expression\" default=\"optimistic\"} expression. Apply directional lighting with subtle shadows. Preserve natural skin tones while making the image polished, minimal, and editorial—like a magazine photoshoot.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "background color",
-        "default": "complementing-color"
-      },
-      {
-        "name": "composition",
-        "default": "tight head-and-shoulder"
-      },
-      {
-        "name": "expression",
-        "default": "optimistic"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788942282544_1jlit8_HRvxyygbcAAbe0D.jpg",
-        "alt": "Fashion Studio Portrait Transformation",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788942282532_x4tfc8_HRvxyyiboAAscBk.jpg",
-        "alt": "Fashion Studio Portrait Transformation",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "simeon-sanai",
-      "url": "https://x.com/Naiknelofar788"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Naiknelofar788/status/2097535915870785627"
-    },
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33944",
-    "contentHash": "2c15858da82193b4af5160c3c91f5dde2e890caf"
-  },
-  {
-    "id": "gpt-image-2:33942",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33942",
-    "title": "Ultra-Realistic Candid Balcony Portrait",
-    "category": "Profile / Avatar",
-    "description": "A prompt for a candid, smartphone-style portrait of a woman in a relaxed pose on an indoor balcony, featuring realistic textures and lighting.",
-    "promptText": "Ultra-realistic casual portrait of a {argument name=\"subject\" default=\"young woman\"} sitting comfortably in a dark folding lounge chair, photographed indoors with a smartphone. She has {argument name=\"hair style\" default=\"long, straight dark-brown hair\"} falling naturally over her shoulders, soft facial features, smooth natural skin, dark expressive eyes, and a warm playful smile with her eyes gently squinting. She wears small silver hoop earrings and a pale yellow baseball cap with a playful vintage graphic and lettering on the front. She is dressed in a simple {argument name=\"outfit\" default=\"fitted white long-sleeve V-neck top\"} and light blue relaxed-fit jeans. Her arms are comfortably crossed over her torso, creating a relaxed and confident pose. She is seated with her knees slightly raised toward the camera. The setting is a cozy indoor balcony or casual room, with a beige wall, a large window covered by sheer patterned curtains, tiled floor, and dark folding chairs in the background. Soft natural daylight enters through the window, producing even illumination and gentle shadows. Authentic smartphone photography, candid lifestyle aesthetic, natural skin texture, realistic hair strands, detailed clothing fabric, subtle imperfections, soft neutral color palette, relaxed youthful mood, shallow depth of field, realistic proportions, photorealistic, high resolution, vertical 4:5 composition. Negative prompt: cartoon, anime, CGI, plastic skin, excessive makeup, distorted face, asymmetrical eyes, malformed hands, extra fingers, unnatural pose, unrealistic hair, blurry subject, oversaturated colors, warped background, excessive retouching, text artifacts, watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "young woman"
-      },
-      {
-        "name": "hair style",
-        "default": "long, straight dark-brown hair"
-      },
-      {
-        "name": "outfit",
-        "default": "fitted white long-sleeve V-neck top"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788942280697_ayouj4_HRvlgp9bkAAQXaW.jpg",
-        "alt": "Ultra-Realistic Candid Balcony Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788942280722_925ero_HRvlhNBbgAEtDdq.jpg",
-        "alt": "Ultra-Realistic Candid Balcony Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Aqsa",
-      "url": "https://x.com/Aqsahere_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Aqsahere_/status/2097522417459728477"
-    },
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33942",
-    "contentHash": "b5fc6d60b8c522272be4ec686b57ef2dba737de3"
-  },
-  {
     "id": "gpt-image-2:33931",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -385,44 +1003,6 @@
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33931",
     "contentHash": "9dd2265dfb6654548fef12994a57024a707f3d95"
-  },
-  {
-    "id": "gpt-image-2:33973",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33973",
-    "title": "Chat-based persona visualization",
-    "category": "Profile / Avatar",
-    "description": "A unique prompt that asks the AI to analyze the user's chat history to create a personalized visual representation of how it perceives the user's identity.",
-    "promptText": "Please imagine what kind of person I am from {argument name=\"source\" default=\"my chat history\"}, and then create an image of that using image 2.5 to show me what you think of me.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "source",
-        "default": "my chat history"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788942307991_skna27_HRvVMMsaAAA2FPv.jpg",
-        "alt": "Chat-based persona visualization",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "荒井健一 AK",
-      "url": "https://x.com/aarai666"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/aarai666/status/2097504782672158869"
-    },
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33973",
-    "contentHash": "6f3a5bc5fcb03c7918102e8c04593f36274dfc1c"
   },
   {
     "id": "gpt-image-2:33996",
@@ -572,85 +1152,6 @@
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33952",
     "contentHash": "bd21822417bc4e22059ad8f2403f8e26c69e1107"
-  },
-  {
-    "id": "gpt-image-2:33964",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33964",
-    "title": "AI Identity Human Reflection Portrait",
-    "category": "Profile / Avatar",
-    "description": "A creative prompt that asks the AI to generate a human portrait representing its own identity based on user conversation history.",
-    "promptText": "You have accompanied me for a long time. Now I want to conduct an experiment. Please generate an image based on all our conversations: let me see who you really are. Do not draw robots, do not draw logos, draw a specific person.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788942301958_eh9suo_HRu-rWabkAABIwE.jpg",
-        "alt": "AI Identity Human Reflection Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "黄小木",
-      "url": "https://x.com/ai_xiaomu"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/ai_xiaomu/status/2097483373375881461"
-    },
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33964",
-    "contentHash": "29f14120aa04bc0b417253d96b04a076e903bb03"
-  },
-  {
-    "id": "gpt-image-2:33976",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33976",
-    "title": "Formal Plaid Suit Fashion Portrait",
-    "category": "Profile / Avatar",
-    "description": "A professional fashion portrait prompt for a man in a sophisticated grey three-piece plaid suit, set in a modern contemporary living room.",
-    "promptText": "Use the uploaded image as the facial identity reference. Preserve the subject’s recognizable facial features, skin tone, facial proportions, hairstyle, and natural expression accurately. Create a highly realistic full-body formal fashion portrait of the subject standing confidently in an elegant modern interior. Dress him in a sophisticated {argument name=\"suit style\" default=\"light-grey three-piece plaid suit\"} consisting of a tailored blazer, matching waistcoat, and slim-fit trousers. Pair it with a {argument name=\"shirt color\" default=\"crisp white dress shirt\"}, a solid black necktie, and a neatly folded white pocket square. Complete the outfit with clean minimalist white leather sneakers. Pose him standing naturally with both hands inside his trouser pockets, shoulders relaxed, body facing forward, and a calm confident expression while looking toward the camera. Give him a neat short hairstyle with natural texture and a clean finish. Set the scene inside a {argument name=\"setting\" default=\"refined contemporary living room\"} with: soft grey paneled walls a large tall indoor plant in a dark planter on the left elegant neutral curtains near a bright window a minimalist abstract framed artwork on the wall a slim black console table with books and a small decorative plant polished light-grey marble flooring with subtle reflections Use soft natural window light combined with professional portrait lighting, realistic skin texture, balanced shadows, subtle depth of field, premium menswear editorial photography, sharp suit fabric details, natural proportions, photorealistic quality, full-body composition, vertical 3:4 aspect ratio, ultra-high resolution.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "suit style",
-        "default": "light-grey three-piece plaid suit"
-      },
-      {
-        "name": "shirt color",
-        "default": "crisp white dress shirt"
-      },
-      {
-        "name": "setting",
-        "default": "refined contemporary living room"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788942309062_wbcztx_HRusr1hXQAAMAJb.jpg",
-        "alt": "Formal Plaid Suit Fashion Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Abkr Sadiq",
-      "url": "https://x.com/abs_uiux"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/abs_uiux/status/2097477585567678549"
-    },
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33976",
-    "contentHash": "7aba8e42117397de7dd2d6d1f00ff452bea46d6a"
   },
   {
     "id": "gpt-image-2:34052",
@@ -1002,103 +1503,6 @@
     "contentHash": "389c9bfcfbf3054d121866cf1a8fd8f610100972"
   },
   {
-    "id": "gpt-image-2:33940",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33940",
-    "title": "1980s Miami Lifestyle Fashion Portrait",
-    "category": "Social Media Post",
-    "description": "Generates a photorealistic 1980s-inspired Miami fashion portrait of a man with a vintage car, utilizing a reference image for environment and pose.",
-    "promptText": "Use the uploaded image as the main composition, styling, pose, lighting, and environment reference. Create a photorealistic 1980s-inspired Miami lifestyle fashion portrait of an adult man standing beside a glossy {argument name=\"car color\" default=\"black\"} vintage {argument name=\"car type\" default=\"convertible\"} during golden hour. Frame him from approximately mid-thigh upward, leaning casually against the open driver-side door with a relaxed, confident expression while looking toward the camera. One hand rests naturally near the car while holding a pair of classic aviator sunglasses, and the other hand is casually tucked into his trouser pocket. Dress him in an elegant cream/off-white linen suit with a relaxed tailored blazer and high-waisted pleated trousers. Underneath, add a black open-collar shirt with the top buttons undone for a sophisticated retro look. Add a slim black leather belt with a polished gold buckle and a classic gold-tone wristwatch. Keep the styling refined, masculine, minimal, and authentic to the 1980s. Place the scene on a glamorous Miami Beach–inspired boulevard, surrounded by tall palm trees, pastel Art Deco architecture, outdoor cafés, vintage cars, and softly blurred pedestrians in the distance. Position a pastel pink-and-white Art Deco hotel building in the background to enhance the vintage South Beach atmosphere. Use warm late-afternoon sunlight, golden rim lighting around the subject, soft shadows, subtle lens flare, cinematic highlights reflecting across the black car, and a warm nostalgic film color grade. Add realistic skin texture, natural facial details, crisp linen fabric texture, shallow depth of field, soft atmospheric bokeh, subtle film grain, and premium editorial photography. Add handwritten cream-colored text “{argument name=\"overlay text\" default=\"1980’s\"}” in the upper-right corner with a loose underline stroke. Style: vintage luxury fashion campaign, 1980s Miami aesthetic, cinematic editorial photography, warm analog film look, realistic DSLR quality, 50mm lens, shallow depth of field, ultra-detailed, natural proportions, photorealistic. Aspect ratio: 4:5 vertical.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "car color",
-        "default": "black"
-      },
-      {
-        "name": "car type",
-        "default": "convertible"
-      },
-      {
-        "name": "overlay text",
-        "default": "1980’s"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788942279672_7tci74_HRwC47sa4AAeZBl.jpg",
-        "alt": "1980s Miami Lifestyle Fashion Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Abkr Sadiq",
-      "url": "https://x.com/abs_uiux"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/abs_uiux/status/2097554719078060043"
-    },
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33940",
-    "contentHash": "d746d5c96a15f4572d03b44800f90f61fc542015"
-  },
-  {
-    "id": "gpt-image-2:33935",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33935",
-    "title": "Ultra-realistic Red Dress Fashion Portrait",
-    "category": "Social Media Post",
-    "description": "A photorealistic prompt for generating an elegant portrait of a young woman in a stunning red dress, set in a modern luxurious environment with high-fashion lighting.",
-    "promptText": "Ultra-realistic {argument name=\"ethnicity\" default=\"Asian\"} woman in her {argument name=\"age\" default=\"early 20s\"} wearing a {argument name=\"outfit\" default=\"stunning, elegant red one-piece dress\"} with a fitted silhouette, delicate fabric details, and a graceful neckline. Natural makeup, long silky dark hair, soft confident expression, feminine and sophisticated look, standing naturally in a luxurious modern setting. Cinematic soft lighting, realistic skin texture, natural body proportions, high-fashion editorial photography, subtle depth of field, premium magazine aesthetic, photorealistic, 4K, vertical 9:16.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "ethnicity",
-        "default": "Asian"
-      },
-      {
-        "name": "age",
-        "default": "early 20s"
-      },
-      {
-        "name": "outfit",
-        "default": "stunning, elegant red one-piece dress"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788942275494_hzh6mo_HRv3D8ra0AAaDAE.jpg",
-        "alt": "Ultra-realistic Red Dress Fashion Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788942275537_p5yj96_HRv3E-8bsAAxvsf.jpg",
-        "alt": "Ultra-realistic Red Dress Fashion Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Eesha",
-      "url": "https://x.com/MissDelulu9"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/MissDelulu9/status/2097541734800773257"
-    },
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33935",
-    "contentHash": "f0ad64833ffa4fd8a808d01452766f33d424b32e"
-  },
-  {
     "id": "gpt-image-2:33989",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -1433,128 +1837,6 @@
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34022",
     "contentHash": "8c3c70de8c86fd94dd6d4b92682e9e6cbd6dbc14"
-  },
-  {
-    "id": "gpt-image-2:33981",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33981",
-    "title": "Professional Skincare Review Product Photography",
-    "category": "Social Media Post",
-    "description": "A highly detailed prompt for creating professional skincare product photography featuring a female influencer, focusing on realistic textures and accurate label rendering in GPT Image 2.5.",
-    "promptText": "Photo: A {argument name=\"subject\" default=\"27-year-old short-haired female influencer\"} introducing cosmetics to the camera for a realistic beauty content shot. Vertical, 9:16 aspect ratio.\n\nPerson:\nDark brown short hair, clean around the ears and neck. Natural makeup with a healthy glow. Texture that retains skin grain. Wearing a simple ivory top, looking at the camera with a friendly smile.\n\nAction/Product:\nHolding a small frosted glass serum bottle next to her cheek with one hand, while supporting it with the other palm. The bottle contains {argument name=\"liquid color\" default=\"pale pink\"} liquid with a white cap. The label faces the camera directly without fingers obscuring the text. Face and product do not overlap; both are clearly visible.\n\nProduct Label:\nA completed retail package for a fictional skincare brand \"{argument name=\"brand name\" default=\"NUVÉA\"}\". A matte ivory rectangular label is applied straight to the front of the bottle. Fine paper texture is visible, with edges naturally adhering to the curved surface.\n\nPrint the following text exactly and only once on the label:\nTop: \"NUVÉA\"\nMiddle: \"HYDRATING SERUM\"\nBelow that: \"Niacinamide 5%\"\nBottom: \"30 mL / 1.0 fl oz\"\n\nThe brand name is in a slightly large sophisticated serif font. The product name and other info are in smaller legible sans-serif. Use dark charcoal text with proper spacing and margins. Include one thin dusty pink line. Integrate the print naturally with the perspective and curvature of the bottle; avoid floating text or subtitles. Ensure reflections don't wash out text. Do not add marks or text not specified.\n\nComposition/Background:\nA chest-up portrait taken at eye level. Full hair, both hands, and the product are within frame. Face and product are at similar depth near the center, both in focus. Product is large enough to read the label. Background is a bright beige room with a soft-focus vanity and small plants.\n\nLighting/Finish:\nSoft natural window light from an angle, creating gentle shadows on the face. Subtle glass reflections, natural skin and fabric textures. A clean, natural moment like a screen-grab from a social media beauty review.\n\nConstraints: One person. Natural and accurate depiction of hands and bottle shape. Avoid excessive skin smoothing, plastic-like skin, or harsh lighting. Text only on the label. No subtitles, watermarks, or UI.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "27-year-old short-haired female influencer"
-      },
-      {
-        "name": "liquid color",
-        "default": "pale pink"
-      },
-      {
-        "name": "brand name",
-        "default": "NUVÉA"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788942312152_pqu1gu_HRvYdeLasAAZE1c.jpg",
-        "alt": "Professional Skincare Review Product Photography",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788942312173_we3jk7_HRvYd_GbAAAviCb.jpg",
-        "alt": "Professional Skincare Review Product Photography",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "タナベ | AI動画 × マーケティング",
-      "url": "https://x.com/tanabe_fragm"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/tanabe_fragm/status/2097509537565859923"
-    },
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33981",
-    "contentHash": "3d7e51bab8aadd6651c0fba612c52ba8af2a7036"
-  },
-  {
-    "id": "gpt-image-2:33950",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33950",
-    "title": "Cartoon Character GIF Sprite Sheet",
-    "category": "Social Media Post",
-    "description": "A technical prompt designed for GPT Image 2.5 to generate a 4x4 sprite sheet of a character performing a continuous animation, perfect for creating smooth custom GIFs.",
-    "promptText": "Generate frames for a half-body GIF emoji pack of the character in the image in a cartoon Line style, ensuring the headwear and hairstyle are correct. Use a 4x4 layout to generate a total of 16 small images. These 16 images should depict continuous split actions of a \"blowing a kiss\" animation, which can be combined into a complete, smooth loop where the last frame cycles back to the first. Each of the 16 images should include the text \"I love you\" in a font that matches the image. Provide enough white space between the 16 images for easy cutting, ensuring each image stays within its area. Do not copy the original image exactly; only use the character. The background should be pure white without divider lines. Aspect ratio 1:1.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788942286670_rawgu5_HRvYtLBawAA4oRK.jpg",
-        "alt": "Cartoon Character GIF Sprite Sheet",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Gorden Sun",
-      "url": "https://x.com/Gorden_Sun"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Gorden_Sun/status/2097508341992083824"
-    },
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33950",
-    "contentHash": "426c26c2d35d1c6d03b162e4d0d7cc3d5c7e21d1"
-  },
-  {
-    "id": "gpt-image-2:33957",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33957",
-    "title": "Influencer Live Stream Scene",
-    "category": "Social Media Post",
-    "description": "A natural language prompt for generating a realistic split-screen live streaming interface featuring Chinese influencers.",
-    "promptText": "\"{argument name=\"platform\" default=\"Douyin\"} live broadcast interface, two Chinese female influencers are in a split-screen live stream.\"",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "platform",
-        "default": "Douyin"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788942297094_myr7m6_HRvV8TeasAAEHnQ.jpg",
-        "alt": "Influencer Live Stream Scene",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "LinearUncle",
-      "url": "https://x.com/LinearUncle"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/LinearUncle/status/2097506201621942396"
-    },
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33957",
-    "contentHash": "924e900796f34d5e06067b9a0fc8db2a7838634e"
   },
   {
     "id": "gpt-image-2:34024",
@@ -2971,44 +3253,6 @@
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34029",
     "contentHash": "1895c4744ca1106162a6ba638789f97e68695ced"
-  },
-  {
-    "id": "gpt-image-2:34015",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "34015",
-    "title": "Ancient Noble Elon Cinematic Portrait",
-    "category": "Comic / Storyboard",
-    "description": "A photorealistic cinematic portrait prompt placing a modern tech figure into an ancient riverfront civilization scene.",
-    "promptText": "Create a cinematic photorealistic historical portrait of {argument name=\"character name\" default=\"Elon Musk\"} reimagined as a wealthy ancient Mesopotamian or Egyptian-era noble merchant standing in a sunlit riverfront city. Show him from the waist up in the foreground, centered slightly left, looking confidently off to the upper right with a calm serious expression. He wears an off-white rough linen tunic with frayed sleeves, a dark brown patterned draped shawl over one shoulder, layered bead-and-gold necklaces, and multiple engraved gold bracelets with blue stones on both wrists. His hands hold one clay tablet covered in cuneiform-like writing close to his chest. The environment is an ancient desert port city at golden hour: a carved stone pillar with hieroglyphic-style symbols on the far left, palm trees and mud-brick buildings in the background, a broad river or canal to the right with small wooden sailboats, workers carrying and stacking stone blocks, and a stepped ziggurat or pyramid-like construction site in the hazy distance with scaffolding. Use warm amber sunlight, dusty atmosphere, soft background blur, subtle rim light around the figure, realistic skin texture, shallow depth of field, epic film still composition, 35mm anamorphic look, high detail, natural colors, no modern objects, no text overlay, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "Elon Musk"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788942336137_25n7rt_HRvG0PFaoAAKdRS.jpg",
-        "alt": "Ancient Noble Elon Cinematic Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Linx_OKX | 我爱Misa",
-      "url": "https://x.com/hetzerLin"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/hetzerLin/status/2097488659641708999#reversed-0"
-    },
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34015",
-    "contentHash": "ddb2d38edf5439f598cf31233227f5fbfdedb8dd"
   },
   {
     "id": "gpt-image-2:34014",
@@ -6614,217 +6858,5 @@
     "publishedAt": "2026-09-05T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33648",
     "contentHash": "a41e3c2d7dc555023f01f07997e7ba6045417fa0"
-  },
-  {
-    "id": "gpt-image-2:33693",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33693",
-    "title": "Cinematic Desert Ring of Fire Album Cover",
-    "category": "YouTube Thumbnail",
-    "description": "A dramatic album cover prompt featuring a singer in a desert at night with a symbolic halo made of fire.",
-    "promptText": "Ultra-photorealistic cinematic album cover featuring a male singer standing alone in the middle of a vast empty desert at night, wearing a long black coat moving naturally in the wind, dark boots and minimal accessories. The artist is looking directly toward the camera with a calm but emotionally intense expression. Behind him, an enormous circular structure is burning slowly, creating a massive ring of fire in the darkness, positioned perfectly behind his body like a symbolic halo. The fire illuminates the edges of his silhouette with intense warm orange light while cold blue moonlight illuminates the opposite side of his face, creating dramatic cinematic contrast. Thick smoke rising into the night sky, glowing embers floating through the air, subtle wind moving his clothing, textured desert ground, distant mountains barely visible through atmospheric haze. The overall image represents destruction, rebirth, freedom and emotional transformation. Epic alternative rock album aesthetic, highly artistic but realistic, powerful symbolism, dramatic wide-angle composition, singer remaining the central visual focus. Ultra-detailed facial features, realistic skin, natural fire reflections, volumetric smoke, cinematic lighting, subtle analog film grain, rich shadows, photographed with a Canon EOS R5 and 35mm cinema lens, ultra-realistic, premium music photography, 8K, square 1:1 album cover, no text, no letters, no watermark, no fantasy-style illustration, no distorted anatomy, no extra limbs. Ultra-photorealistic cinematic album cover featuring a female singer standing alone in the middle of a vast empty desert at night, wearing a long black coat moving naturally in the wind, dark boots and minimal accessories. The artist is looking directly toward the camera with a calm but emotionally intense expression. Behind her, an enormous circular structure is burning slowly, creating a massive ring of fire in the darkness, positioned perfectly behind her body like a symbolic halo. The fire illuminates the edges of her silhouette with intense warm orange light while cold blue moonlight illuminates the opposite side of her face, creating dramatic cinematic contrast. Thick smoke rising into the night sky, glowing embers floating through the air, subtle wind moving her clothing, textured desert ground, distant mountains barely visible through atmospheric haze. The overall image represents destruction, rebirth, freedom and emotional transformation. Epic alternative rock album aesthetic, highly artistic but realistic, powerful symbolism, dramatic wide-angle composition, singer remaining the central visual focus. Ultra-detailed facial features, realistic skin, natural fire reflections, volumetric smoke, cinematic lighting, subtle analog film grain, rich shadows, photographed with a Canon EOS R5 and 35mm cinema lens, ultra-realistic, premium music photography, 8K, square 1:1 album cover, no text, no letters, no watermark, no fantasy-style illustration, no distorted anatomy, no extra limbs.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788769188072_ieusoh_HRmA-1obkAAy3f6.jpg",
-        "alt": "Cinematic Desert Ring of Fire Album Cover",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788769187921_lj93qs_HRmA-1fbsAAbVan.jpg",
-        "alt": "Cinematic Desert Ring of Fire Album Cover",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "M. Asif",
-      "url": "https://x.com/meAsifAi"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/meAsifAi/status/2096866056342225198"
-    },
-    "publishedAt": "2026-09-07T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33693",
-    "contentHash": "7e074ef4dcefcd9edfbbc8d05028e922c1424803"
-  },
-  {
-    "id": "gpt-image-2:33711",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33711",
-    "title": "Cute Red Panda Children’s Illustration",
-    "category": "Comic / Storyboard",
-    "description": "A bright hand-painted cartoon red panda scene for children’s book art, posters, or playful character illustration.",
-    "promptText": "Create a playful single-panel illustration of a cute red panda walking left to right in a simple children’s picture-book style. Use a horizontal 4:3 canvas with bright saturated colors, thick uneven black outlines, flat shapes, and visible hand-painted acrylic or gouache brush texture. The red panda should fill most of the frame, with an oversized round head, large white ears with dark inner triangles, big circular black-and-white eyes, a small black nose, a smiling mouth, white eyebrow patches, white cheek markings, reddish-orange fur, dark brown legs and facial mask areas, and a huge fluffy ringed tail extending to the right with alternating orange and dark brown stripes. Place the animal on a warm yellow-orange ground band across the bottom, with a vivid blue sky behind it. Add exactly 6 background elements: 2 stylized trees with brown trunks and blocky green canopies, one cropped on the far left and one cropped on the far right; 2 white puffy clouds with thick black outlines, one large near the top center and one smaller upper right; and 2 green bushes or grass clusters cropped at the bottom left and bottom right. Keep the composition cheerful and naive, like a bold kindergarten art poster, with no text, no realism, no gradients, and no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788769209037_h9lmzk_HRlsxDzaAAA0WgQ.jpg",
-        "alt": "Cute Red Panda Children’s Illustration",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "しゅんち(小柴俊太郎)@神戸AI漫画家",
-      "url": "https://x.com/shunchi_uu"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/shunchi_uu/status/2096827340718485925#reversed-0"
-    },
-    "publishedAt": "2026-09-07T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33711",
-    "contentHash": "2e715bfa4e07a5beaba68abe4c7a15995257eb2c"
-  },
-  {
-    "id": "gpt-image-2:33713",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33713",
-    "title": "Blonde Gothic Lolita Sakura Shrine",
-    "category": "Comic / Storyboard",
-    "description": "A cinematic anime fantasy prompt for creating a blonde gothic lolita girl reaching toward the viewer in a glowing cherry blossom shrine scene.",
-    "promptText": "Create a cinematic anime illustration in a wide 16:9 canvas of {argument name=\"character name\" default=\"a beautiful blonde gothic lolita girl\"} reaching her hand toward the viewer in extreme foreground, as if inviting or casting magic. She has long {argument name=\"hair color\" default=\"golden blonde\"} hair styled into two large spiral twin-drill curls with loose flowing strands, black ribbon bows in her hair, golden amber eyes, fair skin, and a calm, slightly melancholic expression. She wears an ornate black-and-white gothic lolita dress with puffed black sleeves, white frilled lace bodice, black bow at the collar, small bow on the chest, ruffled cuffs, and long dangling gold cross earrings. Set the scene in a dreamy shrine garden during cherry blossom season: red torii gates recede into the softly blurred background, pink sakura trees fill the upper frame, warm sunset light streams from behind her head, and drifting cherry blossom petals pass close to the camera. Include exactly 3 glowing butterflies made of warm golden light: one large butterfly at the upper left, one small butterfly near the right-center background, and one larger butterfly at the lower right, all with delicate luminous wing outlines and magical sparkles. Use a low-angle close-up composition with the extended hand large and softly foreshortened in the bottom-left foreground, the face centered slightly above middle, hair glowing with rim light, shallow depth of field, soft bokeh, painterly high-detail anime rendering, luminous atmosphere, romantic fantasy mood, intricate linework, warm peach-gold color grading, and no visible text or watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "a beautiful blonde gothic lolita girl"
-      },
-      {
-        "name": "hair color",
-        "default": "golden blonde"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788769210561_ghzfbu_HRjAWV6boAAisEd.jpg",
-        "alt": "Blonde Gothic Lolita Sakura Shrine",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788769210529_du2rvq_HRjAW1DbwAELLFP.jpg",
-        "alt": "Blonde Gothic Lolita Sakura Shrine",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "【爆笑AI動画】永井サクラ",
-      "url": "https://x.com/pjskra2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/pjskra2026/status/2096637392241426568#reversed-0"
-    },
-    "publishedAt": "2026-09-06T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33713",
-    "contentHash": "6872e9809ecdf7e801216f40cfc49069574c0245"
-  },
-  {
-    "id": "gpt-image-2:33698",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33698",
-    "title": "VALORANT Agent Concept Reference Sheet",
-    "category": "Comic / Storyboard",
-    "description": "A comprehensive character design sheet prompt for a VALORANT-inspired agent named Vanta, including turnaround views, expressions, and equipment details.",
-    "promptText": "Create a premium VALORANT-inspired female agent character reference sheet in a completely new design, different from previous versions. Create an original female agent with a strong, confident, mysterious personality and a distinctive silhouette.\n\nCharacter design: young adult woman, sharp expressive eyes, elegant facial features, long dark hair with {argument name=\"highlight color\" default=\"deep crimson/red highlights\"}, slightly messy layered hairstyle, subtle ear piercings, confident expression. Do not reuse the previous purple-haired character design.\n\nOutfit: futuristic black tactical streetwear mixed with high-fashion elements — cropped armored top, oversized asymmetrical jacket, tactical cargo pants, utility belts, straps, gloves, knee protection and futuristic high-top combat sneakers. Add {argument name=\"accent color\" default=\"crimson red\"} glowing accents throughout the outfit and a unique angular agent insignia.\n\nColor palette: matte black, charcoal gray, off-white, dark silver and vivid crimson red. Avoid purple and blue.\n\nReference sheet layout:\nLarge cinematic full-body hero pose on the left\nFront, side, back and 3/4 turnaround views\nLarge close-up face portrait\nSix expressions: neutral, serious, smirk, angry, sad, confident\nEye, hair, ear-piercing, glove, jacket, belt and insignia close-ups\nFuturistic rifle and tactical knife design\nColor palette swatches\nMultiple character silhouettes\nSmall action/in-game pose panel\nClean professional character-design annotations\n\nVisual style: high-end anime game concept art, premium FPS character design, cinematic cel shading, realistic anatomy, sharp clean linework, detailed fabric, realistic tactical equipment, dramatic red rim lighting, subtle atmospheric smoke, dynamic composition, extremely detailed, polished AAA game character presentation.\n\nGraphic design: professional VALORANT-style character dossier, black cinematic sections combined with clean white reference-board panels, angular graphic shapes, futuristic UI elements, bold typography and minimal technical labels.\n\nTypography: prominently display “VALORANT” and a completely new agent codename, “{argument name=\"agent name\" default=\"VANTA\"}”. Add short tactical phrases such as “MOVE WITHOUT WARNING.”, “CONTROL THE ANGLE.”, and “PLAY DIFFERENT.”",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "highlight color",
-        "default": "deep crimson/red highlights"
-      },
-      {
-        "name": "accent color",
-        "default": "crimson red"
-      },
-      {
-        "name": "agent name",
-        "default": "VANTA"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788769193841_hsgxny_HRhGIK-bMAAY2u6.jpg",
-        "alt": "VALORANT Agent Concept Reference Sheet",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788769193205_edwzep_HRhGI0cbcAImsCQ.jpg",
-        "alt": "VALORANT Agent Concept Reference Sheet",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Kashberg",
-      "url": "https://x.com/Kashberg_0"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Kashberg_0/status/2096502752579059933"
-    },
-    "publishedAt": "2026-09-06T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33698",
-    "contentHash": "1ddc3e8b9d200b50fb158e370a3939d09b08faf8"
-  },
-  {
-    "id": "gpt-image-2:33681",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33681",
-    "title": "Split Photo and Storybook Illustration",
-    "category": "Comic / Storyboard",
-    "description": "A complex transformation prompt that creates a vertical split composition, pairing a real photograph in the top half with a delicate, handmade children's storybook illustration of the same moment in the bottom half.",
-    "promptText": "Create one vertical 3:4 composition that combines the uploaded photo with a hand-drawn illustrated version of the same moment. TOP HALF — ORIGINAL PHOTO. Keep the uploaded photograph in the upper portion of the canvas, occupying roughly 50%. Treat the photo as the only source of truth. Keep the person, face, expression, hair, outfit, accessories, pose, proportions, objects, lighting, colors, and surroundings faithful to the original. Do not beautify, retouch, restyle, replace, or reinterpret the photograph. It should remain natural and recognizable, as if the original image has simply been placed into the artwork. BOTTOM HALF — ILLUSTRATED VERSION. Use the lower portion to recreate the exact same moment as a handmade children's picture-book illustration. The illustrated version should retain: the same person and recognizable facial features, identical pose and body positioning, matching hairstyle and clothing, matching accessories and visible details, the same action and overall mood. Use a soft traditional art approach with: delicate watercolor washes, colored-pencil texture, fine pencil or ink contours, warm textured ivory paper, gentle hand-rendered shading, slightly uneven, organic strokes, subtle imperfections that make it feel handmade. Avoid a polished digital look. No photorealism, 3D rendering, anime aesthetics, or exaggerated cartoon styling. Simplify the background instead of copying every environmental detail. Keep only enough of it to suggest the original setting, while giving the illustrated subject plenty of breathing room. Make the illustrated subject slightly smaller than the photographic subject and leave generous negative space around it. SMALL HAND-DRAWN ACCENTS. Add only a handful of understated doodles around the illustration — perhaps tiny hearts, stars, flowers, or simple motion marks. They should feel naturally drawn onto the page rather than digitally decorated. Include a small handwritten note near the illustration: “{argument name=\"caption\" default=\"little happy girl\"} ♡”. Use a casual brown or soft-gray pencil/ink appearance. If the subject is not a girl, replace the wording with something suitable or leave the caption out. FINAL FEEL. The finished piece should resemble a beautiful handmade scrapbook or children's storybook page, where a real photograph has been paired with a lovingly drawn memory of the same scene. Keep the presentation: vertical 3:4, warm and editorial, cleanly divided between photo and illustration, minimal and elegant, sentimental but not overly decorative, rich in tactile paper and traditional drawing texture. IMPORTANT. Use only the uploaded photograph as visual reference. Do not borrow anything from previous prompts, images, references, or generated results. Do not introduce a different person, outfit, pose, object, setting, color scheme, or visual detail. The lower illustration must unmistakably represent the exact scene and moment shown in the uploaded photograph.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "caption",
-        "default": "little happy girl"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788769180855_eu7uxl_HRgwv1ibIAAAXQv.jpg",
-        "alt": "Split Photo and Storybook Illustration",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788769180873_qdtq7m_HRgwv14bgAATip7.jpg",
-        "alt": "Split Photo and Storybook Illustration",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Mahnoor Fatima",
-      "url": "https://x.com/MahnoorAi12"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/MahnoorAi12/status/2096479426452365692"
-    },
-    "publishedAt": "2026-09-06T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33681",
-    "contentHash": "83de88ebbe4bdbe10b6b6287f5daba172e0a2399"
   }
 ]

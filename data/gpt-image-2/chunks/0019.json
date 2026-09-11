@@ -1,5 +1,242 @@
 [
   {
+    "id": "gpt-image-2:28197",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28197",
+    "title": "Chengdu Scrapbook Travel Guide Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "A dense vertical scrapbook collage poster for a Chengdu city guide, useful for recreating a cute travel-planner infographic with pandas, food, landmarks, and Polaroid-style photos.",
+    "promptText": "Goal: Create a vertical scrapbook-style travel guide poster for {argument name=\"destination city\" default=\"Chengdu\"}, combining cute hand-drawn decoration, taped paper scraps, Polaroid photos, Chinese calligraphy titles, and food/travel stickers.\n\nCanvas: Tall portrait poster, 9:16 ratio, soft sky-blue paper-texture background with white torn-cloud shapes near the top and throughout. Use a warm, playful, handmade journal aesthetic with pastel colors, washi tape, torn kraft labels, doodled arrows, hearts, flowers, clouds, stars, butterflies, stamps, a compass, suitcase, camera, tickets, map pin, and small panda doodles.\n\nMain text hierarchy: At the top, large red-orange brush lettering reading {argument name=\"main Chinese headline\" default=\"成都达人计划\"}. Directly underneath, a beige torn-paper strip with handwritten English text reading {argument name=\"English subtitle\" default=\"Chengdu City Guide\"}. Below that, a longer torn-paper strip with Chinese text reading {argument name=\"Chinese guide title\" default=\"成都旅游城市漫游计划\"}, with small tag-like labels at the left. On the upper right, add a small speech bubble reading “City Tank Chengdu.” Add a beige note on the right reading “Best travel time: March–June | September–November,” styled like handwritten travel advice.\n\nLayout and counted photo elements: Use exactly 16 main photo or cutout image elements arranged in a lively collage, each with tape or torn-paper label styling. The 16 elements are: 1) top-right Polaroid of a modern Chengdu skyline; 2) upper-left Polaroid of a cozy interior alley/teahouse labeled as Kuanzhai Alley slow life; 3) left-middle photo of a red lantern ancient street labeled Jinli Ancient Street; 4) center hero photo of three pandas in a tree labeled Giant Panda Breeding Research Base; 5) upper-right landscape photo of Dujiangyan river and mountains labeled Dujiangyan, World Heritage; 6) right-middle mountain photo labeled Qingcheng Mountain; 7) left-lower city street photo labeled Chunxi Road shopping/check-in spot; 8) left-lower panda cutout leaning from a building labeled IFS Panda landmark; 9) center photo of a gaiwan tea cup labeled People’s Park gaiwan tea and tea culture; 10) center-lower photo of a black steam train labeled Eastern Suburb Memory / East Park; 11) right-lower Polaroid of a night city skyline; 12) right-lower Polaroid of a warmly lit traditional street at night; 13) right-lower Polaroid of skyscrapers at night with a Sichuan opera face mask sticker; 14) bottom-left food photo of skewers labeled skewer aroma; 15) bottom-center large hotpot photo labeled Chengdu Food Map; 16) bottom-right food arrangement with tea, rabbit head, dumplings, and noodles.\n\nFood section details: The bottom third should feel like a Chengdu food map. Include exactly 6 labeled food items: spicy red hotpot in the center, skewers on the left, dandan noodles at the bottom, rabbit dumplings on the right, rabbit head at the far right, and gaiwan tea above/right. Labels should be small torn-paper Chinese-style tags, but the overall prompt remains in English.\n\nVisual style: Cute travel diary collage, semi-realistic printed photos mixed with illustrated stickers, soft grain, pastel blue background, cream paper scraps, coral-red title, muted orange labels, white photo borders, slightly rotated elements, visible tape strips in peach, blue, and green. The image should look like a handmade planner page or Xiaohongshu travel guide poster, dense but readable.\n\nConstraints: Keep the poster vertical and information-rich. Maintain the exact count of 16 main image elements and 6 labeled food items. Do not add logos, watermarks, QR codes, or extra large text. Preserve a cheerful Chengdu tourism mood with pandas, tea, hotpot, historic streets, city skyline, and mountain scenery.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "destination city",
+        "default": "Chengdu"
+      },
+      {
+        "name": "main Chinese headline",
+        "default": "成都达人计划"
+      },
+      {
+        "name": "English subtitle",
+        "default": "Chengdu City Guide"
+      },
+      {
+        "name": "Chinese guide title",
+        "default": "成都旅游城市漫游计划"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783674312212_qthqm3_HMttO7-acAA2e0c.jpg",
+        "alt": "Chengdu Scrapbook Travel Guide Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783674312506_rdd9jo_HMttSn8agAETxRS.jpg",
+        "alt": "Chengdu Scrapbook Travel Guide Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "DeepBlue深藍",
+      "url": "https://x.com/DeepBlueAIX"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/DeepBlueAIX/status/2074872447229419956#reversed-0"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28197",
+    "contentHash": "82971a8f854d0c2582501f5645e423d2d7d827c6"
+  },
+  {
+    "id": "gpt-image-2:28053",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28053",
+    "title": "Sunlit White Lace Beach Portrait",
+    "category": "Profile / Avatar",
+    "description": "A photorealistic vertical fashion portrait of a smiling young woman in a white lace dress on a bright indoor beach studio set.",
+    "promptText": "Create a photorealistic vertical portrait of a cheerful young Japanese woman standing on a bright indoor beach-like studio set. She has {argument name=\"hair color\" default=\"dark brown to black\"}, shoulder-length softly wavy hair with wispy bangs, natural makeup, warm skin, and a genuine wide smile while looking directly at the camera. She wears a delicate {argument name=\"dress style\" default=\"white off-shoulder lace mini dress\"} with scalloped lace sleeves, a fitted lace bodice, a small front bow at the bust, and a short airy skirt. Pose her in a relaxed three-quarter standing posture with arms naturally at her sides, framed from upper thighs to head. The setting is an all-white sunlit room with white sand on the floor, faint footprints, a few small seashells, a softly curving waterline or shallow pool at the left edge, sheer white curtains, large bright windows, a white draped sofa or lounge in the background, and a small green houseplant near the window. Use high-key natural daylight, soft backlight, gentle shadows, shallow depth of field, clean pastel whites and pale blue highlights, realistic skin texture, 35mm fashion photography look, crisp focus on the face, dreamy airy summer atmosphere, no text, no watermark, no extra people.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "dark brown to black"
+      },
+      {
+        "name": "dress style",
+        "default": "white off-shoulder lace mini dress"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588813728_ohcktk_HMvRpkraYAAYzS6.jpg",
+        "alt": "Sunlit White Lace Beach Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "SSSS.CRYPTOMAN⚡️AI",
+      "url": "https://x.com/SSSS_CRYPTOMAN"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/SSSS_CRYPTOMAN/status/2074982569096204487#reversed-0"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28053",
+    "contentHash": "8fbea5137e4da44d9ef9db11c1053fbe0d708967"
+  },
+  {
+    "id": "gpt-image-2:28016",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28016",
+    "title": "Photo Restoration and Clarity Enhancement",
+    "category": "Profile / Avatar",
+    "description": "A precise prompt for restoring damaged or old photos, focusing on overexposure correction, detail recovery in shadows and highlights, and natural face sharpening.",
+    "promptText": "Restore this {argument name=\"item\" default=\"photo\"}. Reduce and correct the overexposed areas, recover highlight and shadow details, sharpen the {argument name=\"subject\" default=\"faces\"} naturally, balance the colors and skin tones, enhance overall clarity, and restore fine details without making the image look artificial or overprocessed.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "item",
+        "default": "photo"
+      },
+      {
+        "name": "subject",
+        "default": "faces"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588798177_02vec5_HMum9YmWcAAoFwn.jpg",
+        "alt": "Photo Restoration and Clarity Enhancement",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Patrick",
+      "url": "https://x.com/patrickassale"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/patrickassale/status/2074936593220018430"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28016",
+    "contentHash": "95b2f7417da3fb852f371473b34e32899cf12a77"
+  },
+  {
+    "id": "gpt-image-2:27990",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27990",
+    "title": "Cozy Flower Selfie",
+    "category": "Profile / Avatar",
+    "description": "A natural, home-style photography prompt for a woman with a large bouquet of white roses, capturing a cozy lifestyle moment.",
+    "promptText": "Do not change the facial features. Photo aspect ratio 3:4.\n\nA vertical home-style photograph with a “cozy moment” aesthetic, taken with a front camera/selfie camera from a close distance. A {argument name=\"subject\" default=\"young woman\"} with fair skin and long straight hair is standing in a room that looks like a walk-in closet. She is slightly leaning toward a huge bouquet of {argument name=\"flowers\" default=\"white spray roses\"} and smiling softly with a closed-mouth smile and closed eyes, as if she is smelling the flowers or enjoying their fragrance. Her facial expression is warm, happy, gentle, and content.\n\nThe main focus of the frame is a very large bouquet of white roses (many dozens of buds), dense and full like a flower cloud, with green leaves. The bouquet is wrapped in kraft paper. The flowers fill almost the entire lower and right side of the frame, creating the feeling of a beautiful gift and a special celebration.\n\nOutfit: a {argument name=\"clothing\" default=\"light pink top\"}; the sleeve and shoulder are visible in the foreground. A small part of light blue jeans is visible at the bottom.\n\nComposition: the camera is positioned slightly lower and closer to the hand, so part of the sleeve appears in the lower-left corner, creating the natural feeling of a spontaneous selfie.\n\nBackground: an open wardrobe/closet area with a clothing rail and wooden hangers holding clothes; shelves with items are visible above. On the right wall, there is a large rectangular mirror with a black frame, with minimal reflections.\n\nLighting: soft warm-neutral indoor lighting with no harsh shadows. The details of the roses are clearly visible; the petals look matte and creamy white.\n\nOverall aesthetic: natural everyday atmosphere, “someone gifted me flowers” feeling, strong sense of comfort, happiness, and warmth. Realistic textures of denim fabric and flower petals. Ultra-realistic photography, 8K quality, high detail.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "young woman"
+      },
+      {
+        "name": "flowers",
+        "default": "white spray roses"
+      },
+      {
+        "name": "clothing",
+        "default": "light pink top"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588782751_10kvdh_HMt1EV3a4AA2kfs.jpg",
+        "alt": "Cozy Flower Selfie",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588782728_g53x64_HMt1EXpagAAo5L2.jpg",
+        "alt": "Cozy Flower Selfie",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Oogie",
+      "url": "https://x.com/oggii_0"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/oggii_0/status/2074880780116131907"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27990",
+    "contentHash": "f89555b2391d571d6d106266a5c5b106b2d097f6"
+  },
+  {
+    "id": "gpt-image-2:28032",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28032",
+    "title": "Macau Hanfu Travel Selfie",
+    "category": "Profile / Avatar",
+    "description": "A realistic vertical smartphone travel selfie of two hanfu-style women reading a tourist map in front of Macau's Ruins of Saint Paul's.",
+    "promptText": "Create a vertical 9:16 ultra-realistic lifestyle travel selfie shot on an {argument name=\"phone model\" default=\"iPhone 17 Pro\"}, with a candid wide-angle front-camera feel and high dynamic range. In the foreground, show exactly 2 young East Asian women dressed in elegant fantasy hanfu/xianxia-inspired outfits, crouching together on stone steps and happily looking down at a large unfolded tourist map spread across a rough stone block. The woman on the left wears a pale ice-blue robe with deep blue trim, silver embroidered patterns, metallic silver-blue wrist bracers, dangling earrings, delicate forehead ornament, and long black hair in a half-up style with ornate silver hairpieces; she smiles softly while pointing at the map with one finger. The woman on the right wears a darker navy and charcoal robe with blue inner layers, silver embroidery, silver wrist bracers, dangling earrings, a white forehead marking, and black hair pinned up with a hair stick; she laughs brightly toward the camera side while pointing at the map. Behind them, place the Ruins of Saint Paul's in Macau centered and towering in the background, with its historic stone facade, arched openings, statues, columns, cross at the top, and sunlit plaza steps leading up to it. Add light tourist activity in the distance, potted plants and European-style buildings along both sides, clear blue sky, warm midday sunlight, natural shadows, realistic skin texture, detailed fabric texture, slight smartphone lens distortion, shallow but readable depth of field, and a spontaneous social-media travel-photo mood. Include a small subtle watermark-like Chinese text near the bottom center reading {argument name=\"watermark text\" default=\"蓝心｜蓝心 AI\"}. No extra people in the foreground, no modern casual clothing on the two women, no cartoon style, no blur on the faces, no deformed hands, and keep the map visibly paper-like with printed roads and place markings.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "phone model",
+        "default": "iPhone 17 Pro"
+      },
+      {
+        "name": "watermark text",
+        "default": "蓝心｜蓝心 AI"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588805319_0h6j3t_HMtxvhAbcAABgbZ.jpg",
+        "alt": "Macau Hanfu Travel Selfie",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588805723_h04tmz_HMtx1iAaEAAXEHG.jpg",
+        "alt": "Macau Hanfu Travel Selfie",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "DeepBlue深藍",
+      "url": "https://x.com/DeepBlueAIX"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/DeepBlueAIX/status/2074877306414514442#reversed-0"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28032",
+    "contentHash": "9bae75a1d89e2316e10a59093c301aeb575f57fd"
+  },
+  {
     "id": "gpt-image-2:28045",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -7048,264 +7285,5 @@
     "publishedAt": "2026-07-06T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27809",
     "contentHash": "9ea682ba294de82bdf65cd9ca6924cdaee25cbd7"
-  },
-  {
-    "id": "gpt-image-2:27753",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27753",
-    "title": "Cozy Watercolor Slice of Life Illustration",
-    "category": "Comic / Storyboard",
-    "description": "A heartwarming and detailed prompt for a storybook-style watercolor illustration of children with their pets by a Christmas tree.",
-    "promptText": "Cute cozy slice-of-life illustration in a {argument name=\"art style\" default=\"soft watercolor + colored pencil storybook style\"}. A {argument name=\"first character\" default=\"smiling girl with long dark hair\"} wearing oversized pastel yellow pajamas sits on the left, hugging a {argument name=\"first pet\" default=\"fluffy Shiba Inu\"} with rosy cheeks. On the right, a cheerful boy with curly hair, round glasses, and an oversized gray sweatshirt gently holds an orange-and-white cat. Between them stands a small Christmas tree decorated with adorable kawaii animal ornaments, pastel ribbons, tiny plush charms, stars, bells, and soft fairy lights. Warm wooden floor, clean cream-colored wall, peaceful home atmosphere, soft morning sunlight, gentle shadows, hand-drawn sketch outlines, textured watercolor washes, pastel palette, expressive cute faces, cozy family moment, children's book illustration, whimsical, heartwarming, highly detailed, soft paper texture, Studio Ghibli-inspired warmth, Korean webtoon illustration aesthetic, premium digital watercolor, 8K.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "art style",
-        "default": "soft watercolor + colored pencil storybook style"
-      },
-      {
-        "name": "first character",
-        "default": "smiling girl with long dark hair"
-      },
-      {
-        "name": "first pet",
-        "default": "fluffy Shiba Inu"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783415066797_zf3a6a_HMhIplSaYAAZI9x.jpg",
-        "alt": "Cozy Watercolor Slice of Life Illustration",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783415066765_jujcjx_HMhIpnLboAAoRER.jpg",
-        "alt": "Cozy Watercolor Slice of Life Illustration",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783415066863_0odrel_HMhIpzSa0AAsAUj.jpg",
-        "alt": "Cozy Watercolor Slice of Life Illustration",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Taaruk",
-      "url": "https://x.com/Taaruk_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Taaruk_/status/2073987524012519607"
-    },
-    "publishedAt": "2026-07-06T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27753",
-    "contentHash": "e4d5574319e24c3781db9a685b3c1fe99922084f"
-  },
-  {
-    "id": "gpt-image-2:27804",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27804",
-    "title": "Fashion Concept Art Character Sheet",
-    "category": "Comic / Storyboard",
-    "description": "A specialized prompt for generating professional character design sheets in a widescreen 16:9 layout, ideal for high-fashion anime-style concepts.",
-    "promptText": "Create a premium, modern high-fashion CHARACTER CONCEPT ART SHEET in a 16:9 widescreen layout on a pure white background, following this exact structured composition and visual aesthetic:\n\n[STYLE]: {argument name=\"art style\" default=\"high-contrast digital anime illustration\"}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "art style",
-        "default": "high-contrast digital anime illustration"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783415095734_gtn64h_HMfz-vrbUAAQ6IH.jpg",
-        "alt": "Fashion Concept Art Character Sheet",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "PixieVerse",
-      "url": "https://x.com/itsPixieVerse"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/itsPixieVerse/status/2073926821327098332"
-    },
-    "publishedAt": "2026-07-06T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27804",
-    "contentHash": "3d850d08df86febda92d1a70d3a3aae6dc592427"
-  },
-  {
-    "id": "gpt-image-2:27803",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27803",
-    "title": "Porcelain Armor Female Knight",
-    "category": "Comic / Storyboard",
-    "description": "A highly detailed prompt for a female knight in ornamental blue and white porcelain-style armor, riding a black horse through a golden autumn forest.",
-    "promptText": "{argument name=\"character type\" default=\"A female knight\"} on a {argument name=\"horse color\" default=\"black steed\"} in an {argument name=\"setting\" default=\"autumn forest\"}, she has a slim, athletic feminine build, narrow waist, straight posture, and composed bearing and sits upright in a dark leather saddle, one leg visible along the horse’s side. Her right hand holds the brown leather reins loosely. Her left hand is gripping the hilt of a long, unsheathed elegant sword pointed diagonally downward, the blade is adorned with mystical runes. Her expression is serious, watchful, and calm, with direct eye contact toward the viewer. The knight has a western-european, french phenotype: Fair, lightly warm skin; oval face; soft high cheekbones; refined straight nose; gently shaped lips; large light auburn eyes; natural brows. She has long, wavy auburn-red hair falling over her shoulders and down her back. A fitted full-white metallic headpiece with blue ornamental painting covers the crown of her head and frames her face, leaving the front of her hair visible. Elegant full white plate armor that is painted with dense ornamental blue patterns and subtle gold trim, giving the armor the look of traditional blue painted porcelain; armor includes a high padded collar, rounded shoulder pauldrons, fitted breastplate, articulated upper-arm guards, elbow protection, long gauntlets, thigh armor, and knee guards. Small dark openings and black underlayers are visible at the joints. A dark leather belt wraps around her waist, with practical straps and fittings. Beneath the waist armor, dark metallic scale mail is visible. Her armor is clean and ceremonial. Large, muscular black horse with a glossy coat, long black mane, alert upright ears, and a calm lowered gaze. Brown leather bridle, reins, ivory- white breastplate, saddle, and straps with realistic buckles and metal rings. The saddle is fitted with a white embossed saddle cloth or barding panel edged in pale gold, matching the rider’s armor. The female knight occupies the upper center of the frame, while her large black horse fills lower half. The horse faces toward the left in a calm three-quarter profile; the rider turns her upper body and gaze toward the viewer. Frame the horse from its ears to its lower torso, with the rider visible from head to below the knees. The straight sword creates a strong diagonal from the rider’s left hand across the foreground toward the lower left corner. Background is a dense woodland in peak autumn, filled with golden-orange leaves and tall dark tree trunks. Warm amber daylight filters through the canopy, creating a soft, hazy background with layered depth. Fallen leaves cover the ground. Keep the foreground subjects clearly separated from the softly receding trees.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character type",
-        "default": "A female knight"
-      },
-      {
-        "name": "horse color",
-        "default": "black steed"
-      },
-      {
-        "name": "setting",
-        "default": "autumn forest"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783415094597_cla95u_HMcqW17WEAAF2A4.jpg",
-        "alt": "Porcelain Armor Female Knight",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "VL_Aschcroft",
-      "url": "https://x.com/Project_VLA"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Project_VLA/status/2073733127613317173"
-    },
-    "publishedAt": "2026-07-05T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27803",
-    "contentHash": "fce3eb17cdaca5918d4e64a07917f24b3228b1f6"
-  },
-  {
-    "id": "gpt-image-2:27716",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27716",
-    "title": "Anime Aquarium Garden Eel Day",
-    "category": "Comic / Storyboard",
-    "description": "Generates a detailed anime aquarium scene with two animal-eared characters celebrating Garden Eel Day, suitable for character art or social media posts.",
-    "promptText": "Create a polished anime-style vertical illustration set inside a modern public aquarium on the morning of {argument name=\"date text\" default=\"11月11日\"}. Show exactly two main characters standing in front of a huge curved glass tank filled with blue water, rocky reef formations, bright caustic sunlight, scattered tiny fish silhouettes, and exactly 16 visible spotted garden eels rising from the sandy bottom. On the left is a tall gentle cow-girl character named {argument name=\"character name\" default=\"Muumuu Bell\"}: very long pale lavender-white hair with turquoise tips, small tan cow horns, cow ears, golden-brown eyes, a soft curious smile, one finger near her mouth, a large gold cowbell at her neck, a sleeveless white cow-print top, pale shorts or mini skirt with blue trim, white thigh-high cow-print stockings, a black oversized jacket slipping off her shoulders, and a thin cow tail with a black tuft. On the right is a shorter adventurous cat/wolf-eared boy: sandy blond hair, amber eyes, animal ears, fluffy brown tail, dark brown expedition coat, red scarf, black gloves, utility belts, pouches, backpack, small tools, and a long rifle-like prop strapped to his pack; he points excitedly toward the garden eels. Include a warm glowing sign in the upper left with rounded corners and Japanese text: large title {argument name=\"sign title\" default=\"穴子の日\"}, smaller top date, a simple eel icon, and a small subtitle meaning “rediscover the charm of garden eels.” Add handwritten white Japanese greeting text {argument name=\"greeting text\" default=\"おはよう\"} with a small sun doodle near the bottom right on the aquarium floor/glass area. Use cinematic composition, soft rim lighting from the tank, detailed anime rendering, expressive faces, high detail clothing accessories, aquarium ambience, deep blue background, warm sign light, no watermark, no extra characters.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "date text",
-        "default": "11月11日"
-      },
-      {
-        "name": "character name",
-        "default": "Muumuu Bell"
-      },
-      {
-        "name": "sign title",
-        "default": "穴子の日"
-      },
-      {
-        "name": "greeting text",
-        "default": "おはよう"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241319361_wvz86o_HMbgOq1aAAAHIKi.jpg",
-        "alt": "Anime Aquarium Garden Eel Day",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "アマドウマ",
-      "url": "https://x.com/amadouma_s"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/amadouma_s/status/2073591223454249366#reversed-0"
-    },
-    "publishedAt": "2026-07-05T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27716",
-    "contentHash": "02bdfa9d33be00228ea73e9f0a7f7a732e5b2937"
-  },
-  {
-    "id": "gpt-image-2:27819",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27819",
-    "title": "Retro Glitch Fashion Poster",
-    "category": "Product Marketing",
-    "description": "A realistic vertical fashion poster of two women in a vintage music-room setting with chalky glitch-style slogan typography.",
-    "promptText": "Goal: Create a vertical editorial fashion poster in a moody retro record-shop interior, featuring two glamorous young women posing close together with a tipsy, soft-noir, glitch-aesthetic mood.\n\nCanvas: Vertical 3:4 portrait composition, like a magazine cover or social media poster, warm low-key lighting, subtle film grain, slightly desaturated browns and muted grays, high-detail realistic photography with stylized chalk handwriting overlays.\n\nMain subjects: Exactly 2 young women with pale luminous skin, glossy makeup, large expressive eyes, soft reddish lips, and long messy wavy dark-brown hair. Both wear loose off-shoulder cropped gray T-shirts with partially visible black printed lettering. The left woman stands slightly forward and lower, leaning toward the camera with hands clasped down in front; she wears a burgundy glossy pleated mini skirt, black stacked wrist cuffs, and a delicate chain detail at the waist. The right woman stands slightly behind and taller, leaning in with one shoulder exposed, head tilted confidently toward the viewer; she wears gray denim shorts with metal chain accessories and one hand tucked at her waist. Their expressions should feel intimate, dazed, alluring, and cinematic, as if caught in warm daylight after a night out.\n\nSetting: A cozy vintage music room or vinyl record store with dark wood paneling, shelves, framed album covers, visible vinyl records on the wall, and small cans or objects on a low shelf. Use dramatic side lighting that creates strong shadows on the left wall and warm highlights on skin and hair.\n\nGraphic text overlays: Add exactly 4 hand-drawn chalk/crayon slogan clusters in distressed uppercase lettering, alternating white and mustard yellow, with rough underline strokes and small glitch streaks. The 4 visible text clusters are: 1) top left: \"DAYLIGHT\" in white above \"STATIC\" in yellow, with white/yellow horizontal scratch marks; 2) upper right: \"MELLOW\" in white above \"GLOW\" in yellow, with a white underline; 3) lower left: \"SOFT\" in white above \"NOIR\" in yellow, with a white underline and one small yellow heart doodle below; 4) lower right: \"GLITCH\" in white above \"BLOOM\" in yellow, with yellow scratch strokes, a white underline, and one small yellow star doodle. Keep the text legible but imperfect, like hand-scrawled poster typography.\n\nCustomizable details: The left slogan should read {argument name=\"top left slogan\" default=\"DAYLIGHT STATIC\"}; the upper-right slogan should read {argument name=\"upper right slogan\" default=\"MELLOW GLOW\"}; the lower-left slogan should read {argument name=\"lower left slogan\" default=\"SOFT NOIR\"}; the lower-right slogan should read {argument name=\"lower right slogan\" default=\"GLITCH BLOOM\"}; the overall fashion mood should be {argument name=\"fashion mood\" default=\"tipsy soft-noir glitch bloom\"}.\n\nConstraints: Keep exactly 2 women, exactly 4 slogan clusters, exactly 2 doodles total consisting of 1 heart and 1 star, no extra people, no watermark, no logo, no clean digital UI elements. Make it look like a high-end realistic fashion photograph combined with rough analog poster marks.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "top left slogan",
-        "default": "DAYLIGHT STATIC"
-      },
-      {
-        "name": "upper right slogan",
-        "default": "MELLOW GLOW"
-      },
-      {
-        "name": "lower left slogan",
-        "default": "SOFT NOIR"
-      },
-      {
-        "name": "lower right slogan",
-        "default": "GLITCH BLOOM"
-      },
-      {
-        "name": "fashion mood",
-        "default": "tipsy soft-noir glitch bloom"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783415102568_gsofqn_HMjNMvfa4AADNjE.jpg",
-        "alt": "Retro Glitch Fashion Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783415102602_4etciz_HMjNMqtboAATQPm.jpg",
-        "alt": "Retro Glitch Fashion Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783415102565_5zwv0c_HMjNMqwbcAA62mx.jpg",
-        "alt": "Retro Glitch Fashion Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783415103219_jp5z2n_HMjNMqyb0AAVGdO.jpg",
-        "alt": "Retro Glitch Fashion Poster",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "serein",
-      "url": "https://x.com/you1873118"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/you1873118/status/2074133268061098150#reversed-0"
-    },
-    "publishedAt": "2026-07-06T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27819",
-    "contentHash": "64e7e9d04b2defa3d46c91d5b0a5cb41ae2f4a33"
   }
 ]
