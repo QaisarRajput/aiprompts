@@ -1,5 +1,825 @@
 [
   {
+    "id": "gpt-image-2:29677",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29677",
+    "title": "Photorealistic Person with Ink-Twin Doodle",
+    "category": "Social Media Post",
+    "description": "A creative prompt generating a photorealistic person standing beside their chaotic charcoal sketch silhouette on a minimal wall.",
+    "promptText": "Use the uploaded photo as the exact identity reference. Keep the face, skin tone, hairstyle, accessories, and outfit exactly the same. Create a vertical full-body image of the real person standing beside their {argument name=\"twin type\" default=\"ink-twin doodle\"}. The real person should look photorealistic with a {argument name=\"expression\" default=\"playful, slightly embarrassed expression\"} and a natural pose. The ink twin should be a {argument name=\"sketch style\" default=\"rough black charcoal sketch\"} on a clean white or light gray wall, matching the person's hairstyle, outfit, and pose only as a silhouette, but with exaggerated, chaotic energy. Add a few simple doodle effects like motion lines, stars, or hearts. Use soft natural daylight with a clean minimal background. Do not change the person's appearance or outfit. Do not make the twin a real person, colored cartoon, or flat shadow. Avoid repeated poses, bad hands, extra limbs, clutter, text, or watermarks.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "twin type",
+        "default": "ink-twin doodle"
+      },
+      {
+        "name": "expression",
+        "default": "playful, slightly embarrassed expression"
+      },
+      {
+        "name": "sketch style",
+        "default": "rough black charcoal sketch"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968568873_y5t7xx_HOCyVGCWMAAfg1q.jpg",
+        "alt": "Photorealistic Person with Ink-Twin Doodle",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968569416_51mp9c_HOCyVzWXIAAFi16.jpg",
+        "alt": "Photorealistic Person with Ink-Twin Doodle",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968568892_0j6mce_HOCyWaCXYAAxn7g.jpg",
+        "alt": "Photorealistic Person with Ink-Twin Doodle",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968570118_rd75im_HOCyXBJWwAAGtjP.jpg",
+        "alt": "Photorealistic Person with Ink-Twin Doodle",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "𝗦𝗮𝗻𝗶𝗮",
+      "url": "https://x.com/saniaspeaks_"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/saniaspeaks_/status/2080859150620279165"
+    },
+    "publishedAt": "2026-07-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29677",
+    "contentHash": "b4bd6709ad4d13208d6f201eaf9e49d922ce6615"
+  },
+  {
+    "id": "gpt-image-2:29689",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29689",
+    "title": "Monochrome Surreal Obsidian Monolith",
+    "category": "Social Media Post",
+    "description": "A surreal monochrome editorial portrait with floating obsidian elements and impossible spatial distortion.",
+    "promptText": "A striking monochrome editorial portrait suspended inside a massive floating {argument name=\"monolith material\" default=\"obsidian\"} monolith with impossible spatial distortion. The rectangular frame appears sliced into multiple layers drifting independently while remaining physically connected in impossible ways. Tiny floating dust particles catch {argument name=\"lighting\" default=\"cinematic studio lighting\"}. Deep matte textures, brutalist luxury aesthetic, dramatic contrast, premium fashion magazine cover style, perfectly centered composition, ultra-realistic skin pores, {argument name=\"lens type\" default=\"85mm\"} portrait lens, impossible dimensional illusion, surreal architecture meets fine art photography.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "monolith material",
+        "default": "obsidian"
+      },
+      {
+        "name": "lighting",
+        "default": "cinematic studio lighting"
+      },
+      {
+        "name": "lens type",
+        "default": "85mm"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968584555_dr03og_HOCyTaebwAAyVko.jpg",
+        "alt": "Monochrome Surreal Obsidian Monolith",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "lovimg_com",
+      "url": "https://x.com/lovimg_com"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/lovimg_com/status/2080859082387530085"
+    },
+    "publishedAt": "2026-07-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29689",
+    "contentHash": "1224b28a23f9416cf3c509ba57c42a4074ecc70d"
+  },
+  {
+    "id": "gpt-image-2:29690",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29690",
+    "title": "Nested Picture-in-Picture Software UI",
+    "category": "Infographic / Edu Visual",
+    "description": "A complex prompt used to test the rendering depth and detail of GPT Image 2, featuring a software editor nested within a chat app and artwork.",
+    "promptText": "Generate a 'picture-in-picture' image with visual depth. The outermost layer is a realistic {argument name=\"programming interface\" default=\"VSCode programming interface\"}, nested with a {argument name=\"app name\" default=\"Qwen App\"} chat interface. In the chat, I am sending a message saying: '{argument name=\"request content\" default=\"help me generate a hand-brewed coffee poster\"}'. The app replies with an exquisite coffee poster, which is also clearly displayed in the chat interface. Each UI layer must maintain realistic style and detail, with clear micro-details like time digits and button text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "programming interface",
+        "default": "VSCode programming interface"
+      },
+      {
+        "name": "app name",
+        "default": "Qwen App"
+      },
+      {
+        "name": "request content",
+        "default": "help me generate a hand-brewed coffee poster"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968585723_khtl4f_HN-ydubbcAAPs_n.png",
+        "alt": "Nested Picture-in-Picture Software UI",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968585713_69f1jf_HN-yelfakAAjQN9.png",
+        "alt": "Nested Picture-in-Picture Software UI",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "比特小师妹｜KiKi",
+      "url": "https://x.com/bit_sister"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/bit_sister/status/2080577815376957798"
+    },
+    "publishedAt": "2026-07-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29690",
+    "contentHash": "51bb9cf4c4b1c52a4920428c30612e214b1af94e"
+  },
+  {
+    "id": "gpt-image-2:29725",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29725",
+    "title": "AI Model Routing Comparison Infographic",
+    "category": "Infographic / Edu Visual",
+    "description": "A square social media infographic comparing chaotic all-GPT usage with smart task-based AI model routing.",
+    "promptText": "Create a square 1:1 dark futuristic tech infographic for social media comparing two AI workflow approaches. Canvas: 768x768 or similar, deep navy-to-black background with subtle dotted grid texture and a vertical split down the center. At the top, place a huge bold uppercase headline: “STOP USING GPT FOR {argument name=\"headline word\" default=\"EVERYTHING\"}.” The words “STOP USING GPT FOR” are white, and the final word is a left-to-right gradient from lime green to cyan-blue, with a cyan period. Use a clean heavy sans-serif font, high contrast, crisp vector-like rendering.\n\nLayout: two side-by-side columns. Left column is labeled as the bad workflow, right column as the improved workflow. The left side has a red/pink theme with a pill label reading “THE OLD WAY,” a small subtitle “WASTE MONEY,” and a central rounded-square GPT/OpenAI-style knot icon. Around it are exactly 5 smaller rounded-square task icons connected by messy red dashed routing lines: 1 video clapper/play icon at upper center, 2 design pen-nib/Bezier icon at left, 3 microphone icon at right, 4 image/photo icon at lower left, 5 code brackets icon at lower right. The messy dashed lines loop and cross, showing chaos.\n\nRight column has a teal/blue theme with a pill label reading “THE SMART WAY,” a small subtitle “ROUTE TO THE BEST MODEL,” and a central rounded-square robot router icon. Connect it with clean glowing solid lines to exactly 5 model cards: 1 top card with OpenAI knot icon labeled “GPT 5.6” and “DESIGN,” 2 left purple card with code brackets labeled “{argument name=\"coding model\" default=\"FABLE\"}” and “CODE (HARD),” 3 right blue card with clapper/play icon labeled “{argument name=\"video model\" default=\"SEEDANCE 2.0\"}” and “VIDEO,” 4 bottom-left gold card with image icon labeled “{argument name=\"image model\" default=\"GPT 2.0\"}” and “IMAGE,” 5 bottom-right blue card with microphone icon labeled “{argument name=\"voice model\" default=\"HUME\"}” and “VOICE.” Use rounded glassmorphism cards with neon outlines and soft glow.\n\nBottom callouts: under the left column, place a red outlined rounded status bar with a red X icon and text “EXPENSIVE. CHAOTIC. INEFFICIENT.” Under the right column, place a teal/green outlined rounded status bar with a green check icon and text “SMARTER. CHEAPER. BETTER RESULTS.” Keep all text legible, centered, and aligned. Use strong contrast, modern SaaS marketing style, subtle gradients, neon highlights, no extra logos, no watermark, no additional text beyond the specified labels.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline word",
+        "default": "EVERYTHING"
+      },
+      {
+        "name": "coding model",
+        "default": "FABLE"
+      },
+      {
+        "name": "video model",
+        "default": "SEEDANCE 2.0"
+      },
+      {
+        "name": "image model",
+        "default": "GPT 2.0"
+      },
+      {
+        "name": "voice model",
+        "default": "HUME"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968621801_6us4oy_HN-G6P2aIAA3uDd.jpg",
+        "alt": "AI Model Routing Comparison Infographic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "codemarch",
+      "url": "https://x.com/codemarch"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/codemarch/status/2080529891733504505#reversed-0"
+    },
+    "publishedAt": "2026-07-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29725",
+    "contentHash": "c49d95eca79c18dbd69eaae589af98513a531645"
+  },
+  {
+    "id": "gpt-image-2:29712",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29712",
+    "title": "Footballer Then vs Now Transformation",
+    "category": "Infographic / Edu Visual",
+    "description": "A split-screen prompt that generates a nostalgic childhood portrait and a modern adult version of the same person, showing the passage of time.",
+    "promptText": "Create a realistic vertical split-screen \"Then vs Now\" transformation featuring the same famous {argument name=\"athlete\" default=\"football player\"}. The composition is divided into two stacked sections. Top panel: a warm nostalgic childhood portrait set in the player's family home during their birth year (display the year in clean white text on the left, e.g. \"{argument name=\"birth year\" default=\"1985\"}\"). The child sits naturally facing the camera wearing a simple white T-shirt, soft golden sunlight streaming through a nearby window, authentic 90s/80s home interior, subtle film grain, warm Kodak color grading, emotional and cinematic. Bottom panel: the same person recreated as their present-day adult self in 2026, maintaining recognizable facial structure and identity, wearing a plain white oversized T-shirt inside a modern café with warm ambient lighting and shallow depth of field. Place a small rounded-corner reference portrait of the player in their national team jersey at the bottom-right corner. Match the pose, eye direction, framing, and expression between the child and adult versions to emphasize the passage of time. Hyper-realistic skin, natural facial evolution, consistent identity, cinematic photography, editorial quality, soft depth of field, 85mm lens, ultra-detailed, photorealistic, 8K, masterpiece.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "athlete",
+        "default": "football player"
+      },
+      {
+        "name": "birth year",
+        "default": "1985"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968608599_9mwebb_HN9c4OcawAAaAke.jpg",
+        "alt": "Footballer Then vs Now Transformation",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968608558_unl7wa_HN9c5JNaIAA3bXx.jpg",
+        "alt": "Footballer Then vs Now Transformation",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Taaruk",
+      "url": "https://x.com/Taaruk_"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Taaruk_/status/2080483701486714957"
+    },
+    "publishedAt": "2026-07-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29712",
+    "contentHash": "f140960518b15bea30c7be3d638935ba02ad8be0"
+  },
+  {
+    "id": "gpt-image-2:29642",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29642",
+    "title": "Japanese Pediatric Disease Infographic",
+    "category": "Infographic / Edu Visual",
+    "description": "A cute Japanese clinic flyer explaining hand-foot-and-mouth disease and herpangina for parents.",
+    "promptText": "Goal: Create a friendly Japanese medical explanation infographic for parents about {argument name=\"topic title\" default=\"手足口病とヘルパンギーナ\"}, suitable for use in a pediatric clinic consultation room.\n\nCanvas: Vertical portrait flyer, warm off-white paper background, soft hand-drawn watercolor style, rounded corners, pastel colors, clear black handwritten Japanese text. Add small decorative confetti marks around the title. Overall look should be cute, reassuring, and easy to understand.\n\nLayout: Use exactly 5 stacked rounded rectangular information panels, each with a large numbered circle on the left. Panel 1 has a pink border, panel 2 blue, panel 3 yellow-orange, panel 4 green, panel 5 orange with a scalloped decorative border. Keep generous margins and make all text large and legible.\n\nTitle: At the top, write 「手足口病とヘルパンギーナ」 in large dark brown handwritten lettering with a pink wavy underline.\n\nPanel 1, number 1, pink: Write 「手・足・口に小さな水疱、おしりにも」. Include exactly 4 medical illustrations in a row: an open palm with small red blisters, a sole of a foot with small red blisters, an open mouth/throat with red spots, and a diapered bottom/thigh area with red spots. At the bottom add a small sun icon and the note 「夏〜秋に小さい子に多い」.\n\nPanel 2, number 2, blue: Write 「原因はコクサッキーウイルス」 and smaller text 「ありふれたかぜのウイルス」. On the right draw exactly 1 cute round blue virus mascot with tiny spikes, eyes, a smiling mouth, and small motion lines.\n\nPanel 3, number 3, yellow-orange: Show a simple Venn diagram with exactly 2 overlapping large translucent circles: left circle pink, right circle light blue, overlap pale green. Left circle text: 「のどの奥に白い水疱→ヘルパンギーナ」. Right circle text: 「手のひら・足のうらに発疹→手足口病」. Under the circles write: 「原因ではなく『どこに出たか』でつけた病名。ヘルパンギーナでも全身に発疹が出ることがあり、厳密には区別できない」.\n\nPanel 4, number 4, green: Write 「特効薬なし・対症療法」 and smaller text 「約1週間で治る」. Include exactly 4 supportive-care illustrations: a glass of water, a sleeping child tucked in bed, a digital thermometer showing 36.6°C, and a smiling child in a green striped shirt raising one fist.\n\nPanel 5, number 5, orange: Headline in large orange text: 「登園の目安」. List exactly 2 numbered conditions: 「① 熱がない」 and 「② 普通にご飯が食べられる」. Add a large emphasized orange message: 「発疹が残っていても 普通の生活・登園OK」. Smaller explanatory text at the bottom: 「ウイルスは治った後も長く出続けるので、発疹が消えるまで待つ意味はありません」. On the right draw a cheerful preschool child wearing a yellow hat, blue backpack, striped shirt, blue shorts, and sneakers, running or waving toward a small school building with flowers.\n\nConstraints: Use exactly 5 numbered panels and the exact Japanese text above. Do not add extra sections, extra medical claims, logos, watermarks, QR codes, or English translations. Keep the illustration soft, pediatric, non-scary, and clinically clear.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "topic title",
+        "default": "手足口病とヘルパンギーナ"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968627734_0qz5xi_HN8obTgbsAAu4dF.jpg",
+        "alt": "Japanese Pediatric Disease Infographic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "りりぃ🌸 小児科医 × Webコーダー",
+      "url": "https://x.com/lilychaco"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/lilychaco/status/2080426338159403074#reversed-0"
+    },
+    "publishedAt": "2026-07-23T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29642",
+    "contentHash": "9d7ce8fb20c273c1c8e18b4d1211eb7cf3e891ff"
+  },
+  {
+    "id": "gpt-image-2:29591",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29591",
+    "title": "City Aesthetic Morning Poster Collage",
+    "category": "Infographic / Edu Visual",
+    "description": "A creative prompt for generating city-themed morning posters with a fresh Japanese aesthetic, featuring culture-specific elements and a multi-grid layout for different hues.",
+    "promptText": "Theme: {argument name=\"city characteristics\" default=\"City characteristic cultural elements\"} + Good Morning Greeting + {argument name=\"date\" default=\"2026-07-24\"} + Today's Quote. A total of {argument name=\"number of cities\" default=\"10\"} different cities, each with its own unique beautiful image. Japanese-style fresh and artistic color palette. Aspect ratio 16:9. Each image features different color logic and compositional differences, resulting in distinct hues at a glance.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "city characteristics",
+        "default": "City characteristic cultural elements"
+      },
+      {
+        "name": "date",
+        "default": "2026-07-24"
+      },
+      {
+        "name": "number of cities",
+        "default": "10"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784882705327_cjw4n7_HN778YxbUAAuGhw.jpg",
+        "alt": "City Aesthetic Morning Poster Collage",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784882705328_l2yzct_HN78ABra8AEKTEo.jpg",
+        "alt": "City Aesthetic Morning Poster Collage",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784882705279_t9umpm_HN78WDRboAAfrml.jpg",
+        "alt": "City Aesthetic Morning Poster Collage",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784882705787_48t520_HN78HZCaIAAToGA.jpg",
+        "alt": "City Aesthetic Morning Poster Collage",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小小东",
+      "url": "https://x.com/xiaoxiaodong01"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/xiaoxiaodong01/status/2080377942639603720"
+    },
+    "publishedAt": "2026-07-23T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29591",
+    "contentHash": "6704c0b544499a4ce0c7b4b38cab6da7ae660969"
+  },
+  {
+    "id": "gpt-image-2:29711",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29711",
+    "title": "Asian Digital Influencer Portrait",
+    "category": "YouTube Thumbnail",
+    "description": "Generates hyper-realistic, consistent portraits of a fictional digital influencer in a geeky creator room with neon lighting.",
+    "promptText": "Create one standalone hyper-realistic portrait per output. Generate four independent image files of the same fictional {argument name=\"ethnicity\" default=\"Asian\"} digital influencer, around {argument name=\"age\" default=\"28\"} years old, with the same face, shoulder-length black hair with subtle blue highlights and {argument name=\"outfit style\" default=\"black futuristic streetwear\"} across the batch.\nShe is broadcasting from a sophisticated, slightly geeky creator room. Chest-up portrait, direct eye contact, confident friendly expression, professional microphone, headphones, blurred dual monitors, small sci-fi collectibles and tasteful cyan, violet and magenta neon lights. Soft warm key light on her face, realistic skin pores, natural eyes, detailed hair, shallow depth of field and premium 50mm portrait photography.\nVary only her expression, head angle, subtle hand gesture and neon balance between outputs. One woman and one portrait in each image. No grid, collage, contact sheet, split screen, multiple panels, text, logos, watermark, duplicate person, anime or CGI appearance.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "ethnicity",
+        "default": "Asian"
+      },
+      {
+        "name": "age",
+        "default": "28"
+      },
+      {
+        "name": "outfit style",
+        "default": "black futuristic streetwear"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968608115_t1p9ev_HOBKdMZW8AAbJnD.jpg",
+        "alt": "Asian Digital Influencer Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968608144_b9fm1u_HOBKdZzWIAELMTa.jpg",
+        "alt": "Asian Digital Influencer Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968608142_nsci65_HOBKdk4XMAAWECv.jpg",
+        "alt": "Asian Digital Influencer Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968609718_56v676_HOBKdxeXUAAKhF3.jpg",
+        "alt": "Asian Digital Influencer Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "PSS",
+      "url": "https://x.com/PromptSin"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/PromptSin/status/2080744907069632859"
+    },
+    "publishedAt": "2026-07-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29711",
+    "contentHash": "62904c6a0c45f8caeff4ce04e260ff8f99b5281f"
+  },
+  {
+    "id": "gpt-image-2:29734",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29734",
+    "title": "Cyberpunk Flova AI Agent Poster",
+    "category": "YouTube Thumbnail",
+    "description": "Generates a dense cyberpunk anime promotional banner for an AI agent video-production workflow campaign.",
+    "promptText": "Goal: Create a high-energy cyberpunk promotional poster for {argument name=\"brand name\" default=\"Flova\"}, advertising an AI agent that helps produce a sci-fi series from planning to finished video.\n\nCanvas: Wide 16:9 YouTube-thumbnail style banner, dark futuristic Tokyo at night, packed with neon light trails, motion blur, glowing HUD panels, sparks, and cinematic contrast. Use a black, electric-blue, purple, orange, and yellow palette with intense bloom and speed-line effects.\n\nMain layout: On the left-center, place a large rainbow gradient triangular play-button logo, followed by an enormous bold white italic wordmark “Flova” dominating the center. Across the top, add a large Japanese headline: “AIと一緒に、世界を創る時代へ。” with the “AI” portion extra-large and white, and a smaller subtitle below it: “企画から映像完成まで、すべてAI Agentがサポート!” On the top-right, add a glowing purple rounded rectangle sign reading “AI Agent” and beneath it “Create the Future with AI”.\n\nHero character: On the right half, show one dynamic anime-style cyberpunk female agent flying or diving forward toward the viewer above a futuristic city. She has intense golden eyes, short light-brown hair swept by motion, a glossy armored gold-and-black helmet with cat-ear-like mechanical protrusions and a small white flower emblem on the front, black tactical cyber armor, exposed mechanical details, and one gloved hand reaching dramatically toward the camera. Make her foreshortened, sharp, and cinematic, with sparks and city lights streaking behind her.\n\nText content: Under the logo, add a large line: “2029 IF TOKYO Episode4”, with “Episode4” in purple. Add a small yellow tag: “[ ARCHIVE 004 ]”. Add a bold central Japanese title: “複数のSUZUNE反応”, with “SUZUNE” in large yellow distressed lettering, and a smaller subtitle beneath: “地下鉄駅で発生した、謎の複数シグナルの真相とはー”. In the lower-right, add a huge yellow callout: “シリーズ制作を 最強に加速させる!”\n\nLeft feature panel: Add one glowing cyan boxed checklist titled “Flovaでできること”. It must contain exactly 6 checked items: “プロンプト作成”, “Storyboard編集”, “GPT Image 2選択”, “Seedance 2.0生成”, “修正＆再生成”, “Skills保存＆再利用”. Beneath this panel, show exactly 4 small square app icons with labels: “Project”, “Chat”, “History”, and “Skills”.\n\nBottom offer cards: Along the lower center, add exactly 2 neon credit cards separated by a large white multiplication symbol. The first purple card reads “新規登録で” above a huge “100” and “Free Credits”. The second blue card reads “お友達招待で” above a huge “200” and “Credits”.\n\nVisual style: Ultra-detailed anime key visual mixed with glossy tech advertising design, bold Japanese typography, distressed cinematic title lettering, bright rim lighting, holographic UI overlays, lens flares, fast diagonal composition, and an intense action-poster feel. Keep the design dense but readable, with all listed text clearly placed and no extra logos or watermarks beyond the specified brand elements.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "brand name",
+        "default": "Flova"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968629425_b4lizq_HN-BZBPaMAAFKPF.jpg",
+        "alt": "Cyberpunk Flova AI Agent Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "SZOU☆WEB3チャンネル | ISC | TRONglobalfriends",
+      "url": "https://x.com/szounft"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/szounft/status/2080523827071549934#reversed-0"
+    },
+    "publishedAt": "2026-07-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29734",
+    "contentHash": "b23e4a77d6c1eaa16e14babf1dadbfde53334b5b"
+  },
+  {
+    "id": "gpt-image-2:29732",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29732",
+    "title": "Rooftop Gekiga Idol Sniper Scene",
+    "category": "Comic / Storyboard",
+    "description": "Generates a wide anime manga rooftop scene with three idol characters, Japanese speech bubbles, and a dramatic hardboiled sniper parody composition.",
+    "promptText": "Goal: Create a wide single-panel anime manga scene on a high-rise rooftop, mixing cute chibi idol characters with a dramatic hardboiled gekiga facial style for the main foreground character.\n\nCanvas: 16:9 landscape composition, bright daytime city skyline in the background, clean detailed anime rendering with crisp line art, soft cel shading, and slight manga-comic exaggeration.\n\nSetting: A concrete rooftop terrace on top of a tall urban building, with metal safety railings, a chain-link fence along the back edge, exposed silver pipes, an outdoor air-conditioning unit on the right, and many skyscrapers fading into a blue hazy distance under a pale sky.\n\nLayout: Place exactly 3 female idol-like characters on the rooftop. The main character stands in the right foreground near the railing, turned partly away from the viewer but looking back over her shoulder with an intense dramatic expression. Two smaller chibi girls stand in the mid-background on the left and center, facing her.\n\nCharacters: 1) Right foreground: a blonde short-haired girl with a black military-style beret, orange-and-black tactical idol outfit, thigh straps, boots, gloves, and a long scoped sniper rifle held horizontally across the railing. Her face is rendered in exaggerated hardboiled manga style: thick eyebrows, sharp eyes, heavy shadows, stern mouth, and a gritty dramatic expression. 2) Left background: a small chibi girl with light brown wavy hair, red-and-black idol outfit, tiny hat or hair accessories, calm unimpressed expression. 3) Center background: a small chibi girl with pale lavender bobbed hair, round glasses, a white-and-blue sailor-inspired idol outfit and small hat, neutral surprised expression.\n\nSpeech bubbles: Include exactly 3 white speech bubbles with black Japanese text. Bubble 1 above the left chibi girl says {argument name=\"left speech text\" default=\"後ろめたいアイドルね\"}. Bubble 2 above the center chibi girl says {argument name=\"center speech text\" default=\"後ろ指さされる元アイドルですね\"}. Bubble 3, tall vertical bubble near the right edge beside the foreground girl, says {argument name=\"right speech text\" default=\"あたしの後ろに立つな\"}. Use clean manga lettering and keep the bubbles readable.\n\nStyle: Cute idol anime proportions for the background girls, chibi proportions overall, but make the foreground girl's face unusually intense and gekiga-inspired. Detailed rooftop perspective with strong depth, railings leading diagonally toward the city. Color palette: cool blue-gray rooftop and skyline contrasted with orange-black tactical clothing. No gore, no muzzle flash, no watermark, no extra characters, no extra text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "left speech text",
+        "default": "後ろめたいアイドルね"
+      },
+      {
+        "name": "center speech text",
+        "default": "後ろ指さされる元アイドルですね"
+      },
+      {
+        "name": "right speech text",
+        "default": "あたしの後ろに立つな"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968628457_o9trg0_HOBTCwDaQAAlfoX.jpg",
+        "alt": "Rooftop Gekiga Idol Sniper Scene",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968628445_4136pa_HOBTDNJaMAAE5Jz.jpg",
+        "alt": "Rooftop Gekiga Idol Sniper Scene",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968628469_hpi82y_HOBTDlEa8AAekSt.jpg",
+        "alt": "Rooftop Gekiga Idol Sniper Scene",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968628969_xat3qf_HOBTEO0aMAATtEk.jpg",
+        "alt": "Rooftop Gekiga Idol Sniper Scene",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "まるるん＠NIKKE好き",
+      "url": "https://x.com/TachMaru"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/TachMaru/status/2080754379775525201#reversed-0"
+    },
+    "publishedAt": "2026-07-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29732",
+    "contentHash": "9e1a7236638c9c094f5f5dac1d98b3c9afc69d1f"
+  },
+  {
+    "id": "gpt-image-2:29729",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29729",
+    "title": "Colossal Ocean Titan and Messenger",
+    "category": "Comic / Storyboard",
+    "description": "A cinematic dark-fantasy prompt for generating an epic sea titan confrontation with a lone messenger in a stormy mythic ocean scene.",
+    "promptText": "Create a dramatic widescreen dark-fantasy illustration of {argument name=\"character name\" default=\"The Colossal Ocean Titan and Messenger\"}: an immense ancient ocean titan rising from a stormy sea, facing a tiny hooded messenger standing on a jagged cliff at the lower left. The titan is a gigantic muscular humanoid sea god made of weathered stone and scale-like armor plates, with a stern bearded face, glowing eyes, horned or coral-like crown ridges, spines along the shoulders and back, and intricate glowing gold runic/celestial patterns across the chest, shoulders, arms, belt, and wrists. Streams of seawater pour from the titan’s shoulders, arms, beard, and torso while violent white-capped waves crash around his waist and hands. The messenger is a small black-cloaked silhouette with long windblown hair and cape, holding up a bright circular golden staff or beacon toward the titan. Set the scene amid ancient ruined coastal temples and broken columns on the far left, with a dark teal-black thunderstorm sky, dense layered clouds, diagonal rain streaks, bright lightning bolts on the right, and a dramatic opening in the clouds on the upper left where golden sun rays break through. Include exactly 15 visible birds or gull silhouettes scattered across the sky. Use a cinematic 16:9 composition, low-angle epic scale, high contrast chiaroscuro, deep navy and teal shadows, warm gold highlights, foaming turquoise waves, ornate linework, graphic-novel fantasy concept art style, highly detailed but painterly, no text, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "The Colossal Ocean Titan and Messenger"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968625565_gc87az_HOAuO6zbcAAYqCA.jpg",
+        "alt": "Colossal Ocean Titan and Messenger",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "TWnese",
+      "url": "https://x.com/TWnese"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/TWnese/status/2080714109960786234#reversed-0"
+    },
+    "publishedAt": "2026-07-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29729",
+    "contentHash": "33e40a9a7aecc84ec09ffcb0ece71c271edb43ad"
+  },
+  {
+    "id": "gpt-image-2:29738",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29738",
+    "title": "Mecha Cockpit Pilot Scene",
+    "category": "Comic / Storyboard",
+    "description": "A cinematic photorealistic image of a female pilot inside a giant robot cockpit overlooking a futuristic city, useful for sci-fi concept art.",
+    "promptText": "Create a cinematic photorealistic science-fiction cockpit scene from inside a giant robot or advanced mecha, showing {argument name=\"pilot description\" default=\"a young East Asian woman with long black hair and thin glasses\"} seated in profile in a heavy armored pilot chair. She wears {argument name=\"pilot outfit\" default=\"a beige futuristic flight suit with subtle harness straps\"}, sitting calmly with hands on low cockpit controls, looking out through a large panoramic window. The cockpit is dark, metallic, industrial, and densely detailed, with thick black-gray structural frames, worn mechanical panels, bolts, rails, embedded control consoles, and blue glowing holographic HUD overlays floating across the windshield and ceiling. Include exactly 5 visible major HUD/interface areas: 1 large translucent blue diagnostic panel along the upper left ceiling, 1 narrow data column near the top center, 1 broad transparent navigation overlay across the main window, 1 dense blue data panel on the left side wall, and 1 illuminated console screen at the lower right. Outside the window is {argument name=\"outside view\" default=\"a bright daytime futuristic city skyline with tall towers, distant mountains, blue sky, and scattered white clouds\"}. Use a strong contrast between the shadowy cockpit interior and bright daylight outside, with realistic reflections on glass, atmospheric haze, volumetric light, shallow depth of field, and slight motion blur or radial blur around the edges as if the viewer is looking through a curved cockpit frame. Composition is horizontal-to-square cinematic framing, pilot centered slightly left, window view filling the right half, ultra-detailed, high realism, dramatic scale, no extra characters, no logos, no readable brand text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "pilot description",
+        "default": "a young East Asian woman with long black hair and thin glasses"
+      },
+      {
+        "name": "pilot outfit",
+        "default": "a beige futuristic flight suit with subtle harness straps"
+      },
+      {
+        "name": "outside view",
+        "default": "a bright daytime futuristic city skyline with tall towers, distant mountains, blue sky, and scattered white clouds"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968632939_3uk96r_HN_bgambcAA7vJf.jpg",
+        "alt": "Mecha Cockpit Pilot Scene",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "カーブミラー",
+      "url": "https://x.com/kabumira862571"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/kabumira862571/status/2080622909383676271#reversed-0"
+    },
+    "publishedAt": "2026-07-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29738",
+    "contentHash": "cea627480ac1d955a1451996c85ec820903de0cb"
+  },
+  {
+    "id": "gpt-image-2:29721",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29721",
+    "title": "Equestrian Pitch Deck Storyboard",
+    "category": "Comic / Storyboard",
+    "description": "A high-end equestrian storyboard in a 12-frame grid featuring an elegant Hermès-inspired aesthetic with saddle tan and hunter green tones.",
+    "promptText": "Create a high-end 4:3 equestrian pitch deck storyboard in 3x4 grid (12 frames), editorial layout, {argument name=\"brand style\" default=\"Hermès Equestrian/Cavalleria Toscana style\"}, {argument name=\"color palette\" default=\"saddle tan + deep hunter green palette\"}. Structured flow: stable → groom → saddle → ride → field",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "brand style",
+        "default": "Hermès Equestrian/Cavalleria Toscana style"
+      },
+      {
+        "name": "color palette",
+        "default": "saddle tan + deep hunter green palette"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968617648_w8aebv_HN-1VgnawAAqsz9.jpg",
+        "alt": "Equestrian Pitch Deck Storyboard",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "𝐌",
+      "url": "https://x.com/Strength04_X"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Strength04_X/status/2080580958789779821"
+    },
+    "publishedAt": "2026-07-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29721",
+    "contentHash": "7f90b26bf1b56f82f699a6743c80ec1199c2dc47"
+  },
+  {
+    "id": "gpt-image-2:29618",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29618",
+    "title": "Terrified Woman Pursued by T-Rex in Jungle",
+    "category": "Comic / Storyboard",
+    "description": "A cinematic and photorealistic shot of a blonde woman in a magenta dress fleeing from a Tyrannosaurus rex in a misty jungle.",
+    "promptText": "Photorealistic cinematic still of a terrified young woman with {argument name=\"hair style\" default=\"short blonde bob wavy hair and bangs\"}, wearing a {argument name=\"outfit\" default=\"short magenta-pink dress\"}, barefoot and running in panic through a {argument name=\"setting\" default=\"dense misty jungle\"}, pursued by a massive roaring Tyrannosaurus rex with open jaws",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair style",
+        "default": "short blonde bob wavy hair and bangs"
+      },
+      {
+        "name": "outfit",
+        "default": "short magenta-pink dress"
+      },
+      {
+        "name": "setting",
+        "default": "dense misty jungle"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968616535_jpwd6r_HN-PXD0bwAA61av.jpg",
+        "alt": "Terrified Woman Pursued by T-Rex in Jungle",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Sharon Riley",
+      "url": "https://x.com/Just_sharon7"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Just_sharon7/status/2080539190811611620"
+    },
+    "publishedAt": "2026-07-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29618",
+    "contentHash": "26d81a76ff33698e77fb152941dcb5c55fb0f645"
+  },
+  {
+    "id": "gpt-image-2:29611",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29611",
+    "title": "Sci-Fi Knight of the Order",
+    "category": "Comic / Storyboard",
+    "description": "A dark, atmospheric narrative prompt for GPT Image 2 describing a knight whose armor is composed of multiple burial shrouds from his past lives.",
+    "promptText": "year {argument name=\"year\" default=\"2226\"}. the order still stands, 200 years after the consortium stopped funding it. this knight has died {argument name=\"death count\" default=\"fourteen\"} times. all {argument name=\"death count\" default=\"fourteen\"} times they copied his memory, printed a new body, and gave him back the same armor. each time he dies they sew a piece of the previous shroud onto his cape. what he drags along are {argument name=\"death count\" default=\"fourteen\"} shrouds sewn one on top of the other. on the sword, the {argument name=\"rune color\" default=\"red\"} runes are names. people he did not reach in time. the cathedral where he stands guard has been without a priest for eighty years.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "year",
+        "default": "2226"
+      },
+      {
+        "name": "death count",
+        "default": "fourteen"
+      },
+      {
+        "name": "rune color",
+        "default": "red"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968605459_yow7s4_HN98Lc2a4AAJq09.jpg",
+        "alt": "Sci-Fi Knight of the Order",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Samuel Ferrero.",
+      "url": "https://x.com/MiMundoConIA"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/MiMundoConIA/status/2080518092564910250"
+    },
+    "publishedAt": "2026-07-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29611",
+    "contentHash": "65aaba8c029b0f227452a81e07f92f05b3c21836"
+  },
+  {
+    "id": "gpt-image-2:29608",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29608",
+    "title": "Anime Character Sheet Reference Prompt",
+    "category": "Comic / Storyboard",
+    "description": "A complex, structural prompt for generating a multi-angle character sheet (front, side, back) in high-quality theatrical anime style, specifically designed to maintain character consistency from a reference image.",
+    "promptText": "Reference Use:\nOne full-body reference image attached to this instruction. Supports both real photos and illustrations.\n\nText Content:\nUsing the attached reference image as the sole subject reference, create a simplified character sheet in 1:1 square format for both social sharing and video reference. The sheet should be visually appealing as a standalone image, allowing for the verification of the subject's face, hair, age, body type, uniform, and color scheme. Maintain the subject as the same person across all views without adding different individuals. Do not create a storyboard.\n\n[Reference Image Application Scope]\nIf the reference is a real photo, convert it into a high-quality theatrical anime style while maintaining the subject's features. If the reference is an illustration, finish it in a high-quality theatrical anime style. Inherit facial features, eye shape, contours, bangs, hairstyle, hair color, perceived age, skin texture, body type, head-to-body ratio, and overall proportions. Maintain the hair state (tied/loose), tie position, parting, length, and hair tufts around the face exactly as in the reference. Do not inherit the costume, shoes, accessories, or background from the reference image. Completely change the attire to the uniform specified in this instruction.\n\n[Body Type Consistency]\nMaintain the reference image's proportions, head size, neck length, shoulder width, torso length, waist position/width, arm/leg length, knee position, and overall silhouette. Limit the anime conversion to line, color, shading, and texture; do not redesign the skeletal structure or body dimensions. Do not perform facial slimming, leg lengthening, or any anatomical exaggerations.\nMaintain consistent body volume across 01 FRONT, 02 SIDE, 03 BACK, and 04 SPECIAL LOOK. Use standard, natural perspective and eye-level height. Avoid wide-angle distortion or extreme camera angles.\n\n[Expression]\nHigh-quality theatrical anime style. Clean and polished finish. Avoid cheap TV anime styles, generic NPC looks, or simple photo filters.\n\n[Specified Outfit]\nRegardless of the reference outfit, change to {argument name=\"uniform\" default=\"a navy blazer, white shirt, thin red ribbon, and grey pleated skirt\"} with dark knee-high socks and {argument name=\"shoes\" default=\"white-based sneakers\"}.\n\n[Fixed Layout]\nTwo-tier structure: Top 58%, Bottom 42%. Background is plain white to very light grey. Provide sufficient margins.\n\nTop Tier (58%):\n01 FRONT (22%): Full-body front view.\n02 SIDE (22%): Accurate 90-degree side view.\n03 BACK (22%): Full-body back view.\n04 SPECIAL LOOK (34%): Larger 3/4 view with a natural, charming pose.\n\nBottom Tier (42%):\n05 FACE (62%): Three facial views (Front, 3/4, Side) at the same size and camera distance.\n06 DESIGN GUIDE (38%): Color palette and detail focus (shirt collar/ribbon, bangs, sneakers).\n\n[Headings]\nUse only short English headings: 01 FRONT, 02 SIDE, 03 BACK, 04 SPECIAL LOOK, 05 FACE, 06 DESIGN GUIDE, COLOR PALETTE, DETAIL FOCUS.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "uniform",
+        "default": "a navy blazer, white shirt, thin red ribbon, and grey pleated skirt"
+      },
+      {
+        "name": "shoes",
+        "default": "white-based sneakers"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968591835_tr1a50_HN9m9mfakAEWB4M.jpg",
+        "alt": "Anime Character Sheet Reference Prompt",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "AIライフハック",
+      "url": "https://x.com/ai_lifehack55"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ai_lifehack55/status/2080494791826268265"
+    },
+    "publishedAt": "2026-07-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29608",
+    "contentHash": "accb617a03bb51b17401e5cd5737938ded59c1dd"
+  },
+  {
+    "id": "gpt-image-2:29739",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29739",
+    "title": "Anime Summer Kimono Design",
+    "category": "Comic / Storyboard",
+    "description": "Creates a full-body anime character wearing a translucent summer kimono outfit inspired by a reference research board.",
+    "promptText": "Using REFERENCE_0 as the clothing research board, create a clean full-body anime character design sheet for {argument name=\"character name\" default=\"a slender young man\"} in a breathable Japanese summer outfit. Transform the referenced woven, translucent summer kimono/haori ideas into an elegant modern illustration rather than a screenshot or collage.\n\nCharacter: Draw one standing bishounen-style male figure with {argument name=\"hair color\" default=\"messy white hair\"}, pale skin, and a calm slightly shy expression, facing forward in a relaxed pose with one hand resting near the waist.\n\nOutfit: Include exactly 5 visible outfit elements: 1) a white lightweight summer kimono/yukata with a subtle small repeating woven pattern, 2) a dark navy obi, 3) a sheer black gauze haori with visible transparency and fine weave texture, 4) a simple decorative cord with a small red bead, and 5) traditional black geta sandals with dark red straps.\n\nStyle: Delicate Japanese anime fashion concept art, soft pencil-and-watercolor linework, refined fabric texture, airy summer feeling, neutral white background, full body centered with generous margins.\n\nConstraints: Do not reproduce the phone UI, search result cards, website labels, or Japanese chat text from the reference. Use the reference only to infer the summer kimono material, transparency, and period-inspired mood. No extra props, no background scenery, no additional characters, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "a slender young man"
+      },
+      {
+        "name": "hair color",
+        "default": "messy white hair"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784968634432_m8pv0z_HN9EW5AakAAJeBk.jpg",
+        "alt": "Anime Summer Kimono Design",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "🐹🐹",
+      "url": "https://x.com/hmst_yyyy"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/hmst_yyyy/status/2080456738961228262#reversed-0"
+    },
+    "publishedAt": "2026-07-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29739",
+    "contentHash": "aa0f0f042edbc19b32b1d6b1b03d83ae7d6c564d"
+  },
+  {
     "id": "gpt-image-2:29678",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6441,812 +7261,5 @@
     "publishedAt": "2026-07-21T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29395",
     "contentHash": "d091231b0530cebf9565691f47ceae013afcaecb"
-  },
-  {
-    "id": "gpt-image-2:29394",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29394",
-    "title": "East Asian Woman Lifestyle Interior Portrait",
-    "category": "Social Media Post",
-    "description": "A professional lifestyle photography prompt for gpt-image-2 depicting a woman in a relaxed pose on a beige sofa, featuring realistic skin textures and soft indoor lighting.",
-    "promptText": "A {argument name=\"person\" default=\"young adult East Asian woman\"} sitting on a {argument name=\"furniture\" default=\"light beige fabric sofa\"}, indoor lifestyle portrait photography. She has a slender and long figure, long straight dark brown-black hair flowing naturally, smooth hair volume, side-parted, delicate and soft facial features, clear features, light makeup, fair and delicate skin but retaining real pores and slight texture. She wears {argument name=\"clothing\" default=\"a loose pure white short-sleeved T-shirt and dark grey lounge shorts\"} with lace-up details on both sides of the shorts, barefoot. The pose should be highly consistent with the reference image: she sits diagonally on the sofa, legs naturally crossed and bent, one calf extending forward, the other tucked in; one arm raised back, hand naturally supporting the back of the head or behind the ear, leaning against the sofa back; the other hand naturally hanging down near the knee. Head slightly lowered and turned toward the bottom left of the frame, eyes looking down quietly, expression calm, relaxed, slightly pensive, not looking at the camera. The background is a full wall of deep grey curtains with a strong drape, soft warm indoor light spilling out from the back right, creating a slight warm light atmosphere; the overall space is quiet, simple, like a luxury hotel or modern apartment living room. The light is mainly soft diffused light, with natural and delicate transitions on the person's face and legs, restrained highlights, and soft shadows. The overall color tone is low saturation, low contrast, dominated by beige, grey, white, and warm brown, the image is clean and high-end. Photography style: real photography, no illustration feel, no AI plastic skin; full body to upper body composition, slight white space, 85mm lens effect, shallow depth of field, focus clearly on the person's face and upper body, realistic texture of sofa and curtains, realistic skin quality, photo-level realism, high-end lifestyle photography, quiet and private atmosphere. Avoid: cartoonish feel, excessive skin smoothing, CG feel, wrong fingers, extra limbs, deformed legs, facial distortion, exaggerated makeup, over-sharpening, overexposure, cluttered background, text, watermarks, logos.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "person",
-        "default": "young adult East Asian woman"
-      },
-      {
-        "name": "furniture",
-        "default": "light beige fabric sofa"
-      },
-      {
-        "name": "clothing",
-        "default": "a loose pure white short-sleeved T-shirt and dark grey lounge shorts"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710323316_i4uspk_HNxCZICWUAAq8Vq.jpg",
-        "alt": "East Asian Woman Lifestyle Interior Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710323282_a1zq1c_HNxCZIGXcAETQN3.jpg",
-        "alt": "East Asian Woman Lifestyle Interior Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710323361_wwdcln_HNxCZIMWUAAyTez.jpg",
-        "alt": "East Asian Woman Lifestyle Interior Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710324429_in88hi_HNxCZIKXgAAzJiu.jpg",
-        "alt": "East Asian Woman Lifestyle Interior Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "ToroJushiAi",
-      "url": "https://x.com/ToroJushiAi"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/ToroJushiAi/status/2079627468743315598"
-    },
-    "publishedAt": "2026-07-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29394",
-    "contentHash": "f5c2996ed2c2947d3d746e454a8cc398f92de645"
-  },
-  {
-    "id": "gpt-image-2:29378",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29378",
-    "title": "Realistic Japanese Restaurant Portrait",
-    "category": "Social Media Post",
-    "description": "A detailed prompt for generating a hyper-realistic smartphone-style photo of a young East Asian woman dining in a Japanese restaurant, capturing a candid, gentle expression.",
-    "promptText": "Generate a 1:1 ratio hyper-realistic smartphone candid photo. A {argument name=\"character\" default=\"pretty East Asian woman in her twenties\"} is sitting in a {argument name=\"restaurant setting\" default=\"warm and quiet Japanese restaurant\"} eating noodles, leaning slightly forward and looking directly at the camera. She has a naturally delicate oval face, fair and realistic skin, large dark brown eyes, and light blush; long straight dark brown hair draped over her shoulders, with light, slightly messy air bangs on her forehead, wearing a {argument name=\"clothing\" default=\"simple dark gray short-sleeved top\"}. Focus on restoring her expression: eyes slightly widened, gaze quietly and intently looking at the camera; lips lightly pursed, corners of the mouth only slightly upturned, cheeks slightly puffed, as if she just finished a bite of noodles and suddenly noticed a friend taking a picture of her, with a shy, gentle, and slightly suppressed smile. No toothy grins, no exaggerated expressions. One hand naturally holds black chopsticks, suspended above the noodle bowl. In the center of the table is a large black ceramic bowl with thick noodles, seaweed, mushrooms, and vegetables, and to the left is a light-colored milk drink with ice cubes and a black straw. The background consists of beige walls and black wooden lattice windows, with a slight cool blue light showing behind the windows. A friend is sitting across the table shooting with a smartphone, slightly high angle, with the upper body, noodle bowl, and drink fully in the frame. Realistic skin texture, natural facial proportions, slight smartphone wide-angle feel, ordinary restaurant lighting, casual composition, slight noise, no studio feel, no skin smoothing, no anime style, no text or watermarks.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character",
-        "default": "pretty East Asian woman in her twenties"
-      },
-      {
-        "name": "restaurant setting",
-        "default": "warm and quiet Japanese restaurant"
-      },
-      {
-        "name": "clothing",
-        "default": "simple dark gray short-sleeved top"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710308592_uo8vwj_HNwoB0pWUAA7Gvz.jpg",
-        "alt": "Realistic Japanese Restaurant Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710308529_1gn2od_HNwoB2jWgAAtAAZ.jpg",
-        "alt": "Realistic Japanese Restaurant Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "John",
-      "url": "https://x.com/johnAGI168"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/johnAGI168/status/2079602300679798886"
-    },
-    "publishedAt": "2026-07-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29378",
-    "contentHash": "2f93febe31f92677d30cb6b1e4a5200c05f0f35e"
-  },
-  {
-    "id": "gpt-image-2:29374",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29374",
-    "title": "Forced Perspective Brooklyn Bridge Portrait",
-    "category": "Social Media Post",
-    "description": "A complex prompt for GPT Image 2 that creates a forced-perspective optical illusion of pinching the Brooklyn Bridge while locking the subject's facial identity from a reference photo.",
-    "promptText": "Use the provided reference image. STRICT FACE & IDENTITY LOCK: Preserve the woman's face, facial proportions, skin tone, hairstyle, and overall identity exactly as in the reference image. Do not alter her appearance. Ultra-realistic DSLR travel photograph of the same {argument name=\"subject\" default=\"stylish young American woman\"} standing confidently in front of the {argument name=\"landmark\" default=\"Brooklyn Bridge\"}, creating a flawless forced-perspective illusion where she appears to {argument name=\"action\" default=\"gently pinch one of the bridge's stone towers between her thumb and index finger\"}. The perspective alignment is perfectly accurate, making the illusion look naturally captured in-camera rather than edited. Pedestrians, cyclists, and distant vehicles remain realistically scaled, enhancing the authenticity of the scene. Warm golden-hour sunlight casts soft, natural shadows across the bridge and the woman's outfit. Captured with premium DSLR optics, realistic depth of field, subtle lens compression, crisp textures, editorial travel photography style, authentic New York atmosphere, luxurious Pinterest aesthetic, cinematic realism, ultra-high detail, viral optical illusion, natural body posture, candid confidence, and flawless photorealistic quality.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "stylish young American woman"
-      },
-      {
-        "name": "landmark",
-        "default": "Brooklyn Bridge"
-      },
-      {
-        "name": "action",
-        "default": "gently pinch one of the bridge's stone towers between her thumb and index finger"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710306352_jdd1kl_HNwmkWra8AAzEAe.jpg",
-        "alt": "Forced Perspective Brooklyn Bridge Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Meem",
-      "url": "https://x.com/mehvishs25"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/mehvishs25/status/2079579559666790712"
-    },
-    "publishedAt": "2026-07-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29374",
-    "contentHash": "3088efc99014ba0faa8d07c2cd9e8781488300af"
-  },
-  {
-    "id": "gpt-image-2:29386",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29386",
-    "title": "Night Rainy Tropical Forest Portrait",
-    "category": "Social Media Post",
-    "description": "A cinematic and highly detailed fashion editorial prompt for a woman standing in a night-time tropical rainforest under heavy rain, surrounded by lush banana leaves.",
-    "promptText": "Subject:\n{argument name=\"subject\" default=\"Arms embracing tropical rain\"}\n\nMain Subject:\nDepict a single adult woman being hit by rain in a tropical rainforest at night. The person stands slightly to the left of the center, in a vertical three-quarter portrait from the top of the head to the middle of the thighs. The person occupies about 70% of the screen, surrounded by huge wet banana leaves above and to the right.\n\nPerson/Expression:\nA well-featured woman with natural skin texture. Her black hair is wet from the rain and tied back low, with thin strands of hair sticking to her forehead, cheeks, and neck. Her face is slightly tilted to the left, her eyes are quietly closed, and her lips are slightly open in a calm expression. A relaxed atmosphere, as if surrendering to the sound of the rain.\n\nClothing/Pose:\nA {argument name=\"outfit\" default=\"pale greige rib camisole with thin shoulder straps\"} and {argument name=\"bottoms\" default=\"black cut-off denim shorts\"}. The clothes are wet from the rain, showing the fibers and natural wrinkles of the fabric. The hem of the camisole rests lightly above the abdomen, and the shorts sit naturally along the hip bones. Both arms are crossed in front of the chest, with the person's own right forearm over the left forearm. The right hand is hidden inside the upper left arm, and the left hand lightly grasps the fabric near the right flank. Must have exactly two arms and one hand on each side.\n\nBackground/Light:\nPlace large banana leaves in the foreground and background, with fine raindrops and water streaks on the leaf surfaces. The background is a deep black-green, creating depth through overlapping leaves. Fine rain falls diagonally, and water drops from the tips of the leaves. The main light is a somewhat hard, warm light from the upper left, creating wet reflections on the face, collarbones, shoulders, arms, and abdomen. Add a weak rim light from the rear right to separate the hair and leaf contours. Shadows are kept deep, with only skin reflections emerging from the darkness.\n\nComposition/Camera:\nVertical 2:3 ratio. The camera is at eye level near chest height, with a natural perspective equivalent to 50mm. Leaves spread horizontally above the person's head, and a large leaf in the lower right creates a diagonal flow. Focus accurately on the person's face, blurring the background softly. Some raindrops receive light in the foreground, creating three-dimensional depth.\n\nTexture/Style:\nRealistic fashion editorial photography. Precisely depict wet skin, hair, ribbed fabric, denim, and leaf surfaces. Avoid excessive skin retouching, leaving pores and fine water droplets naturally. Low-saturation color palette centered on black-green and skin tones, deep contrast, subtle film grain, and a quiet, heavy night atmosphere.\n\nNegative:\nExtra arms, extra hands, duplicated fingers, missing fingers, fused limbs, unnatural joints, confusion of left and right arms, unnatural chest, clothing failure, floating cloth, shadows inconsistent with light source, excessive skin retouching, plastic-like skin, text, logo, watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "Arms embracing tropical rain"
-      },
-      {
-        "name": "outfit",
-        "default": "pale greige rib camisole with thin shoulder straps"
-      },
-      {
-        "name": "bottoms",
-        "default": "black cut-off denim shorts"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710317448_rvx1ay_HNjn0Oja4AA8Z5U.jpg",
-        "alt": "Night Rainy Tropical Forest Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2079555492431774096"
-    },
-    "publishedAt": "2026-07-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29386",
-    "contentHash": "3171f4e220739273d92dc06c5534e71a6e0ef244"
-  },
-  {
-    "id": "gpt-image-2:29383",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29383",
-    "title": "Traditional Courtyard Fashion Portrait",
-    "category": "Social Media Post",
-    "description": "An intricate cinematic prompt for a portrait in a traditional East Asian courtyard, highlighting textures of raw silk, linen, and willow-weaved elements.",
-    "promptText": "An {argument name=\"subject\" default=\"East Asian woman\"} stands under a weeping willow in a sunlit courtyard. Low-angle shot from the top of the head to the calves, centered, with her body slightly turned to the left, a calm expression, lips slightly parted, and chin slightly raised. Slender figure, warm fair skin, almond-shaped dark brown eyes, a straight nose, and coral-rose lips. Editorial makeup with translucent skin, peach-pink blush, brown eyeliner, and warm-toned eyeshadow. Real pore texture, with fine highlights on the face, neck, shoulders, and arms. Deep brownish-black hair in a loose low bun, with wisps falling over the cheeks, neck, and shoulders; a single damp strand clings to the left shoulder and chest. The stray hairs on the crown are illuminated by sunlight, looking rustic and slightly messy. A {argument name=\"top\" default=\"cream-beige off-the-shoulder crop top\"} in an asymmetrical draping raw silk linen texture, with narrow ties knotted at the back of the neck and a bow at the side of the waist; a high slanted collar with the hem reaching above the navel. Featuring dark brown, olive, and pale gold floral embroidery, with handcrafted stitching texture, opaque and well-fitting. A dark olive charcoal long skirt with vertical pleats in matte fabric, with a rust-brown terracotta cloth strip wrapped around the waist, loosely knotted at the front left with the tail hanging to the skirt; a coarse linen scarf with frayed edges and tassels at the left hip, giving the waist ornament a handmade feel. Left arm hanging at the side, right arm extended diagonally to hold the handle of a large willow basket. Hands show accurate knuckles and natural, clean, short nails. A large dark-brown willow-weaved basket sits in the lower-right foreground, with a wide round body, a thick arched handle, and dense hand-worn strips; the sunlit edges contrast with the dark interior of the basket mouth, occupying the lower-right quadrant as a secondary focal point. The setting is an {argument name=\"setting\" default=\"ancient East Asian wooden house courtyard\"}: weathered wooden walls, lattice windows, carved door frames, wooden pillars, and a tiled roof. The wood grain is coarse, beams are irregular, and the interior is dimly lit. A light-colored hanging cloth hangs over a dark doorway behind the left shoulder. Weeping willow branches and leaves traverse the top, with green leaves of varying density crossing over the eaves and surrounding the head and shoulders without obscuring the eyes, creating scattered dappled light and shadow. Below are coarse stone bases, stone steps, slabs, and grass; the distant view is softened to highlight the figure, clothing, and basket. Warm sunlight filters from the upper right front like early summer midday shade; highlights are bright on the shoulders, arms, cheeks, neck, waist, and basket handle. The face and body have soft reflected light, while cool-toned shadows fall under the hair, chin, arms, clothing folds, and eaves. Dappled willow shadows fall across the skin, clothing, wooden walls, and basket; highlights are warm, and shadows are cold olive-brown. Earthy color palette: cream parchment beige, dark olive, weathered brown, charcoal gray, rust-colored terracotta, willow green, and warm skin tones, with restrained saturation. Soft film grain, highlight halation, transparent shadows, and atmospheric perspective. Full-frame 50–65mm, f/2.8–f/4, focus on eyes, face, embroidery, knots, and the right hand on the basket handle; distant view blurred but retaining texture, with a slightly low-angle statuesque feel. High-end rural fashion editorial: natural beauty, handmade clothing, traditional architecture, pastoral elegance, realistic skin texture, distinct hair strands, precise embroidery, basket texture, aged wood, natural hands, and cinematic realism. No text, logos, watermarks, extra people, modern objects, plastic skin, deformed fingers, duplicate limbs, deformed basket, oversaturated colors, artificial HDR, or harsh studio lighting.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "East Asian woman"
-      },
-      {
-        "name": "top",
-        "default": "cream-beige off-the-shoulder crop top"
-      },
-      {
-        "name": "setting",
-        "default": "ancient East Asian wooden house courtyard"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710312593_k2y4v7_HNtpaTkXMAAIJf-.jpg",
-        "alt": "Traditional Courtyard Fashion Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710312759_ovp4se_HNtpaTkW8AAyc4X.jpg",
-        "alt": "Traditional Courtyard Fashion Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710312554_na9w0r_HNtpaToW8AEDbZB.jpg",
-        "alt": "Traditional Courtyard Fashion Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710314127_wly88d_HNtpaT8XEAAeMbh.jpg",
-        "alt": "Traditional Courtyard Fashion Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "ToroJushiAi",
-      "url": "https://x.com/ToroJushiAi"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/ToroJushiAi/status/2079536879041400896"
-    },
-    "publishedAt": "2026-07-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29383",
-    "contentHash": "bedfdab1154555ea891205ca680d3d95db7e5b67"
-  },
-  {
-    "id": "gpt-image-2:29375",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29375",
-    "title": "Red Satin Silence Bedroom Portrait",
-    "category": "Social Media Post",
-    "description": "A detailed cinematic fashion portrait prompt for a mature woman in a cozy, lived-in bedroom setting featuring satin textures and soft natural lighting.",
-    "promptText": "Subject Theme:\n{argument name=\"subject theme\" default=\"Red Satin Silence\"}\n\nSubject:\nA realistic 2:3 vertical fashion portrait of a fictional adult woman kneeling on a white bed in a bedroom decorated with magazines and photo cards on beige walls. The subject occupies a large portion of the center-left frame, shown from the head to the thighs. Open magazines, photobooks, postcards, and a small black camera are naturally scattered around her.\n\nCharacter and Expression:\nAn adult woman with a calm allure and mature presence. A healthy, naturally rounded, adult-like physique. Her long {argument name=\"hair color\" default=\"dark brown\"} hair is slightly messy, with thin bangs and strands of hair around her face brushing her cheeks. Her head is tilted slightly, directing a quiet, steady gaze at the camera. Her lips are lightly closed in a gentle, effortless expression. Her skin retains a natural flush and fine textures.\n\nClothing and Pose:\nA white ribbed camisole with thin shoulder straps. The neckline is a distinct V-neck bordered with lace, with a short length that naturally follows the body's curves. The bottoms are made of a {argument name=\"clothing color\" default=\"deep red\"} satin material with fine gathers at the edges. She is kneeling on the bed, with her left leg extended forward and her right leg folded back. Her upper body is nearly frontal, with only a slight twist at the waist. Her right hand lightly rests its fingertips on the edge of the red satin, while her left hand is naturally placed near the opposite edge. The interaction between fingers and clothing is depicted realistically without pulling the fabric too hard.\n\nBackground and Lighting:\nA lived-in bedroom with messy white sheets and pillows. The wall is irregularly plastered with covers of women's magazines, indoor photos, cityscapes, flowers, and strips of paper; the text is blurred to an unreadable extent while maintaining a Japanese-like atmosphere. An open photobook is in the foreground, the subject and black camera in the middle ground, and a wall collage in the background. Warm sunlight shines in from a low angle on the upper left, illuminating the left side of her face, shoulder, chest, and thighs. It casts distinct shadows on her right side and the wall, with soft reflected light from the white sheets.\n\nComposition and Camera:\nVertical 2:3 ratio, with the subject occupying about 70% of the frame. The face is in the upper third, the waist in the center, and the knees and magazines at the bottom. The camera is at a slightly low angle, nearly the same height as the bed, with a natural perspective of around 50mm. Focus is on the eyes and face, with background papers slightly softened. There is moderate space on the side walls and the bottom of the bed, with scattered magazines guiding the gaze toward the subject.\n\nTexture and Style:\nA warm-toned, magazine-style realistic photograph. Features subtle film grain, soft highlights, shallow shadows, and a base of calm beige and white, with the red satin serving as a strong color accent. Skin shows pores and fine shading, avoiding excessive retouching. Different textures of hair, ribbed fabric, lace, satin, sheets, and paper are clearly distinguished.\n\nNegative:\nUnnatural face, unnatural gaze, extra fingers, missing fingers, fused limbs, broken joints, poor contact between clothing and hands, distorted V-neck, floating fabric, unnatural gravity, incorrect perspective, shadows inconsistent with the light source, illegible garbled text, logos, watermarks, excessive skin smoothing, plastic-like skin.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject theme",
-        "default": "Red Satin Silence"
-      },
-      {
-        "name": "hair color",
-        "default": "dark brown"
-      },
-      {
-        "name": "clothing color",
-        "default": "deep red"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710306775_1zffwl_HNjc_T8aEAAEVVT.jpg",
-        "alt": "Red Satin Silence Bedroom Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2079529823417008213"
-    },
-    "publishedAt": "2026-07-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29375",
-    "contentHash": "ca6ed308b0b9d44821127615204a06dcf50fc8f8"
-  },
-  {
-    "id": "gpt-image-2:29443",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29443",
-    "title": "Premium Men's Skincare Thumbnail",
-    "category": "YouTube Thumbnail",
-    "description": "Creates a dark luxury Japanese thumbnail ad featuring a confident male model, bold Japanese headline typography, and four matte-black grooming products.",
-    "promptText": "Goal: Create a cinematic Japanese YouTube thumbnail-style advertisement for a men's grooming or skincare product line, aimed at men who do not know what to choose.\n\nCanvas: 16:9 horizontal thumbnail, dark premium editorial look, high contrast, no border or watermark.\n\nLayout: Place one serious Japanese male model on the left third, cropped from chest upward, wearing a black blazer over a black shirt. He has medium-length wavy black hair, clean-shaven face, slightly tilted head, calm confident expression, and looks directly at the viewer. Put the main headline in the center-right, large and layered over the dark background. Place the product lineup on the far right bottom on a dark stone pedestal.\n\nText content: Use exactly 3 text groups. Top group: a black slanted rectangular banner with small bold white Japanese text: 「どれ選べばいいか分からない男へ。」 Main group: very large white Japanese Mincho-style serif text with subtle drop shadow: 「女性100人が」 on the first line and 「ガチで選んだ」 on the second line. Highlight group: large metallic gold serif text with quotation marks: 「30代の清潔感」, followed below by large white text: 「の正解。」 Make the gold phrase the strongest focal point after the model.\n\nSubject details: The man should feel like a polished luxury magazine cover: realistic skin texture, moody studio lighting, sharp cheekbones, mature 30s atmosphere, understated masculinity. Use {argument name=\"model description\" default=\"a handsome Japanese man in his 30s with wavy black hair wearing a black blazer\"}.\n\nProduct details: Show exactly 4 matte-black grooming containers on the right: 1 tall pump bottle at the far right, 1 tall squeeze tube just left of it, 1 low cylindrical jar in front, and 1 wider low cylindrical container behind the jar. All products are unlabeled, minimal, premium, and softly rim-lit.\n\nVisual style: Dark charcoal-blue background with a diagonal spotlight beam from the upper right, subtle smoky haze around the center text, premium black-and-gold color palette, realistic commercial photography, glossy but restrained highlights, crisp typography.\n\nCustomizable headline parameters: Use {argument name=\"top banner text\" default=\"どれ選べばいいか分からない男へ。\"}, {argument name=\"main white headline\" default=\"女性100人が\\nガチで選んだ\"}, {argument name=\"gold key phrase\" default=\"「30代の清潔感」\"}, and {argument name=\"closing text\" default=\"の正解。\"}.\n\nConstraints: Keep the composition uncluttered, ensure all Japanese text is large and legible, do not add extra labels to the products, do not add logos, do not add more than one person, and keep exactly 4 visible product containers.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "model description",
-        "default": "a handsome Japanese man in his 30s with wavy black hair wearing a black blazer"
-      },
-      {
-        "name": "top banner text",
-        "default": "どれ選べばいいか分からない男へ。"
-      },
-      {
-        "name": "main white headline",
-        "default": "女性100人が\\nガチで選んだ"
-      },
-      {
-        "name": "gold key phrase",
-        "default": "「30代の清潔感」"
-      },
-      {
-        "name": "closing text",
-        "default": "の正解。"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710361431_i23ijo_HNyfeQNakAAICne.jpg",
-        "alt": "Premium Men's Skincare Thumbnail",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Riku",
-      "url": "https://x.com/Rikufeildworks"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Rikufeildworks/status/2079712482218934456#reversed-0"
-    },
-    "publishedAt": "2026-07-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29443",
-    "contentHash": "da06650b8aa37f16872e0d19ba69dc9b644e260d"
-  },
-  {
-    "id": "gpt-image-2:29409",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29409",
-    "title": "High-Fashion Anime Character Sheet",
-    "category": "Comic / Storyboard",
-    "description": "Generates a modern high-fashion character concept art sheet in a clean digital anime style, featuring structured compositions and polished outlines.",
-    "promptText": "Create a premium, modern high-fashion CHARACTER CONCEPT ART SHEET in a 16:9 widescreen layout on a pure white background, following this exact structured composition and visual aesthetic:\n\n[STYLE]: highly polished {argument name=\"style\" default=\"2D digital anime\"}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "style",
-        "default": "2D digital anime"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710334067_uewom3_HNybANnakAAx5T1.jpg",
-        "alt": "High-Fashion Anime Character Sheet",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "PixieVerse",
-      "url": "https://x.com/itsPixieVerse"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/itsPixieVerse/status/2079711603331891261"
-    },
-    "publishedAt": "2026-07-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29409",
-    "contentHash": "0c4e2db5bbc5ed795d2934677933510500e54dcc"
-  },
-  {
-    "id": "gpt-image-2:29408",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29408",
-    "title": "Character Prompt:",
-    "category": "Comic / Storyboard",
-    "description": "",
-    "promptText": "Create a premium, modern high-fashion CHARACTER CONCEPT ART on a pure white background, following this exact visual aesthetic:\n\n[STYLE]: highly polished 2.5D cel-shaded digital animation style, characterized by uniform thin black ink outlines, completely flat",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710333797_s0zqeu_HNyblhjbwAA9Y92.jpg",
-        "alt": "Comi",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "PixieVerse",
-      "url": "https://x.com/itsPixieVerse"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/itsPixieVerse/status/2079711598655197348"
-    },
-    "publishedAt": "2026-07-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29408",
-    "contentHash": "e93a3e02496352ed73d125bab5618c9a0db84880"
-  },
-  {
-    "id": "gpt-image-2:29458",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29458",
-    "title": "Fallen Wolf in Snowy Forest",
-    "category": "Comic / Storyboard",
-    "description": "A cinematic photorealistic winter wilderness scene showing a lone gray wolf lying motionless in a blue-toned snowy pine forest.",
-    "promptText": "Create a cinematic photorealistic widescreen scene in a cold blue winter forest at dusk: exactly 1 large {argument name=\"animal\" default=\"gray wolf\"} lies motionless on its side in the foreground, positioned low and slightly left of center, half-buried in soft snow. The wolf has thick gray, black, and tan fur, pointed ears, pale eyes barely open, its head resting on the snow with its mouth slightly open and a few teeth visible, front paws curled near its muzzle and hind legs stretched back to the right. The surrounding landscape is a quiet snow-covered conifer forest with tall dark pine trunks receding into the background, snow-laden branches, low bushes coated in frost, and a faint snowy trail or open clearing behind the animal. Use a moody {argument name=\"color grade\" default=\"icy blue\"} color palette, soft diffuse overcast light, misty atmospheric depth between the trees, shallow cinematic contrast, realistic fur texture, natural paw impressions in the snow, and a somber survival-drama tone. Frame as a 16:9 film still with the horizon high, the foreground snow occupying the lower half, no people, no buildings, no text, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "animal",
-        "default": "gray wolf"
-      },
-      {
-        "name": "color grade",
-        "default": "icy blue"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710372802_mvhoub_HNxpaV4bIAApZ-b.jpg",
-        "alt": "Fallen Wolf in Snowy Forest",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "MayorkingAI",
-      "url": "https://x.com/MayorKingAI"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/MayorKingAI/status/2079653032649007323#reversed-0"
-    },
-    "publishedAt": "2026-07-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29458",
-    "contentHash": "98c59002b17e9ae5fe479c3cea87d4853f0f1c29"
-  },
-  {
-    "id": "gpt-image-2:29426",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29426",
-    "title": "Chibi Prison Break Comic Scene",
-    "category": "Comic / Storyboard",
-    "description": "Generates a wide chibi anime comic illustration of an idol prisoner kicking through a jail wall while guards react in the corridor.",
-    "promptText": "Goal: Create a wide single-panel chibi anime comic illustration about a prison breakout scene, split visually into two labeled areas: a dark jail cell on the left and a brighter guard corridor on the right.\n\nCanvas: 16:9 horizontal image, polished digital anime style, cute chibi proportions, clean line art, soft cel shading, dramatic lighting from the wall impact, high detail but readable composition.\n\nLayout: The left two-thirds show the prison cell interior with blue-gray stone walls, barred doors, a metal bed, and a toilet. The right third shows the guard corridor outside the bars, lit with warmer beige light. Use a vertical boundary created by the cell bars and wall. Add a large cracked hole being smashed into the stone wall near the center-right of the cell, with debris, dust, and a bright orange impact flash.\n\nText content: Include exactly 6 visible Japanese text elements: 1 top-left white label box reading {argument name=\"left area label\" default=\"牢獄\"}; 1 top-right white label box reading {argument name=\"right area label\" default=\"看守通路\"}; 1 small label near the toilet reading {argument name=\"toilet label\" default=\"トイレ\"}; 1 bottom-right label reading {argument name=\"bottom label\" default=\"サムズアップ　看守通路\"}; 1 speech bubble above the pink-haired guard reading {argument name=\"first speech bubble\" default=\"怪しいアイドルね？\"}; 1 speech bubble above the lavender-haired guard reading {argument name=\"second speech bubble\" default=\"怪しすぎる元アイドルですね。\"}. Add small stylized sleep sound effects around the sleeping prisoner, including Japanese-style blue “zzz” marks and a sleepy ellipsis.\n\nCharacters: Include exactly 5 chibi female characters. Character 1: a blonde idol prisoner in the center of the cell, energetic and smiling, wearing a black-and-gold idol combat outfit with star accessories and thigh-high boots, mid-kick with one leg extended into the stone wall, creating the explosion and cracks. Character 2: a pink-haired twin-tail guard outside the bars near the lower right center, wearing a navy-and-white uniform with a small black cap, giving a thumbs-up while watching the breakout. Character 3: a red/pink-haired guard in a dark military-style uniform and red-star cap, standing to the right with a suspicious worried expression, sweat drops beside her face. Character 4: a lavender-haired bespectacled guard in a white sailor-like uniform and white cap, standing at the far right with a calm skeptical expression. Character 5: a sleeping prisoner on the upper-left metal bed, pale pink hair, wearing a dark outfit and cap, curled on her side with closed eyes and blue sleep symbols.\n\nProps and environment: Include exactly 2 major cell fixtures: 1 metal bed at the upper left and 1 white toilet at the lower left. The toilet has a cloth doll or plush idol with X-shaped eyes sitting on it. Add metal bars in the foreground and background, stone block walls, cracked masonry, scattered rubble, and a small barred window high on the back wall.\n\nVisual style: Cute chibi anime, expressive faces, slight isometric perspective, comic panel composition, detailed prison background, contrast between cool blue prison lighting and warm corridor lighting, no photorealism.\n\nConstraints: Keep the scene as one continuous illustration, not a multi-panel grid. Preserve the exact count of 5 characters, 2 main fixtures, 6 Japanese text elements, and 2 speech bubbles. Do not add extra characters, extra panels, watermarks, or English replacement text.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "left area label",
-        "default": "牢獄"
-      },
-      {
-        "name": "right area label",
-        "default": "看守通路"
-      },
-      {
-        "name": "toilet label",
-        "default": "トイレ"
-      },
-      {
-        "name": "bottom label",
-        "default": "サムズアップ　看守通路"
-      },
-      {
-        "name": "first speech bubble",
-        "default": "怪しいアイドルね？"
-      },
-      {
-        "name": "second speech bubble",
-        "default": "怪しすぎる元アイドルですね。"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710349891_6t1na2_HNxWcD2a0AA1WEq.jpg",
-        "alt": "Chibi Prison Break Comic Scene",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710349890_k1qlko_HNxWcd8agAAtJFZ.jpg",
-        "alt": "Chibi Prison Break Comic Scene",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710349895_ij0666_HNxWc7vaUAAiB19.jpg",
-        "alt": "Chibi Prison Break Comic Scene",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710350656_disopc_HNxWdVLa8AALzEU.jpg",
-        "alt": "Chibi Prison Break Comic Scene",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "まるるん＠NIKKE好き",
-      "url": "https://x.com/TachMaru"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/TachMaru/status/2079632198534340653#reversed-0"
-    },
-    "publishedAt": "2026-07-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29426",
-    "contentHash": "bb81634762fffc813293b1f938b83cb7015600ed"
-  },
-  {
-    "id": "gpt-image-2:29377",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29377",
-    "title": "Cigar Cat Character Sheet",
-    "category": "Comic / Storyboard",
-    "description": "A professional character reference sheet prompt for a streetwise cat named Cigar Cat, featuring multiple views, expressions, and consistent visual details.",
-    "promptText": "1. Character Identity Summary: Name: Cigar Cat Role: Main anti hero Age: Adult cat Emotional function: Darkly comic confidence, curiosity, streetwise attitude Visual signature: Lean short haired cat, oversized expressive eyes, narrow muzzle, long whiskers, distinctive intense stare, cigar held at one side of the mouth Continuity importance: Very high face proportions, eye size, fur pattern, body build, cigar placement, and attitude should remain consistent in every shot. 2. Full Character Sheet Prompt Create a professional character reference sheet for a lean adult short haired cat based on the established storyboard character. The cat has a narrow feline face, very large expressive almond shaped eyes, prominent nose, long fine whiskers, short smooth fur, slim athletic body, long legs, upright pointed ears, and a slightly mischievous, streetwise expression. Preserve the character’s distinctive visual identity: oversized expressive eyes recognizable narrow muzzle strong nose shape long whiskers lean body proportions short smooth fur confident anti hero attitude cigar positioned naturally at one side of the mouth as the signature prop Show: front facial view left profile right profile 3/4 facial view rear silhouette: full body standing pose walking pose low crouch pose close up face detail neutral expression suspicious narrowed-eye expression confident grin surprised alert expression intense stare Wardrobe: none. Accessories/props: one cigar only, matching the established storyboard prop. Posture: relaxed but dominant, chest slightly forward, controlled movements, confident rooftop-stray body language. Visual treatment: clean professional production character sheet, monochrome cinematic pencil-and-ink drawing, realistic feline anatomy, precise construction lines where useful, neutral light background, consistent scale and proportions across every view. Lighting: soft neutral studio lighting for design clarity. Maintain exactly the same facial proportions, eye shape, ear placement, body build, fur length, whisker pattern, and cigar style across every view. 3. Consistency Notes: Face: Keep the same narrow feline skull structure, nose shape, muzzle width, and unusually large eyes. Eyes: Large, expressive, slightly intense. Never shrink or radically change their shape. Fur: Short haired and smooth throughout. No long fur variation. Body type: Lean, agile, long legged, realistic feline anatomy. Mood: Confident, mischievous, slightly intimidating, never cute cartoon unless deliberately required by the scene. Signature prop: Same cigar size, shape, placement, and visual treatment whenever present. Continuity behavior: The cat should retain the same facial identity from extreme close up through wide shots. 4. Negative Prompt: No face change, no eye size change, no breed change, no long fur, no hairstyle like fur variation, no body proportion change, no random age shift, no clothing, no hats, no collars unless later requested, no extra accessories, no extra characters, no duplicate cat, no distorted paws, no broken anatomy, no extra limbs, no human hands, no exaggerated cartoon deformation, no inconsistent cigar size, no watermark, no logo, no poster typography, no text heavy layout.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710308808_d0hzfy_HNxL0beaUAAF1xB.jpg",
-        "alt": "Cigar Cat Character Sheet",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "BMX",
-      "url": "https://x.com/bmx_ai13"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/bmx_ai13/status/2079621128872693864"
-    },
-    "publishedAt": "2026-07-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29377",
-    "contentHash": "301c3659f1cf03963ce2a945fba99bf28c6fb46f"
-  },
-  {
-    "id": "gpt-image-2:29454",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29454",
-    "title": "Cyberpunk Rollerblade Character Sheet",
-    "category": "Comic / Storyboard",
-    "description": "A detailed prompt for generating a neon punk anime character concept sheet with turnaround views, weapon specs, and nine action storyboard panels.",
-    "promptText": "Goal: Create a highly detailed cyberpunk anime character sheet and action-board poster for {argument name=\"character name\" default=\"Katana Echo\"}, a rebellious rollerblading dual-pistol fighter in a neon-drenched Japanese street-war setting.\n\nCanvas: Wide 16:9 landscape presentation board, off-white technical concept-sheet background on the upper left, black panel borders, gritty comic/anime rendering, saturated teal, magenta, yellow, violet, and black ink splatter. Overall style is punk cyberstrike concept art mixed with manga action storyboard panels.\n\nTop layout: Divide the upper half into 3 main zones. Left zone is a full character turnaround labeled with the title “KATANA ECHO” in rough graffiti lettering and small tech text “CYBERSTRIKE // IND. FILE 77-K.E” plus Japanese kana beneath it. Middle zone is a weapon spec sheet titled “NEON PULSE” with subtitle “DUAL LASER PISTOLS.” Right zone is a large hero splash illustration of the character posing confidently against chaotic neon paint splashes, a large dripping pink skull emblem, warning decals, and Japanese signage.\n\nCharacter design: Female-presenting cyberpunk punk fighter, athletic build, tan skin, exposed midriff, confident smirk, messy spiked {argument name=\"hair color\" default=\"teal and purple\"} hair with neon accents, large orange-black headphones, black crop top with a hot-pink skull, oversized cropped teal kimono-style jacket with yellow markings and black graffiti symbols, loose black cargo pants with straps, chains, dangling tags, magenta belt, fingerless gloves, cyber accessories, and chunky neon roller skates with green/yellow wheels. She carries two compact futuristic laser pistols emitting hot-pink beams. Use scuffed textures, stickers, bolts, straps, pouches, and graffiti decals throughout.\n\nCounted character turnaround elements: Show exactly 3 full-body standing views in the top-left sheet, labeled “FRONT,” “SIDE,” and “BACK.” In the back view, include a large pink skull graphic on the jacket. Keep the silhouette consistent across all 3 views.\n\nCounted weapon spec elements: Show exactly 2 pistol diagrams in the top-middle sheet, one labeled “PULSE RIFT” and one labeled “PULSE FLARE.” Add exactly 5 callout labels around the lower weapon: “FOCUSED BEAM EMITTER,” “ENERGY CELL,” “THERMAL VENT,” “GRIP LOCK,” and one small label near the beam emitter. Both pistols should be black with magenta skull panels, yellow hazard text, red-pink laser beams, and compact industrial details.\n\nHero illustration details: On the top-right, show the character from thighs-up, leaning back with attitude, one pistol down at her side and the other ready, neon splatter behind her. Include exactly 1 giant dripping skull emblem in hot pink, exactly 1 yellow vertical sign with dark Japanese characters, and exactly 2 small skull icons near the bottom-right edge.\n\nBottom layout: Fill the lower half with a storyboard grid of exactly 9 horizontal action panels arranged in 3 columns by 3 rows, each with a narrow black header strip and red panel number. Each panel shows the same character rollerblading through a futuristic rainy neon city, fighting armored cyber police or drones with pink laser trails and motion streaks. Use comic-panel composition, cinematic perspective, heavy ink outlines, chromatic splatter, and dense city signage.\n\nCounted action panels and visible labels: Panel 01 label “PROFILE WS / FIRST BREAK,” showing her skating forward while firing at enemies in a street. Panel 02 label “LOW PROFILE FS / TRIPLE BURST,” showing a low skating slide with three burst shots. Panel 03 label “HIGH REAR WS / LANE RUSH,” showing her charging away down a lane toward a crowd. Panel 04 label “LOW 3-4 FS / RISING ASSAULT,” showing an aerial rising attack against drones. Panel 05 label “HIGH SIDE WS / MIDAIR SWEEP,” showing a midair sweep with laser fire and multiple drones. Panel 06 label “GROUND REAR WS / HEAVY BLOCK,” showing her blocking or bracing against heavy armored enemies. Panel 07 label “PROFILE MS / COUNTER PUSH,” showing a side-view counterattack against close armored foes. Panel 08 label “LOW 3-4 FS / POWER DRAW,” showing her centered with both arms raised under magenta lightning, surrounded by enemies. Panel 09 label “TOP-DOWN EWS / NEON CASCADE,” showing a top-down massive crescent wave of pink energy cutting through a large crowd.\n\nText style: Use rough hand-painted uppercase lettering for major titles, tiny technical uppercase labels for annotations, and red numeric tags for panel headers. Preserve legibility of main English labels but allow small cyberpunk microtext to be decorative.\n\nVisual style constraints: No photorealism. Keep it as a polished anime concept art sheet with punk graffiti energy, intense magenta laser effects, teal clothing, yellow-green paint splashes, black grunge textures, and dynamic speed lines. Maintain the exact counts: 3 turnaround views, 2 weapon diagrams, 5 weapon callouts, 1 hero splash, 9 action panels.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "Katana Echo"
-      },
-      {
-        "name": "hair color",
-        "default": "teal and purple"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710369148_evteli_HNxAbMbWoAAcOLG.jpg",
-        "alt": "Cyberpunk Rollerblade Character Sheet",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "LANDCÄSTER",
-      "url": "https://x.com/LANDCASTER_92"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/LANDCASTER_92/status/2079607967859523627#reversed-0"
-    },
-    "publishedAt": "2026-07-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29454",
-    "contentHash": "b80ff9d104124853abe47c3a02fcf97b9581e3c4"
-  },
-  {
-    "id": "gpt-image-2:29460",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29460",
-    "title": "Cyberpunk Samurai Character Sheet",
-    "category": "Comic / Storyboard",
-    "description": "Generates a dense anime cyberpunk character turnaround, weapon spec, hero art, and nine-panel combat storyboard for concept design use.",
-    "promptText": "Goal: Create a high-detail cyberpunk anime character sheet and action storyboard for {argument name=\"character name\" default=\"Katana Echo\"}, a rebellious street samurai with techwear styling and a transforming energy nagamaki weapon.\n\nCanvas: Wide horizontal concept art sheet, 16:9 aspect ratio, off-white paper background with black ink, gritty red and teal accents, manga production-board energy. Use thin panel borders, rough sketch construction lines, splattered paint, handwritten labels, and sharp graphic design.\n\nTop layout: Divide the top half into three main sections. Left section shows exactly 3 full-body turnaround views of the character labeled FRONT, SIDE, and BACK. Center section is a weapon spec panel titled \"VOID REAPER\" with subtitle \"ENERGY NAGAMAKI\" and exactly 2 weapon states: \"RETRACTED\" and \"EXTENDED\". Add small callouts reading \"CHAIN LINK\" and \"ENERGY EDGE\". Right section is a dramatic hero illustration of the character holding the weapon, with a large red circular skull emblem behind them and vertical Japanese-style decorative text. Include file text near the title such as \"CYBERSTRIKE // IND. FILE 77-K.E\" and small katakana-style name text.\n\nCharacter details: The character is an androgynous punk cyber-samurai with {argument name=\"hair color\" default=\"black hair with teal bangs\"}, shaved-side messy topknot hair, piercings, red eye makeup, cropped layered jacket, exposed midriff, belts, straps, red chains, utility tags, oversized black hakama-style pants, mechanical roller-blade boots, fingerless gloves, and a black-red-white-teal color palette. Their jacket back has a bold red skull/sun graphic. The pose language is aggressive, fast, and cocky.\n\nWeapon details: The weapon is a hybrid chained nagamaki/chainsaw blade with a black handle, red tags, metal hardware, circular mechanical hub, black-and-white seals, red glowing blade edge, and teal cables. Show it compact in the retracted state and long serrated glowing in the extended state.\n\nBottom layout: The bottom half is a 3 by 3 storyboard grid with exactly 9 action panels. Each panel has a black header strip with a red number and white tactical move label. Depict the character fighting squads of white humanoid robots in industrial streets and overpasses, with speed lines, red energy arcs, teal sparks, and rough monochrome background perspective.\n\nStoryboard panels, exactly 9: 01 \"PROFILE WS / FIRST BREAK\" shows a side attack blasting one robot while a row of robots waits behind; 02 \"LOW PROFILE FS / TRIPLE BURST\" shows the character sliding low and slashing through three targets; 03 \"HIGH REAR WS / LANE RUSH\" shows a rear chase down a lane between two robot lines; 04 \"LOW 3-4 FS / RISING ASSAULT\" shows the character leaping upward against airborne robots; 05 \"HIGH SIDE WS / MIDAIR SWEEP\" shows a midair horizontal sweep cutting multiple robots; 06 \"GROUND REAR WS / HEAVY BLOCK\" shows the character bracing low against a wall of shielded heavy robots; 07 \"PROFILE MS / COUNTER PUSH\" shows a close side counterstrike against clustered robots; 08 \"LOW 3-4 FS / POWER DRAW\" shows the character centered with both arms extended, drawing teal lightning while robots surround them; 09 \"TOP-DOWN EWS / NEON CASCADE\" shows a bird's-eye massive red crescent slash sweeping through a large robot formation.\n\nVisual style: High-energy Japanese game concept art, cyberpunk manga storyboard, gritty ink linework, cel-shaded accents, limited palette of black, bone white, scarlet red, and electric teal. Keep the page dense but readable, with crisp character silhouettes and dynamic weapon trails.\n\nText constraints: Use the main title {argument name=\"title text\" default=\"KATANA ECHO\"} in a bold brush font at top left, the weapon title {argument name=\"weapon title\" default=\"VOID REAPER\"} in rough black lettering near the center, and the faction/file label {argument name=\"file label\" default=\"CYBERSTRIKE // IND. FILE 77-K.E\"}. Keep all visible labels in English except small decorative katakana/Japanese glyphs, which may be stylized and secondary. Do not add extra panels, extra turnaround views, or extra weapon states.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "Katana Echo"
-      },
-      {
-        "name": "hair color",
-        "default": "black hair with teal bangs"
-      },
-      {
-        "name": "title text",
-        "default": "KATANA ECHO"
-      },
-      {
-        "name": "weapon title",
-        "default": "VOID REAPER"
-      },
-      {
-        "name": "file label",
-        "default": "CYBERSTRIKE // IND. FILE 77-K.E"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710368233_dyoupe_HNw_ktSW0AEeqYF.jpg",
-        "alt": "Cyberpunk Samurai Character Sheet",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "LANDCÄSTER",
-      "url": "https://x.com/LANDCASTER_92"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/LANDCASTER_92/status/2079607031409832020#reversed-0"
-    },
-    "publishedAt": "2026-07-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29460",
-    "contentHash": "b8a8e3615313ff2c3a3013b4244fffc8b6380799"
-  },
-  {
-    "id": "gpt-image-2:29412",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29412",
-    "title": "Monochrome Storyboard Sketch Prompt",
-    "category": "Comic / Storyboard",
-    "description": "A prompt for creating detailed monochrome 2D storyboard line-sketch sheets featuring action sequences, clean layouts, and specific character movements.",
-    "promptText": "Create a {argument name=\"aspect ratio\" default=\"16:9\"} clean {argument name=\"color style\" default=\"monochrome\"} 2D storyboard line-sketch sheet of {argument name=\"character name\" default=\"Suzune\"} cutting creatures across falling rocks; show four foot contacts and feminine silhouettes, and do not render bracketed labels.\n\n[HEADER]\nMinimal header with one thin rule;",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "aspect ratio",
-        "default": "16:9"
-      },
-      {
-        "name": "color style",
-        "default": "monochrome"
-      },
-      {
-        "name": "character name",
-        "default": "Suzune"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710337162_l7k4na_HNw0KW3WwAApiAL.jpg",
-        "alt": "Monochrome Storyboard Sketch Prompt",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710337066_vejzit_HNw0MHOWwAAVqwx.jpg",
-        "alt": "Monochrome Storyboard Sketch Prompt",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Kōda",
-      "url": "https://x.com/aimikoda"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/aimikoda/status/2079594607470399876"
-    },
-    "publishedAt": "2026-07-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29412",
-    "contentHash": "d33785da8609e4588265a9adf15800f62f7a9ef2"
-  },
-  {
-    "id": "gpt-image-2:29407",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29407",
-    "title": "Premium Sunglasses Commercial Storyboard",
-    "category": "Comic / Storyboard",
-    "description": "A cinematic storyboard prompt designed for high-end product advertising, specifically for luxury eyewear with a cosmic and ultra-premium art direction.",
-    "promptText": "Create a professional cinematic commercial storyboard in 16:9 landscape format, designed like a premium shot list presentation for a {argument name=\"product name\" default=\"LUMIS ECLIPSE ONE\"} premium sunglasses product ad.\n\nOverall design:\nUltra-premium eyewear art direction, deep cosmic",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "product name",
-        "default": "LUMIS ECLIPSE ONE"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710333186_uf2qsj_HNwsipHawAAOkaq.jpg",
-        "alt": "Premium Sunglasses Commercial Storyboard",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "𝐌",
-      "url": "https://x.com/Strength04_X"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Strength04_X/status/2079586138130657751"
-    },
-    "publishedAt": "2026-07-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29407",
-    "contentHash": "4f98014a90cd34bdd748d86926a14ad5fe1647a7"
-  },
-  {
-    "id": "gpt-image-2:29354",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29354",
-    "title": "Skibidi Toilet Character Sheet",
-    "category": "Comic / Storyboard",
-    "description": "A character sheet prompt for creating a male character based on the Skibidi Toilet design style, focusing on multi-angle views and consistent aesthetics.",
-    "promptText": "Make a character sheet of {argument name=\"gender\" default=\"male\"} character inspired by the same artstyle and designs as the uploaded images. He is {argument name=\"gender\" default=\"male\"}.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "gender",
-        "default": "male"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784710332568_odxnfy_HNwpPKWa0AA8008.jpg",
-        "alt": "Skibidi Toilet Character Sheet",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Kinovi.AI",
-      "url": "https://x.com/kinovi_ai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/kinovi_ai/status/2079582833954398244"
-    },
-    "publishedAt": "2026-07-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29354",
-    "contentHash": "e36c3194c18f87294e3db1c0691b51ca7de6a9ba"
   }
 ]
