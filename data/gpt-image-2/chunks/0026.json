@@ -1,5 +1,752 @@
 [
   {
+    "id": "gpt-image-2:26064",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26064",
+    "title": "Earth Cutaway Layer Infographic",
+    "category": "Infographic / Edu Visual",
+    "description": "Generates a photorealistic educational cutaway diagram of Earth with Japanese labels for its four internal layers.",
+    "promptText": "Goal: Create a dramatic scientific cutaway infographic of {argument name=\"planet name\" default=\"Earth\"}, showing the planet in space with its internal layers exposed like a precise 3D sectional model.\n\nCanvas: Square 1:1 composition, high-resolution, black star-filled space background. The planet fills most of the left and center of the frame, with annotation text arranged on the right side.\n\nMain subject: A photorealistic Earth viewed from space, centered slightly left, with Asia, Japan, Southeast Asia, and Australia visible on the surface. Remove a large wedge-shaped quarter section from the front-right side of the globe to reveal the interior. The cutaway should look physically carved, with a thick rocky crust rim and glowing internal layers. Add a subtle blue atmospheric glow around the planet.\n\nCutaway structure: Show exactly 4 discrete internal/structural layers, each visually distinct and aligned with annotation leader lines: 1) a thin brown rocky crust at the outer edge, 2) a thick red-orange molten mantle layer with turbulent texture, 3) a bright orange outer core surrounding the center, and 4) a glowing yellow-white inner core sphere at the center. Make the mantle the largest visible layer, the outer core semi-spherical and luminous, and the inner core intensely bright with swirling heat texture.\n\nText and labels: Place exactly 4 Japanese annotation blocks on the right, each with a white dot marker and thin white leader line pointing to the correct layer. Use bold white Japanese headings and smaller white explanatory text beneath each heading. The four visible labels must be: {argument name=\"crust label\" default=\"地殻\"} with smaller text “地球の最も外側の薄い層。”; {argument name=\"mantle label\" default=\"マントル\"} with smaller text “厚さ約2,900kmの層。高温の岩石がゆっくりと流動している。”; {argument name=\"outer core label\" default=\"外核\"} with smaller text “厚さ約2,200kmの層。主に鉄とニッケルの流体で構成される。”; {argument name=\"inner core label\" default=\"内核\"} with smaller text “半径約1,220kmの固体の層。主に鉄とニッケルでできており、非常に高温・高圧の環境にある。”\n\nVisual style: Photorealistic space-science educational poster, cinematic lighting, crisp typography, realistic Earth texture, glowing lava-like interior, clean white callout lines, high contrast, polished museum infographic style.\n\nConstraints: Keep exactly 4 annotation blocks and exactly 4 layer labels. Do not add extra icons, extra labels, borders, logos, watermarks, or decorative UI panels. Keep all text legible and positioned to the right of the planet.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "planet name",
+        "default": "Earth"
+      },
+      {
+        "name": "crust label",
+        "default": "地殻"
+      },
+      {
+        "name": "mantle label",
+        "default": "マントル"
+      },
+      {
+        "name": "outer core label",
+        "default": "外核"
+      },
+      {
+        "name": "inner core label",
+        "default": "内核"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781774883082_vey9py_HLCf9XObUAA3MW2.jpg",
+        "alt": "Earth Cutaway Layer Infographic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "G2（じーにー）｜AIビジネス翻訳家",
+      "url": "https://x.com/aiclass_g2"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/aiclass_g2/status/2067362555019042839#reversed-0"
+    },
+    "publishedAt": "2026-06-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26064",
+    "contentHash": "e9cab945ac1dcbb8170705bb1c5a92d7ee09b246"
+  },
+  {
+    "id": "gpt-image-2:26029",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26029",
+    "title": "Dentist Storyboard Infographic",
+    "category": "Infographic / Edu Visual",
+    "description": "A clean, Pixar-style storyboard prompt for creating an infographic poster for a dentist with medical-themed colors and geometric borders.",
+    "promptText": "Create a crisp, clean infographic storyboard poster for {argument name=\"subject\" default=\"THE DENTIST\"}. {argument name=\"aspect ratio\" default=\"Wide 16:9\"} layout, white background, black borders, bold black typography, {argument name=\"rendering style\" default=\"premium Pixar 3D stylized rendering\"}, bright vivid colors — clean clinical white, sky blue gloves",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "THE DENTIST"
+      },
+      {
+        "name": "aspect ratio",
+        "default": "Wide 16:9"
+      },
+      {
+        "name": "rendering style",
+        "default": "premium Pixar 3D stylized rendering"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781774868115_c5cl3a_HLB6QmLWAAEdScx.jpg",
+        "alt": "Dentist Storyboard Infographic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "TechieSA",
+      "url": "https://x.com/TechieBySA"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/TechieBySA/status/2067286660149092638"
+    },
+    "publishedAt": "2026-06-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26029",
+    "contentHash": "3a36bcd3b9086abd4e6b57c7746cf9de6552ab19"
+  },
+  {
+    "id": "gpt-image-2:26023",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26023",
+    "title": "Technical Blueprint Infographic",
+    "category": "Infographic / Edu Visual",
+    "description": "A sophisticated prompt for creating professional infographics that combine realistic photos with technical blueprint overlays.",
+    "promptText": "Premium technical infographic of {argument name=\"object\" default=\"[OBJECT]\"}.\nUse the reference image only to understand the shape and structure of the object, without copying the same photo, angle, composition, or background. Reinterpret the subject in a new professional and realistic photograph, clean and well-lit, with a suitable and more aesthetic background. Keep the object as a real photo, not an\nillustration. Add a technical blueprint-style overlay with white lines, arrows, dimensions, labels, and small diagrams of parts, materials, measurements, and functionality.\nClear, elegant, and informative composition.\nInclude a sketch box in the upper left corner with the title \"OBJECT\".",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "object",
+        "default": "[OBJECT]"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781774863247_ugw8ik_HLA8mfXaUAEbE-n.jpg",
+        "alt": "Technical Blueprint Infographic",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1781774863225_pv7692_HLA8mfYboAAQSIj.jpg",
+        "alt": "Technical Blueprint Infographic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Al-Shamus",
+      "url": "https://x.com/im_shahid7"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/im_shahid7/status/2067218870264602681"
+    },
+    "publishedAt": "2026-06-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26023",
+    "contentHash": "90cef9b677395189156ba2a0204f4a3ea45f3f81"
+  },
+  {
+    "id": "gpt-image-2:26047",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26047",
+    "title": "Chinese Civilization Timeline Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "A dense panoramic historical infographic poster visualizing five thousand years of Chinese civilization for educational or museum-style use.",
+    "promptText": "Goal: Create an extremely information-dense panoramic illustrated historical infographic titled {argument name=\"main title\" default=\"中华上下五千年文化历程\"}, showing five thousand years of Chinese civilization as a continuous visual timeline from ancient prehistory to the contemporary era.\n\nCanvas: Wide horizontal poster, approximately 16:9 aspect ratio, parchment-colored background, antique scroll texture, ornate cloud-and-dragon border, warm sepia ink with muted reds, blues, jade greens, bronze, gold, and black calligraphy. Use a dense hand-painted Chinese historical mural style with fine linework, miniature figures, architectural details, artifact illustrations, and museum-catalog precision.\n\nLayout: Divide the poster into 5 stacked horizontal bands. Band 1 is the main chronological panorama with a large title at the top and exactly 10 labeled era panels running left to right: 1) 史前, 2) 夏商周, 3) 春秋战国, 4) 秦汉, 5) 魏晋南北朝, 6) 隋唐, 7) 宋元, 8) 明清, 9) 近现代, 10) 当代. Band 2 is a catalog strip of artifacts, writing, inventions, books, coins, porcelain, seals, instruments, and calligraphy samples. Band 3 is a social-life and economy strip showing agriculture, workshops, markets, schools, rituals, trade, armies, court scenes, ships, bridges, and city streets. Band 4 is a science, medicine, botany, astronomy, cartography, and technology strip with diagrams, scholars, tools, clocks, globes, laboratory-like rooms, and early industrial scenes. Band 5 is a modern-to-contemporary technology strip with laboratories, factories, computers, offices, aerospace, satellites, high-speed rail, renewable energy, and futuristic infrastructure.\n\nSubject details: The top timeline should flow like a continuous ancient landscape with mountains, rivers, roads, palaces, temples, city gates, villages, farms, caravans, horse riders, armies, scholars, emperors, artisans, monks, merchants, opera performers, reform-era citizens, modern engineers, skyscrapers, bullet train, rocket launch, and orbiting spacecraft. Include a pale winding river or dragon-like ribbon crossing the central upper panorama, visually connecting the eras. The left side should feel prehistoric and bronze-age, the middle should emphasize imperial dynasties and classical culture, and the right side should shift into modern industry, urban life, and space technology.\n\nText content: Use the main title {argument name=\"main title\" default=\"中华上下五千年文化历程\"} in large black brush calligraphy centered at the top. Keep the 10 era labels in small dark plaques along the top. Add many tiny Chinese calligraphy notes, scroll fragments, book pages, seals, and labels throughout, but they should function as decorative historical annotations rather than large readable paragraphs.\n\nVisual style: Maximalist educational wall chart, encyclopedic museum mural, ancient Chinese painting fused with historical infographic, thousands of tiny details, crisp miniature scenes, carefully separated panels, no empty space, aged paper texture, hand-drawn ink outlines, subtle watercolor shading, realistic but stylized historical costumes and artifacts.\n\nConstraints: Preserve exactly 10 top era panels and 5 horizontal content bands. Make the image dense but coherent, with no modern English text, no watermark, no logo, no blank areas, and no single oversized character dominating the composition.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "main title",
+        "default": "中华上下五千年文化历程"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781774875322_r0lp7g_HLAzFUIaIAADP8X.jpg",
+        "alt": "Chinese Civilization Timeline Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "今天也要学AI",
+      "url": "https://x.com/DevAIVibe"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/DevAIVibe/status/2067208622975971802#reversed-0"
+    },
+    "publishedAt": "2026-06-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26047",
+    "contentHash": "658ec28218355d40f07518fc27915376322707bf"
+  },
+  {
+    "id": "gpt-image-2:26056",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26056",
+    "title": "Nurse Hospital Vocabulary Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "Creates a Japanese anime watercolor reference poster listing 24 nurse and hospital-scene prompt terms for illustration inspiration.",
+    "promptText": "Goal: Create a vertical Japanese reference poster for AI illustration prompting about nurse and hospital-scene vocabulary, in a delicate anime watercolor style. The poster headline should read {argument name=\"headline text\" default=\"看護師・病院シチュの用語表\"}, with a smaller subtitle explaining that it is a hospital-situation word list for AI illustration ideas. Overall theme: a quiet, wistful hospital night-shift atmosphere featuring {argument name=\"main character\" default=\"a melancholic young female nurse with long messy dark navy hair\"}.\n\nCanvas: Portrait 3:4 poster, cream paper background with faint stains, tape pieces, hand-drawn borders, tiny stars, moon motifs, pressed-flower decorations, and notebook-scrap collage details. Use a muted palette of ivory, pale blue, dusty lavender, gray ink, and soft sepia.\n\nLayout: Top header band with the large Japanese title centered, a small illustration of the nurse near the upper left beside a sticky-note quote, and a small framed keyword memo at the upper right. Below it, create a precise grid of exactly 24 numbered vocabulary cards arranged as 4 columns by 6 rows. Each card contains a number, Japanese term title, small keyword lines, a short point/explanation block, and a miniature anime hospital illustration. At the bottom, add a wide memo section with bullet notes, floral decorations on the left, and a larger resting nurse illustration on the lower right leaning on her arms beside a mug.\n\nThe 24 cards must be exactly these discrete items, numbered and titled: 1. ナースステーション, 2. 病室前, 3. カルテ, 4. 巡回, 5. 夜勤, 6. 引き継ぎ, 7. 休憩室, 8. 蛍光灯, 9. 病院廊下, 10. ナースコール, 11. 点滴スタンド, 12. ベッドサイド, 13. 白衣, 14. スクラブ, 15. 名札, 16. 体温計, 17. 医療用ワゴン, 18. 受付カウンター, 19. 待合室, 20. 面会時間, 21. 夜の病棟, 22. 仮眠前, 23. 申し送りメモ, 24. 病院の余韻.\n\nSubject details: The nurse should wear {argument name=\"uniform style\" default=\"a pale blue nurse scrub uniform with a white coat, ID badge, pens, clipboard, and tired expression\"}. She appears repeatedly throughout the cards in different hospital moments: writing charts, holding a clipboard, standing in hallways, checking IVs, sitting at a desk, drinking from a mug, speaking with another nurse, and resting before sleep. Her mood is gentle, exhausted, introspective, and cinematic rather than cheerful.\n\nVisual style: Fine ink linework, soft watercolor wash, semi-realistic anime illustration, textured paper, handwritten scrapbook feeling, subtle medical equipment, gentle lighting, quiet hospital interiors, transparent panels, thin ruled borders, and tiny decorative stars. Make the text look like a designed Japanese study sheet: mostly legible headings, compact small body text, and neat printed labels. Add atmospheric lighting using {argument name=\"lighting mood\" default=\"cool fluorescent hospital light mixed with warm moonlit night tones\"}.\n\nBottom memo section: Add a torn-paper label reading つかいかたメモ and several Japanese bullet notes in small print, including some red-emphasis lines, explaining how to combine the terms for nurse and hospital-scene illustration prompts.\n\nConstraints: Keep exactly 24 numbered grid cards, no extra cards. Do not use photorealism; keep it as soft anime watercolor. Avoid logos, watermarks, real hospital branding, gore, surgery, emergency trauma, or disturbing medical content. The final poster should feel like a useful prompt-word glossary and a beautiful illustrated reference sheet.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline text",
+        "default": "看護師・病院シチュの用語表"
+      },
+      {
+        "name": "main character",
+        "default": "a melancholic young female nurse with long messy dark navy hair"
+      },
+      {
+        "name": "uniform style",
+        "default": "a pale blue nurse scrub uniform with a white coat, ID badge, pens, clipboard, and tired expression"
+      },
+      {
+        "name": "lighting mood",
+        "default": "cool fluorescent hospital light mixed with warm moonlit night tones"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781774879727_wb7xzu_HK8zFqRaIAAJ5cT.jpg",
+        "alt": "Nurse Hospital Vocabulary Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ぐふとくく",
+      "url": "https://x.com/gufutokuku999"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/gufutokuku999/status/2067155285869809685#reversed-0"
+    },
+    "publishedAt": "2026-06-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26056",
+    "contentHash": "cd370de7f794332843ced063e00b92ddeef75d4a"
+  },
+  {
+    "id": "gpt-image-2:26006",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26006",
+    "title": "Kinkaku-ji Travel Sketch Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "An elegant, minimalist travel poster of Kyoto's Kinkaku-ji temple, designed in a sketchbook style with watercolor washes and pen illustrations.",
+    "promptText": "Minimalist high-resolution travel poster of {argument name=\"subject\" default=\"Kinkaku-ji\"} rendered in {argument name=\"art style\" default=\"sketchbook style\"}, on crisp white paper with a subtle grain texture. Style: precise pen illustration with loose watercolor washes. Fine black ink lines, soft airy color fills, refined traditional Japanese architectural details. Depict a {argument name=\"scene\" default=\"tranquil Kyoto temple scene\"} — the legendary golden pavilion mirrored in a still pond, narrow stone paths, pine trees, gently rippling water, autumn maple leaves in the distance, small lanterns, peaceful visitors in muted clothing, soft morning haze, and warm sunlight falling on the gold-clad walls. Generous negative space in an editorial layout. Mood: serene, contemplative, refined, lyrical. Typography: \"[KINKAKU-JI]\" \"Golden Serenity of Kyoto\" Elevated travel sketch style, understated and elegant, hyper-realistic watercolor + ink journal aesthetic, ultra-high-resolution, 9:16.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "Kinkaku-ji"
+      },
+      {
+        "name": "art style",
+        "default": "sketchbook style"
+      },
+      {
+        "name": "scene",
+        "default": "tranquil Kyoto temple scene"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781774855026_bfqc4a_HK-kZVZaQAAeFiZ.jpg",
+        "alt": "Kinkaku-ji Travel Sketch Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1781774854723_9ialgm_HK-kZVZaAAAR17Q.jpg",
+        "alt": "Kinkaku-ji Travel Sketch Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "PromptLab",
+      "url": "https://x.com/iamaiistudio"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/iamaiistudio/status/2067051685546201509"
+    },
+    "publishedAt": "2026-06-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26006",
+    "contentHash": "de63676c3129d64ac1cedd0de2368505baf8fd68"
+  },
+  {
+    "id": "gpt-image-2:25879",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "25879",
+    "title": "GPT Image 2 Portrait Lighting Reference",
+    "category": "Infographic / Edu Visual",
+    "description": "A collection of technical prompts for GPT Image 2 that demonstrate six classic cinematic lighting setups for professional portraits.",
+    "promptText": "Zone 1 (top-left): Rembrandt lighting, key 45° elevated camera left, fill -45° camera right 0.5x, dramatic triangle on shadow cheek Zone 2 (top-center): Butterfly lighting, key overhead slightly front, fill reflector under chin, butterfly nose shadow, beauty editorial Zone 3 (top-right): Split lighting, hard key 90° camera left, zero fill, half face in shadow, noir mystery Zone 4 (bottom-left): Loop lighting, key 30° elevated camera left, fill -30° camera right 0.3x, small nose loop shadow, natural commercial Zone 5 (bottom-center): Rim lighting dominant, hard backlight 170° camera right gold gel, hair glow, edge separation, heroic silhouette Zone 6 (bottom-right): Clamshell lighting, butterfly key overhead + large soft fill from below 45°, zero shadows, porcelain skin, high-end beauty",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781688894661_8a7clm_HK8DRbfaEAEPUo_.jpg",
+        "alt": "GPT Image 2 Portrait Lighting Reference",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "阿越-AY",
+      "url": "https://x.com/AyccAI"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AyccAI/status/2066875790235775371"
+    },
+    "publishedAt": "2026-06-16T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=25879",
+    "contentHash": "12eb9a10caed976da089d6d20ff38a62126b2e7c"
+  },
+  {
+    "id": "gpt-image-2:25948",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "25948",
+    "title": "Epic Universe History Timeline Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "Generates a dense panoramic educational mural showing cosmic history, evolution, civilization, technology, and the future in one timeline.",
+    "promptText": "Goal: Create an ultra-wide, extremely information-dense panoramic illustrated timeline of the entire universe, Earth, life, human civilization, technology, and the future, rendered as a single seamless epic cross-section mural for gpt-image-2.\n\nCanvas: 16:9 horizontal poster, very high detail, cinematic realism mixed with museum-quality educational illustration, sharp enough to read tiny timeline labels. Use a grand curved horizon of Earth across the center, with outer space above and layered historical scenes below. No blank areas.\n\nOverall layout: The composition is divided into 4 main horizontal zones. Top zone: cosmic history in deep space. Upper-middle zone: Earth history and natural evolution across a sweeping landscape. Lower-middle zone: human civilization and technological progress. Bottom zone: a continuous golden timeline strip with exactly 18 labeled milestones in Chinese, each with a small circular marker.\n\nTop cosmic zone: Show a fiery Big Bang explosion at far left, colorful nebulae and starfields, a spiral galaxy, forming planets, the solar system, Earth and Moon, asteroids and comets, rockets, satellites, a space station, astronauts on the Moon, lunar rover, Mars rover, futuristic space telescopes, spacecraft, a ring station, distant planets, black hole, and blue laser-like space trails at far right. Add a thin golden orbital timeline line with small circular nodes crossing this upper area.\n\nUpper-middle Earth and evolution zone: Blend volcanic early Earth on the left with lightning, lava, meteor impacts, hot oceans, microbial bubbles and sea creatures; transition into lush prehistoric seas with fish, ammonites, trilobites, and marine reptiles; continue into a dinosaur landscape with forests, sauropods, theropods, pterosaurs, and smaller dinosaurs; transition to ice-age mountains and mammoths; then to modern rivers, grasslands, elephants, deer, birds, wind turbines, farmland, and a sleek futuristic city skyline at the right. Keep the transitions seamless like a chronological world map.\n\nLower-middle civilization and technology zone: At far left show human evolution silhouettes walking forward, early campfires, caves, stone tools, primitive huts, pottery, sheep and cattle. Continue through ancient agriculture, pyramids, temples, classical cities, pagodas, medieval castles, churches, marketplaces, sailing ships, caravans, early machines, steam trains, bicycles, automobiles, airplanes, factories with smokestacks, power lines, telephones, radios, televisions, computers, laptops, smartphones, servers, laboratories, control rooms, robots, holographic blue interfaces, high-speed trains, and futuristic glass cities. Include many tiny people in period clothing interacting naturally.\n\nBottom strip: Create a dark blue-black footer band with a thin gold line and exactly 18 milestone nodes, evenly spaced left to right. Use these exact Chinese labels and dates, one per node: 1. 「宇宙诞生\\n约138亿年前」, 2. 「太阳系形成\\n约46亿年前」, 3. 「地球形成\\n约45亿年前」, 4. 「生命起源\\n约38亿年前」, 5. 「海洋生命\\n约5.4亿年前」, 6. 「恐龙时代\\n约2.3亿年前」, 7. 「哺乳动物时代\\n约6600万年前」, 8. 「人类出现\\n约300万年前」, 9. 「农业革命\\n约1.2万年前」, 10. 「文明起源\\n约公元前3500年」, 11. 「古典时代\\n约公元前800年」, 12. 「中世纪\\n约5世纪」, 13. 「大航海时代\\n15–17世纪」, 14. 「工业革命\\n18–19世纪」, 15. 「电气时代\\n19–20世纪」, 16. 「信息时代\\n20世纪后半叶」, 17. 「数字时代\\n21世纪」, 18. 「未来探索\\n未来」.\n\nVisual style: Hyper-detailed epic science-history infographic, realistic lighting, vibrant but coherent color grading, gold accent lines, deep blues and oranges, miniature diorama detail, cinematic depth, crisp micro-scenes, no cartoon style, no flat vector look.\n\nConstraints: Make the poster astonishingly dense but coherent; keep all 18 bottom labels legible; avoid random unreadable text outside the timeline; avoid duplicated milestone labels; do not add watermarks or logos. The main theme is {argument name=\"timeline theme\" default=\"the complete history of the universe, Earth, life, civilization, technology, and future exploration\"}. Use {argument name=\"language for milestone labels\" default=\"Chinese\"} for the footer labels, a {argument name=\"visual style\" default=\"hyper-detailed cinematic educational mural\"}, a {argument name=\"accent color\" default=\"gold\"}, and a {argument name=\"future city mood\" default=\"optimistic blue futuristic\"}.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "timeline theme",
+        "default": "the complete history of the universe, Earth, life, civilization, technology, and future exploration"
+      },
+      {
+        "name": "language for milestone labels",
+        "default": "Chinese"
+      },
+      {
+        "name": "visual style",
+        "default": "hyper-detailed cinematic educational mural"
+      },
+      {
+        "name": "accent color",
+        "default": "gold"
+      },
+      {
+        "name": "future city mood",
+        "default": "optimistic blue futuristic"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781688936830_ygk1no_HK76wHLbUAA_G1O.jpg",
+        "alt": "Epic Universe History Timeline Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "沐阳",
+      "url": "https://x.com/yyyole"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/yyyole/status/2066865025059520750#reversed-0"
+    },
+    "publishedAt": "2026-06-16T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=25948",
+    "contentHash": "96d01a15acd5889262b2ac7589595aa2feb3a90d"
+  },
+  {
+    "id": "gpt-image-2:25899",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "25899",
+    "title": "Isometric Statistic Visualization Render",
+    "category": "Infographic / Edu Visual",
+    "description": "A conceptual prompt for creating 3D isometric renders that transform abstract statistics into physical objects to demonstrate scale.",
+    "promptText": "A clean isometric 3D render that turns a {argument name=\"statistic topic\" default=\"single abstract statistic\"} into a physical object you can feel the weight of — soft studio lighting, matte clay materials, gentle ambient occlusion shadows, a neutral concrete-grey backdrop. The point is scale shock: take a number nobody can intuit and rebuild it as one tangible mass beside a familiar object for comparison ({argument name=\"scale example\" default=\"all the gold ever mined as a single cube next to a school bus\"}). One precise, oversized hand-set numeral anchors the composition, with a short caption in clean grotesque type stating the metric and its source year. Subtle measurement bars and a tiny human silhouette provide scale. No clutter — generous negative space, one hero object, one comparison. The spirit: a science-museum exhibit model that reframes a statistic as architecture, so a figure you'd scroll past becomes something your body understands.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "statistic topic",
+        "default": "single abstract statistic"
+      },
+      {
+        "name": "scale example",
+        "default": "all the gold ever mined as a single cube next to a school bus"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781688904432_fowxwa_HK7TEuFWYAA_tBz.jpg",
+        "alt": "Isometric Statistic Visualization Render",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Gadgetify",
+      "url": "https://x.com/Gdgtify"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Gdgtify/status/2066857824093892887"
+    },
+    "publishedAt": "2026-06-16T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=25899",
+    "contentHash": "225ff2a9211f2e73c7249cd4830c3f48b9f65bee"
+  },
+  {
+    "id": "gpt-image-2:25946",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "25946",
+    "title": "Tattoo Artist Storyboard Infographic",
+    "category": "Infographic / Edu Visual",
+    "description": "A creative storyboard prompt for generating a clean, 3D infographic poster themed around a tattoo artist using a bold, Pixar-inspired style.",
+    "promptText": "Create a crisp, clean infographic storyboard poster for {argument name=\"subject\" default=\"THE TATTOO ARTIST\"}. Wide 16:9 layout, white background, black borders, bold black typography, premium Pixar 3D stylized rendering, moody warm studio lighting with neon color pops — deep black",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "THE TATTOO ARTIST"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781688935524_hacycp_HK7syAdWoAAyybE.jpg",
+        "alt": "Tattoo Artist Storyboard Infographic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "TechieSA",
+      "url": "https://x.com/TechieBySA"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/TechieBySA/status/2066849629564555622"
+    },
+    "publishedAt": "2026-06-16T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=25946",
+    "contentHash": "57a7463d930754a6108cb3d2eec11ddfdd02a6bb"
+  },
+  {
+    "id": "gpt-image-2:26261",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26261",
+    "title": "Glossy Codex vs Hermes Tech Thumbnail",
+    "category": "YouTube Thumbnail",
+    "description": "Generates a dramatic Chinese tech video thumbnail with a presenter comparing Codex and Hermes using glossy cinematic styling.",
+    "promptText": "Goal: Create a glossy, high-contrast YouTube-style tech video thumbnail about choosing between {argument name=\"tool one name\" default=\"Codex\"} and {argument name=\"tool two name\" default=\"Hermes\"}.\n\nCanvas: 4:3 landscape thumbnail, 1024×768 composition, dark black-to-charcoal studio background with a dramatic white spotlight shining down from the top center, subtle smoky haze, cinematic rim lighting, and a premium “oily” glossy thumbnail look.\n\nLayout: Center a young male presenter from chest up, facing camera, wearing a plain black V-neck T-shirt. His face should be intentionally anonymized with a smooth blurred rectangular skin-tone mask. His arms are raised symmetrically, palms open upward as if weighing two choices. Place exactly 2 floating option graphics above his hands: on the left, a glowing blue cloud-shaped terminal icon with a white command prompt symbol; on the right, a black-and-white anime-style female avatar bust with glossy hair and a white outline glow, also anonymized with a small blurred square over the face.\n\nText content: Add exactly 2 stacked text lines across the lower third. Top line: large bold white Chinese text with black shadow, {argument name=\"top headline text\" default=\"到底选\"}. Bottom line: huge mixed gold-and-white text reading {argument name=\"bottom comparison text\" default=\"Codex 还是 Hermes?\"}; make “Codex” and “Hermes?” metallic gold with bevel, gradient, black outline, and drop shadow, while the middle Chinese word stays white. Include one small golden star lens flare near the right side of the word “Hermes”.\n\nSubject details: The presenter has short messy brown hair lit by the overhead spotlight, natural hands with visible palms, and a neutral pose suggesting comparison or uncertainty. The left icon should glow electric blue with a neon rim; the right anime avatar should be monochrome with strong white edge highlights.\n\nVisual style: Hyper-polished Chinese tech creator thumbnail, sharp subject cutout, intense contrast, glossy 3D text, dramatic lighting, saturated highlights, clean composition, no extra logos, no watermark, no additional text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "tool one name",
+        "default": "Codex"
+      },
+      {
+        "name": "tool two name",
+        "default": "Hermes"
+      },
+      {
+        "name": "top headline text",
+        "default": "到底选"
+      },
+      {
+        "name": "bottom comparison text",
+        "default": "Codex 还是 Hermes?"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781945772460_0fiyww_HLL9x3JaYAAy5sP.jpg",
+        "alt": "Glossy Codex vs Hermes Tech Thumbnail",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "王帅真",
+      "url": "https://x.com/qizong007"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/qizong007/status/2067994215293038979#reversed-1"
+    },
+    "publishedAt": "2026-06-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26261",
+    "contentHash": "716511de5181aad960dcdb9ed035346b879ec27f"
+  },
+  {
+    "id": "gpt-image-2:26165",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26165",
+    "title": "Korean Sleep Tips Thumbnail",
+    "category": "YouTube Thumbnail",
+    "description": "A bold Korean lifestyle YouTube thumbnail featuring a blurred-face portrait, pink brush accents, and large sleep-improvement headline text.",
+    "promptText": "Goal: Create a bright Korean YouTube-style thumbnail about improving sleep, combining a lifestyle portrait with bold editorial typography.\n\nCanvas: 1200×675 horizontal 16:9 thumbnail, soft warm indoor bedroom/living-room background, thin white rectangular border inset from the edges.\n\nMain subject: On the right half, show a young East Asian woman with long dark wavy hair wearing an off-shoulder cream knit sweater, sitting in a cozy room and touching her cheek with one hand. Her face is intentionally covered by a large centered square blur/mosaic block in muted skin-tone colors, obscuring all facial features. Keep the portrait softly lit, feminine, and clean.\n\nLayout: Left half is dominated by oversized stacked Korean headline typography with thick white outline and subtle black drop shadow. Use three main headline lines: line 1 black text, line 2 pink text, line 3 pink text. The woman overlaps slightly behind the typography, creating a magazine thumbnail composition.\n\nText content: Include exactly 4 text blocks: 1) a pink brush-stroke banner at upper left reading {argument name=\"top banner text\" default=\"요즘 제가 빠진!\"}; 2) the main headline reading {argument name=\"headline text\" default=\"삶의 질을 높여준 8가지\"}; 3) a pink oval brush label near the lower center reading {argument name=\"callout text\" default=\"꼭 해보세요!\"}; 4) a small handwritten note on the right reading {argument name=\"side note text\" default=\"일상이 달라져요!\"}, with the second phrase in pink and underlined.\n\nDecorative elements: Include exactly 2 pink outline hearts, one near the top banner and one near the right handwritten note. Include exactly 4 star/sparkle doodles: two white sparkle marks above the headline near the center, one pink star outline on the left edge, and one small white star near the lower callout label. Add hand-drawn underline strokes under the callout and side note.\n\nVisual style: Korean lifestyle content thumbnail, cute and polished, high contrast, bold rounded sans-serif Korean lettering, black and hot-pink palette with white outlines, soft beige background, playful brush strokes, clean social-media design.\n\nConstraints: Do not add extra text blocks, extra people, logos, or watermarks. Keep the face fully obscured by the square blur block while preserving the hair, sweater, hand, and shoulders.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "top banner text",
+        "default": "요즘 제가 빠진!"
+      },
+      {
+        "name": "headline text",
+        "default": "삶의 질을 높여준 8가지"
+      },
+      {
+        "name": "callout text",
+        "default": "꼭 해보세요!"
+      },
+      {
+        "name": "side note text",
+        "default": "일상이 달라져요!"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781945783188_j0ue7o_HLJYi1zaYAAFRcu.jpg",
+        "alt": "Korean Sleep Tips Thumbnail",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1781945783358_5h3xwg_HLJYj4jaAAA6Mfh.jpg",
+        "alt": "Korean Sleep Tips Thumbnail",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "응애",
+      "url": "https://x.com/Waaah_waaah"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Waaah_waaah/status/2067813256362917889#reversed-0"
+    },
+    "publishedAt": "2026-06-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26165",
+    "contentHash": "fded44d7af2395804375fa2514d2a02ca3edb86b"
+  },
+  {
+    "id": "gpt-image-2:26058",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26058",
+    "title": "Cozy Anime Morning Livestream",
+    "category": "YouTube Thumbnail",
+    "description": "Generates a cheerful VTuber-style morning greeting illustration with two anime characters, cow motifs, Japanese text, and a cozy cabin breakfast livestream setting.",
+    "promptText": "Create a warm, detailed anime-style morning livestream illustration inside a cozy wooden cabin cafe. The scene features exactly 2 main characters seated at a wooden table: on the left, a small cat-eared adventurer girl with short light-brown hair, amber eyes, fluffy ears and tail, wearing a dark brown explorer outfit, red scarf, fingerless gloves, backpack straps, and a rifle or long adventuring gear strapped behind her; she raises one hand in a shy greeting. On the right, a taller streamer girl with long twin-braided {argument name=\"hair color\" default=\"turquoise hair with pink tips\"}, oversized black headphones with cyan glowing rings, a white hoodie with a pixel heart design in teal, pink, orange, and green, and a tiny cow hair clip; her face is deliberately covered by a plain square censor block in a muted gray-beige color, while she waves with one hand. Place exactly 7 visible cow-themed items: 1 cow hair clip on the streamer’s head, 3 round hanging cow lanterns near the ceiling, 1 cow-face mug on the breakfast tray, 1 cow plush at the front-left corner of the table, and 1 cow doodle on the rear chalkboard. Add a breakfast tray in front of the streamer with exactly 4 food items: toast, a sunny-side-up egg, cherry tomatoes, and leafy greens. Add a large microphone on the right edge of the table for livestreaming, a small potted plant near the center front, and a wooden sign on the front-right reading 「いってらっしゃい & いってきます!」 with paw prints. Add a small spiral notebook on the table labeled 「今日の予定」 with exactly 3 checkbox lines: 「配信」, 「牧場シミュレーター」, and 「冒険の準備♪」. In the upper-left, add large bubbly Japanese headline text 「{argument name=\"headline text\" default=\"おはよう\"}」 in pink with a thick white outline and soft shadow. Beneath it, add smaller handwritten text 「{argument name=\"morning message\" default=\"今日もいい一日にしようねっ♪\"}」 next to a simple yellow sun doodle and small hearts. In the background, include a sunlit window with greenery outside, warm wooden beams, string lights, and a chalkboard on the back wall with English text “Good Morning!” plus hearts and a cow drawing. Use golden morning sunlight, soft rim lighting, cute VTuber fan-art energy, high detail, clean linework, glossy anime rendering, pastel pink accents, cozy rustic textures, and a cheerful welcoming mood. Keep the composition vertical, close-up, crowded but readable, with no extra characters and no additional text beyond the specified signs and labels.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "turquoise hair with pink tips"
+      },
+      {
+        "name": "headline text",
+        "default": "おはよう"
+      },
+      {
+        "name": "morning message",
+        "default": "今日もいい一日にしようねっ♪"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781774879805_qxtz8g_HLDY2WHaQAApjJR.jpg",
+        "alt": "Cozy Anime Morning Livestream",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "アマドウマ",
+      "url": "https://x.com/amadouma_s"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/amadouma_s/status/2067390659217260674#reversed-0"
+    },
+    "publishedAt": "2026-06-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26058",
+    "contentHash": "ca458ef2b741977dec893f1392ab767051478764"
+  },
+  {
+    "id": "gpt-image-2:25778",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "25778",
+    "title": "Cinematic Stadium Football Match",
+    "category": "YouTube Thumbnail",
+    "description": "An epic sports photography prompt that captures the dramatic peak of a football match in a grand stadium during a golden sunset.",
+    "promptText": "Cinematic {argument name=\"lighting\" default=\"sunset\"} football match in a massive stadium, score {argument name=\"match score\" default=\"1-1\"} in the final moments, intense crowd cheering, dramatic orange and golden sunset sky, player about to score a {argument name=\"goal moment\" default=\"last-minute winning goal\"}, goalkeeper diving, emotional atmosphere, ultra realistic, cinematic lighting, highly detailed, stadium lights glowing, epic sports photography, 4K",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "lighting",
+        "default": "sunset"
+      },
+      {
+        "name": "match score",
+        "default": "1-1"
+      },
+      {
+        "name": "goal moment",
+        "default": "last-minute winning goal"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781603355155_y1y3x7_HK288_FbIAA8qgE.jpg",
+        "alt": "Cinematic Stadium Football Match",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1781603355122_r97mrt_HK288-ga4AA1vC6.jpg",
+        "alt": "Cinematic Stadium Football Match",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Sheikh Sharik 2.0",
+      "url": "https://x.com/NoOneIsHere2603"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/NoOneIsHere2603/status/2066515574063247808"
+    },
+    "publishedAt": "2026-06-15T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=25778",
+    "contentHash": "88e96bf695134aa31ad53ce4b551be9a65c2850c"
+  },
+  {
+    "id": "gpt-image-2:25415",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "25415",
+    "title": "Anime Idol Advertising Takeover City",
+    "category": "YouTube Thumbnail",
+    "description": "A wide cinematic prompt for generating a rainy neon city filled with coordinated billboard ads of one anime idol character.",
+    "promptText": "Create a cinematic wide 16:9 anime-style nighttime cityscape showing a full “advertising takeover” of a futuristic Tokyo-like entertainment district by one idol character, {argument name=\"character name\" default=\"Hikari\"}. View from a high pedestrian balcony in the foreground, looking down over a rainy neon plaza packed with tiny pedestrians, wet reflective streets, glass buildings, trains, skybridges, and dense skyscrapers under a dark blue evening sky. In the foreground, place the same character seen from behind at the railing: a young anime girl with short brown hair, a dark beret, cream blouse, burgundy jumper dress with ribbon bow and subtle gold embroidery, looking out at the city. Fill the city with exactly 18 visible advertisements featuring the same girl in different poses and crops: 1) giant top-left billboard reading “HIKARI / FASHION,” 2) curved mid-left screen reading “AOZORA / BANK,” 3) lower-left orange cafe ad reading “CAFÉ PHOENIX,” 4) slim vertical travel ad reading “WanderSee / TRAVEL,” 5) large central billboard reading “LUMINOUS / BEAUTY CLINIC,” 6) central appliance billboard reading “BrightHome / LIFE APPLIANCE,” 7) small high billboard reading “SKY LEARN,” 8) large upper-right purple gaming ad reading “Phoenix Gear / GAMING,” 9) right-side blue technology billboard reading “FUTURE VISION / TECHNOLOGY,” 10) center-right transit ad reading “HIKARI LINE,” 11) narrow vertical sign reading “Smile / DENTAL,” 12) small vertical character sign beneath the central screens, 13) small character billboard near the lower center intersection, 14) small character sign on a mid-right building corner, 15) long horizontal station-front banner with repeated Hikari portraits, 16) train-side wrap ad labeled “HIKARI LINE,” 17) another train or platform wrap with repeated portraits in the lower-right transit area, and 18) small rooftop or facade screen near the center-right showing her portrait. Make every ad visually consistent but branded differently, with clean white sans-serif English text, glossy LED glow, and no extra unreadable copy. Use rich cyberpunk-commercial lighting, rain reflections, warm shop windows, blue and pink neon, highly detailed architecture, and a grand sense of scale. Some distant character faces on billboards may be softly blurred by glow and distance, but the overall impression must be clear: one beloved character has taken over the entire city’s advertising landscape. Use {argument name=\"primary outfit color\" default=\"burgundy\"}, {argument name=\"hair color\" default=\"brown\"}, {argument name=\"city mood\" default=\"rainy neon night\"}, and {argument name=\"main brand theme\" default=\"idol fashion and lifestyle\"}.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "Hikari"
+      },
+      {
+        "name": "primary outfit color",
+        "default": "burgundy"
+      },
+      {
+        "name": "hair color",
+        "default": "brown"
+      },
+      {
+        "name": "city mood",
+        "default": "rainy neon night"
+      },
+      {
+        "name": "main brand theme",
+        "default": "idol fashion and lifestyle"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781341283307_hq0bt4_HKpZz76bQAAaZCf.jpg",
+        "alt": "Anime Idol Advertising Takeover City",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "オオトリヒカリ🐦‍🔥",
+      "url": "https://x.com/ohtori1"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ohtori1/status/2065562130745794765#reversed-0"
+    },
+    "publishedAt": "2026-06-12T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=25415",
+    "contentHash": "fa99753cfc30f45ce78342389b802eabbbac2637"
+  },
+  {
+    "id": "gpt-image-2:25209",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "25209",
+    "title": "Cinematic Film Genre Color Grading Comparison",
+    "category": "YouTube Thumbnail",
+    "description": "A detailed prompt for creating a cinematic vertical poster that compares five different film color grading styles for the same urban street scene.",
+    "promptText": "Create a {argument name=\"aspect\" default=\"vertical\"} cinematic tutorial comparison poster showing the same {argument name=\"subject\" default=\"urban street scene\"} repeated in five horizontal panels, each panel demonstrating a different film genre color grading style. The scene is a busy small city street at sunset, with cars, motorcycles, cyclists, shop buildings, electric poles, tangled overhead wires, and warm evening sky. Keep the camera angle exactly the same in every panel, like a fixed street photography shot.\n\nEach horizontal strip should have a different cinematic mood and color tone:\n\nPanel 1: SUSPENSE - cool blue shadows, dark contrast, slightly mysterious atmosphere, tense and moody lighting.\nPanel 2: ACTION - warm orange sunset tone, high contrast, energetic cinematic look, dramatic highlights.\nPanel 3: CRIME - cold teal blue grading, darker exposure, gritty urban feeling, realistic shadows.\nPanel 4: ROMANCE - soft golden warm tone, gentle contrast, nostalgic sunset mood, dreamy atmosphere.\nPanel 5: DRAMA - muted purple blue evening tone, emotional cinematic lighting, soft shadows and serious mood.\nAdd bold white uppercase text on the right side of each panel: SUSPENSE, ACTION, CRIME, ROMANCE, DRAMA. Use clean modern sans serif typography with slight glow or subtle shadow. Separate each panel with thin white horizontal borders. Make it look like a professional filmmaking color grading tutorial thumbnail, cinematic, realistic, high detail, urban street photography, 9:16 vertical composition.\nNegative Prompt: cartoon, anime, painting, low quality, blurry, distorted buildings, extra text, wrong spelling, messy typography, overexposed, unrealistic colors, duplicated cars, warped street, bad perspective, random objects, low resolution, watermark",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "aspect",
+        "default": "vertical"
+      },
+      {
+        "name": "subject",
+        "default": "urban street scene"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781256082473_cxbnhs_HKfCQdCagAAQ_NE.jpg",
+        "alt": "Cinematic Film Genre Color Grading Comparison",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "BMX",
+      "url": "https://x.com/bmx_ai13"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/bmx_ai13/status/2065013672586690723"
+    },
+    "publishedAt": "2026-06-11T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=25209",
+    "contentHash": "0562ea8a01c2374c1af1ca701afe985a968366ba"
+  },
+  {
     "id": "gpt-image-2:25204",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
