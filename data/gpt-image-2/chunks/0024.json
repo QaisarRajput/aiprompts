@@ -1,5 +1,266 @@
 [
   {
+    "id": "gpt-image-2:26764",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26764",
+    "title": "Watercolor Silhouette Character Story",
+    "category": "Profile / Avatar",
+    "description": "An extensive prompt for transforming character images into poetic watercolor shadow-style illustrations with titles.",
+    "promptText": "[Information Entry Field]\n\nCharacter Name: [{argument name=\"character name\" default=\"\"}] (Required)\n\nPose Number: [{argument name=\"pose number\" default=\"0\"}] (Optional: Select from 0-10, auto-generated if blank)\n\nAdditional Notes: [{argument name=\"additional notes\" default=\"\"}] (Enter anything specific you want to tell the AI)\n\n-----------------\n\nAnalyze the attached image and generate a high-quality 2D animation-style illustration named [Character Name]. The final image should be a 'shadow-style watercolor poetic single illustration' where the character's presence quietly floats on white to off-white paper. Focus on silhouettes, soft bleeding, negative space, and paper texture rather than detailed drawings. Adopt the pose specified by [Pose Number]. If 0 or blank, the AI should choose one that fits the character's look/personality. The AI should determine the most suitable main color based on the character's hair, eyes, and clothing instead of fixing a color. Use a palette centered on the main color with dark shadow colors and light watercolor bleeding. Do not over-draw features; keep the hairstyle outline, clothing shape, and unique traits recognizable as a silhouette. Background should have wide negative space with minimal watercolor bleeding, plant shadows, or star dust. Automatically create a short, beautiful title based on the atmosphere and place it with the character name in the upper right or an unobtrusive spot. Maintain silence, elegance, and a poetic atmosphere throughout. Style: High-quality 2D animation. Aspect Ratio: 3:4.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": ""
+      },
+      {
+        "name": "pose number",
+        "default": "0"
+      },
+      {
+        "name": "additional notes",
+        "default": ""
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464843756_8iv2dn_HLrVqs4aAAAIJxq.jpg",
+        "alt": "Watercolor Silhouette Character Story",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464844109_eb32x0_HLrVsxxbIAEXZui.jpg",
+        "alt": "Watercolor Silhouette Character Story",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "muda22_Sora",
+      "url": "https://x.com/Sora_muda22"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Sora_muda22/status/2070202139662848348"
+    },
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26764",
+    "contentHash": "d4571c6d41118474f3b8df8a7e2d1dfd016df281"
+  },
+  {
+    "id": "gpt-image-2:26747",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26747",
+    "title": "FIFA World Cup Anime Poster",
+    "category": "Profile / Avatar",
+    "description": "A high-detail Japanese pop-art anime illustration style for World Cup 2026 portraits, maintaining identity and pose from a reference.",
+    "promptText": "Ultra detailed FIFA World Cup 2026 pop-art anime illustration of {argument name=\"subject\" default=\"[SUBJECT]\"}, close-up portrait, leaning forward, winking left eye, right eye looking directly at viewer, left hand holding a miniature {argument name=\"country emblem\" default=\"[COUNTRY LOGO / EMBLEM]\"} in front of her face, face partially hidden behind the miniature emblem, confident playful expression. Aspect Ratio: 4:5 (vertical). Fixed composition: Keep original pose exactly the same. Object: Miniature {argument name=\"country emblem\" default=\"[COUNTRY LOGO / EMBLEM]\"}, detailed design. Background: Clean {argument name=\"background color\" default=\"[BACKGROUND COLOR]\"} square-inspired background with thin border, minimal retro manga poster design. Typography: Large bold vintage retro lettering below character displaying: \"{argument name=\"custom text\" default=\"[CUSTOM TEXT]\"}\". Style: Japanese pop art, manga illustration, fashion editorial poster, bold black outlines, vibrant cel shading, premium vector artwork.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "[SUBJECT]"
+      },
+      {
+        "name": "country emblem",
+        "default": "[COUNTRY LOGO / EMBLEM]"
+      },
+      {
+        "name": "background color",
+        "default": "[BACKGROUND COLOR]"
+      },
+      {
+        "name": "custom text",
+        "default": "[CUSTOM TEXT]"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464828600_ez7quq_HLrJIIlagAAPvGO.jpg",
+        "alt": "FIFA World Cup Anime Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464829045_bjyube_HLrJJI3asAAx0Pi.jpg",
+        "alt": "FIFA World Cup Anime Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464828603_3o7jtq_HLrJJ_faMAAszdC.jpg",
+        "alt": "FIFA World Cup Anime Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464829667_lq2bwo_HLrJLCebYAEWL93.jpg",
+        "alt": "FIFA World Cup Anime Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Saul Goodman",
+      "url": "https://x.com/Goodmanprotocol"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Goodmanprotocol/status/2070188188900172254"
+    },
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26747",
+    "contentHash": "2ee2c4edb6a5f707a40397b340f4c2528183e0fc"
+  },
+  {
+    "id": "gpt-image-2:26805",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26805",
+    "title": "Sepia Anime Noble With Mirror",
+    "category": "Profile / Avatar",
+    "description": "A vertical gothic anime portrait prompt featuring a white-haired noble, ornate mirror, orchids, and a central taupe face-obscuring square.",
+    "promptText": "Create a vertical 9:16 monochrome sepia anime illustration of an androgynous young noble with {argument name=\"hair color\" default=\"silvery white\"} tousled layered hair, posed in a melancholic Victorian-gothic garden scene. The character wears a glossy white ruffled blouse with a high frilled collar, a black ribbon bow at the neck, one visible white glove touching the cheek, and one visible cuff with exactly 3 round buttons. Their long hair is tied into one low side ponytail over the right shoulder. Place one ornate antique hand mirror along the left side, with carved metallic floral scrollwork, reflecting the character’s downcast face and closed or half-lidded eye. Add an opaque centered square censor block in muted warm gray-taupe covering the main face area, about one third of the image width, with sharp clean edges. Surround the portrait with white flowers: exactly 3 large orchid blossoms in the upper background, plus multiple clusters of small five-petal white flowers near the right side and lower left foreground. Use delicate manga linework, painterly grayscale shading, soft highlights, intricate hair strands, romantic dark foliage, shallow depth of field, high detail, elegant sorrowful mood, no text, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "silvery white"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464881148_5v88je_HLqgbo7agAAPYuH.jpg",
+        "alt": "Sepia Anime Noble With Mirror",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "🐹🐹",
+      "url": "https://x.com/hmst_yyyy"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/hmst_yyyy/status/2070143380794015913#reversed-0"
+    },
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26805",
+    "contentHash": "91e0bc9c545501619147ffe21886d9ec14426511"
+  },
+  {
+    "id": "gpt-image-2:26768",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26768",
+    "title": "Monochrome Western Cowgirl Portrait",
+    "category": "Profile / Avatar",
+    "description": "A highly detailed Korean prompt for generating a cinematic, black-and-white portrait of a woman in a cowboy hat with dramatic rim lighting and a telephoto lens aesthetic.",
+    "promptText": "[Subject] Refer to Image 1 and Image 2 [Signature] At the bottom right, there is a small Threads logo operated by Meta, and above it, \"{argument name=\"signature\" default=\"CHAse\"}\" is written in small white cursive like a signature.\n\n[Pose and Expression]\nA portrait pose looking directly at the camera with the chin resting on the palm of the right hand. The intense and deep gaze through the stray hairs overwhelms the viewer, and the serious and dreamy expression with slightly closed lips exudes a romantic yet lonely charisma.\n\n[Clothing]\nA {argument name=\"hat style\" default=\"wide-brim cowboy hat\"} with unique zigzag stitch decorations along the edge is pressed down low on the head. The subject wears a white blouse, showing a natural Western-inspired look.\n\n[Hairstyle and Makeup Details]\nLong, wavy hair with a messy, roughly groomed texture. Strands of stray hair naturally cover the face line and eyes, creating a raw and free mood. The makeup is a minimal look that preserves freckles and the skin's natural texture, with the depth of the lips and eyes emphasized in the black-and-white contrast.\n\n[Lighting and Direction]\nDramatic backlighting coming strongly from the back-left of the figure is the main light source. This intense light creates a dazzling rim light highlight along the outline of the messy hair and the edge of the hat brim, while the front of the face is submerged in soft shadow, maximizing the depth and three-dimensionality of the features.\n\n[Texture and Color Mood]\nExpressed in a classic {argument name=\"color tone\" default=\"Monochrome\"}, focusing entirely on the contrast of light and shadow without color interference. The fine texture of thick hair, the matte and soft leather or felt texture of the hat, and the smooth skin texture contrast vividly within a deep grayscale, creating an artistic and sensual fine-art pictorial mood.\n\n[Film and Camera Specs]\nShot using a f/2.0 aperture, 1/250s shutter speed, ISO 400, and an 85mm telephoto prime lens. A tight close-up shot captured at eye level to fully immerse in the subject's intense gaze and expression. Shallow depth of field is applied, focusing sharply on the eyes and front of the face while softly blurring the back of the hat and the ends of the hair. The subtle film grain characteristic of high-sensitivity black-and-white film completes the classic cinematic sensibility.\n\n[Background (Optional)]\nA minimal, flat, light-toned background with no details to highlight the silhouette of the subject and hat. By excluding complex visual elements, the focus is entirely on the emotional line and formal beauty of the foreground figure.\n\nSet aspect ratio to 1:1.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "signature",
+        "default": "CHAse"
+      },
+      {
+        "name": "hat style",
+        "default": "wide-brim cowboy hat"
+      },
+      {
+        "name": "color tone",
+        "default": "Monochrome"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ko",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464846988_d767qg_HLZpJq4bAAAV2dT.jpg",
+        "alt": "Monochrome Western Cowgirl Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "CHAse",
+      "url": "https://x.com/CHAseUnre"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CHAseUnre/status/2070058666808754262"
+    },
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26768",
+    "contentHash": "5972b6a1ecaf21778807f01e1ec922e45bfc0a35"
+  },
+  {
+    "id": "gpt-image-2:26746",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26746",
+    "title": "Retro World Cup Pixel Sprite",
+    "category": "Profile / Avatar",
+    "description": "Converts a reference photo into a detailed 16-bit retro pixel art sprite inspired by the FIFA World Cup 2026.",
+    "promptText": "Create a square-inspired FIFA World Cup 2026 profile portrait in a 4:5 aspect ratio using the uploaded image as the exact reference for pose, composition, identity, and pixel art style. Create the subject in a detailed {argument name=\"art style\" default=\"retro pixel art style\"} with large visible pixels, defined stair-stepped edges, strong dark outlines, dramatic pixelated shading, vibrant colors, and a crisp 16-bit/32-bit arcade sprite appearance. Use only a flat solid background color representing the {argument name=\"country\" default=\"selected country’s primary national color\"}. The raised goalkeeper glove must feature the {argument name=\"national symbols\" default=\"selected country’s national flag\"} or official national colors. No gradients, textures, text, logos, extra objects, or photorealism. Subtly incorporate the FIFA World Cup 2026 theme and atmosphere while preserving the exact pose and composition from the reference. Maintain the raised glove, facial features, framing, and overall visual style exactly as shown in the reference image. Output aspect ratio: 4:5.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "art style",
+        "default": "retro pixel art style"
+      },
+      {
+        "name": "country",
+        "default": "selected country’s primary national color"
+      },
+      {
+        "name": "national symbols",
+        "default": "selected country’s national flag"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464828017_pz8iz8_HLoikkZbMAARpNd.jpg",
+        "alt": "Retro World Cup Pixel Sprite",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464828121_klj5lv_HLoilUZa4AAQpAt.jpg",
+        "alt": "Retro World Cup Pixel Sprite",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464827991_as6w3y_HLoil6VbEAA7Bba.jpg",
+        "alt": "Retro World Cup Pixel Sprite",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464828730_qwyqvw_HLoime4agAA7MTc.jpg",
+        "alt": "Retro World Cup Pixel Sprite",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Saul Goodman",
+      "url": "https://x.com/Goodmanprotocol"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Goodmanprotocol/status/2070005032720941155"
+    },
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26746",
+    "contentHash": "d60ecda168aaa72f88d6d41ef656390a945d331c"
+  },
+  {
     "id": "gpt-image-2:26734",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6987,210 +7248,5 @@
     "publishedAt": "2026-06-23T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26612",
     "contentHash": "7c3d626a74a1703fba7f3cf9720ba7cbb117d634"
-  },
-  {
-    "id": "gpt-image-2:26591",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26591",
-    "title": "Minimalist Hand-Drawn Doodle Style",
-    "category": "Social Media Post",
-    "description": "A stylistic transformation prompt that turns an image into a cute, imperfect green brush-pen doodle illustration on a pink background.",
-    "promptText": "Transform the image into a minimalist hand-drawn doodle illustration. Use simple {argument name=\"ink color\" default=\"green\"} brush-pen outlines with slightly wobbly, imperfect strokes. Reduce all details to cute, childlike shapes while preserving the main subject and composition. Naive sketchbook aesthetic, playful and whimsical character design, clean {argument name=\"background color\" default=\"pink\"} background, minimal linework, expressive simplicity, handmade doodle style, black ink drawing, charming imperfections, simple {argument name=\"style\" default=\"cartoon illustration\"}. Format 3:4.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "ink color",
-        "default": "green"
-      },
-      {
-        "name": "background color",
-        "default": "pink"
-      },
-      {
-        "name": "style",
-        "default": "cartoon illustration"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291877538_7enjdo_HLftnQFbgAANIFy.jpg",
-        "alt": "Minimalist Hand-Drawn Doodle Style",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Jahan Zaib",
-      "url": "https://x.com/jzaib4269"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/jzaib4269/status/2069383824845512935"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26591",
-    "contentHash": "fcd7051a3f553507654c0bfc0f49c67c2c6fc20f"
-  },
-  {
-    "id": "gpt-image-2:26617",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26617",
-    "title": "Pixar Style Infographic Storyboard",
-    "category": "Infographic / Edu Visual",
-    "description": "A high-quality prompt for a 3D Pixar-styled infographic storyboard with vivid colors and bold typography.",
-    "promptText": "Create a crisp, clean infographic storyboard poster for {argument name=\"title\" default=\"THE DONUT MAKER\"}. Wide 16:9 layout, white background, black borders, bold black typography, {argument name=\"style\" default=\"premium Pixar 3D stylized rendering\"}, bright vivid colors — golden fried dough, rich chocolate",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "title",
-        "default": "THE DONUT MAKER"
-      },
-      {
-        "name": "style",
-        "default": "premium Pixar 3D stylized rendering"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291892774_0wlsc4_HLg1vC1WYAAAl1T.jpg",
-        "alt": "Pixar Style Infographic Storyboard",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "TechieSA",
-      "url": "https://x.com/TechieBySA"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/TechieBySA/status/2069463116291731475"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26617",
-    "contentHash": "2bab2ac23f6f550eaa5c819fd07bfe5e918a9be2"
-  },
-  {
-    "id": "gpt-image-2:26629",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26629",
-    "title": "Flat Doodle Photo Transformation",
-    "category": "Infographic / Edu Visual",
-    "description": "Transforms a family patio photograph into a clean flat doodle illustration while preserving the original composition and subject placement.",
-    "promptText": "Using the provided reference image, transform it into a clean doodle / flat illustration. Preserve the original composition, camera angle, room layout, subject positions, indoor-outdoor framing, and overall scene exactly: the view from inside the living room through the large glass doors toward the patio dining table.\n\nStyle: Convert the photograph into a polished flat vector-like cartoon illustration with simple shapes, clean black outlines, medium-weight linework, flat colors, and zero realistic shading or gradients. Simplify textures and details while keeping all major objects recognizable.\n\nPeople and layout: Keep exactly 6 people seated or standing around the outdoor table in the same relative positions as the reference: 1 older man at the left, 1 standing adult behind the table, 1 elderly person near the center, 1 child near center-right, 1 child to the right, and 1 adult woman at the far right. Keep the table, chairs, food, cups, patio plants, glass doors, curtains, sofa with pillows, rug, and lounge chair in their original locations.\n\nColor treatment: Use warm, friendly flat colors inspired by the photo: beige curtains, cream sofa, red accent pillow, striped rug, black window frames, brown patio furniture, gray patio floor, yellow garden wall, and bright green plants and trees.\n\nConstraints: No photorealism, no painterly brushwork, no shadows, no hatching, no extra people, no text, no watermark. The final image should look like a clean editorial flat illustration made from the reference photo.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291897917_cumf1t_HLfXzFVbEAA9OUF.jpg",
-        "alt": "Flat Doodle Photo Transformation",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Samuel Ferrero.",
-      "url": "https://x.com/MiMundoConIA"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/MiMundoConIA/status/2069359829752402236#reversed-1"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26629",
-    "contentHash": "881b54cbddfa397a55a0e7a10862b2b420e3bfc6"
-  },
-  {
-    "id": "gpt-image-2:26550",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26550",
-    "title": "Morning Stretch Bedroom Portrait",
-    "category": "Profile / Avatar",
-    "description": "A photorealistic vertical portrait prompt for creating a cozy sunlit bedroom scene of an adult woman stretching with her face obscured.",
-    "promptText": "Create a vertical photorealistic morning lifestyle portrait of an adult {argument name=\"character ethnicity\" default=\"Japanese\"} woman sitting on a bed in a bright bedroom, framed from the upper torso to the top of the head. She has {argument name=\"hair color\" default=\"medium chestnut brown\"} shoulder-length slightly messy wavy hair, and is wearing a simple {argument name=\"top color\" default=\"white\"} ribbed tank top. Pose her stretching sleepily with both arms raised and bent across her face: the left forearm crosses horizontally in front of her eyes, the right arm is lifted to the side with the hand near her hair, fingers relaxed and natural. Her face is intentionally hidden by a centered opaque square censor block in a warm brown skin-tone gradient, covering the facial features while leaving hair, arms, neck, and clothing visible. The setting is a soft sunlit bedroom with white bedding in the lower foreground, a bright overexposed window on the upper left, pale curtains on the right, and warm natural backlighting that creates gentle highlights in the hair. Use a realistic camera look with shallow depth of field, soft skin texture, natural proportions, cozy morning atmosphere, clean composition, no text, no watermark, and no extra people.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character ethnicity",
-        "default": "Japanese"
-      },
-      {
-        "name": "hair color",
-        "default": "medium chestnut brown"
-      },
-      {
-        "name": "top color",
-        "default": "white"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205419089_3be6ro_HLaxLTEa4AAJcPh.jpg",
-        "alt": "Morning Stretch Bedroom Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "ゆーじ/AI生成見習い",
-      "url": "https://x.com/ph_laugh"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/ph_laugh/status/2069171066967118202#reversed-0"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26550",
-    "contentHash": "ec2b964962f761ac0bee723ddfc4841b9b8ba7ab"
-  },
-  {
-    "id": "gpt-image-2:26512",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26512",
-    "title": "Classic Rembrandt Lighting Portrait",
-    "category": "Profile / Avatar",
-    "description": "A professional studio portrait prompt using Rembrandt lighting for high-contrast, dramatic results.",
-    "promptText": "Photorealistic black and white cinematic portrait of {argument name=\"subject\" default=\"a rugged middle aged man\"} with short hair, light beard stubble, sharp facial details, intense serious expression, looking directly into the camera. Classic Rembrandt lighting setup, single soft key light positioned 45 degrees to camera right and slightly above eye level, distinct triangle of light under the shadow side eye, deep shadows on one side of the face, high contrast low key lighting, pure black background, fine art studio portrait, dramatic mood, chiaroscuro, ultra detailed skin texture, 85mm lens, shallow depth of field, masterpiece quality.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "a rugged middle aged man"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205402710_m6z437_HLcSkWabAAAIbCS.jpg",
-        "alt": "Classic Rembrandt Lighting Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "BMX",
-      "url": "https://x.com/bmx_ai13"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/bmx_ai13/status/2069143083539964347"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26512",
-    "contentHash": "076cbf7595a54088b5e097baed5eeae4880b45d5"
   }
 ]
