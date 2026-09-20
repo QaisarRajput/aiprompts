@@ -1,13 +1,13 @@
 [
   {
-    "id": "nano-banana-pro:34921",
+    "id": "nano-banana-pro:35001",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
-    "externalId": "34921",
-    "title": "Boy in Hoodie Reference Image Prompt",
+    "externalId": "35001",
+    "title": "Cinematic Portrait Restoration Prompt",
     "category": "Profile / Avatar",
-    "description": "A prompt instructing the model to generate an image of a boy wearing a white blue strap hoodie and sunglasses, based on a provided reference image, maintaining original facial features.",
-    "promptText": "A boy (first reference image), is the main subject. He is wearing a white blue strap hoodie, sunglasses, He is positioned slightly off-center to the left, with his head tilted down, gazing thoughtfully. right hand is raised, with his index finger touching his eye. The background is softly blueish blurred, showing an out-of-focus outdoor setting with warm same as this reference image real face 100% original.",
+    "description": "A prompt for restoring old or damaged portraits into high-definition cinematic images with warm lighting and realistic skin textures using Nano Banana Pro.",
+    "promptText": "Cinematic portrait restoration. Strictly preserve original pose, expression, and composition. Add warm golden-hour side lighting casting a defined, dramatic shadow on the wall behind. Upscale to Ultra-HD: sharpen details, enhance realistic skin texture, and reduce noise. Mood: Mysterious, high-contrast, warm highlights, deep shadows, photorealistic.",
     "promptFormat": "text",
     "templateArguments": [],
     "raycastFriendly": false,
@@ -15,8 +15,54 @@
     "language": "en",
     "images": [
       {
-        "url": "https://cms-assets.youmind.com/media/1789713174987_6z4mtn_HSeB3nCaAAAN7ig.jpg",
-        "alt": "Boy in Hoodie Reference Image Prompt",
+        "url": "https://cms-assets.youmind.com/media/1789799323277_u9t7fy_HSfFbJpaYAA7Iok.jpg",
+        "alt": "Cinematic Portrait Restoration Prompt",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Tensor",
+      "url": "https://x.com/QAiStudio"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/QAiStudio/status/2100864827401150811"
+    },
+    "publishedAt": "2026-09-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35001",
+    "contentHash": "00ce78ab0d0e03447d39ce3beda79d7e013c417e"
+  },
+  {
+    "id": "nano-banana-pro:34921",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "34921",
+    "title": "Boy in Hoodie Portrait Prompt for Image Models",
+    "category": "Profile / Avatar",
+    "description": "A specific image generation prompt for creating a portrait of a boy wearing a white-blue strap hoodie and sunglasses, positioned off-center with a thoughtful gaze, based on a reference image.",
+    "promptText": "A boy (first reference image), is the main subject. He is wearing a {argument name=\"clothing\" default=\"white blue strap hoodie\"}, {argument name=\"accessories\" default=\"sunglasses\"}. He is positioned slightly off-center to the left, with his head tilted down, gazing thoughtfully. right hand is raised, with his index finger touching his eye. The background is softly {argument name=\"background_color\" default=\"blueish blurred\"}, showing an out-of-focus outdoor setting with warm same as this reference image real face 100% original.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "clothing",
+        "default": "white blue strap hoodie"
+      },
+      {
+        "name": "accessories",
+        "default": "sunglasses"
+      },
+      {
+        "name": "background_color",
+        "default": "blueish blurred"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789799324473_cop5ao_HSeB3nCaAAAN7ig.jpg",
+        "alt": "Boy in Hoodie Portrait Prompt for Image Models",
         "width": 600
       }
     ],
@@ -30,7 +76,40 @@
     },
     "publishedAt": "2026-09-18T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=34921",
-    "contentHash": "8398834195d33c6b64ebaadedda3eed5ffe4cee0"
+    "contentHash": "449128ac32a6f42dbb79e3da031af390c4d65f1e"
+  },
+  {
+    "id": "nano-banana-pro:34923",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "34923",
+    "title": "Ultra-realistic Indian Woman Collage Portrait",
+    "category": "Profile / Avatar",
+    "description": "Generates a stylish collage portrait of an Indian woman in specific attire with monochrome close-ups.",
+    "promptText": "URE Ultra-realistic collage portrait of a stylish young Indian woman, brown satin shirt, beige wide-leg pants, white platform sandals, long straight black hair, soft smile, standing full-body pose with monochrome candid close-ups wearing sunglasses",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789799324737_qp2t2r_HSaZYoLbEAAQ72o.jpg",
+        "alt": "Ultra-realistic Indian Woman Collage Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Sahil Verma",
+      "url": "https://x.com/sahilvermaai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/sahilvermaai/status/2100534942220399058"
+    },
+    "publishedAt": "2026-09-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=34923",
+    "contentHash": "9827ba7220bbad05edfc207f7c18ee53e4a521ed"
   },
   {
     "id": "nano-banana-pro:34922",
@@ -183,44 +262,6 @@
     "publishedAt": "2026-09-17T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=34924",
     "contentHash": "5192c9b34fbb4460590c8a170e70cf96c264bf9c"
-  },
-  {
-    "id": "nano-banana-pro:34923",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "34923",
-    "title": "Ultra-realistic Indian Woman Portrait",
-    "category": "Social Media Post",
-    "description": "A detailed prompt for an ultra-realistic collage portrait of a stylish young Indian woman in fashion photography style.",
-    "promptText": "URE Ultra-realistic collage portrait of a stylish young Indian woman, brown satin shirt, beige wide-leg pants, white platform sandals, long straight black hair, soft smile, standing full-body pose with monochrome candid close-ups wearing sunglasses in background panels, modern.. soft natural lighting, minimal beige theme, high detail, 8K fashion photography \"{argument name=\"signature_name\" default=\"Hania\"}\" Signature left side.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "signature_name",
-        "default": "Hania"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789713176373_0h6by0_HSaZYoLbEAAQ72o.jpg",
-        "alt": "Ultra-realistic Indian Woman Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Hania",
-      "url": "https://x.com/Techbyhani"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Techbyhani/status/2100534942220399058"
-    },
-    "publishedAt": "2026-09-17T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=34923",
-    "contentHash": "a19660a050435f5dfb6302f0476689ab1610c8c8"
   },
   {
     "id": "nano-banana-pro:34748",
@@ -6295,66 +6336,5 @@
     "publishedAt": "2026-09-04T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33468",
     "contentHash": "3153cf81228f42169118027e5e8404ca1d789356"
-  },
-  {
-    "id": "nano-banana-pro:33392",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "33392",
-    "title": "Realistic Slavic Woman Studio Portrait",
-    "category": "Profile / Avatar",
-    "description": "A highly detailed studio photography prompt for creating an ultra-realistic portrait of a Slavic woman with intricate skin textures and natural lighting.",
-    "promptText": "A portrait of a beautiful {argument name=\"ethnicity\" default=\"Slavic/russian\"} woman with caucasian skin, naturally luminous with a soft sheen, visible pores, fine texture, very subtle freckles and NO faint hyperpigmentation around the eyes and lips, realistic skin variation across face, neck, shoulders, and chest. She has an oblong face shape, high cheekbones, a smooth yet defined jawline, a straight medium-width nose with gentle highlights, full well- heart shaped pink plum lips with natural lines, and large almond-shaped {argument name=\"eye color\" default=\"whitish grey\"} eyes framed by long natural lashes and neatly groomed sharp arched full brows. Her hair is styled in natural, detailed long-length glossy and {argument name=\"hair color\" default=\"black\"} thick hair with clean but slightly imperfect parts, and brushed hair edges. and flowing over her shoulders. Slim–curvy build, elegant neck, defined collarbones, relaxed confident posture. Studio photography, flash lit, plain white background, 50mm lens, shallow depth of field, ultra high-realism, 8K, sharp focus capturing every skin pore, texture, and natural imperfection.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "ethnicity",
-        "default": "Slavic/russian"
-      },
-      {
-        "name": "eye color",
-        "default": "whitish grey"
-      },
-      {
-        "name": "hair color",
-        "default": "black"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788504572756_fqmv9r_HRSwRwBXAAEru2Q.jpg",
-        "alt": "Realistic Slavic Woman Studio Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788504572701_8b16bt_HRSwRwgbEAAoCer.jpg",
-        "alt": "Realistic Slavic Woman Studio Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788504572777_cnsa1o_HRSwRv_WcAIvUcX.jpg",
-        "alt": "Realistic Slavic Woman Studio Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788504573893_8h2ou1_HRSwRwbaAAA_haV.jpg",
-        "alt": "Realistic Slavic Woman Studio Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Heizzai | AI AUTEUR",
-      "url": "https://x.com/heizzai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/heizzai/status/2095493560002875709"
-    },
-    "publishedAt": "2026-09-03T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33392",
-    "contentHash": "f3533622d4af8cd2a5ab69ef4da9ccae99d65168"
   }
 ]

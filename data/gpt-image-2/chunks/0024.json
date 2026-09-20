@@ -1,5 +1,506 @@
 [
   {
+    "id": "gpt-image-2:26848",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26848",
+    "title": "Absurdist 2D Rubber Cartoon Illustration",
+    "category": "Comic / Storyboard",
+    "description": "Transforms photos into flat, exaggerated 2D cartoon characters with rubbery anatomy and bold outlines.",
+    "promptText": "Transform the uploaded image into a {argument name=\"style\" default=\"flat 2D absurdist cartoon illustration\"} while preserving the subject(s), composition, clothing, accessories, and overall identity.\n\nRedraw every subject as chunky, rubbery cartoon characters with simplified, exaggerated anatomy: oversized rounded bodies, short stubby limbs, tiny beady dot eyes, and an enormous wide-open mouth with large flat teeth and a bold red lip outline dominating the lower half of the face. Push the facial proportions into a grotesque yet playful, joyfully absurd aesthetic.\n\nUse flat {argument name=\"skin tone\" default=\"warm peach-orange\"} skin tones. Render everything in crisp vector-style line art with thick bold black outlines, solid flat colors, and absolutely no gradients, shadows, textures, lighting effects, or photorealism.\n\nFaithfully recreate all clothing, hairstyles, accessories, footwear, bags, hats, and props from the reference image, simplifying them into the same bold graphic cartoon style while maintaining recognizable colors and silhouettes.\n\nCenter the full-body subject(s) in a portrait composition against a clean {argument name=\"background color\" default=\"solid cobalt blue (#4A7FD4)\"}.\n\nStyle DNA: Flat 2D editorial cartoon, inspired by classic American animation with a modern streetwear illustration aesthetic. Bold, graphic, irreverent, expressive, and intentionally exaggerated.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "style",
+        "default": "flat 2D absurdist cartoon illustration"
+      },
+      {
+        "name": "skin tone",
+        "default": "warm peach-orange"
+      },
+      {
+        "name": "background color",
+        "default": "solid cobalt blue (#4A7FD4)"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549919057_68d0xg_HLwEUsBbgAA_mFP.jpg",
+        "alt": "Absurdist 2D Rubber Cartoon Illustration",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549919049_qvfjtm_HLwEWPjbkAAGuSr.jpg",
+        "alt": "Absurdist 2D Rubber Cartoon Illustration",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Saul Goodman",
+      "url": "https://x.com/Goodmanprotocol"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Goodmanprotocol/status/2070534719729774611"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26848",
+    "contentHash": "62946f4a2c2e959f6af04a7302a83a58097124aa"
+  },
+  {
+    "id": "gpt-image-2:26902",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26902",
+    "title": "Manga Hamster Friend at Mall",
+    "category": "Comic / Storyboard",
+    "description": "A detailed monochrome manga page showing a stylish young man finding a tiny beret-wearing hamster friend in a busy shopping plaza.",
+    "promptText": "Goal: Create a black-and-white manga page about a fashionable young man meeting a tiny anthropomorphic hamster friend at a busy indoor shopping plaza.\n\nCanvas: Vertical manga page, roughly 2:3 aspect ratio, clean white page with thin black outer border and thick black gutters. Highly detailed monochrome pen-and-ink line art with screentone-style shading, realistic architectural perspective, elegant shoujo/seinen manga character rendering.\n\nLayout: Use exactly 6 panels. Panel 1 is a wide establishing shot across the full top width. Panel 2 is another wide panel below it. Panel 3 row has two panels: a narrow close-up of the man on the left and a wider hamster panel on the right. Panel 4 row has two panels: a narrow vertical hamster-hand gag panel on the left and a wider final panel on the right.\n\nSetting: A modern indoor mall or station concourse with glossy tiled floors, tall glass storefronts, crowds of pedestrians, overhead direction signs, a circular indoor fountain, and a clothing store in the final panel. Include English signage such as “Central Plaza” on a directional sign and “SELECTED MEN'S WEAR” above the clothing shop, plus a small “NEW ARRIVAL” sign near the shop entrance.\n\nCharacters: The main human character is {argument name=\"male friend description\" default=\"a tall handsome young man with tousled wavy dark hair, sharp eyes, a calm aloof expression, wearing a black long coat over a black turtleneck with a long scarf and pendant necklace\"}. The small companion is {argument name=\"hamster friend description\" default=\"a round fluffy hamster wearing a tiny beret and bow tie, holding or standing near a smartphone, expressive and cute\"}.\n\nPanel details: Panel 1: Wide establishing shot of the shopping plaza fountain from a distance. Many pedestrians walk around. The tiny hamster sits on the rim of the circular fountain, looking down at a smartphone, with small sound text near it. Panel 2: Medium-wide shot showing the handsome man in the left foreground, facing slightly right, noticing something; the fountain with the tiny hamster appears on the right side in the background. Panel 3 left: Tight close-up of the man’s face, serious and slightly puzzled. Panel 3 right: Close shot of the hamster on the fountain rim, waving one paw energetically while standing on or beside the smartphone. Panel 4 left: Comedic close-up of a human hand pinching and lifting the hamster gently by the tiny beret; the hamster dangles with startled paws. Panel 4 right: Final medium-wide shot in front of the menswear shop. The man stands in profile, holding the hamster on his open palm while looking toward the store window with suits and racks of clothes.\n\nVisible text and effects: Include exactly 8 text elements: 1) the overhead sign “Central Plaza”; 2) small Japanese sound effect {argument name=\"phone tapping sound\" default=\"てちてち\"} near the hamster in panel 1; 3) speech bubble from the man in panel 2 reading {argument name=\"man first line\" default=\"ん？\"}; 4) silent speech bubble in panel 3 left reading “……” ; 5) hamster speech bubble in panel 3 right reading {argument name=\"hamster greeting\" default=\"あ、こっちだよー\"}; 6) large Japanese sound effect in panel 4 left reading “わしっ”; 7) small hamster speech bubble in panel 4 left reading “え？”; 8) final speech bubbles in panel 4 right: the man says “……ハムスターに似合う服を見に行くから服屋から回るぞ” and the hamster replies “えぇ…………”.\n\nStyle constraints: Do not use color. Keep the page polished and cinematic, with delicate hatching, realistic crowd silhouettes, crisp panel borders, detailed clothing folds, and expressive manga faces. The hamster should remain tiny compared with the man, creating a humorous contrast. Avoid extra panels, extra dialogue, watermarks, or modern UI overlays.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "male friend description",
+        "default": "a tall handsome young man with tousled wavy dark hair, sharp eyes, a calm aloof expression, wearing a black long coat over a black turtleneck with a long scarf and pendant necklace"
+      },
+      {
+        "name": "hamster friend description",
+        "default": "a round fluffy hamster wearing a tiny beret and bow tie, holding or standing near a smartphone, expressive and cute"
+      },
+      {
+        "name": "phone tapping sound",
+        "default": "てちてち"
+      },
+      {
+        "name": "man first line",
+        "default": "ん？"
+      },
+      {
+        "name": "hamster greeting",
+        "default": "あ、こっちだよー"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549960661_4ebfpc_HLvodNjbwAAfxJ_.jpg",
+        "alt": "Manga Hamster Friend at Mall",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "🐹🐹",
+      "url": "https://x.com/hmst_yyyy"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/hmst_yyyy/status/2070504047619248533#reversed-0"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26902",
+    "contentHash": "2961519d15dd4d4cc30316aacfab1db4e2fcdee4"
+  },
+  {
+    "id": "gpt-image-2:26850",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26850",
+    "title": "Early 2000s CCD Video Diary Storyboard",
+    "category": "Comic / Storyboard",
+    "description": "A nostalgic aesthetic prompt for creating storyboards with the grainy, lo-fi look of early 2000s CCD video diaries.",
+    "promptText": "Early 2000s Ccd Video Diary Storyboard. Reusable visual prompt for {argument name=\"character\" default=\"fictional adult East Asian office woman\"} with clear composition and editable variables.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character",
+        "default": "fictional adult East Asian office woman"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549920868_kond5m_HLvQ874W8AAHZb3.jpg",
+        "alt": "Early 2000s CCD Video Diary Storyboard",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549920540_s9s3ma_HLvQ8-TXEAA7TtW.jpg",
+        "alt": "Early 2000s CCD Video Diary Storyboard",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Eric Kang - Vogue AI",
+      "url": "https://x.com/Eric_Kangg"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Eric_Kangg/status/2070478201965420830"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26850",
+    "contentHash": "fac22d077200725191a878b55312f2de9f5fd231"
+  },
+  {
+    "id": "gpt-image-2:26838",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26838",
+    "title": "Whimsical Pastel Romantic Couple Illustration",
+    "category": "Comic / Storyboard",
+    "description": "A prompt for creating dreamy, hand-drawn children’s book style illustrations of couples in soft, warm cinematic settings.",
+    "promptText": "Transform the reference into a {argument name=\"style\" default=\"dreamy, whimsical, pastel-toned illustrated scene\"} of a {argument name=\"subject\" default=\"romantic couple\"} in a cinematic environment. Keep the composition soft, warm, and emotionally expressive with a hand-drawn children’s book illustration style.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "style",
+        "default": "dreamy, whimsical, pastel-toned illustrated scene"
+      },
+      {
+        "name": "subject",
+        "default": "romantic couple"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549915671_twao30_HLuufSEagAAgKWv.jpg",
+        "alt": "Whimsical Pastel Romantic Couple Illustration",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549915684_puhtio_HLuuf_kaIAAnM5e.jpg",
+        "alt": "Whimsical Pastel Romantic Couple Illustration",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549915787_4v5f4p_HLuugjVawAAvvf4.jpg",
+        "alt": "Whimsical Pastel Romantic Couple Illustration",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Kashberg",
+      "url": "https://x.com/Kashberg_0"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Kashberg_0/status/2070440342449766613"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26838",
+    "contentHash": "c8d25d90ce13ec514d59054297199c189ecc6298"
+  },
+  {
+    "id": "gpt-image-2:26904",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26904",
+    "title": "Stardust Airplane Café",
+    "category": "Comic / Storyboard",
+    "description": "A detailed fantasy anime illustration of Alice, the White Rabbit, and a cat waiter visiting a magical café built inside a crashed airplane.",
+    "promptText": "Create a highly detailed vertical fantasy storybook illustration in a soft anime watercolor style: a magical desert café built into the side of an old crashed propeller airplane at twilight, with a glowing Milky Way sky overhead and warm lantern light spilling from the café counter. The setting is called {argument name=\"cafe name\" default=\"STARDUST CAFÉ\"}; show the name painted on the airplane fuselage and on a chalkboard sign. The airplane nose and large propeller dominate the left side, while the right wing extends overhead as a canopy covered with ivy, hanging bulbs, star ornaments, glass lanterns, and a pale scarf with gold stars draped from the wingtip. On the underside of the wing, write the small hand-lettered phrase “Come for Coffee, Stay for Wonder.” The café counter is packed with tiny details: brass coffee kettles, glass jars, teacups, baked cookies, cloches, bottles, shelves of ingredients, a vintage clock, coffee drippers, plants, and magical trinkets. Include exactly four main characters: 1) {argument name=\"girl character\" default=\"Alice\"}, a blonde young girl in a blue dress with a white apron, black shoes, white stockings, and a bow, standing at the left and looking curiously toward the café; 2) {argument name=\"rabbit character\" default=\"the White Rabbit\"}, an anxious white rabbit in a blue waistcoat and jacket, holding a pocket watch and looking hurried; 3) {argument name=\"cat character\" default=\"orange cat waiter\"}, a standing orange tabby cat in a small bow tie, blocking the rabbit’s path and gesturing insistently; 4) {argument name=\"barista character\" default=\"a gentle brown-haired café girl\"}, a smiling barista behind the counter with wavy hair, a cream blouse, star earrings, and a star-pattern apron, offering freshly brewed coffee and pastries. Make the rabbit look like he wants to say he has no time, while the cat waiter clearly refuses to let him leave, and Alice is enchanted by the coffee and baked sweets. Add exactly five readable sign areas: 1) airplane/fuselage logo “STARDUST CAFÉ,” 2) wing phrase “Come for Coffee, Stay for Wonder,” 3) main menu chalkboard listing “Milky Way Latte,” “Starry Night Mocha,” “Desert Rose Tea,” “Moonlight Cocoa,” “Comet Caramel Macchiato,” and “Wonderland Brew,” 4) wooden directional signposts reading “TEA PARTY,” “DESSERT,” and “THIS WAY,” and 5) front chalkboard reading “STARDUST CAFÉ / Coffee, Tea & Curious Adventures Await.” Surround the scene with desert cacti, roses, wildflowers, old suitcases, small crates, a welcome sign, potted plants, and a blue starry rug under the rabbit and cat. Use a warm golden-pink sunset horizon fading into deep violet-blue galaxy sky, with mountains in the distance, dust, sparkles, soft rim light, intricate linework, cozy fairy-tale atmosphere, 5k detail, no modern objects, no photorealism, no extra characters, and no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "cafe name",
+        "default": "STARDUST CAFÉ"
+      },
+      {
+        "name": "girl character",
+        "default": "Alice"
+      },
+      {
+        "name": "rabbit character",
+        "default": "the White Rabbit"
+      },
+      {
+        "name": "cat character",
+        "default": "orange cat waiter"
+      },
+      {
+        "name": "barista character",
+        "default": "a gentle brown-haired café girl"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549962788_xqtvse_HLurUFia8AAiBtc.jpg",
+        "alt": "Stardust Airplane Café",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "もしもし@Aiart",
+      "url": "https://x.com/moshimoshi_ai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/moshimoshi_ai/status/2070436859734626794#reversed-0"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26904",
+    "contentHash": "6ead0da62070d7736f8095f4968c275a243347f1"
+  },
+  {
+    "id": "gpt-image-2:26868",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26868",
+    "title": "Fantasy Railway World Transformation",
+    "category": "Comic / Storyboard",
+    "description": "A comprehensive prompt for transforming an uploaded illustration into a whimsical storybook-style fantasy railway world with custom mascot creatures and stations.",
+    "promptText": "Make an illustration. Analyze the uploaded illustration carefully and understand its art style, colors, character design, motifs, atmosphere, emotional tone, symbols, architecture, fantasy elements, and worldbuilding. Transform everything into a completely original {argument name=\"railway style\" default=\"storybook-style fantasy railway\"}. The visual style must become soft, cute, whimsical, heartwarming, and magical rather than realistic.\n\nThe train must not resemble any real railway, Shinkansen, or maglev. Instead, the train itself becomes an enormous living mascot born from the uploaded illustration. Its entire silhouette, face, ears, horns, petals, leaves, wings, tail, flowers, ribbons, windows, wheels, floating mechanism, decorations, and every carriage must naturally grow from the original artwork’s world.\n\nEach illustration should create a completely different creature. A {argument name=\"world theme\" default=\"shrine maiden world\"} may become a giant {argument name=\"living creature\" default=\"lucky fox, rabbit, guardian spirit, sacred koi, or floating shrine creature\"}. A flower world may become a giant blossom animal. A royal world may become a smiling crown beast. A space world may become a constellation whale. The creature must immediately make viewers think, “Only this character’s world could create this train.”\n\nCreate a dreamy fantasy station belonging to the same universe. The station itself should feel alive: flower stations, candy stations, giant tree stations, floating cloud platforms, mushroom villages, crystal forests, toy towns, moon gardens, fairy villages, or floating islands connected by magical railway lines.\n\nPlace the original character beside the train with a warm smile, happily introducing it. Tiny mascot residents, fairies, rabbits, birds, spirits, flowers, balloons, stars, and magical creatures fill the station, making the world feel alive.\n\nUse a children’s picture-book atmosphere with soft rounded shapes, oversized cute proportions, gentle pastel colors, glowing flowers, sparkling lights, fluffy clouds, magical particles, whimsical architecture, joyful expressions, cozy lighting, and overwhelming charm. Every scene should feel like entering a fantasy storybook where people would dream of riding the railway.\n\nmasterpiece, ultra detailed, whimsical fantasy, storybook illustration, soft lighting, pastel colors, adorable mascot design, magical railway world, cute fantasy architecture, highly imaginative, dreamlike, heartwarming, charming, no realistic engineering, no modern transportation, no Shinkansen silhouette, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "railway style",
+        "default": "storybook-style fantasy railway"
+      },
+      {
+        "name": "world theme",
+        "default": "shrine maiden world"
+      },
+      {
+        "name": "living creature",
+        "default": "lucky fox, rabbit, guardian spirit, sacred koi, or floating shrine creature"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549932259_d0q2qo_HLugtfDaMAACyur.jpg",
+        "alt": "Fantasy Railway World Transformation",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549933084_rdnn4g_HLugteyasAAiJc7.jpg",
+        "alt": "Fantasy Railway World Transformation",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549931950_191re8_HLugte8aoAAoPoD.jpg",
+        "alt": "Fantasy Railway World Transformation",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549933129_21ryw0_HLugtfFboAAJYJD.jpg",
+        "alt": "Fantasy Railway World Transformation",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "アシタ🩵",
+      "url": "https://x.com/ashiwata100"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ashiwata100/status/2070425181487841722"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26868",
+    "contentHash": "2c8384723277f4d12956a3de0b6a7cdd3ba1bd19"
+  },
+  {
+    "id": "gpt-image-2:26922",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26922",
+    "title": "Nikujaga Anime Cooking Storyboard",
+    "category": "Comic / Storyboard",
+    "description": "Creates a 12-panel monochrome anime storyboard sheet for a short Japanese nikujaga cooking video.",
+    "promptText": "Goal: Create a single wide storyboard sheet for a {argument name=\"video topic\" default=\"15-second Japanese 2D anime cooking short about nikujaga\"}, showing a complete cooking sequence in clean monochrome pencil line art.\n\nCanvas: Extra-wide 21:9 aspect ratio storyboard image, white background, thin black outer border. Arrange exactly 12 rectangular panels in a 4 columns × 3 rows grid, with narrow white gutters and thin black panel borders. Use cinematic close-up kitchen shots, dynamic anime storyboarding, hand-drawn graphite sketch texture, no color, no captions, no speech bubbles, no panel numbers.\n\nVisual style: Japanese 2D animation storyboard rough, detailed food illustration, expressive pencil hatching, visible construction lines, energetic motion lines, realistic cookware perspective, close-up macro framing. Keep all drawings black-and-white with subtle gray shading only.\n\nStoryboard panels: Include exactly 12 discrete panels, left to right, top to bottom:\n1. Close-up of a potato being cut on a cutting board, one hand holding it, chef’s knife slicing into it, a few peeled potato pieces nearby.\n2. Close-up of a carrot being chopped into thick round and wedge-like chunks, knife mid-cut, scattered vegetable pieces on the board.\n3. Close-up of onion wedges and onion halves on a cutting board, layers clearly visible, knife or hand partly entering frame.\n4. Top-down angle into a pot or deep pan where thin slices of meat are being stir-fried with chopsticks, broth or oil bubbling lightly.\n5. Pot close-up filled with meat and chunky vegetables, chopsticks mixing potato pieces, carrot chunks, and onion.\n6. Seasoning liquid being poured from a small container into the pot over the vegetables and meat, emphasizing the pouring stream.\n7. A round drop-lid placed over the simmering ingredients inside the pot, chopsticks adjusting the lid through its holes.\n8. Simmering pot with the drop-lid partly lifted, steam rising and ingredients visible beneath the lid.\n9. Ladle stirring or scooping the finished stew inside the pot, steam and glossy sauce around meat and vegetables.\n10. A ladle transferring chunky nikujaga from the pot into a serving bowl, large potato pieces falling into the bowl.\n11. Sauce or broth being poured over the plated nikujaga in a bowl, steam rising, glossy highlights on potatoes and meat.\n12. Final hero shot of a full bowl of nikujaga with large potatoes, onion wedges, carrot chunks, thin beef slices, and broth, viewed close-up from a low angle.\n\nConstraints: The image must read as one cohesive storyboard sheet, not separate illustrations. Use exactly 12 panels and no text. Emphasize nikujaga ingredients: {argument name=\"main ingredients\" default=\"potatoes, onions, carrots, thinly sliced beef, soy-based simmering broth\"}. Maintain a hand-sketched anime production-board look suitable for planning a short cooking video.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "video topic",
+        "default": "15-second Japanese 2D anime cooking short about nikujaga"
+      },
+      {
+        "name": "main ingredients",
+        "default": "potatoes, onions, carrots, thinly sliced beef, soy-based simmering broth"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549975209_lxqbb1_HLud84qbcAAUgsJ.jpg",
+        "alt": "Nikujaga Anime Cooking Storyboard",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "オズ",
+      "url": "https://x.com/ozuozuai99"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ozuozuai99/status/2070424127715078490#reversed-0"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26922",
+    "contentHash": "90b253c84eb50f8f5d2b15933040e69acbe58b64"
+  },
+  {
+    "id": "gpt-image-2:26856",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26856",
+    "title": "Whimsical Pixar Style Golden Hour Render",
+    "category": "Comic / Storyboard",
+    "description": "Generates a magical 3D render of a rustic village with cinematic golden hour lighting, volumetric light rays, and whimsical Pixar-style aesthetics.",
+    "promptText": "{argument name=\"lighting style\" default=\"Warm golden hour sunlight\"} fills the scene, glowing dust particles drifting through volumetric light rays, creating a soft magical atmosphere. {argument name=\"background\" default=\"Rustic wooden village\"} background softly blurred with shallow depth of field. {argument name=\"art style\" default=\"Pixar / Disney-style 3D render\"} — cute, cozy, whimsical. Cinematic lighting with a soft rim light on hair. Ultra-detailed, high quality, warm color palette, 4k, bokeh, soft focus.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "lighting style",
+        "default": "Warm golden hour sunlight"
+      },
+      {
+        "name": "background",
+        "default": "Rustic wooden village"
+      },
+      {
+        "name": "art style",
+        "default": "Pixar / Disney-style 3D render"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549922588_54nc2v_HLuWUefagAAxKpq.jpg",
+        "alt": "Whimsical Pixar Style Golden Hour Render",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549923500_nqcb9l_HLuWUdma0AAxtJX.jpg",
+        "alt": "Whimsical Pixar Style Golden Hour Render",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "PromptLab",
+      "url": "https://x.com/iamaiistudio"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/iamaiistudio/status/2070413910008852781"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26856",
+    "contentHash": "c477b09607ec57a8846465b4e0cbad8e8e384e6d"
+  },
+  {
+    "id": "gpt-image-2:26916",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26916",
+    "title": "Ethereal Angel Thank You Illustration",
+    "category": "Comic / Storyboard",
+    "description": "A soft pastel anime portrait of an angelic male character kissing a hand, ideal for follower milestone or thank-you artwork.",
+    "promptText": "Create a delicate vertical anime-style illustration of {argument name=\"character name\" default=\"Celestin\"}, an ethereal angelic young man with very pale skin and soft, messy {argument name=\"hair color\" default=\"snow-white\"} hair falling over his eyes, shown in close-up three-quarter profile as he gently kisses the back of someone’s hand. His expression is calm, reverent, and slightly melancholic, with long eyelashes and downcast eyes. He wears layered white ceremonial clothing with translucent fabric, pale blue accents, ornate silver jewelry, a dark high collar with metallic trim, dangling earrings, and blue crystal-feather ornaments near one ear. Large soft white wings and drifting feathers surround him, filling the background with a dreamy heavenly atmosphere. Use a luminous watercolor and pencil-sketch aesthetic, very soft pastel whites, icy blues, pearly grays, high-key lighting, airy brush textures, sparkling snow-like particles, and a romantic shoujo manga composition. The foreground hand should be gracefully held in both of his hands as he kisses it, with elegant slender fingers. Add handwritten glowing white text near the lower right reading {argument name=\"thank you message\" default=\"Thank you for 400♡\"}, plus a small cute doodle of a winged chibi face or angel mascot beside it. Canvas should be vertical 9:16, intimate cropped portrait, no hard outlines, no modern objects, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "Celestin"
+      },
+      {
+        "name": "hair color",
+        "default": "snow-white"
+      },
+      {
+        "name": "thank you message",
+        "default": "Thank you for 400♡"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549969351_9mrcyu_HLuTc_MboAEOBdS.jpg",
+        "alt": "Ethereal Angel Thank You Illustration",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "りりあん",
+      "url": "https://x.com/riri_28_SynClub"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/riri_28_SynClub/status/2070410584349442479#reversed-0"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26916",
+    "contentHash": "aa76fecd5587911e44885c13d091ed4de33e17bf"
+  },
+  {
+    "id": "gpt-image-2:26899",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26899",
+    "title": "Chibi Air Guitar Storyboard",
+    "category": "Comic / Storyboard",
+    "description": "Generates an 8-panel manga-style storyboard of a chibi punk character performing a wild air-guitar solo with colorful paint-splash motion effects.",
+    "promptText": "Goal: Create a colorful 8-panel storyboard sheet for an animated sequence featuring {argument name=\"character name\" default=\"Souichirock\"}, a chibi punk-rock boy performing an intense invisible air-guitar solo and ending with a dramatic guitar-smash pose.\n\nCanvas: Wide horizontal storyboard image, clean white background, divided into exactly 8 equal rectangular panels arranged in a 2-row by 4-column grid. Use thin light-gray panel borders. Each panel has a small circled black number in the upper-left corner, labeled exactly 1 through 8.\n\nVisual style: Hand-drawn digital illustration with bold black ink outlines, exaggerated manga/chibi proportions, dynamic comic action poses, expressive angry rock-performance face, and high-energy paint-splash effects. Use vivid splashes and sweeping arcs of cyan, magenta, purple, orange, green, blue, and black around the character to visualize the sound and motion of the invisible guitar. Keep the background mostly white and uncluttered.\n\nCharacter details: The same chibi male character appears in all 8 panels. He has short spiky {argument name=\"hair color\" default=\"black\"} hair, pale skin, thick black eyebrows, an open shouting mouth with red interior, and an intense scowling expression. Outfit: short-sleeve cream shirt covered in colorful paint-like marks, black pants, black shoes, black studded wristbands, and a small punk-rock attitude. He does not hold a visible guitar; his hands mime playing and smashing an air guitar.\n\nPanel-by-panel action sequence: Include exactly 8 numbered panels. Panel 1: wide-legged stance, left hand low as if gripping the neck of an invisible guitar, right hand clawing near the body, shouting, with bright paint bursts behind him and blue-magenta arcs sweeping to the right. Panel 2: deeper lunge, legs spread wider, both hands actively strumming and fretting an invisible guitar, a large blue and magenta sound-wave swirl blasting from his right side. Panel 3: centered rock stance, knees bent, left hand extended like a guitar neck, right hand near the torso, shouting toward the viewer, with dense multicolor splatter behind him. Panel 4: leaning far backward to the right, one hand raised in a claw shape and the other near his waist, legs stretched diagonally, with an orange-blue-magenta spiral sweeping around him. Panel 5: crouched low and leaning forward, one knee near the ground, hands in aggressive air-guitar position, surrounded by looping purple, pink, green, and blue paint trails. Panel 6: low lunging pose, body angled forward, one hand reaching down and the other clawed outward, with explosive colorful paint splashes radiating behind him. Panel 7: airborne jump pose, knees bent, one fist raised overhead, mouth wide open in a scream, with vertical motion lines and a rainbow paint arc curving underneath and behind him. Panel 8: final guitar-crash climax, character bent forward with both hands driving downward as if smashing the invisible guitar into the ground, black impact lines and a huge multicolor splatter explosion spreading outward.\n\nConstraints: Use exactly 8 panels and exactly one character per panel. Preserve the small circled panel numbers 1, 2, 3, 4, 5, 6, 7, and 8. No captions other than the panel numbers. Do not add a real guitar, stage, audience, watermark, logo, or extra characters.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "Souichirock"
+      },
+      {
+        "name": "hair color",
+        "default": "black"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549959561_scphm1_HLuDOFDaIAA8fjc.jpg",
+        "alt": "Chibi Air Guitar Storyboard",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549959497_kolpon_HLuDPIOaMAArx_F.jpg",
+        "alt": "Chibi Air Guitar Storyboard",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "もんなつ SHOWSHOWMOM",
+      "url": "https://x.com/poohnatsu725"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/poohnatsu725/status/2070393236024344817#reversed-0"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26899",
+    "contentHash": "e641b3ccb47858e1579c12d229ccffb59fa8b5d7"
+  },
+  {
     "id": "gpt-image-2:26926",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6733,508 +7234,5 @@
     "publishedAt": "2026-06-21T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26437",
     "contentHash": "35507fd3b949fb12abb266a2446ffdd3edbc37c0"
-  },
-  {
-    "id": "gpt-image-2:26436",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26436",
-    "title": "LEGO-Style Minifigure Collectible",
-    "category": "E-commerce Main Image",
-    "description": "Generates a realistic collectible toy figure featuring a lifelike face on a LEGO-style plastic body wearing a custom soccer jersey.",
-    "promptText": "A highly detailed collectible toy figure inspired by a LEGO-style minifigure, standing in a professional studio. The figure has a {argument name=\"face features\" default=\"realistic young woman’s face with porcelain skin, straight jet-black hair, blunt bangs, and a single striking white streak\"}. She wears small silver earrings and maintains a calm, confident expression. The body is a glossy plastic brick-toy minifigure wearing a {argument name=\"outfit\" default=\"soccer jersey with the number 10\"}, matching shorts, and {argument name=\"theme\" default=\"national-team-inspired colors\"}. Full-body composition, centered framing, shallow depth of field, premium product photography, ultra-clean lighting, reflective plastic surfaces, realistic shadows, sharp focus, luxury collectible aesthetic, high-end commercial advertising style, photorealistic face blended seamlessly with toy body, 8K resolution, vibrant color grading, studio backdrop matching the jersey color theme.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "face features",
-        "default": "realistic young woman’s face with porcelain skin, straight jet-black hair, blunt bangs, and a single striking white streak"
-      },
-      {
-        "name": "outfit",
-        "default": "soccer jersey with the number 10"
-      },
-      {
-        "name": "theme",
-        "default": "national-team-inspired colors"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782121953170_gklig1_HLWPIZ8aQAAPkF2.jpg",
-        "alt": "LEGO-Style Minifigure Collectible",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782121953161_r4hqd9_HLWPIZ3aIAIFSKi.jpg",
-        "alt": "LEGO-Style Minifigure Collectible",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782121953170_lik0ir_HLWPIaLaMAA7IvC.jpg",
-        "alt": "LEGO-Style Minifigure Collectible",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782121953725_xldfgl_HLWPIZ8awAAw_Gr.jpg",
-        "alt": "LEGO-Style Minifigure Collectible",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "K",
-      "url": "https://x.com/ChillaiKalan__"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/ChillaiKalan__/status/2068717001145778630"
-    },
-    "publishedAt": "2026-06-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26436",
-    "contentHash": "05ce66b62925b5384a2e3ede8061cfd2f2a88438"
-  },
-  {
-    "id": "gpt-image-2:26393",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26393",
-    "title": "Custom Figurine on Creator Desk",
-    "category": "E-commerce Main Image",
-    "description": "A realistic studio scene of a matching life-size creator and 1/7 scale collectible figurine displayed on a computer desk with packaging and shelves.",
-    "promptText": "Create a realistic square commercial product-photo scene showing a custom 1/7 scale figurine of {argument name=\"character name\" default=\"a young woman in a black embroidered traditional dress\"} displayed on a white computer desk in a bright collector's studio. The life-size real person stands to the right of the desk, matching the figurine exactly: long dark brown hair in a thick side braid, black ankle-length dress with sheer sleeves, gold embroidered trim, black leggings, black shoes, and dangling earrings; her face is softly privacy-blurred. She holds a thin paintbrush in one hand and a small tool or stylus in the other, posed as if touching up the figurine. The figurine stands centered on a round transparent acrylic base, wearing the same outfit and hairstyle, with a softly blurred face, realistic PVC collectible finish, fine fabric texture, and detailed gold trim. On the desk to the left is a retail figure box with a large front window and printed full-body artwork of the same character, styled like a commercial toy package with small logo blocks and the product name {argument name=\"box product name\" default=\"BASHEEQA DOLL\"}. Behind the figurine is a desktop monitor showing digital character-art software with a full-body reference of the same woman. Include exactly 2 desk art/office objects besides the box, monitor, keyboard, and figurine: a mesh pencil cup filled with pencils and brushes, and a framed illustration leaning near the monitor. The room has white walls, white floating shelves, and a clean pastel collector aesthetic. Count and include exactly 18 visible shelf collectibles/art pieces: on the upper left shelf, 2 tall fashion dolls in pink dresses and 6 small chibi/anime figures; on the upper right wall/shelf area, 2 framed anime-girl prints and 3 small dolls in pastel dresses; on the middle right shelf, 2 small pastel dolls; on the lower right shelf, 2 small dolls with oversized heads; on the bottom right, 1 framed princess-style illustration. Use soft daylight, shallow depth of field, realistic camera perspective, crisp product details, subtle bokeh on background toys, and no extra text beyond the toy-box branding.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "a young woman in a black embroidered traditional dress"
-      },
-      {
-        "name": "box product name",
-        "default": "BASHEEQA DOLL"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782032884325_5c24a1_HLQx_8OacAEAPBO.jpg",
-        "alt": "Custom Figurine on Creator Desk",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Alina Ai",
-      "url": "https://x.com/Alina_with_Ai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Alina_with_Ai/status/2068337764463149345#reversed-0"
-    },
-    "publishedAt": "2026-06-20T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26393",
-    "contentHash": "a3618ea7f3aab48eee56f6476c7695c04530f67a"
-  },
-  {
-    "id": "gpt-image-2:25987",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "25987",
-    "title": "E-commerce Product Infographic",
-    "category": "E-commerce Main Image",
-    "description": "Generates a high-impact promotional infographic for e-commerce, specifically tailored for tech products and accessories.",
-    "promptText": "Create a high-impact e-commerce product infographic featuring \"{argument name=\"product name\" default=\"Apple Pods Pro 3\"}\" {argument name=\"product type\" default=\"wireless earbuds\"}.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "product name",
-        "default": "Apple Pods Pro 3"
-      },
-      {
-        "name": "product type",
-        "default": "wireless earbuds"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1781774847801_ugrgzd_HLBJIxjbsAAU7vO.jpg",
-        "alt": "E-commerce Product Infographic",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "PromptLab",
-      "url": "https://x.com/iamaiistudio"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/iamaiistudio/status/2067232749900169306"
-    },
-    "publishedAt": "2026-06-17T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=25987",
-    "contentHash": "005b8a514582df7cf5f30342f7da33f32a32ef5f"
-  },
-  {
-    "id": "gpt-image-2:26590",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26590",
-    "title": "Retro Pixel Art Profile Picture",
-    "category": "Profile / Avatar",
-    "description": "Transforms a reference photo into a high-quality 16-bit or 32-bit retro pixel art sprite with a solid green background.",
-    "promptText": "Create a square 1:1 profile picture using the {argument name=\"reference\" default=\"uploaded image\"} as the exact reference for the pose, composition, and {argument name=\"art style\" default=\"pixel art style\"}. Recreate the subject as detailed retro pixel art, with large visible pixels, defined stair-stepped edges, strong dark outlines, dramatic pixelated shading, vibrant colors, and a crisp 16-bit/32-bit arcade sprite look. Use only a flat solid {argument name=\"background\" default=\"Pantone 354C green\"} background (#00B140). No gradients, textures, text, logos, extra objects, or photorealism. Keep the raised glove, facial features, framing, and overall style exactly the same as the reference.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "reference",
-        "default": "uploaded image"
-      },
-      {
-        "name": "art style",
-        "default": "pixel art style"
-      },
-      {
-        "name": "background",
-        "default": "Pantone 354C green"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291877517_0sh2b0_HLkFQmwXQAAJblo.jpg",
-        "alt": "Retro Pixel Art Profile Picture",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291877386_m1av8b_HLkFQp6XYAAPM8c.jpg",
-        "alt": "Retro Pixel Art Profile Picture",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Simply Ray",
-      "url": "https://x.com/kingofdairyque"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/kingofdairyque/status/2069691290199949603"
-    },
-    "publishedAt": "2026-06-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26590",
-    "contentHash": "b824adcd32e1c60468e971fa876f88d2973c055c"
-  },
-  {
-    "id": "gpt-image-2:26586",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26586",
-    "title": "Kawaii Monochrome Doodle Transformation",
-    "category": "Profile / Avatar",
-    "description": "Transforms a standard photo into a cute, chibi-style monochrome doodle illustration with a soft aesthetic and playful elements.",
-    "promptText": "Transform the uploaded selfie into a cute monochrome {argument name=\"style\" default=\"kawaii doodle illustration\"} while preserving the exact pose, facial expression, glasses, hijab, clothing details, and camera angle. Convert the person into a {argument name=\"character type\" default=\"chibi-style character\"} with a large expressive head, tiny body, rounded facial features, soft blush cheeks, oversized sparkling eyes behind glasses, and adorable puckered lips. Clean black ink sketch lines on a {argument name=\"background color\" default=\"soft pastel pink background\"}, minimal color palette, hand-drawn manga doodle aesthetic, playful hearts, sparkles, stars, and tiny decorative elements floating around the character. Simple line-art shading, cozy and charming atmosphere, social-media sticker style, notebook sketchbook illustration, cute anime-inspired proportions, whimsical and trendy Pinterest aesthetic. Preserve accessories such as smartwatch, striped shirt, and hijab folds with simplified cartoon details. High-detail linework, smooth outlines, adorable expression, modern kawaii portrait illustration, minimalistic background, clean composition, cute doodle character design.\n\nStyle keywords:\nkawaii doodle art, monochrome sketch illustration, chibi portrait, manga line art, cute pastel pink background, hand-drawn ink drawing, Pinterest aesthetic, adorable sticker art, whimsical cartoon style, anime-inspired doodle, minimal color palette, soft blush details.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "style",
-        "default": "kawaii doodle illustration"
-      },
-      {
-        "name": "character type",
-        "default": "chibi-style character"
-      },
-      {
-        "name": "background color",
-        "default": "soft pastel pink background"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291875101_tvzlf3_HLgwSpSaEAACU5w.jpg",
-        "alt": "Kawaii Monochrome Doodle Transformation",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291875089_0gowcr_HLgwTAZaEAEE6DZ.jpg",
-        "alt": "Kawaii Monochrome Doodle Transformation",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Taaruk",
-      "url": "https://x.com/Taaruk_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Taaruk_/status/2069457152943722678"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26586",
-    "contentHash": "0460c34bffda2fd1723cbeae8f803156d0a234be"
-  },
-  {
-    "id": "gpt-image-2:26599",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26599",
-    "title": "Seaside Sunset Portrait",
-    "category": "Profile / Avatar",
-    "description": "An ultra-realistic iPhone-style photography prompt for a candid male portrait by the seaside at sunset.",
-    "promptText": "Ultra-realistic iPhone photograph taken by the {argument name=\"setting\" default=\"seaside during sunset\"}. A {argument name=\"subject\" default=\"handsome Korean young man\"} is sitting naturally on a large coastal rock, captured from slightly to the side in a waist-up composition. His soft dark hair reaches his ears and gently blows in the ocean breeze, with a few strands falling across his face. He has smooth light warm-toned skin, delicate Korean facial features, straight brows, soft lips, and a calm, peaceful expression with a subtle smile. He is wearing a {argument name=\"clothing\" default=\"relaxed white linen button-up shirt\"} with a few top buttons undone, loose light gray-blue wide-leg trousers, and gray Nike Dunk sneakers. His physique is lean and athletic with broad shoulders and a slim waist. Around his neck is a delicate silver necklace with the letter \"N\" surrounded by small diamonds. The background features a calm gray-blue sea and a glowing golden sunset reflecting softly on the water. He is looking slightly toward the camera instead of directly at it, creating a candid atmosphere. His face is perfectly visible and sharply focused. Natural skin texture, realistic details, soft cinematic lighting, gentle wind movement, authentic iPhone photography aesthetic, ultra-photorealistic, high detail, serene mood, shallow depth of field, editorial lifestyle photography.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "setting",
-        "default": "seaside during sunset"
-      },
-      {
-        "name": "subject",
-        "default": "handsome Korean young man"
-      },
-      {
-        "name": "clothing",
-        "default": "relaxed white linen button-up shirt"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291881038_nyu28y_HLgYwGMa0AIoWNh.jpg",
-        "alt": "Seaside Sunset Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291881053_2d2qc3_HLgYwHDakAAcMhO.jpg",
-        "alt": "Seaside Sunset Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Johnn",
-      "url": "https://x.com/john_my07"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/john_my07/status/2069431260532105539"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26599",
-    "contentHash": "c132f1673712d3dff587576de8dfa4e9f4886a85"
-  },
-  {
-    "id": "gpt-image-2:26594",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26594",
-    "title": "Melancholic Cinematic Portrait",
-    "category": "Profile / Avatar",
-    "description": "A moody and artistic portrait of a woman with warm natural lighting and subtle film grain, capturing a calm and confident expression.",
-    "promptText": "Melancholic cinematic portrait. Young woman, fair skin, light makeup, warm natural lip color, {argument name=\"hair type\" default=\"fluffy deep brown hair\"}, calm confident expression. {argument name=\"top color\" default=\"Wine-red\"} top. Dark minimalist background fading to black. {argument name=\"lighting\" default=\"Soft diffused front lighting\"}, gentle shadows, subtle film grain, organic color grading, shallow depth of field, high-end editing texture. Preserve reference subject's facial features exactly.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair type",
-        "default": "fluffy deep brown hair"
-      },
-      {
-        "name": "top color",
-        "default": "Wine-red"
-      },
-      {
-        "name": "lighting",
-        "default": "Soft diffused front lighting"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291879272_xzp147_HLgMMb0bIAA5sxe.jpg",
-        "alt": "Melancholic Cinematic Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291879280_de4c09_HLgMMb1aYAAAzHf.jpg",
-        "alt": "Melancholic Cinematic Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "PromptLab",
-      "url": "https://x.com/iamaiistudio"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/iamaiistudio/status/2069417578804777175"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26594",
-    "contentHash": "fe9c4a694dd90b46b14aead584cf0641c41413cc"
-  },
-  {
-    "id": "gpt-image-2:26606",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26606",
-    "title": "Authentic Mobile Travel Snapshot",
-    "category": "Profile / Avatar",
-    "description": "Generates a realistic, unpolished smartphone photo of a Japanese woman hiking, capturing a candid social media aesthetic without studio lighting.",
-    "promptText": "{argument name=\"subject\" default=\"Young Japanese woman\"} on a casual hiking trip, standing on a {argument name=\"setting\" default=\"rugged forest trail\"} surrounded by trees, fallen leaves, and natural woodland scenery. Wearing an {argument name=\"outfit\" default=\"oversized black outdoor jacket, loose light-gray hiking pants, white sneakers, and a black backpack\"}, holding a phone and sunglasses in one hand. Hair loosely tied back with soft face-framing strands, relaxed expression, candid travel moment. Captured as a quick smartphone photo by a friend during a walk, natural overcast daylight, handheld Android camera shot, slight motion softness, realistic colors, no professional posing, authentic travel snapshot, everyday outdoor adventure vibe, natural skin texture, unfiltered mobile photography, uneven trail details, realistic shadows, casual social-media post aesthetic, spontaneous and genuine, photorealistic, high-quality phone camera image, no cinematic grading, no studio lighting, no DSLR bokeh, just a real mobile photo taken during a hike.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "Young Japanese woman"
-      },
-      {
-        "name": "setting",
-        "default": "rugged forest trail"
-      },
-      {
-        "name": "outfit",
-        "default": "oversized black outdoor jacket, loose light-gray hiking pants, white sneakers, and a black backpack"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291884453_1qv1aa_HLgAqYJWwAEBET3.jpg",
-        "alt": "Authentic Mobile Travel Snapshot",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291884445_jjr76a_HLgArn6W8AAyuJ5.jpg",
-        "alt": "Authentic Mobile Travel Snapshot",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "𝗦𝗮𝗻𝗶𝗮",
-      "url": "https://x.com/saniaspeaks_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/saniaspeaks_/status/2069405873815138358"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26606",
-    "contentHash": "6bdf7065430c14ed8c46e6341633009ceee711a8"
-  },
-  {
-    "id": "gpt-image-2:26603",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26603",
-    "title": "Battle-Hardened Veteran Portrait",
-    "category": "Profile / Avatar",
-    "description": "An illustration prompt focused on creating a grizzled, experienced middle-aged man with a non-conformist vibe.",
-    "promptText": "{argument name=\"vibe\" default=\"feeling of a battle-hardened veteran\"}, {argument name=\"character\" default=\"good middle-aged man vibe\"}, {argument name=\"slogan\" default=\"Be a heretic\"}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "vibe",
-        "default": "feeling of a battle-hardened veteran"
-      },
-      {
-        "name": "character",
-        "default": "good middle-aged man vibe"
-      },
-      {
-        "name": "slogan",
-        "default": "Be a heretic"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291883266_pwvkrr_HLff7wNaUAAPbde.jpg",
-        "alt": "Battle-Hardened Veteran Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "空想製作所/AI４コマ漫画",
-      "url": "https://x.com/kuso_seisakusyo"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/kuso_seisakusyo/status/2069382462090674521"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26603",
-    "contentHash": "8529ffb72e7c9526d0f6c02f79fcc6fcf9361bb8"
-  },
-  {
-    "id": "gpt-image-2:26618",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26618",
-    "title": "Low-Poly Geometric Male Portrait",
-    "category": "Profile / Avatar",
-    "description": "A style-transfer prompt that transforms a reference photo into a geometric low-poly illustration, maintaining facial likeness while applying a faceted polygon artistic style.",
-    "promptText": "Using the attached photo as facial reference, recreate the likeness in the following style\n\n{argument name=\"style\" default=\"Geometric low-poly portrait illustration\"}, faceted polygon artistic style, bust portrait of a {argument name=\"subject\" default=\"male athlete\"}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "style",
-        "default": "Geometric low-poly portrait illustration"
-      },
-      {
-        "name": "subject",
-        "default": "male athlete"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291892179_ph6l5h_HLfivjOXYAATSTv.jpg",
-        "alt": "Low-Poly Geometric Male Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291892166_t6kh5k_HLfivjWW4AAK2pH.jpg",
-        "alt": "Low-Poly Geometric Male Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291892123_b46y8w_HLfivjHWcAA5cF3.jpg",
-        "alt": "Low-Poly Geometric Male Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291892830_qqbgau_HLfivjdWIAASazZ.jpg",
-        "alt": "Low-Poly Geometric Male Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "lovimg_com",
-      "url": "https://x.com/lovimg_com"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/lovimg_com/status/2069371871460569415"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26618",
-    "contentHash": "c8da5511279b7c4bf585682ac6299c94872ed12a"
   }
 ]
