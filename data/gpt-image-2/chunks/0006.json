@@ -1,5 +1,194 @@
 [
   {
+    "id": "gpt-image-2:32451",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32451",
+    "title": "Hand-Drawn Cardigan Portrait",
+    "category": "Profile / Avatar",
+    "description": "A soft, dreamy hand-drawn colored pencil illustration of a young woman with a warm smile, wearing a knit cardigan and lace dress.",
+    "promptText": "Half-body portrait of a {argument name=\"subject\" default=\"beautiful young woman with long wavy dark brown hair\"} styled in a single loose braid draped over one shoulder, adorned with small bright yellow flowers woven into the braid; soft wispy strands frame her face and drift gently. She has large pale blue-green eyes, soft natural pink lips with a gentle warm smile, and delicate fair skin with a subtle blush. She wears a {argument name=\"outfit\" default=\"white lace-trimmed camisole dress with fine ruffled details, layered under an oversized soft lime-green knit cardigan\"}. Her right hand reaches forward toward the viewer with palm open, as if inviting you to take her hand. Plain soft cream-white background. Style: {argument name=\"art style\" default=\"hand-drawn colored pencil illustration with visible fine strokes\"}, soft luminous natural lighting, warm gentle tones, delicate texture on hair and fabric, dreamy tender atmosphere, high detail.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "beautiful young woman with long wavy dark brown hair"
+      },
+      {
+        "name": "outfit",
+        "default": "white lace-trimmed camisole dress with fine ruffled details, layered under an oversized soft lime-green knit cardigan"
+      },
+      {
+        "name": "art style",
+        "default": "hand-drawn colored pencil illustration with visible fine strokes"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787559649173_rek9my_HQX1dwxboAAQgyH.jpg",
+        "alt": "Hand-Drawn Cardigan Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Hania Ai",
+      "url": "https://x.com/HaniaAi12"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/HaniaAi12/status/2091347506366120364"
+    },
+    "publishedAt": "2026-08-23T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32451",
+    "contentHash": "784798ce23cdc81c0eb4785d6a72c8bc4dc0b021"
+  },
+  {
+    "id": "gpt-image-2:32328",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32328",
+    "title": "Identity Swap Image Recreation",
+    "category": "Profile / Avatar",
+    "description": "A technical prompt designed for GPT Image 2 to swap a person's identity while strictly preserving the base image's composition, lighting, and raw smartphone aesthetic.",
+    "promptText": "Image editing task. Use Image 1 as the base image. Reproduce the same scene, pose, camera angle, framing, lighting, outfit style and background. Change only the {argument name=\"person identity\" default=\"person identity\"} to match the attached AI model reference images. Keep the same body orientation, hand position, facial direction and composition. Preserve the {argument name=\"aesthetic\" default=\"raw phone-photo look\"}: slight motion blur, JPEG compression, sensor noise, imperfect crop, real shadows, uneven indoor light and natural skin texture. Do not make it look like a studio render.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "person identity",
+        "default": "person identity"
+      },
+      {
+        "name": "aesthetic",
+        "default": "raw phone-photo look"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787559642920_zeow61_HQXYIBlbkAArgNU.jpg",
+        "alt": "Identity Swap Image Recreation",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Tobias Fendt",
+      "url": "https://x.com/tobiasfendt_"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/tobiasfendt_/status/2091315236817301938"
+    },
+    "publishedAt": "2026-08-23T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32328",
+    "contentHash": "8f44a56fad66247beec5b199bc40d56e31fb6fb6"
+  },
+  {
+    "id": "gpt-image-2:32495",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32495",
+    "title": "Backlit Sunrise Couple Picnic",
+    "category": "Social Media Post",
+    "description": "A cinematic golden-hour couple picnic photo with misty mountain scenery, handwritten props, and an intimate candid travel mood.",
+    "promptText": "Create a warm, cinematic lifestyle photograph of a young couple having a quiet sunrise picnic on a hillside overlook. The scene is backlit by a low golden sun in the upper right, with blown-out highlights, soft haze, misty valleys and distant mountains in the background, and a large leafy tree canopy framing the top and left side in dark silhouette. The mood should feel candid, intimate, unpolished, and natural, like a real travel photo shot on a digital camera with soft filmic color grading.\n\nSubjects: Two people. A young woman with {argument name=\"hair color\" default=\"long dark brown hair\"} sits upright on a beige picnic blanket, slightly left of center, wearing a sheer off-white long-sleeve cropped blouse and a white textured skirt. She gazes softly off to the left of the camera with a calm, dreamy expression. A young man with tousled dark hair reclines beside her with his head resting against her lap and torso angled toward the camera, wearing a dark black T-shirt and dark pants. He looks up at her affectionately while holding one gray ceramic mug in his right hand. The woman’s hand rests gently near his hair.\n\nForeground picnic setup: Include exactly 14 visible prop groups: 1 beige blanket spread across the ground, 1 light pillow at far left, 1 open sketchbook or magazine near the woman’s left hand, 1 black camera at the lower left edge, 1 plate of fruit with green grapes and small oranges in front of the couple, 1 black notebook labeled {argument name=\"notebook text\" default=\"Lam & Ty / HELLO JOURNEY\"}, 1 pale book or folder at the bottom left labeled {argument name=\"book title\" default=\"THE PATTERN\"}, 1 small glass candle near the bottom center, 1 small corked glass bottle beside it, 1 wooden breakfast tray in the lower right, 1 open handwritten journal on the tray, 1 pen laid diagonally across the journal, 1 second gray ceramic mug on the tray, and 1 open laptop at the far lower right.\n\nSign text: Place a small framed white sign leaning beside the laptop. It must read exactly: {argument name=\"sign text\" default=\"TODAY:\\n- WORK A LITTLE\\n- CREATE A LITTLE\\n- LOVE A LOT\\n♡\"}. Keep the lettering casual and handwritten.\n\nLighting and camera: Vertical 4:5 composition, eye-level to slightly low angle, shallow depth of field, realistic skin texture, soft lens flare, golden-orange sunrise tones, strong backlight and haze, natural shadows on the subjects’ faces, no studio polish, no artificial perfection, no extra people, no city buildings, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "long dark brown hair"
+      },
+      {
+        "name": "notebook text",
+        "default": "Lam & Ty / HELLO JOURNEY"
+      },
+      {
+        "name": "book title",
+        "default": "THE PATTERN"
+      },
+      {
+        "name": "sign text",
+        "default": "TODAY:\\n- WORK A LITTLE\\n- CREATE A LITTLE\\n- LOVE A LOT\\n♡"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787559685839_s4gg94_HQeB5S_a0AAmMbK.jpg",
+        "alt": "Backlit Sunrise Couple Picnic",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787559685950_42jaj8_HQeB5zobMAAT43M.jpg",
+        "alt": "Backlit Sunrise Couple Picnic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Ty ⟪ λ ⇆ τ/Δφ→0 ⟫",
+      "url": "https://x.com/PinkSilkPham"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/PinkSilkPham/status/2091783391226318945#reversed-0"
+    },
+    "publishedAt": "2026-08-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32495",
+    "contentHash": "8f72d93eb674279c0e2da568c9074abef4fe25a8"
+  },
+  {
+    "id": "gpt-image-2:32417",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32417",
+    "title": "Cinematic Night Café Portrait",
+    "category": "Social Media Post",
+    "description": "A warm and moody cinematic portrait prompt of a woman at a cozy night café, shot on 35mm film with soft bokeh lighting.",
+    "promptText": "A candid, cinematic portrait of a {argument name=\"subject\" default=\"young South Asian woman\"} sitting outdoors at a {argument name=\"location\" default=\"cozy café at night\"}. She has long, natural dark brown hair with soft highlights, wearing a {argument name=\"outfit\" default=\"comfortable black oversized knit sweater\"} and a subtle delicate pendant necklace. She is looking off to the side with a soft, gentle smile, holding a black takeaway coffee cup with both hands on the wooden table. The background features warm ambient string lights, hanging lamps, lush green foliage, and pink bougainvillea flowers, creating a soft bokeh effect. Cozy aesthetic, moody warm lighting, shot on 35mm film, high detail, photorealistic, 8k resolution.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "young South Asian woman"
+      },
+      {
+        "name": "location",
+        "default": "cozy café at night"
+      },
+      {
+        "name": "outfit",
+        "default": "comfortable black oversized knit sweater"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787559615085_mjolqt_HQdQ8KkXoAELP_F.jpg",
+        "alt": "Cinematic Night Café Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Julia",
+      "url": "https://x.com/juliaevee"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/juliaevee/status/2091729566033228281"
+    },
+    "publishedAt": "2026-08-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32417",
+    "contentHash": "c13514975adb48c8d0b9281a6f1a56dc149704a4"
+  },
+  {
     "id": "gpt-image-2:32460",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6759,203 +6948,5 @@
     "publishedAt": "2026-08-21T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32235",
     "contentHash": "573b92435cc09cc4e96c65b57bc1be94e9c960db"
-  },
-  {
-    "id": "gpt-image-2:32285",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32285",
-    "title": "Autumn Female Samurai Portrait",
-    "category": "Product Marketing",
-    "description": "A cinematic prompt for generating an ornate female samurai warrior in a red maple temple garden with detailed armor, kimono patterns, and dramatic lighting.",
-    "promptText": "Create a cinematic full-body portrait of a {argument name=\"character description\" default=\"young Japanese female samurai warrior\"} standing in a misty autumn temple garden. She wears an ornate black and deep crimson patterned kimono integrated with layered samurai armor: lacquered red shoulder plates, segmented waist and thigh guards, black leather bracers, gold floral embroidery, brocade fabric, and a dark obi belt. She holds one katana at her side with the hilt near her hand, and a second sheathed sword is visible at her waist; include exactly 2 swords. Her pose is calm and powerful, body angled slightly sideways, head turned toward the viewer with a serious, elegant expression. She has long dark hair loosely tied back with windblown strands around her face. Add a wide woven straw kasa hat with dangling red tassels and small gold ornaments; include exactly 4 prominent tassel clusters hanging from the brim. The background shows a softly blurred Japanese pagoda on the left, stone steps below, a massive dark tree trunk on the right, and dense red maple foliage overhead. Add scattered falling red maple leaves, atmospheric haze, shallow depth of field, dramatic rim light, soft backlighting through the trees, realistic skin, intricate textile detail, and a moody red-black-gold color palette. Style: ultra-detailed photorealistic fantasy fashion editorial, cinematic composition, vertical 3:4 frame, high dynamic range, natural lens bokeh, no text, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character description",
-        "default": "young Japanese female samurai warrior"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787386276597_e23alk_HQQYct8agAAFj-q.jpg",
-        "alt": "Autumn Female Samurai Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "David",
-      "url": "https://x.com/tealdog2"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/tealdog2/status/2090823158173675859#reversed-0"
-    },
-    "publishedAt": "2026-08-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32285",
-    "contentHash": "ad1ed9d3d4201323ef969542fabfc10c64cad51d"
-  },
-  {
-    "id": "gpt-image-2:32203",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32203",
-    "title": "Luxury Asian Fashion Boulevard Photography",
-    "category": "Product Marketing",
-    "description": "A prompt for a premium fashion campaign photograph of a young Asian woman on an elegant European boulevard during golden hour.",
-    "promptText": "A photorealistic luxury fashion editorial featuring a young {argument name=\"ethnicity\" default=\"Asian\"} woman in her early 20s, wearing her naturally brown hair in a relaxed, slightly undone low bun with a few wispy strands falling around her cheeks. She looks warmly toward the camera with a subtle, effortless smile, holding a modern smartphone while a refined designer mini handbag hangs naturally from her shoulder. Her outfit consists of a {argument name=\"outfit\" default=\"fitted powder-blue ribbed camisole\"} and a fine silver pendant necklace for a clean, understated aesthetic. She stands along an elegant European boulevard lined with historic stone façades, softly illuminated by {argument name=\"lighting\" default=\"late-afternoon sunlight\"}. Warm golden-hour rays create a refined glow across her face and hair, with realistic skin translucency, fine pores, natural complexion details, and delicate highlights. Captured as a premium fashion campaign photograph using an 85mm portrait lens at f/1.8, with creamy background bokeh, strong subject separation, cinematic tonal depth, natural proportions, and exceptional photographic realism. Ultra-detailed, sophisticated, high-end editorial photography, 8K quality.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "ethnicity",
-        "default": "Asian"
-      },
-      {
-        "name": "outfit",
-        "default": "fitted powder-blue ribbed camisole"
-      },
-      {
-        "name": "lighting",
-        "default": "late-afternoon sunlight"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787386194764_uj2ek4_HQQE-s-aIAEDpwJ.jpg",
-        "alt": "Luxury Asian Fashion Boulevard Photography",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Jack",
-      "url": "https://x.com/j_smeaton99"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/j_smeaton99/status/2090801610012369268"
-    },
-    "publishedAt": "2026-08-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32203",
-    "contentHash": "031b7f6544f35a39311ad1d639706486086ad4ce"
-  },
-  {
-    "id": "gpt-image-2:32238",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32238",
-    "title": "Enamel Travel Magnet Poster Design",
-    "category": "Product Marketing",
-    "description": "A unique prompt that transforms a standard photograph into a dual-layered art poster, featuring a stylized enamel travel magnet or badge version of the subject.",
-    "promptText": "Please transform each photo I upload into a standalone high-end travel design poster, one poster per photo. The overall composition should be a {argument name=\"composition ratio\" default=\"3:4 vertical layout\"}, divided into two sections of equal height, each occupying 50% of the frame.\n\nThe top half retains the original photo, preserving the subject's structure, authentic texture, natural light, and original color mood, with subtle high-end photographic color grading for a travel photography or art postcard quality. Backgrounds can be naturally extended to fit the frame, but the subject must not be distorted.\n\nThe bottom half extracts the most recognizable subject, silhouette, and posture to reconstruct it as a sophisticated {argument name=\"ornament style\" default=\"gilt enamel travel magnet / metal badge\"}. Distill the most memorable contours and features using simple geometric partitions and enamel color blocks that remain clearly identifiable as the subject above.\n\nThe badge should feature realistic enamel coloring with metal divider lines and a crisp white metal outline, showing moderate thickness and subtle reflections. The surface should be smooth and full, retaining a slight texture and authentic craftsmanship feel with soft 3D shadows. Colors should be derived from the most vibrant tones in the photo, set against a {argument name=\"background base color\" default=\"creamy white, light gray, or soft pastel\"} background with ample negative space.\n\nTypography should be integrated as part of the badge design, using short English titles derived from the location or subject, arranged along edges or within the metal framework. The final result should look like high-end travel merchandise with a blend of real photography and physical badge aesthetics.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "composition ratio",
-        "default": "3:4 vertical layout"
-      },
-      {
-        "name": "ornament style",
-        "default": "gilt enamel travel magnet / metal badge"
-      },
-      {
-        "name": "background base color",
-        "default": "creamy white, light gray, or soft pastel"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787386222894_rqnzfv_HQQBa-ZaEAAyqXA.jpg",
-        "alt": "Enamel Travel Magnet Poster Design",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787386222856_ymy9pp_HQQBcRabMAAdWhc.jpg",
-        "alt": "Enamel Travel Magnet Poster Design",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787386222859_wqi6vv_HQQBfh8acAAcJxK.jpg",
-        "alt": "Enamel Travel Magnet Poster Design",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787386224261_2pntk4_HQQB8g3bkAAABuH.jpg",
-        "alt": "Enamel Travel Magnet Poster Design",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "小小东",
-      "url": "https://x.com/xiaoxiaodong01"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/xiaoxiaodong01/status/2090799598336168140"
-    },
-    "publishedAt": "2026-08-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32238",
-    "contentHash": "4cea2bf266538b2f965ef9c363d557016f91da25"
-  },
-  {
-    "id": "gpt-image-2:32278",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32278",
-    "title": "Porcelain Court Painter",
-    "category": "Product Marketing",
-    "description": "A surreal editorial portrait of a porcelain-like veiled painter creating a sumi-e ink landscape, useful for fine-art fashion or fantasy character imagery.",
-    "promptText": "Create a vertical fine-art surreal fashion portrait of {argument name=\"character name\" default=\"an ethereal porcelain-faced court painter\"} leaning in from the right toward a hanging linen canvas. The figure has a smooth white mask-like face, narrow pale eyes, small muted peach lips, delicate ears, and visible cracked gold kintsugi seams across the cheek, neck, and hand. Dress the figure in translucent layered cream-white gauze robes with ruffled texture and tiny gold glitter speckles, plus a sheer veil sweeping dramatically from the head across the upper right of the frame. Add a dark traditional black headpiece or cap under the veil. The figure holds one long black calligraphy brush in one hand, touching the lower-left area of the canvas as if painting an ink landscape. The canvas on the left is tan raw linen with a black sumi-e style scene: bamboo stalks and leaves, rugged rocks, dark ink washes, and an unfinished brushy mountain-like composition. Include a small white ceramic ink vessel at the bottom left and a dark carved wooden table edge beneath it. Use a warm sepia and ivory palette, chiaroscuro lighting from the front-left, deep brown shadow background on the right, soft dust and glitter particles in the veil, hyper-detailed textures of linen, porcelain, gold cracks, sheer fabric, and wet black ink. Composition should be intimate and theatrical, 3/4 view, subject’s face in profile angled downward, elegant, haunting, museum-quality editorial photography mixed with classical East Asian ink painting aesthetics. No modern objects, no visible text, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "an ethereal porcelain-faced court painter"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787386267208_bkdrqj_HQMhBpQW8AQjLGW.jpg",
-        "alt": "Porcelain Court Painter",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787386267045_7qck5g_HQMhEwLWMAIeuru.jpg",
-        "alt": "Porcelain Court Painter",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787386268075_2z2bdx_HQMhIKWXsAAphOa.jpg",
-        "alt": "Porcelain Court Painter",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787386270597_wdsr13_HQMhLaXWkAAHxsI.jpg",
-        "alt": "Porcelain Court Painter",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "NARI (나리)",
-      "url": "https://x.com/Benny_Lava_007"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Benny_Lava_007/status/2090773410569978253#reversed-0"
-    },
-    "publishedAt": "2026-08-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32278",
-    "contentHash": "bf5698206e5144f26f476f51787ba7411fbc3681"
   }
 ]
