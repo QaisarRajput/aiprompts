@@ -1,5 +1,424 @@
 [
   {
+    "id": "gpt-image-2:27258",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27258",
+    "title": "Stylized Anime Color Grading",
+    "category": "Comic / Storyboard",
+    "description": "A technical prompt for applying limited-palette color grading to existing images, creating a flat anime aesthetic with cool purple and blue tones while preserving lighting details.",
+    "promptText": "Without changing the shape of the original image, apply {argument name=\"effect\" default=\"limited color color grading\"}. {argument name=\"style\" default=\"Flat anime style\"}.\nDo not keep the original skin, black, hair, clothing, or background colors; unify the entire image into {argument name=\"color tone\" default=\"light blue and purple\"} tones.\nDo not turn it into line art, white outlines, or simple two-color printing; preserve the light and dark, shadows, and three-dimensionality of the original image.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "effect",
+        "default": "limited color color grading"
+      },
+      {
+        "name": "style",
+        "default": "Flat anime style"
+      },
+      {
+        "name": "color tone",
+        "default": "light blue and purple"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782896954580_65cpk1_HMDN6lkXsAAZQ4v.jpg",
+        "alt": "Stylized Anime Color Grading",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "咲山(AIイラスト・AI動画垢)",
+      "url": "https://x.com/z933TfmXkaISSVc"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/z933TfmXkaISSVc/status/2071882244130836677"
+    },
+    "publishedAt": "2026-06-30T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27258",
+    "contentHash": "3d8cfd3f51e9fe7285c8ecfa5708c36e59cb4f4c"
+  },
+  {
+    "id": "gpt-image-2:27274",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27274",
+    "title": "Silver-Haired Battle Maid",
+    "category": "Comic / Storyboard",
+    "description": "A cinematic dark fantasy anime illustration prompt for generating a silver-haired armored maid charging with a giant mechanical lance in a ruined gothic battlefield.",
+    "promptText": "Create a dramatic vertical anime-style dark fantasy action illustration of a {argument name=\"character type\" default=\"silver-haired battle maid\"} charging directly toward the viewer through a ruined gothic city. Use an extreme low-angle, dynamic foreshortened perspective: her enormous mechanical lance/cannon dominates the foreground from the lower left, pointing outward, with complex metal barrels, armor plating, vents, glowing heat seams, smoke, and sparks. The character has long wind-swept {argument name=\"hair color\" default=\"silver-gray\"} hair, pale skin, sharp golden eyes, a focused serious expression, and a frilled maid headdress. She wears a black-and-white Victorian maid dress fused with battle armor: puff sleeves, white apron, layered torn skirt, corset-like bodice, armored gauntlets, thigh armor, knee guards, and heavy boots. In her other hand she carries one large round metal shield on the right side of the composition. The background is a devastated cathedral-like urban battlefield with towering broken arches, jagged spires, shattered walls, drifting ash, explosions, steam clouds, wet reflective cobblestones, and orange embers cutting through a mostly monochrome gray palette. Emphasize motion, debris, smoke trails, splashing dust, and cinematic impact. Style should feel like highly detailed Japanese concept art with painterly brushwork, intricate mechanical design, gritty textures, muted charcoal grays, bright white smoke, small orange spark highlights, and no text or watermark. Use a {argument name=\"aspect ratio\" default=\"vertical 2:3\"} composition, high detail, dramatic lighting, atmospheric depth, and intense battlefield energy.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character type",
+        "default": "silver-haired battle maid"
+      },
+      {
+        "name": "hair color",
+        "default": "silver-gray"
+      },
+      {
+        "name": "aspect ratio",
+        "default": "vertical 2:3"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782896964563_dd12ah_HL_P6qZbIAA-voj.jpg",
+        "alt": "Silver-Haired Battle Maid",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "空想製作所/AI４コマ漫画",
+      "url": "https://x.com/kuso_seisakusyo"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/kuso_seisakusyo/status/2071868843270742498#reversed-0"
+    },
+    "publishedAt": "2026-06-30T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27274",
+    "contentHash": "c00f65b998f13a86103e2a85fd47b6735dedd92a"
+  },
+  {
+    "id": "gpt-image-2:27278",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27278",
+    "title": "Gothic Demon Lord Couture",
+    "category": "Comic / Storyboard",
+    "description": "Generates a vertical dark fantasy anime portrait of a winged demon lord in elaborate gothic couture inside a purple-lit cathedral.",
+    "promptText": "Create a dramatic full-body dark fantasy anime illustration of {argument name=\"character name\" default=\"Valt\"}, an androgynous male demon lord standing in a vast gothic cathedral at night. Use a low-angle heroic perspective so he towers over the viewer, centered and slightly leaning forward with a confident, cool expression. He has {argument name=\"hair color\" default=\"short tousled silver-white hair\"}, tan skin, sharp eyes, pointed elf-like ears, a strong jaw, and a muscular yet elegant build. Add two enormous black batlike demon wings spread behind him, framing the stained-glass windows. Dress him in an extravagant black gothic couture outfit: glossy black leather corset bodice with many buckles, plunging neckline, spiked high collar, puffed sleeves with lace cuffs, layered ruffled black skirt and cape train with deep burgundy lace lining, thigh-high patent leather platform stiletto boots, lace-up panels, belts, straps, studs, and metal buckles. Cover the outfit with numerous dangling silver chains and exactly 13 visible purple gemstone ornaments: four heart-shaped pendants across the torso and upper skirt, three heart-shaped pendants hanging from the left side chains, three round jewel pendants on the right side chains, and three faceted crystal drops near the lower chains. The setting is an ornate cathedral interior with towering pointed arches, chandeliers, glowing purple stained-glass windows, violet candlelight, reflective black marble floor, scattered rose petals, and sparkling magical particles. Use a palette of black, silver, violet, magenta, and deep burgundy. Lighting should be cinematic and high contrast, with purple rim light, glossy reflections, intricate fabric texture, highly detailed lace, metal chains, jewels, and polished boots. Make the composition vertical {argument name=\"aspect ratio\" default=\"2:3\"}, ultra-detailed, elegant, sensual but regal, intimidating and beautiful, with no text and no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "Valt"
+      },
+      {
+        "name": "hair color",
+        "default": "short tousled silver-white hair"
+      },
+      {
+        "name": "aspect ratio",
+        "default": "2:3"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782896966122_9ld9kw_HMCrDTWXoAASDVa.jpg",
+        "alt": "Gothic Demon Lord Couture",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ハスノ＠核心ぶち抜きヒーラー／天空図書館夫婦",
+      "url": "https://x.com/00_hasu_00"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/00_hasu_00/status/2071844347545567649#reversed-0"
+    },
+    "publishedAt": "2026-06-30T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27278",
+    "contentHash": "4616009a3659fec590d00df6c37425d1fd1ae3cc"
+  },
+  {
+    "id": "gpt-image-2:27238",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27238",
+    "title": "Stylized Pop Art Vector Portrait",
+    "category": "Comic / Storyboard",
+    "description": "A high-contrast digital illustration of a young man with headphones, blending modern pop art with a cinematic graphic novel aesthetic.",
+    "promptText": "Subject & Composition: A stylized, low-angle portrait of {argument name=\"subject\" default=\"a young man\"} looking upward with a serene expression. He is wearing large over-ear headphones and a textured {argument name=\"headwear\" default=\"red beanie\"}. The composition is a close-up, focusing on he profile and neck, shot with a cinematic perspective. Artistic Style: A blend of modern pop art and digital vector illustration. The image uses bold, high-contrast shadows and clean linework.The shading is rendered in a \"cel-shaded\" or posterized style with distinct color blocks rather than smooth gradients. Color Palette: A striking limited color scheme featuring deep blacks, muted greys, vibrant red, and a specific {argument name=\"accent color\" default=\"teal/mint green\"} accent. The background is a flat, neutral off-white with subtle, thin geometric sketch lines. Details & Texture: The woman’s jacket and beanie feature expressive, painterly strokes of red and teal.The headphones have a glossy, metallic finish with realistic reflections. Her skin is rendered in shades of grey and teal highlights to emphasize the dramatic lighting coming from above. Atmosphere: Urban, artistic, and melancholic, reminiscent of high-end graphic novel cover art or a modern street-art mural. Aspect ratio is 9:16",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "a young man"
+      },
+      {
+        "name": "headwear",
+        "default": "red beanie"
+      },
+      {
+        "name": "accent color",
+        "default": "teal/mint green"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782896944126_vcx4xp_HMCVhD9XYAA94zz.jpg",
+        "alt": "Stylized Pop Art Vector Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Karlos",
+      "url": "https://x.com/de_mon010"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/de_mon010/status/2071820248739979732"
+    },
+    "publishedAt": "2026-06-30T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27238",
+    "contentHash": "6f2af09b884e7819c563f9b8eb446bbe8a5faf06"
+  },
+  {
+    "id": "gpt-image-2:27276",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27276",
+    "title": "Rabbit-Eared Swordswoman in Ruined Cathedral",
+    "category": "Comic / Storyboard",
+    "description": "A cinematic anime dark-fantasy prompt for generating a battle-worn rabbit-eared warrior with a glowing cyan katana in a gothic cathedral.",
+    "promptText": "Create a dramatic vertical anime dark-fantasy action illustration of {argument name=\"character name\" default=\"a battle-worn rabbit-eared swordswoman\"} lunging toward the viewer inside a ruined gothic cathedral. She has very long flowing {argument name=\"hair color\" default=\"silver-white hair\"}, tall rabbit ears, a frilled maid-like battle dress in torn black and white fabric, bandaged and armored forearms, a mechanical gauntlet and chained gear details at her waist. Her expression is cold and focused, partly shadowed by messy bangs. The composition is extremely dynamic from a low, close perspective: one arm thrusts forward holding a huge curved katana sweeping diagonally across the foreground from lower left to lower right, with the blade occupying much of the bottom half of the image. The sword edge glows with bright cyan-blue energy, covered in luminous arcane crackle patterns and misty light, with tiny blue sparks floating around it. Behind her, show high cathedral arches, broken stone columns, tall stained-glass-like windows, smoke, dust, and shafts of pale light cutting through a dark grey interior. Use a monochrome charcoal, black, white, and muted violet palette contrasted by vivid cyan glow. Style should be highly detailed Japanese anime concept art, painterly but sharp, intricate linework, cinematic lighting, motion blur on the blade, wind-blown hair ribbons and fabric, intense foreshortening, gritty battle damage, no text, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "a battle-worn rabbit-eared swordswoman"
+      },
+      {
+        "name": "hair color",
+        "default": "silver-white hair"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782896965246_4im9cy_HL_OnRUaAAAQ_HP.jpg",
+        "alt": "Rabbit-Eared Swordswoman in Ruined Cathedral",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "空想製作所/AI４コマ漫画",
+      "url": "https://x.com/kuso_seisakusyo"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/kuso_seisakusyo/status/2071793345207378242#reversed-0"
+    },
+    "publishedAt": "2026-06-30T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27276",
+    "contentHash": "211a78c6bf393056a8fab0126ef993a866b2464e"
+  },
+  {
+    "id": "gpt-image-2:27227",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27227",
+    "title": "Masked Winter Lamplighter in Fantasy Alley",
+    "category": "Comic / Storyboard",
+    "description": "Generates a cinematic fantasy concept-art scene of a masked bear-like lamplighter standing beside a glowing bakery on a rainy old-world street.",
+    "promptText": "Create a cinematic fantasy street illustration in a richly detailed hand-painted anime concept-art style. A tall anthropomorphic bear-like wanderer named {argument name=\"character name\" default=\"the masked winter lamplighter\"} stands full-body in the foreground on a wet cobblestone alley at night, facing slightly left while looking forward. The character wears a bulky patched {argument name=\"coat color\" default=\"purple\"} long winter coat with a white fur collar, dark blue layered clothing, belts and straps across the torso, heavy gloves, baggy pants, and rugged boots. The head is a fluffy white bear hood or mask with small rounded ears, black eyes, tiny orange cheek dots, and a prominent orange circular respirator-like muzzle; below it is a mechanical mouthpiece with exactly 6 visible blue-glass circular lenses or valves arranged on the chest/mask area. Add exactly 2 round insignia patches on the upper front of the coat, one on each side, plus several worn tan repair patches and scuffed seams. The character holds exactly 1 ornate black staff-lantern in the right hand, topped with a pagoda-shaped metal lantern glowing warm amber. The setting is a narrow old European-fantasy market street with crooked timber-and-stone buildings, cool blue shadows, and warm golden shop lighting. On the right, place exactly 1 bakery display window glowing intensely, filled with visible bread and pastries, hanging glass lamps, and a wooden counter; include a loose shop sign with stylized unreadable lettering above the window. On the left background, show exactly 2 distant hooded pedestrians walking away, exactly 1 small storefront sign, and exactly 2 warmly lit upper windows. Use dramatic contrast between cold moonlit blues and warm amber light, wet reflective cobblestones, intricate ink-like linework, painterly textures, slightly exaggerated proportions, high detail, no modern objects, no readable text, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "the masked winter lamplighter"
+      },
+      {
+        "name": "coat color",
+        "default": "purple"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782810274909_z54v1v_HMATRhoboAAYTmU.jpg",
+        "alt": "Masked Winter Lamplighter in Fantasy Alley",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Aiden Vu",
+      "url": "https://x.com/byaiden_vu"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/byaiden_vu/status/2071677871702372545#reversed-0"
+    },
+    "publishedAt": "2026-06-29T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27227",
+    "contentHash": "df335ffbbceedc448dfbbc4be0577ec9bf9e463c"
+  },
+  {
+    "id": "gpt-image-2:27199",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27199",
+    "title": "Lonely Night Railway Crossing Attendant",
+    "category": "Comic / Storyboard",
+    "description": "A cinematic analog-style night scene of a schoolgirl seated by a rural railroad crossing, useful for atmospheric AI art generation.",
+    "promptText": "Create a moody cinematic night photograph of {argument name=\"character name\" default=\"a quiet teenage railway crossing attendant\"} sitting alone on a simple wooden chair beside a rural railroad crossing. The scene is square format, shot with soft on-camera flash and dark blue-purple dusk tones, with subtle film grain and a slightly faded analog look. The subject is one young East Asian girl with short dark hair, a calm unsmiling expression, wearing {argument name=\"outfit\" default=\"a white short-sleeve blouse, dark pleated skirt, white socks, and black loafers\"}; she sits in profile angled slightly toward the camera with her hands resting on her lap and legs together. Include exactly 6 prominent discrete roadside elements: 1 tall orange pole with a round convex traffic mirror reflecting a dark narrow road and distant headlights, 1 short white post with a small round sign or lamp, 1 wooden chair, 1 railroad crossing signal pole with a crossbuck, 2 circular signal lights with one glowing red, and 1 lowered black-and-yellow striped barrier stretching across the road at the right. Place the girl slightly right of center, the mirror high on the left, the crossing signal in the mid-background, and an empty wet-looking road receding into darkness on the right. The background should be rural and sparse, with low grass, weeds, guardrails, distant tree silhouettes, and a heavy night sky. Use realistic proportions, quiet suspenseful atmosphere, muted colors, shallow flash-lit foreground, and no visible text, watermark, or extra people.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "a quiet teenage railway crossing attendant"
+      },
+      {
+        "name": "outfit",
+        "default": "a white short-sleeve blouse, dark pleated skirt, white socks, and black loafers"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782810257162_2j0tf0_HL_XnsmaIAAKk_W.jpg",
+        "alt": "Lonely Night Railway Crossing Attendant",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "シオナイ",
+      "url": "https://x.com/sion41754400"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/sion41754400/status/2071611490222969189#reversed-0"
+    },
+    "publishedAt": "2026-06-29T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27199",
+    "contentHash": "293e27312a6ea1525efa9de950046089908a7cd4"
+  },
+  {
+    "id": "gpt-image-2:27192",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27192",
+    "title": "Gothic Blossom Anime Portrait",
+    "category": "Comic / Storyboard",
+    "description": "Generates a vertical fantasy anime portrait of an elegant gothic woman surrounded by pink blossoms for character art or decorative illustration.",
+    "promptText": "Create a vertical 2:3 ultra-detailed fantasy anime portrait of {argument name=\"character name\" default=\"an ethereal young woman\"} in a blooming enchanted garden. She has {argument name=\"hair color\" default=\"long platinum-blonde hair\"} with soft bangs, pale luminous skin, large delicate blue eyes, and a calm slightly melancholic expression, posed three-quarter view while sitting among flowers with one hand raised near her cheek and the other resting low in the foreground. Dress her in an ornate {argument name=\"dress color\" default=\"black\"} gothic couture gown made of transparent lace, embroidered floral mesh, flowing tulle, and intricate vine-like patterns, with gold filigree accents, ribbon streamers, and pink blossoms attached to the sleeves and skirt. Add a dramatic black lace and twig floral crown or headpiece with tiny beads and petals. Surround her with abundant pink cherry blossoms, peonies, and delicate branches; include exactly three prominent flower clusters: one large cluster in the lower right foreground, one cluster framing the upper left background, and one cluster around her right sleeve and skirt. Use cinematic backlighting from the upper right, glowing haze, floating petals, sparkling dust, shallow depth of field, soft bokeh, high contrast between dark lace and pastel flowers, romantic fairy-tale atmosphere, extremely fine fabric detail, elegant composition, no text, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "an ethereal young woman"
+      },
+      {
+        "name": "hair color",
+        "default": "long platinum-blonde hair"
+      },
+      {
+        "name": "dress color",
+        "default": "black"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782810250989_vxvsgd_HL_Vs8Va4AAg7H3.jpg",
+        "alt": "Gothic Blossom Anime Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782810250982_qbqleg_HL_VtofbwAAfUaL.jpg",
+        "alt": "Gothic Blossom Anime Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782810250972_car7tg_HL_VuKgboAAe8Tb.jpg",
+        "alt": "Gothic Blossom Anime Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782810251940_qyxb3l_HL_Vuq3a8AArkFo.jpg",
+        "alt": "Gothic Blossom Anime Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "NIKKO",
+      "url": "https://x.com/AIArtAlchemist"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AIArtAlchemist/status/2071609364935557467#reversed-0"
+    },
+    "publishedAt": "2026-06-29T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27192",
+    "contentHash": "8da41944a21c8bb8ede5ebeb93bc1759dd168d78"
+  },
+  {
+    "id": "gpt-image-2:27289",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27289",
+    "title": "Afrofuturist Yoruba Regal Portrait",
+    "category": "Product Marketing",
+    "description": "A vertical high-fashion cubist portrait of a Yoruba woman in traditional indigo attire and coral beads for editorial poster art.",
+    "promptText": "Create a vertical editorial portrait illustration of a poised Nigerian Yoruba woman in traditional ceremonial attire, shown from mid-torso up in a proud three-quarter pose looking to the right. She wears a dark indigo patterned gele headwrap, an off-shoulder matching indigo wrapper with cream botanical and geometric textile motifs, large coral bead drop earrings, multiple layered coral bead necklaces, and stacked coral bead bracelets on one wrist. Her face is elegant and sculptural with warm brown skin, glossy red-orange lips, defined brows, winged eyeliner, and a calm regal expression. Render the portrait in a bold Afro-futurist cubist style: angular low-poly planes across the face and body, sharp faceted highlights and shadows, painterly screen-print texture, slightly weathered paper grain, and deep navy shadows. Use a dramatic abstract geometric background with cream, black-navy, and vivid red-orange blocks: a tall cream diagonal strip on the left, a large dark navy top area, a bright red-orange rectangle behind her head on the right, and one small textile-inspired panel on the left with vertical white stripes and triangular patterns. Color palette: indigo navy, warm tan skin tones, coral red-orange jewelry, cream, charcoal black, and muted gold. High-fashion poster composition, strong diagonal framing, crisp graphic contrast, no text, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782896970250_vu2hnb_HMFr16_XkAASyLJ.jpg",
+        "alt": "Afrofuturist Yoruba Regal Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782896970112_5tpota_HMFr2BuWwAAOfFt.jpg",
+        "alt": "Afrofuturist Yoruba Regal Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782896970143_jwbkq8_HMFr2CMX0AAFnUa.jpg",
+        "alt": "Afrofuturist Yoruba Regal Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782896970927_1g19cd_HMFr2PJWEAAMcPk.jpg",
+        "alt": "Afrofuturist Yoruba Regal Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "M!ke",
+      "url": "https://x.com/quipsy"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/quipsy/status/2072055893248643241#reversed-0"
+    },
+    "publishedAt": "2026-06-30T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27289",
+    "contentHash": "29d94e1bc1a5d670d0c6e4cfd0fade5907a93f73"
+  },
+  {
     "id": "gpt-image-2:27275",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6719,411 +7138,5 @@
     "publishedAt": "2026-06-27T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27007",
     "contentHash": "bd01b4042e658a025bf684501eab6acfec3cc46a"
-  },
-  {
-    "id": "gpt-image-2:27002",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27002",
-    "title": "Cyan Clockwork Battle Maid",
-    "category": "Game Asset",
-    "description": "A cinematic dark anime prompt for generating a silver-haired armored maid charging through a ruined gothic cathedral with a glowing clockwork energy blade.",
-    "promptText": "Create a dramatic dark fantasy anime illustration of {argument name=\"character name\" default=\"a silver-haired battle maid\"} lunging forward in a ruined gothic cathedral. The scene is a vertical 2:3 composition with an extreme low, dynamic camera angle, strong foreshortening, and motion blur: the character is mid-charge from left rear toward the lower-right foreground, one armored fist gripping a weapon handle near the viewer while her body and torn maid dress sweep backward. She has long flowing {argument name=\"hair color\" default=\"silver-gray\"} hair, pale skin, a small frilled maid headpiece, a ruffled black-and-white Victorian maid outfit, layered torn skirt, armored gauntlets and mechanical limb details, and a fierce shadowed expression with faint cyan glowing eyes. Behind and above her, show exactly 1 enormous translucent cyan energy blade or beam extending diagonally from the left edge toward the center, containing visible clockwork gears, circular mechanisms, and magical circuitry suspended inside the glasslike light. The environment is a devastated cathedral interior with exactly 1 large broken arched stained-glass window in the upper right, tall cracked columns, shattered stone walls, rubble, dust, and flying debris on the floor. Use a nearly monochrome charcoal, slate gray, and black palette with intense cyan accents from the weapon glow, rim lighting, small sparks, and magical trails. Style: highly detailed Japanese dark anime concept art, painterly brushwork, cinematic lighting, high contrast, intricate fabric folds, sharp armor edges, particles, speed lines, dramatic atmosphere, no text, no watermark, no border.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "a silver-haired battle maid"
-      },
-      {
-        "name": "hair color",
-        "default": "silver-gray"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782636876298_vleori_HLwHISPbsAAJ7Xh.jpg",
-        "alt": "Cyan Clockwork Battle Maid",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "空想製作所/AI４コマ漫画",
-      "url": "https://x.com/kuso_seisakusyo"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/kuso_seisakusyo/status/2070708698348224999#reversed-0"
-    },
-    "publishedAt": "2026-06-27T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27002",
-    "contentHash": "8ee3922b402807b6c08a98c97cb3ea087f0cc316"
-  },
-  {
-    "id": "gpt-image-2:26989",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26989",
-    "title": "Crimson Battlefield Warrior",
-    "category": "Game Asset",
-    "description": "Generates a cinematic dark fantasy portrait of an armored ancient female warrior amid fire, smoke, torn banners, and storm clouds.",
-    "promptText": "Create a cinematic dark fantasy portrait of a fierce {argument name=\"character type\" default=\"ancient Chinese female warrior\"} standing in a burning battlefield, shown from mid-thigh upward in a vertical 2:3 composition. She is turned three-quarters away from the viewer but looks back over her shoulder with an intense, cold expression. Her face has visible pores, sweat shine, streaks of soot, small cuts, and blood spatters; loose wet strands of black hair cling to her forehead while the rest is tied in a high warrior ponytail, whipping violently in the wind. Dress her in layered {argument name=\"armor color\" default=\"deep crimson and dark bronze\"} lamellar armor with ornate dragon-like metal shoulder guards, scratched plates, reflective worn edges, oxidized grime, leather straps, rivets, and torn embroidered red fabric with clear woven fibers, wrinkles, frayed hems, and fabric thickness. She grips a short blood-stained dagger or sword at the lower right edge, blade catching a hard highlight. Behind her, enormous shredded red war banners sweep diagonally across the stormy sky like torn silk, with exactly three major visible banner ribbons: one huge ribbon across the upper background, one sweeping from the left behind her waist, and one trailing near the lower foreground. The background is a ruined ancient battlefield with burning structures, distant dark roof silhouettes, smoke columns, flying ash, embers, sparks, debris, and orange fire glow under heavy gray clouds. Use dramatic low-angle heroic framing, shallow depth of field, strong rim light from flames, cold storm light from above, high contrast, motion blur on hair and cloth, sharp detail on face and armor, no text, no watermark, no modern objects.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character type",
-        "default": "ancient Chinese female warrior"
-      },
-      {
-        "name": "armor color",
-        "default": "deep crimson and dark bronze"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782636868675_2dvqhy_HLxo12saEAAZVKZ.jpg",
-        "alt": "Crimson Battlefield Warrior",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "小海豚笔记 (AI & 副业探索)",
-      "url": "https://x.com/gaoren7716"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/gaoren7716/status/2070705930065604741#reversed-0"
-    },
-    "publishedAt": "2026-06-27T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26989",
-    "contentHash": "b82d4604298bdb7e9809eb4a1d6fe54d1628ae04"
-  },
-  {
-    "id": "gpt-image-2:26912",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26912",
-    "title": "Gothic Lace Anime Portrait",
-    "category": "Profile / Avatar",
-    "description": "A dark romantic anime portrait prompt for creating an elegant silver-haired character behind black lace with red petals and orchids.",
-    "promptText": "Create a vertical dark romantic gothic anime portrait of an androgynous young man with {argument name=\"hair color\" default=\"silver-white\"} long layered hair, soft bangs covering part of the face, and a loose low side ponytail tied with a black ribbon. He has pale skin, delicate features, downcast tired eyes with long eyelashes, and a melancholic, dreamy expression. Show him in a close waist-up composition, wearing a refined white Victorian blouse with billowy sleeves, buttoned cuffs, and a narrow black necktie. His slender gloved hands are raised to his mouth, gently holding and partly biting a cluster of deep {argument name=\"petal color\" default=\"blood-red\"} flower petals; include exactly three loose red petals falling or resting on his clothing. Place him behind a sheer black lace veil entering from the left side, with ornate floral lace texture partially obscuring his face and torso. The background is an antique oval mirror or carved frame with baroque ornamentation, surrounded by flowers: exactly three white orchids on the right side and multiple dark red peony-like blossoms behind him. Use a muted monochrome sepia-gray palette with selective deep red accents on the petals and flowers, soft diffused lighting, high-detail linework, elegant manga illustration style, delicate shading, moody gothic atmosphere, intricate fabric folds, ornate frame details, shallow depth, no text, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "silver-white"
-      },
-      {
-        "name": "petal color",
-        "default": "blood-red"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782549967396_r2rnw3_HLyS9F9bgAAW832.jpg",
-        "alt": "Gothic Lace Anime Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "🐹🐹",
-      "url": "https://x.com/hmst_yyyy"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/hmst_yyyy/status/2070691513647120467#reversed-0"
-    },
-    "publishedAt": "2026-06-27T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26912",
-    "contentHash": "39dedde93cef7162f7481800ba4d4ecdac76af51"
-  },
-  {
-    "id": "gpt-image-2:26909",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26909",
-    "title": "Elegant Anime Woman Portrait",
-    "category": "Profile / Avatar",
-    "description": "A semi-realistic anime portrait prompt for generating a softly lit fashionable young woman in an elegant indoor setting.",
-    "promptText": "Create a polished anime-style portrait of a beautiful young woman with {argument name=\"hair color\" default=\"warm chestnut brown\"} hair styled in a high messy bun with loose wispy strands and soft straight bangs. She has large warm brown eyes, long lashes, delicate makeup, rosy cheeks, glossy lips, and a gentle confident smile while looking directly at the viewer. Show her from mid-thigh upward in a softly sensual but elegant pose, leaning slightly forward with her arms behind her back. She wears a fitted cream ribbed wrap crop top with short sleeves, a deep V neckline, scalloped trim, and a tied bow at the side, paired with a high-waisted dusty pink skirt. Add a fine gold necklace with a small pendant. The background is a minimal bright room with an off-white wall and a sheer curtain on the left, lit by warm natural window light that creates soft highlights on her face, hair, and clothing. Use highly detailed semi-realistic anime rendering, smooth skin, refined linework, glossy hair strands, soft shadows, pastel neutral colors, vertical 2:3 composition, shallow depth of field, clean elegant atmosphere, no text, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "warm chestnut brown"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782549965076_c3j4yb_HLwEXzhboAA1uPD.jpg",
-        "alt": "Elegant Anime Woman Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782549965057_aikql7_HLwEZFhbUAAtz5S.jpg",
-        "alt": "Elegant Anime Woman Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782549965072_dputn7_HLwEa_NbAAA6MUR.jpg",
-        "alt": "Elegant Anime Woman Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782549966047_hxiq94_HLwEcHJasAEkWs5.jpg",
-        "alt": "Elegant Anime Woman Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "ハスノ＠核心ぶち抜きヒーラー／天空図書館夫婦",
-      "url": "https://x.com/00_hasu_00"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/00_hasu_00/status/2070535935654318571#reversed-0"
-    },
-    "publishedAt": "2026-06-26T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26909",
-    "contentHash": "0c400b8e2561e206281109b3ff006291ed90d344"
-  },
-  {
-    "id": "gpt-image-2:26843",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26843",
-    "title": "Y2K Retro Film Car Portrait",
-    "category": "Profile / Avatar",
-    "description": "Generates a realistic vintage film-style portrait of a woman in a car, featuring high contrast, direct flash, and deep red tones.",
-    "promptText": "Same face as attached file 100% — eyes, nose, mouth and face unchanged. {argument name=\"subject description\" default=\"Petite woman, slim figure\"}. White, smooth, fine, luminous skin — healthy-looking, light-reflective, soft look. Defined shoulders and collarbones. Natural no-makeup skin, real skin texture visible, smooth and white with light texture. Soft pink blush diffused on both cheekbones and nose tip for a natural rosy flush. Large round light brown eyes, emphasized. Glossy gradient lips in soft pink — deeper color on the inside fading outward for a dewy finish. Long {argument name=\"hair color\" default=\"dark chestnut brown\"} hair with loose relaxed waves. Pose: {argument name=\"pose\" default=\"sitting reclined inside a car with the door open, one leg raised resting on the door frame\"}, gazing into the camera with soft, deep, slightly romantic eyes. Deep dark red evening sky outside. Direct flash lighting, Y2K film/digital camera style, bright glowing skin, sharp shadows, high contrast, deep red-orange tones, slight film grain, vintage retro mood. Dark background contrasting sharply against the subject. Close-up half-body to partial full-body shot, slight dynamic angle, 35mm or 50mm lens, shallow depth of field, sharp focus on face, vivid colors, cinematic. Ultra realistic, 4K, film grain, glossy skin, sharp highlights, deep shadows. Aspect ratio 9:16 vertical.\nNegative: anime, cartoon, 3D render, painting, bright studio lighting, plastic skin, unnatural hand position, distorted fingers, extra fingers, floating limbs",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject description",
-        "default": "Petite woman, slim figure"
-      },
-      {
-        "name": "hair color",
-        "default": "dark chestnut brown"
-      },
-      {
-        "name": "pose",
-        "default": "sitting reclined inside a car with the door open, one leg raised resting on the door frame"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782549917331_wfs695_HLv61zLXkAAWTb2.jpg",
-        "alt": "Y2K Retro Film Car Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "WasifAI",
-      "url": "https://x.com/doctorwasif"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/doctorwasif/status/2070524260402029040"
-    },
-    "publishedAt": "2026-06-26T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26843",
-    "contentHash": "2faeca4a66dbd1c2a252ccd3462e12f5dd5311ce"
-  },
-  {
-    "id": "gpt-image-2:26857",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26857",
-    "title": "Urban Lifestyle Male Portrait",
-    "category": "Profile / Avatar",
-    "description": "A professional lifestyle portrait prompt designed for generating realistic images of a man in an urban luxury setting.",
-    "promptText": "Ultra-realistic cinematic portrait of a {argument name=\"subject\" default=\"handsome young man\"} with thick, slightly tousled dark brown hair, defined jawline, light stubble, sharp eyebrows, and deep brown eyes looking slightly off-camera with a calm, confident expression. He is standing outdoors in front of a {argument name=\"setting\" default=\"modern luxury building\"} with tall concrete columns and dark glass windows. He wears a {argument name=\"clothing\" default=\"perfectly fitted plain black crew-neck T-shirt\"} that highlights his athletic, muscular physique, a minimalist silver chain necklace with a small rectangular pendant, and a black stainless-steel wristwatch. His arms are crossed naturally across his chest, emphasizing toned biceps and forearms. Warm golden-hour sunlight illuminates the left side of his face and body, creating soft highlights and realistic skin texture. Background features shallow depth of field with creamy bokeh, keeping the architecture softly blurred. Editorial luxury fashion photography, premium lifestyle aesthetic, ultra-detailed skin pores, realistic hair strands, subtle facial texture, natural color grading, HDR, 85mm lens, f/1.8, eye-level composition, centered framing, crisp focus on the face, photorealistic, 8K, high contrast, premium magazine quality, no text, no watermark, no distortion.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "handsome young man"
-      },
-      {
-        "name": "setting",
-        "default": "modern luxury building"
-      },
-      {
-        "name": "clothing",
-        "default": "perfectly fitted plain black crew-neck T-shirt"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782549924138_vucg3k_HLv1sEOa8AEJ5vr.jpg",
-        "alt": "Urban Lifestyle Male Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "auqib",
-      "url": "https://x.com/auqibhabib"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/auqibhabib/status/2070518608854483369"
-    },
-    "publishedAt": "2026-06-26T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26857",
-    "contentHash": "f34e8ef0e357843b00fd48526746194a0723ae91"
-  },
-  {
-    "id": "gpt-image-2:26919",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26919",
-    "title": "Anime Twin Chibi Portrait",
-    "category": "Profile / Avatar",
-    "description": "Generates a cute chibi anime twin portrait with a small realistic source-photo inset, ideal for social media avatar transformation concepts.",
-    "promptText": "Create a square full-bleed digital illustration on a plain solid white background showing an anime twin transformation layout. The main subject is a cute minimalist chibi anime girl occupying the center and right side of the canvas from head to upper torso, with an oversized head, tiny shoulders, very large glossy dark brown eyes, soft peach skin, rosy blushing cheeks, a small nose highlight, and a tiny slightly parted neutral mouth. She has {argument name=\"hair color\" default=\"dark brown almost black\"} messy short wavy bob hair with loose flyaway strands, parted near the center, with one thick loose side braid falling over her left shoulder. Add exactly 1 small pink five-petal flower clip attached near the lower part of the braid. She wears {argument name=\"top color\" default=\"black\"} minimalist spaghetti-strap camisole top with exactly 2 thin shoulder straps and a shallow V neckline. The expression should feel shy, calm, and doll-like, with delicate clean line art, soft watercolor-like shading, subtle blush gradients, and polished anime rendering. In the upper-left corner, include exactly 1 small rounded-rectangle inset photo frame with a thin dark border, showing a realistic portrait of the same young woman as the source look: short tousled dark wavy hair, natural makeup, black spaghetti-strap top, seated in a car interior, facing the camera with a neutral expression. The inset should be about one quarter of the canvas width, placed with a small margin from the top and left edges. Keep the background completely white, with no text, no watermark, no extra accessories, and no additional characters. Use a clean high-resolution social-media avatar style that makes the realistic inset and the larger anime version visually match in hairstyle, outfit, and mood.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "dark brown almost black"
-      },
-      {
-        "name": "top color",
-        "default": "black"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782549973072_nbfgdu_HLvo0J2aQAAVAxq.jpg",
-        "alt": "Anime Twin Chibi Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Cherry 2.O",
-      "url": "https://x.com/Mind_Boticni"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Mind_Boticni/status/2070505352232366097#reversed-0"
-    },
-    "publishedAt": "2026-06-26T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26919",
-    "contentHash": "2805c261dc8b5cb74bc924181ce41d712c10c8e1"
-  },
-  {
-    "id": "gpt-image-2:26847",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26847",
-    "title": "Vintage 19th Century Black and White Engraving",
-    "category": "Profile / Avatar",
-    "description": "A detailed prompt for generating high-quality black-and-white engravings that resemble antique pen-and-ink illustrations from 19th-century books.",
-    "promptText": "A symmetrically composed black-and-white vintage engraving of a {argument name=\"subject\" default=\"bearded man in a pullover hoodie with the hood raised and a backward snapback cap underneath\"}. Frame only the head and upper chest against a plain off-white textured paper background. Style: {argument name=\"style\" default=\"detailed pen-and-ink etching with dense cross-hatching, tight parallel lines, and antique book illustration shading\"}. The subject looks straight ahead with a calm, neutral expression. The cap's snap-closure band crosses the forehead, slicked-back hair shows above it, a full thick beard covers the lower face. Two drawstrings hang from the hoodie at the chest. Maintain strict bilateral symmetry, crop tightly like a classic engraved bust, and exclude all color, modern graphic elements, and background objects.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "bearded man in a pullover hoodie with the hood raised and a backward snapback cap underneath"
-      },
-      {
-        "name": "style",
-        "default": "detailed pen-and-ink etching with dense cross-hatching, tight parallel lines, and antique book illustration shading"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782549919540_8bqt7u_HLvowOIbMAAyFvm.jpg",
-        "alt": "Vintage 19th Century Black and White Engraving",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "PromptLab",
-      "url": "https://x.com/iamaiistudio"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/iamaiistudio/status/2070504541204947426"
-    },
-    "publishedAt": "2026-06-26T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26847",
-    "contentHash": "bbdfe588919e62635ef1b36d1cf33b10b014ccd8"
-  },
-  {
-    "id": "gpt-image-2:26877",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26877",
-    "title": "Cinematic Golden Hour Lifestyle Portrait",
-    "category": "Profile / Avatar",
-    "description": "A highly detailed prompt for a realistic portrait of a young woman in a sunlit apartment, emphasizing natural lighting and textures.",
-    "promptText": "Ultra-realistic lifestyle portrait of a beautiful young {argument name=\"ethnicity\" default=\"East Asian\"} woman sitting indoors during golden hour, captured in a cozy modern apartment beside large sunlit windows. She has long, silky black hair cascading over her shoulders, one hand gently running through her hair while resting her arm on a raised knee. She looks directly into the camera with a soft, playful smile and subtle dimples, creating an intimate, warm, and inviting mood. She wears a {argument name=\"outfit\" default=\"cream-white satin spaghetti-strap slip dress\"} with elegant draping, revealing natural collarbones and shoulders. Her skin is smooth, luminous, and softly illuminated by warm golden sunlight streaming through the window, creating cinematic highlights and gentle shadows across her face and body. The background features a minimal, stylish interior with blurred flowers in glass vases, warm beige walls, soft decor, and a bright city view outside the window. Everything behind her is softly out of focus with a creamy bokeh effect, emphasizing depth and realism. Shot on an {argument name=\"lens\" default=\"85mm\"} lens at f/1.8, eye-level composition, close-up portrait with natural perspective, shallow depth of field, realistic skin texture, detailed hair strands, warm color grading, soft ambient light, HDR, ultra-detailed, DSLR-quality, photorealistic, editorial lifestyle photography, 8K resolution, intimate candid atmosphere, no text, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "ethnicity",
-        "default": "East Asian"
-      },
-      {
-        "name": "outfit",
-        "default": "cream-white satin spaghetti-strap slip dress"
-      },
-      {
-        "name": "lens",
-        "default": "85mm"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782549938544_8jtf9s_HLvkjePb0AA4gv9.jpg",
-        "alt": "Cinematic Golden Hour Lifestyle Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782549938588_qhjs5h_HLvkjjybcAAYpMm.jpg",
-        "alt": "Cinematic Golden Hour Lifestyle Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Jahan Zaib",
-      "url": "https://x.com/jzaib4269"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/jzaib4269/status/2070499785547841686"
-    },
-    "publishedAt": "2026-06-26T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26877",
-    "contentHash": "05e20228506c67c21c4bed7302e96b1994147577"
   }
 ]

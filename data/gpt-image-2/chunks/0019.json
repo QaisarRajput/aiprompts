@@ -1,5 +1,460 @@
 [
   {
+    "id": "gpt-image-2:28501",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28501",
+    "title": "Japanese Cafe Reading Portrait",
+    "category": "Social Media Post",
+    "description": "A detailed prompt for creating a realistic, high-quality portrait of a woman reading in a modern Japanese-style cafe, focusing on lighting, texture, and a calm atmosphere.",
+    "promptText": "Subject: Afternoon Reading Corner\n\nMain Subject:\nA vertical photo-style portrait. An adult woman is seated on a {argument name=\"bench\" default=\"beige upholstered bench\"} in a calm, modern Japanese cafe lounge, positioned prominently to the left of the frame. She holds a book bound like a literary novel in her right hand with the cover facing out, while her left hand rests on the seat for support.\n\nCharacter/Expression:\nAn adult woman with natural features. She has a mature, calm aura and a healthy proportion. Her dark {argument name=\"hairstyle\" default=\"long wavy brown hair\"} is loose with a few strands framing her face. Elegant rose-toned makeup, natural under-eye bags, and subtle red lips. She tilts her head slightly to the left and looks calmly at the camera.\n\nClothing/Pose:\nA {argument name=\"attire\" default=\"black V-neck camisole dress\"}. It has a subtle satin-like sheen with fine black lace at the neckline and hem, and a discrete waist seam for a delicate Japanese fashion aesthetic. The length is short but balanced to look elegant. No outerwear. Her right hand lightly grips the spine of the book, facing the cover toward the camera. Her left hand is on the bench, bearing her weight naturally. Her legs extend diagonally toward the bottom right, knees slightly together, wearing black enamel pumps.\n\nBackground/Lighting:\nA quiet cafe space with wooden shelves, a round wooden table, a black mug, a large houseplant, and soft pendant lights reminiscent of shoji screens. Natural afternoon light enters from a window in the back right, creating soft highlights on her cheeks, shoulders, legs, and the edges of her black dress.\n\nComposition/Camera:\nVertical composition, a near-full-body seated pose. The subject is in the center-left, with legs extending long to the bottom right. Pendant light and plant space at the top, round table and window view to the right. Low eye-level camera, 50mm equivalent natural compression.\n\nTexture/Style:\nRealistic photographic expression shot with a professional camera. Skin is not over-corrected, leaving natural texture and light bleeding. Meticulously depicts the subtle reflections of black satin, lace details, matte book cover, and the warmth of the wood and fabric bench.\n\nNegative:\nUnnatural face, unnatural gaze, extra fingers, missing fingers, fused limbs, broken joints, poor contact with book, floating, unnatural gravity, incorrect perspective, shadows inconsistent with light source, gibberish text, copies of real book covers, logos, watermarks, character toys, excessive skin smoothing, plastic-looking skin.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "bench",
+        "default": "beige upholstered bench"
+      },
+      {
+        "name": "hairstyle",
+        "default": "long wavy brown hair"
+      },
+      {
+        "name": "attire",
+        "default": "black V-neck camisole dress"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783932930934_n23tl6_HM1Q6_EaMAAUYF6.jpg",
+        "alt": "Japanese Cafe Reading Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Prompt アトリエ｜AI画像プロンプト",
+      "url": "https://x.com/CyberTotal2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CyberTotal2026/status/2076264557991887151"
+    },
+    "publishedAt": "2026-07-12T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28501",
+    "contentHash": "c0ebcfbaedd1b76c4d3992083ebfa402497eacfd"
+  },
+  {
+    "id": "gpt-image-2:28531",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28531",
+    "title": "Reasoning Context and Prompt Cache Slide",
+    "category": "Infographic / Edu Visual",
+    "description": "Generates a Japanese 16:9 technical infographic slide explaining continuous reasoning context and explicit prompt caching for long-running AI tasks.",
+    "promptText": "Goal: Create a clean 16:9 Japanese business/technical infographic slide about how continuous reasoning context and explicit prompt caching improve long-running task efficiency. Use a polished PowerPoint-native infographic look with dense but readable explanatory text.\n\nCanvas: 16:9 landscape slide, warm off-white background, dark navy text, teal and olive green accent colors, thin rounded borders, subtle shadows, generous margins. Leave no photo-realistic elements; use flat vector icons and crisp typography.\n\nTop text area: Place a large bold Japanese headline at the top left: {argument name=\"headline text\" default=\"継続推論と明示的キャッシュが長期タスクを効率化\"}. Under it, add a smaller semibold lead sentence: {argument name=\"lead text\" default=\"過去ターンの推論と再利用可能なプロンプトを選択的に保持することで一貫性と効率を高められるが、前提変更や利用回数を踏まえて保存範囲を設計する必要がある。\"}\n\nMain layout: Two large rounded rectangular panels sit side by side beneath the lead sentence. The left panel is teal and titled “reasoning.context”; the right panel is olive green and titled “明示的プロンプトキャッシュ”. Connect the panels with a thin line and a small circular chain-link icon centered between them near the bottom, suggesting coordination between reasoning context and cache. A small upward green arrow near the right panel points back toward it.\n\nLeft panel details: Include exactly 3 vertically stacked turn markers on the far left, connected by a vertical line with a downward arrow. The markers are labeled “1ターン”, “2ターン”, and “3ターン”. Next to each marker, show a small person icon and speech bubble. To the right, include exactly 3 horizontal rounded cards with teal icon blocks and Japanese explanatory text: 1) gear icon, “auto｜モデルの既定動作を利用”; 2) checklist icon, “all_turns｜安定した目標、前提、優先順位を複数ターンで再利用”; 3) clock icon, “current_turn｜以前の推論が不要になった場面で現在ターンに限定”.\n\nRight panel details: Include exactly 3 horizontal rounded cards with olive icon blocks and Japanese explanatory text: 1) document icon, “再利用する共通プレフィックスを開発者が指定”; 2) database cylinder icon, “キャッシュ書き込みは通常入力単価の1.25倍”; 3) percent tag icon, “読み出しは割引されるため、反復利用の回数が効果を左右する”.\n\nBottom conclusion band: Across the bottom, create one wide rounded rectangle callout with a thin yellow border. On the left of the band place a gold target icon with an arrow. To the right, place a bold Japanese conclusion: {argument name=\"conclusion text\" default=\"長期タスクの一貫性と効率を高める一方、前提変更時には過去の推論や不要なキャッシュを切り離す設計が必要\"}.\n\nVisual style: Japanese corporate slide design, crisp vector line icons, rounded rectangles, light cream background, teal left section, olive right section, yellow conclusion accent, strong hierarchy, highly legible Japanese sans-serif typography, no decorative clutter.\n\nConstraints: Preserve the exact count of elements: 2 main panels, 3 left turn markers, 3 left option cards, 3 right cache cards, 1 central chain-link connector, 1 bottom conclusion callout, and 1 target icon. Do not add extra panels, extra cards, watermarks, logos, or decorative characters. Keep all slide text inside the infographic sharp and readable.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline text",
+        "default": "継続推論と明示的キャッシュが長期タスクを効率化"
+      },
+      {
+        "name": "lead text",
+        "default": "過去ターンの推論と再利用可能なプロンプトを選択的に保持することで一貫性と効率を高められるが、前提変更や利用回数を踏まえて保存範囲を設計する必要がある。"
+      },
+      {
+        "name": "conclusion text",
+        "default": "長期タスクの一貫性と効率を高める一方、前提変更時には過去の推論や不要なキャッシュを切り離す設計が必要"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783932954481_xz6asd_HNEHMKKbAAAqIj5.jpg",
+        "alt": "Reasoning Context and Prompt Cache Slide",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "炎鎮🔥 - ₿onochin -",
+      "url": "https://x.com/super_bonochin"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/super_bonochin/status/2076449091765375357#reversed-0"
+    },
+    "publishedAt": "2026-07-12T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28531",
+    "contentHash": "eaf596f6acd16a347dcb5f1548d3986e1c20abf9"
+  },
+  {
+    "id": "gpt-image-2:28498",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28498",
+    "title": "Technical Product Infographic with Blueprint Overlay",
+    "category": "Infographic / Edu Visual",
+    "description": "Generates a professional technical infographic for products, featuring a realistic photograph combined with a blueprint-style overlay.",
+    "promptText": "Premium technical infographic of {argument name=\"product name\" default=\"[product name ]\"}.\nUse the reference image only to understand the shape and structure of the object, without copying the same photo, angle, composition, or background. Reinterpret the subject in a new professional and realistic photograph, clean and well-lit, with a suitable and more aesthetic background. Keep the object as a real photo, not an\nillustration. Add a technical blueprint-style overlay with white lines, arrows, dimensions, labels, and small diagrams of parts, materials, measurements, and functionality.\nClear, elegant, and informative composition.\nInclude a sketch box in the upper left corner with the title \"{argument name=\"title\" default=\"[name]\"} \".",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "product name",
+        "default": "[product name ]"
+      },
+      {
+        "name": "title",
+        "default": "[name]"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783932926598_1un1z6_HNCWxb9a8AA2XSz.jpg",
+        "alt": "Technical Product Infographic with Blueprint Overlay",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783932926015_61wtse_HNCWxcAaQAA4NmZ.jpg",
+        "alt": "Technical Product Infographic with Blueprint Overlay",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783932926083_yb6ao6_HNCWxcCbsAE7U7-.jpg",
+        "alt": "Technical Product Infographic with Blueprint Overlay",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783932927814_7jb21g_HNCWxb7boAAUCpH.jpg",
+        "alt": "Technical Product Infographic with Blueprint Overlay",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Al-Shamus",
+      "url": "https://x.com/im_shahid7"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/im_shahid7/status/2076325223490888066"
+    },
+    "publishedAt": "2026-07-12T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28498",
+    "contentHash": "87c2d331682334ea50a1b1db6884b141125ddb98"
+  },
+  {
+    "id": "gpt-image-2:28528",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28528",
+    "title": "Distressed Convenience Store Recruitment Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "A textured navy-and-cream corporate hiring poster layout for convenience store recruitment or enterprise activity announcements.",
+    "promptText": "Goal: Create a minimalist corporate recruitment poster for a convenience store partner hiring campaign, using a bold East Asian typographic aesthetic.\n\nCanvas: Vertical poster, 2:3 aspect ratio, warm off-white paper background with lots of negative space on the right.\n\nLayout: Fill the left 75% of the poster with enormous cropped dark-blue Chinese characters, reading like a giant recruitment headline {argument name=\"main headline\" default=\"招聘\"}; the characters are so large that their strokes extend beyond the poster edges. Place a narrow right-side information column centered vertically, aligned near the right margin. Add a small convenience-store line icon and English slogan at the lower right.\n\nVisual style: Rough risograph / screen-print texture, dark navy blue ink on cream paper, gritty distressed edges, speckled ink loss, slightly uneven stamped typography. Use a calm corporate poster composition, modern but tactile, no photos, no gradients, no extra colors.\n\nText content: The poster contains exactly 1 giant cropped headline area, 1 vertical title line, 7 small information sections, and 1 bottom logo/slogan block. The vertical title line should read {argument name=\"vertical title\" default=\"便利店伙伴招募中\"}. The 7 small sections in the right column are: 1) position: store staff, full-time or part-time; 2) work content: cashier operation, product display, store cleaning; 3) schedule: shift system, 3–5 days per week, 4–8 hours per day; 4) benefits: hourly wage 18–25 yuan, employee discount, holiday benefits; 5) requirements: age 18 or above, responsible, hardworking; 6) location: assigned nearby; 7) contact: scan the QR code below or visit the store to ask. Keep this body text very small, compact, and navy blue.\n\nBottom block: Draw exactly 1 simple outlined convenience-store icon with an awning marked “24”, and below it place two short English lines: {argument name=\"english slogan line one\" default=\"WE NEED YOU\"} and {argument name=\"english slogan line two\" default=\"JOIN US\"}.\n\nConstraints: Preserve the extreme scale contrast between the huge cropped blue headline and the tiny right-column details. Keep all typography and illustration in the same navy ink. Avoid realistic people, photos, decorative icons beyond the single store icon, QR code detail, shadows, or glossy effects.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "main headline",
+        "default": "招聘"
+      },
+      {
+        "name": "vertical title",
+        "default": "便利店伙伴招募中"
+      },
+      {
+        "name": "english slogan line one",
+        "default": "WE NEED YOU"
+      },
+      {
+        "name": "english slogan line two",
+        "default": "JOIN US"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783932952480_sz06y4_HNCQ5xNakAEimVP.jpg",
+        "alt": "Distressed Convenience Store Recruitment Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小小东",
+      "url": "https://x.com/xiaoxiaodong01"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/xiaoxiaodong01/status/2076320415912181957#reversed-0"
+    },
+    "publishedAt": "2026-07-12T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28528",
+    "contentHash": "d39d80782f8fc26a749502d3dfc6a0e70f570bb6"
+  },
+  {
+    "id": "gpt-image-2:28538",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28538",
+    "title": "Pachinko Physics Debug Layout",
+    "category": "Infographic / Edu Visual",
+    "description": "A dark technical pachinko playfield diagram with rails, peg labels, dashed regions, and neon simulated ball trajectories for game-layout review.",
+    "promptText": "Goal: Create a dark technical debug visualization of a pachinko machine playfield layout, showing ball lanes, collision rails, pegs, named gameplay regions, and simulated ball trajectories.\n\nCanvas: Square-ish 4:5 technical diagram on a nearly black burgundy background, with a transparent-engineering-overlay feel. Use a dark maroon grid of blocky rectangular obstacle silhouettes behind the layout.\n\nMain layout: Draw a large pachinko board occupying almost the full canvas. The board is formed by thick angular golden-brown rails: one large outer oval/octagonal loop around the perimeter, one large inner polygonal ring around an empty central dark void, and several short rail segments near the bottom and lower-right. Keep the rails chunky, beveled, and slightly translucent, like debug collision geometry.\n\nTrajectory paths: Add exactly 5 thin neon ball-path traces over the rails and lanes: 1 cyan path hugging the far-left launch lane, 1 hot pink path weaving near the left edge and bottom exit, 1 lime green path that curves from the upper-left across the mid-left and down to the bottom, 1 red path that crosses sharply through the left-middle and upper-left, and 1 yellow path following the outer left arc. The paths should overlap and look like simulated pachinko ball travel, with sharp turns and curved segments.\n\nDebug regions: Draw dashed cyan rectangular region boxes with small cyan labels. Include exactly 7 labeled regions: \"region:JACKPOT_1\" at left-middle, \"region:STATIC\" near the lower-left/middle, \"region:START\" centered lower-middle, \"region:LUCKY\" right-lower-middle, \"region:LAUNCHER\" bottom-right, \"region:OUT\" lower-left exit area, and one tall dashed launch/channel region along the left side.\n\nPegs and labels: Add exactly 15 small green square peg markers with green debug labels. Place them around the central playfield: 2 near the upper-left labeled \"peg-left-top-1\" and \"peg-left-top-2\"; 3 near the top center labeled \"peg-center-top-1\", \"peg-center-top-2\", and \"peg-1\"; 3 on the upper-right labeled \"peg-right-top-1\", \"peg-right-top-2\", and \"peg-right-path-2\"; 3 on the lower-right/lower-middle labeled \"peg-right-path-1\", \"peg-lucky-guide\", and \"peg-right-pocket-1\"; 4 in the lower-left/lower-middle labeled \"peg-left-path-1\", \"peg-left-pocket-1\", \"peg-start-left\", and \"peg-start-right\". Make labels small, thin, and green, as if from a game-engine editor overlay.\n\nAdditional details: Include one tiny cyan number box reading \"19\" near the left-middle jackpot area. Add a few small red guide triangles and line fragments near the top-left lane. The diagram should look like a GPT-generated game-layout review screenshot rather than polished UI art.\n\nVisual style: Low-light debug render, dark maroon and black palette, golden collision rails, cyan dashed UI overlays, green peg annotations, neon trajectory lines. No photorealism, no characters, no real pachinko machine cabinet, no decorative anime art.\n\nCustomizable concept: Build the layout as a {argument name=\"machine type\" default=\"pachinko\"} physics debug map titled by implication around {argument name=\"gameplay focus\" default=\"ball trajectory and lane review\"}. Use rail color {argument name=\"rail color\" default=\"muted golden brown\"}, background color {argument name=\"background color\" default=\"near-black burgundy\"}, and trajectory colors {argument name=\"trajectory colors\" default=\"cyan, hot pink, lime green, red, yellow\"}.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "machine type",
+        "default": "pachinko"
+      },
+      {
+        "name": "gameplay focus",
+        "default": "ball trajectory and lane review"
+      },
+      {
+        "name": "rail color",
+        "default": "muted golden brown"
+      },
+      {
+        "name": "background color",
+        "default": "near-black burgundy"
+      },
+      {
+        "name": "trajectory colors",
+        "default": "cyan, hot pink, lime green, red, yellow"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783932958138_vu7wwj_HNB624IbEAAvPUz.jpg",
+        "alt": "Pachinko Physics Debug Layout",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Maoku",
+      "url": "https://x.com/Maoku"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Maoku/status/2076296169307967967#reversed-0"
+    },
+    "publishedAt": "2026-07-12T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28538",
+    "contentHash": "7ba83d03cfeb715f3dec3cfeb381ccb5aa3c7ba6"
+  },
+  {
+    "id": "gpt-image-2:28539",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28539",
+    "title": "Japanese TCG Strategy Infographic",
+    "category": "Infographic / Edu Visual",
+    "description": "Generates a dark fantasy Japanese trading-card-game analysis infographic comparing the benefits and drawbacks of adding one card to a deck.",
+    "promptText": "Goal: Create a polished vertical Japanese trading-card-game strategy infographic explaining the pros and cons of adding a specific card to a deck.\n\nCanvas: Portrait 2:3 layout, dark navy-black fantasy UI background with thin gold ornamental borders, beveled panels, subtle glow, and a premium card-game analysis aesthetic. Use gold title typography and white Japanese body text.\n\nMain title area: At top right, place a large ornate gold headline reading {argument name=\"headline text\" default=\"道化の一座 ハット\"}. Beneath it, add the subtitle {argument name=\"subtitle text\" default=\"デッキに加えた際のメリット・デメリット\"}. Under the subtitle, place a dark framed explanation box containing 3 short Japanese lines describing that the card can search/deploy Pendulum monsters, also enables non-theme monsters, supports interruption-resistant subroutes, and improves combo stability.\n\nCard display: At top left, show exactly 1 realistic Yu-Gi-Oh-style monster card mockup, named {argument name=\"card name\" default=\"道化の一座 ハット\"}. The card should have an orange monster-card frame, star icons, a small LIGHT attribute icon, dense Japanese effect text, ATK/DEF line, and fantasy artwork of a jester-like rogue in blue clothing holding a staff amid swirling golden magic. Do not use official logos or exact copyrighted card layout details; make it a close fictional TCG-style homage.\n\nMiddle comparison section: Add a centered gold label tab reading “Trigger resilience comparison”. Create exactly 2 horizontal comparison rows under it, each split into a left original-deck behavior column, a middle after-adoption result column, and a right small change-image column. Row 1 is draw-type trigger: blue icon, left box has a large blue circle meaning good resilience; arrow points right to a red X meaning resilience becomes worse; right mini diagram shows a blue person icon leading to a card/box and a prohibition symbol, implying the combo stops at the draw stage. Row 2 is interruption-type trigger: red/orange icon, left box has a large red X meaning poor resilience; arrow points right to a blue circle meaning resilience improves; right mini diagram shows a red person icon leading to a card/box and a blue shield check, implying interruption is avoided and deployment continues.\n\nLower benefits and drawbacks: Create exactly 6 rectangular cards in two columns, 3 benefits on the left and 3 drawbacks on the right. Left column header: “メリット” in a blue panel. Right column header: “デメリット” in a red panel. Benefit card 1 uses a shield icon and says it becomes stronger against interruption-type triggers. Benefit card 2 uses a branching route icon and says the number of deployment subroutes increases. Benefit card 3 uses a checkmark icon and says combo stability improves. Drawback card 1 uses stacked card icons and says it becomes weaker against draw-type triggers. Drawback card 2 uses a weight/bag icon and says deck burden becomes larger. Drawback card 3 uses a warning triangle icon and says unnecessary cards may need to be adopted. Each of the 6 cards must include a bold colored heading plus two smaller Japanese explanatory lines.\n\nBottom summary: Add a wide dark framed box with a small gold tab header reading “まとめ”. Inside, write a concise Japanese summary explaining the trade-off: resistance to interruption and flexible deployment improve, but weakness to draw-type triggers and deck-building constraints increase. End with a larger gold call-to-action line reading {argument name=\"closing line\" default=\"環境や構築方針に応じて、採用を検討しよう！\"}.\n\nStyle constraints: Use crisp vector-like UI panels mixed with realistic card art, high contrast, clean alignment, thin gold borders, blue for positive elements, red for negative elements, arrows between comparison boxes, no watermark, no extra sections, and keep all text legible as an infographic.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline text",
+        "default": "道化の一座 ハット"
+      },
+      {
+        "name": "subtitle text",
+        "default": "デッキに加えた際のメリット・デメリット"
+      },
+      {
+        "name": "card name",
+        "default": "道化の一座 ハット"
+      },
+      {
+        "name": "closing line",
+        "default": "環境や構築方針に応じて、採用を検討しよう！"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783932960055_d3mt9y_HNBqFInb0AAjUk0.jpg",
+        "alt": "Japanese TCG Strategy Infographic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "やぐち+",
+      "url": "https://x.com/ya_g_g_g"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ya_g_g_g/status/2076276506846994635#reversed-0"
+    },
+    "publishedAt": "2026-07-12T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28539",
+    "contentHash": "35dbe31eee7636b784eb35634344f5abcbe4145a"
+  },
+  {
+    "id": "gpt-image-2:28478",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28478",
+    "title": "Vintage Photo Restoration and Colorization",
+    "category": "Infographic / Edu Visual",
+    "description": "A functional prompt for enhancing old photographs, converting black and white to natural colors while maintaining original facial authenticity.",
+    "promptText": "Enhance overall clarity, sharpness, and {argument name=\"resolution\" default=\"resolution to high-quality photo standards\"} without losing authenticity. If the image is black and white, convert it to {argument name=\"skin tone\" default=\"realistic natural color based on typical Indian skin tones\"}, natural hair and eye colors, and {argument name=\"clothing style\" default=\"traditional clothing\"}. Ensure the background and lighting are smooth and neutral, matching the original studio look. The final result should look like a perfectly preserved real photograph, not AI-generated or stylized, and must reflect the original image with: No facial change No softening of expressions No cosmetic enhancement.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "resolution",
+        "default": "resolution to high-quality photo standards"
+      },
+      {
+        "name": "skin tone",
+        "default": "realistic natural color based on typical Indian skin tones"
+      },
+      {
+        "name": "clothing style",
+        "default": "traditional clothing"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783932912967_fervmv_HNA8IaBawAA382m.jpg",
+        "alt": "Vintage Photo Restoration and Colorization",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "simeon-sanai",
+      "url": "https://x.com/Naiknelofar788"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Naiknelofar788/status/2076225553791922380"
+    },
+    "publishedAt": "2026-07-12T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28478",
+    "contentHash": "d88a967dcf11475f519a1661315921a1845af53e"
+  },
+  {
+    "id": "gpt-image-2:28434",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28434",
+    "title": "Cute Travel Vlog Thumbnail",
+    "category": "YouTube Thumbnail",
+    "description": "Generates a cheerful vertical travel vlog cover with a smiling backpacker, pastel sticker typography, and kawaii travel doodles for social posts or video thumbnails.",
+    "promptText": "Goal: Create a bright vertical travel vlog thumbnail/collage featuring a smiling young woman traveler in a sunny outdoor alley, surrounded by cute scrapbook stickers and hand-drawn doodles.\n\nCanvas: Vertical 3:4 social media image, high-resolution, warm daylight, shallow depth of field. Background is a charming pedestrian street or café alley with plants, terracotta umbrellas, soft bokeh, and a small chalkboard sign in the distance.\n\nMain subject: A cheerful {argument name=\"character description\" default=\"young East Asian woman with shoulder-length black hair and bangs\"} stands slightly right of center, turned three-quarters toward the camera, smiling warmly. She wears a loose white T-shirt with a small nature print on the chest, light blue jeans, and a large beige backpack over one shoulder. Add a cute plush keychain hanging from the backpack. Put a thick white cutout outline around the subject, like a sticker.\n\nLayout and text stickers: Use exactly 6 main text stickers: 1) large top-left title reading {argument name=\"main title\" default=\"Travel Vlog\"} in oversized rounded pastel bubble letters with a thick white border; 2) top-right stacked sticker reading {argument name=\"top right phrase\" default=\"Good Vibes Only\"} with a yellow heart and yellow smiley face; 3) small pink ribbon banner on the left reading {argument name=\"banner text\" default=\"let's go!\"}; 4) dark cloud speech bubble on the right reading \"explore more\" with a small pink heart; 5) bottom-left sticker reading \"on the way\" in playful blue and pink bubble letters with a small white flower; 6) bottom-right sticky note reading {argument name=\"note text\" default=\"Collect moments not things\"} with a pink tape strip and a small heart.\n\nDecorative elements: Include exactly 3 illustrated travel icons: a cute line-art camera with a heart on the lens on the left, a folded map with a pink location pin on the lower right, and the backpack plush charm. Add multiple small white hand-drawn sparkles, arrows, hearts, squiggles, and doodle marks scattered around the subject, keeping them light and airy.\n\nVisual style: Photorealistic lifestyle portrait blended with kawaii sticker graphics, pastel colors, glossy scrapbook aesthetic, soft white outlines, playful vlog thumbnail design, warm golden sunlight, cheerful vacation mood.\n\nConstraints: Keep all text legible and in English, preserve the exact 6 main text stickers and 3 illustrated travel icons, avoid extra large words, avoid watermarks or logos, and make the subject the clear focal point.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character description",
+        "default": "young East Asian woman with shoulder-length black hair and bangs"
+      },
+      {
+        "name": "main title",
+        "default": "Travel Vlog"
+      },
+      {
+        "name": "top right phrase",
+        "default": "Good Vibes Only"
+      },
+      {
+        "name": "banner text",
+        "default": "let's go!"
+      },
+      {
+        "name": "note text",
+        "default": "Collect moments not things"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783845694792_kdvkby_HM7mNCKaYAAHljr.jpg",
+        "alt": "Cute Travel Vlog Thumbnail",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783845694795_1q0yx4_HM7mNB_bwAANhvi.jpg",
+        "alt": "Cute Travel Vlog Thumbnail",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783845694818_82jpwl_HM7mNB-b0AAPWiR.jpg",
+        "alt": "Cute Travel Vlog Thumbnail",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Haybrook",
+      "url": "https://x.com/BrookHayppuo"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/BrookHayppuo/status/2075954765939487171#reversed-0"
+    },
+    "publishedAt": "2026-07-11T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28434",
+    "contentHash": "96f43b00067fb133d0f101f47c17b3be28f441d1"
+  },
+  {
+    "id": "gpt-image-2:28507",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28507",
+    "title": "Sol Reading to Hamster",
+    "category": "Comic / Storyboard",
+    "description": "A prompt for GPT Image 2 to generate a scene of a character reading a book to a hamster, testing character interaction.",
+    "promptText": "{argument name=\"character\" default=\"Sol\"} reading a book to a {argument name=\"target\" default=\"hamster\"}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character",
+        "default": "Sol"
+      },
+      {
+        "name": "target",
+        "default": "hamster"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783932936951_ckod7g_HNCLOhoa0AA2iCQ.jpg",
+        "alt": "Sol Reading to Hamster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "🐹🐹",
+      "url": "https://x.com/hmst_yyyy"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/hmst_yyyy/status/2076314110078357528"
+    },
+    "publishedAt": "2026-07-12T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28507",
+    "contentHash": "2353d91c2badcd818f0598ba2a6121bf80abde05"
+  },
+  {
     "id": "gpt-image-2:28550",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6759,435 +7214,5 @@
     "publishedAt": "2026-07-10T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28160",
     "contentHash": "6dc3ef225652e4c35dab3be074bf9dba273f3eb3"
-  },
-  {
-    "id": "gpt-image-2:28129",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28129",
-    "title": "Fashion Portrait Under Garage Shutter",
-    "category": "Social Media Post",
-    "description": "A detailed fashion editorial prompt for a realistic portrait of a woman ducking under a colorful, rusted garage shutter with industrial textures.",
-    "promptText": "Pose-first photorealistic fashion editorial photo: {argument name=\"subject description\" default=\"a clearly adult woman in her twenties\"} caught halfway while ducking under a half-open rusty garage shutter. The pose is created by passing through the shutter, not by posing.\n\nBackground identity: {argument name=\"garage style\" default=\"a colorful rusted urban garage front\"} with a half-open corrugated metal shutter, peeling turquoise and red paint, sticker-bombed panels, faded warning graphics, painted floor arrows, colorful plastic crates, exposed pipes, oil-stained concrete, small neon spill, fictional anime posters, torn event flyers, tape marks, and pop-colored graffiti accents. The scene should feel gritty, colorful, lived-in, and visually loud, not a plain dirty garage.\n\nPose lock: {argument name=\"action\" default=\"one hand grips the bottom edge of the half-open shutter at about shoulder height, elbow bent naturally\"}. The other hand stays near the waist, side seam, or thigh to keep the outfit line clean. One foot has already stepped out onto the painted concrete, while the other foot remains just inside the garage threshold. Her torso tilts slightly forward to pass under the shutter, shoulders angled against the hips, waist visible, neck long. The shutter edge creates a strong horizontal line above her body, while the body twists through it. The pose must read as ducking through a garage shutter, not standing in front of it.\n\nComposition lock: vertical 4:5 photorealistic fashion editorial crop, camera around waist-to-chest height with slight low angle. Crop from upper thigh or knee to head if needed. The shutter edge, twisting torso, hand on metal, rusty color blocks, poster wall, and face carry the image.\n\nGaze lock: direct eye contact as if she noticed the camera while coming out from under the shutter. Chin slightly lowered, expression calm, sharp, and caught mid-motion.\n\nAvoid: anime style, illustration style, plain standing, random crouch, arm-over-head glamour pose, clean garage, real logos, readable text, posters covering the face or torso.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject description",
-        "default": "a clearly adult woman in her twenties"
-      },
-      {
-        "name": "garage style",
-        "default": "a colorful rusted urban garage front"
-      },
-      {
-        "name": "action",
-        "default": "one hand grips the bottom edge of the half-open shutter at about shoulder height, elbow bent naturally"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783674273967_f8086c_HM0WpHXbkAE3hQp.jpg",
-        "alt": "Fashion Portrait Under Garage Shutter",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783674273948_8mkoyr_HM0WpHLbwAAca1-.jpg",
-        "alt": "Fashion Portrait Under Garage Shutter",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "MoodLock｜AI画像の惜しいを直す",
-      "url": "https://x.com/MoodLock_JP"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/MoodLock_JP/status/2075339904490586300"
-    },
-    "publishedAt": "2026-07-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28129",
-    "contentHash": "b2d2cbc79252eac19ed39255fcc5e95bcd05067f"
-  },
-  {
-    "id": "gpt-image-2:28149",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28149",
-    "title": "Eight Mini Me Family Portrait",
-    "category": "Social Media Post",
-    "description": "A realistic studio portrait prompt showing one adult subject surrounded by eight playful miniature clones in a warm vintage setting.",
-    "promptText": "Create an ultra-detailed studio “Mini Me family portrait” featuring one real-looking central person and exactly eight miniature childlike clones of him, all sharing the same facial identity, skin tone, short black haircut, expressive dark eyes, eyebrows, nose, lips, ears, smile shape, and overall facial proportions. The central subject is a young Black man named {argument name=\"character name\" default=\"the subject\"}, seated front-and-center in a wicker peacock chair, facing the camera with a calm neutral expression. He wears a navy T-shirt with a distressed Texas-flag-style design, ripped blue jeans, white high-top sneakers, and a wristwatch. Around him are exactly 8 Mini Me versions: 1) a smiling mini sitting on the top left edge of the chair back, legs dangling; 2) a mini standing at far left near a potted palm with arms crossed and a confident side glance; 3) a mini sitting on stacked vintage brown suitcases at bottom left, looking upward thoughtfully; 4) a mini leaning against the man’s left thigh with chin resting on hands, gazing up admiringly; 5) a mini sitting on a small wooden stool at right, smiling toward the man; 6) a mini standing behind the stool on the right, holding a camera up as if photographing the scene; 7) a mini lying on his stomach on the floor at bottom right, drawing a pencil portrait in a spiral sketchbook; 8) a mini partially perched behind the central subject’s left shoulder/upper chair area, playful and cheerful. Dress every Mini Me in matching navy Texas-flag T-shirts, blue jeans, and white sneakers, scaled proportionally, with cute toddler-like bodies but identical recognizable face and hairstyle. Use a warm professional portrait studio setting with a mottled brown textured backdrop, woven jute rug, wicker chair, potted palm on the left, wooden side table on the right with a small plant, vintage leather suitcases, a pencil cup with colored pencils, and the open sketchbook showing a face drawing. Lighting should be cinematic warm softbox lighting, gentle shadows, high realism, sharp facial detail, rich skin tones, subtle depth of field, cozy earthy color palette, vertical 4:5 composition, no text, no watermark, no extra characters, and make all nine figures feel physically present in the same scene.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "the subject"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783674286947_u6htjr_HMz0JEUWMAA6qFG.jpg",
-        "alt": "Eight Mini Me Family Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Abkr Sadiq",
-      "url": "https://x.com/abs_uiux"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/abs_uiux/status/2075301976628236574#reversed-0"
-    },
-    "publishedAt": "2026-07-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28149",
-    "contentHash": "9a105addcbdaeb4ffc39a0885168db0e4827ab1c"
-  },
-  {
-    "id": "gpt-image-2:28092",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28092",
-    "title": "Vintage 1970s Road Trip Photography",
-    "category": "Social Media Post",
-    "description": "A prompt for generating vintage-style photographs of road trips in the 1970s American Southwest, capturing a nostalgic and atmospheric aesthetic.",
-    "promptText": "Vintage photograph of a {argument name=\"activity\" default=\"road trip\"} in the {argument name=\"location\" default=\"American Southwest\"} during the 1970s",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "activity",
-        "default": "road trip"
-      },
-      {
-        "name": "location",
-        "default": "American Southwest"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783674271760_92cxek_HMzrRrnaAAAICaG.jpg",
-        "alt": "Vintage 1970s Road Trip Photography",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783674271688_e4685x_HMzrVh6bMAAxCWA.jpg",
-        "alt": "Vintage 1970s Road Trip Photography",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783674271812_974dhl_HMzrZuKbsAAksoF.jpg",
-        "alt": "Vintage 1970s Road Trip Photography",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "守屋恵一@デジタル系ライター・編集者 / 仕事垢",
-      "url": "https://x.com/moriyakeiichi"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/moriyakeiichi/status/2075295548530475334"
-    },
-    "publishedAt": "2026-07-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28092",
-    "contentHash": "357a736e781128c84addd17159055f535fe5bc95"
-  },
-  {
-    "id": "gpt-image-2:28159",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28159",
-    "title": "Sunlit Orchard Girl With Apples",
-    "category": "Social Media Post",
-    "description": "A photorealistic vertical portrait of a young woman in a summer garden holding two green apples, ideal for cinematic lifestyle or fashion imagery.",
-    "promptText": "Create a vertical 2:3 photorealistic portrait of a young East Asian woman standing in a lush green orchard or garden, framed from the waist up and centered. She has {argument name=\"hair color\" default=\"dark brown-black\"} hair with soft wispy bangs and one thick side braid falling over her right shoulder, decorated with a small silver star-shaped hair clip on the viewer’s right side of her head. She faces the camera directly with a calm, slightly wistful neutral expression, clear fair skin, soft natural makeup, and large gentle eyes. She wears a sleeveless pastel plaid summer dress in muted cream, green, blue, and pink tones, with a simple gathered waist. Both hands are held at chest height, gently cradling exactly 2 pale green apples side by side, each apple with a small visible stem. The background is dense sunlit foliage with large green leaves, shallow depth of field, dreamy circular bokeh, and warm backlighting from the upper left; include strong golden rim light glowing around her hair and shoulders, soft lens flare, and a nostalgic film-photography look. Use natural outdoor lighting, 35mm or 50mm portrait lens feel, delicate skin texture, soft highlights, subtle grain, high dynamic range, and a serene summer atmosphere. Keep the composition clean with no extra people, no extra fruit, no text overlays, no logos, and no watermarks.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "dark brown-black"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783674292281_eh9cp1_HMzm0TybIAAaF8A.jpg",
-        "alt": "Sunlit Orchard Girl With Apples",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "道不生AI笔记",
-      "url": "https://x.com/xingxing_is"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/xingxing_is/status/2075287528404656583#reversed-2"
-    },
-    "publishedAt": "2026-07-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28159",
-    "contentHash": "f623ff09d253d7d6da1e2377545206adbdf0a743"
-  },
-  {
-    "id": "gpt-image-2:28120",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28120",
-    "title": "Photorealistic Fashion Editorial on Urban Stairs",
-    "category": "Social Media Post",
-    "description": "A cinematic and detailed prompt for generating a high-end fashion editorial shot featuring a woman in her twenties on narrow city stairs near an anime shop. It emphasizes natural movement, specific urban textures, and professional camera composition.",
-    "promptText": "Pose-first photorealistic fashion editorial photo: a clearly adult {argument name=\"subject age\" default=\"woman in her twenties\"} paused on a {argument name=\"location\" default=\"narrow outdoor stair landing\"}, turning back as if someone just called her name. The pose is based on interrupted movement, not a static model pose.\n\nPose lock: one foot is planted on a lower step, the other foot stays on a higher step, creating a natural staggered stance. Her hips remain angled toward the stairs, while her torso twists back toward the camera. One hand rests lightly on the stair railing or wall for balance, the other hand stays near the waist, side seam, or bag strap to keep the outfit line clean. Shoulders counter-rotate against the hips, neck long, spine lifted. The body should read as a real half-turn on stairs, not a normal standing pose and not a cute stair-sitting pose.\n\nBackground built for the pose: a narrow city stairway beside a {argument name=\"shop type\" default=\"small anime goods shop\"} or second-floor manga café, with worn concrete steps, metal railings, faded fictional anime posters, manga event flyers, capsule toy ads, sticker layers, torn tape, hand-written notices, a small glowing shop sign, and late afternoon light cutting across the stairs. The background should feel specific, urban, colorful, slightly cramped, and full of anime-culture texture without becoming an anime illustration.\n\nComposition lock: vertical 4:5 photorealistic fashion editorial crop, camera around waist-to-chest height or slightly lower, not extreme low angle. Crop from mid-thigh or knee to head if needed. The stair diagonals, twisting torso, hand on rail, poster wall, and direct gaze carry the image.\n\nGaze lock: direct eye contact over the shoulder. Chin slightly lowered, eyes focused into the lens as if responding to being called. Expression calm, alert, and natural, not blank or overly cute.\n\nAvoid: anime style, illustration style, CGI look, real anime characters, real brand logos, readable text, full-body tourist stair photo, plain standing, sitting on steps, both feet on the same level, random off-camera gaze, stiff catalog pose, posters covering the body.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject age",
-        "default": "woman in her twenties"
-      },
-      {
-        "name": "location",
-        "default": "narrow outdoor stair landing"
-      },
-      {
-        "name": "shop type",
-        "default": "small anime goods shop"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783674269153_ye1xq8_HMzetxabkAAs1sc.jpg",
-        "alt": "Photorealistic Fashion Editorial on Urban Stairs",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783674268860_tl7zhh_HMzetxNaUAA79na.jpg",
-        "alt": "Photorealistic Fashion Editorial on Urban Stairs",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "MoodLock｜AI画像の惜しいを直す",
-      "url": "https://x.com/MoodLock_JP"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/MoodLock_JP/status/2075278411652903089"
-    },
-    "publishedAt": "2026-07-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28120",
-    "contentHash": "e0144b7eb93d5353f5d68706260b87c4940c918a"
-  },
-  {
-    "id": "gpt-image-2:28119",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28119",
-    "title": "Forest Goddess Fantasy Hanfu Portrait",
-    "category": "Social Media Post",
-    "description": "A comprehensive prompt for a cinematic, ethereal portrait of a forest goddess in traditional Hanfu, emphasizing intricate lighting, moisture, and classical beauty.",
-    "promptText": "Create a vertical 9:16 ancient-style fantasy portrait with the theme of {argument name=\"theme\" default=\"forest goddess\"}. An adult Oriental female with an exquisite, cold, and classical aesthetic. Her hair is in a high or half-tied bun, decorated with gold hairpins, jade, pearl chains, and a few pink ornaments. The clothing is a combination of multi-layered Hanfu and fantasy costumes, with varying colors and styles like chest-length Ruqun or large-sleeved shirts. The garment colors can vary, such as {argument name=\"clothing colors\" default=\"moonlight white, jade green, lotus pink, cinnabar red, or indigo\"}, all unified by forest backlighting and cool bluish-gray air. The composition is a close-up 3/4 view from a slight high angle. The main lighting comes from {argument name=\"lighting\" default=\"strong forest backlighting\"} behind and above the subject, creating shattered white highlights through the leaves. A combination of real photography and Oriental fantasy costume editorial with shallow depth of field, slight soft focus, and natural lens flare.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "theme",
-        "default": "forest goddess"
-      },
-      {
-        "name": "clothing colors",
-        "default": "moonlight white, jade green, lotus pink, cinnabar red, or indigo"
-      },
-      {
-        "name": "lighting",
-        "default": "strong forest backlighting"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783674269210_kqnz3j_HMzHApVaYAAqX73.jpg",
-        "alt": "Forest Goddess Fantasy Hanfu Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783674269184_ye84gl_HMzHApWaQAAbVRX.jpg",
-        "alt": "Forest Goddess Fantasy Hanfu Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "COCO椰菜",
-      "url": "https://x.com/coco007ZUHA"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/coco007ZUHA/status/2075252520784375873"
-    },
-    "publishedAt": "2026-07-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28119",
-    "contentHash": "79a061d12f29bd2bba35494c1a46efc7c0c5dc3f"
-  },
-  {
-    "id": "gpt-image-2:28123",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28123",
-    "title": "Retro American Pop Diner Fashion Editorial",
-    "category": "Social Media Post",
-    "description": "A highly detailed fashion editorial prompt for GPT Image 2, specifying background details, composition locks, and pose requirements for a nostalgic Americana aesthetic.",
-    "promptText": "Background identity: a fictional retro American pop diner exterior under bright daylight, with a giant vintage roadside billboard, bold {argument name=\"colors\" default=\"red-pink-turquoise-cream\"} signage, chrome trim, striped awnings, checkerboard curb accents, glossy sunlit pavement, palm trees, wide front windows, pastel-painted curb blocks, and stylized soda-fountain illustrations. Use generalized vintage diner signage only, with no real brand logos or readable brand names. The background should feel colorful, graphic, nostalgic, and unmistakably retro Americana, but it must function as a structured fashion backdrop rather than a travel location.\n\nComposition lock: tight vertical 4:5 fashion editorial composition from a {argument name=\"angle\" default=\"close low angle around thigh-to-waist height\"}, not a full-body catalog shot and not a tourist snapshot. The subject fills about 75–85% of the frame. The main visual pressure comes from the raised arm line, shoulder slope, ribcage, waist curve, hip shift, crossed leg line, hands, and face. Cropping at the lower legs, raised hand, or side edge is allowed. Keep the giant diner sign, chrome pole, awning stripes, checkerboard accents, and bold color blocks visible behind her as compressed retro-pop geometry.\n\nPose lock: the subject must not be seated, crouching, doing a foreground-knee pose, walking, or standing flat. She is in a {argument name=\"pose\" default=\"high-fashion chrome-pole S-curve lean\"} beside the diner entrance or awning support. One hip lightly presses toward the chrome pole while the torso arches away from it, creating a long curved line through waist and ribcage. The arm closest to the pole reaches upward and bends over the head, with the hand lightly touching the chrome pole or awning frame above, creating a strong vertical line. The opposite arm crosses low across the waist or rests along the outer hip, keeping the outfit silhouette clean. One leg crosses in front of the other with the front knee softly bent and angled inward, while the back leg extends longer and may be partially cropped. Hips shift sideways, shoulders counter-rotate against the hips, neck stays long, chest open but not exaggerated. The body must read as an intentional fashion editorial S-curve, not a casual lean.\n\nExpression and gaze lock: the body is angled slightly away from the camera, but the head turns back across the shoulder line toward the lens. Chin slightly lowered, eyes locked directly into the camera with controlled retro-editorial confidence. The gaze must feel created by the twist of the body, not simply pasted on. Brows have subtle tension, lips relaxed, expression composed, sharp, and self-possessed rather than cute or blank.\n\nEditorial intent: the chrome pole, awning stripes, and diner signage create vertical and horizontal graphic lines around the body. The pose should contrast those straight architectural lines with a curved human sil",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "colors",
-        "default": "red-pink-turquoise-cream"
-      },
-      {
-        "name": "angle",
-        "default": "close low angle around thigh-to-waist height"
-      },
-      {
-        "name": "pose",
-        "default": "high-fashion chrome-pole S-curve lean"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783674270727_atcdlc_HMzCdRnaoAAfuqI.jpg",
-        "alt": "Retro American Pop Diner Fashion Editorial",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783674270813_wrglv8_HMzCdRwa8AEnNfY.jpg",
-        "alt": "Retro American Pop Diner Fashion Editorial",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "MoodLock｜AI画像の惜しいを直す",
-      "url": "https://x.com/MoodLock_JP"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/MoodLock_JP/status/2075247342287196600"
-    },
-    "publishedAt": "2026-07-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28123",
-    "contentHash": "1b7fce578fac6e5c5cbcef45166391f023e53802"
-  },
-  {
-    "id": "gpt-image-2:28137",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28137",
-    "title": "Minimalist Luxury Birthday Poster",
-    "category": "Social Media Post",
-    "description": "A high-end editorial-style prompt for creating a minimalist luxury birthday poster with a 3D carved age and elegant floral decor.",
-    "promptText": "Create a minimalist and luxurious poster for a milestone birthday, featuring a giant 3D number '{argument name=\"age\" default=\"[AGE]\"}' carved into a high-end ivory white wall. An elegant person is sitting, leaning, or naturally hanging from the number, striking a confident pose. Elegant floral arrangements of white roses, baby's breath, hydrangeas, and pastel blue balloons frame the composition. Soft natural sunlight, high-end editorial photography, modern celebration aesthetic, clean luxury design, subtle shadows, sophisticated typography. At the top, display the name '{argument name=\"name\" default=\"[NAME]\"}' in an elegant serif font, followed by 'CHAPTER {argument name=\"chapter\" default=\"[AGE]\"}' and the quote '365 More Days of Miracles.' Neutral beige and white color palette, high-end event style, dreamy atmosphere, photorealistic, magazine-quality portrait, ultra-detailed textures, luxury birthday photo shoot, Instagram-worthy, shallow depth of field, soft lighting, 8K masterpiece, professional fashion photography.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "age",
-        "default": "[AGE]"
-      },
-      {
-        "name": "name",
-        "default": "[NAME]"
-      },
-      {
-        "name": "chapter",
-        "default": "[AGE]"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783674277781_tzs3mz_HMy8K2kXoAAJBcP.jpg",
-        "alt": "Minimalist Luxury Birthday Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783674277741_73tiq5_HMy8KxwW8AA-W02.jpg",
-        "alt": "Minimalist Luxury Birthday Poster",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Mr Francklin",
-      "url": "https://x.com/FRANKLINFKK"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/FRANKLINFKK/status/2075240606188663022"
-    },
-    "publishedAt": "2026-07-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28137",
-    "contentHash": "c13b09447ba7a44fde056bbae3609c46b2876486"
-  },
-  {
-    "id": "gpt-image-2:28194",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28194",
-    "title": "Woman on Park Bench Portrait",
-    "category": "Social Media Post",
-    "description": "A photorealistic vertical portrait of a young woman in a white lace dress seated on a park bench in warm natural light.",
-    "promptText": "Create a photorealistic vertical outdoor portrait of a beautiful young East Asian woman sitting on a wooden park bench in a lush green park during warm late-afternoon sunlight. She has long straight {argument name=\"hair color\" default=\"black\"} hair with soft bangs and a small hair clip on one side, clear fair skin, natural makeup, and a gentle shy smile while looking slightly off-camera. She wears a fitted {argument name=\"dress color\" default=\"white\"} off-shoulder lace mini dress with short lace sleeves, a corset-style lace-up front with thin ribbons, delicate floral lace texture, and a scalloped lace hem. Pose her seated sideways on the bench with both hands resting neatly on her knees, relaxed shoulders, elegant posture, and legs angled toward the foreground. The setting includes exactly 1 wooden bench, 1 paved green walking path curving into the background, 1 green trash bin, 1 wooden park signpost with small unreadable signs, several distant pedestrians softly out of focus, dense trees and bushes, dappled shadows, and golden sunlight filtering through leaves. Use a realistic smartphone photo aesthetic, natural skin texture, shallow depth of field, crisp subject focus, soft background bokeh, 3/4 portrait framing from knees to head, vertical 4:5 composition, no visible watermark, no added text, and no exaggerated fantasy styling.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "black"
-      },
-      {
-        "name": "dress color",
-        "default": "white"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783674309986_cehv2j_HMyzGoIa0AEptaG.jpg",
-        "alt": "Woman on Park Bench Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783674309959_6j2e5o_HMyzGoPbgAARmdz.jpg",
-        "alt": "Woman on Park Bench Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "David",
-      "url": "https://x.com/tealdog2"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/tealdog2/status/2075230462117879942#reversed-0"
-    },
-    "publishedAt": "2026-07-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28194",
-    "contentHash": "50071d07c68438e9b8bc22f670a2cd4f7a18faa5"
   }
 ]

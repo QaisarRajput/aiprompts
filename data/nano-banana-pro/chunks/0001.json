@@ -1,5 +1,218 @@
 [
   {
+    "id": "nano-banana-pro:32582",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "32582",
+    "title": "Premium Beverage Advertising Photography",
+    "category": "E-commerce Main Image",
+    "description": "A professional advertising photography prompt designed to create a photorealistic hero shot for a beverage brand, incorporating character and product references.",
+    "promptText": "Create one single photorealistic premium advertising photograph for the fictional beverage {argument name=\"beverage name\" default=\"ENFLAMMER\"}. Use all attached references",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "beverage name",
+        "default": "ENFLAMMER"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787725587170_ybmfk7_HQkQQPWXQAEWzlh.jpg",
+        "alt": "Premium Beverage Advertising Photography",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787725586482_xe4ag2_HQkQR8NWoAAhzRJ.jpg",
+        "alt": "Premium Beverage Advertising Photography",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Exywuu",
+      "url": "https://x.com/exywuu"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/exywuu/status/2092222318084788564"
+    },
+    "publishedAt": "2026-08-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32582",
+    "contentHash": "bdbf6c9a5cdc51ca34a6e30e78ef70ff971f65c6"
+  },
+  {
+    "id": "nano-banana-pro:33471",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "33471",
+    "title": "Artifact Diorama SQL Generation",
+    "category": "Game Asset",
+    "description": "A unique SQL-style generation prompt for creating intricate architectural dioramas with carved stone and antique gold textures.",
+    "promptText": "16:9 select * from artifact_diorama_archives where subject_media = '{argument name=\"media title\" default=\"[media_title]\"}' and base_structure = 'giant_hollowed_out_sphere_cracked_open' and exterior_shell = ( select manuscript_aesthetic, typography from cultural_heritage_db where lore = '{argument name=\"media title\" default=\"[media_title]\"}' format as 'flat_2d_painted_fresco_and_calligraphy_on_outer_curve' ) and interior_payload_strata = array[ (level: 'upper_apex', asset: 'infer_climactic_fortress_or_throne({argument name=\"media title\" default=\"[media_title]\"})'), (level: 'middle_caverns', asset: 'infer_mythological_creatures_and_terrain({argument name=\"media title\" default=\"[media_title]\"})'), (level: 'lower_basin', asset: 'infer_epic_armies_and_waterways({argument name=\"media title\" default=\"[media_title]\"})') ] and materials = 'carved_stone_wood_and_antiqued_gold' and optical_engine = 'macro_photography_depth_of_field';",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "media title",
+        "default": "[media_title]"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788591089116_kxrbhm_HRNiaKKWgAMDb5j.jpg",
+        "alt": "Artifact Diorama SQL Generation",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1788591089335_efreai_HRNie_0WYAEf0-w.jpg",
+        "alt": "Artifact Diorama SQL Generation",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1788591089108_nyvlo1_HRNiqRUXsAI99Ou.jpg",
+        "alt": "Artifact Diorama SQL Generation",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1788591089932_h8rq63_HRNiysxXwAUodN4.jpg",
+        "alt": "Artifact Diorama SQL Generation",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Gadgetify",
+      "url": "https://x.com/Gdgtify"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Gdgtify/status/2095942973934698532"
+    },
+    "publishedAt": "2026-09-04T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33471",
+    "contentHash": "c32f2a8248a2098bd50a6cf7294431bd09d92318"
+  },
+  {
+    "id": "nano-banana-pro:33483",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "33483",
+    "title": "Woodpunk Kinetic Sculpture Automaton",
+    "category": "Game Asset",
+    "description": "A complex prompt system that transforms any subject into a mechanical wooden kinetic sculpture with clockwork details.",
+    "promptText": "1. The Semantic Inference Engine (Dynamic Material Mapping):  \nInput A is ANY Topic (Object, Animal, Plant, or Concept).\nAnalyze the subject's inherent properties and map them to Artisanal Materials:\nThe Primary Body (The Chassis): Infer the subject's main color/weight and assign a corresponding Hardwood. \nThe Accents (The Inlay): Infer the subject's patterns or details and assign a contrasting Marquetry Material. \nThe Mechanics (The Skeleton): Infer the subject's joints or power source and assign Metal Hardware.\n2. The \"Immutable\" Container (The Automaton):\nGoal: A \"Da Vinci Workshop\" Product Shot.\nThe Object: The subject is rendered as a complex, freestanding Wooden Mechanical Toy.\nThe Base: The model stands on a hand-carved wooden block representing its semantic environment.\nThe Scale: Macro photography of a tabletop object (approx. 12 inches tall).\n3. The Clockwork Interior (The Transformation):\nThe Cutaway: A section of the outer \"wood shell\" is visually removed or hinged open.\nThe Guts: Inside, the biological or mechanical inner workings are replaced by Clockwork Mechanics.\nRule: Visible gears, bicycle chains, watch springs, and brass flywheels must imply the object moves via wind-up power.\nThe Fasteners: Tiny brass screws, rivets, and hinges are visible along the seams of the wood.\n4. The Narrative Figure (The Operator):\nThe Character: A standard Jointed Wooden Mannequin (Artist's Doll style) is integrated into the scene.\nThe Role: The figure acts as the maintainer, rider, or operator of the subject.\nInteraction: They are climbing a ladder to polish the object, turning a giant wind-up key, or steering the beast/machine.\nThe Accessories: The doll wears carved wooden gear appropriate to the context.\n5. Lighting & Atmosphere:\nLighting: Softbox Studio Lighting. Diffused, high-end commercial lighting that creates long, elegant highlights on the varnished curves.\nBackground: Neutral Studio Grey. Seamless infinity backdrop to focus entirely on the material textures.\nTexture: High Gloss Varnish. The wood must look expensive, smooth, and deeply saturated.\nOutput: ONE image, 1:1 Aspect Ratio, Product Photography, \"Woodpunk\" aesthetic, 8k Resolution.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788591095766_6nq71i_HRP8n6XWcAEna6M.jpg",
+        "alt": "Woodpunk Kinetic Sculpture Automaton",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Gadgetify",
+      "url": "https://x.com/Gdgtify"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Gdgtify/status/2095854642882019392"
+    },
+    "publishedAt": "2026-09-04T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33483",
+    "contentHash": "6ba187afe6c44775096a41c687188fe257018189"
+  },
+  {
+    "id": "nano-banana-pro:33481",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "33481",
+    "title": "Manga Desktop Diorama Model Kit",
+    "category": "Game Asset",
+    "description": "A unique prompt for visualizing manga and anime franchises as physical clay and resin diorama model kits.",
+    "promptText": "{ \"Aesthetic\": \"Physical Desktop Diorama, Resin and Clay Model Kit\", \"Subject\": \"{argument name=\"franchise\" default=\"[FRANCHISE]\"}\", \"Physical_Components\": { \"The_Archway\": \"Massive 3D letters spelling {argument name=\"franchise name\" default=\"[FRANCHISE]\"}, textured as AI_INFER(materials authentic to the lore).\", \"The_Vessel\": \"A hollow, sliced-open antique bowl/container holding the world.\", \"The_Ecosystem\": { \"Terrain\": \"AI_INFER(Miniature mountains, castles, or cities).\", \"Fluids\": \"Translucent, glossy poured epoxy resin simulating water/lava.\", \"Inhabitants\": \"Microscopic, hyper-detailed figures interacting with the terrain.\" } }, \"Lighting\": \"Cinematic product photography. Rim light highlighting the edges of the 3D typography.\" }",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "franchise",
+        "default": "[FRANCHISE]"
+      },
+      {
+        "name": "franchise name",
+        "default": "[FRANCHISE]"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788591094576_5cnp5g_HRPxrfzbgAAv-fK.jpg",
+        "alt": "Manga Desktop Diorama Model Kit",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Gadgetify",
+      "url": "https://x.com/Gdgtify"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Gdgtify/status/2095836776807936436"
+    },
+    "publishedAt": "2026-09-04T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33481",
+    "contentHash": "3bdd64ebb00eab07ce61f899127b5db65e466aa3"
+  },
+  {
+    "id": "nano-banana-pro:33386",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "33386",
+    "title": "Ethereal Floral Portrait",
+    "category": "Game Asset",
+    "description": "A close-up portrait of a woman with midnight-blue hair intertwined with white peonies and floral vines.",
+    "promptText": "Close-up portrait of an ethereal {argument name=\"subject\" default=\"young woman\"} with porcelain skin and expressive hazel-brown eyes, parted lips, cascading wavy {argument name=\"hair color\" default=\"midnight-blue and cobalt\"} hair intricately intertwined with large blooming white peonies and deep blue floral vines, organic botanical dress blending seamlessly into blue leaves and white blossoms, dark minimalist background, dramatic chiaroscuro lighting, smooth digital concept art, soft cinematic shadows, photorealistic details, fine line art, trending on ArtStation, 8k resolution, aspect ratio 9:16",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "young woman"
+      },
+      {
+        "name": "hair color",
+        "default": "midnight-blue and cobalt"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788591084589_27rgsd_HRVdVBJbIAA-NbX.jpg",
+        "alt": "Ethereal Floral Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "𝑨𝒇𝒓𝒊𝒏",
+      "url": "https://x.com/afrinxai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/afrinxai/status/2095749951464919337"
+    },
+    "publishedAt": "2026-09-04T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33386",
+    "contentHash": "61234523fa0822c14755ae69847fd90c575679f5"
+  },
+  {
     "id": "nano-banana-pro:33268",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
@@ -6804,262 +7017,5 @@
     "publishedAt": "2026-08-24T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32513",
     "contentHash": "49508bd7042e7111252450825b7b1a5bf814c82e"
-  },
-  {
-    "id": "nano-banana-pro:32501",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "32501",
-    "title": "Whimsical Coloring Page Illustration",
-    "category": "Infographic / Edu Visual",
-    "description": "A playful black and white line drawing prompt for a dense, sticker-style coloring page with customizable text.",
-    "promptText": "A black and white line drawing features the text \"{argument name=\"quote\" default=\"DOING MY BEST RESULTS MAY VARY\"}\" in large, bold, bubble-style lettering. The text is surrounded by various cute and whimsical elements, including smiling stars, a cat face, clouds, daisies, hearts, cupcakes, a boba tea, and sparkly starbursts. The overall composition is dense and playful, designed as a coloring page.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "quote",
-        "default": "DOING MY BEST RESULTS MAY VARY"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787639835929_41tdel_HPMiazuWYAA5e7F.jpg",
-        "alt": "Whimsical Coloring Page Illustration",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Heather Green",
-      "url": "https://x.com/heathergreen"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/heathergreen/status/2091812770274492604"
-    },
-    "publishedAt": "2026-08-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32501",
-    "contentHash": "238cad09e5d4e1d7bf6b2b81eb1e3133c58bfe3c"
-  },
-  {
-    "id": "nano-banana-pro:32402",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "32402",
-    "title": "Indonesian Woman Hijab Portrait",
-    "category": "Profile / Avatar",
-    "description": "A photorealistic vertical portrait of a Southeast Asian woman wearing a beige hijab and black top against a muted gray wall.",
-    "promptText": "A photorealistic vertical portrait of {argument name=\"subject\" default=\"a young Southeast Asian woman (Indonesian features)\"} standing indoors in front of {argument name=\"background\" default=\"a plain muted gray wall\"}. She wears a smooth light beige hijab wrapped neatly around her head and neck. Her expression is soft and slightly smiling, with gentle eyes looking straight at the camera. She has light natural makeup and clear skin. She is dressed in {argument name=\"outfit\" default=\"a fitted black long-sleeve top and high-waisted light beige trousers\"}. A thin gold metallic chain of a shoulder bag hangs across her body. Soft diffused indoor lighting casts a subtle shadow behind her on the wall. Shallow depth of field, natural skin texture, realistic fabric folds, calm and modest aesthetic, high detail, 4k quality.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "a young Southeast Asian woman (Indonesian features)"
-      },
-      {
-        "name": "background",
-        "default": "a plain muted gray wall"
-      },
-      {
-        "name": "outfit",
-        "default": "a fitted black long-sleeve top and high-waisted light beige trousers"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787552785582_xr3gth_HQJjX9QaUAAL9X7.jpg",
-        "alt": "Indonesian Woman Hijab Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787552785355_ovjx08_HQJjX-DboAAU9cX.jpg",
-        "alt": "Indonesian Woman Hijab Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787552785892_h15ytn_HQJjX9Ya4AAGLFq.jpg",
-        "alt": "Indonesian Woman Hijab Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Feyber | AI Creator",
-      "url": "https://x.com/woleswoosh"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/woleswoosh/status/2091616465212330374"
-    },
-    "publishedAt": "2026-08-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32402",
-    "contentHash": "1607169b61178e060db65819ab386d0001920b81"
-  },
-  {
-    "id": "nano-banana-pro:32406",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "32406",
-    "title": "Balayage Hair Golden Hour Portrait",
-    "category": "Profile / Avatar",
-    "description": "A dreamy close-up portrait prompt of a young woman with multi-tonal balayage hair captured in warm afternoon window sunlight.",
-    "promptText": "Close-up portrait of {argument name=\"subject\" default=\"a beautiful young Southeast Asian woman\"}, {argument name=\"hair style\" default=\"long wavy hair with dark roots and honey blonde ash caramel balayage highlights, soft curtain bangs\"}, large dark almond eyes, natural dewy skin, soft coral pink lips, gentle gaze, {argument name=\"lighting\" default=\"warm afternoon window sunlight streaming in, dappled light across face, soft golden glow\"}, loose natural waves with luminous shine, soft blurred indoor background, intimate cozy atmosphere, photorealistic, high detail, soft warm color grading, natural skin texture, dreamy soft lighting, 8K, selfie angle",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "a beautiful young Southeast Asian woman"
-      },
-      {
-        "name": "hair style",
-        "default": "long wavy hair with dark roots and honey blonde ash caramel balayage highlights, soft curtain bangs"
-      },
-      {
-        "name": "lighting",
-        "default": "warm afternoon window sunlight streaming in, dappled light across face, soft golden glow"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787552787709_3cyu90_HQEllazasAAgFM-.jpg",
-        "alt": "Balayage Hair Golden Hour Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787552787798_zk2aqj_HQElla6aMAAnCFu.jpg",
-        "alt": "Balayage Hair Golden Hour Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787552787703_ol967w_HQEllbEbYAAsz2i.jpg",
-        "alt": "Balayage Hair Golden Hour Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787552788649_ddv48p_HQEllbDasAAo2Q3.jpg",
-        "alt": "Balayage Hair Golden Hour Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Feyber | AI Creator",
-      "url": "https://x.com/woleswoosh"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/woleswoosh/status/2091435275108979088"
-    },
-    "publishedAt": "2026-08-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32406",
-    "contentHash": "950ff8fb2ecabbac548c4272f4ddccb3e2128bf5"
-  },
-  {
-    "id": "nano-banana-pro:32401",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "32401",
-    "title": "Polka Dot Outfit Mirror Selfie",
-    "category": "Profile / Avatar",
-    "description": "A detailed prompt for generating a photorealistic mirror selfie of a woman wearing a blue and black polka-dot outfit in a modern home studio setting.",
-    "promptText": "Create a photorealistic lifestyle mirror portrait of {argument name=\"subject\" default=\"a young woman with fair skin, natural complexion, dark brown hair pulled back into a relaxed ponytail with subtle loose strands around her face, and softly defined facial features. She has a warm, genuine smile and is looking toward the smartphone screen through the mirror\"}. Her expression feels relaxed, cheerful, and natural. She is standing comfortably in front of a large rounded-edge mirror, holding a smartphone in one hand while extending the other arm slightly outward, creating an authentic casual mirror-selfie composition.\\n\\nShe is wearing {argument name=\"outfit\" default=\"a coordinated light-blue outfit with a black polka-dot pattern: a short-sleeved gathered top with softly puffed sleeves, a central tie detail, and a matching high-waisted skirt with a tied waist detail and a tasteful side opening\"}. The clothing should have realistic fabric texture, natural folds, stitching, and believable draping. Add a delicate minimal bracelet and keep other accessories understated.\\n\\n{argument name=\"setting\" default=\"The scene is a warm, modern bedroom or home studio with a large wooden wardrobe or wall panel behind her, a white digital piano positioned against the wall, a simple wooden chair, a small potted green plant, a framed minimalist artwork, and a small table lamp producing a cozy glow\"}. Include a softly curved mirror frame and subtle reflections throughout the room. Use a combination of gentle natural daylight and warm ambient lamp light, creating soft highlights on the subject and furniture with realistic shadows and a comfortable evening-at-home atmosphere.\\n\\nShot on a high-quality smartphone camera with a natural 35mm-equivalent perspective, realistic mirror reflection, balanced framing, moderate depth of field, authentic indoor exposure, soft cinematic color grading, high dynamic range, detailed skin texture, individual hair strands, accurate hands and fingers, realistic fabric texture, natural proportions, subtle photographic grain, polished lifestyle photography, high detail, photorealistic rendering.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "a young woman with fair skin, natural complexion, dark brown hair pulled back into a relaxed ponytail with subtle loose strands around her face, and softly defined facial features. She has a warm, genuine smile and is looking toward the smartphone screen through the mirror"
-      },
-      {
-        "name": "outfit",
-        "default": "a coordinated light-blue outfit with a black polka-dot pattern: a short-sleeved gathered top with softly puffed sleeves, a central tie detail, and a matching high-waisted skirt with a tied waist detail and a tasteful side opening"
-      },
-      {
-        "name": "setting",
-        "default": "The scene is a warm, modern bedroom or home studio with a large wooden wardrobe or wall panel behind her, a white digital piano positioned against the wall, a simple wooden chair, a small potted green plant, a framed minimalist artwork, and a small table lamp producing a cozy glow"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787552785019_rlg8fy_HQYAXVfb0AA7Jp2.jpg",
-        "alt": "Polka Dot Outfit Mirror Selfie",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787552785280_baog97_HQYAaKVacAAIMQo.jpg",
-        "alt": "Polka Dot Outfit Mirror Selfie",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787552785063_x0ukgb_HQYAa40boAEjPfr.jpg",
-        "alt": "Polka Dot Outfit Mirror Selfie",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "J⭕DIE",
-      "url": "https://x.com/Jodie_Noraa"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Jodie_Noraa/status/2091359555796205925"
-    },
-    "publishedAt": "2026-08-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32401",
-    "contentHash": "8635b56662dca558036dc9eec9f4556e2db79bb6"
-  },
-  {
-    "id": "nano-banana-pro:32414",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "32414",
-    "title": "Mirror Selfie Character Consistency",
-    "category": "Social Media Post",
-    "description": "A character consistency prompt for Nano Banana Pro that uses an uploaded reference photo to generate a specific scene involving a mirror selfie and a gazebo.",
-    "promptText": "Use the uploaded image as the only facial reference and preserve 100% facial identity, hairstyle, beard, skin tone, and natural skin texture. Use my pic face A {argument name=\"subject\" default=\"young man with black hair, a beard, and a silver watch\"} is taking a mirror selfie using his dark smartphone, side his face with the phone. He is wearing a {argument name=\"clothing\" default=\"dark blue polo t-shirt with beige trim and beige trousers\"}. He is standing outdoors with lush green plants around him. Behind him, there is a {argument name=\"setting\" default=\"gazebo with a golden dome roof, decorated with blue, white, and red balloon clusters\"}. A part of a black wicker chair and light gray pillows are visible in the lower-left corner. The sky is bright with light clouds. This is a high-quality, sharp-focus photo with natural lighting.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "young man with black hair, a beard, and a silver watch"
-      },
-      {
-        "name": "clothing",
-        "default": "dark blue polo t-shirt with beige trim and beige trousers"
-      },
-      {
-        "name": "setting",
-        "default": "gazebo with a golden dome roof, decorated with blue, white, and red balloon clusters"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787552795538_znoqax_HQcyrLrb0AEAKos.jpg",
-        "alt": "Mirror Selfie Character Consistency",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Dilshad Hussain",
-      "url": "https://x.com/DilshadAI1"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/DilshadAI1/status/2091696404741931204"
-    },
-    "publishedAt": "2026-08-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32414",
-    "contentHash": "daea0f2b1cbeeac33fa8e1f9a16b44b5e0f5e555"
   }
 ]
