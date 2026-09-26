@@ -1,5 +1,280 @@
 [
   {
+    "id": "nano-banana-pro:31335",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "31335",
+    "title": "Beach Arcade Night iPhone Shot",
+    "category": "Profile / Avatar",
+    "description": "Generates a realistic iPhone-style amateur photograph of a young woman playing arcade games at a beach at night with friends.",
+    "promptText": "hyper real vertical amateur iphone shot of a young woman around {argument name=\"age\" default=\"21yo\"} {argument name=\"setting\" default=\"playing colourful arcade games at the beach at night\"} laughing with girl friends, supermodel aesthethics, night time, subtle blurry shot - old money clothes but {argument name=\"outfit\" default=\"tight summer outfit with crop top, denim shorts and high heels stilettos\"}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "age",
+        "default": "21yo"
+      },
+      {
+        "name": "setting",
+        "default": "playing colourful arcade games at the beach at night"
+      },
+      {
+        "name": "outfit",
+        "default": "tight summer outfit with crop top, denim shorts and high heels stilettos"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786690119186_7vycgr_HPoRbwjXgAA4MPZ.jpg",
+        "alt": "Beach Arcade Night iPhone Shot",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786690120605_xlrin4_HPoRbwhXsAATWh8.jpg",
+        "alt": "Beach Arcade Night iPhone Shot",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786690119344_hu79x4_HPoRbwuWQAAfLwJ.jpg",
+        "alt": "Beach Arcade Night iPhone Shot",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "KeorUnreal",
+      "url": "https://x.com/KeorUnreal"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/KeorUnreal/status/2088000557227090177"
+    },
+    "publishedAt": "2026-08-13T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=31335",
+    "contentHash": "8dd39ceca0fb4ce496d2a1d1f9b9b47ef4eaaca8"
+  },
+  {
+    "id": "nano-banana-pro:31346",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "31346",
+    "title": "Monochrome Studio Portrait with Colored Lens",
+    "category": "Profile / Avatar",
+    "description": "A minimalist black and white studio portrait that features a striking pop of color on the subject's glasses.",
+    "promptText": "Ultra-realistic studio portrait of a man, close-up headshot, centered composition, neutral expression, sharp facial details, textured skin, clean grooming, wearing a {argument name=\"top clothing\" default=\"black turtleneck\"} and {argument name=\"outerwear\" default=\"dark tailored coat\"}, modern minimalist fashion, monochrome black and white photography style, only the glasses in color ({argument name=\"glasses color\" default=\"Translucent amber-orange\"} frame and lenses), high contrast lighting, soft studio light, cinematic shadows, editorial fashion photography, plain light background, 85mm lens, shallow depth of field, ultra detailed, photorealistic, magazine quality, 8K.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "top clothing",
+        "default": "black turtleneck"
+      },
+      {
+        "name": "outerwear",
+        "default": "dark tailored coat"
+      },
+      {
+        "name": "glasses color",
+        "default": "Translucent amber-orange"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786690126738_0ejl7j_HPnYtigXIAAz8sf.jpg",
+        "alt": "Monochrome Studio Portrait with Colored Lens",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786690126747_hg1md0_HPnYtilXEAE7_Ed.jpg",
+        "alt": "Monochrome Studio Portrait with Colored Lens",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786690126781_lkvo1m_HPnYtikWkAAsoYi.jpg",
+        "alt": "Monochrome Studio Portrait with Colored Lens",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786690127550_vngoib_HPnYtidXcAADgMd.jpg",
+        "alt": "Monochrome Studio Portrait with Colored Lens",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "MadeByAmin",
+      "url": "https://x.com/madebyameen"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/madebyameen/status/2087938186697695701"
+    },
+    "publishedAt": "2026-08-13T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=31346",
+    "contentHash": "fb70baaf0b027474a4166d3c687c3635444cce2a"
+  },
+  {
+    "id": "nano-banana-pro:31352",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "31352",
+    "title": "Minimalist Sage Green Studio Portrait",
+    "category": "Profile / Avatar",
+    "description": "A structured JSON-formatted prompt for a high-fashion studio portrait with a large brimmed hat and neon background elements.",
+    "promptText": "{\n  \"subject\": {\n    \"description\": \"{argument name=\"subject description\" default=\"Young woman with fair porcelain skin, long wavy platinum-blonde hair cascading over her shoulders\"}\",\n    \"hair\": \"Long, soft wavy blonde hair flowing down past the shoulders\",\n    \"body\": \"Slender figure with smooth skin\",\n    \"pose\": \"Seated upright in an armchair, legs together, arms resting gently along the sides of her body, facing the camera\",\n    \"expression\": \"Neutral and elegant, soft direct gaze\"\n  },\n  \"outfit\": {\n    \"main\": \"{argument name=\"clothing\" default=\"Light peach/beige draped one-piece garment with thin straps\"}\",\n    \"headwear\": \"Large wide-brimmed light beige/peach structured hat with concentric ridge details\"\n  },\n  \"setting\": {\n    \"location\": \"Minimalist indoor studio space\",\n    \"background\": \"{argument name=\"wall color\" default=\"Soft muted sage-green wall\"}\",\n    \"added_element\": \"Neon green written 'Keor' glowing on the wall in the backdrop\"\n  },\n  \"lighting\": {\n    \"type\": \"Soft diffused studio lighting\",\n    \"effects\": \"Gentle highlights on the skin and hat, smooth even illumination with minimal shadows, elegant and refined atmosphere\"\n  },\n  \"camera\": {\n    \"angle\": \"Eye-level frontal view\",\n    \"framing\": \"Upper-body to mid-thigh portrait shot, subject centered in the chair\",\n    \"style\": \"Photorealistic, high-detail fashion portrait, soft focus on background\"\n  },\n  \"additional_details\": {\n    \"skin\": \"Smooth, luminous fair skin with natural soft glow\",\n    \"atmosphere\": \"Elegant, minimalist, high-fashion studio portrait\"\n  }\n}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject description",
+        "default": "Young woman with fair porcelain skin, long wavy platinum-blonde hair cascading over her shoulders"
+      },
+      {
+        "name": "clothing",
+        "default": "Light peach/beige draped one-piece garment with thin straps"
+      },
+      {
+        "name": "wall color",
+        "default": "Soft muted sage-green wall"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786690132074_17sqqu_HPmxWJdWMAA0yWC.jpg",
+        "alt": "Minimalist Sage Green Studio Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786690132148_luau43_HPmxWJcXcAAav0P.jpg",
+        "alt": "Minimalist Sage Green Studio Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786690132071_tijvtb_HPmxWJdXEAI0Lx7.jpg",
+        "alt": "Minimalist Sage Green Studio Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786690134533_9nhyme_HPmxWJcWMAEKzvo.jpg",
+        "alt": "Minimalist Sage Green Studio Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "KeorUnreal",
+      "url": "https://x.com/KeorUnreal"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/KeorUnreal/status/2087894905053921756"
+    },
+    "publishedAt": "2026-08-13T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=31352",
+    "contentHash": "57cbe66197ab53e0c7a8e13f533445a68483853a"
+  },
+  {
+    "id": "nano-banana-pro:31344",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "31344",
+    "title": "Stylish Airport Travel Portrait",
+    "category": "Profile / Avatar",
+    "description": "A high-fashion portrait of a young man at an airport, designed to maintain facial consistency from an uploaded reference photo.",
+    "promptText": "Ultra-realistic 8K portrait of a stylish young man FROM ATTACHED PHOTO, standing confidently with a VIP suitcase in front of an {argument name=\"airline\" default=\"Emirates airplane\"} at the airport. Passengers board in the blurred background. he wears an {argument name=\"top clothing\" default=\"white linen shirt\"}, {argument name=\"bottom clothing\" default=\"black cargo pants\"}, white sneakers, and aviators sunglasses. Stylish pose with one hand casually in her pocket. Realistic lighting, cinematic, and natural, capturing a modern, fashionable travel vibe. keep my face exactly the same as the uploaded photo.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "airline",
+        "default": "Emirates airplane"
+      },
+      {
+        "name": "top clothing",
+        "default": "white linen shirt"
+      },
+      {
+        "name": "bottom clothing",
+        "default": "black cargo pants"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786690125520_f0pgp4_HPmVDceWIAAhJmW.jpg",
+        "alt": "Stylish Airport Travel Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786690125638_ga7qvp_HPmVDcWXIAAndK9.jpg",
+        "alt": "Stylish Airport Travel Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Alex Prompts",
+      "url": "https://x.com/AlexPromptsAI"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AlexPromptsAI/status/2087863926348251196"
+    },
+    "publishedAt": "2026-08-13T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=31344",
+    "contentHash": "43e0c132982cece5b6caf4eaa21a20f6d700ad84"
+  },
+  {
+    "id": "nano-banana-pro:31351",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "31351",
+    "title": "Woman with Teal and Yellow Parrots",
+    "category": "Profile / Avatar",
+    "description": "A soft studio portrait of a woman holding a flock of colorful parrots, set against a light gray background.",
+    "promptText": "A close up, studio portrait features a fair skinned woman with {argument name=\"hair color\" default=\"dark brown/black hair\"}, eyes closed, tenderly holding a flock of five small {argument name=\"birds\" default=\"teal & yellow parrots\"}. the parrots are uniformly bright with orange beaks and black eyes circled in white. they are scattered across her shoulders and arms, resting gently. her attire appears to be made of a {argument name=\"fabric\" default=\"cream colored, possibly lace\"}, fabric. the background is a smooth, light gray, providing a soft contrast to the bright yellow & teal of the birds and the light tone of the woman's skin.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "dark brown/black hair"
+      },
+      {
+        "name": "birds",
+        "default": "teal & yellow parrots"
+      },
+      {
+        "name": "fabric",
+        "default": "cream colored, possibly lace"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786690133621_186gr7_HPlxI3la4AAfYzo.jpg",
+        "alt": "Woman with Teal and Yellow Parrots",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "lovimg_com",
+      "url": "https://x.com/lovimg_com"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/lovimg_com/status/2087824307498168626"
+    },
+    "publishedAt": "2026-08-13T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=31351",
+    "contentHash": "93021131ed9d72c896bc6476f3fbcaeefff7c5a0"
+  },
+  {
     "id": "nano-banana-pro:31349",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
@@ -7135,249 +7410,5 @@
     "publishedAt": "2026-07-30T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30345",
     "contentHash": "21c11b6b6e2fa3b4b8456cf0b602941ab4d9479f"
-  },
-  {
-    "id": "nano-banana-pro:30332",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "30332",
-    "title": "Expressive Mixed-Media Sketch Portrait",
-    "category": "Profile / Avatar",
-    "description": "An artistic prompt for creating semi-abstract, gestural portraits that blend sketch lines with painterly strokes on textured paper.",
-    "promptText": "Expressive mixed-media portrait style on reddish-brown toned paper, rough textured background resembling warm sepia kraft paper, loose and gestural sketch lines combined with painterly strokes, visible construction lines and scribbles, semi-abstract rendering, face and neck highly refined with layered brushwork and subtle color blending, while the rest of the body remains unfinished and loosely suggested, fragmented edges and fading outlines, dynamic linework with pencil and ink feel, soft diffused lighting with warm and cool tonal contrasts, raw artistic process aesthetic, imperfect and organic, with visible strokes, cross-hatching, and color blocking, contemporary expressive realism style.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785482585264_57adtw_HOepJoTagAAGZve.jpg",
-        "alt": "Expressive Mixed-Media Sketch Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785482584920_w8w7ff_HOepKP0bkAA-MU1.jpg",
-        "alt": "Expressive Mixed-Media Sketch Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "zayan",
-      "url": "https://x.com/HustleXR"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/HustleXR/status/2082819355273015723"
-    },
-    "publishedAt": "2026-07-30T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30332",
-    "contentHash": "c48b20a4e7a05df14f6448e3be19c7c21b2faaf9"
-  },
-  {
-    "id": "nano-banana-pro:30204",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "30204",
-    "title": "Auburn Hair Outdoor Portrait",
-    "category": "Profile / Avatar",
-    "description": "A series of two photorealistic portraits of a woman with curly auburn hair in a natural outdoor setting with dappled sunlight.",
-    "promptText": "A series of two photorealistic outdoor portraits featuring the same young woman with distinctive {argument name=\"hair color\" default=\"curly auburn hair\"}, light freckles, and a gentle, warm expression. She is wearing a {argument name=\"outfit\" default=\"textured, long-sleeved maroon or rust-colored blouse\"} with a lace-trimmed neckline and a simple, dark-corded pendant necklace. The first image is a front-facing close-up, where she looks directly at the camera with her hands clasped in front of her, bathed in {argument name=\"lighting\" default=\"soft, dappled sunlight\"} filtered through trees, creating a natural bokeh background of green foliage. The second image is a side profile portrait, showing her smiling broadly upwards and to the side against a blurred, darker, textured wall background, with sunlight highlighting the curls and contours of her face. The lighting throughout is natural and flattering. The images have a consistent, warm, and natural feel.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "curly auburn hair"
-      },
-      {
-        "name": "outfit",
-        "default": "textured, long-sleeved maroon or rust-colored blouse"
-      },
-      {
-        "name": "lighting",
-        "default": "soft, dappled sunlight"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785482588856_130k6h_HOdA-l4WEAA87Cg.jpg",
-        "alt": "Auburn Hair Outdoor Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785482588905_kc7ycd_HOdA_mWXwAAVxOE.jpg",
-        "alt": "Auburn Hair Outdoor Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Minahil",
-      "url": "https://x.com/Minahil42298354"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Minahil42298354/status/2082704825620255075"
-    },
-    "publishedAt": "2026-07-30T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30204",
-    "contentHash": "834c3ee233f2546b0d40c6d2f3c1985609eaaa91"
-  },
-  {
-    "id": "nano-banana-pro:30206",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "30206",
-    "title": "Yellow Silk Studio Portrait",
-    "category": "Profile / Avatar",
-    "description": "A series of three photorealistic studio portraits of a woman wearing a yellow silk blouse, utilizing low-key dramatic lighting.",
-    "promptText": "A series of three photorealistic studio portraits featuring the same young woman. The central subject has dark hair styled in a low bun, {argument name=\"eye color\" default=\"striking blue eyes\"}, and full lips. She is wearing a distinct, {argument name=\"outfit\" default=\"high-necked, long-sleeved yellow silk blouse\"} with gathered fabric details. In the first image, she is in a three-quarter profile looking directly at the camera. In the second image, she is in a sharper profile, looking to the right of the frame. The third image is a more dramatic, close-up profile view, also looking to the right. The {argument name=\"lighting\" default=\"lighting is low-key and dramatic\"}, with a soft, warm key light illuminating one side of her face and the yellow fabric, creating deep shadows on the dark, textured background. The focus is sharp on her face and the texture of the silk. The overall aesthetic is elegant and mysterious.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "eye color",
-        "default": "striking blue eyes"
-      },
-      {
-        "name": "outfit",
-        "default": "high-necked, long-sleeved yellow silk blouse"
-      },
-      {
-        "name": "lighting",
-        "default": "lighting is low-key and dramatic"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785482587060_a5nv2g_HOcg-FVWQAAqNre.jpg",
-        "alt": "Yellow Silk Studio Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785482587413_1spg1v_HOcg-7-WsAEAM-1.jpg",
-        "alt": "Yellow Silk Studio Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785482587245_xkwyq2_HOcg_sDWEAAPUQP.jpg",
-        "alt": "Yellow Silk Studio Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Minahil",
-      "url": "https://x.com/Minahil42298354"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Minahil42298354/status/2082669642313535801"
-    },
-    "publishedAt": "2026-07-30T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30206",
-    "contentHash": "50770bee0ffd3f281d03b786a1c373758745d0fb"
-  },
-  {
-    "id": "nano-banana-pro:30207",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "30207",
-    "title": "Editorial Digital Portrait Painting",
-    "category": "Profile / Avatar",
-    "description": "A prompt for creating premium semi-realistic digital portraits with expressive brushwork and refined fine-art aesthetics.",
-    "promptText": "A premium semi-realistic digital portrait painting with refined editorial illustration aesthetics, combining expressive painterly brushwork and polished realism. Smooth yet visible layered brush strokes define every facial plane, with subtle painterly texture replacing photographic sharpness. Rich volumetric lighting and carefully blended color transitions create sculptural depth while preserving handcrafted artistic character. A {argument name=\"color palette\" default=\"warm, elegant color palette featuring cream, ivory, warm beige, light sand, soft peach, burnt orange, terracotta, muted sienna, warm brown, charcoal navy, slate blue, and delicate desaturated teal accents\"}. The background consists of abstract painterly brush strokes, soft watercolor washes, dry-brush textures, and subtle paint splatters, creating an airy fine-art atmosphere without distracting from the portrait. Soft cinematic lighting with luminous skin highlights, gentle ambient shadows, and balanced medium-to-high contrast. Hair is rendered using layered flowing brush strokes with natural volume and individual strand definition. Clothing combines broad painterly strokes with selective detail, emphasizing {argument name=\"clothing style\" default=\"elegant simplicity\"} rather than excessive texture. A clean contemporary fine-art illustration style inspired by high-end editorial portrait paintings, museum-quality digital artwork, ultra-detailed yet painterly, crisp edges with soft organic transitions, premium matte finish, expressive handcrafted brushwork, harmonious composition, vertical composition (9:16), no text, no typography, no signature, no initials, no logo, no watermark, no frame.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "color palette",
-        "default": "warm, elegant color palette featuring cream, ivory, warm beige, light sand, soft peach, burnt orange, terracotta, muted sienna, warm brown, charcoal navy, slate blue, and delicate desaturated teal accents"
-      },
-      {
-        "name": "clothing style",
-        "default": "elegant simplicity"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785482591821_9g1kgo_HOceE3iXwAAwpo5.jpg",
-        "alt": "Editorial Digital Portrait Painting",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785482591875_ppikxg_HOceFkJXsAA6S3a.jpg",
-        "alt": "Editorial Digital Portrait Painting",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785482592003_putlm6_HOceGQJXAAAM1O6.jpg",
-        "alt": "Editorial Digital Portrait Painting",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785482592635_p7zzeu_HOceHJgXsAAAfwB.jpg",
-        "alt": "Editorial Digital Portrait Painting",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "zayan",
-      "url": "https://x.com/HustleXR"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/HustleXR/status/2082666471910707616"
-    },
-    "publishedAt": "2026-07-30T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30207",
-    "contentHash": "4245ced4e51d9d943ab83fc059ed2dffc43d5aad"
-  },
-  {
-    "id": "nano-banana-pro:30343",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "30343",
-    "title": "Street-Style Fashion Portrait",
-    "category": "Social Media Post",
-    "description": "A trendy street-style fashion prompt for a young woman in an urban setting, featuring casual attire and realistic daylight.",
-    "promptText": "Photorealistic street-style portrait of a {argument name=\"subject\" default=\"stunning young woman in her early 20s\"} with tanned olive skin, light freckles across her nose and cheeks, full lips with natural makeup, and long wavy dark brown hair styled in a messy half-up bun with loose strands framing her face. She wears black rectangular sunglasses, large thin gold hoop earrings, and a delicate gold necklace with a small four-leaf clover pendant. She is dressed in a {argument name=\"top\" default=\"tight light-blue ribbed short-sleeve crop top with white text reading \\\"[enter your text]\\\"\"} across the chest, paired with low-rise light-wash blue denim jeans. A sleek black leather shoulder bag hangs from her right shoulder. She leans casually against a textured light-grey concrete wall with concrete stairs visible on the right side, one hand tucked into her front jeans pocket, body slightly angled, head turned looking off to the side with a calm confident expression. Soft natural daylight, sharp focus, realistic skin texture, high detail, fashion photography style --ar 3:4 --stylize 250 --v 6",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "stunning young woman in her early 20s"
-      },
-      {
-        "name": "top",
-        "default": "tight light-blue ribbed short-sleeve crop top with white text reading \"[enter your text]\""
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785482593672_07nv1w_HOdBrZ0bUAEXWk-.jpg",
-        "alt": "Street-Style Fashion Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "dreamy digital arts",
-      "url": "https://x.com/dreamydigiarts"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/dreamydigiarts/status/2083047503549882667"
-    },
-    "publishedAt": "2026-07-31T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30343",
-    "contentHash": "c9d35c8d36c096582dc4f530e9c2201f2b5991e7"
   }
 ]
