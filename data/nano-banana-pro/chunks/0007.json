@@ -1,5 +1,161 @@
 [
   {
+    "id": "nano-banana-pro:16475",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "16475",
+    "title": "Song-to-Image Visualization",
+    "category": "YouTube Thumbnail",
+    "description": "A prompt that uses a specific song title and artist to generate an atmospheric image representative of the music.",
+    "promptText": "{argument name=\"song title\" default=\"Istanbul Mambo\"} ({argument name=\"artist\" default=\"Eiichi Ohtaki\"})",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "song title",
+        "default": "Istanbul Mambo"
+      },
+      {
+        "name": "artist",
+        "default": "Eiichi Ohtaki"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1777361054866_6bdtc1_HG4yxQNbEAAQV_N.jpg",
+        "alt": "Song-to-Image Visualization",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1777361054960_kujs0z_HG4yxQMakAA2nNK.jpg",
+        "alt": "Song-to-Image Visualization",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1777361054897_m9m1ri_HG4yxQIa4AAOFwT.jpg",
+        "alt": "Song-to-Image Visualization",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1777361055668_ca3c9n_HG4yxQObgAACS0q.jpg",
+        "alt": "Song-to-Image Visualization",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "一抹のFun",
+      "url": "https://x.com/Spoonful_of_Fun"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Spoonful_of_Fun/status/2048630720738832589"
+    },
+    "publishedAt": "2026-04-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=16475",
+    "contentHash": "2c428f16d6cd09f8194ac5fa69f5baee60de6b0f"
+  },
+  {
+    "id": "nano-banana-pro:13412",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "13412",
+    "title": "Cinematic Podcast Studio Portrait",
+    "category": "YouTube Thumbnail",
+    "description": "A prompt for a professional podcast host in a modern studio setup, featuring warm accent lighting and realistic equipment details.",
+    "promptText": "A professional {argument name=\"host description\" default=\"podcast host sitting at a wooden desk in a modern studio setup\"}, facing the camera with a confident and friendly expression. He is wearing a {argument name=\"clothing\" default=\"fitted black shirt\"} and sitting in a comfortable chair. A high-quality podcast microphone on a boom arm is positioned close to his mouth. On the desk are a notebook with handwritten notes, a coffee mug, and an audio interface with connected cables. The background features {argument name=\"background lighting\" default=\"stylish indoor plants and warm red-orange accent lighting\"}, creating a clean, cinematic studio atmosphere. Soft key lighting on the face, subtle rim lighting, shallow depth of field, ultra-realistic details, 50mm lens, f/1.8, professional color grading, high contrast, 8K, YouTube podcast aesthetic.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "host description",
+        "default": "podcast host sitting at a wooden desk in a modern studio setup"
+      },
+      {
+        "name": "clothing",
+        "default": "fitted black shirt"
+      },
+      {
+        "name": "background lighting",
+        "default": "stylish indoor plants and warm red-orange accent lighting"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1776495135499_o1874c_HGGCN9XbYAAdTKw.jpg",
+        "alt": "Cinematic Podcast Studio Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Taaruk",
+      "url": "https://x.com/Taaruk_"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Taaruk_/status/2045058894553354475"
+    },
+    "publishedAt": "2026-04-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=13412",
+    "contentHash": "2ee60c54e64fc4abb38be81529bffc47d089d4c7"
+  },
+  {
+    "id": "nano-banana-pro:13305",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "13305",
+    "title": "Japanese TV Program Style Image Generation",
+    "category": "YouTube Thumbnail",
+    "description": "A prompt template for Nano Banana Pro to generate images in the style of a Japanese TV program, allowing the AI to determine the overall atmosphere, including captions and interview content, based on a brief scenario.",
+    "promptText": "Generate an image in the style of a Japanese TV program.\nLet the AI consider the overall atmosphere of the image, including captions and interview content/answers associated with the following details:\n\n{argument name=\"theme\" default=\"NISA poverty. Morning news program. A 20-year-old female idol being interviewed at a woman's home.\"}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "theme",
+        "default": "NISA poverty. Morning news program. A 20-year-old female idol being interviewed at a woman's home."
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1775544748808_lquxrd_HFL4N_TbQAAG5ah.jpg",
+        "alt": "Japanese TV Program Style Image Generation",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1775544748941_39lzsm_HFL4N_XaQAAZZ47.jpg",
+        "alt": "Japanese TV Program Style Image Generation",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1775544748884_twk0le_HFL4N_daYAA6AjI.jpg",
+        "alt": "Japanese TV Program Style Image Generation",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1775544749934_j5hjds_HFL4N_WbsAAWXbs.jpg",
+        "alt": "Japanese TV Program Style Image Generation",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "俺の娘たち / AIエンジニア",
+      "url": "https://x.com/oreno_musume"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/oreno_musume/status/2041122003642704015"
+    },
+    "publishedAt": "2026-04-06T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=13305",
+    "contentHash": "e399e47a56f9cf47aeaf9c0d89a66b5dd3d9ac1b"
+  },
+  {
     "id": "nano-banana-pro:13128",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
