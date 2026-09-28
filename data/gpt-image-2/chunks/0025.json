@@ -1,5 +1,664 @@
 [
   {
+    "id": "gpt-image-2:26787",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26787",
+    "title": "Dark Chat UI With Failed 4-Image Collage",
+    "category": "Social Media Post",
+    "description": "Generates a dark mobile AI chat screenshot where a request for four separate images appears as one 2×2 juice-shop photo collage.",
+    "promptText": "Goal: Create a dark-mode mobile chat interface screenshot showing an AI image-generation result that failed to make four separate images and instead produced one 2x2 collage.\n\nCanvas: Square screenshot, approximately 768×768 px, black background with a cropped mobile-app UI feel. Leave large empty black space on the right side and below the result.\n\nLayout: At the top center, place a dark gray rounded prompt bubble containing the Chinese command text “生成4张独立的图片” with a thick red underline beneath it, and a smaller line below reading “收起 ^”. Below and left, show a status label in Chinese reading “已停止思考 ›”. Under that, place one generated image card with rounded top corners, containing exactly 4 photo panels arranged in a 2×2 grid, separated by thin white grid lines. Add a small circular download button with a downward arrow overlapping the lower-right corner of the collage. At the bottom, show a dark rounded input bar spanning the width: a plus icon on the left, placeholder text “有问题，尽管问”, and on the right the mode text “极速⌄”, a microphone icon, and a white circular voice/equalizer button.\n\nGenerated image content: The single generated image card must contain exactly 4 panels: top-left, top-right, bottom-left, bottom-right. Each panel shows the same young woman posing in front of a brightly lit juice shop or drink stand at night, with warm storefront lighting, neon signs, colorful drink menu boards, and a shallow depth-of-field smartphone-photo look. She wears a pink sleeveless crop top and a white pleated mini skirt, with hair styled in two cute buns. Her face is obscured by a soft rectangular blur for privacy. In each panel she holds a different plastic drink cup with a straw, posing slightly differently: 1) top-left, holding a red drink with both hands near her chest; 2) top-right, leaning forward holding a yellow/orange drink near her face beside neon “JUICE” signage; 3) bottom-left, holding a large orange drink close to her mouth in front of a bright menu board; 4) bottom-right, holding a pale pink drink while standing near a glass display case. The subject should be {argument name=\"character description\" default=\"a young woman with two hair buns, pink sleeveless crop top, white pleated mini skirt, face blurred\"}, photographed at {argument name=\"location\" default=\"a colorful night-time juice shop storefront\"}.\n\nVisual style: Make the overall screenshot look like a real captured phone UI, not a polished mockup. Use slightly compressed screenshot quality, soft glow from neon lights, realistic photo colors in the collage, and minimalist dark UI elements. The Chinese command in the top bubble should be {argument name=\"command text\" default=\"生成4张独立的图片\"}. The status label should be {argument name=\"status text\" default=\"已停止思考 ›\"}. The bottom input placeholder should be {argument name=\"input placeholder\" default=\"有问题，尽管问\"}.\n\nConstraints: The result must show one combined 2×2 collage rather than four separate image cards. Include exactly 4 photo panels and exactly 1 download icon. Preserve the dark chat interface, Chinese UI text, red underline, and bottom input bar. Do not add extra panels, extra people, watermarks, or captions inside the generated photo collage.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character description",
+        "default": "a young woman with two hair buns, pink sleeveless crop top, white pleated mini skirt, face blurred"
+      },
+      {
+        "name": "location",
+        "default": "a colorful night-time juice shop storefront"
+      },
+      {
+        "name": "command text",
+        "default": "生成4张独立的图片"
+      },
+      {
+        "name": "status text",
+        "default": "已停止思考 ›"
+      },
+      {
+        "name": "input placeholder",
+        "default": "有问题，尽管问"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464866091_cyvk7s_HLta47jbEAAkM_I.jpg",
+        "alt": "Dark Chat UI With Failed 4-Image Collage",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "李岳",
+      "url": "https://x.com/liyue_ai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/liyue_ai/status/2070349678248603872#reversed-0"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26787",
+    "contentHash": "c271afa958174a4464e30bc778efb786b3834d1a"
+  },
+  {
+    "id": "gpt-image-2:26772",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26772",
+    "title": "Urban Collage Animation Style Portrait",
+    "category": "Social Media Post",
+    "description": "A dynamic urban-themed collage prompt featuring a stylish woman with neon accents and floating liquid shapes in a New York City setting.",
+    "promptText": "Mixed media collage animation style, a stylish young woman walking confidently toward the camera, realistic photographic face and skin, shoulder-length softly wavy {argument name=\"hair color\" default=\"auburn\"} hair, defined natural brows, almond-shaped eyes, refined feminine features, delicate gold hoop earrings, wearing a clean white {argument name=\"clothing\" default=\"T-shirt\"}, outlined with glowing 2D neon green and hot pink scribble lines, {argument name=\"location\" default=\"New York\"} background with recognizable urban city energy, skyscrapers, street elements, fire escapes, layered city depth, floating 3D chrome liquid shapes in the air, grungy edges, acid graphics aesthetic, dynamic fisheye lens perspective, vibrant juicy colors, high contrast, ultra-detailed, trendy editorial collage feel, stop-motion feel, bold modern composition --ar 4:5 --raw --profile glu65pn --stylize 60 --weird 4 --hd",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "auburn"
+      },
+      {
+        "name": "clothing",
+        "default": "T-shirt"
+      },
+      {
+        "name": "location",
+        "default": "New York"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464852027_l3qz7r_HLtbk9Oa4AAqPDa.jpg",
+        "alt": "Urban Collage Animation Style Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464852056_l5okqq_HLtbl6OaAAArZGg.jpg",
+        "alt": "Urban Collage Animation Style Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Harboris",
+      "url": "https://x.com/harboriis"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/harboriis/status/2070349176790192209"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26772",
+    "contentHash": "c0d9bcdb0439e17d8643b6e927e6d93561bb78ba"
+  },
+  {
+    "id": "gpt-image-2:26797",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26797",
+    "title": "Tokyo Gashapon Street Fashion Photo",
+    "category": "Social Media Post",
+    "description": "A photorealistic vertical prompt for creating a candid adult street-fashion scene beside Japanese capsule toy machines.",
+    "promptText": "Create a photorealistic vertical street-fashion snapshot in Tokyo, Japan, showing {argument name=\"character name\" default=\"an adult woman\"} posing beside a wall of capsule toy vending machines on a busy pedestrian shopping street. She is the single main subject, leaning forward slightly toward the camera while turning a gashapon knob with her right hand and touching her hair near her ear with her left hand. Her face is intentionally hidden by a large soft-edged square blur/censor block in muted brown tones. She has long dark brown hair and wears a light blue button-up blouse with rolled sleeves, a dark navy bow tied at the chest, a very short navy pleated skirt, black knee-high socks, and white sneakers. Add exactly 3 visible accessories on her: a large navy shoulder bag, a small white teddy bear keychain hanging from the bag, and two wrist scrunchies on the left wrist, one pink flower-like scrunchie and one black scrunchie. The right side of the image contains exactly 6 prominent white capsule toy machine fronts in a vertical perspective row, with colorful anime-style product posters, coin slots, clear capsule windows, and blue-and-white turning knobs; her right fingertips rest on one knob. The background is a crowded Akihabara/Shibuya-style sidewalk with many pedestrians walking away, bright Japanese storefront signs, colorful billboards, and dense urban advertising; keep the background slightly less sharp than the subject. Use bright natural daylight, realistic skin and fabric texture, smartphone camera perspective, wide-angle 3/4 full-body framing from slightly above, vibrant colors, high detail, candid social-media photo realism. Customize the outfit color as {argument name=\"outfit color\" default=\"light blue blouse and navy skirt\"}, the location as {argument name=\"city street\" default=\"Tokyo anime shopping street\"}, the machine theme as {argument name=\"capsule toy theme\" default=\"cute anime character gashapon\"}, and the face concealment as {argument name=\"face effect\" default=\"large square brown blur over the face\"}. Avoid extra limbs, distorted hands, unreadable anatomy, duplicate bags, or additional main subjects.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "an adult woman"
+      },
+      {
+        "name": "outfit color",
+        "default": "light blue blouse and navy skirt"
+      },
+      {
+        "name": "city street",
+        "default": "Tokyo anime shopping street"
+      },
+      {
+        "name": "capsule toy theme",
+        "default": "cute anime character gashapon"
+      },
+      {
+        "name": "face effect",
+        "default": "large square brown blur over the face"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464876176_o87r52_HLskmQNaoAAiG0v.jpg",
+        "alt": "Tokyo Gashapon Street Fashion Photo",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "K's Al Photo Studio",
+      "url": "https://x.com/mashiro_minase"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/mashiro_minase/status/2070288718037143639#reversed-0"
+    },
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26797",
+    "contentHash": "f524e193f62c8cf34853eb927045ded73aa14575"
+  },
+  {
+    "id": "gpt-image-2:26779",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26779",
+    "title": "Candid Party Photo With Face Blocks",
+    "category": "Social Media Post",
+    "description": "Generates a warm flash-lit square party photograph of two stylish people with opaque privacy squares covering their faces.",
+    "promptText": "Create a candid flash photograph of two stylish friends posing closely at an indoor party or lounge, shot from slightly above with a wide-angle lens and warm amber color grading. The scene shows exactly 2 people: on the left, {argument name=\"woman outfit\" default=\"a woman in a cream one-shoulder fitted dress with a sculptural rosette at the chest, long straight black hair, small earrings, and dark oval sunglasses\"}, leaning forward with one hand resting against her cheek; on the right, {argument name=\"man outfit\" default=\"a man in a black short-sleeve polo shirt with curly reddish-brown hair and small dark sunglasses\"}, leaning in with one hand behind his back. Cover each person's face with a centered opaque square privacy block in a warm tan-brown color, exactly 2 face blocks total, leaving hair, sunglasses edges, shoulders, and clothing visible. The background is a cozy retro interior with vertical wood paneling, beige curtains, a red curtain at the left, reddish carpet, and large glowing white spherical pendant lights near the top edge, including exactly 4 visible globe lights: one cropped at the top-left corner, one large central globe, and two overlapping globes at the top-right. Use direct on-camera flash, high ISO party-photo texture, slight motion softness, realistic skin tones, strong warm highlights, intimate celebrity-event snapshot feel, square crop, no text, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "woman outfit",
+        "default": "a woman in a cream one-shoulder fitted dress with a sculptural rosette at the chest, long straight black hair, small earrings, and dark oval sunglasses"
+      },
+      {
+        "name": "man outfit",
+        "default": "a man in a black short-sleeve polo shirt with curly reddish-brown hair and small dark sunglasses"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464861422_rc3pq7_HLsTXcbW4AAmLE3.jpg",
+        "alt": "Candid Party Photo With Face Blocks",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Marijana",
+      "url": "https://x.com/MakiHacks"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/MakiHacks/status/2070269753755611203#reversed-0"
+    },
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26779",
+    "contentHash": "1a566934557a4b3b072d465491ad87ec7151a44d"
+  },
+  {
+    "id": "gpt-image-2:26792",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26792",
+    "title": "Washer POV Laundromat Portrait",
+    "category": "Social Media Post",
+    "description": "A photorealistic fisheye laundromat fashion portrait viewed from inside an open washing machine, useful for creating nostalgic editorial-style images.",
+    "promptText": "Create a fisheye, inside-the-washing-machine point-of-view fashion photo of {argument name=\"character name\" default=\"a young woman\"} crouching directly in front of an open laundromat washer, reaching both hands toward the circular metal rim as if looking into the drum. The image should be framed by a thick dark circular washer-door border with chrome highlights, strong wide-angle distortion, warm late-afternoon sunlight, beige tile floor, and a vintage coin-laundry background. Show exactly 3 front-loading washing machines across the back wall: one large chrome round door on the left, one mostly hidden behind the subject in the center, and one large chrome round door on the right. Above them, show exactly 3 readable wall signs: a left sign labeled “LAUNDRY INSTRUCTIONS,” a large center sign reading “TRY OUR GIANT WASHER FOR COMFORTERS TOO!,” and a right sign listing “SOAP BLEACH SOFTENERS.” The subject has {argument name=\"hair color\" default=\"long wavy honey-brown hair\"}, a casual Y2K streetwear look, and a deliberately obscured face covered by a centered flat tan rectangular censor block. Outfit details: exactly 5 visible clothing/accessory pieces — a cream ribbed cropped tank top with red trim and the word {argument name=\"tank top text\" default=\"Honey\"} plus two small cherry graphics, loose red pants with white star graphics down the side, red-and-white sneakers, a small star pendant necklace, and small earrings. Add subtle film grain, golden nostalgic color grading, realistic reflections in the washer doors, slight lens softness at the edges, and faint semi-transparent watermark text around the vertical edges and across the frame reading {argument name=\"watermark text\" default=\"♥ NaEun & Damien 2026\"}. Keep the composition intimate, low-angle, centered, photorealistic, and editorial, with the subject’s arms foreshortened toward the viewer and the laundromat signage clearly visible.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "a young woman"
+      },
+      {
+        "name": "hair color",
+        "default": "long wavy honey-brown hair"
+      },
+      {
+        "name": "tank top text",
+        "default": "Honey"
+      },
+      {
+        "name": "watermark text",
+        "default": "♥ NaEun & Damien 2026"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464871428_jirklj_HLrYJC0bAAADK5K.jpg",
+        "alt": "Washer POV Laundromat Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464870607_ym553u_HLrYJC6asAIRpyz.jpg",
+        "alt": "Washer POV Laundromat Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "NaEun K",
+      "url": "https://x.com/noirmielrue"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/noirmielrue/status/2070204634397020380#reversed-0"
+    },
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26792",
+    "contentHash": "d7736131581585719695942a25b564ff517349da"
+  },
+  {
+    "id": "gpt-image-2:26751",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26751",
+    "title": "Cinematic Luxury Editorial Portrait",
+    "category": "Social Media Post",
+    "description": "An ultra-realistic prompt for high-end fashion photography, focusing on liquid-silk hair texture, porcelain skin, and luxury interior bokeh.",
+    "promptText": "Create an ultra-realistic, internet-breaking portrait of an extraordinarily beautiful young woman with flawless porcelain skin, mesmerizing light eyes, and impossibly long, voluminous {argument name=\"hair color\" default=\"raven-black\"} curls cascading like liquid silk across her shoulders and body. She gazes {argument name=\"gaze direction\" default=\"off-camera\"} with a dreamy, mysterious expression that feels cinematic, romantic, and unforgettable. Shot in a softly lit luxury apartment during golden afternoon light, warm sunlight gently wraps around her face, highlighting delicate skin texture, glossy lips, defined brows, and naturally radiant features. Her oversized cascading curls dominate the frame, creating dramatic visual impact and irresistible depth. She wears a minimal light-toned top that enhances the elegant, effortless aesthetic. The composition is perfectly optimized for social media virality: close-up framing, powerful eye-line, rich hair movement, shallow depth of field, and luxury lifestyle atmosphere. Background features warm wooden interiors, artistic décor, subtle vintage elements, and creamy bokeh that keeps all attention on the subject. Hyper-realistic photography, fashion editorial quality, luxury influencer aesthetic, cinematic color grading, dreamy mood, viral Instagram portrait, TikTok trending style, natural beauty, photorealistic skin texture, ultra-sharp focus on eyes, HDR detail, {argument name=\"lens\" default=\"85mm\"} lens, f/1.4, full-frame camera, masterpiece quality, magazine cover composition, soft ambient lighting, high-end lifestyle photography, award-winning portrait, 8K resolution, breathtaking realism, scroll-stopping visual impact. Aspect Ratio: 3:4 (portrait orientation) Style: Luxury editorial × cinematic beauty × viral social media photography Quality Tags: ultra realistic, masterpiece, best quality, photorealistic, cinematic, trending, viral, 8k, HDR, highly detailed, professional fashion photography.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "raven-black"
+      },
+      {
+        "name": "gaze direction",
+        "default": "off-camera"
+      },
+      {
+        "name": "lens",
+        "default": "85mm"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464832602_3os8jv_HLq54bYaMAA2vUC.jpg",
+        "alt": "Cinematic Luxury Editorial Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464832557_l59dmr_HLq541xbMAAF48_.jpg",
+        "alt": "Cinematic Luxury Editorial Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Jahan Zaib",
+      "url": "https://x.com/jzaib4269"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/jzaib4269/status/2070171379463557283"
+    },
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26751",
+    "contentHash": "07df89e7139f63010bc12ef7e9e5e479a3676071"
+  },
+  {
+    "id": "gpt-image-2:26757",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26757",
+    "title": "Elegant Editorial Floral Portrait",
+    "category": "Social Media Post",
+    "description": "A high-end editorial portrait of a woman holding lilies, featuring luminous skin and a dreamy shallow depth of field.",
+    "promptText": "An elegant fashion editorial portrait of a young woman with a tousled chin-length dark brunette bob, seated in a relaxed yet refined pose while gently cradling a bouquet of {argument name=\"flower types\" default=\"blush pink lilies, anemones, and delicate seasonal blooms\"}. Soft lavender flowers appear out of focus in the foreground, adding a dreamy layered depth and a natural cinematic frame. Wardrobe & Styling: Flowing satin camisole dress in a rich {argument name=\"dress color\" default=\"fuchsia-rose tone\"} with slender shoulder straps and a graceful silhouette. Delicate floral stud earrings in soft pink hues paired with understated gold rings for a refined luxury touch. Beauty look inspired by modern East Asian editorial trends, featuring luminous peach blush swept across the cheeks and lightly over the bridge of the nose, softly diffused crimson gradient lips, subtle smoky brown eyeshadow, and naturally defined lashes. Voluminous dark brown textured bob with loose waves and feathered curtain bangs softly framing the face. Photography: Captured with a {argument name=\"camera model\" default=\"Canon EOS R5 or Leica M11\"} for exceptional detail and natural color reproduction. 85mm f/1.2 portrait lens creating an ultra-shallow depth of field with silky, creamy background separation. Gentle window light from a north-facing source produces flattering illumination, smooth skin texture, and a radiant glass-skin finish without harsh shadows. Art Direction: Neutral studio environment with flowing beige drapery and minimal styling to emphasize the model and floral arrangement. Muted vintage-inspired color grading with restrained saturation, warm natural skin tones, and striking contrast between the vivid pink dress and lush green stems. Fine editorial detail, soft organic textures, subtle film-like character, luxurious magazine-quality composition, photorealistic finish.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "flower types",
+        "default": "blush pink lilies, anemones, and delicate seasonal blooms"
+      },
+      {
+        "name": "dress color",
+        "default": "fuchsia-rose tone"
+      },
+      {
+        "name": "camera model",
+        "default": "Canon EOS R5 or Leica M11"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464839765_cnlxx0_HLq5Aqrb0AAICi4.jpg",
+        "alt": "Elegant Editorial Floral Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Meem",
+      "url": "https://x.com/mehvishs25"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/mehvishs25/status/2070170415335707032"
+    },
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26757",
+    "contentHash": "ff6b93ff62f229529e91ba1259045a9feefe2445"
+  },
+  {
+    "id": "gpt-image-2:26761",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26761",
+    "title": "Moonlit Bamboo Forest Ancient Portrait",
+    "category": "Social Media Post",
+    "description": "A high-precision prompt for creating a cinematic, ethereal portrait of a woman in a moonlit snow-covered bamboo courtyard.",
+    "promptText": "9:16 vertical, high-precision ancient style xianxia moonlit female portrait, Tang Dynasty fantasy aesthetic, gorgeously refined character photography feel, overall high-end, dreamy, transparent, and quiet, with poster-level completion for an Oriental fantasy lead. The main subject is a young adult Oriental woman, visual age approx. {argument name=\"age\" default=\"20–28 years old\"}, with natural and clear Oriental female features. She has refined features, clean facial lines, slender almond eyes, a cold, detached, quiet, ethereal, and restrained gaze, a delicate nose, and naturally soft lips. Skin is cold white, delicate, and transparent under soft moonlight.\n\nMakeup is a cold white moonlight look, ethereal in density, emphasizing eyes and highlights. Base is cold white and transparent; eye makeup is softly blended with light gray-pink, cold light brown, silver-white pearl, and light cold purple-gray; aegyosal is naturally brightened, blush is light cold pink, lip makeup is light rose pink or cold petal color, overall clean and refined.\n\nHairstyle is black smooth long hair in a high bun with falling strands. Headwear is high-grade gold crowns, slender hairpins, pearl tassels, and jade embellishments. Clothing is a cross-collared ancient style robe with a light gauze cape, using a {argument name=\"color scheme\" default=\"jade green, white, and gold\"} palette. Fabric is silk-like with bamboo leaf or cloud embroidery, and a refined waistband with jade pendants.\n\nScene is in a {argument name=\"scene\" default=\"snow-covered bamboo courtyard and moonlit stone steps\"}. The character is the absolute visual center in a moonlit courtyard with blurred snow-bamboo bokeh. Lighting is cold white soft moonlight with obvious rim light on hair. The overall image is transparent, clean, and high-end.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "age",
+        "default": "20–28 years old"
+      },
+      {
+        "name": "color scheme",
+        "default": "jade green, white, and gold"
+      },
+      {
+        "name": "scene",
+        "default": "snow-covered bamboo courtyard and moonlit stone steps"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464842254_k0f7qx_HLqzywOaoAAAtIR.jpg",
+        "alt": "Moonlit Bamboo Forest Ancient Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "李岳",
+      "url": "https://x.com/liyue_ai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/liyue_ai/status/2070164689158545427"
+    },
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26761",
+    "contentHash": "c5320e93672fb77f41acfe1616360ae51e904cd6"
+  },
+  {
+    "id": "gpt-image-2:26810",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26810",
+    "title": "Ethereal Blue Fantasy Fashion Portrait",
+    "category": "Social Media Post",
+    "description": "Generates a dark cinematic fantasy portrait of a woman in a flowing blue couture gown surrounded by glowing liquid smoke and flowers.",
+    "promptText": "Create a vertical fantasy fashion portrait of {argument name=\"character name\" default=\"an ethereal young woman\"} standing in a dark midnight-blue void, shown from about mid-thigh upward in a graceful three-quarter pose. She has long windblown {argument name=\"hair color\" default=\"black hair with electric-blue highlights\"}, a softly obscured, dreamlike face with no sharp facial detail, pale luminous skin, one hand resting near her collarbone and the other relaxed downward. Dress her in a dramatic {argument name=\"dress color\" default=\"deep cobalt blue\"} couture gown made of sheer flowing chiffon, glossy wet-look fabric, sequins, beadwork, lace appliqué, and floral embroidery, with an off-shoulder asymmetric neckline, delicate shoulder straps, translucent sleeves, side cutouts, and long ribbons of fabric swirling around her body. Surround her with explosive liquid-like blue smoke, ink clouds, splashing water, glowing particles, and bioluminescent blue flowers in the foreground and background. Use a monochromatic palette of navy, ultramarine, cobalt, and electric cyan, with intense rim lighting behind the figure, sparkling highlights on the dress, high contrast shadows, soft bokeh blossoms near the bottom, and a magical underwater-night atmosphere. Style: ultra-detailed cinematic digital art mixed with high-fashion editorial photography, elegant, romantic, mysterious, sharp fabric texture, volumetric light, dynamic motion, no text, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "an ethereal young woman"
+      },
+      {
+        "name": "hair color",
+        "default": "black hair with electric-blue highlights"
+      },
+      {
+        "name": "dress color",
+        "default": "deep cobalt blue"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464885087_rrr6ub_HLqjS0Ca0AAFMkX.jpg",
+        "alt": "Ethereal Blue Fantasy Fashion Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464885111_rd4e5w_HLqjTMpa4AEgjLz.jpg",
+        "alt": "Ethereal Blue Fantasy Fashion Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464885089_jptkpa_HLqjT50a0AA78Un.jpg",
+        "alt": "Ethereal Blue Fantasy Fashion Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "NIKKO",
+      "url": "https://x.com/AIArtAlchemist"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AIArtAlchemist/status/2070146766989865432#reversed-0"
+    },
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26810",
+    "contentHash": "3f2070a8907b56d32528d390420864cbf9479606"
+  },
+  {
+    "id": "gpt-image-2:26727",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26727",
+    "title": "Lo-fi Editorial Bedroom Portrait",
+    "category": "Social Media Post",
+    "description": "A prompt for capturing a realistic, lo-fi bedroom portrait with a late 90s aesthetic, featuring harsh flash and intimate details.",
+    "promptText": "An intimate bedroom portrait of a {argument name=\"subject\" default=\"young man in his early 20s\"}, calm and slightly guarded expression, direct eye contact, standing relaxed. He wears a {argument name=\"clothing\" default=\"textured knit sweater with a soft purple gradient fade\"} and muted casual trousers. The background is a personal room wall covered in taped polaroids, handwritten sketches, and concert ticket stubs. Shot at eye level on a 35mm lens with harsh on-camera flash, hard shadows behind subject, deep depth of field, slight vignetting and flash falloff. Real skin texture, visible blemishes, no retouching, noticeable film grain, subtle date stamp in corner. Muted neutral palette with soft lavender emphasis, natural warm skin tones, moderate contrast. Lo-fi editorial realism, late 90s / early 2000s candid diary aesthetic. No studio lighting, no beauty retouching, no clean minimal background.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "young man in his early 20s"
+      },
+      {
+        "name": "clothing",
+        "default": "textured knit sweater with a soft purple gradient fade"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464817650_y4f7th_HLqfOb4acAE0jHi.jpg",
+        "alt": "Lo-fi Editorial Bedroom Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "PromptLab",
+      "url": "https://x.com/iamaiistudio"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/iamaiistudio/status/2070142252714996079"
+    },
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26727",
+    "contentHash": "1bb77f45c9069b7c9952aee29893396166227c9f"
+  },
+  {
+    "id": "gpt-image-2:26733",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26733",
+    "title": "Desert Golden Hour Editorial Portrait",
+    "category": "Social Media Post",
+    "description": "An editorial portrait prompt capturing a woman with auburn hair in warm desert lighting with a shallow depth of field.",
+    "promptText": "Close-up editorial portrait, {argument name=\"subject\" default=\"woman\"} with {argument name=\"hair\" default=\"curly auburn hair\"}, sharp direct gaze into camera, lips slightly parted, sun-kissed glowing skin, soft shadow play from desert foliage, {argument name=\"lighting\" default=\"warm golden light\"}, blurred cactus spines visible at edge of frame, shallow depth of field, vertical 4:5 --ar 4:5 --v 6",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "woman"
+      },
+      {
+        "name": "hair",
+        "default": "curly auburn hair"
+      },
+      {
+        "name": "lighting",
+        "default": "warm golden light"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464820876_0ybia3_HLqPfnXaMAA_3Zq.jpg",
+        "alt": "Desert Golden Hour Editorial Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464820876_03shdd_HLqPgj_aAAAW875.jpg",
+        "alt": "Desert Golden Hour Editorial Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464820908_wlnp08_HLqPhWCb0AAD9q7.jpg",
+        "alt": "Desert Golden Hour Editorial Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Shahid Wani",
+      "url": "https://x.com/meng_dagg695"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/meng_dagg695/status/2070124790636228643"
+    },
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26733",
+    "contentHash": "8ea242d3f0aac4fd277e80a07116399a36c66d8b"
+  },
+  {
+    "id": "gpt-image-2:26790",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26790",
+    "title": "Summer Watermelon Doodle Collage",
+    "category": "Social Media Post",
+    "description": "A 3x3 sunny park photo collage of a young woman eating watermelon, enhanced with playful white handwritten doodles for social media visuals.",
+    "promptText": "Goal: Create a playful summer lifestyle photo collage featuring {argument name=\"character description\" default=\"a young woman with short dark hair wearing a blue-and-white striped sleeveless top and light shorts\"} enjoying watermelon in a sunny park, decorated with hand-drawn white doodles and casual handwritten English words.\n\nCanvas: Wide horizontal 16:9 image, arranged as an exact 3 by 3 grid of 9 equal rectangular photo panels with thin white borders between panels. Use soft natural daylight, fresh green grass, shallow depth of field, and a bright airy summer color palette.\n\nLayout and panel count: Include exactly 9 panels:\n1. Top-left: the woman sits cross-legged on grass holding a large watermelon slice in front of her face, with a white fence and cloudy sky in the background; doodles include a smiley face, short rays, the word “Hi!”, and small splash marks.\n2. Top-center: close-up still life of several watermelon slices on a plate or tray beside an orange bag; doodles include a crown-like squiggle, sparkle marks, and the handwritten word “Sweet!”.\n3. Top-right: side view of the woman sitting on grass, smiling toward or holding a watermelon slice near her mouth; doodles include “Hello!”, quotation marks, a swirl line, and a heart.\n4. Middle-left: close-up portrait crop of the woman holding a small fork or skewer with a tiny watermelon cube; doodles include radiating marks and a large question mark.\n5. Middle-center: close-up of the woman holding a watermelon slice near her mouth, face mostly centered and partially obscured by the fruit; doodles include dotted lines, a heart, and a small smiley face.\n6. Middle-right: the woman sits on grass holding a watermelon slice up to her face; orange bag nearby; doodles include “Nice Day!”, a wavy underline, quotation marks, short grass strokes, and small sparkle lines.\n7. Bottom-left: wider overhead-leaning shot of the woman reclining or sitting on a picnic cloth on grass with watermelon and orange bag; doodles include a curved arrow, smiley face, small hearts, and motion marks.\n8. Bottom-center: tight portrait crop of the woman holding an orange hat or orange bag close to her chest or face, with soft grass background; doodles include small hearts, a curved white stroke, and a large number-like squiggle.\n9. Bottom-right: overhead shot of the woman lying or reclining on grass with one arm raised, orange bag beside her, and a watermelon slice near her hand; doodles include a speech bubble saying “Yummy!”, small dash marks, and a heart outline.\n\nSubject details: The subject should appear cheerful, relaxed, and candid, like a summer picnic travel-photo shoot. Keep the face softly anonymized or blurred, while preserving the pose, hair silhouette, outfit, and body language. Use {argument name=\"main prop\" default=\"fresh red watermelon slices with black seeds\"} as the recurring prop in multiple panels, and include {argument name=\"accent accessory\" default=\"a bright orange tote bag or sun hat\"} in several panels.\n\nVisual style: Realistic photography, soft film-like tones, slightly overexposed summer highlights, green park setting, casual social-media collage aesthetic. Add white hand-drawn doodles as if sketched with a marker on top of the photos: hearts, arrows, smiley faces, sparkles, squiggles, quotation marks, and short handwritten words.\n\nText content: Use exactly these visible handwritten English words across the collage: {argument name=\"greeting text\" default=\"Hi!\"}, “Sweet!”, “Hello!”, “Nice Day!”, and “Yummy!”. Keep the lettering informal, white, and doodle-like.\n\nConstraints: Maintain the exact 9-panel grid, thin white dividers, no extra panels, no watermark, no app interface, no captions outside the collage, and avoid adding additional readable words beyond the specified doodle text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character description",
+        "default": "a young woman with short dark hair wearing a blue-and-white striped sleeveless top and light shorts"
+      },
+      {
+        "name": "main prop",
+        "default": "fresh red watermelon slices with black seeds"
+      },
+      {
+        "name": "accent accessory",
+        "default": "a bright orange tote bag or sun hat"
+      },
+      {
+        "name": "greeting text",
+        "default": "Hi!"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464869939_6lgubl_HLpnCJSbIAAY1A6.png",
+        "alt": "Summer Watermelon Doodle Collage",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小小东",
+      "url": "https://x.com/xiaoxiaodong01"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/xiaoxiaodong01/status/2070081200149160038#reversed-0"
+    },
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26790",
+    "contentHash": "99a777e73fb3f217d7219f6379c9f55c53c39f53"
+  },
+  {
+    "id": "gpt-image-2:26735",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26735",
+    "title": "Hand-Drawn Felt-Tip Doodle Style",
+    "category": "Social Media Post",
+    "description": "A prompt for creating simple, understated doodles that look like they were hand-drawn with a felt-tip pen.",
+    "promptText": "Draw in a {argument name=\"style\" default=\"simple hand-drawn doodled style cartoon\"}, as if sketched by a person with a {argument name=\"tool\" default=\"black felt-tip pen\"}. Use natural marker lines, slightly wobbly contours, subtle hand-drawn imperfections, slightly open edges, and a warm editorial doodle feeling. Avoid polished vector-clean results, avoid overly crisp digital perfection, and keep the image simple, airy, flat, and understated. Use {argument name=\"accent color\" default=\"sky blue\"} only as the accent color.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "style",
+        "default": "simple hand-drawn doodled style cartoon"
+      },
+      {
+        "name": "tool",
+        "default": "black felt-tip pen"
+      },
+      {
+        "name": "accent color",
+        "default": "sky blue"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464820999_akze82_HLplvGLagAIhW-A.jpg",
+        "alt": "Hand-Drawn Felt-Tip Doodle Style",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464821842_yi7eq8_HLplvGHaoAAzHGi.jpg",
+        "alt": "Hand-Drawn Felt-Tip Doodle Style",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464821263_gsf7lq_HLplvGIbcAAdwdS.jpg",
+        "alt": "Hand-Drawn Felt-Tip Doodle Style",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Sairah",
+      "url": "https://x.com/Sairah_0"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Sairah_0/status/2070078849845514357"
+    },
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26735",
+    "contentHash": "86e4c90620d40773221a47bf7da1e361b2ed1c69"
+  },
+  {
     "id": "gpt-image-2:26782",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6532,592 +7191,5 @@
     "publishedAt": "2026-06-22T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26519",
     "contentHash": "db30ae0db9ff9c450bf07482f7b008626ae0ddef"
-  },
-  {
-    "id": "gpt-image-2:26560",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26560",
-    "title": "Icy White Fantasy Doll Portrait",
-    "category": "Profile / Avatar",
-    "description": "Creates a dreamy vertical portrait of a white-haired winter-fairy doll queen with antler branches, pearls, jewels, and an icy embroidered backdrop.",
-    "promptText": "Create a vertical fantasy doll portrait in an icy white winter-fairy aesthetic. Show a porcelain ball-jointed doll or ethereal queen from the waist up, centered, with very pale skin and an intentionally blank/featureless face covered by a soft pale lavender rectangular mask. The character has extremely long, voluminous, crimped white hair spreading outward like a cloud around the shoulders. Add elaborate white antler-like branch headpieces rising high above the head, decorated with small pearl beads and icy droplets. Dress the figure in an elegant {argument name=\"dress color\" default=\"pure white\"} off-shoulder gown with sheer draped fabric, lace appliqué, silver rhinestone trim across the neckline, and long white opera gloves; one gloved hand is raised delicately near the chest and the other rests lower at the side. Place a jeweled necklace at the throat with a large oval rainbow opal or dark multicolor gemstone pendant and a smaller teardrop gem below it. Background: pale blue-gray satin or textured fabric with embroidered winter branches, frost-like bead clusters, and a dark navy bare branch motif on the left. Include a small glowing white butterfly and floral flourish in the upper left, with faint cursive watermark text reading {argument name=\"watermark text\" default=\"Copyright © Ryyetin All Rights Reserved\"}. Use soft diffused lighting, high-key exposure, cool blue-white color grading, delicate sparkle highlights, shallow depth of field, and a dreamy vintage gothic fairytale mood. Keep the composition portrait-oriented, ornate and monochromatic, with no modern objects and no extra people.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "dress color",
-        "default": "pure white"
-      },
-      {
-        "name": "watermark text",
-        "default": "Copyright © Ryyetin All Rights Reserved"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205423437_841in7_HLaxKUFbYAA01-D.jpg",
-        "alt": "Icy White Fantasy Doll Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Keizerin",
-      "url": "https://x.com/arslan_doll"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/arslan_doll/status/2069035890048167977#reversed-0"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26560",
-    "contentHash": "29ac5558447e98c26fb347cc9a22530ac2af0289"
-  },
-  {
-    "id": "gpt-image-2:26496",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26496",
-    "title": "Miniature Chibi Doll Transformation",
-    "category": "Profile / Avatar",
-    "description": "Transforms a person's photo into an adorable miniature chibi doll style while maintaining their facial identity.",
-    "promptText": "Transform the first reference person into the style of the second reference image while preserving the exact facial identity, eyes, lips, hairstyle, and soft expression. Keep the original face recognizable but convert into an {argument name=\"style\" default=\"adorable miniature chibi doll\"} with oversized cute eyes and collectible doll proportions.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "style",
-        "default": "adorable miniature chibi doll"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205395848_qmk4fe_HLauzCDaEAAgdpr.jpg",
-        "alt": "Miniature Chibi Doll Transformation",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205395756_7q1gqw_HLauzAxakAA2slH.jpg",
-        "alt": "Miniature Chibi Doll Transformation",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205395810_k6vcmi_HLauzCqaYAA_5v3.jpg",
-        "alt": "Miniature Chibi Doll Transformation",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205396429_tvw1wu_HLauzGNbAAAlo0B.jpg",
-        "alt": "Miniature Chibi Doll Transformation",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Hania Ai",
-      "url": "https://x.com/HaniaAi12"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/HaniaAi12/status/2069033275679715646"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26496",
-    "contentHash": "77430aa47e493e04e144f0c3c371837ece75f317"
-  },
-  {
-    "id": "gpt-image-2:26543",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26543",
-    "title": "Nighttime Doodle Flash Selfie",
-    "category": "Profile / Avatar",
-    "description": "Generates a chaotic vertical night flash selfie with playful monster-themed doodles and bold social-media lettering.",
-    "promptText": "Create a vertical smartphone flash selfie at night titled {argument name=\"concept title\" default=\"Nighttime Doodle Flash Selfie\"}: an adult East Asian woman with {argument name=\"hairstyle\" default=\"messy short black hair\"} taking an exaggerated close-up selfie in a busy outdoor restaurant or rooftop patio at night, city skyline lights and warm string lights in the background. The camera is ultra wide and held low/forward so one blue sleeve fills the lower-left foreground, creating a dynamic distorted arm perspective. She wears a bright cobalt-blue windbreaker jacket with shiny crinkled fabric and a black zipper. Her face is intentionally anonymized by a centered soft rectangular blur/mosaic block, but her black hair remains visible. Pose her with one hand raised beside her cheek in a playful claw gesture. Use harsh direct phone-flash lighting on the jacket and hand, with darker ambient background, candid chaotic energy, high contrast, documentary selfie realism. Add bold hand-drawn doodles layered over the photo in rough chalk/paint-marker style, mostly white with electric blue, yellow, green, black, and orange accents. Include exactly 15 major doodle elements: 1 huge white word \"RAWR!\" at the top left with a sweeping underline, 2 a white star near the top center, 3 a cloud speech bubble at the top right saying \"CURRENT\" in white and \"MOOD\" in blue with a blue underline, 4 a thick white arrow pointing down from that bubble toward the subject, 5 simple white cat ears drawn on top of her hair, 6 a small white crown above her head, 7 three white whisker lines on the right side of her face area, 8 a blue scribbled heart on the left with white radiating lines, 9 a large poster-like label on the lower-left sleeve saying \"NOT\" in black on an off-white paint patch and \"NORMAL\" in black over a neon-green brushstroke, 10 a blue lightning squiggle near the left lower background, 11 a white arrow rising from the bottom center toward the sleeve text, 12 a curved white arrow near the lower middle pointing toward the cartoon creature, 13 a green cartoon dinosaur/kaiju at the lower right with white dorsal spikes, angry eyes, open mouth, sharp teeth, and orange-red fire breath, 14 a white comic burst/hash mark beside the creature, 15 scattered hand-drawn stars: exactly 9 total around the frame, mixing white and yellow, including two large yellow stars on the left and right edges. Keep the doodles energetic and imperfect with visible brush texture, overlapping the photograph naturally. Use {argument name=\"jacket color\" default=\"bright cobalt blue\"} as the dominant color, with the blue doodle accents matching it. Composition should feel chaotic, rebellious, cute-monster themed, and social-media-ready, 9:16 vertical crop, no watermark, no extra readable text beyond \"RAWR!\", \"CURRENT MOOD\", and \"NOT NORMAL\".",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "concept title",
-        "default": "Nighttime Doodle Flash Selfie"
-      },
-      {
-        "name": "hairstyle",
-        "default": "messy short black hair"
-      },
-      {
-        "name": "jacket color",
-        "default": "bright cobalt blue"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205415487_qhqgzh_HLZudaOXYAAHxyh.jpg",
-        "alt": "Nighttime Doodle Flash Selfie",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205415495_2xut47_HLZuddDWUAAoJia.jpg",
-        "alt": "Nighttime Doodle Flash Selfie",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Eric Kang - Vogue AI",
-      "url": "https://x.com/Eric_Kangg"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Eric_Kangg/status/2068962533658997211#reversed-0"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26543",
-    "contentHash": "9040f43fbde5cb83470330ba31adc342b5eeb763"
-  },
-  {
-    "id": "gpt-image-2:26490",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26490",
-    "title": "Realistic Train Portrait with Rainy Atmosphere",
-    "category": "Profile / Avatar",
-    "description": "A cinematic prompt for generating a high-quality portrait of a young man standing at a train gate during a rainy journey, emphasizing moody atmosphere and identity preservation.",
-    "promptText": "Create a 4K realistic portrait of a {argument name=\"subject\" default=\"young man\"} standing in a running train. He stand at the train gate, holding the side railing of the gate with one hand while another hand remains in his pocket. He is looking outside the gate, appearing calm and quiet. Outside the train, beautiful green mountains and wide fields are visible. It is raining, with dark and cloudy weather creating a moody atmosphere. The shot is taken from a low angle, slightly behind and beside him. Some of his face is visible, and his hairs flew with the air. He put headphone and remains immersed in the moment. He wear a {argument name=\"jacket style\" default=\"dark navy cargo jacket\"}, {argument name=\"pants style\" default=\"relaxed-fit black jeans\"}, and shoes. Preserve his skinny parsonality as uploaded image, and he is tall. Strictly preserve his facial details as uploaded image. Maintain the exact face structure, hairstyle, and identity. The overall image should have enhanced quality, realistic skin texture, cinematic lighting, and a dark effect with a moody rainy atmosphere. Ultra-detailed, highly realistic, 4K resolution.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "young man"
-      },
-      {
-        "name": "jacket style",
-        "default": "dark navy cargo jacket"
-      },
-      {
-        "name": "pants style",
-        "default": "relaxed-fit black jeans"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205392958_2l6mca_HLZtr-AaIAAqngt.jpg",
-        "alt": "Realistic Train Portrait with Rainy Atmosphere",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Zar⭕on",
-      "url": "https://x.com/Xaroon_x"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Xaroon_x/status/2068961684354478349"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26490",
-    "contentHash": "1b3386dfb7d8fae166727399285bd1fd64cfd954"
-  },
-  {
-    "id": "gpt-image-2:26501",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26501",
-    "title": "Sunflower Field Frame Portrait",
-    "category": "Profile / Avatar",
-    "description": "A dreamy, soft-focus prompt for a subject framed by a wooden picture frame within a dense sunflower field, featuring warm sunlight and haze.",
-    "promptText": "A very tight vertical frame with strong crop pressure, the subject positioned inside a dense {argument name=\"flower type\" default=\"sunflower\"} and orange flower field while partially framed by a large tilted wooden picture frame near the center of the image. Large blurred sunflower blooms dominate the upper-right foreground and left foreground edges, partially blocking the frame and subject. The wooden frame leans diagonally from lower-left toward upper-right, surrounding the face and upper torso area while several edges are cropped by foreground flowers and frame borders. Pale blue sky with soft white clouds occupies the upper-left background, with dense green foliage and orange flowers filling the lower and middle background. Preserve the exact asymmetrical placement and tight crop without revealing more body or environment. The face appears near the upper-center area inside the wooden frame, tilted slightly downward toward viewer’s left, eyes open wide directed toward the camera axis, pupils centered, lips softly closed with a slight pout shape and faint glossy pink color. Makeup is soft and bright with pale pink blush, peach-pink eyeshadow, subtle eyeliner, glossy pink lips, smooth bright skin with warm highlights. Small flower stickers remain visible on the cheek. Dark medium-length hair falls around both sides of the face and shoulder area with loose strands near the forehead and cheek, a yellow flower accessory tucked into the hair near the viewer’s left side of the head. One hand grips the lower-left side of the wooden frame while the other arm remains lower and partly hidden by flowers and leaves. Clothing must remain unchanged: a vivid {argument name=\"top color\" default=\"cobalt-blue\"} short-sleeve knit top, close-fitting over the upper torso, with a simple round crew neckline sitting close to the base of the neck, smooth fine-knit fabric texture, short sleeves ending around the upper arm, sleeve edges slightly curved around the arms, fabric softly stretched across the chest and shoulder area with mild natural folds and highlights, no visible logo or pattern. Dense sunflower leaves and stems overlap the lower foreground and right side with several leaves and flowers heavily blurred and cropped by the frame edges. Bright warm sunlight creates strong dreamy haze, pale overexposed highlights, and soft translucent lens flare artifacts near the upper-left and lower-left areas. Dreamy soft-focus image quality, reduced edge sharpness, shallow depth of field, blurred foreground flowers, and soft yellow-green background separation.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "flower type",
-        "default": "sunflower"
-      },
-      {
-        "name": "top color",
-        "default": "cobalt-blue"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205399289_qtxpts_HLZMcmybIAAWaij.jpg",
-        "alt": "Sunflower Field Frame Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Mr. Tariq",
-      "url": "https://x.com/AiWithTariq"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AiWithTariq/status/2068925139111358658"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26501",
-    "contentHash": "215b7c008c2a8f92206a2c6bd538f4f3d0e99ece"
-  },
-  {
-    "id": "gpt-image-2:26508",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26508",
-    "title": "Minecraft Selfie Photo Integration",
-    "category": "Profile / Avatar",
-    "description": "A cinematic prompt that integrates a specific person's likeness into a photorealistic Minecraft movie scene as a smartphone selfie.",
-    "promptText": "Use the provided {argument name=\"person name\" default=\"Rafa Franco\"} reference photo as the highest-priority facial reference. Preserve {argument name=\"person name\" default=\"Rafa Franco\"}’s facial identity exactly. The viewer must instantly recognize {argument name=\"person name\" default=\"Rafa Franco\"}. Preserve his exact hairstyle, facial proportions, beard shadow, eyebrows, eye shape, nose, lips, jawline, skin texture, and all unique facial characteristics. {argument name=\"person name\" default=\"Rafa Franco\"} must remain fully photorealistic. Vertical composition — 1080×1350. Create an ultra-cinematic Minecraft-inspired selfie scene. The selfie is being taken by Steve from Minecraft, who occupies the foreground and holds the camera with one arm fully extended toward the viewer, creating the exact perspective of a real smartphone selfie. Steve smiles directly at the camera with a fun, friendly, and adventurous expression. Behind Steve stands {argument name=\"person name\" default=\"Rafa Franco\"}, fully photorealistic and naturally integrated into the Minecraft universe through realistic lighting, atmosphere, and cinematic color grading. {argument name=\"person name\" default=\"Rafa Franco\"} smiles naturally while holding a Minecraft wolf comfortably in his arms. The wolf appears relaxed, friendly, and secure, creating a wholesome and memorable moment. The scene takes place in a breathtaking Minecraft valley during golden hour sunset. The environment is rich with detail, featuring lush green grass, beautiful rivers, wooden Minecraft houses, hanging lanterns, charming bridges, colorful flowers, giant trees, distant mountains, waterfalls, and a peaceful village atmosphere. The camera angle must feel exactly like a real group selfie. Steve dominates the foreground because he is holding the camera, while {argument name=\"person name\" default=\"Rafa Franco\"} appears slightly behind him but remains clearly visible, recognizable, and well-lit. The wolf becomes an important secondary focal point, positioned naturally within {argument name=\"person name\" default=\"Rafa Franco\"}’s arms. Warm golden sunset light bathes the entire scene. Beautiful volumetric god rays pass through the trees and mountains. Floating fireflies, subtle voxel particles, atmospheric dust, and soft environmental haze add life, depth, and realism. The image should feel joyful, adventurous, cinematic, and authentic, like a behind-the-scenes photograph taken during an epic Minecraft movie adventure. The environment must feel alive and immersive rather than resembling a gameplay screenshot. Visual style: Minecraft Movie × Pixar-level storytelling × Unreal Engine 5 cinematic lighting × AAA game promotional artwork. Ultra-realistic photography, masterpiece composition, cinematic depth of field, ray tracing, global illumination, volumetric lighting, realistic skin texture, realistic clothing folds, atmospheric perspective, highly detailed Minecraft environment, blockbuster movie quality, 8K resolution, ultra-sharp focus, visually unforgettable, premium Instagram cover quality.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "person name",
-        "default": "Rafa Franco"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205401687_rji4bu_HLZDrhDaYAA0tgo.jpg",
-        "alt": "Minecraft Selfie Photo Integration",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Lariab Fatima‎",
-      "url": "https://x.com/AiwithLariab"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AiwithLariab/status/2068915506417951080"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26508",
-    "contentHash": "3ba1d1ec22487ee59d1c958fb06041d99cabac9f"
-  },
-  {
-    "id": "gpt-image-2:26492",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26492",
-    "title": "Cyberpunk Expressionist Portrait",
-    "category": "Profile / Avatar",
-    "description": "Generates a hyper-realistic yet abstract cyberpunk portrait of a man, featuring vibrant neon colors and expressive digital brushstrokes.",
-    "promptText": "Ultra-realistic cyberpunk expressionist portrait of a {argument name=\"subject\" default=\"rugged 44-year-old Eastern European man\"} with {argument name=\"hair\" default=\"short dark-blond hair\"}, {argument name=\"eyes\" default=\"piercing light-blue eyes\"}, strong masculine facial features, and a neatly trimmed beard. The man gazes upward with determination and vision, symbolizing ambition, resilience, and future success.\nThe artwork combines hyper-realistic facial detail with bold abstract digital paint strokes. Electric cyan-blue and vibrant neon-magenta colours dominate the composition, flowing across the face, clothing, and background like energetic brushstrokes and fractured light shards.\nThe subject wears a dark modern cap and urban streetwear jacket. Dynamic paint splashes, scratches, fragmented textures, glowing particles, and expressive artistic strokes create movement and emotion throughout the image.\nCinematic lighting illuminates the face from opposite sides with blue and magenta neon light. Highly detailed skin texture, realistic beard detail, reflective eyes, dramatic shadows, and rich contrast. Dark black background enhances the glowing colours and futuristic atmosphere.\nDigital masterpiece, cyberpunk expressionism, abstract portrait art, ultra-detailed, vibrant neon colours, emotional storytelling, 8K quality, vertical 9:16 composition.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "rugged 44-year-old Eastern European man"
-      },
-      {
-        "name": "hair",
-        "default": "short dark-blond hair"
-      },
-      {
-        "name": "eyes",
-        "default": "piercing light-blue eyes"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205394365_cac4t6_HLY9tE0boAASysh.jpg",
-        "alt": "Cyberpunk Expressionist Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Karlos",
-      "url": "https://x.com/de_mon010"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/de_mon010/status/2068908934031946128"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26492",
-    "contentHash": "9073e80a5b8b1656cb4e5df5e0681accb4118336"
-  },
-  {
-    "id": "gpt-image-2:26540",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26540",
-    "title": "Realistic Beige Pakistani Couple Portrait",
-    "category": "Profile / Avatar",
-    "description": "Generates a polished indoor wedding-style portrait of a young couple in matching beige traditional Pakistani outfits.",
-    "promptText": "Create a highly realistic vertical indoor studio portrait of a young {argument name=\"ethnicity\" default=\"Pakistani\"} couple wearing coordinated beige traditional formal outfits. The woman stands in front, slightly left of center, with long straight glossy black hair parted near the middle, wearing an elegant beige saree covered with intricate gold embroidery, beadwork, sequins, a heavily embellished border, a delicate necklace, bangles, and natural bridal-style styling. The man stands close behind her on the right, slightly taller, wearing a cream-beige embroidered sherwani with a high collar and subtle patterned texture; his arms wrap gently around her waist with both hands visible over the saree. Both face the camera with calm romantic expressions. Use a plain light gray wall background, soft diffused indoor lighting, natural shadows, realistic skin tones, shallow depth of field, premium wedding portrait photography, full upper-body to mid-leg framing, vertical 2:3 composition, no text, no watermark, no extra people. The overall mood is intimate, elegant, and polished, with matching neutral beige and gold tones.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "ethnicity",
-        "default": "Pakistani"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205414314_iwt5cv_HLY7WzoagAAIj42.jpg",
-        "alt": "Realistic Beige Pakistani Couple Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Dilshad Hussain",
-      "url": "https://x.com/DilshadAI1"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/DilshadAI1/status/2068906364743872780#reversed-0"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26540",
-    "contentHash": "ec0bf1ac9577c3bbccdb391348fffedf6c570a7c"
-  },
-  {
-    "id": "gpt-image-2:26564",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26564",
-    "title": "Cozy Avocado Hot Cocoa Doodle",
-    "category": "Profile / Avatar",
-    "description": "A cute monochrome line-art avocado character in a knitted scarf holding a steaming mug, ideal for cozy winter doodle illustrations.",
-    "promptText": "Create a simple black-and-white hand-drawn line art illustration on a clean white background. Center a cute anthropomorphic avocado character with a pear-shaped body, smooth rounded top, larger rounded bottom, and a single oval pit on its belly. The avocado has a small happy kawaii face with closed crescent eyes, a tiny smiling mouth, and subtle cheek blush marks. Wrap the character in an oversized chunky knitted scarf around its neck, with one scarf tail hanging to the right and ending in tassels; show stitched knit texture and soft folds with fine ink hatching. Give the avocado thin simple arms with small dark mitten-like hands holding a steaming mug of hot cocoa in front of its chest; the mug contains exactly 5 visible marshmallows and rising steam curls. Use monochrome ink only, with sketchy contour lines, cross-hatching, small stitch details, and a few short ground-shadow strokes beneath the character. Keep the composition minimal, cozy, centered, and whimsical, with no color, no text, no border, and lots of empty white space.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205425630_529pw2_HLY6-2jaoAApC9b.jpg",
-        "alt": "Cozy Avocado Hot Cocoa Doodle",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Zephyra Leigh",
-      "url": "https://x.com/ZephyraLeigh"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/ZephyraLeigh/status/2068905938451566630#reversed-0"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26564",
-    "contentHash": "86f15b734c37c9f3d2810626916782e6d21e1d06"
-  },
-  {
-    "id": "gpt-image-2:26507",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26507",
-    "title": "Photo to Chibi Doodle Transformation",
-    "category": "Profile / Avatar",
-    "description": "Converts a real photograph into a charming black-and-white hand-drawn doodle with chibi character designs.",
-    "promptText": "Turn the uploaded photo into a {argument name=\"style\" default=\"cute black-and-white hand-drawn doodle illustration\"}. Preserve the exact people, poses, expressions, clothing, and composition while transforming everyone into {argument name=\"character type\" default=\"adorable chibi cartoon characters\"} with oversized heads, tiny bodies, round eyes, simple facial features, and playful proportions. Use clean black ink sketch lines on a plain white background, subtle pencil-style hatching, whimsical doodle details, tiny hearts, sparkles, and cute decorative elements floating around the characters. Maintain the family/group interaction and joyful mood. Minimalist manga-inspired line art, cozy scrapbook aesthetic, kawaii character design, children's storybook illustration, charming hand-sketched texture, expressive faces, simple monochrome palette, highly detailed ink drawing, cute sticker-pack style, adorable and heartwarming atmosphere, top-down selfie perspective, masterpiece quality.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "style",
-        "default": "cute black-and-white hand-drawn doodle illustration"
-      },
-      {
-        "name": "character type",
-        "default": "adorable chibi cartoon characters"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205400562_s501hy_HLY3gGdbkAEfx7E.jpg",
-        "alt": "Photo to Chibi Doodle Transformation",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205400623_lixfyz_HLY3gJTaoAA2yxK.jpg",
-        "alt": "Photo to Chibi Doodle Transformation",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205400572_pwxby4_HLY3gaKakAA2txq.jpg",
-        "alt": "Photo to Chibi Doodle Transformation",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205401180_egpdjl_HLY3grbaMAAv8li.jpg",
-        "alt": "Photo to Chibi Doodle Transformation",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Taaruk",
-      "url": "https://x.com/Taaruk_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Taaruk_/status/2068902163171143925"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26507",
-    "contentHash": "9f7340f9833307cdecca8c2b55347764cd5d856e"
-  },
-  {
-    "id": "gpt-image-2:26506",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26506",
-    "title": "Korean Photo Booth Style Collage",
-    "category": "Profile / Avatar",
-    "description": "A photorealistic prompt for generating a 6-frame grid collage mimicking the style of popular Korean photobooths with specific lighting and branding.",
-    "promptText": "use the uploaded image as the character reference. {argument name=\"grid style\" default=\"3×2\"} grid collage consisting of 6 hyper-realistic PHOTOISM photobooth photos, featuring thick black PHOTOISM-style borders with clear vertical “MY DAY\" text on the right side of each frame. Indoor photobooth setting with a solid light gray wall background, warm iPhone flash lighting with slight overexposure, and authentic photobooth film grain texture. playful vibe, outfit random, {argument name=\"emojis\" default=\"⚾,🥊\"}, Overall style: Korean photobooth realism, absurd and chaotic energy, warm playful thigh-resolution facial details, consistent facial features across all frames. Clean composition, high contrast, soft studio lighting, ultra-detailed, sharp focus, sophisticated atmosphere, aesthetic look, 8K resolution.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "grid style",
-        "default": "3×2"
-      },
-      {
-        "name": "emojis",
-        "default": "⚾,🥊"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205400953_qpv9im_HLNprmLXwAAs0JE.jpg",
-        "alt": "Korean Photo Booth Style Collage",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "H A J R A",
-      "url": "https://x.com/codewithhajra"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/codewithhajra/status/2068896788073853187"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26506",
-    "contentHash": "fcef723f372f4cc36aab1a5bd41ab16194a9485a"
-  },
-  {
-    "id": "gpt-image-2:26526",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26526",
-    "title": "Kawaii Storybook Style Hand-Drawn Illustration",
-    "category": "Social Media Post",
-    "description": "This prompt generates whimsical, hand-drawn illustrations in a charming kawaii storybook style. It produces cozy scenes with pastel colors, soft outlines, and decorative elements like stars and flowers, perfect for character art or aesthetic digital illustrations.",
-    "promptText": "Cute whimsical hand-drawn illustration in a {argument name=\"art style\" default=\"playful kawaii storybook style\"}, {argument name=\"color palette\" default=\"bright pastel color palette\"}, clean white background, doodle elements scattered around the scene ({argument name=\"doodle elements\" default=\"hearts, flowers, stars, clouds, swirls, leaves, sparkles\"}), thick soft outlines, flat colors with subtle texture, cozy and cheerful atmosphere, charming cartoon characters with round eyes, rosy cheeks, simplified features, decorative floral accents, colorful objects and storefronts, aesthetic café and lifestyle vibes, highly detailed yet minimal, digital gouache illustration, children’s book aesthetic, sticker-like composition, vibrant composition, adorable and cozy mood, modern cute illustration, Instagram-worthy artwork, high resolution.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "art style",
-        "default": "playful kawaii storybook style"
-      },
-      {
-        "name": "color palette",
-        "default": "bright pastel color palette"
-      },
-      {
-        "name": "doodle elements",
-        "default": "hearts, flowers, stars, clouds, swirls, leaves, sparkles"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205407529_xnuq25_HLeKxyKaMAAuqOq.jpg",
-        "alt": "Kawaii Storybook Style Hand-Drawn Illustration",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205407642_hf86sr_HLeKxyAboAAGIaG.jpg",
-        "alt": "Kawaii Storybook Style Hand-Drawn Illustration",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205407540_jek8y2_HLeKxyGaoAATMoo.jpg",
-        "alt": "Kawaii Storybook Style Hand-Drawn Illustration",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205408385_nm3zcd_HLeKxySbwAA3LFa.jpg",
-        "alt": "Kawaii Storybook Style Hand-Drawn Illustration",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Sairah",
-      "url": "https://x.com/Sairah_0"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Sairah_0/status/2069275160390271472"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26526",
-    "contentHash": "c6a683bf48982b1d7587a4a6e1fd7e130bdc6c8d"
-  },
-  {
-    "id": "gpt-image-2:26527",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26527",
-    "title": "Whimsical Surreal Pastel Cartoon",
-    "category": "Social Media Post",
-    "description": "A detailed prompt for creating a surreal, hand-drawn cartoon illustration from a photo using muted pastel harmonies and exaggerated proportions for a dreamlike mood.",
-    "promptText": "Whimsical surreal hand-drawn cartoon illustration of the attached photo. Use {argument name=\"color harmony\" default=\"pastel colors, controlled dusty pastel color harmony with muted purples, aquamarines, oil yellows and warm cream shades\"}, soft colored pencil lines, rounded, exaggerated proportions, elongated faces, expressive downcast eyes, playful, grotesque, organic shapes, fine shading, picturesque gouache shading, visible graininess of matte paper, tiny floating specks. and the botanical doodles, a concentrated poster composition with pure negative space and a simple background. Charming, strange, dreamlike mood, no photorealism, no 3D rendering, no harsh black contours, no glossy surfaces, no general background, no chaotic composition.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "color harmony",
-        "default": "pastel colors, controlled dusty pastel color harmony with muted purples, aquamarines, oil yellows and warm cream shades"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205409535_kpz5n3_HLeG9RlawAAjg2W.jpg",
-        "alt": "Whimsical Surreal Pastel Cartoon",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Lariab Fatima‎",
-      "url": "https://x.com/AiwithLariab"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AiwithLariab/status/2069270966027633112"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26527",
-    "contentHash": "ac1c007f8513204decf2dfa7cc4d4038cd3ccab0"
   }
 ]

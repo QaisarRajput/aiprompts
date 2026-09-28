@@ -1,5 +1,601 @@
 [
   {
+    "id": "gpt-image-2:31224",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31224",
+    "title": "Dim Apartment Sofa Portrait",
+    "category": "Social Media Post",
+    "description": "A realistic vertical lifestyle portrait of a young woman with glasses lounging on a sofa using her phone in warm cinematic apartment lighting.",
+    "promptText": "Create a realistic intimate lifestyle portrait of {argument name=\"subject\" default=\"a young adult woman\"} lounging on her stomach on a dark charcoal sofa in a dim modern apartment at night, holding and looking over a smartphone near the bottom foreground. She has {argument name=\"hair color and style\" default=\"dark brown shoulder-length straight hair swept to one side\"}, fair skin, a calm slightly dreamy expression, glossy natural lips, and thin round metal eyeglasses with subtle green-blue phone reflections on the lenses. She wears {argument name=\"outfit\" default=\"a cream silk camisole with lace trim and thin straps, with matching light shorts\"}. Pose her diagonally across the couch with elbows forward, hands around the phone, shoulders and upper torso closest to the camera, one bent leg visible behind her. Use warm low ambient apartment lighting mixed with cool phone glow on her face and fingers, shallow depth of field, soft cinematic bokeh, realistic skin texture, natural proportions, and a candid indoor photography feel. Background: blurred beige walls, a dark hallway or kitchen entrance on the left, a small wall thermostat/switch on the back wall, and minimal furniture, all unobtrusive. Composition: vertical 2:3 portrait, eye-level slightly above the couch, 35mm lens look, close focus on face and hands, no text, no watermark, tasteful fashion/lifestyle mood, not explicit.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "a young adult woman"
+      },
+      {
+        "name": "hair color and style",
+        "default": "dark brown shoulder-length straight hair swept to one side"
+      },
+      {
+        "name": "outfit",
+        "default": "a cream silk camisole with lace trim and thin straps, with matching light shorts"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523353944_7qxl6z_HPcjDFXbsAAPkis.jpg",
+        "alt": "Dim Apartment Sofa Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523354212_7ys368_HPcjVGbasAAjmfC.jpg",
+        "alt": "Dim Apartment Sofa Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Aggie的笔记🍓",
+      "url": "https://x.com/Yangyangn6666"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Yangyangn6666/status/2087175838945173850#reversed-0"
+    },
+    "publishedAt": "2026-08-11T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31224",
+    "contentHash": "6d4b70a48e7c456313e902ad672a4e77ec6bf2cf"
+  },
+  {
+    "id": "gpt-image-2:31233",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31233",
+    "title": "Dark UI Character Sheet Evaluation",
+    "category": "Infographic / Edu Visual",
+    "description": "Generates a Japanese dark-mode comparison dashboard for evaluating character-sheet creation routes from a reference image.",
+    "promptText": "Using REFERENCE_0 as the source material, create a dark-mode Japanese evaluation report slide that compares attempts to generate a character sheet while preserving the same rough watercolor/ink illustration style.\n\nGoal: Turn the reference into a structured experiment-summary dashboard titled 「M2　ステップ2—ムードボードを見本に GPT でキャラクターシート」. Keep the subject as the small armored child character from the reference, but present the result as an analysis screen rather than a single illustration.\n\nCanvas and style: Use a wide 16:9 dark UI layout with charcoal background, thin dividers, rounded cards, small Japanese UI text, orange/green accent labels, and embedded white image panels. Make it look like a screenshot of an internal comparison report.\n\nTop section: Create exactly 3 comparison cards across the top. Each card contains a white character-sheet panel showing the same character in multiple views and a small detached head/bust crop. Use these card titles and edge scores:\n1. 「経路A：GPT ムードボード経由」 with 「エッジ 57.6」\n2. 「経路B：grok ムードボード経由」 with 「エッジ 52.6」\n3. 「参考：grok キャラ直接（B-5）」 with 「エッジ 48.8」\nUnder each card add one short Japanese note line; the third card should mention that it is the softest and inherits the sample’s green cloth.\n\nMiddle section: Add a comparison table with exactly 4 columns labeled 「条件」, 「エッジ強度」, 「コントラスト」, 「見本の欠陥」. Include exactly 7 data rows:\n1. 「grok（目標）」 — 47.2 — 82.4 — 「—」\n2. 「1) 共通のみ」 — 53.6 — 90.8 — 「—」\n3. 「2) + 筆致（言葉）」 — 52.0 — 88.4 — 「なし」\n4. 「3) + grok キャラ見本」 — 「48.8 ← 最良」 — 85.4 — 「緑の布を継承」\n5. 「4) + GPT ムードボード」 — 「57.6 ← 最悪」 — 84.5 — 「なし」\n6. 「5) + grok ムードボード」 — 52.6 — 87.3 — 「なし」\n7. 「素材 image3.png（参考）」 — 58.8 — 69.1 — 「—」\n\nBottom section: Add several short Japanese conclusion lines beginning with 「結論1」 through 「結論5」, explaining that moodboard routes are not very effective, direct character reference works better, and the practical workaround is to avoid moodboards and use the Grok output with cropping. Finish with a collapsible dark bar labeled 「プロンプト（ステップ2の冒頭：ムードボードの役割指定）」.\n\nConstraints: Preserve the character identity and rough painted look from REFERENCE_0 in the embedded panels, but do not recreate the full original reference screenshot. Do not add unrelated characters. Use crisp UI typography and readable Japanese labels. The main title topic may be customized as {argument name=\"report title\" default=\"M2　ステップ2—ムードボードを見本に GPT でキャラクターシート\"}; the three route labels may be customized as {argument name=\"route labels\" default=\"経路A：GPT ムードボード経由 / 経路B：grok ムードボード経由 / 参考：grok キャラ直接（B-5）\"}; the character-sheet subject may be customized as {argument name=\"character subject\" default=\"the small armored child knight from the reference\"}; the table metric emphasis may be customized as {argument name=\"best and worst edge notes\" default=\"48.8 ← 最良, 57.6 ← 最悪\"}.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "report title",
+        "default": "M2　ステップ2—ムードボードを見本に GPT でキャラクターシート"
+      },
+      {
+        "name": "route labels",
+        "default": "経路A：GPT ムードボード経由 / 経路B：grok ムードボード経由 / 参考：grok キャラ直接（B-5）"
+      },
+      {
+        "name": "character subject",
+        "default": "the small armored child knight from the reference"
+      },
+      {
+        "name": "best and worst edge notes",
+        "default": "48.8 ← 最良, 57.6 ← 最悪"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523361207_1b6h5m_HPe-LUTbkAAYmpR.jpg",
+        "alt": "Dark UI Character Sheet Evaluation",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523361177_ipech4_HPe-SqkakAAIiLX.jpg",
+        "alt": "Dark UI Character Sheet Evaluation",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "さんかくてん",
+      "url": "https://x.com/sankakuten91256"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/sankakuten91256/status/2087348281659842757#reversed-1"
+    },
+    "publishedAt": "2026-08-12T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31233",
+    "contentHash": "ae9f1e54ad090fba48e46ea5c94f05a23f0856f7"
+  },
+  {
+    "id": "gpt-image-2:31240",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31240",
+    "title": "Castle Edit Markup Overlay",
+    "category": "Infographic / Edu Visual",
+    "description": "Creates a marked-up version of a fantasy castle image with handwritten red and green revision notes for structural edits.",
+    "promptText": "Using REFERENCE_0 as the base image, keep the castle artwork unchanged and overlay rough handwritten edit notes directly on top of it, as if marking areas for an image-editing revision.\n\nAdd exactly 2 annotation groups:\n1. Red annotation group on the tall rear tower near the upper-right center: draw red diagonal hatching across the tower, add a red arrow pointing toward it, and add the handwritten Japanese note {argument name=\"red edit note\" default=\"一番奥の高いこの塔を崩して、無くして空にして。\"} in the upper-right sky area.\n2. Green annotation group around the crumbling edge/remaining structure near the middle top: draw a green irregular outline around the broken area, add a green arrow pointing down to it, and add the handwritten Japanese note {argument name=\"green edit note\" default=\"この辺崩れのこっている\"} in the upper-middle sky area.\n\nStyle constraints: the annotations should look like quick digital pen markup, not integrated into the painting; keep the original watercolor fantasy castle image otherwise intact with no actual architectural removal yet.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "red edit note",
+        "default": "一番奥の高いこの塔を崩して、無くして空にして。"
+      },
+      {
+        "name": "green edit note",
+        "default": "この辺崩れのこっている"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523366075_851nmd_HPcx4xVbEAADVeB.jpg",
+        "alt": "Castle Edit Markup Overlay",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ててつろう",
+      "url": "https://x.com/craftcapitallab"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/craftcapitallab/status/2087192481054290301#reversed-0"
+    },
+    "publishedAt": "2026-08-11T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31240",
+    "contentHash": "a8f554e5b58df7eab3164f231edca7c7c1ae5473"
+  },
+  {
+    "id": "gpt-image-2:31228",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31228",
+    "title": "Five GitHub AI Tools Tech Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "A cinematic Chinese tech banner showcasing five GitHub AI tools with dashboard-style UI cards for social media or newsletter use.",
+    "promptText": "Goal: Create a dark futuristic widescreen tech poster introducing {argument name=\"headline text\" default=\"今日分享：5 个 GitHub 爆涨星技能\"}, showing five fast-growing GitHub AI tools as large interface cards above a modern developer workstation.\n\nCanvas: 16:9 horizontal social media banner, cinematic dark office background, cool blue lighting, high contrast, sharp UI mockup style. Use a blurred glass-and-metal workspace at night, with a desk across the bottom third.\n\nLayout: Place a large centered Chinese headline at the top; make the number “5” oversized and bright electric blue while the rest of the headline is bold white. Under it, add a thin decorative line and small subtitle text reading {argument name=\"subtitle text\" default=\"真实工作流场景一图看懂\"}. Arrange exactly 5 numbered feature sections in a row across the middle, each with a circular number badge, tool name, short Chinese description, and a large screenshot-style UI card beneath it. The five sections are: 1) GPT-Image2-Skill, description “图像生成与创意设计”; 2) smart-ralph, description “智能开发规划与执行”; 3) OpenAI Skills, description “可复用的 AI 技能目录”; 4) open-saas, description “开箱即用的 SaaS 基础设施”; 5) awesome-copilot, description “Copilot 配置与提示词库”.\n\nSubject details: Section 1 card is a dark prompt-library interface titled “GPT-Image2-Skill,” with a left sidebar of categories and a grid of poster/UI/illustration thumbnails. Section 2 card is a dark coding workflow interface titled “smart-ralph,” showing a task checklist, code editor, checkpoints, and an approval dialog. Section 3 card is a clean light “Skills Directory” interface with category navigation and stacked skill cards such as Code Reviewer, API Documenter, SQL Assistant, and Data Analyst. Section 4 card is an open-saas dashboard mockup with a landing page headline “Build Faster. Launch Sooner.”, login panel, dashboard metrics, payments table, and deploy panel. Section 5 card is a dark awesome-copilot marketplace/library interface with tabs and exactly 6 visible tool rows: Python Best Practices, API Development, Test Generator, Code Refactor, Security Scanner, and Docs Generator.\n\nDesk foreground: Include exactly 4 main desk objects: an open laptop on the left showing a mountain wallpaper, two wide desktop monitors in the center showing code and analytics dashboards, a white keyboard with mouse, and a small potted plant near the right monitor. Keep the desk minimal, premium, and realistic.\n\nVisual style: Premium GitHub/AI tooling aesthetic, dark navy and black palette, electric blue accents, crisp white typography, glassmorphism UI panels, realistic reflections, subtle depth of field, cinematic lighting, polished startup presentation design.\n\nConstraints: Keep all five tool names readable. Do not add extra tools or extra numbered sections. Preserve the Chinese headline and short Chinese descriptions. Avoid watermarks, logos unrelated to the five tools, clutter, distorted text, or cartoon styling.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline text",
+        "default": "今日分享：5 个 GitHub 爆涨星技能"
+      },
+      {
+        "name": "subtitle text",
+        "default": "真实工作流场景一图看懂"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523358294_bbvurr_HPcIl6DbUAA72LR.jpg",
+        "alt": "Five GitHub AI Tools Tech Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "0x小师妹",
+      "url": "https://x.com/0xshimei"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/0xshimei/status/2087146420931612817#reversed-0"
+    },
+    "publishedAt": "2026-08-11T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31228",
+    "contentHash": "bc514928863c75ba0126103b1c2c2768130c29af"
+  },
+  {
+    "id": "gpt-image-2:31195",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31195",
+    "title": "Photography Tutorial and Camera Setup Infographic",
+    "category": "Infographic / Edu Visual",
+    "description": "An advanced prompt for generating instructional infographics for photography. It takes a reference image and breaks down the camera position, distance, height, and angle, providing a clear 'how-to' guide for recreating the shot.",
+    "promptText": "Using [{argument name=\"reference image\" default=\"Image 1 Reference\"}] as the sole visual basis, generate a vertical 3:4 {argument name=\"teaching topic\" default=\"street photography knowledge analysis chart\"} (educational infographic poster). Goal: Use clear and interesting diagrams to explain \"subject position, camera position, lens/distance, camera height, shooting angle, and composition points\" for the purpose of teaching others how to recreate the shot. Overall style: Clean and high-end photography tutorial infographic + light scrapbook-style annotations; light off-white paper texture or light gray background; mainly black, white, and gray; automatically extract 1–2 colors from Image 1 as accents; sharp lines, high information density but not cluttered, unified alignment, and strong readability.\n\nMandatory Rules:\n- Must preserve the following from Image 1: subject pose, relative position between subject and environment, main background structural lines, lighting direction, and spatial logic.\n- Do not change the pose or the scene; only provide an \"analytical diagrammatic presentation.\"\n- Faces are not the focus: they can be lightly blurred/simplified, no realistic beautification, no emphasis on facial features.\n- Full Chinese; no English, no brand names, no watermarks, no UI interface elements.\n\nFixed Layout (remains the same every time, does not change with Image 1):\n1) Main Visual Area (upper half or large image on the left): Place the \"Reference Scene Display\" (lightly stylized/illustrated based on Image 1, but with recognizable scene and posture), overlaid with: rule-of-thirds grid, subject outline box, leading line prompts, vertical/horizontal line correction prompts; use numbered dots + hand-drawn arrows to mark key points (subject landing point, negative space direction, leg extension direction, background leading line source).\n2) Diagram Area (two side-by-side images on the right or bottom half):\n- Top View: Use minimalist icons to draw wall/street/building boundaries (abstracted from Image 1), subject position (person icon), camera position (camera icon); must show shooting direction arrows, distance between subject and camera (dashed line + numerical range), recommended position points A/B (two alternative positions); camera orientation must match Image 1 (front/side/oblique, etc.).\n- Side View: Draw ground line, subject height示意, camera height示意, tilt angle sector; must show camera height range from ground (reasonably inferred from Image 1), lens tilt angle range (reasonably inferred from Image 1); low angle/eye level/high angle must be correct.\n3) Parameter Card Area (three fixed rounded-corner cards at the bottom):\n- Card 1: Lens and Distance (give recommended equivalent focal length range + shooting distance range).\n- Card 2: Camera Height and Angle (give camera height range + tilt angle range).\n- Card 3: Pose and Body Points (summarize key points of the pose in Image 1 using short sentences).\n4) Error Demonstration Area (fixed at the bottom right): 3 red-cross error prompts (automatically generated based on the most relevant issues in Image 1, short sentences), for example: don't use ultra-wide angle too close to the face, don't crop toes/fingers, don't use a camera position that's too high resulting in distorted proportions (adjust automatically based on Image 1's actual situation).\n\nAutomatic Inference Requirements (to make it usable for any replacement of Image 1):\n- Automatically infer and write into the diagrams based on Image 1: camera orientation, camera height, shooting distance interval, equivalent focal length interval, subject landing point and cropping strategy, background leading line source.\n- All numerical values should be expressed as \"ranges\" (credible and reproducible), do not provide a single fixed number.\n\nOutput Requirements:\nHigh definition, sharp lines, natural shadows, unified icons, neat layout, readable information; no garbled text, no logos, no watermarks, no excessive decoration.\n\nNegative Constraints:\nNo watermarks, no logos, no English, no garbled text, no overly realistic faces, no exaggerated cartoon proportions, no limb deformities/extra fingers, no cluttered layouts, no low resolution, no heavy filters, no changes to the subject pose or scene relationship of Image 1.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "reference image",
+        "default": "Image 1 Reference"
+      },
+      {
+        "name": "teaching topic",
+        "default": "street photography knowledge analysis chart"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523326930_ayj4r6_HPbCypybEAAA0iA.jpg",
+        "alt": "Photography Tutorial and Camera Setup Infographic",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523326943_e3nlni_HPbC0PWbgAAUAQD.jpg",
+        "alt": "Photography Tutorial and Camera Setup Infographic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Loriel.AI",
+      "url": "https://x.com/ou_zhen599"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ou_zhen599/status/2087069691705770358"
+    },
+    "publishedAt": "2026-08-11T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31195",
+    "contentHash": "97b53f45c2ead28fbba0409d884daa3af1b926bf"
+  },
+  {
+    "id": "gpt-image-2:31190",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31190",
+    "title": "Lipstick Recommendation and Analysis Infographic",
+    "category": "Infographic / Edu Visual",
+    "description": "A comprehensive prompt that transforms the AI into a professional makeup consultant. It analyzes a user's selfie to provide a visual infographic report featuring skin tone analysis, specific color recommendations from high-end brands, and usage suggestions.",
+    "promptText": "You are a professional makeup consultant, image analyst, and infographic designer.\n\nPlease generate a \"Lipstick Recommendation Report Infographic\" based on the selfie uploaded by the user and the specified lipstick brand.\n\nObjective:\nRecommend 3-5 suitable lipstick shades based on the person's overall temperament, skin tone tendency, makeup suitability, and lip characteristics, and present them in a clear, professional way that matches the brand's identity.\n\nBrand:\n{argument name=\"brand name\" default=\"Dior / YSL / Armani / Chanel / Tom Ford\"}\n\nThe visual content includes the following structures:\n\n1. Top-left area: User selfie and basic analysis\n- Display the user's selfie avatar\n- Extract skin tone tendency, overall temperament, and suitable color directions\n- Summarize with short Chinese labels, such as: cool-toned, soft, commuting, powerful, etc.\n\n2. Middle main area: Lipstick recommendation matrix\n- Recommend 3-5 suitable lipstick shades\n- Show the lip swatching effect for each shade\n- Keep the same person, same angle, and same lighting, only changing the lip color\n- Each shade is accompanied by a Chinese name or number\n- Mark the color impression, such as: gentle bean paste, commuting nude red, temperament rose, brightening red-brown, date berry, etc.\n\n3. Right or bottom area: Usage scenario suggestions\n- Match suitable scenarios for each recommended shade\n- For example: commuting, dating, shopping, banquet, photography, daily bare-faced look\n\n4. Bottom summary area: Conclusion and suggestions\n- Give summaries such as \"most recommended color,\" \"most versatile color,\" \"best complexion-enhancing color\"\n- Write a short Chinese purchase or selection suggestion\n\nBrand visual style should automatically match:\n- Dior: Elegant French gray-white + silver accents\n- YSL: High-contrast black-gold, sexy and strong\n- Armani: Low-saturation gray tones, high-end and restrained\n- Chanel: Minimalist black and white, rational and stylish\n- Tom Ford: Dark luxury, cinematic feel\n- Visual language can be extended automatically according to the brand\n\nVisual Requirements:\n- The overall look should resemble a high-end beauty consultant report or brand swatching analysis chart\n- Chinese text must be clear and accurate\n- Clean layout, complete information, suitable for social media sharing\n- Keep the character identity consistent, only comparing lip color differences\n- High-end style, avoid looking like common e-commerce screenshots\n\nNote:\nThis is a visual recommendation based on image and temperament; do not make medical judgments or absolute conclusions.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "brand name",
+        "default": "Dior / YSL / Armani / Chanel / Tom Ford"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523324106_i2e0dz_HPabYr9aAAAU8u3.jpg",
+        "alt": "Lipstick Recommendation and Analysis Infographic",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523324115_c86wy9_HPabYr7aMAA3MuJ.jpg",
+        "alt": "Lipstick Recommendation and Analysis Infographic",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523324130_lp2mwt_HPabYr-aAAEgsy6.jpg",
+        "alt": "Lipstick Recommendation and Analysis Infographic",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523325241_3mwvex_HPabZEibEAAs8Bt.jpg",
+        "alt": "Lipstick Recommendation and Analysis Infographic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Derek Wen｜德里克文",
+      "url": "https://x.com/derek_wall90176"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/derek_wall90176/status/2087026599623532852"
+    },
+    "publishedAt": "2026-08-11T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31190",
+    "contentHash": "a5436692a8d35eaa9bec1612abfe269d772cb8b5"
+  },
+  {
+    "id": "gpt-image-2:31213",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31213",
+    "title": "Mid-Century Theatrical Cartoon Banner",
+    "category": "YouTube Thumbnail",
+    "description": "A prompt for generating 1950s-style animation trailer banners with caricature features and a hand-painted cel-animation aesthetic.",
+    "promptText": "Mid-century theatrical cartoon still promotional Hollywood movie trailer banner featuring a {argument name=\"adventurer\" default=\"daring adventurer with tousled brown hair\"} and a confident smile, wearing an open safari shirt and leather jacket, and a {argument name=\"heroine\" default=\"spirited heroine with wind-swept dark hair\"} and bright eyes, wearing a practical yet stylish khaki outfit, seated together on a weathered crate inside a {argument name=\"setting\" default=\"exotic jungle camp\"}. Stage them in a lighthearted, adventurous, good-humored interaction, with both characters fully visible, relaxed, and clearly reacting to each other with shared excitement. Design the figures with exaggerated early-1950s animation caricature: clean black contour lines, sharply simplified anatomy, elegant angular silhouettes, expressive eyebrows, stylized facial shapes, graceful hand gestures, and cheerful readable expressions. Render the entire image in a unified traditional cel-animation aesthetic, with the background following the same stylized visual language as the characters, using flat opaque colors, minimal hard-edged shading, simplified furniture and décor, subtle hand-painted texture, controlled perspective, and crisp theatrical staging. Use a bold adventure palette of warm khaki, deep green, soft gold, and cream and maintain a witty, charming, visually snappy mood.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "adventurer",
+        "default": "daring adventurer with tousled brown hair"
+      },
+      {
+        "name": "heroine",
+        "default": "spirited heroine with wind-swept dark hair"
+      },
+      {
+        "name": "setting",
+        "default": "exotic jungle camp"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523342367_3yl5pt_HPfn4v6bMAAcc2Y.jpg",
+        "alt": "Mid-Century Theatrical Cartoon Banner",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ManuAGI 🤖 - ( ManuIn )",
+      "url": "https://x.com/ManuAGI01"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ManuAGI01/status/2087391940233007403"
+    },
+    "publishedAt": "2026-08-12T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31213",
+    "contentHash": "96db37788fd983433dec0df9468c6063547a4930"
+  },
+  {
+    "id": "gpt-image-2:31177",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31177",
+    "title": "The Last Photo of Humanity",
+    "category": "YouTube Thumbnail",
+    "description": "A cinematic and emotional prompt depicting a lone photographer capturing Earth's final moments as evacuation ships depart during sunset.",
+    "promptText": "{\n  \"title\": \"The Last Photo of Humanity\",\n  \"image_description\": \"A lone photographer stands on a rooftop taking the final photograph of Earth as gigantic evacuation ships leave the planet.\",\n  \"subject\": {\n    \"character\": \"{argument name=\"character\" default=\"Photographer\"}\",\n    \"emotion\": \"{argument name=\"emotion\" default=\"Acceptance, sadness\"}\"\n  },\n  \"setting\": {\n    \"location\": \"{argument name=\"location\" default=\"Megacity Rooftop\"}\",\n    \"time\": \"Sunset\"\n  },\n  \"story_element\": {\n    \"text\": \"LAST FLIGHT DEPARTING\"\n  },\n  \"cinematography\": {\n    \"shot_type\": \"Wide Shot\",\n    \"lens\": \"85mm Anamorphic\"\n  },\n  \"mood\": [\"Emotional\", \"Epic\", \"Cinematic\"],\n  \"quality\": \"Hollywood Blockbuster, 8K\"\n}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character",
+        "default": "Photographer"
+      },
+      {
+        "name": "emotion",
+        "default": "Acceptance, sadness"
+      },
+      {
+        "name": "location",
+        "default": "Megacity Rooftop"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523307589_m6exn6_HPc1uKSa8AA5UrY.png",
+        "alt": "The Last Photo of Humanity",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Compound Learning - Tech | Science",
+      "url": "https://x.com/SheBuildsAI_"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/SheBuildsAI_/status/2087196022086988098"
+    },
+    "publishedAt": "2026-08-11T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31177",
+    "contentHash": "b7d24cb52a6f46d8f0b9e8d5cf5581ed62ef3471"
+  },
+  {
+    "id": "gpt-image-2:31247",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31247",
+    "title": "Tokyo Police Robot Rescuing Cow",
+    "category": "YouTube Thumbnail",
+    "description": "A cinematic photorealistic scene of a giant Japanese police mech carrying a cow on a rainy Tokyo expressway, useful for sci-fi news or concept art.",
+    "promptText": "Create a photorealistic cinematic news-style image of a massive humanoid police robot from the Tokyo Metropolitan Police heavy machinery response unit standing on a wet elevated expressway in Tokyo, carefully carrying one black-and-white Holstein cow in both armored hands as if rescuing or detaining it. The robot is about three stories tall, built from white and dark navy modular armor plates with visible bolts, hydraulic joints, scuffed paint, rain grime, red emergency light bars on both shoulders, thin antennae on its helmet, and Japanese police markings reading {argument name=\"police marking text\" default=\"警視庁\"} on the chest and shoulder armor. The cow should be full-sized, dangling but unharmed, with four visible legs, black patches, a white face stripe, yellow ear tag, and a confused expression. Behind the robot on the left, include exactly one futuristic armored police vehicle with six large wheels, black-and-white livery, roof equipment, small red-and-blue lights, headlights on, and Japanese police markings. Set the scene on a rainy urban highway with reflective asphalt, lane markings, guardrails, and a green overhead road sign showing Shibuya and Tanimachi with an exit distance, plus blurred high-rise buildings in the background. Use an overcast stormy gray sky, misty atmosphere, damp surfaces, realistic scale, low-angle street-level perspective, 35mm documentary photography look, sharp foreground detail, subtle motion realism, dramatic but plausible lighting, no cartoon style, no extra animals, no extra robots, no people, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "police marking text",
+        "default": "警視庁"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523370697_e5vv6e_HPcZgVubcAAjD2D.jpg",
+        "alt": "Tokyo Police Robot Rescuing Cow",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "カーブミラー",
+      "url": "https://x.com/kabumira862571"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/kabumira862571/status/2087165002906304635#reversed-0"
+    },
+    "publishedAt": "2026-08-11T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31247",
+    "contentHash": "7bce26af70ae70185e98127666a0b49128db22c9"
+  },
+  {
+    "id": "gpt-image-2:31170",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31170",
+    "title": "Cyberpunk Neon Dragon Awakening",
+    "category": "YouTube Thumbnail",
+    "description": "A spectacular 9:16 movie still prompt featuring a gigantic holographic dragon emerging from a skyscraper billboard in a rainy futuristic city, witnessed by a lone biker.",
+    "promptText": "Create an ultra-cinematic 9:16 cyberpunk movie still titled “The Neon Dragon Awakens.” Nighttime in a vast futuristic metropolis during heavy rain. Towering glass skyscrapers disappear into the dark clouds, surrounded by glowing neon advertisements, holographic signs, flying vehicles, atmospheric fog and steam rising from the streets. In the foreground, show a {argument name=\"biker\" default=\"lone female biker\"} stopped on a {argument name=\"motorcycle\" default=\"sleek futuristic black superbike\"}. She is viewed mostly from behind, wearing a stylish black cyberpunk jacket and boots, staring upward toward an enormous curved digital billboard wrapped around a skyscraper. The billboard displays a {argument name=\"creature\" default=\"gigantic holographic Chinese-style dragon\"} made from brilliant crimson, magenta, electric blue and white energy. Capture the exact moment when something impossible begins happening: the dragon’s head and front claws are emerging beyond the flat surface of the billboard, as though the digital creature is becoming physically real. Parts of its body should still remain inside the screen, breaking apart into glowing pixels and holographic fragments where the digital world transitions into reality. The dragon looks directly toward the biker with intensely glowing eyes. Its enormous scale should make the biker and motorcycle look tiny by comparison. Rain falls through the neon light. Wet asphalt creates beautiful mirror reflections across the street. Steam drifts between buildings. Small futuristic vehicles and flying cars add depth and scale. Composition should feel like the opening frame of a high-budget cyberpunk science-fiction movie, with strong foreground, middle ground and deep city background specifically designed for image-to-video animation. Photorealistic cinematic lighting, dramatic volumetric atmosphere, realistic rain, extremely detailed dragon scales, holographic particle effects, realistic motorcycle materials, deep blacks, brilliant neon reflections, strong depth, subtle motion tension, anamorphic cinematic feel, epic scale, premium VFX quality, razor-sharp subject detail. The scene must instantly make the viewer wonder: “What happens when the dragon completely escapes?” No logos, no watermark, no captions, no readable brand names, no malformed motorcycle, no extra limbs, no duplicate dragon, no cartoon appearance. Vertical 9:16 composition, cinematic poster quality, visually spectacular and scroll-stopping.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "biker",
+        "default": "lone female biker"
+      },
+      {
+        "name": "motorcycle",
+        "default": "sleek futuristic black superbike"
+      },
+      {
+        "name": "creature",
+        "default": "gigantic holographic Chinese-style dragon"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523304682_tcwiy0_HPZY0ilaAAAmEXG.jpg",
+        "alt": "Cyberpunk Neon Dragon Awakening",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Nagarjuna Creates",
+      "url": "https://x.com/nagarjuncreates"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/nagarjuncreates/status/2086953162225946676"
+    },
+    "publishedAt": "2026-08-10T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31170",
+    "contentHash": "f983314810eaf81b522724f4ebfb117500b94fac"
+  },
+  {
+    "id": "gpt-image-2:31241",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31241",
+    "title": "Polished Anime Noble Portrait",
+    "category": "Comic / Storyboard",
+    "description": "Transforms a rough character sketch into a finished regal anime bust portrait with ornate jewelry, costume details, and preserved handwritten name/title text.",
+    "promptText": "Using REFERENCE_0 as the character base, transform the rough pencil sketch into a polished, high-resolution anime character concept portrait. Preserve the same bust-up 3/4 head angle, calm serious expression, neck length, updo hairstyle silhouette, loose side locks, and the handwritten name/title placement on the left.\n\nRendering style: clean modern anime illustration with crisp line art, soft cel shading, glossy highlights, detailed eyes, and a plain white background. Replace the sketch lines with finished color artwork.\n\nCharacter finish: give the character {argument name=\"hair color\" default=\"deep ruby red\"} hair, vivid {argument name=\"eye color\" default=\"green\"} eyes, fair skin, refined eyelashes, and a composed noble look.\n\nCostume and accessories: redesign the simple neckline into an ornate imperial high collar with cream fabric, gold filigree embroidery, and white lace ruffles. Add exactly 3 visible red gemstone accessories: 1 elaborate gold-and-red hair ornament on the bun, 1 dangling red gemstone earring, and 1 oval red gemstone brooch at the collar. Make the gold details intricate and regal but keep the original portrait composition uncluttered.\n\nText: convert the rough handwritten notes into stylized dark red calligraphy on the left, preserving exactly 2 text blocks: {argument name=\"character name\" default=\"Mariel Trust\"} near the upper left and {argument name=\"title text\" default=\"Ice Emperor\"} near the lower left. Do not add any other text.\n\nConstraints: keep the crop close to the original bust portrait, keep the background blank white, avoid changing the face direction or expression, and make the final image look like a finished character sheet illustration rather than a sketch.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "deep ruby red"
+      },
+      {
+        "name": "eye color",
+        "default": "green"
+      },
+      {
+        "name": "character name",
+        "default": "Mariel Trust"
+      },
+      {
+        "name": "title text",
+        "default": "Ice Emperor"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523366521_37x1um_HPgatesawAAFfA0.jpg",
+        "alt": "Polished Anime Noble Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "썰렁황제",
+      "url": "https://x.com/iceemperor"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/iceemperor/status/2087448371787386972#reversed-1"
+    },
+    "publishedAt": "2026-08-12T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31241",
+    "contentHash": "66dac88abc3e1267a8b7224c5070346b4879e5d3"
+  },
+  {
+    "id": "gpt-image-2:31183",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31183",
+    "title": "Handcrafted 3D Paper-Craft Travel Diorama",
+    "category": "Comic / Storyboard",
+    "description": "Creates charming 3D paper-craft dioramas of travel scenes, perfect for storybook aesthetics and nostalgic miniature art.",
+    "promptText": "Create a premium handcrafted 3D paper-craft travel diorama centered around a little girl and her beloved doll on a magical journey.\n\nadorable young girl doll character sitting on the upper edge of the diorama with her favorite small doll companion beside her. She wears a charming vintage travel outfit — a soft knitted cardigan, pleated skirt, little boots, cute hat, and a tiny backpack. She holds a miniature travel journal or map, while her doll is dressed in a matching outfit and carries a tiny suitcase.\n\nThe main scene inside the dimensional frame should represent {argument name=\"destination\" default=\"Paris\"} as a magical miniature world. Include its most recognizable architecture and landscapes, but reinterpret everything as handcrafted toys and paper sculptures: tiny buildings, colorful streets, flowers, trees, bridges, cafés, lanterns, local decorations, and a small pathway leading into the scene.\n\nAdd charming storytelling details:\n\nThe girl’s doll sitting beside her as her travel companion\nTiny suitcase covered with travel stickers\nMiniature teddy bear peeking from the backpack\nA tiny camera hanging around the girl’s neck\nSmall postcards and stamps scattered around the frame\nA miniature paper airplane flying through the scene\nA tiny map with a dotted route\nHandcrafted flowers and plants around the foreground\n\nUse a soft pastel vintage palette of dusty pink, warm cream, terracotta, muted teal, sage green, peach, and warm brown.\n\nThe entire artwork should feel like a luxury handcrafted children’s storybook mixed with a vintage travel scrapbook, using layered cardstock, paper quilling, embossed paper, miniature clay details, fabric textures, stitched leather accents, and delicate hand-painted surfaces.\n\nMake the girl and her doll especially charming and expressive, with a cute collectible-doll aesthetic, oversized curious eyes, soft handcrafted facial details, and a warm adventurous personality.\n\nAdd a large raised plaque at the bottom reading:\n\n{argument name=\"destination\" default=\"Paris\"}\n{argument name=\"country\" default=\"France\"}\n\nSurround the composition with subtle travel elements such as a compass, postage stamps, luggage tags, leaves, postcards, and a dotted travel route.\n\nSoft warm studio lighting, realistic miniature shadows, tactile paper fibers, shallow depth of field, premium product photography, highly detailed handcrafted textures, whimsical cinematic atmosphere, elegant composition, cozy nostalgic feeling, museum-quality miniature diorama, 8K.\n\nAvoid: photorealistic humans, plastic-looking 3D characters, excessive text, clutter, harsh colors, modern objects, generic fantasy scenery.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "destination",
+        "default": "Paris"
+      },
+      {
+        "name": "country",
+        "default": "France"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523317020_1kyoy9_HPgOPhIagAAXz6r.jpg",
+        "alt": "Handcrafted 3D Paper-Craft Travel Diorama",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523317025_zic1cx_HPgOPg_bUAA8KLH.jpg",
+        "alt": "Handcrafted 3D Paper-Craft Travel Diorama",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "simeon-sanai",
+      "url": "https://x.com/Naiknelofar788"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Naiknelofar788/status/2087434099682427139"
+    },
+    "publishedAt": "2026-08-12T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31183",
+    "contentHash": "92139ea2f20f6708cda05ec32093941ad6e07149"
+  },
+  {
+    "id": "gpt-image-2:31192",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31192",
+    "title": "Oriental Papercut Art of Sacred Temple Bridge",
+    "category": "Comic / Storyboard",
+    "description": "A sophisticated prompt for generating a three-dimensional layered papercut illustration, depicting a woman crossing a celestial bridge toward a glowing paper temple with intricate carving textures.",
+    "promptText": "9:16 vertical version, modern oriental female dreamscape 3D papercut art, modern oriental papercut art, layered paper cut illustration, dimensional paper sculpture, intricate paper carving, paper diorama, layered shadow box, epic oriental papercraft fantasy, poetic female dreamscape, contemporary oriental art poster. The theme of the work is 'She crosses a suspended sky bridge towards the center of the temple.' The core narrative of the scene is: a young oriental woman alone embarks on a long paper-art sky bridge floating above a sea of clouds, with a giant glowing paper-sculpture temple at the end of the bridge. She moves forward step by step, finally deciding to enter the center that only appeared in her dreams. The entire scene emphasizes a pilgrimage-like sense of progression, a vast high-altitude world, and the epic momentum of a paper-art mythological scene. The main character is an adult oriental woman with a visual age of about 25, bright, brave, quiet, and firm, with a sense of solemnity when facing the unknown temple. The character has a soft oval face, clear almond eyes, and gazes intently at the distant temple with a calm and determined expression. The character is not the main large-scale close-up of the scene but an emotional anchor in a huge world, and the proportions must be significantly small. Character hairstyle and headwear: long black hair naturally loose, the ends of the hair blown by the wind into slender flowing paper ribbons, wearing light gold leaves and small star-shaped hair accessories. The headwear is exquisite and light, not complex or tall. The long hair and silk drape extend behind her in the high-altitude wind, forming clear and elegant flowing lines. Character clothing: a layered paper-art long skirt in moon white and cyan-green, the hem unfolded in layers of leaves and cloud patterns, the silk drape slender and light, partially with light gold hollowed patterns. The clothing must have a multi-layered paper structure, fine hollowed edges, paper fibers, slight creases, real paper thickness, and a high-degree of handmade cutting feel. The hem and drape extend in the wind on the bridge, but do not block the perspective direction of the bridge. The dream carrier is: a suspended paper-art sky bridge. Dream imagery includes: sky bridge, cloud sea, temple, flying birds, distant mountains, glowing cloud layers. All bridges, temples, clouds, mountains, birds, and characters must be unified in a high-quality 3D paper sculpture language; realistic characters with paper-cut backgrounds or ordinary CG architecture are not allowed. The overall paper-cut structure adopts: a surrounding dreamscape style. Composition and camera requirements: the camera is located on the bridge surface, using a low-angle or eye-level shot, high-angle top-down shots cannot be used. The line of sight extends along the bridge surface toward the distant temple, forming a strong single-point perspective and epic depth. The sky bridge extends from the foreground at the bottom of the screen to the far center, leading directly to the temple. The bridge width is moderate but visually extremely long, with exquisite hollowed railings, suspension chains, carvings, and paper-art components on both sides. The character is located in a small position in the middle-lower part of the bridge, facing away from or semi-facing away from the camera, walking towards the distant temple. The character must be significantly smaller than the bridge and the temple to highlight the oppressive sense of the scene and the scale of the bridge. The main subject of the scene is an extremely long and narrow suspended paper-art sky bridge. The bridge body floats above an infinite sea of clouds, and the bridge surface is composed of silver-white, moon-white, and light-gold details, with rich oriental hollowed patterns, paper-sculpted railings, layered structures, and translucent edges. The bridge is not an ordinary small bridge but like a sacred bridge leading to the center of a divine realm, with exaggerated length and strong depth, making the viewer feel the distance and the sense of high-altitude danger. In the distance is a huge, multi-layered glowing paper-sculpted temple. The volume of the temple is much larger than the person and even much larger than the bridge entrance porch, possessing a clear sense of oppression and divine scale. The temple is composed of multiple halls, arches, towers, corridors, and a central glowing entrance, with a complex and exquisite structure, layered and situated between the sea of clouds and the mountains. There is a glowing doorway or main hall entrance at the center of the temple, becoming the final visual focus. The temple should be like the ultimate center in a dream, not a common courtyard building. On both sides of the bridge are a huge sea of clouds and high-altitude white space. The sea of clouds is composed of a large number of paper layers of different thicknesses, forming surging layers and a massive sense of volume. Distant paper-art mountains rise from the clouds, the peaks are cyan and misty blue, with fine gold-line hollowed decorations. A few birds may fly by in the high sky to enhance the sense of scale and airspace, but do not stack too many. The overall color scheme is: moon white, cyan-green, silver white as primary colors, with a small amount of light gold accents. Moon white is used for the bridge body, bright parts of the temple, outer layers of character clothing, and highlights of the sea of clouds; cyan-green is used for distant mountains, inner layers of clothing, and partial decorations; silver white is used for temple highlights, bridge surface highlights, and the sky atmosphere; light gold is only used for railing chains, hollowed patterns, clothing outlines, and partial highlights. The overall look must be bright, transparent, and clear, not gray, not darkened, not overall blueish, and not yellowish. Light and paper texture: bright daylight with a blend of cold and warm tones at high altitude illuminates the sky bridge and the temple, the edges of the bridge surface are slightly translucent, the shadow layers of the temple paper are clear, and the paper fibers and layered structures are exquisite and obvious. The distant temple entrance emits a soft but strong light, extending toward the foreground along the bridge. The bridge railings, character's shoulders, hair strands, and skirt edges have soft rim lighting. The paper surface must have clearly visible fiber textures, manual cutting marks, slight creases, layered shadows, and translucent edges, overall looking like a high-quality museum-grade paper sculpture art installation. The atmosphere of the image is: epic, solemn, sacred, vast, quiet, and firm. The focus is not on exaggerated character postures, but on creating a strong sense of pilgrimage and oppression through the extremely long sky bridge, giant temple, massive sea of clouds, and high-altitude space. The scene must look like a paper-art mythological epic scene, not an ordinary dreamscape.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523325239_kgwky8_HPgI0YQaAAAiKQs.jpg",
+        "alt": "Oriental Papercut Art of Sacred Temple Bridge",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "李岳",
+      "url": "https://x.com/liyue_ai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/liyue_ai/status/2087428220547481880"
+    },
+    "publishedAt": "2026-08-12T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31192",
+    "contentHash": "b8c56c57c53bed6da31059631a01d7a4856efa25"
+  },
+  {
     "id": "gpt-image-2:31216",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6487,648 +7083,5 @@
     "publishedAt": "2026-08-09T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30872",
     "contentHash": "66caf62fb2e3cf04ee404b72a0ae64efcdb57ae9"
-  },
-  {
-    "id": "gpt-image-2:30914",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30914",
-    "title": "Realistic East Asian Selfie Portrait",
-    "category": "Profile / Avatar",
-    "description": "A photorealistic vertical smartphone selfie of a young East Asian woman in a gray sweatshirt, useful for lifestyle portrait generation.",
-    "promptText": "Create a highly realistic vertical smartphone selfie portrait of a young East Asian woman with {argument name=\"hair color\" default=\"black\"} hair tied back in a low ponytail, soft wispy bangs falling across her forehead, and a few loose side strands framing her face. She has large glossy dark brown eyes, clear fair skin, natural rosy cheeks, subtle pink lips, and a calm gentle expression with a faint closed-mouth smile, looking directly into the camera. She is wearing an oversized {argument name=\"sweatshirt color\" default=\"light heather gray\"} crewneck sweatshirt with visible ribbed collar and soft cotton texture. The framing is a close upper-body selfie from slightly above eye level, face centered slightly to the right, shoulders visible, with a natural arm-length perspective and mild lens distortion typical of a phone front camera. Background is a simple indoor room with warm beige walls, a corner seam on the right, and a small portion of a neutral fabric sofa at the lower left. Use soft natural window light from the front-left, smooth skin detail without looking plastic, realistic hair flyaways, shallow depth of field, casual candid atmosphere, no jewelry, no text, no watermark, photorealistic quality, vertical 9:16 composition.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "black"
-      },
-      {
-        "name": "sweatshirt color",
-        "default": "light heather gray"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263565902_6ohl34_HPP0moqbQAE4nJa.jpg",
-        "alt": "Realistic East Asian Selfie Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263566354_yh8jyj_HPP0mosaIAAET0U.jpg",
-        "alt": "Realistic East Asian Selfie Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "でこぴん",
-      "url": "https://x.com/Shun_ai86"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Shun_ai86/status/2086280003214585878#reversed-0"
-    },
-    "publishedAt": "2026-08-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30914",
-    "contentHash": "ac802705550708e0121553d1546312e046b1bbb5"
-  },
-  {
-    "id": "gpt-image-2:30895",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30895",
-    "title": "Cozy Indoor Girlfriend Selfie",
-    "category": "Profile / Avatar",
-    "description": "A realistic prompt for generating a soft, intimate indoor portrait of a young woman in a cozy music-themed room.",
-    "promptText": "Create a realistic casual girlfriend-style indoor selfie portrait in a 3:2 landscape frame. Show a young {argument name=\"character ethnicity\" default=\"East Asian\"} woman in her early 20s with fair skin, long natural {argument name=\"hair color\" default=\"black\"} hair worn loose with a soft side part, delicate makeup, warm brown eyes, and a calm faint smile, looking directly at the camera. She is seated close to the camera, upper body visible, wearing a cozy oversized {argument name=\"cardigan color\" default=\"light gray\"} fuzzy knit cardigan over a cream lace-trim camisole, with a thin gold necklace and tiny pendant. Use soft natural beauty lighting with a warm lamp glow from the right side, shallow depth of field, realistic skin texture, and a clean smartphone-photo aesthetic rather than a studio shoot. The background is a cozy bedroom or music-themed corner: an off-white textured plaster wall on the left, a collage of vintage newspaper pages on the right, exactly 1 violin poster near the upper right with the word “VIOLIN” visible, exactly 1 glowing table lamp at the far right, and exactly 1 framed minimalist teapot print leaning at the lower left. Keep the composition intimate and balanced, with the face slightly right of center, muted beige and gray tones, no exaggerated posing, no extra people, no watermark, no text except the poster word.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character ethnicity",
-        "default": "East Asian"
-      },
-      {
-        "name": "hair color",
-        "default": "black"
-      },
-      {
-        "name": "cardigan color",
-        "default": "light gray"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263549810_2b4hfb_HPNUV9xWIAAslj6.jpg",
-        "alt": "Cozy Indoor Girlfriend Selfie",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263550020_t32vi8_HPNUoIeXQAAt72_.jpg",
-        "alt": "Cozy Indoor Girlfriend Selfie",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "元喜家",
-      "url": "https://x.com/failrylivs"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/failrylivs/status/2086104127684112533#reversed-0"
-    },
-    "publishedAt": "2026-08-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30895",
-    "contentHash": "affd703f7e8501e91ed2bbffa2671920fce5865a"
-  },
-  {
-    "id": "gpt-image-2:30851",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30851",
-    "title": "Ultra-Realistic Underwater Selfie Portrait",
-    "category": "Profile / Avatar",
-    "description": "A complex prompt for a high-quality underwater selfie featuring an East Asian woman with water caustics and realistic floating hair.",
-    "promptText": "Based on the image in Figure 1, generate a hyper-realistic underwater photograph of a {argument name=\"person\" default=\"young East Asian woman\"} who has just entered a clear shallow pool. The body is fully submerged in an {argument name=\"shooting distance\" default=\"ultra-close-up\"} underwater selfie portrait. The subject faces the camera, with the face centered and occupying the main visual area. The lens is about 30–50 cm from the face with a slight wide-angle selfie perspective, capturing the head, shoulders, and upper body.\n\nThe woman has a natural soft oval face, fair skin, and medium-length black hair spreading out in the water, floating slowly due to buoyancy. She wears round thin-framed glasses, her eyes are naturally open looking at the camera, and she has a gentle smile showing teeth. Her expression is relaxed, calm, and tender, without any sense of holding breath or tension.\n\nShe is wearing a {argument name=\"clothing\" default=\"light cream-colored off-the-shoulder knit top\"}. The fabric clings naturally to her body and floats slightly in the water. Her arms are extended toward the camera in a close-up selfie composition, with a natural wide-angle perspective on the foreground arm.\n\nThe camera is fully underwater, slightly below the surface, where the undulating water surface and mirror reflections are visible above her head. Clear light blue pool water with a simple background. A few small bubbles rise slowly around her, creating the moment of just entering the water without large violent bubbles.\n\nBright natural sunlight shines from above, refracting through the water to form dynamic underwater caustics on her forehead, cheeks, glasses, shoulders, and clothing. Highlights are natural golden-white, and the water is transparent cyan-blue. Soft facial exposure with natural shadows and realistic skin texture.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "person",
-        "default": "young East Asian woman"
-      },
-      {
-        "name": "shooting distance",
-        "default": "ultra-close-up"
-      },
-      {
-        "name": "clothing",
-        "default": "light cream-colored off-the-shoulder knit top"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263512337_12or41_HPNKdKvaAAEOwjd.jpg",
-        "alt": "Ultra-Realistic Underwater Selfie Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263512330_wmic4s_HPNKdKmaQAABBeG.jpg",
-        "alt": "Ultra-Realistic Underwater Selfie Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "allen 艾伦",
-      "url": "https://x.com/allenhe168"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/allenhe168/status/2086092927562891729"
-    },
-    "publishedAt": "2026-08-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30851",
-    "contentHash": "fcc63ed9a378e12fa70f790c85980ef92a337e7d"
-  },
-  {
-    "id": "gpt-image-2:30845",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30845",
-    "title": "Premium Celebrity Caricature Portrait",
-    "category": "Profile / Avatar",
-    "description": "A gpt-image-2 prompt for generating high-quality, humorous yet elegant caricature portraits of celebrities with realistic textures and studio lighting.",
-    "promptText": "Realistic premium caricature portrait of {argument name=\"celebrity name\" default=\"[NAME]\"}, instantly recognizable, with subtly exaggerated {argument name=\"facial features\" default=\"[FACIAL FEATURES]\"}, expressive {argument name=\"expression\" default=\"[EXPRESSION]\"}, realistic skin texture, detailed hair, wearing [OUTFIT / ACCESSORY], posing with [POSE / ATTITUDE], cinematic studio lighting, editorial celebrity photography style, shallow depth of field, refined proportions, humorous but elegant likeness, ultra-detailed face, sharp focus, 4k, premium color grading.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "celebrity name",
-        "default": "[NAME]"
-      },
-      {
-        "name": "facial features",
-        "default": "[FACIAL FEATURES]"
-      },
-      {
-        "name": "expression",
-        "default": "[EXPRESSION]"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263506929_rh0qtq_HPM920-a0AAw1aE.jpg",
-        "alt": "Premium Celebrity Caricature Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263506941_3wtjtf_HPM93k4bkAE5pXu.jpg",
-        "alt": "Premium Celebrity Caricature Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263506881_c0e23l_HPM94J4aAAAUypv.jpg",
-        "alt": "Premium Celebrity Caricature Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263508079_eklvv9_HPM94ysaUAAZiaf.jpg",
-        "alt": "Premium Celebrity Caricature Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "WeWant Mars",
-      "url": "https://x.com/Madhuribhai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Madhuribhai/status/2086079106794541267"
-    },
-    "publishedAt": "2026-08-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30845",
-    "contentHash": "33b0ec4131625e4f42b4276593f91efb9f18e640"
-  },
-  {
-    "id": "gpt-image-2:30868",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30868",
-    "title": "Spring Cherry Blossom Close-up Portrait",
-    "category": "Profile / Avatar",
-    "description": "A detailed photorealistic prompt for a close-up portrait of a woman looking up through cherry blossoms, featuring warm backlighting and delicate lace textures.",
-    "promptText": "Subject:\nSpring eyes through cherry blossoms\n\nMain Subject:\nA close-up portrait of a young woman in {argument name=\"outfit\" default=\"white lace clothing\"} looking up toward the light, with pale cherry blossoms in the foreground. The person's face and shoulders are positioned largely from the center to the right of the frame, overlapping with flowers at the top, hair translucent in backlighting, and a wooden background.\n\nCharacter/Expression:\nHas a gentle oval face and a small rounded chin, facing the upper left of the screen. Large {argument name=\"eye color\" default=\"amber-brown\"} almond-shaped eyes gazing upward, thin straight-ish eyebrows, a thin bridge and rounded tip of the nose, and slightly parted pink glossy lips with a thinner upper lip and fuller lower lip. Fair skin with pale pink around the eyes and cheeks. Long dark brown hair with thin bangs and fine strands around the face, blowing to the left in the wind.\n\nClothing/Pose:\nA white floral lace top with translucent short ruffled sleeves. A thin lace edge follows the deep V-neckline. Pulling the shoulder slightly to the left and extending the neck while turning only the face toward the light.\n\nBackground/Lighting:\nClusters of pale pink cherry blossoms and green leaves in the upper foreground, with a largely blurred wooden pillar and crossbar from background left to center, and blue sky visible through a window. Warm, direct-ish backlighting from the top left illuminates the cheeks, nose, and shoulders, fringing each strand of hair in gold.\n\nComposition/Camera:\n3:4 vertical aspect ratio. The camera is at a horizontal eye level with the shoulders, capturing a close-up from the top of the head to the chest. The face is placed large in the upper half of the center, with the right ear and back of the head cropped at the right edge, and cherry blossoms layered shallowly on the top edge. Focused on the {argument name=\"focus point\" default=\"closer eye\"}, with the flowers and wooden background heavily blurred.\n\nTexture/Style:\nA high-definition photorealistic photo utilizing warm spring backlighting. Realistic depiction of natural skin texture, wet-looking glossy lips, translucent lace, thin hair strands, soft petals, and light reflections.\n\nNegative:\nDrastic changes to facial features; excessive makeup",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "outfit",
-        "default": "white lace clothing"
-      },
-      {
-        "name": "eye color",
-        "default": "amber-brown"
-      },
-      {
-        "name": "focus point",
-        "default": "closer eye"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263527124_tkjgbl_HPG0RmLbQAA9KkB.jpg",
-        "alt": "Spring Cherry Blossom Close-up Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2086078726140276836"
-    },
-    "publishedAt": "2026-08-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30868",
-    "contentHash": "92a892498b9766893caf7b9d15ffb94c11618e5d"
-  },
-  {
-    "id": "gpt-image-2:30866",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30866",
-    "title": "Summer Poolside Reflection Portrait",
-    "category": "Profile / Avatar",
-    "description": "A professional-grade photorealistic prompt for generating a summer portrait of a woman looking over her shoulder in an outdoor pool, featuring wet textures, sunlit water reflections, and a white one-piece swimsuit.",
-    "promptText": "Subject:\nSummer pool portrait\n\nSubject details:\nA realistic portrait of a woman in her 20s in the shallow water of an outdoor pool, captured from behind. She is wearing a {argument name=\"clothing\" default=\"white one-piece swimsuit\"} and looking back over her shoulder near the pool's metal ladder, twisting her body slightly. Fine water droplets remain on her skin and hair, and the reflections from the blue water surface illuminate the surroundings brightly.\n\nPerson/Expression:\nThe face is directed toward the camera over the shoulder with a {argument name=\"expression\" default=\"calm and soft gaze\"}. Small oval face, clean jawline, slightly large almond-shaped eyes, natural thin eyebrows, small nose, and pale pink glossy lips. Light brown eye makeup with a natural flush and transparent wet skin. Dark brown hair tied in a loose updo, with thin bangs and a few wet strands left around the face.\n\nClothing/Pose:\nA simple white one-piece swimsuit. The back is wide open with thin straps crossing near the center of the back. There are cutouts near the waist, and the wet fabric naturally follows the contours of the skin. The body is diagonal to the pool edge, {argument name=\"setting\" default=\"in a kneeling posture in the water\"}. The upper body is slightly twisted, pulling one shoulder back to look around. One arm is in the water by the side of the body, maintaining a natural balance and posture.\n\nBackground/Light:\nThe background is an outdoor pool bordered by white tiles and a bright deck. A shiny stainless steel pool ladder is on the right side of the frame. The water is a vibrant blue with fine ripples and strong reflections. Natural sunlight from a clear sky shines from diagonally above, creating bright highlights on the hair, shoulders, and back. Soft shadows from tree shade fall in the background, providing a refreshing summer daytime feel.\n\nComposition/Camera:\nVertical 3:4 aspect ratio. A close-up portrait from the waist to the thighs, with the person positioned prominently in the center to slightly left of the frame. The camera position is slightly higher than behind the person, an angle where the face is clearly visible over the shoulder. The ladder on the right adds depth, and the background is lightly blurred. Clear focus on the person's eyes and face, with natural shallow depth of field for the water and background.\n\nTexture/Style:\nHigh-resolution realistic photographic expression. Detailed depiction of wet hair, transparent water droplets, damp swimsuit fabric, natural skin texture, and the reflection of the metal ladder. Avoid excessive HDR or strong filters, emphasizing the contrast between natural skin tones and the blue water surface. A fresh and clean color tone suited for summer sunlight.\n\nNegative:\nExcessive makeup; unnatural body deformation or limbs; collapsed swimsuit strap structure.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "clothing",
-        "default": "white one-piece swimsuit"
-      },
-      {
-        "name": "expression",
-        "default": "calm and soft gaze"
-      },
-      {
-        "name": "setting",
-        "default": "in a kneeling posture in the water"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263525790_a4j5a2_HPMxFBNa0AAP7jS.jpg",
-        "alt": "Summer Poolside Reflection Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2086065019364774035"
-    },
-    "publishedAt": "2026-08-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30866",
-    "contentHash": "44695a50fdb0e685b81594ffed35911de8cca6d3"
-  },
-  {
-    "id": "gpt-image-2:30871",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30871",
-    "title": "Night Portrait in Candlelight",
-    "category": "Profile / Avatar",
-    "description": "A detailed technical prompt for a close-up portrait of a woman with black hair leaning against her shoulder in a dark room lit only by warm candlelight.",
-    "promptText": "Subject:\n{argument name=\"theme\" default=\"Black hair sinking into the light\"}\n\nMain Subject:\nIn a dark room lit only by the warm light of a candle, a chest-up close-up of a {argument name=\"person\" default=\"young woman\"} wearing a {argument name=\"outfit\" default=\"white thin-strap top\"}, leaning her cheek against her raised shoulder in the foreground. The face is placed large in the center of the frame, showing the rounded shoulder in the left foreground, black hair crossing the face, and the light in the back left.\n\nPerson/Expression:\nA rounded oval face with a small chin, tilting the face to the left and pressing the cheek against her own shoulder. Dark brown elongated eyes, slightly thick linear eyebrows, thin bridge of the nose and small round tip, thin upper lip and thick lower lip with a glossy dull pink color. A quiet expression with lips slightly parted, looking straight ahead. Bright semi-matte skin with modest blush and thin eyeliner. Straight black hair down to below the chest is parted near the center, with long bangs and several strands crossing the eyes, bridge of the nose, and cheeks diagonally.\n\nClothing/Pose:\nA warm white thin-strap ribbed top. Shallow round neck, fine vertical ridges, form-fitting. Twisting the body to the right and leaning forward, raising her own right shoulder high into the left foreground. Peeking her face from behind her shoulder and resting her right cheek and near her lips against the shoulder. The arm extends diagonally to the bottom of the screen and is cut off.\n\nBackground/Light:\nThe background is a dark brown bedroom, with a small table lamp or the orange flame of a candle in the back left, a vertical curtain at the top right, and brown bedding at the bottom left. Hard warm light from the left front illuminates the eyes, nose, lips, and shoulders, sinking the hair and background into deep shadows.\n\nComposition/Camera:\nVertical 3:4. The camera is at a horizontal perspective at the same height as the face, capturing a chest-up close-up from the top of the head to below the chest. The face is placed large in the center of the upper half, with the rounded shoulder overlapping from the bottom left to the center as a strong foreground, and the right chest and strap cut off at the edge. Sharp focus on both eyes and lips, with the candle light softly blurred.\n\nTexture/Style:\nHigh-definition photorealistic photo based on deep black, dark brown, amber, and warm white. Realistically depicts fine skin, wet-looking lips, glossy black hair, ribbed fabric, and warm shadows.\n\nNegative:\nDo not separate the close-up composition where the cheek and the foreground shoulder overlap",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "theme",
-        "default": "Black hair sinking into the light"
-      },
-      {
-        "name": "person",
-        "default": "young woman"
-      },
-      {
-        "name": "outfit",
-        "default": "white thin-strap top"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263528374_oygsjj_HPGzrjBbYAANc5w.jpg",
-        "alt": "Night Portrait in Candlelight",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2086049785417765191"
-    },
-    "publishedAt": "2026-08-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30871",
-    "contentHash": "4947ea85b29ca88eaf97d65edba6230b3fcdcc26"
-  },
-  {
-    "id": "gpt-image-2:30825",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30825",
-    "title": "Cinematic Close-Up Beauty Portrait",
-    "category": "Profile / Avatar",
-    "description": "A high-detail prompt for a cinematic beauty portrait of a woman with chestnut-brown hair and minimalist styling, emphasizing skin texture and lighting.",
-    "promptText": "A cinematic close-up beauty portrait of a young woman with {argument name=\"hair color\" default=\"soft chestnut-brown hair\"} tied in a loose ponytail, delicate face framed by wispy strands, gazing directly at the camera with a calm, elegant expression. One arm raised above her head, creating a graceful composition. Wearing a {argument name=\"clothing\" default=\"minimalist black knit sweater\"} with a relaxed fit. Porcelain skin with a natural matte finish, soft peach blush, defined brows, subtle warm brown eye makeup, long eyelashes, muted rose lips, refined facial features. Soft diffused natural window light, warm neutral color grading, creamy blurred indoor background, shallow depth of field, ultra-realistic skin texture, editorial fashion photography, luxury magazine aesthetic, {argument name=\"lens\" default=\"85mm\"} lens, f/1.4, soft bokeh, HDR, 8K, photorealistic, timeless elegance, minimalistic composition, high-detail facial features.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "soft chestnut-brown hair"
-      },
-      {
-        "name": "clothing",
-        "default": "minimalist black knit sweater"
-      },
-      {
-        "name": "lens",
-        "default": "85mm"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263486037_wu9u2b_HPMNwaXbcAA7loi.jpg",
-        "alt": "Cinematic Close-Up Beauty Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Aqsa",
-      "url": "https://x.com/Aqsahere_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Aqsahere_/status/2086026187298746762"
-    },
-    "publishedAt": "2026-08-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30825",
-    "contentHash": "e5634106cddee915791e240beaa131dde9602612"
-  },
-  {
-    "id": "gpt-image-2:30893",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30893",
-    "title": "Luxury Executive Future Self Portrait",
-    "category": "Profile / Avatar",
-    "description": "A photorealistic executive office portrait showing an ambitious young man seated beneath a framed portrait of his envisioned future self.",
-    "promptText": "Create a cinematic executive portrait of {argument name=\"character name\" default=\"a young Black man\"} seated behind a polished dark mahogany office desk in a luxurious high-rise executive office. He wears a sharp {argument name=\"suit color\" default=\"black\"} suit jacket over an open-collar {argument name=\"shirt color\" default=\"white\"} dress shirt, looking directly at the viewer with a calm, focused, ambitious expression. His right hand rests under his chin in a thoughtful leadership pose, elbow on the desk; he has a close-cropped haircut, clean-shaven face, defined jawline, symmetrical features, and warm medium-dark skin tone. Behind him, centered on the wood-paneled wall, hang one oversized framed portrait of the same man wearing an all-black suit and black shirt, also posed with his hand under his chin, creating a “future self / envisioned self” feeling. The office has dark walnut wall panels, black marble vertical accents with subtle white veining, warm shelf lighting, and a large floor-to-ceiling window on the right showing a softly blurred modern city skyline in daylight. On the left built-in shelving, include exactly 5 visible decorative objects: one black-and-gold cylindrical container on the top shelf, one horizontal stack of books, two gold/glass trophy awards, and one black-and-gold globe. On the desk, include exactly 5 visible items: one open laptop at the left edge, one closed black notebook centered near the front with a gold pen on top, one glossy black coffee mug on the right, one black-and-gold pen holder at the far right with three pens, and the reflective wooden desktop surface. Use dramatic but refined lighting: warm highlights from shelves and soft window light, rich contrast, realistic skin texture, shallow depth of field, premium editorial photography style, 4:5 vertical composition, ultra-detailed photorealism, no text, no watermark, no extra people.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "a young Black man"
-      },
-      {
-        "name": "suit color",
-        "default": "black"
-      },
-      {
-        "name": "shirt color",
-        "default": "white"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263548002_gxqkqx_HPMMyNDWkAAgoWA.jpg",
-        "alt": "Luxury Executive Future Self Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Abkr Sadiq",
-      "url": "https://x.com/abs_uiux"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/abs_uiux/status/2086025289625198950#reversed-0"
-    },
-    "publishedAt": "2026-08-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30893",
-    "contentHash": "3b4a213dfac55da2f7b098bc7cc34c795e3c8021"
-  },
-  {
-    "id": "gpt-image-2:30919",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30919",
-    "title": "Golden Garden Anime Portrait",
-    "category": "Profile / Avatar",
-    "description": "A prompt for generating a radiant anime close-up portrait of a smiling curly-haired girl in a magical sunlit garden.",
-    "promptText": "Create a luminous vertical anime-style close-up portrait of a joyful young woman in a sunlit garden. The subject is {argument name=\"character name\" default=\"a gentle golden-haired girl\"}, shown from the shoulders up in a three-quarter view, turning toward the viewer with a warm open smile and soft rosy cheeks. She has {argument name=\"hair color\" default=\"honey-blonde\"} long, voluminous curly hair with many loose ringlets, flyaway strands, and delicate backlit edges glowing in the sunlight. Her large sparkling amber-gold eyes contain bright star-like highlights and reflective bokeh, with long lashes and a dreamy expression. She wears a simple {argument name=\"outfit color\" default=\"white\"} blouse or dress with soft folds, mostly visible at the shoulders. The background is an out-of-focus magical garden with green foliage and small white flowers, drenched in golden-hour sunlight from the upper left. Add floating dust motes, circular bokeh, tiny glitter particles, and multiple star-shaped sparkles around the hair and face. Use soft painterly anime rendering, highly detailed hair strands, warm pastel colors, shallow depth of field, cinematic rim light, ethereal atmosphere, and an uplifting springtime mood. Vertical portrait composition, 2:3 aspect ratio, no text, no watermark, no border.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "a gentle golden-haired girl"
-      },
-      {
-        "name": "hair color",
-        "default": "honey-blonde"
-      },
-      {
-        "name": "outfit color",
-        "default": "white"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263570412_9cty4e_HPL2TNEaAAAUv6j.jpg",
-        "alt": "Golden Garden Anime Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263570432_r74ngw_HPL2TM5aUAAfZJZ.jpg",
-        "alt": "Golden Garden Anime Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263570429_nhg6gr_HPL2TM4a0AAk4l4.jpg",
-        "alt": "Golden Garden Anime Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263571304_99bmdw_HPL2TNFaIAAxpT5.jpg",
-        "alt": "Golden Garden Anime Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "ねむ",
-      "url": "https://x.com/under_port_n"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/under_port_n/status/2086019941585822017#reversed-0"
-    },
-    "publishedAt": "2026-08-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30919",
-    "contentHash": "3e817ce52e64f2117d7c10e29c70c6583b17c242"
-  },
-  {
-    "id": "gpt-image-2:30863",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30863",
-    "title": "Woman in Blue Floral Bikini at the Seashore",
-    "category": "Profile / Avatar",
-    "description": "A photorealistic prompt for generating a high-definition image of a woman in a floral bikini kneeling on a sunny beach, holding her straw hat against the breeze.",
-    "promptText": "Subject:\nHolding a hat at the water's edge\n\nMain Subject:\nA near full-body portrait of a young woman kneeling on a bright sandy beach with transparent waves, wearing a {argument name=\"swimsuit pattern\" default=\"white bikini with small blue floral prints\"} and a {argument name=\"hat\" default=\"straw hat\"}. The figure is placed large in the center of the frame, with the shallow sea on the right and white sand with green reefs in the background on the left.\n\nPerson/Expression:\nA slightly long oval face with a small chin, facing forward. Large light brown almond-shaped eyes, thin gentle eyebrows, a small thin nose, and a bright smile with pale coral lips slightly open, showing teeth just a little. Bright skin with pale pink cheeks. {argument name=\"hairstyle\" default=\"Long brown hair to below the chest\"} parted near the center, with thin bangs and strands around the face left out, flowing down the back.\n\nClothing/Pose:\nA triangle bikini swimsuit with small pale blue flowers scattered on a white background. Thin halter neck, white ruffles at the chest, a thin bow in the center, and long ties at both hips. A cream-colored wide-brimmed straw hat with finely frayed edges. Kneeling with both knees at the water's edge, the left arm lowered with the hand on the thigh. The right elbow is bent, with fingertips lightly holding the right side of the hat's brim.\n\nBackground/Lighting:\nThe foreground is shallow waves and wet white sand. Transparent light blue sea from the right to the center, with a curved sandy beach and green-covered gray reefs in the left background. The upper part is a blue sky with large white cumulus clouds. Hard direct sunlight from the upper left illuminates the face, shoulders, abdomen, and thighs, with the hat's brim casting a soft shadow over the forehead.\n\nComposition/Camera:\n3:4 aspect ratio. The camera is at a slightly high, looking-down perspective from the knees of the figure, a near full-body shot containing everything from the sky above the hat to midway down the lower legs. The figure is captured large, occupying three-quarters of the screen height, with the face in the upper third, the chest in the center, and the thighs in the lower half, cropped at the bottom. Focus on the eyes and face, with the distant beach view lightly blurred.\n\nTexture/Style:\nA high-definition photorealistic photograph based on white, pale blue, turquoise, and cream. Cleanly depicts natural skin texture, floral patterns and ruffles, woven straw, and wet sand and bubbles.\n\nNegative:\nDo not lose contact between the right hand and the hat's brim.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "swimsuit pattern",
-        "default": "white bikini with small blue floral prints"
-      },
-      {
-        "name": "hat",
-        "default": "straw hat"
-      },
-      {
-        "name": "hairstyle",
-        "default": "Long brown hair to below the chest"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263522018_wbr88t_HPGzIoSaUAAmM5U.jpg",
-        "alt": "Woman in Blue Floral Bikini at the Seashore",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2086017069393580444"
-    },
-    "publishedAt": "2026-08-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30863",
-    "contentHash": "58119d090c516a4fd6dc8925e5e3680dbffe70d3"
-  },
-  {
-    "id": "gpt-image-2:30916",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30916",
-    "title": "Anime Girl Under Sakura Blossoms",
-    "category": "Profile / Avatar",
-    "description": "Generates a romantic vertical anime portrait of a schoolgirl on a spring balcony framed by cherry blossoms and a city view.",
-    "promptText": "Create a polished anime-style vertical portrait of a {argument name=\"character type\" default=\"high school girl\"} standing on an outdoor balcony during spring cherry blossom season. She is shown from the waist up in a three-quarter back pose, turning her head over her shoulder to smile softly at the viewer. She has long flowing {argument name=\"hair color\" default=\"dark violet-black\"} hair with many fine windblown strands, large sparkling {argument name=\"eye color\" default=\"purple\"} eyes, a gentle expression, and a light blush. She wears a classic Japanese sailor school uniform: white long-sleeve blouse, navy sailor collar with white stripe trim, navy pleated skirt, and a {argument name=\"bow color\" default=\"deep red plaid\"} bow at the chest. The setting is a city overlook with a metal balcony railing in the foreground, a softly blurred urban skyline and distant mountains below, and abundant pink cherry blossom branches framing the upper left and right sides. Include many drifting sakura petals in the breeze. Use bright clear blue sky, fluffy white clouds, warm spring sunlight, soft rim lighting on the hair, delicate pastel colors, high-detail anime rendering, clean line art, glossy eyes, cinematic depth of field, romantic atmosphere, and portrait orientation. Avoid text, watermark, extra characters, distorted hands, or cropped face.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character type",
-        "default": "high school girl"
-      },
-      {
-        "name": "hair color",
-        "default": "dark violet-black"
-      },
-      {
-        "name": "eye color",
-        "default": "purple"
-      },
-      {
-        "name": "bow color",
-        "default": "deep red plaid"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263568228_rrb2jy_HPMDengaEAAl945.jpg",
-        "alt": "Anime Girl Under Sakura Blossoms",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "AndromedaAlien",
-      "url": "https://x.com/AndromedaAlien3"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AndromedaAlien3/status/2086015186604097770#reversed-0"
-    },
-    "publishedAt": "2026-08-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30916",
-    "contentHash": "3f2f18929f675ca30196d670fbf1158a19f68396"
-  },
-  {
-    "id": "gpt-image-2:30860",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30860",
-    "title": "Cold White CCD Lifestyle Portrait",
-    "category": "Profile / Avatar",
-    "description": "A detailed prompt for generating professional yet natural lifestyle portraits with a trendy 'cold white CCD' camera aesthetic, ideal for office or urban settings featuring an intellectual character style.",
-    "promptText": "Photography style: Cool, clear CCD lifestyle photography style. Portrait direction: Urban workplace lifestyle photo. Scene direction: {argument name=\"scene\" default=\"Modern design company material room\"} / White sample cabinet / Metal drawers / Light-colored material boards. Clothing direction: {argument name=\"top color\" default=\"Bright violet\"} slim-fit square-neck knit top + {argument name=\"skirt color\" default=\"Cool greyish-white\"} high-waist hip-hugging short skirt. Temperament tags: Intellectual, bright, fashionable, clean, confident. Facial features: Real intellectual natural face, exquisite and durable, not influencer-style. Facial details: Narrow oval face, delicate bone structure; slender almond eyes, quiet and focused gaze; smooth and straight nose bridge; natural and restrained lip shape, low-saturation rose nude pink lip color; overall high-end and attractive. Hairstyle: Black long hair in a low ponytail, smooth hair strands, natural stray hairs kept on the sides of the face. Body shape: Light and slender, naturally full bust. Line emphasis: Medium to strong. Camera direction: Half-body to thigh. Pose: Standing in front of the material cabinet, one hand pulling out a light-colored material sample, the other hand holding the drawer, looking down and checking seriously. Lighting atmosphere: Office high-color temperature lighting + diffuse reflection from white material boards + extremely weak soft flash. Filter effect: Cool white highlights + purple-white clear CCD colors + light grain + light digital noise. Aspect ratio: 9:16. Additional requirements: Bright violet clothing must be clean and bright, but should not make skin tone or environment appear purple; overall intellectual and professional, while retaining a sense of real-life candid photography.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "scene",
-        "default": "Modern design company material room"
-      },
-      {
-        "name": "top color",
-        "default": "Bright violet"
-      },
-      {
-        "name": "skirt color",
-        "default": "Cool greyish-white"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263520443_tmtnm1_HPL__glaUAAuLVa.jpg",
-        "alt": "Cold White CCD Lifestyle Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "李岳",
-      "url": "https://x.com/liyue_ai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/liyue_ai/status/2086011085443006784"
-    },
-    "publishedAt": "2026-08-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30860",
-    "contentHash": "a0c9cc50e088ca9a56a77ba50b53e5515ceb2d37"
   }
 ]
