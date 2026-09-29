@@ -1,5 +1,357 @@
 [
   {
+    "id": "gpt-image-2:32345",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32345",
+    "title": "3D Isometric Block Art Reconstruction",
+    "category": "Product Marketing",
+    "description": "A complex instruction for deconstructing photos and reconstructing them into therapeutic 3D isometric block sculptures, maintaining the original color palette and composition in a split-poster design.",
+    "promptText": "Please turn each photo I upload into an independent high-end design poster. Do not stitch multiple images together; each photo should be output separately. The overall layout uses a 3:4 vertical composition, with the top and bottom areas strictly 1:1, each occupying 50% of the frame.\n\nThe top half retains the original photo, keeping the subject's structure, spatial relationships, real materials, natural lighting, and original color atmosphere, with only minor high-end photographic color grading to give it the texture of an art magazine, independent publication, or exhibition photography. To fit the aspect ratio, the environment/background can be naturally extended, but the subject must not be stretched, distorted, or changed.\n\nThe bottom half extracts the most recognizable **subject, silhouette, posture, and narrative relationship** from the photo. Following the logic of \"deconstruction—screening—refinement—reconstruction,\" it is transformed into a **3D / isometric spatial {argument name=\"style\" default=\"healing-style block sculpture\"}**. Focus on preserving the most unique volume proportions, axes, curves, intersections, layering, occlusions, and negative spaces of the subject, reorganized with rounded, simple, and tactile modular blocks; do not perfectly replicate details, but the correspondence with the original image above must be immediately felt.\n\nThe composition is adaptively designed based on the subject's own visual center of gravity, posture direction, and spatial relationships. Rhythm is established through blocks of varying sizes, staggered heights, front-to-back intersections, partial suspension, density changes, and large areas of white space. Blocks can be spliced, stacked, nested, crossed, or naturally misplaced, allowing the subject to retain its identity while possessing a contemporary art toy-like sculptural feel and relaxed imagination, avoiding mechanical disassembly and simple pixelation.\n\n**The color scheme must be analyzed and generated from the original image above.** First, identify the most vibrant and recognizable main color relationships, along with comprehensive color temperature, brightness levels, cold-warm echoes, and key accent colors. Then, re-modulate these colors into a softer, clearer, brighter, and more airy healing color system. Preserve the hue identity and emotional memory of the original image, but moderately increase brightness, reduce harsh contrast, and purify muddy colors to make the colors feel gentle, childlike, light, and high-end. Different photos should naturally yield different color schemes; do not use any fixed preset color cards, and do not forcibly add colors that do not exist in the original image just for a \"healing feel.\"\n\nColor establishes rhythm through **main color area, secondary color layers, homologous shades, and a tiny amount of vivid accent colors**, making the subject look rich but not cluttered, cute but not too sweet, soft but energetic. The block material uses a fine matte, soft diffuse reflection texture, with a feel like slight pulp, wood, pastel, or flexible materials, with rounded corners and soft shadows, avoiding plastic highlights, metallic feel, heavy CG, and cheap toy textures.\n\nText establishes a light, high-end editorial micro-typography system. Extract a {argument name=\"length\" default=\"2-5 word\"} title from the photo's light and shadow, action, space, emotion, or symbolic meaning, and pair it with a few state words, locations, numbers, directional words, or miniature notes. Do not use years. Text can be arranged along block edges, module gaps, visual axes, or negative spaces, or it can intersect, be occluded by, or align with the blocks, making the text naturally part of the block composition.\n\nThe overall presentation features a visual temperament of **Real Photography × {argument name=\"core element\" default=\"Healing Blocks\"} × Isometric Space × Original Color Translation × High-end Editorial Design**, which is gentle, light, childlike, quiet, exquisite, and imaginative but not naive.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "style",
+        "default": "healing-style block sculpture"
+      },
+      {
+        "name": "length",
+        "default": "2-5 word"
+      },
+      {
+        "name": "core element",
+        "default": "Healing Blocks"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787559665140_drz9ue_HQVbMbMaQAA7Y7M.jpg",
+        "alt": "3D Isometric Block Art Reconstruction",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787559663679_458xz2_HQVbMbTbMAA7R2Y.jpg",
+        "alt": "3D Isometric Block Art Reconstruction",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787559663664_xz6cyx_HQVcIDGacAASlxv.jpg",
+        "alt": "3D Isometric Block Art Reconstruction",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787559665185_e48gj0_HQVdbQ4a0AEfrf9.jpg",
+        "alt": "3D Isometric Block Art Reconstruction",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小小东",
+      "url": "https://x.com/xiaoxiaodong01"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/xiaoxiaodong01/status/2091180646626627732"
+    },
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32345",
+    "contentHash": "1608d85d3918e5f00b354349eeb775e9f3bc9b5d"
+  },
+  {
+    "id": "gpt-image-2:32380",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32380",
+    "title": "Four-View Tactical Carbine Reference Sheet",
+    "category": "E-commerce Main Image",
+    "description": "Generates a clean multi-angle studio reference sheet of a fictional black tactical carbine for visual concept art or catalog-style presentation.",
+    "promptText": "Goal: Create a clean product reference sheet showing a realistic black tactical carbine-style firearm from multiple angles, like a studio catalog render for a fictional modern weapon. Use {argument name=\"weapon type\" default=\"black compact tactical carbine\"} as the subject, with no hands, no people, and no environment.\n\nCanvas: Tall vertical white canvas, approximately 2:3 aspect ratio, divided into exactly 4 horizontal panels by thin light-gray separator lines. Each panel has a small black Japanese label at the upper left.\n\nLayout: Show exactly 4 views of the same weapon: 1) top panel labeled {argument name=\"right side label\" default=\"右側面\"}, a perfectly horizontal right-side profile facing right; 2) second panel labeled {argument name=\"left side label\" default=\"左側面\"}, a perfectly horizontal left-side profile facing left; 3) third panel labeled {argument name=\"top view label\" default=\"上面\"}, a narrow top-down view running left to right; 4) bottom panel labeled {argument name=\"front three quarter label\" default=\"正面3/4\"}, a larger front three-quarter view with the muzzle on the left and the stock on the right.\n\nSubject details: The weapon is matte black and dark gunmetal with realistic hard-surface modeling, subtle edge highlights, molded polymer body panels, screws, pins, seams, vents, and Picatinny-style rail details. Include exactly 6 major visible components repeated consistently across the views: skeletonized folding-style stock, angled pistol grip, translucent curved magazine, compact optic sight on the top rail, short fore-end with side rails and vent slots, and a cylindrical under-barrel flashlight module. Add small selector markings and tiny red/white decals on the receiver, but keep them mostly illegible.\n\nVisual style: High-resolution realistic product photography mixed with technical reference rendering, neutral studio lighting, sharp focus, crisp silhouettes, black and gray tones, minimal shadows, white background, no dramatic effects.\n\nConstraints: Keep the firearm unloaded-looking and presented only as a static visual object. Do not show ammunition, firing, disassembly, internal mechanisms, measurements, exploded diagrams, or instructions. Use exactly 4 labeled panels and no extra captions, watermarks, logos, or decorative background elements.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "weapon type",
+        "default": "black compact tactical carbine"
+      },
+      {
+        "name": "right side label",
+        "default": "右側面"
+      },
+      {
+        "name": "left side label",
+        "default": "左側面"
+      },
+      {
+        "name": "top view label",
+        "default": "上面"
+      },
+      {
+        "name": "front three quarter label",
+        "default": "正面3/4"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472407252_jxzaso_HQVQ8MOaoAAPdcK.jpg",
+        "alt": "Four-View Tactical Carbine Reference Sheet",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ゴードン・シャムウェイ＠AIスロップおじさん",
+      "url": "https://x.com/Author_COTD"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Author_COTD/status/2091166703434805296#reversed-0"
+    },
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32380",
+    "contentHash": "d41f3a7c1714b0a820bc4a1f00e6311d6efd92a7"
+  },
+  {
+    "id": "gpt-image-2:32455",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32455",
+    "title": "Futuristic Female Tactical Soldier Portrait",
+    "category": "Game Asset",
+    "description": "A detailed prompt for creating a futuristic female tactical soldier in a close-up portrait, focusing on high-tech gear, cinematic lighting, and a painterly anime-inspired art style.",
+    "promptText": "Create a highly detailed vertical 2:3 digital illustration of a {argument name=\"subject\" default=\"futuristic female tactical soldier\"} in an intense close-up three-quarter portrait, matching the reference image’s composition, framing, pose, color palette, lighting, and overall visual impact.\n\nThe character wears a weathered white tactical baseball cap with dark goggles resting across the brim, large black tactical headphones, and a dark respirator-style face mask covering her nose and mouth. Only her expressive blue eyes and a small portion of her face are visible. She has reddish-orange hair flowing dramatically behind her, with individual strands and painterly motion.\n\nHer outfit is a heavy futuristic dark tactical jacket with layered armor panels, straps, seams, pouches, reinforced fabric, subtle metallic components, and realistic wear. A futuristic rifle is held vertically along the left side of her body, partially visible in the foreground.\n\nUse a dynamic low-angle close-up composition. Her head is slightly tilted downward while her eyes look directly toward the viewer, creating a mysterious, intimidating and confident presence. The character should dominate the frame, with the upper body extending toward the bottom edge.\n\nArt direction: premium anime-inspired concept art blended with semi-realistic digital painting, highly refined brushwork, sharp facial details, cinematic character design, painterly textures, controlled linework, detailed tactical equipment, dramatic silhouette.\n\nColor palette: {argument name=\"colors\" default=\"charcoal black, deep navy, muted gray, off-white, warm beige, and vivid burnt orange accents\"}. Use strong warm orange rim lighting from behind the character contrasting against cool dark shadows on the clothing and equipment.\n\nBackground: abstract urban or industrial environment rendered with loose painterly strokes, soft architectural shapes, atmospheric haze, orange light streaks, scattered paint-like particles and subtle motion effects. Keep the background less detailed than the character to maintain strong subject separation.\n\nLighting: cinematic backlight, warm orange glow, soft ambient illumination, subtle highlights on goggles and metal components, deep shadows, volumetric atmospheric light, high contrast but preserved details.\n\nComposition must closely resemble the reference: character centered slightly right, face occupying the upper-middle area, rifle running vertically along the left side, flowing orange hair sweeping toward the upper-right, large dark tactical clothing filling the lower half.\n\nUltra-detailed, polished concept art, dynamic brush strokes, sophisticated color grading, dramatic atmosphere, crisp focal details, high resolution, no text, no watermark, no logo, vertical 2:3 aspect ratio.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "futuristic female tactical soldier"
+      },
+      {
+        "name": "colors",
+        "default": "charcoal black, deep navy, muted gray, off-white, warm beige, and vivid burnt orange accents"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787559652484_cgvwm8_HQbDeS1b0AAjvUI.jpg",
+        "alt": "Futuristic Female Tactical Soldier Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "auqib",
+      "url": "https://x.com/auqibhabib"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/auqibhabib/status/2091574017115488685"
+    },
+    "publishedAt": "2026-08-23T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32455",
+    "contentHash": "9318785b9818f1ae3290904cfa305256f9e449cb"
+  },
+  {
+    "id": "gpt-image-2:32389",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32389",
+    "title": "Lavender Anime Woman at Twilight",
+    "category": "Profile / Avatar",
+    "description": "Generates a cinematic anime portrait of an elegant woman in a flowing violet dress against glowing sunset clouds.",
+    "promptText": "Create a polished anime-style portrait of a single elegant young woman viewed from a low angle, standing against a dramatic twilight sky filled with glowing pink cumulus clouds and tiny stars. She has long flowing {argument name=\"hair color\" default=\"lavender-purple\"} hair with loose curls and windblown strands, soft bangs partly covering one eye, bright violet eyes, fair skin, and a gentle confident smile. She wears a romantic off-shoulder {argument name=\"dress color\" default=\"deep violet\"} evening dress with a fitted bodice and a flowing skirt caught by the wind; include exactly 5 visible outfit and accessory details: 1 off-shoulder ruffled sleeves, 2 a thin silver band across the bust, 3 a central oval gemstone brooch, 4 a delicate necklace with a small teardrop pendant, and 5 two glowing pink dangling earrings. The composition should be vertical and slightly cropped at the thighs, with her upper body centered and the skirt sweeping diagonally across the lower frame. Use luminous backlighting from the sunset clouds, soft rim light along her hair and shoulders, glossy fabric highlights, delicate line art, subtle blush, dreamy purple-pink color grading, high-detail anime rendering, cinematic atmosphere, and no text or watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "lavender-purple"
+      },
+      {
+        "name": "dress color",
+        "default": "deep violet"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472412319_lqx5iq_HQVtPH-XEAAb-1k.jpg",
+        "alt": "Lavender Anime Woman at Twilight",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Androot~",
+      "url": "https://x.com/OAndroot"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/OAndroot/status/2091220302952874137#reversed-0"
+    },
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32389",
+    "contentHash": "df2b415d3ec251e8257b388f7882d23e622e02f2"
+  },
+  {
+    "id": "gpt-image-2:32353",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32353",
+    "title": "80s Retro Anime Goth Portrait",
+    "category": "Profile / Avatar",
+    "description": "A nostalgic 80s retro anime style prompt for creating moody, intimate goth character portraits with a VHS aesthetic.",
+    "promptText": "Close-up portrait of a beautiful {argument name=\"character subject\" default=\"goth girlfriend\"} with striking, hypnotic eyes and pouty glossy lips, soft pale skin, dark eyeliner, subtle blush, black lace choker, tousled black hair framing her face. {argument name=\"art style\" default=\"80s retro anime style\"}, expressive hand-drawn cel animation look, moody romantic gaze, slightly melancholic but alluring expression. Dim neon bedroom lighting with {argument name=\"lighting colors\" default=\"violet and deep red\"} highlights, soft shadows, VHS grain, analog tape noise, faint scanlines, muted retro color palette, dreamy late-night atmosphere, intimate composition, face filling the frame, cinematic anime still.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character subject",
+        "default": "goth girlfriend"
+      },
+      {
+        "name": "art style",
+        "default": "80s retro anime style"
+      },
+      {
+        "name": "lighting colors",
+        "default": "violet and deep red"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472380610_2pt65b_HQVsI1jWsAABtuJ.jpg",
+        "alt": "80s Retro Anime Goth Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "LANDCÄSTER.EXE",
+      "url": "https://x.com/LANDCASTER_92"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/LANDCASTER_92/status/2091196540006154616"
+    },
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32353",
+    "contentHash": "da4fd74dbdaa134ed6cd06137a9495e4965b41df"
+  },
+  {
+    "id": "gpt-image-2:32378",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32378",
+    "title": "Pastel Pink Rose Princess Portrait",
+    "category": "Profile / Avatar",
+    "description": "A detailed text prompt for generating a romantic shoujo anime princess portrait with pink hair, roses, jewels, and an ornate palace background.",
+    "promptText": "Create a highly detailed shoujo anime portrait of a beautiful princess-like young woman in an ornate pastel rose palace. She has {argument name=\"hair color\" default=\"long flowing pastel pink hair\"} with airy, precisely drawn side-swept bangs covering part of her forehead, soft loose waves cascading over one shoulder, and a half-up hairstyle decorated with a large pink rose, lace ribbons, pearl chains, and floral ornaments. Her face is delicate and symmetrical with porcelain skin, a small gentle smile, faint blush, long eyelashes, and large sparkling {argument name=\"eye color\" default=\"violet-purple eyes\"} with glossy star-like highlights. She wears an elaborate jeweled tiara crown with pink and purple gemstones, matching dangling gemstone earrings, and a lace choker. Her off-shoulder {argument name=\"dress style\" default=\"pink lace princess dress\"} is covered in frills, bows, pearls, embroidery, dangling bead chains, and gem accents, revealing elegant shoulders in a romantic bridal-princess pose. Surround her with exactly 4 prominent pink roses: one large rose in her hair near the right side of the image, one rose she holds near the lower center-left, one rose at the lower right foreground, and one rose along the left side foreground, with muted green-gray leaves and extra pale petals around them. The background is a luminous Rococo palace conservatory with tall arched windows, ornate white-and-gold trim, crystal chandeliers on the upper left, soft pink curtains or vertical decorative lines, and dreamy sunlight. Use a square vertical portrait composition, close-up from chest upward, face slightly turned toward the viewer, head near the upper center, hair filling much of the frame. Visual style: ultra-detailed Japanese manga illustration, delicate linework, watercolor-like pastel pink palette, luminous skin, intricate jewelry and lace, romantic fantasy, soft glow, high resolution, no text, no watermark, no extra characters, avoid realism or 3D rendering.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "long flowing pastel pink hair"
+      },
+      {
+        "name": "eye color",
+        "default": "violet-purple eyes"
+      },
+      {
+        "name": "dress style",
+        "default": "pink lace princess dress"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472404948_z1el4c_HQVjGe5WUAAmtPh.jpg",
+        "alt": "Pastel Pink Rose Princess Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472404873_4xp8o2_HQVjGe5XQAAiGeH.jpg",
+        "alt": "Pastel Pink Rose Princess Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472404942_g23al3_HQVjGe7X0AEEZVO.jpg",
+        "alt": "Pastel Pink Rose Princess Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472405837_s5lo1w_HQVjGe9XMAAzTIT.jpg",
+        "alt": "Pastel Pink Rose Princess Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Diana",
+      "url": "https://x.com/DianaElCircled"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/DianaElCircled/status/2091187099026272675#reversed-0"
+    },
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32378",
+    "contentHash": "cac26c1189d971059db8e3314e9eb5aad0ad00eb"
+  },
+  {
+    "id": "gpt-image-2:32334",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32334",
+    "title": "Realistic Smartphone Selfie Portrait",
+    "category": "Profile / Avatar",
+    "description": "A detailed prompt for creating a realistic handheld smartphone selfie of a woman walking on a residential street.",
+    "promptText": "A completely natural, photorealistic smartphone selfie of a {argument name=\"subject\" default=\"young East Asian woman\"} casually walking along a {argument name=\"location\" default=\"quiet tree-lined street\"}, captured as if she quickly took the photo herself with her phone while walking. She has long, slightly messy dark black hair falling naturally over her shoulders, with a few loose strands blown across her face by a light breeze. She has minimal makeup, realistic skin texture, subtle under-eye detail, natural lips, and a relaxed slightly open-mouth expression while looking directly into the phone camera. She is wearing a {argument name=\"outfit\" default=\"soft lavender-purple knitted sweater\"} with a slightly loose fit, a brown shoulder bag strap crossing naturally over her shoulder, and a dark floral skirt barely visible at the bottom of the frame. Her arm is extended toward the camera in an obvious handheld selfie position, creating natural perspective and slight wide-angle distortion. The background shows an ordinary residential road surrounded by mature green trees, parked cars, pavement, and patches of sunlight filtering through the leaves. Bright midday natural light creates uneven highlights and shadows across her face and sweater. Make it look like a real unedited phone photo rather than a professional portrait: imperfect framing, slightly tilted composition, mild motion softness, realistic smartphone exposure, subtle lens flare, natural dynamic range, tiny hair flyaways, authentic skin pores, ordinary background details, no cinematic color grading, no studio lighting, no beauty filter, no artificial sharpness, no DSLR look. Vertical smartphone photo, casual everyday snapshot, extremely realistic and believable.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "young East Asian woman"
+      },
+      {
+        "name": "location",
+        "default": "quiet tree-lined street"
+      },
+      {
+        "name": "outfit",
+        "default": "soft lavender-purple knitted sweater"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472356018_xuuuvc_HQVceZjagAAj1lj.jpg",
+        "alt": "Realistic Smartphone Selfie Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "𝗦𝗮𝗻𝗶𝗮",
+      "url": "https://x.com/saniaspeaks_"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/saniaspeaks_/status/2091179307221840337"
+    },
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32334",
+    "contentHash": "64137333bc5a3499c28546109f1fa174a76b8557"
+  },
+  {
     "id": "gpt-image-2:32336",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6645,339 +6997,5 @@
     "publishedAt": "2026-08-20T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32068",
     "contentHash": "5847ecc21500916de092adfec60cb4487eceaa04"
-  },
-  {
-    "id": "gpt-image-2:32157",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32157",
-    "title": "Anime Classroom Losing Heroine Key Visual",
-    "category": "YouTube Thumbnail",
-    "description": "Generates a cinematic anime school-romance key visual with three students, desk props, and Japanese promotional text overlays.",
-    "promptText": "Goal: Create a cinematic anime key visual for a romantic school comedy titled {argument name=\"series title\" default=\"負けヒロインが多すぎる!\"}, with a melancholy but funny classroom atmosphere and polished feature-film lighting.\n\nCanvas: Wide 16:9 horizontal frame, 1200×675 style composition, soft depth of field, cool daylight entering from large classroom windows. Use a realistic modern Japanese high school classroom with concrete pillars, window frames, city buildings and pale blue sky outside.\n\nLayout: Place exactly 3 students around a classroom table. Foreground left is the main heroine, largest in frame, leaning on one hand and smiling with a teasing, slightly lovesick expression. Center is a schoolboy sitting behind her, looking uneasy and awkward with a small sweat drop. Right is a second girl, smaller and partly isolated, sitting behind a dark school bag while hiding her mouth behind a pale smartphone, looking jealous or indifferent. Keep the desk edge across the bottom foreground.\n\nCharacters: The main heroine has long messy deep blue hair, blue eyes, rosy cheeks, a white short-sleeve school shirt, and a blue ribbon with a small yellow ornament; she rests her cheek on her hand and looks toward the viewer with a smug smile. The boy has short dark brown hair, a white school shirt, green necktie, and a worried sideways glance. The right-side girl has short burgundy bobbed hair with two small yellow hairpins, a white school shirt, and narrowed eyes above her phone.\n\nVisible objects, exactly 5 on the desk: 1 pink lunchbox in front of the blue-haired girl, 1 crumpled pink-and-white cloth or napkin, 1 small pink yogurt drink carton labeled in Japanese with a strawberry graphic, 1 large dark navy school bag in front of the burgundy-haired girl, and 1 pale decorated smartphone held by the burgundy-haired girl.\n\nText overlays, exactly 6 distinct text elements: 1 top-left title logo reading {argument name=\"title logo text\" default=\"負けヒロインが多すぎる!\"} with small romanized/English subtitle beneath it, 2 handwritten white speech near the blue-haired girl reading {argument name=\"heroine speech\" default=\"やっぱ 私は負けヒロインなんだよね〜\"} with a curved arrow, 3 small white thought text near the boy reading {argument name=\"boy thought\" default=\"また始まった…\"}, 4 vertical wall poster behind the boy with Japanese slogan and the English subtitle “Too Many Losing Heroines!”, 5 handwritten white slogan in the upper-right corner reading {argument name=\"upper right slogan\" default=\"それでも、好きな気持ちは、きっと、負けじゃない。\"}, and 6 small handwritten white text near the burgundy-haired girl meaning she is pretending not to notice, with a dotted line and curved arrow.\n\nVisual style: High-quality Japanese anime film still, delicate line art, natural skin shading, expressive eyes, subtle blush, atmospheric classroom lighting, slight bloom on windows, muted blues and grays contrasted with the heroine’s vivid blue hair and the burgundy-haired girl’s hair. Add poster-design typography and handwritten annotation graphics integrated into the scene.\n\nConstraints: Do not add extra characters, extra desk objects, or extra text elements beyond the six listed. Keep all text legible but naturally hand-drawn where appropriate. No watermark, no photorealism, no 3D render.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "series title",
-        "default": "負けヒロインが多すぎる!"
-      },
-      {
-        "name": "title logo text",
-        "default": "負けヒロインが多すぎる!"
-      },
-      {
-        "name": "heroine speech",
-        "default": "やっぱ 私は負けヒロインなんだよね〜"
-      },
-      {
-        "name": "boy thought",
-        "default": "また始まった…"
-      },
-      {
-        "name": "upper right slogan",
-        "default": "それでも、好きな気持ちは、きっと、負けじゃない。"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787299949588_5i8rfg_HQHKuJcX0AA-4Jv.jpg",
-        "alt": "Anime Classroom Losing Heroine Key Visual",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "naisute",
-      "url": "https://x.com/nAI_station"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/nAI_station/status/2090276271297286271#reversed-0"
-    },
-    "publishedAt": "2026-08-20T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32157",
-    "contentHash": "ad9095e290c4367675bf8aa8dd48e564c6531e23"
-  },
-  {
-    "id": "gpt-image-2:32091",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32091",
-    "title": "Anime School Rom-Com Key Visual",
-    "category": "YouTube Thumbnail",
-    "description": "Generates a wide anime classroom promotional scene with three students, Japanese title overlays, and detailed rom-com character dynamics.",
-    "promptText": "Goal: Create a cinematic anime key visual for a school rom-com scene titled {argument name=\"series title\" default=\"負けヒロインが多すぎる!\"}, with polished modern TV-anime rendering, natural lighting, and coherent character designs.\n\nCanvas: 16:9 horizontal frame, 1200×675 composition, set inside a bright but slightly shadowed school classroom or club room with large windows in the background showing blue sky, clouds, railings, and distant buildings. Use soft daylight from the windows, cool gray concrete pillars, shallow depth of field, and subtle filmic contrast with no visible grain.\n\nLayout: Three high-school students sit at desks in the foreground and midground. Place the main girl large on the left, the boy centered slightly behind her, and the second girl on the right, smaller and partially separated by a pillar. Add anime-style promotional text overlays and handwritten Japanese comments around the characters.\n\nCharacters: Exactly 3 characters. 1) Main heroine on the left: a cheerful teenage girl with {argument name=\"main heroine hair color\" default=\"deep blue\"} shoulder-length messy hair, blue eyes, blushing cheeks, and a teasing smile; she wears a white short-sleeve school shirt with a blue bow tie and a cute decorative chest accessory, resting her cheek on one hand as she leans forward confidently. 2) Center boy: a nervous teenage boy with short dark brown hair, white short-sleeve school shirt, dark green necktie, and a slightly sweaty awkward expression, looking toward the main heroine as if trapped in a conversation. 3) Right-side heroine: a quiet teenage girl with short burgundy-red bobbed hair and hairpins, wearing a white school shirt, sitting lower behind a dark school bag while hiding behind or looking down at a small smartphone, appearing jealous or indifferent.\n\nForeground objects: Include exactly 4 prominent desk items: a pink rectangular lunch box or pouch in front of the blue-haired girl, a crumpled pale pink cloth beside it, a small strawberry yogurt drink carton with a straw in front of the boy, and a large dark navy school bag across the right foreground.\n\nText content: Include exactly 7 visible text elements. 1) Top-left title: 「負けヒロインが多すぎる!」 with small English subtitle “MAKEINE Too Many Losing Heroines!” beneath it. 2) Handwritten comment near the main heroine on the left: 「やっぱ 私は負けヒロインなんだよね〜」 with a curved arrow pointing to her. 3) Small thought text near the boy: 「また 始まった…」. 4) Poster on the center-right wall: 「負けても、きっと、青春は、終わらない。」 with small English “Too Many Losing Heroines!” beneath. 5) Handwritten quote in the upper-right corner: 「それでも、好きな気持ちは、きっと、負けじゃない。」 with a thin blue underline. 6) Handwritten comment near the red-haired girl: 「別に 気にしてない」 with a dotted line and arrow pointing to her. 7) On the drink carton, write 「ヨーグルト いちご」 with a strawberry graphic.\n\nVisual style: High-quality Japanese anime production still, delicate line art, expressive faces, soft cel shading, realistic classroom perspective, slightly muted colors, natural blue daylight, detailed hair highlights, emotional rom-com atmosphere, promotional poster composition.\n\nConstraints: Keep the composition faithful to a single wide anime screenshot, do not add extra characters, do not add extra desk objects beyond the four prominent items, keep all Japanese text legible and placed as described, avoid photorealism, avoid 3D rendering, avoid watermarks.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "series title",
-        "default": "負けヒロインが多すぎる!"
-      },
-      {
-        "name": "main heroine hair color",
-        "default": "deep blue"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787299936238_0xtp6v_HQHKuJcX0AA-4Jv.jpg",
-        "alt": "Anime School Rom-Com Key Visual",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Mirochill",
-      "url": "https://x.com/mirochill"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/mirochill/status/2090181179978944551#reversed-0"
-    },
-    "publishedAt": "2026-08-19T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32091",
-    "contentHash": "4baac9d2b71e87727cfe5aee480cafbc911d12e1"
-  },
-  {
-    "id": "gpt-image-2:32124",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32124",
-    "title": "Oriental Papercut Art of Chongqing Palace",
-    "category": "Comic / Storyboard",
-    "description": "A prompt for generating modern oriental papercut art depicting a grand, ethereal palace reminiscent of the Potala Palace, featuring intricate layered paper textures and a clear, snowy plateau atmosphere.",
-    "promptText": "{argument name=\"ratio\" default=\"9:16 vertical\"}, modern oriental female dream stereoscopic paper-cutting art, modern oriental papercut art, layered paper cut illustration, dimensional paper sculpture, paper diorama, epic oriental papercraft fantasy.\nAn oriental adult female with a visual age of about {argument name=\"age\" default=\"25 years old\"}, quiet, sober, gentle and firm, standing alone under the huge paper-cutting steps leading to the high palace. The character proportion is very small, back or side back to the camera, looking up slightly at the high place, long black hair low tied, the hair tail and the shawl are blown backward by the plateau wind. Wearing ivory white and ocher red layered paper-cutting long skirt, the skirt hem has mountain ranges, clouds and geometric hollowed-out patterns, with partial light gold outlining.\nThe screen adopts a low-angle or upward perspective close to eye level, a very long ivory white paper-cutting step extends from the foreground all the way to the top of the screen along the plateau mountain body, passing through multiple paper-carved gates, high platforms and courtyard walls, and finally leads to a huge, overwhelming Potala Palace-style plateau paper-carved palace. The palace is composed of huge ivory white palace walls, an ocher red central main building, layers of window openings, platforms and light gold roofs, looking like it grows directly from the mountain body, far larger than the character.\nOn both sides of the steps are layered paper-carved plateau mountain bodies, snow mountains, clouds and a few flying birds, and the sky retains a large area of clear blue white space. All characters, palaces, mountain bodies, steps, clouds and flying birds are all unified into paper carving, with real paper thickness, fiber texture, hand-cut edges, hollowed-out structures and soft inter-layer projections.\nThe colors are mainly {argument name=\"colors\" default=\"ivory white, ocher red, sky blue, light gold\"}, with a small amount of snow white embellishment. Bright and transparent plateau sunlight shines in from the upper side, the edges of the palace, steps and ridges are slightly transparent, and the overall look is clear, sacred and vast, not gray or dirty yellow.\nKey reinforcement: extremely small characters + endless long steps + huge plateau palace + ten thousand layers of snow mountains + vast sky, forming a strong sense of pilgrimage, oppressive depth and epic scale.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "ratio",
-        "default": "9:16 vertical"
-      },
-      {
-        "name": "age",
-        "default": "25 years old"
-      },
-      {
-        "name": "colors",
-        "default": "ivory white, ocher red, sky blue, light gold"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787299917871_e6byg8_HQNwEleaQAA1D5W.jpg",
-        "alt": "Oriental Papercut Art of Chongqing Palace",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "李岳",
-      "url": "https://x.com/liyue_ai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/liyue_ai/status/2090637890858713327"
-    },
-    "publishedAt": "2026-08-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32124",
-    "contentHash": "58fe529ce7166f2b12e06de014828614f275b95a"
-  },
-  {
-    "id": "gpt-image-2:32146",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32146",
-    "title": "Anime Car View of Tokyo Billboards",
-    "category": "Comic / Storyboard",
-    "description": "Transforms the reference’s cinematic anime lighting and polish into a car-interior view of a dense Tokyo billboard district for concept art or AI video frames.",
-    "promptText": "Using REFERENCE_0 as the visual style reference, transform the scene from a trading desk setup into a cinematic anime view from inside {argument name=\"vehicle type\" default=\"a car\"} looking out through the windshield and side window at {argument name=\"city setting\" default=\"a dense Tokyo commercial district\"}. Preserve the same widescreen aspect ratio, polished cel-shaded/3D-anime look, dramatic red-and-green color accents, glossy reflections, and high-contrast lighting, but remove the monitors, keyboard, hands, speakers, and trading-chart interface entirely.\n\nNew composition: place the viewer in the front passenger area of the car, with the dark roof frame, windshield pillars, dashboard, steering wheel edge, side mirror, and a red seat partially visible in the foreground. Outside, show tall urban buildings packed tightly together under {argument name=\"time of day\" default=\"bright late-afternoon sunlight\"}, with strong shadows and reflective glass surfaces.\n\nAdded signage: include exactly 9 prominent billboard/sign elements across the buildings: 1 large central top sign with Japanese text, 1 red dragon/creature billboard, 1 vertical white Japanese sign, 1 wide red-and-white digital screen, 1 green character billboard, 1 blue-and-white Japanese storefront sign, 1 large red-and-white billboard on the upper right, 1 tall left-side cylindrical screen with a red figure, and 1 smaller distant red rectangular sign. Keep the signage mostly graphic and stylized, with plausible Japanese typography rather than perfectly readable text.\n\nStyle constraints: make it feel like a clean, upscale AI-video concept frame; sharp perspective, cinematic framing, no people in the foreground, no trading charts, no desktop equipment, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "vehicle type",
-        "default": "a car"
-      },
-      {
-        "name": "city setting",
-        "default": "a dense Tokyo commercial district"
-      },
-      {
-        "name": "time of day",
-        "default": "bright late-afternoon sunlight"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787299944209_ncdfy8_HQMCkpHa8AAxlRg.jpg",
-        "alt": "Anime Car View of Tokyo Billboards",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "beech",
-      "url": "https://x.com/beechinour"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/beechinour/status/2090517505685209339#reversed-1"
-    },
-    "publishedAt": "2026-08-20T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32146",
-    "contentHash": "226dbd91a8a82b5cf5fd05c86c56a71a31feb308"
-  },
-  {
-    "id": "gpt-image-2:32171",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32171",
-    "title": "Fanta Orange Planet Storyboard",
-    "category": "Comic / Storyboard",
-    "description": "A cinematic 10-panel storyboard sheet for a vibrant Fanta Orange 15-second commercial concept set in a glowing citrus universe.",
-    "promptText": "Goal: Create a polished advertising storyboard sheet for a 15-second Fanta Orange commercial titled {argument name=\"campaign title\" default=\"FANTA ORANGE PLANET\"}, with the subtitle {argument name=\"subtitle\" default=\"A Universe Made of Freshness\"} and small line “15 Seconds Commercial.”\n\nCanvas: Wide 3:2 landscape presentation board on a white background, clean agency storyboard layout. Use a bold top header area, then a 5-column by 2-row grid containing exactly 10 storyboard panels. Each panel has a cinematic orange sci-fi image on top and a white caption block beneath it with a scene number, timecode, bold scene title, and short description. Thin light-gray grid lines, crisp typography, premium commercial pitch-deck feel.\n\nVisual style: Hyper-detailed, glossy, high-energy beverage commercial concept art. Dominant colors are vivid orange, golden yellow, citrus green accents, deep cosmic blues, and white highlights. Use sparkling carbonation bubbles, floating orange slices, ice cubes, juice splashes, glowing citrus particles, soda rivers, and dramatic backlighting throughout. The brand should feel playful, fresh, explosive, and fantastical.\n\nHeader text: Large navy italic uppercase title “FANTA ORANGE PLANET” on the left. To the right, orange text “A Universe Made of Freshness” and black text “15 Seconds Commercial.”\n\nLayout and panel count: Include exactly 10 numbered panels, arranged left to right across the top row as 01–05 and left to right across the bottom row as 06–10. Each panel must include its visible timecode and scene title.\n\nPanel details:\n1. “01” timecode “0.0–1.5s”, title “THE ORANGE PLANET”: A dark cosmic space slowly transforms into a vibrant orange universe. A giant glowing orange fruit floats like a planet, surrounded by tiny citrus particles and sparkling golden light.\n2. “02” timecode “1.5–3.0s”, title “A WORLD OF CITRUS”: Extreme macro shot of the orange planet surface. The texture of orange peel becomes a beautiful landscape with citrus mountains, glowing juice rivers, and tiny bubbles floating in the atmosphere.\n3. “03” timecode “3.0–4.5s”, title “THE ARRIVAL”: A giant {argument name=\"soda can brand\" default=\"Fanta orange\"} can enters the orange planet orbit surrounded by floating ice crystals, orange slices, fresh leaves, and sparkling carbonation bubbles.\n4. “04” timecode “4.5–6.0s”, title “CITRUS EXPLOSION”: The Fanta can opens dramatically. A massive wave of orange soda explodes like a golden ocean across the planet surface. Citrus waterfalls appear everywhere.\n5. “05” timecode “6.0–7.5s”, title “ENTER THE FLAVOR”: Camera flies through the Orange Planet. Orange slices become floating islands, carbonation bubbles become glowing planets, and rivers of sparkling soda flow through the landscape.\n6. “06” timecode “7.5–9.0s”, title “PURE FUN ENERGY”: Tiny fantasy characters explore the orange world, sliding on soda waves, jumping across ice crystals, and celebrating inside the colorful citrus universe.\n7. “07” timecode “9.0–10.5s”, title “THE HEART OF FRESHNESS”: A giant Fanta can rises from the center of the planet. Orange juice waves spiral around the can while sunlight creates a magical golden glow.\n8. “08” timecode “10.5–12.0s”, title “FROZEN MOMENT”: Everything freezes in mid-air. Orange slices, ice cubes, soda droplets, bubbles, and citrus particles create a perfect circular composition around the product.\n9. “09” timecode “12.0–13.5s”, title “HERO PRODUCT”: A chilled Fanta can stands on a glowing orange crystal platform. Behind it, the entire Orange Planet rotates slowly with sparkling atmosphere.\n10. “10” timecode “13.5–15.0s”, title “BRAND SIGNATURE”: Clean white radiant background with the large {argument name=\"logo text\" default=\"FANTA\"} logo centered, orange bubbles around it, and the tagline {argument name=\"tagline\" default=\"OPEN A WORLD OF FUN\"} below in curved orange lettering.\n\nConstraints: Use exactly 10 panels and no extra panels. Keep the storyboard captions legible and in English. Make the product can and logo look like a recognizable orange soda brand advertisement without adding unrelated brands, watermarks, or extra UI elements.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "campaign title",
-        "default": "FANTA ORANGE PLANET"
-      },
-      {
-        "name": "subtitle",
-        "default": "A Universe Made of Freshness"
-      },
-      {
-        "name": "soda can brand",
-        "default": "Fanta orange"
-      },
-      {
-        "name": "logo text",
-        "default": "FANTA"
-      },
-      {
-        "name": "tagline",
-        "default": "OPEN A WORLD OF FUN"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787299963404_19vtek_HQH_gnhWoAATDL2.jpg",
-        "alt": "Fanta Orange Planet Storyboard",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Fede(URU) 🇺🇾",
-      "url": "https://x.com/Federic83017719"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Federic83017719/status/2090458380536074507#reversed-0"
-    },
-    "publishedAt": "2026-08-20T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32171",
-    "contentHash": "e356e00a9b1e50df6cc49286b4c075f20b1c07bf"
-  },
-  {
-    "id": "gpt-image-2:32136",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32136",
-    "title": "Character Reference Sheet Concept Art",
-    "category": "Comic / Storyboard",
-    "description": "A comprehensive prompt for creating professional character reference sheets, including multi-angle drawings, facial expressions, and detailed equipment breakdowns on an organized layout.",
-    "promptText": "Based on this {argument name=\"subject\" default=\"character\"} and {argument name=\"setting\" default=\"background\"}, please create a character reference sheet similar to official design materials. - Include three-view drawings: front, side, and back - Add variations of the character's facial expressions - Break down and display detailed parts of the clothing and equipment - Add a color palette - Include a brief explanation of the worldview setting - Overall, use an organized layout (white background, illustration style) High resolution, professional concept art style.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "character"
-      },
-      {
-        "name": "setting",
-        "default": "background"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787299931121_bdujdk_HQLMLMFXgAAdE0W.jpg",
-        "alt": "Character Reference Sheet Concept Art",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "FuguAI",
-      "url": "https://x.com/IFritzler8344"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/IFritzler8344/status/2090457697359470776"
-    },
-    "publishedAt": "2026-08-20T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32136",
-    "contentHash": "9902f157ad1ac76a7743ae1a4fac174d828dbd46"
-  },
-  {
-    "id": "gpt-image-2:32151",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32151",
-    "title": "Corporate Lobby Fight Storyboard",
-    "category": "Comic / Storyboard",
-    "description": "Generates a photorealistic 9-panel action storyboard of a suited woman defeating an attacker in a modern corporate lobby.",
-    "promptText": "Goal: Create a photorealistic live-action storyboard contact sheet for a corporate lobby fight scene, showing exactly 9 numbered cinematic frames in a 3x3 grid.\n\nCanvas: Wide 16:9 contact-sheet image, thin white gutters separating the panels, each panel numbered in small white digits at the top-left from 1 to 9. Realistic film still look, sharp action photography, natural indoor daylight, 768p storyboard fidelity.\n\nLocation: A modern high-rise corporate lobby with polished beige marble floors, tall glass windows and sliding doors on the right and rear, neutral stone wall panels, and a dark marble reception desk. Behind the desk is a company logo and the text {argument name=\"company name\" default=\"HINODE CORPORATION\"}. The receptionist remains behind the desk in multiple shots.\n\nCharacters: Use exactly 3 recurring characters. Character 1 is {argument name=\"female fighter\" default=\"a young East Asian woman in a navy blue business suit, white blouse, red high heels, long brown hair in a ponytail with loose bangs\"}; she is athletic, focused, and calm under pressure. Character 2 is {argument name=\"male attacker\" default=\"a middle-aged East Asian man in a black suit, black shirt, black shoes, messy dark hair, wearing black sunglasses\"}; he is aggressive and increasingly defeated. Character 3 is {argument name=\"receptionist\" default=\"a young East Asian woman in a white blouse behind the reception counter\"}; she looks shocked and frightened.\n\nPanel-by-panel layout, exactly 9 panels:\n1. Wide establishing shot: the male attacker stands with his back to camera in the open lobby, facing the female fighter several meters away near the windows; the receptionist is visible behind the reception desk. Tense standoff composition.\n2. Medium-wide action shot: the male attacker lunges forward and throws a straight punch toward the female fighter; she squares up defensively in her navy suit, fists raised, feet apart.\n3. Over-the-shoulder/side action shot: the female fighter pivots and dodges the punch, her ponytail swinging, her face alert; the attacker’s black-suited arm cuts across the foreground.\n4. Close-up reaction shot: the receptionist behind the counter clasps her hands nervously near her chest, eyes wide, watching the fight.\n5. Medium action shot: the female fighter traps and twists the attacker’s arm from behind or beside him, forcing him to bend forward in pain; her expression is controlled and determined.\n6. Tight medium shot: the female fighter strikes or shoves the attacker’s face with an open palm, compressing his sunglasses and cheek; he grimaces while she stares him down.\n7. Wide dynamic throw shot: the female fighter executes a judo-style takedown or sweeping throw; the attacker is inverted or falling headfirst toward the marble floor, one leg flung high in the air, while she stays balanced in red heels.\n8. Ground-control shot: the attacker lies face-down on the floor, grimacing; the female fighter kneels or crouches over him, pinning his arm behind his back with both hands. Reception desk and receptionist visible in the background.\n9. Final victory shot: the attacker lies prone and defeated on the marble floor; the female fighter stands over him with one red high heel planted firmly on his back, looking composed and victorious; receptionist and corporate logo remain visible behind them.\n\nVisual style: Photorealistic Japanese corporate action-drama stills, cinematic framing, realistic motion blur only where appropriate, consistent character identities and wardrobe across all 9 panels, cool neutral office lighting, polished reflections on the floor, dramatic but believable stunt choreography.\n\nConstraints: Do not add extra panels, captions, speech bubbles, weapons, blood, gore, or fantasy effects. Keep the grid clean and readable. Maintain the exact 9 numbered frames and the same lobby location throughout.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "company name",
-        "default": "HINODE CORPORATION"
-      },
-      {
-        "name": "female fighter",
-        "default": "a young East Asian woman in a navy blue business suit, white blouse, red high heels, long brown hair in a ponytail with loose bangs"
-      },
-      {
-        "name": "male attacker",
-        "default": "a middle-aged East Asian man in a black suit, black shirt, black shoes, messy dark hair, wearing black sunglasses"
-      },
-      {
-        "name": "receptionist",
-        "default": "a young East Asian woman in a white blouse behind the reception counter"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787299947706_z9z5oe_HQLBvAkaMAAhOQY.jpg",
-        "alt": "Corporate Lobby Fight Storyboard",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "kuripon",
-      "url": "https://x.com/malonpon"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/malonpon/status/2090446323313147937#reversed-0"
-    },
-    "publishedAt": "2026-08-20T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32151",
-    "contentHash": "5e3ffba79066e0a4de72aa660595de5c7c962e2b"
   }
 ]

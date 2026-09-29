@@ -1,5 +1,393 @@
 [
   {
+    "id": "gpt-image-2:35572",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "35572",
+    "title": "GPT Image 2 Prompt: Sunset Sea Window Portrait",
+    "category": "Profile / Avatar",
+    "description": "A detailed prompt for generating a photorealistic portrait of a woman in a gold lace dress sitting by an open window overlooking the sea at sunset.",
+    "promptText": "Subject:\nGold lace by the sunset sea window.\n\nMain Subject:\nA woman in a gold lace dress is the protagonist, seated on the right side of the frame within an open window frame overlooking the sea.\n\nPerson & Expression:\nSmall oval face, large dark brown eyes, thin eyebrows, well-defined nose, glossy pale peach lips. She faces forward, looking directly at the camera with a faint smile. Long wavy dark brown hair flows to one side, leaving thin bangs.\n\nClothing & Pose:\nBeige-gold thin straps, deep neckline, floor-length dress with all-over embroidered lace. She sits on a stone windowsill, bending her right leg over her left, placing both hands on the left and right sides of the sill.\n\nBackground & Light:\nFrom left to right background: white open window, ivy and white flowers, balcony, coastal town, mountains, setting sun. Soft golden backlight from the sunset on the left illuminates her hair and dress.\n\nComposition & Camera:\n3:4 vertical composition, frontal camera slightly below eye level capturing full body from head to dress hem. Character placed largely in center-right, occupying most of the screen height. Flowers and window frames remain at edges, focus on face and gold lace, background lightly blurred.\n\nTexture & Style:\nPhotorealistic live-action photo. High-definition natural skin, hair, clothing materials, and surrounding props; maintain gold, white, green, and pink sunset tones.\n\nNegative:\nChange seating posture on windowsill; omit sunset sea and lace.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790582677443_29hmv1_HS53UoiaEAAiOEq.jpg",
+        "alt": "GPT Image 2 Prompt: Sunset Sea Window Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Prompt アトリエ｜AI画像プロンプト",
+      "url": "https://x.com/CyberTotal2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CyberTotal2026/status/2104413035267866982"
+    },
+    "publishedAt": "2026-09-28T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35572",
+    "contentHash": "1338186cebdbfb1842daa98231e0b700a6003590"
+  },
+  {
+    "id": "gpt-image-2:35567",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "35567",
+    "title": "Identity Replacement Template Prompt",
+    "category": "Profile / Avatar",
+    "description": "A structured JSON prompt for GPT Image 2 that uses a reference photo as a locked template, preserving pose, clothing, and background while replacing the subject's facial identity with a different fictional person.",
+    "promptText": "{\n  \"prompt_type\": \"reference_template_identity_replacement\",\n\n  \"CORE_RULE\": \"Use the supplied image as a locked photographic template. Preserve the photograph as closely as possible, but replace the woman's facial identity with a completely different fictional adult woman.\",\n\n  \"PRESERVE\": [\n    \"exact pose and body position\",\n    \"head angle and gaze direction\",\n    \"camera angle, height, perspective and framing\",\n    \"subject scale and crop\",\n    \"background and environment\",\n    \"lighting and shadows\",\n    \"hairstyle, hair length and placement\",\n    \"ALL clothing exactly as shown in the reference\",\n    \"ALL accessories and jewelry exactly as shown in the reference\",\n    \"glasses, if present\",\n    \"clothing colors, materials, patterns, fit and silhouette\",\n    \"jewelry type, placement and appearance\",\n    \"overall smartphone photography aesthetic\"\n  ],\n\n  \"IDENTITY_CHANGE\": {\n    \"instruction\": \"Create a completely different fictional adult woman. Do not preserve the reference woman's recognizable identity or facial structure.\",\n    \"change\": [\n      \"face shape\",\n      \"eyes and eye spacing\",\n      \"eyebrows\",\n      \"nose\",\n      \"cheekbones\",\n      \"jawline\",\n      \"chin\",\n      \"lips\",\n      \"overall facial proportions\"\n    ],\n    \"rule\": \"The new woman must clearly look like a different person while keeping the same photograph composition.\"\n  },\n\n  \"CLOTHING_AND_ACCESSORIES\": {\n    \"instruction\": \"Do not invent, redesign or recolor the wardrobe. Automatically copy the clothing and accessories visible in the supplied reference image.\",\n    \"preserve\": [\n      \"top or shirt\",\n      \"bottoms\",\n      \"dress or outerwear if present\",\n      \"shoes if visible\",\n      \"glasses if present\",\n      \"necklaces\",\n      \"earrings\",\n      \"rings\",\n      \"bracelets\",\n      \"watches\",\n      \"all other visible accessories\"\n    ],\n    \"important\": \"Whatever the woman is wearing or carrying in the reference must remain visually consistent in the generated image.\"\n  },\n\n  \"PHOTOGRAPHY\": {\n    \"style\": \"authentic candid smartphone photograph\",\n    \"realism\": \"extreme photorealism\",\n    \"skin\": \"natural pores and realistic imperfections\",\n    \"processing\": \"natural smartphone HDR\",\n    \"retouching\": \"minimal and believable\"\n  },\n\n  \"CLEANUP\": [\n    \"remove text\",\n    \"remove watermarks\",\n    \"remove logos\",\n    \"remove captions\",\n    \"remove UI elements\",\n    \"remove screen borders\",\n    \"remove black strips or borders\"\n  ],\n\n  \"NEGATIVE_PROMPT\": [\n    \"same woman\",\n    \"same face\",\n    \"facial duplicate\",\n    \"recognizable identity\",\n    \"different pose\",\n    \"different camera angle\",\n    \"different framing\",\n    \"different background\",\n    \"different clothing\",\n    \"different accessories\",\n    \"invented jewelry\",\n    \"invented clothing\",\n    \"changed clothing color\",\n    \"missing accessories\",\n    \"missing glasses\",\n    \"CGI\",\n    \"3D render\",\n    \"plastic skin\",\n    \"airbrushed skin\",\n    \"anime\",\n    \"illustration\",\n    \"extr\"\n  ]\n}",
+    "promptFormat": "json",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790582674574_v06w9l_HTP1uPxWIAEYLmp.jpg",
+        "alt": "Identity Replacement Template Prompt",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Visual AI Club",
+      "url": "https://x.com/visualaiclub"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/visualaiclub/status/2104295745029329023"
+    },
+    "publishedAt": "2026-09-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35567",
+    "contentHash": "3183246fc138b83b06606ba964ffd4d0cb25ee42"
+  },
+  {
+    "id": "gpt-image-2:35573",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "35573",
+    "title": "GPT Image 2 Prompt: Leaf Shadow Portrait",
+    "category": "Profile / Avatar",
+    "description": "A detailed prompt for generating a close-up portrait of a woman in a beige jacket outdoors with dappled leaf shadows on her face.",
+    "promptText": "Subject:\nBeige portrait with leaf shadows.\n\nMain Subject:\nClose-up portrait of woman in beige jacket outdoors among leaf shadows is the protagonist, centered.\n\nPerson & Expression:\nSmall oval face, large dark brown eyes, thin eyebrows, well-defined nose, glossy pale peach lips. Face turned slightly left from front, looking at camera with soft expression. Long wavy dark brown hair down, leaving thin bangs and loose strands along cheeks.\n\nClothing & Pose:\nOversized tailored beige jacket, matching lace top at chest, thin gold layered necklace. Torso slightly tilted, shoulders relaxed standing naturally.\n\nBackground & Light:\nOutdoor shade with green leaves and pale wall heavily blurred. Soft dappled sunlight from top-left falls on cheeks, forehead, jacket.\n\nComposition & Camera:\n3:4 vertical composition, frontal camera at eye level capturing bust-up from head to below chest. Character placed largely in center. Hair and shoulders naturally cropped at edges, focus on eyes and leaf shadows on skin, background lightly blurred.\n\nTexture & Style:\nPhotorealistic live-action photo. High-definition natural skin, hair, clothing materials, and surrounding props; maintain natural low saturation of beige, green, skin tone.\n\nNegative:\nOmit leaf shadows; change jacket color.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790582678725_l3uksh_HS5xyk1boAEj_ML.jpg",
+        "alt": "GPT Image 2 Prompt: Leaf Shadow Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Prompt アトリエ｜AI画像プロンプト",
+      "url": "https://x.com/CyberTotal2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CyberTotal2026/status/2104197615982178366"
+    },
+    "publishedAt": "2026-09-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35573",
+    "contentHash": "1931cf897d6ebd0af18330f6e7871bd27b3cd665"
+  },
+  {
+    "id": "gpt-image-2:35578",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "35578",
+    "title": "Gothic Anime Portrait",
+    "category": "Profile / Avatar",
+    "description": "Generates a stylish anime portrait of a male character in Victorian gothic attire with a plaid theme, surrounded by dark atmospheric props like candles and skulls within a golden frame.",
+    "promptText": "A highly detailed anime-style portrait of a handsome young man with messy black hair and intense purple eyes, wearing a small black top hat adorned with a large red and purple plaid bow. He has a cigarette in his mouth and is dressed in an elaborate Victorian gothic outfit featuring a black high-collared shirt, a matching plaid tie with a ruby brooch, and multiple gold chains including a cross pendant. The background is dark and moody, filled with gothic elements such as lit candles, a raven perched on old books, playing cards, a skull, and a birdcage, all set against a diamond-patterned wallpaper. The entire image is framed by an ornate golden border with decorative flourishes.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790582681652_1ep36v_HTMp-Y6bYAEGZro.jpg",
+        "alt": "Gothic Anime Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1790582681912_9pty3i_HTMp-ZCbgAAcUBy.jpg",
+        "alt": "Gothic Anime Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1790582681671_fyepgm_HTMp-ZAbcAA7R93.jpg",
+        "alt": "Gothic Anime Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1790582682531_nhybgw_HTMp-Y6bYAALjEk.jpg",
+        "alt": "Gothic Anime Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "カモネギ。",
+      "url": "https://x.com/kamonegi_AIart"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/kamonegi_AIart/status/2104071609409736848#reversed-0"
+    },
+    "publishedAt": "2026-09-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35578",
+    "contentHash": "70b9f28ac44359590377de6e2bca92e9630a93ab"
+  },
+  {
+    "id": "gpt-image-2:35519",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "35519",
+    "title": "Cafe Portrait Prompt for GPT Image 2",
+    "category": "Profile / Avatar",
+    "description": "A detailed prompt for generating a photorealistic portrait of a young woman at an outdoor cafe using GPT Image 2.",
+    "promptText": "A high-resolution photorealistic eye level portrait of a young East Asian woman with soft natural makeup, glowing skin subtle blush and glossy pink lipstick resting her chin gently on her hand while sitting at an outdoor cafe She has dark brown hair styled in a messy high bun with face framing strands. She is wearing a relaxed-fit unbuttoned white linen button-down shirt over a white tank top, light blue denim jeans a delicate gold pendant necklace, small stud earrings, and a smartwatch with a maroon strap Bright warm, natural sunlight casts dappled shadows from leafy trees in the background, creating a cozy and aesthetic lifestyle aesthetic Depth of field with a softly blurred outdoor cafe setting. Shot on 85mm lens, f/1.8, 8k resolution.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790582673252_i4m65q_HTMYsq6bwAAmvhx.jpg",
+        "alt": "Cafe Portrait Prompt for GPT Image 2",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Lavinia",
+      "url": "https://x.com/laviniavelle"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/laviniavelle/status/2104052627051053307"
+    },
+    "publishedAt": "2026-09-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35519",
+    "contentHash": "7fa8ab0f3b53eaa4ee9fa1e7cfbc7ce6f78766ee"
+  },
+  {
+    "id": "gpt-image-2:35517",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "35517",
+    "title": "Realistic Outdoor Selfie Streetwear",
+    "category": "Profile / Avatar",
+    "description": "A prompt for generating a realistic outdoor selfie of a young woman in streetwear making a playful expression, with specific details on clothing, background elements, and camera settings.",
+    "promptText": "A realistic outdoor selfie of a young woman with long, straight light-brown hair, standing on a city street in bright natural daylight. She wears a stylish red-and-black striped oversized top with graphic lettering, black shoulder straps, and a casual streetwear aesthetic. She holds the camera at arm’s length for a close-up selfie, slightly tilting her head toward the camera, making a playful duck-face expression while raising one arm and lightly flexing her fist. Natural makeup, defined eyes, soft skin texture, detailed hair strands, confident playful pose. Background features a parked vintage beige car, paved street, greenery, modern buildings, and a pink storefront edge. Warm daylight, candid social-media photography, realistic proportions, sharp facial details, shallow depth of field, high-resolution smartphone camera look, vertical 4:5 composition.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790582674409_yege0i_HTMRHTDakAAjpfp.jpg",
+        "alt": "Realistic Outdoor Selfie Streetwear",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1790582674456_t8u5fw_HTMRH2abYAAWcGn.jpg",
+        "alt": "Realistic Outdoor Selfie Streetwear",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Aqsa",
+      "url": "https://x.com/Aqsahere_"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Aqsahere_/status/2104044284991472011"
+    },
+    "publishedAt": "2026-09-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35517",
+    "contentHash": "b4277c78e6fbcce8fe91c9acde66ceeac27c4c0c"
+  },
+  {
+    "id": "gpt-image-2:35524",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "35524",
+    "title": "GPT Image 2 Prompt: Cafe Outfit Portrait",
+    "category": "Profile / Avatar",
+    "description": "A detailed prompt for generating a portrait of a woman sitting in a cafe with cake and coffee, wearing a beige halter top and cargo pants.",
+    "promptText": "Subject:\nBraided hair at coffee shop.\n\nMain Subject:\nWoman sitting before cake and coffee at wooden cafe seat is the protagonist, centered.\n\nPerson & Expression:\nSmall oval face, large dark brown eyes, thin eyebrows, well-defined nose, glossy pale peach lips. Face turned slightly left, looking at camera with modest smile. Dark brown hair gathered high, leaving large clip and loose strands.\n\nClothing & Pose:\nBeige gathered halter-neck top and dark grey wide cargo pants. Sitting on chair with legs crossed diagonally, hands lightly overlapped near thighs.\n\nBackground & Light:\nSmall cafe with wooden walls and shelves, round table in foreground with cake on white plate and dark coffee. Warm natural light from front-left softly illuminates cheeks and top.\n\nComposition & Camera:\n3:4 vertical composition, diagonal frontal camera slightly lower than seat capturing full body from head to near feet. Character placed largely in right half. Chair and table naturally cropped at edges, focus on face and gathered top, background lightly blurred.\n\nTexture & Style:\nPhotorealistic live-action photo. High-definition natural skin, hair, clothing materials, and surrounding props; maintain calm colors of wood tone, beige, dark grey.\n\nNegative:\nChange halter top; omit cake and coffee.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790582677572_zbub1p_HS5hAYPaMAAwcev.jpg",
+        "alt": "GPT Image 2 Prompt: Cafe Outfit Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Prompt アトリエ｜AI画像プロンプト",
+      "url": "https://x.com/CyberTotal2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CyberTotal2026/status/2103972884846919802"
+    },
+    "publishedAt": "2026-09-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35524",
+    "contentHash": "224b50f707b17bdd83d8a81ff2ab836d638c1ba5"
+  },
+  {
+    "id": "gpt-image-2:35566",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "35566",
+    "title": "Luxury Building Portrait Prompt for GPT Image 2",
+    "category": "Social Media Post",
+    "description": "A detailed prompt for creating a photorealistic fashion portrait of a woman on marble stairs in a luxury building.",
+    "promptText": "Create a highly realistic full-body fashion portrait of a young woman sitting elegantly on wide marble stairs inside a luxurious, sunlit modern building. She has long, straight dark-brown hair with soft bangs, natural facial features, a gentle expression, and realistic skin texture.\nShe is wearing a rust-orange utility jacket draped over her shoulders, a cream ribbed knit sweater, a dark navy buttoned vest, high-waisted wide-leg navy trousers, and elegant rust-orange pointed-toe high heels. A matching structured rust-orange handbag rests beside her.\nShe sits naturally with one hand supporting her face and the other resting beside her, relaxed editorial pose. Large floor-to-ceiling windows in the background reveal a softly blurred city and distant mountains. Warm golden sunlight streams through the windows, creating beautiful natural highlights and soft shadows across the marble architecture.\nPhotorealistic fashion photography, luxury editorial aesthetic, natural skin texture, realistic fabric details, soft warm sunlight, shallow depth of field, cinematic composition, high detail, realistic proportions, subtle film grain, 9:16 vertical composition, no text, no watermark, no CGI or artificial",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790582673143_7w3k6a_HTRsqxfbcAA0i8s.jpg",
+        "alt": "Luxury Building Portrait Prompt for GPT Image 2",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Zarnish",
+      "url": "https://x.com/ZarnishNael"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ZarnishNael/status/2104426415752126600"
+    },
+    "publishedAt": "2026-09-28T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35566",
+    "contentHash": "0530f69bedbc1d60fd8102c7f0a05d3998eb57c9"
+  },
+  {
+    "id": "gpt-image-2:35520",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "35520",
+    "title": "High-Fashion Summer Editorial with GPT Image 2",
+    "category": "Social Media Post",
+    "description": "A comprehensive prompt for generating a photorealistic high-fashion summer editorial scene featuring a specific character ('Wareen') using an uploaded reference image, tailored for GPT Image 2.",
+    "promptText": "Create a photorealistic high-fashion summer editorial using the uploaded reference image as the strict character reference.\n\nCHARACTER:\nUse the exact same Wareen character from the reference image. Preserve her recognizable facial features, facial structure, purple wavy bob haircut, purple bangs, freckles across the cheeks and nose, skin tone, body proportions, and overall visual identity. Do not redesign or replace the character. Only change her outfit, pose, accessories, and environment according to the scene below.\n\nPOSE & COMPOSITION:\nFull-body low-angle fashion photograph of Wareen lounging horizontally across a minimalist cobalt-blue architectural ledge. She is reclining comfortably with her back supported by the structure, knees raised and legs crossed naturally. Her head is slightly tilted back while she looks upward toward the camera with a calm, confident expression.\n\nOne arm rests casually beside her near the handbag, while the other arm is relaxed along the ledge. The nearest leg and white sandal are slightly closer to the camera, creating a dramatic low-angle perspective.\n\nOUTFIT:\n- Tailored bright cobalt-blue blazer worn open\n- Plain fitted white crew-neck top underneath\n- Matching high-waisted bright cobalt-blue tailored trousers\n- Relaxed but elegant wide-leg silhouette\n- Clean white casual strap sandals with chunky grey-white soles\n- Oversized retro white-framed sunglasses\n\nACCESSORIES:\n- Structured vibrant red leather tote handbag placed beside Wareen on the blue ledge\n- Minimal jewelry\n- Keep accessories stylish and understated\n\nBACKGROUND & ENVIRONMENT:\nSurreal minimalist 3D tropical fashion setting.\n- Clear vivid blue sky\n- Stylized palm trees with blue-painted trunks\n- Green palm leaves\n- Geometric white and blue modern architectural buildings\n- Clean cobalt-blue platforms and ledges\n- Strong color-blocked architectural shapes\n- Minimal clutter\n- Luxury summer campaign atmosphere\n\nLIGHTING:\nBright natural summer sunlight.\nHard directional sunlight with crisp, clean shadows.\nHigh contrast between cobalt blue, white and red.\nBright vibrant exposure with realistic skin highlights.\nClear blue-sky atmosphere.\n\nCAMERA:\nLow-angle wide-lens fashion photography.\nFull-body framing.\nDramatic perspective with the foreground sandal slightly larger due to lens perspective.\nStrong geometric composition.\nProfessional luxury fashion campaign photography.\nSharp focus on Wareen with subtle depth of field.\n\nSTYLE:\nPhotorealistic high-end fashion editorial.\nPop-art inspired summer aesthetic.\nBold blue-and-white color-block style with a contrasting red handbag.\nClean, sophisticated, vibrant and modern.\nPremium commercial fashion photography.\n\nQUALITY:\nUltra-realistic, high resolution, realistic skin texture, natural anatomy, realistic hands and fingers, detailed fabric textures, accurate clothing folds, realistic sunglasses and handbag materials, natural shadows, cinematic depth, professional photography.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790582675955_aj4ewt_HTMmWcdboAAoPs0.jpg",
+        "alt": "High-Fashion Summer Editorial with GPT Image 2",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Wareen AI 💟",
+      "url": "https://x.com/Wareenaa"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Wareenaa/status/2104067633083781131"
+    },
+    "publishedAt": "2026-09-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35520",
+    "contentHash": "17234f05697bddd42adba80b3df8938c9e91f6cf"
+  },
+  {
+    "id": "gpt-image-2:35571",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "35571",
+    "title": "New Year Transformation Poster",
+    "category": "Social Media Post",
+    "description": "Detailed prompt for creating a cinematic New Year transformation poster with strict face preservation and split visual themes.",
+    "promptText": "Create an ultra-realistic cinematic New Year transformation poster in vertical 9:16 format, inspired closely by the provided reference image.\nA beautiful young woman wearing an elegant all-white modest outfit stands in the exact center of the composition. She wears a white hijab, long white outer jacket, flowing long white pleated skirt with dramatic volume, and clean white platform sneakers. Her pose is graceful and confident, body slightly turned sideways while her face looks toward the camera, one arm naturally hanging down. Full-body composition, realistic anatomy and proportions.\nSTRICT FACE PRESERVATION: use the uploaded face reference as the primary identity reference. Preserve the person's facial identity, facial structure, eyes, eyebrows, nose, lips, jawline, cheekbones, forehead, skin tone, age and natural facial proportions. Do not create a different person. Do not beautify or alter the facial identity. Natural realistic skin texture, subtle pores, realistic eyes and lips.\nLEFT SIDE — GOODBYE 2026\nThe left half represents the past and transformation:\ndark black/navy cinematic atmosphere\nsmoky dramatic clouds\nlarge metallic “2026” appearing cracked and shattered\nhundreds of realistic glass fragments exploding outward around the woman\nbroken pieces gradually dissolving into particles\nfloating dark labels representing things being left behind: “DAMAGES”, “PAINS”, “OVERTHINKING”, “REGRESSION”, “OLD USUALS”, “FAKE PEOPLE”, “WHAT IF”\nsophisticated black, silver and dark bronze color palette\ndramatic cinematic lighting\nsubtle broken-glass reflections on wet pavement\nAt the upper left, elegant widely spaced typography: “GOODBYE”\nBelow it: “THANK YOU\nFOR THE LESSONS”\nRIGHT SIDE — WELCOME 2027\nThe right half represents a bright new future:\nspectacular golden sunrise\nwarm orange and golden clouds\nglowing city skyline in the distance\nfuturistic luxury urban atmosphere\nwet reflective asphalt reflecting the golden light\na luxurious black SUV parked on the right side\ndramatic golden rim light surrounding the woman\nstrong contrast between the dark past and bright future\nAt the upper right, elegant luxury typography: “WELCOME”\nHuge glowing metallic gold numbers: “2027”\nUnderneath: “BIGGER DREAMS\nBOLDER MOVES\nBETTER ME”\nNear the middle-right, handwritten elegant text: “NEW CHAPTER\nLOADING...”\nwith a small elegant crown symbol above it.\nBelow: “poppy virgo ♡”\nVISUAL STYLE\nUltra-photorealistic luxury editorial photography, cinematic New Year poster, high-end fashion campaign, dramatic environmental storytelling, realistic glass particles, realistic fabric folds, realistic skin texture, volumetric lighting, golden-hour atmosphere, deep shadows, HDR, high dynamic range, realistic reflections, sharp details, sophisticated composition, premium magazine advertising aesthetic, 8K detail, natural proportions, realistic photography, no cartoon, no illustration, no plastic skin, no AI-looking face.\nComposition: symmetrical visual s",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790582677205_5ehl8k_HTMB2iVaIAAOhn3.jpg",
+        "alt": "New Year Transformation Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Aiza",
+      "url": "https://x.com/AizaAi12"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AizaAi12/status/2104027510908313636"
+    },
+    "publishedAt": "2026-09-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35571",
+    "contentHash": "a44c3f3aa3d4c0125ad7652b4e735d7177eba848"
+  },
+  {
+    "id": "gpt-image-2:35569",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "35569",
+    "title": "Photorealistic Meal Prep Jars with Ingredient List",
+    "category": "Infographic / Edu Visual",
+    "description": "A prompt for generating a photorealistic food photography scene featuring layered Mexican-inspired chicken salads in glass jars, including a handwritten ingredient list overlay.",
+    "promptText": "Create a photorealistic lifestyle food photography scene featuring four clear glass meal-prep jars arranged on a clean light-colored kitchen countertop. Each jar has a natural bamboo wooden lid with a white sealing ring.\n\nThe jars contain beautifully layered {argument name=\"dish type\" default=\"Mexican-inspired chicken salads\"}, with clearly separated colorful layers from bottom to top: diced cucumber, cherry tomatoes, red onion, red bell pepper, sweet corn, black beans, crumbled Cotija cheese, fresh chopped romaine lettuce, and shredded cooked chicken. Keep every ingredient fresh, vibrant, crisp, and visibly distinct through the transparent glass.\n\nPlace two jars in the foreground and two slightly behind them for depth and composition. Warm modern kitchen background with subtle wooden cabinets, soft natural daylight coming from a window, shallow depth of field, realistic reflections on the glass, soft shadows, premium food photography, natural colors, high detail, realistic textures, 4K, editorial meal-prep aesthetic.\n\nOn the right side, include a neat handwritten-style ingredient list reading:\n“Shredded Chicken\nRomaine\nCojita\nBlack beans\nCorn\nRed pepper\nRed onion\nCherry tomatoes\nCucumber”\n\nVertical composition, realistic proportions, clean and appetizing presentation, professional commercial food photography.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "dish type",
+        "default": "Mexican-inspired chicken salads"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790582676464_jtxexk_HTRAdKCaAAAL1LT.jpg",
+        "alt": "Photorealistic Meal Prep Jars with Ingredient List",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Dua Fatima",
+      "url": "https://x.com/DuaFatimaAi"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/DuaFatimaAi/status/2104377831581253709"
+    },
+    "publishedAt": "2026-09-28T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35569",
+    "contentHash": "588cf418b4268944900b16dcad3748fa3a28ed5b"
+  },
+  {
     "id": "gpt-image-2:35527",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -36,110 +424,6 @@
     "publishedAt": "2026-09-27T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35527",
     "contentHash": "220f2512287dc33df0be920b7b69e5d09f0a080b"
-  },
-  {
-    "id": "gpt-image-2:35519",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "35519",
-    "title": "Photorealistic Cafe Portrait Prompt",
-    "category": "Profile / Avatar",
-    "description": "A detailed prompt for generating a photorealistic portrait of an East Asian woman at an outdoor cafe using GPT Image 2, focusing on natural lighting and fabric details.",
-    "promptText": "A high-resolution photorealistic eye level portrait of a young East Asian woman with soft natural makeup, glowing skin subtle blush and glossy pink lipstick resting her chin gently on her hand while sitting at an outdoor cafe She has dark brown hair styled in a messy high bun with face framing strands. She is wearing a relaxed-fit unbuttoned white linen button-down shirt over a white tank top, light blue denim jeans a delicate gold pendant necklace, small stud earrings, and a smartwatch with a maroon strap Bright warm, natural sunlight casts dappled shadows from leafy trees in the background, creating a cozy and aesthetic lifestyle aesthetic Depth of field with a softly blurred outdoor cafe setting. Shot on 85mm lens, f/1.8, 8k resolution.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1790495301640_7llvaz_HTMYsq6bwAAmvhx.jpg",
-        "alt": "Photorealistic Cafe Portrait Prompt",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Lavinia",
-      "url": "https://x.com/laviniavelle"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/laviniavelle/status/2104052627051053307"
-    },
-    "publishedAt": "2026-09-27T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35519",
-    "contentHash": "4a3fea465423c5283ae6920286cf905091451859"
-  },
-  {
-    "id": "gpt-image-2:35517",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "35517",
-    "title": "Streetwear Selfie with Duck Face",
-    "category": "Profile / Avatar",
-    "description": "A prompt for gpt-image-2 generating a realistic outdoor selfie of a woman in streetwear making a playful duck-face expression, with specific attention to lighting, background elements like a vintage car, and smartphone camera aesthetics.",
-    "promptText": "A realistic outdoor selfie of a young woman with long, straight light-brown hair, standing on a city street in bright natural daylight. She wears a stylish red-and-black striped oversized top with graphic lettering, black shoulder straps, and a casual streetwear aesthetic. She holds the camera at arm’s length for a close-up selfie, slightly tilting her head toward the camera, making a playful duck-face expression while raising one arm and lightly flexing her fist. Natural makeup, defined eyes, soft skin texture, detailed hair strands, confident playful pose. Background features a parked vintage beige car, paved street, greenery, modern buildings, and a pink storefront edge. Warm daylight, candid social-media photography, realistic proportions, sharp facial details, shallow depth of field, high-resolution smartphone camera look, vertical 4:5 composition.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1790495298433_v9somc_HTMRHTDakAAjpfp.jpg",
-        "alt": "Streetwear Selfie with Duck Face",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1790495299844_uzfgkk_HTMRH2abYAAWcGn.jpg",
-        "alt": "Streetwear Selfie with Duck Face",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Aqsa",
-      "url": "https://x.com/Aqsahere_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Aqsahere_/status/2104044284991472011"
-    },
-    "publishedAt": "2026-09-27T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35517",
-    "contentHash": "20f75dbc6aaf4f928206af800aa83cc5f3398d40"
-  },
-  {
-    "id": "gpt-image-2:35524",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "35524",
-    "title": "GPT Image 2 Prompt: Cafe Braided Hair Portrait",
-    "category": "Profile / Avatar",
-    "description": "A prompt for generating a photorealistic portrait of a woman with braided hair sitting in a cafe with cake and coffee.",
-    "promptText": "Subject:\nCafe Shop Braided Hair\n\nMain Subject:\nCenter of the frame, a woman sitting before cake and coffee at a wooden cafe seat.\n\nPerson & Expression:\nSmall oval face, large dark brown eyes, thin eyebrows, neat nose, glossy pale pink lips. Face turned slightly left, gaze meeting camera with modest smile. Dark brown hair tied up high, leaving large clip and stray strands.\n\nClothing & Pose:\nBeige gathered halter neck top and dark gray wide cargo pants. Sitting on chair, legs flowing diagonally, hands lightly overlapped near thighs.\n\nBackground & Light:\nSmall cafe with wooden walls and shelves, white plate cake and dark coffee on round table in foreground. Warm natural light from front-left softly illuminates cheeks and top.\n\nComposition & Camera:\n3:4 vertical composition, diagonal frontal camera slightly lower than seat height capturing full body from top of head to near feet. Person placed largely in right half. Chair and table naturally cropped at screen edges, focus on face and gathered top, background lightly blurred.\n\nTexture & Style:\nPhotorealistic live-action photo. High-definition natural skin and hair, costume materials, surrounding props, maintaining calm colors of wood, beige, and dark gray.\n\nNegative:\nChange halter top; omit cake and coffee",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1790495305554_i05z92_HS5hAYPaMAAwcev.jpg",
-        "alt": "GPT Image 2 Prompt: Cafe Braided Hair Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2103972884846919802"
-    },
-    "publishedAt": "2026-09-26T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35524",
-    "contentHash": "b750985badbc33313606ae19325055d2fb993beb"
   },
   {
     "id": "gpt-image-2:35521",
@@ -371,39 +655,6 @@
     "publishedAt": "2026-09-25T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35462",
     "contentHash": "df87c0dec058a29efc40f2946937b7407c3ea98b"
-  },
-  {
-    "id": "gpt-image-2:35520",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "35520",
-    "title": "High-Fashion Summer Editorial Prompt",
-    "category": "Social Media Post",
-    "description": "A comprehensive prompt for GPT Image 2 to create a photorealistic fashion editorial featuring a specific character ('Wareen') in a cobalt-blue outfit, utilizing a reference image for consistency.",
-    "promptText": "Create a photorealistic high-fashion summer editorial using the uploaded reference image as the strict character reference.\n\nCHARACTER:\nUse the exact same Wareen character from the reference image. Preserve her recognizable facial features, facial structure, purple wavy bob haircut, purple bangs, freckles across the cheeks and nose, skin tone, body proportions, and overall visual identity. Do not redesign or replace the character. Only change her outfit, pose, accessories, and environment according to the scene below.\n\nPOSE & COMPOSITION:\nFull-body low-angle fashion photograph of Wareen lounging horizontally across a minimalist cobalt-blue architectural ledge. She is reclining comfortably with her back supported by the structure, knees raised and legs crossed naturally. Her head is slightly tilted back while she looks upward toward the camera with a calm, confident expression.\n\nOne arm rests casually beside her near the handbag, while the other arm is relaxed along the ledge. The nearest leg and white sandal are slightly closer to the camera, creating a dramatic low-angle perspective.\n\nOUTFIT:\n- Tailored bright cobalt-blue blazer worn open\n- Plain fitted white crew-neck top underneath\n- Matching high-waisted bright cobalt-blue tailored trousers\n- Relaxed but elegant wide-leg silhouette\n- Clean white casual strap sandals with chunky grey-white soles\n- Oversized retro white-framed sunglasses\n\nACCESSORIES:\n- Structured vibrant red leather tote handbag placed beside Wareen on the blue ledge\n- Minimal jewelry\n- Keep accessories stylish and understated\n\nBACKGROUND & ENVIRONMENT:\nSurreal minimalist 3D tropical fashion setting.\n- Clear vivid blue sky\n- Stylized palm trees with blue-painted trunks\n- Green palm leaves\n- Geometric white and blue modern architectural buildings\n- Clean cobalt-blue platforms and ledges\n- Strong color-blocked architectural shapes\n- Minimal clutter\n- Luxury summer campaign atmosphere\n\nLIGHTING:\nBright natural summer sunlight.\nHard directional sunlight with crisp, clean shadows.\nHigh contrast between cobalt blue, white and red.\nBright vibrant exposure with realistic skin highlights.\nClear blue-sky atmosphere.\n\nCAMERA:\nLow-angle wide-lens fashion photography.\nFull-body framing.\nDramatic perspective with the foreground sandal slightly larger due to lens perspective.\nStrong geometric composition.\nProfessional luxury fashion campaign photography.\nSharp focus on Wareen with subtle depth of field.\n\nSTYLE:\nPhotorealistic high-end fashion editorial.\nPop-art inspired summer aesthetic.\nBold blue-and-white color-block style with a contrasting red handbag.\nClean, sophisticated, vibrant and modern.\nPremium commercial fashion photography.\n\nQUALITY:\nUltra-realistic, high resolution, realistic skin texture, natural anatomy, realistic hands and fingers, detailed fabric textures, accurate clothing folds, realistic sunglasses and handbag materials, natural shadows, cinematic depth, professional photography.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1790495301912_vy2aqd_HTMmWcdboAAoPs0.jpg",
-        "alt": "High-Fashion Summer Editorial Prompt",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Wareen AI 💟",
-      "url": "https://x.com/Wareenaa"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Wareenaa/status/2104067633083781131"
-    },
-    "publishedAt": "2026-09-27T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35520",
-    "contentHash": "b67c7733d12ef49dcbcdf42d22fe532b3e3bed9c"
   },
   {
     "id": "gpt-image-2:35515",
@@ -5132,236 +5383,5 @@
     "publishedAt": "2026-09-16T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34849",
     "contentHash": "a5958fe52a6437ff34593de64478b4afaaf1ec0d"
-  },
-  {
-    "id": "gpt-image-2:34852",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "34852",
-    "title": "Aerial Steampunk Workshop Transformation",
-    "category": "Comic / Storyboard",
-    "description": "Transforms a family portrait into a top-down steampunk workshop scene with watercolor splashes and technical blueprints.",
-    "promptText": "Using the provided reference image, transform the portrait into a highly detailed, top-down aerial view of the subjects working in a cluttered steampunk inventor's workshop. Preserve the exact facial features and clothing colors of the three individuals (the man in the white t-shirt, the older woman in cream, and the younger woman in a sleeveless cream dress) while repositioning them around a large wooden table. Populate the table with aged parchment blueprints featuring technical sketches of an ornate machine, scattered brass gears, precision drafting tools, and a magnifying glass. The scene should be illuminated by a warm, glowing hanging light bulb from above. Apply a vibrant watercolor splash effect to the outer edges of the composition, blending colorful pigments like red, blue, and yellow into a textured paper background.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789631458350_1r8oar_HSUeSbNaIAAvoXV.jpg",
-        "alt": "Aerial Steampunk Workshop Transformation",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Tiyashi",
-      "url": "https://x.com/TiyashiAI"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/TiyashiAI/status/2100118111504752947#reversed-0"
-    },
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34852",
-    "contentHash": "b9b66102670c9a4fee023bff16a3193f58107bb8"
-  },
-  {
-    "id": "gpt-image-2:34772",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "34772",
-    "title": "Fantasy Cartographer & Dog",
-    "category": "Comic / Storyboard",
-    "description": "Transforms a photo of a person and pet into a detailed fantasy illustration of them exploring an ancient map in a wizard's study.",
-    "promptText": "Using the provided reference image, transform the subject and their dog into a high-fantasy 'Ancient Map' illustration. Keep the character's specific outfit—the green cap, face covering, orange and black patterned jersey, and blue jeans—along with the fluffy white dog, but place them in a candlelit medieval study. The man should be leaning over a large, weathered parchment map on a wooden table, holding a quill pen as if charting a course, while the dog sits beside him looking up. Surround the scene with stacks of old leather-bound books, brass compasses, and lit candles. Add decorative ink-drawn borders featuring dragons, sailing ships, and castles to frame the composition. Use warm, golden lighting and an aged paper texture.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789545105778_3zwlh0_HSSHFHnbsAAh6O5.jpg",
-        "alt": "Fantasy Cartographer & Dog",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "boB",
-      "url": "https://x.com/b0BRude"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/b0BRude/status/2099951859532521977#reversed-0"
-    },
-    "publishedAt": "2026-09-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34772",
-    "contentHash": "b7c7cbbb020002d64d92084f72b5b2bd6a48f86f"
-  },
-  {
-    "id": "gpt-image-2:34850",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "34850",
-    "title": "Japanese Noodle Shop Signage",
-    "category": "Product Marketing",
-    "description": "A photo-realistic image of a Japanese restaurant storefront featuring a colorful wall menu and an outdoor sandwich board advertising 500-yen meal sets.",
-    "promptText": "A realistic photograph of a Japanese restaurant exterior featuring two distinct signage elements. In the background, mounted on a pink wall above a dark wooden counter, is a large menu board divided into vertical color-coded columns (yellow, white, blue, red). The text in these columns lists noodle dishes like 'Tanuki Udon', 'Bukkake Udon', 'Abura Soba', and 'Tsuke Men' with prices marked as 380 yen. In the foreground, standing on the pavement, is a black A-frame sandwich board displaying four promotional meal sets arranged in a 2x2 grid. Each quadrant features appetizing photos of food bowls (noodles and pork rice) alongside bold text advertising a '500 Yen' price point for sets combining noodles with a 'Butadon' (pork bowl). The lighting is natural daylight, capturing the vibrant colors of the signs against the street setting.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789631457355_f54o9x_HSU_xn5aUAA7gAR.jpg",
-        "alt": "Japanese Noodle Shop Signage",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Torishima / INTP",
-      "url": "https://x.com/izutorishima"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/izutorishima/status/2100233876388053345#reversed-0"
-    },
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34850",
-    "contentHash": "4a40413a931249def5151d8437ec87c60a4dd595"
-  },
-  {
-    "id": "gpt-image-2:34773",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "34773",
-    "title": "Tiny Chefs Bakery Scene",
-    "category": "Product Marketing",
-    "description": "Generates a whimsical, high-resolution image of a young baker leading five toddlers through a cozy, text-filled miniature bakery.",
-    "promptText": "Create an ultra-realistic, highly detailed cinematic vertical 4:5 portrait of a magical cozy miniature bakery called “Tiny Chefs”, filled with warmth, sweetness, creativity, and joyful energy. In the center of the scene, show a cheerful young female baker wearing a white shirt, red neckerchief, brown apron with \"Tiny Chefs\" written on it, and black-and-white checkered trousers, running forward with an excited expression while holding a whisk in her right hand. She is leading a parade of five tiny toddler chefs who are following closely behind her. Each toddler wears a puffy chef's hat labeled \"Tiny Chef\", has flour-dusted cheeks, and holds a specific oversized baking ingredient: from left to right, one holds a giant strawberry, another a large chocolate bar, one carries a rolling pin, another holds a piping bag, and the last one clutches a jar of sprinkles.\n\nThe environment is a rustic, sunlit bakery interior. Above the main archway hangs a wooden sign reading \"Tiny Chefs - Bake a Happier World\" with a chef hat icon. To the left, there is a chalkboard titled \"Ingredients for Today:\" listing checkboxes for Love, Creativity, Kindness, Sweet Treats, and Happy People, next to glass jars labeled FLOUR, SUGAR, and COCOA. To the right, another chalkboard lists phrases like Small Bites Big Happiness, Sweet People Brighter Days, and Same Team Bigger Dreams, next to a jar labeled SPRINKLES. In the background through the door, a giant pink donut sculpture is visible. The floor is covered in scattered flour, colorful candies, and chocolate chunks, with the phrase \"Sweet People Make a Brighter World\" written in the flour dust at the bottom center.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789631456671_iwuvr1_HSTg-NqawAA8NAi.jpg",
-        "alt": "Tiny Chefs Bakery Scene",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Mehwish kiran",
-      "url": "https://x.com/mehwishkiran07"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/mehwishkiran07/status/2100050753276817452#reversed-0"
-    },
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34773",
-    "contentHash": "1525d2cc6f7db42593b650d3c5e7a3661749a782"
-  },
-  {
-    "id": "gpt-image-2:34771",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "34771",
-    "title": "Miniature Kiwi Island Resort",
-    "category": "Product Marketing",
-    "description": "A whimsical prompt to transform a photo into a scene where the subject relaxes in a luxury resort built inside a giant kiwi fruit.",
-    "promptText": "Create a highly detailed cinematic fantasy miniature world built inside a giant half-cut kiwi fruit. The kiwi becomes a tiny tropical island resort surrounded by sparkling water. At the top, there is a beautiful rustic bamboo and thatch hut with a wooden sign reading \"Kiwi Relax Resort\". A woman in a beige outfit is relaxing in a hammock attached to the hut, holding a green drink. Beside her on a small wooden platform sits a Jack Russell terrier dog. To the left of the hut, a tall wooden signpost lists five checkmarks: \"Good Day ✓\", \"Good Food ✓\", \"Less Stress ✓\", \"More Sleep ✓\", \"Happy Me ✓\". On the right side of the kiwi surface, there is a small swimming pool made of kiwi juice, a striped lounge chair under a tiki umbrella, and a chalkboard sign saying \"Good Night ♡\". A wooden bridge connects the areas. Kiwi slices are placed around as tables or decor. A waterfall of green kiwi juice pours from the edge of the kiwi into the surrounding water. In the foreground bottom left, there is a lantern and a wooden sign reading \"Small Moments Big Happiness ♡\". In the bottom right, a small wooden boat floats with the text \"Tiny Adventures\". The background features a sunset over the ocean with distant islands. The lighting is warm and golden hour.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789545105687_z2298r_HSTUu-MbIAEU1yN.jpg",
-        "alt": "Miniature Kiwi Island Resort",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Arzoo Ai",
-      "url": "https://x.com/Arzoo12sh"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Arzoo12sh/status/2100037462932475947#reversed-1"
-    },
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34771",
-    "contentHash": "c611445a453042e1336f6113771969aa35467d23"
-  },
-  {
-    "id": "gpt-image-2:34765",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "34765",
-    "title": "Cinematic Sunset Beach Portrait",
-    "category": "Product Marketing",
-    "description": "A detailed prompt for generating a photorealistic portrait of a young man on a beach at sunset using GPT Image 2. Includes specific descriptions of appearance, clothing, lighting, and camera settings.",
-    "promptText": "Ultra-realistic cinematic sunset portrait of a strikingly handsome young man in his early 20s standing on a peaceful beach at golden hour, captured from a three-quarter rear profile similar to the reference composition. He has thick naturally wavy jet-black hair, slightly tousled and flowing freely in the ocean breeze, strong well-defined eyebrows, deep dark-brown eyes, a straight sculpted nose, prominent cheekbones, a sharp masculine jawline, and subtle natural stubble. He gazes calmly toward the glowing sunset over the ocean with a thoughtful, mysterious expression.\nHe wears an elegant loose cream-white linen shirt, slightly open at the collar, with relaxed tailored beige trousers, the lightweight fabric naturally moving in the sea breeze. His posture is relaxed and confident, one shoulder subtly turned toward the camera. Warm sunset light creates a beautiful golden rim light around his hair and shoulders.\nBehind him, gentle ocean waves roll toward a quiet sandy beach, reflecting the orange-gold sunlight. The sky is filled with dramatic soft pink, peach, lavender, and warm orange clouds. Cinematic atmospheric haze, natural skin texture, realistic hair strands, subtle wind movement, shallow depth of field, soft bokeh, photorealistic ocean reflections, sophisticated editorial photography, emotional and dreamy mood, 85mm lens, f/1.8, HDR, ultra-detailed, 8K, realistic photography, natural color grading, no artificial-looking skin, no text, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789545102031_3vn32u_HSP_cTqaIAAnWJT.jpg",
-        "alt": "Cinematic Sunset Beach Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "HeisenLegacy",
-      "url": "https://x.com/MohdAdnanA86218"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/MohdAdnanA86218/status/2099802724078629360"
-    },
-    "publishedAt": "2026-09-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34765",
-    "contentHash": "43e50657e86871cfc5700e5d0426649ba84addd0"
-  },
-  {
-    "id": "gpt-image-2:34758",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "34758",
-    "title": "South Asian Woman Portrait Prompt",
-    "category": "Product Marketing",
-    "description": "A direct prompt for GPT Image 2 on ChatGPT generating a photorealistic portrait of a South Asian woman in traditional attire near a window.",
-    "promptText": "A stunning young South Asian woman sitting gracefully near a window in soft natural sunlight. She has long, silky, dark brown hair with a middle part, gentle face framing strands, expressive almond-shaped brown eyes, soft natural eyebrows, a delicate nose, and a beautiful subtle smile. She is wearing a gorgeous red and pink floral printed traditional Indian lehenga choli with a sleeveless blouse, a matching floral dupatta draped elegantly around her neck and over one shoulder, and delicate traditional silver jhumka earrings.\nShe is sitting in a relaxed, elegant pose with her body slightly turned toward the camera, one arm resting naturally, looking directly into the camera with a soft, charming smile. Natural glowing skin, minimal makeup, soft pink lips, realistic facial details.\nThe background is a bright, cozy balcony or window area with cream-colored walls, a dark window frame, green leafy plants, and beautiful warm daylight. Soft sunlight falling naturally on her face and hair, cinematic photography, shallow depth of field, creamy bokeh, realistic skin texture, DSLR portrait photography, 85mm lens, f/1.8, high detail, natural colors, ultra-realistic, 4K quality, editorial fashion portrait, vertical composition, 9:16 aspect ratio.\nImportant: Preserve the same overall composition, sitting pose, outfit style, hairstyle, lighting, and natural aesthetic as the reference image",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789545098545_0sgy1w_HSO86NWbEAE7-X6.jpg",
-        "alt": "South Asian Woman Portrait Prompt",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Zorvia",
-      "url": "https://x.com/ZorviaLux"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/ZorviaLux/status/2099729570413076599"
-    },
-    "publishedAt": "2026-09-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34758",
-    "contentHash": "ad7fb8e8a98eb19378a4c14cb211a07de8589833"
   }
 ]
