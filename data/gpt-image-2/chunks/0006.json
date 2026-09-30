@@ -1,5 +1,47 @@
 [
   {
+    "id": "gpt-image-2:32613",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32613",
+    "title": "Custom Meme Sticker Pack Generator",
+    "category": "Profile / Avatar",
+    "description": "A creative prompt for generating a 3x3 grid of meme-style stickers based on reference images, featuring exaggerated expressions and low-fi textures.",
+    "promptText": "Create a {argument name=\"subject\" default=\"Meme sticker pack\"} based on the images attached, remixing with {argument name=\"emojis\" default=\"😎😛💕🚀🥳\"}. Use exaggerated internet-reaction expressions, including crying, confusion, shock, smugness, side-eye, and deadpan disbelief, with awkward poses, low-fi cutout textures, and absurd humor. Create a single square(1:1) transparent sticker sheet with nine distinct stickers arranged in a 3×3 grid, each showing a different expression, pose, or reaction. Separate the stickers with wide, fully transparent gaps. No background, shadows, or overlapping elements.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "Meme sticker pack"
+      },
+      {
+        "name": "emojis",
+        "default": "😎😛💕🚀🥳"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787732154836_m8sj3m_HQoMALNbIAAq-Rw.jpg",
+        "alt": "Custom Meme Sticker Pack Generator",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Hoody",
+      "url": "https://x.com/HoodyLiu"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/HoodyLiu/status/2092498652648677487"
+    },
+    "publishedAt": "2026-08-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32613",
+    "contentHash": "e24c8d90325b3c98874a558517ef6a5ca95ceac0"
+  },
+  {
     "id": "gpt-image-2:32610",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6745,47 +6787,5 @@
     "publishedAt": "2026-08-23T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32335",
     "contentHash": "b8df34826490a2bba1ace349bbe7b529a67af243"
-  },
-  {
-    "id": "gpt-image-2:32327",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32327",
-    "title": "Ultra-realistic Waterfront Fashion Portrait",
-    "category": "Product Marketing",
-    "description": "A precise prompt for generating an 8K full-body fashion portrait at golden hour, designed to maintain subject identity while specifying clothing and environment details.",
-    "promptText": "Ultra-realistic 8K full-body portrait of the same person, preserving exact face, hairstyle, skin tone and body proportions. Walking on an elegant waterfront promenade at golden hour, three-quarter rear angle, head naturally turned back toward camera. {argument name=\"clothing\" default=\"Olive-green overshirt, white T-shirt, black trousers, white sneakers, sunglasses\"}. One hand in pocket, relaxed walking pose. {argument name=\"background\" default=\"Vintage lamps, black railing, calm water, golden sunset reflection and distant city skyline\"}. Cinematic 50mm/85mm look, natural lighting, realistic textures, shallow depth of field, premium fashion photography, 4:5. No face distortion, extra fingers, warped body, cropped feet or AI artifacts.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "clothing",
-        "default": "Olive-green overshirt, white T-shirt, black trousers, white sneakers, sunglasses"
-      },
-      {
-        "name": "background",
-        "default": "Vintage lamps, black railing, calm water, golden sunset reflection and distant city skyline"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787472348534_dk7urn_HQXsdPqaMAAlRX3.jpg",
-        "alt": "Ultra-realistic Waterfront Fashion Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Mr. Tariq",
-      "url": "https://x.com/AiWithTariq"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AiWithTariq/status/2091337610941866236"
-    },
-    "publishedAt": "2026-08-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32327",
-    "contentHash": "4f91aa563aaa357e5be6e92554c10c70e7b789ca"
   }
 ]

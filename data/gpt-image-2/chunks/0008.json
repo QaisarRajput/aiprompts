@@ -1,5 +1,55 @@
 [
   {
+    "id": "gpt-image-2:32068",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32068",
+    "title": "Anime Classroom Losing Heroines Key Visual",
+    "category": "YouTube Thumbnail",
+    "description": "A structured prompt for generating a cinematic anime school-romance key visual with three students, Japanese title graphics, posters, and handwritten character annotations.",
+    "promptText": "Goal: Create a cinematic anime key visual for a high-school romantic comedy titled {argument name=\"title text\" default=\"負けヒロインが多すぎる!\"}, set in a classroom with gentle daylight and a slightly melancholic but humorous mood.\n\nCanvas: Wide 16:9 composition, 1200×675 style framing, like a polished TV anime promotional still. Use soft realistic lighting, detailed painted backgrounds, clean character line art, subtle depth of field, and no grain or image noise.\n\nLayout: Three teenage students sit at desks in the foreground and midground. Count exactly 3 students: 1) left foreground main heroine, 2) center boy, 3) right background girl. The camera is at desk height, angled slightly upward, with large classroom windows behind them showing a bright blue sky, distant school buildings, balcony railings, and green hills. A concrete pillar and wall occupy the right side.\n\nSubject details: The left foreground girl is the dominant subject: a cheerful teenage girl with {argument name=\"main heroine hair color\" default=\"deep navy blue\"} shoulder-length messy hair, blue eyes, flushed cheeks, and a teasing smile. She wears a white short-sleeve school shirt with a blue bow and sits lazily with her cheek resting on one hand, leaning toward the viewer. In front of her are exactly 3 desk items: a pink lunch box, a pink-and-white cloth, and a small yogurt drink carton with a straw labeled in Japanese. The center boy is a nervous teenage boy with short dark brown hair, wide uncertain eyes, a sweat drop, a white school shirt, and a green tie; he looks sideways toward the blue-haired girl as if thinking things are starting again. The right background girl is a withdrawn teenage girl with {argument name=\"side heroine hair color\" default=\"dark reddish-purple\"} short bobbed hair and hairpins, wearing a white school shirt; she sits apart near the wall, half-hidden behind a phone or small book, looking annoyed and pretending not to care. On the right foreground desk place a dark navy school bag.\n\nVisible text and graphic elements: Include exactly 1 main title cluster in the upper left with the large Japanese title {argument name=\"title text\" default=\"負けヒロインが多すぎる!\"}, small romanization “MAKEINE,” and small English subtitle “Too Many Losing Heroines!” beneath it. Include exactly 2 wall posters on the right: one larger poster on the pillar reading {argument name=\"poster quote\" default=\"負けても、きっと、青春は、終わらない。\"} with the small English subtitle “Too Many Losing Heroines!”, and one smaller tilted poster in the upper right reading Japanese handwriting that means “Even so, this feeling is surely not losing.” Include exactly 3 handwritten white annotation captions with curved arrows or dotted trails: near the left girl, “やっぱ私は負けヒロインなんだよね〜”; near the boy, “また始まった…”; near the right girl, “別に気にしてない”.\n\nVisual style: Modern Japanese anime film still, delicate shadows, cool blue classroom atmosphere, warm skin tones, expressive faces, natural hair highlights, detailed desks and windows, crisp but painterly background. The mood should feel like a promotional scene from a school comedy-drama about “losing heroines.”\n\nConstraints: Keep the composition clean and cinematic, preserve exactly the counted characters, posters, desk items, and annotation captions, avoid extra characters, avoid extra random text, avoid watermark or logo beyond the specified title graphics.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "title text",
+        "default": "負けヒロインが多すぎる!"
+      },
+      {
+        "name": "main heroine hair color",
+        "default": "deep navy blue"
+      },
+      {
+        "name": "side heroine hair color",
+        "default": "dark reddish-purple"
+      },
+      {
+        "name": "poster quote",
+        "default": "負けても、きっと、青春は、終わらない。"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787299941142_2p6svq_HQHKuJcX0AA-4Jv.jpg",
+        "alt": "Anime Classroom Losing Heroines Key Visual",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "新清士@AIコンテンツ開発者",
+      "url": "https://x.com/kiyoshi_shin"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/kiyoshi_shin/status/2090292842992488516#reversed-0"
+    },
+    "publishedAt": "2026-08-20T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32068",
+    "contentHash": "5847ecc21500916de092adfec60cb4487eceaa04"
+  },
+  {
     "id": "gpt-image-2:32157",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6819,74 +6869,5 @@
     "publishedAt": "2026-08-18T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31984",
     "contentHash": "363dfc179bd0dc060520004594b79059a9bffe19"
-  },
-  {
-    "id": "gpt-image-2:31983",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31983",
-    "title": "Deep Blue Desire Fashion Poster",
-    "category": "Product Marketing",
-    "description": "A square high-fashion editorial poster featuring a rose-haired woman layered with oversized typography on a textured cobalt blue background.",
-    "promptText": "Create a square editorial fashion magazine poster with a deep cobalt blue grunge paper background, subtle scratches, dust, fold marks, and worn texture. The main subject is a glamorous young East Asian woman with {argument name=\"hair color\" default=\"long black wavy hair\"}, fair skin, soft smoky makeup, glossy lips, and a red rose tucked behind her left ear. She wears small gold earrings, a delicate necklace, and a romantic white lace tie-front blouse with puff sleeves and a deep neckline. Place her as a large half-body portrait centered slightly right, looking confidently at the camera with a dreamy, cool expression. Overlay enormous tall condensed white typography across the whole poster spelling {argument name=\"main title\" default=\"DESIRE\"}, with the letters stretched vertically and partially transparent so they pass in front of and behind her face and body like a layered fashion layout. Add exactly 4 smaller text elements: a white rectangular label near the upper left reading {argument name=\"top label\" default=\"DEEP\"}, a slim three-line quote at left reading {argument name=\"side quote\" default=\"A MOMENT / FROZEN, / A DESIRE / ETERNAL\"}, a white rectangular label at mid-right reading {argument name=\"right label\" default=\"BLUE\"}, and a small spaced-out label near the bottom center reading \"DESIRE\". Add exactly 2 white star icons: one near the top above the tall typography and one near the lower right corner. Include exactly 1 secondary cutout figure of the same woman at the lower left, seated casually in the same outfit with blue jeans, long ribbon ties trailing, red rose in her hair, looking downward; scale it much smaller than the main portrait. Use high-fashion photorealism blended with graphic design, crisp studio lighting, cool blue color grading, layered transparent text, clean magazine composition, and no extra logos or watermarks.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "long black wavy hair"
-      },
-      {
-        "name": "main title",
-        "default": "DESIRE"
-      },
-      {
-        "name": "top label",
-        "default": "DEEP"
-      },
-      {
-        "name": "side quote",
-        "default": "A MOMENT / FROZEN, / A DESIRE / ETERNAL"
-      },
-      {
-        "name": "right label",
-        "default": "BLUE"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787127690755_8hcjz9_HQA1-jWbsAEbb-1.jpg",
-        "alt": "Deep Blue Desire Fashion Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787127691145_r6fu67_HQA1-ilaQAAKBWg.jpg",
-        "alt": "Deep Blue Desire Fashion Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787127690713_58e9i7_HQA1-i0bIAAz3D0.jpg",
-        "alt": "Deep Blue Desire Fashion Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787127691729_5zd6f4_HQA1-ivbAAAkoFG.jpg",
-        "alt": "Deep Blue Desire Fashion Poster",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "serein",
-      "url": "https://x.com/you1873118"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/you1873118/status/2089729588687782338#reversed-0"
-    },
-    "publishedAt": "2026-08-18T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31983",
-    "contentHash": "152bfe3105092be0f63a96abecbca22e362a6df5"
   }
 ]

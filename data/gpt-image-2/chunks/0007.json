@@ -1,5 +1,47 @@
 [
   {
+    "id": "gpt-image-2:32327",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32327",
+    "title": "Ultra-realistic Waterfront Fashion Portrait",
+    "category": "Product Marketing",
+    "description": "A precise prompt for generating an 8K full-body fashion portrait at golden hour, designed to maintain subject identity while specifying clothing and environment details.",
+    "promptText": "Ultra-realistic 8K full-body portrait of the same person, preserving exact face, hairstyle, skin tone and body proportions. Walking on an elegant waterfront promenade at golden hour, three-quarter rear angle, head naturally turned back toward camera. {argument name=\"clothing\" default=\"Olive-green overshirt, white T-shirt, black trousers, white sneakers, sunglasses\"}. One hand in pocket, relaxed walking pose. {argument name=\"background\" default=\"Vintage lamps, black railing, calm water, golden sunset reflection and distant city skyline\"}. Cinematic 50mm/85mm look, natural lighting, realistic textures, shallow depth of field, premium fashion photography, 4:5. No face distortion, extra fingers, warped body, cropped feet or AI artifacts.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "clothing",
+        "default": "Olive-green overshirt, white T-shirt, black trousers, white sneakers, sunglasses"
+      },
+      {
+        "name": "background",
+        "default": "Vintage lamps, black railing, calm water, golden sunset reflection and distant city skyline"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472348534_dk7urn_HQXsdPqaMAAlRX3.jpg",
+        "alt": "Ultra-realistic Waterfront Fashion Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Mr. Tariq",
+      "url": "https://x.com/AiWithTariq"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AiWithTariq/status/2091337610941866236"
+    },
+    "publishedAt": "2026-08-23T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32327",
+    "contentHash": "4f91aa563aaa357e5be6e92554c10c70e7b789ca"
+  },
+  {
     "id": "gpt-image-2:32345",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6947,55 +6989,5 @@
     "publishedAt": "2026-08-20T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32070",
     "contentHash": "92e76d0c315b8518a9661687f3a6a5a718ded53c"
-  },
-  {
-    "id": "gpt-image-2:32068",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32068",
-    "title": "Anime Classroom Losing Heroines Key Visual",
-    "category": "YouTube Thumbnail",
-    "description": "A structured prompt for generating a cinematic anime school-romance key visual with three students, Japanese title graphics, posters, and handwritten character annotations.",
-    "promptText": "Goal: Create a cinematic anime key visual for a high-school romantic comedy titled {argument name=\"title text\" default=\"負けヒロインが多すぎる!\"}, set in a classroom with gentle daylight and a slightly melancholic but humorous mood.\n\nCanvas: Wide 16:9 composition, 1200×675 style framing, like a polished TV anime promotional still. Use soft realistic lighting, detailed painted backgrounds, clean character line art, subtle depth of field, and no grain or image noise.\n\nLayout: Three teenage students sit at desks in the foreground and midground. Count exactly 3 students: 1) left foreground main heroine, 2) center boy, 3) right background girl. The camera is at desk height, angled slightly upward, with large classroom windows behind them showing a bright blue sky, distant school buildings, balcony railings, and green hills. A concrete pillar and wall occupy the right side.\n\nSubject details: The left foreground girl is the dominant subject: a cheerful teenage girl with {argument name=\"main heroine hair color\" default=\"deep navy blue\"} shoulder-length messy hair, blue eyes, flushed cheeks, and a teasing smile. She wears a white short-sleeve school shirt with a blue bow and sits lazily with her cheek resting on one hand, leaning toward the viewer. In front of her are exactly 3 desk items: a pink lunch box, a pink-and-white cloth, and a small yogurt drink carton with a straw labeled in Japanese. The center boy is a nervous teenage boy with short dark brown hair, wide uncertain eyes, a sweat drop, a white school shirt, and a green tie; he looks sideways toward the blue-haired girl as if thinking things are starting again. The right background girl is a withdrawn teenage girl with {argument name=\"side heroine hair color\" default=\"dark reddish-purple\"} short bobbed hair and hairpins, wearing a white school shirt; she sits apart near the wall, half-hidden behind a phone or small book, looking annoyed and pretending not to care. On the right foreground desk place a dark navy school bag.\n\nVisible text and graphic elements: Include exactly 1 main title cluster in the upper left with the large Japanese title {argument name=\"title text\" default=\"負けヒロインが多すぎる!\"}, small romanization “MAKEINE,” and small English subtitle “Too Many Losing Heroines!” beneath it. Include exactly 2 wall posters on the right: one larger poster on the pillar reading {argument name=\"poster quote\" default=\"負けても、きっと、青春は、終わらない。\"} with the small English subtitle “Too Many Losing Heroines!”, and one smaller tilted poster in the upper right reading Japanese handwriting that means “Even so, this feeling is surely not losing.” Include exactly 3 handwritten white annotation captions with curved arrows or dotted trails: near the left girl, “やっぱ私は負けヒロインなんだよね〜”; near the boy, “また始まった…”; near the right girl, “別に気にしてない”.\n\nVisual style: Modern Japanese anime film still, delicate shadows, cool blue classroom atmosphere, warm skin tones, expressive faces, natural hair highlights, detailed desks and windows, crisp but painterly background. The mood should feel like a promotional scene from a school comedy-drama about “losing heroines.”\n\nConstraints: Keep the composition clean and cinematic, preserve exactly the counted characters, posters, desk items, and annotation captions, avoid extra characters, avoid extra random text, avoid watermark or logo beyond the specified title graphics.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "title text",
-        "default": "負けヒロインが多すぎる!"
-      },
-      {
-        "name": "main heroine hair color",
-        "default": "deep navy blue"
-      },
-      {
-        "name": "side heroine hair color",
-        "default": "dark reddish-purple"
-      },
-      {
-        "name": "poster quote",
-        "default": "負けても、きっと、青春は、終わらない。"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787299941142_2p6svq_HQHKuJcX0AA-4Jv.jpg",
-        "alt": "Anime Classroom Losing Heroines Key Visual",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "新清士@AIコンテンツ開発者",
-      "url": "https://x.com/kiyoshi_shin"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/kiyoshi_shin/status/2090292842992488516#reversed-0"
-    },
-    "publishedAt": "2026-08-20T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32068",
-    "contentHash": "5847ecc21500916de092adfec60cb4487eceaa04"
   }
 ]

@@ -1,5 +1,47 @@
 [
   {
+    "id": "gpt-image-2:28057",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28057",
+    "title": "Kaiju Roller Coaster Poster",
+    "category": "Product Marketing",
+    "description": "Generates a cinematic Japanese theme-park brochure poster for a monster battle roller coaster with six feature callouts and ride statistics.",
+    "promptText": "Goal: Create a dramatic Japanese theme-park advertisement poster for a monster battle roller coaster called {argument name=\"ride name\" default=\"G-スプラッシュ\"}, with the subtitle 「〜大地を揺るがす、3大怪獣の咆哮〜」 and the small top tagline 「絶叫！怪獣激突コースター」.\n\nCanvas: Wide 16:9 cinematic poster, dark high-contrast fantasy disaster lighting, stormy purple-black sky with lightning, fiery lava below, orange and cyan glow effects, dense action composition.\n\nMain scene: A huge roller coaster twists through a volcanic kaiju island. Show exactly 2 dominant giant monsters in the center: 1) a rocky Godzilla-like lava monster on the left with glowing orange cracks, burning eyes, horned/armored head, open roaring mouth, and molten lava light inside its body; 2) a black biomechanical sea-serpent/dragon monster on the right with bright cyan glowing circuit-like stripes, a huge open mouth with white fangs, glowing blue eyes, and curled horn-like tentacles. The roller coaster track loops between and around both monsters, with multiple trains full of tiny screaming riders. Add jagged ruins, steel supports, a glowing blue energy core doorway in the central fortress, lava rivers, smoke, sparks, and lightning.\n\nLayout: Use an information-dense theme-park ride brochure layout. Put the large brush-stroke Japanese title in the upper left, off-white letters with red shadow and black splatter strokes. Add exactly 6 numbered feature callout panels around the edges, each with an orange border, a circular gold number badge, a Japanese heading, 1–2 short Japanese description lines, and a small inset image. Count and label the panels as follows: 1 「怪獣激突ゾーン」 showing the coaster rushing between the two monsters; 2 「頭部トンネル」 showing the train diving into the lava monster’s open mouth; 3 「背中ライド」 showing the train climbing along the fiery monster’s back; 4 「エネルギーコア突入」 showing a train entering a bright blue circular energy tunnel; 5 「尻尾スラローム」 showing the train slaloming around a large swinging monster tail; 6 「最終決戦ダイブ」 showing the final plunge between battling monsters.\n\nBottom information bar: Centered along the bottom, create a red-brown metallic plaque with the headline 「3大怪獣が支配する、最恐ライド！」. Beneath it, include exactly 4 stat boxes: 「ライドタイプ」 with 「スリルコースター」, 「最高速度」 with 「約120km/h」, 「コース全長」 with 「約1,500m」, and 「乗車時間」 with 「約2分30秒」. In the lower right corner, place a fiery park logo reading {argument name=\"park logo text\" default=\"怪獣パニックアイランド\"} with small English text 「KAIJU PANIC ISLAND」 underneath.\n\nVisual style: Hyper-detailed AI concept art, cinematic key art, Japanese amusement park poster, realistic monsters, dynamic perspective, dramatic rim lighting, motion blur on coaster trains, sparks and embers, sharp readable typography, gold-orange panel borders, dark fantasy disaster palette with lava orange and electric cyan accents.\n\nConstraints: Keep exactly 6 numbered callout panels and exactly 4 bottom stat boxes. Make all Japanese text large enough to read. Do not add extra logos, watermarks, QR codes, or unrelated characters.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "ride name",
+        "default": "G-スプラッシュ"
+      },
+      {
+        "name": "park logo text",
+        "default": "怪獣パニックアイランド"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588815163_vytcli_HMvuTD9bwAAOhpy.jpg",
+        "alt": "Kaiju Roller Coaster Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "アマドウマ",
+      "url": "https://x.com/amadouma_s"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/amadouma_s/status/2075014067388117260#reversed-0"
+    },
+    "publishedAt": "2026-07-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28057",
+    "contentHash": "196d560e460ef7040def04e95c5221217ceeef01"
+  },
+  {
     "id": "gpt-image-2:28009",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -7163,56 +7205,5 @@
     "publishedAt": "2026-07-03T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27535",
     "contentHash": "62aaae318fe97ce17cdb929a456394cefeacdea0"
-  },
-  {
-    "id": "gpt-image-2:27733",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27733",
-    "title": "Cosmic Clock Tower Fantasy",
-    "category": "Comic / Storyboard",
-    "description": "A cinematic fantasy prompt for generating a lone traveler before a monumental glowing clock tower under a star-filled cosmic sky.",
-    "promptText": "Create a vertical cinematic fantasy scene of {argument name=\"traveler description\" default=\"a lone hooded traveler in dark clothes\"} standing centered on a glossy rain-wet stone causeway, facing an enormous ornate astronomical clock tower that rises out of glowing clouds. The tower is cathedral-like and symmetrical, made of dark aged metal and carved stone with intricate filigree, tall side columns, small spires, a domed roof, and a grand arched doorway glowing with warm golden light. The clock face dominates the upper center, huge and radiant amber, with Roman numerals, delicate engraved celestial patterns, black ornate clock hands, and the time near {argument name=\"clock time\" default=\"11:55\"}. The causeway leads in strong one-point perspective toward the doorway, with puddles and mirror-like reflections of the golden clock and sunset light. Surround the structure with dramatic orange-lit cumulus clouds at both sides and a deep blue-black starry sky above, including a bright Milky Way band, many sharp stars, and exactly 3 visible crescent moons/planets: one larger crescent on the right, one smaller crescent below it, and one tiny crescent near the upper right. Use {argument name=\"lighting mood\" default=\"warm golden glow against cool cosmic night\"}, high contrast, epic scale, ultra-detailed fantasy realism, volumetric light, atmospheric mist, cinematic composition, centered symmetry, no text, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "traveler description",
-        "default": "a lone hooded traveler in dark clothes"
-      },
-      {
-        "name": "clock time",
-        "default": "11:55"
-      },
-      {
-        "name": "lighting mood",
-        "default": "warm golden glow against cool cosmic night"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241326937_i1wy27_HMa0UAoXoAAWlCZ.jpg",
-        "alt": "Cosmic Clock Tower Fantasy",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241326905_j8ldfj_HMa0UADWoAA2ksb.jpg",
-        "alt": "Cosmic Clock Tower Fantasy",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Viki",
-      "url": "https://x.com/churvikv"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/churvikv/status/2073543093714919544#reversed-0"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27733",
-    "contentHash": "8b495e52f80fad8fd0507e0ab8a5d6ac78772dd2"
   }
 ]
