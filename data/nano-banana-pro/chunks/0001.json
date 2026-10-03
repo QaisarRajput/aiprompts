@@ -1,5 +1,159 @@
 [
   {
+    "id": "nano-banana-pro:33924",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "33924",
+    "title": "Minimalist B2B Corporate Advertisement",
+    "category": "Product Marketing",
+    "description": "A professional prompt for generating clean and trustworthy corporate visuals suitable for newspaper ads or landing pages, featuring urban skylines and elegant typography.",
+    "promptText": "[Ad Message]\n- Main Copy: {argument name=\"headline\" default=\"Our Workplace\"}\n- Sub-copy: {argument name=\"subtext\" default=\"Creating the future together with BtoB partners.\"}\n- Company Name/Logo: {argument name=\"company\" default=\"Future Lab Inc.\"}\n\n[Image Quality/Direction/Composition]\n- Style: Minimalist and intelligent Japanese corporate visual, like those in major newspapers or on the back covers of economic magazines.\n- Visual Elements: Futuristic city skyline (glass and steel architecture), clear early morning light, or abstract clean light lines, representing trust and innovation simultaneously.\n- Layout & Typography (for GPT-image / Nano Banana Pro): In the wide negative space (top or bottom), the headline {argument name=\"headline\" default=\"Our Workplace\"}, the sub-copy {argument name=\"subtext\" default=\"Creating the future together with BtoB partners.\"}, and the company name {argument name=\"company\" default=\"Future Lab Inc.\"} are orderly arranged in a refined Gothic or beautiful font.\n- Color/Lighting: A refreshing and reliable color palette based on blue and white, with beautiful lighting contrasts and no excessive decoration.\n\n[Strict Layout Constraints (Required)]\n- Output the finished flat 2D design itself, filling the entire canvas. Scene elements inside the design (walls, rooms, shadows) described above are allowed. Absolutely NO photo-of-a-poster mockups: no picture frames, no poster-on-wall or poster-on-desk shots, no perspective warp or drop shadow around the artwork's edges.\n- Aspect Ratio: --ar 16:9",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline",
+        "default": "Our Workplace"
+      },
+      {
+        "name": "subtext",
+        "default": "Creating the future together with BtoB partners."
+      },
+      {
+        "name": "company",
+        "default": "Future Lab Inc."
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788936828864_61osmz_HRs5Dv9WEAANFUl.jpg",
+        "alt": "Minimalist B2B Corporate Advertisement",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "AI Guide-Note - 実務で使えるAI活用メディア",
+      "url": "https://x.com/AIGuideNote"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AIGuideNote/status/2097332792749166664"
+    },
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33924",
+    "contentHash": "e2b149ccd0b785e63f7d777950b9c65ff9d33d8d"
+  },
+  {
+    "id": "nano-banana-pro:34124",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "34124",
+    "title": "Engraved Digital Painting Style",
+    "category": "Profile / Avatar",
+    "description": "A complex prompt that blends semi-realistic digital painting with traditional engraving techniques, creating a unique texture with warm cinematic lighting.",
+    "promptText": "Soft {argument name=\"painting style\" default=\"semi-realistic digital painting\"} blended with highly detailed engraving illustration style, combining painterly softness with ultra-fine crosshatching and dotting techniques. Cinematic warm lighting with a strong golden-orange glow illuminating one side of the subject, contrasted by soft cool shadows, enhanced by dramatic chiaroscuro. Skin and textures are rendered through a fusion of smooth luminous digital shading and dense layered engraving lines, creating a balance between soft gradients and intricate linework. Subtle glossy highlights and reflective surfaces are preserved, especially in the eyes, giving a luminous and lifelike appearance. Delicate painterly blending remains visible through soft brush strokes, seamlessly integrated with precise contour lines and micro-detail etching, forming rich textures built from thousands of fine strokes. Edges transition naturally—sharp and clean in focal areas while dissolving into loose sketch-like strokes in unfinished regions. The top of the head and lower body fade into an incomplete sketch effect with soft, disappearing lines and partially dissolved forms blending into the background. Background uses a {argument name=\"background material\" default=\"textured brown cardboard\"} surface with visible matte grain and slightly rough tactile quality, subtly merged with a dark, studio-like atmospheric depth. The composition is minimalistic and elegant, with a calm yet dramatic mood. Color grading leans toward warm, natural tones with a slightly muted and faded palette, maintaining harmony between digital painting warmth and classic engraving aesthetics. High contrast lighting with deep blacks and controlled highlights enhances depth, while maintaining soft transitions in key areas. Ultra-high detail, macro texture emphasis, cinematic shadow depth, museum-quality finish, handcrafted engraving feel, 8K resolution. Ar 9:16!",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "painting style",
+        "default": "semi-realistic digital painting"
+      },
+      {
+        "name": "background material",
+        "default": "textured brown cardboard"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789022272371_zflqyh_HR1GrB1aQAETXtM.jpg",
+        "alt": "Engraved Digital Painting Style",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1789022272360_vnwfw6_HR1Gr99WUAMR5kZ.jpg",
+        "alt": "Engraved Digital Painting Style",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1789022272294_vn5rz4_HR1GszOaUAA7t04.jpg",
+        "alt": "Engraved Digital Painting Style",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Zayan",
+      "url": "https://x.com/HustleXR"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/HustleXR/status/2097910747980255291"
+    },
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=34124",
+    "contentHash": "f62306f7d28ea5fa15e176d69d45193b87005b31"
+  },
+  {
+    "id": "nano-banana-pro:33919",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "33919",
+    "title": "Streetwear Editorial Portrait Identity Retention",
+    "category": "Profile / Avatar",
+    "description": "A high-detail prompt designed to generate a luxury streetwear campaign portrait while maintaining the user's specific facial features and identity.",
+    "promptText": "Create a cinematic, ultra-realistic streetwear editorial portrait of me, preserving my exact facial identity, features, skin tone, hairstyle, and natural proportions. Style me in {argument name=\"outfit\" default=\"premium modern streetwear with an oversized layered outfit, subtle accessories\"}, and a confident relaxed pose in an {argument name=\"urban setting\" default=\"urban setting with concrete architecture, textured walls, and understated city details\"}. Use {argument name=\"lighting\" default=\"dramatic natural lighting, soft shadows, shallow depth of field, realistic skin texture, sophisticated neutral tones, subtle film grain\"}, high-fashion magazine composition, professional photography, and cinematic color grading. Make the image feel authentic, effortlessly cool, minimal, aesthetic, and editorial, like a luxury streetwear campaign photographed on a full-frame camera with an 85mm lens. I've attached my image here.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "outfit",
+        "default": "premium modern streetwear with an oversized layered outfit, subtle accessories"
+      },
+      {
+        "name": "urban setting",
+        "default": "urban setting with concrete architecture, textured walls, and understated city details"
+      },
+      {
+        "name": "lighting",
+        "default": "dramatic natural lighting, soft shadows, shallow depth of field, realistic skin texture, sophisticated neutral tones, subtle film grain"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788936825467_7uxuyh_HRwL9VRa8AAFdZ1.jpg",
+        "alt": "Streetwear Editorial Portrait Identity Retention",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1788936825443_mr1w5u_HRwL90LbIAEs-6k.jpg",
+        "alt": "Streetwear Editorial Portrait Identity Retention",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1788936825448_ke9cz6_HRwL-Tna4AEThPF.jpg",
+        "alt": "Streetwear Editorial Portrait Identity Retention",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Shushant Lakhyani",
+      "url": "https://x.com/shushant_l"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/shushant_l/status/2097564694974541836"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33919",
+    "contentHash": "58742b7339148dd716b4c09de923b0a0b27fd034"
+  },
+  {
     "id": "nano-banana-pro:33915",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
@@ -6556,154 +6710,5 @@
     "publishedAt": "2026-08-28T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32740",
     "contentHash": "fb44ed76d4e1e1cff05879cd14c7bdd6204ecaa3"
-  },
-  {
-    "id": "nano-banana-pro:32743",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "32743",
-    "title": "Mushroom Still Life Composition",
-    "category": "Social Media Post",
-    "description": "A macro photography prompt for a moody, atmospheric still life featuring delicate mushrooms and wildflowers.",
-    "promptText": "A still life composition features {argument name=\"subject\" default=\"a cluster of blue-capped mushrooms\"} with delicate white gills, interspersed with {argument name=\"flowers\" default=\"dried wildflowers and small purple blossoms\"}. The mushrooms are the central focus, with their caps fanned out and stems reaching upwards. The background is a dark, textured gradient, creating a moody and atmospheric effect. A broken piece of a mushroom cap lies on the surface in the lower left corner.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "a cluster of blue-capped mushrooms"
-      },
-      {
-        "name": "flowers",
-        "default": "dried wildflowers and small purple blossoms"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787985297694_8dkhio_HQuHliSWkAADx1o.jpg",
-        "alt": "Mushroom Still Life Composition",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Heather Green",
-      "url": "https://x.com/heathergreen"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/heathergreen/status/2093126666419662998"
-    },
-    "publishedAt": "2026-08-28T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32743",
-    "contentHash": "2233b89d5fc46cf2540b89d579190d9b7b36b06a"
-  },
-  {
-    "id": "nano-banana-pro:32847",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "32847",
-    "title": "Regional Cultural Atlas Poster",
-    "category": "Infographic / Edu Visual",
-    "description": "An advanced prompt for creating a structured 2x2 grid poster that compares regional cultural aesthetics through food and artifacts.",
-    "promptText": "2x2 grid, 16:9, do this for 4 under rated breakfasts of Southern hemisphere: INPUT = [{argument name=\"category\" default=\"TOPIC_CATEGORY\"} / {argument name=\"region\" default=\"REGION_SET\"} / {argument name=\"criteria\" default=\"SELECTION_CRITERIA\"} / {argument name=\"mood\" default=\"MOOD\"}]\nMODE = no_hardcoding / inference_only\n\nRun REGIONAL_CULTURAL_ATLAS_EXTRACTION:\n\nCATEGORY_DNA := infer what type of thing is being compared, how it is used, why it matters, and what makes it visually recognizable\n\nREGION_DNA[each] := infer local environment, visual culture, palette, typography attitude, textures, symbols, landscapes, tools, rituals, and social context\n\nITEM_SELECTION[each] := infer one overlooked or representative item that fits TOPIC_CATEGORY + REGION + SELECTION_CRITERIA\n\nHERO_VISUAL[each] := infer the best visual treatment:\nplated food, product close-up, ritual scene, tool layout, garment portrait, object still life, landscape-backed artifact, map-backed diagram, or symbolic vignette\n\nCOPY_SYSTEM[each] := generate:\n- large item title\n- short emotional tagline\n- origin/location label\n- 2–4 tiny descriptors\n- stamp or badge phrase\n- small contextual note\n\nGRAPHIC_SYSTEM := infer torn paper, printed grid, muted color blocks, topographic lines, stamps, borders, halftone, atlas marks, and editorial spacing\n\nRender:\nA premium regional comparison poster where each panel feels locally specific but belongs to one unified cultural theme.\n\nForbidden:\nhard-coded Southern Hemisphere, fixed breakfasts, fixed foods, fixed countries, fixed beige/red/green palette, fake local facts, random travel-poster clichés.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "category",
-        "default": "TOPIC_CATEGORY"
-      },
-      {
-        "name": "region",
-        "default": "REGION_SET"
-      },
-      {
-        "name": "criteria",
-        "default": "SELECTION_CRITERIA"
-      },
-      {
-        "name": "mood",
-        "default": "MOOD"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787985296015_yhzvl7_HQsNGCaXMAA-Hsp.jpg",
-        "alt": "Regional Cultural Atlas Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787985295956_xuicyq_HQsNGCOWgAAy1fH.jpg",
-        "alt": "Regional Cultural Atlas Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787985296026_osei01_HQsNGCRXgAA0TSo.jpg",
-        "alt": "Regional Cultural Atlas Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787985296715_n3x13b_HQsNGCZXUAAJAcb.jpg",
-        "alt": "Regional Cultural Atlas Poster",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Gadgetify",
-      "url": "https://x.com/Gdgtify"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Gdgtify/status/2093324721693868044"
-    },
-    "publishedAt": "2026-08-28T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32847",
-    "contentHash": "c87dbad1a94bcacbf4175b879fa253f6fccee554"
-  },
-  {
-    "id": "nano-banana-pro:32844",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "32844",
-    "title": "Premium Dark Fantasy Anime Cinematic",
-    "category": "YouTube Thumbnail",
-    "description": "A comprehensive prompt for creating high-budget anime cinematic artwork, focusing on a charismatic warrior with an intense energy aura and dramatic environmental depth.",
-    "promptText": "Create a breathtaking, ultra-premium anime cinematic artwork set in a dark fantasy world, designed to look like a frame from the most expensive anime ever produced. A {argument name=\"character\" default=\"calm, impossibly charismatic male warrior stands alone on the edge of a massive ruined temple overlooking a futuristic ancient city at night\"}. He has sharp expressive eyes, detailed black hair moving naturally in the wind, an elegant dark combat coat with intricate silver detailing, subtle battle damage, and an effortless, intimidating posture. He is not attacking or shouting. He simply stands completely still, looking slightly downward with an emotionless, confident expression. His presence alone dominates the entire scene. Around him is an {argument name=\"aura effect\" default=\"enormous aura field—deep atmospheric energy flowing naturally through the environment like invisible pressure made visible\"}. Thin luminous particles, drifting embers, fragments of dust and rain curve around his body. The ground beneath his feet shows subtle cracks from the sheer pressure of his presence. His coat and hair move dramatically in the energy-filled wind. Behind him, enormous storm clouds spiral across the sky, illuminated by distant lightning. A gigantic moon breaks through the clouds, creating a powerful silhouette around his figure. Far below, thousands of tiny city lights create immense depth and scale. The aura should feel beautiful, intimidating and otherworldly, not like a generic glowing outline. Use layered translucent energy, atmospheric distortion, subtle light refraction, floating particles and faint wave-like pressure around the character. Keep the character's face and body sharply defined while the environment reacts to his presence. Composition: low-angle hero shot, character positioned slightly off-center, massive negative space above him, dramatic depth, foreground particles, distant city below, enormous sky, cinematic perspective. Visual style: elite modern anime production, extraordinarily detailed linework, painterly backgrounds, realistic lighting, physically believable shadows, cinematic color grading, realistic atmospheric perspective, highly detailed eyes, hair strands and fabric, subtle skin texture, volumetric moonlight, high contrast, razor-sharp focal subject, breathtaking environmental detail. Blend stylized anime character design with realistic cinematic rendering, so the image feels like a premium anime still rather than a generic illustration. The character should radiate the ultimate “aura farming” energy: silent confidence, overwhelming presence, effortless dominance, mysterious power, elegance and danger. No text, no logos, no watermark, no goofy expression, no exaggerated screaming, no giant muscles, no generic superhero costume, no messy composition, no excessive neon, no blurry face, no distorted anatomy, no extra fingers, no deformed hands, no cheap CGI appearance. Aspect ratio: 16:9. Ultra-detailed, cine",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character",
-        "default": "calm, impossibly charismatic male warrior stands alone on the edge of a massive ruined temple overlooking a futuristic ancient city at night"
-      },
-      {
-        "name": "aura effect",
-        "default": "enormous aura field—deep atmospheric energy flowing naturally through the environment like invisible pressure made visible"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787985294128_4oxlwo_HQy_C7RbQAATwZP.jpg",
-        "alt": "Premium Dark Fantasy Anime Cinematic",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "WeWant Mars",
-      "url": "https://x.com/Madhuribhai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Madhuribhai/status/2093257994733863137"
-    },
-    "publishedAt": "2026-08-28T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32844",
-    "contentHash": "3008ab5b5001f61c2f34cb305420b5a9341f5dd2"
   }
 ]

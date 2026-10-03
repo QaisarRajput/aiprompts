@@ -1,5 +1,154 @@
 [
   {
+    "id": "nano-banana-pro:32743",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "32743",
+    "title": "Mushroom Still Life Composition",
+    "category": "Social Media Post",
+    "description": "A macro photography prompt for a moody, atmospheric still life featuring delicate mushrooms and wildflowers.",
+    "promptText": "A still life composition features {argument name=\"subject\" default=\"a cluster of blue-capped mushrooms\"} with delicate white gills, interspersed with {argument name=\"flowers\" default=\"dried wildflowers and small purple blossoms\"}. The mushrooms are the central focus, with their caps fanned out and stems reaching upwards. The background is a dark, textured gradient, creating a moody and atmospheric effect. A broken piece of a mushroom cap lies on the surface in the lower left corner.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "a cluster of blue-capped mushrooms"
+      },
+      {
+        "name": "flowers",
+        "default": "dried wildflowers and small purple blossoms"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787985297694_8dkhio_HQuHliSWkAADx1o.jpg",
+        "alt": "Mushroom Still Life Composition",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Heather Green",
+      "url": "https://x.com/heathergreen"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/heathergreen/status/2093126666419662998"
+    },
+    "publishedAt": "2026-08-28T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32743",
+    "contentHash": "2233b89d5fc46cf2540b89d579190d9b7b36b06a"
+  },
+  {
+    "id": "nano-banana-pro:32847",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "32847",
+    "title": "Regional Cultural Atlas Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "An advanced prompt for creating a structured 2x2 grid poster that compares regional cultural aesthetics through food and artifacts.",
+    "promptText": "2x2 grid, 16:9, do this for 4 under rated breakfasts of Southern hemisphere: INPUT = [{argument name=\"category\" default=\"TOPIC_CATEGORY\"} / {argument name=\"region\" default=\"REGION_SET\"} / {argument name=\"criteria\" default=\"SELECTION_CRITERIA\"} / {argument name=\"mood\" default=\"MOOD\"}]\nMODE = no_hardcoding / inference_only\n\nRun REGIONAL_CULTURAL_ATLAS_EXTRACTION:\n\nCATEGORY_DNA := infer what type of thing is being compared, how it is used, why it matters, and what makes it visually recognizable\n\nREGION_DNA[each] := infer local environment, visual culture, palette, typography attitude, textures, symbols, landscapes, tools, rituals, and social context\n\nITEM_SELECTION[each] := infer one overlooked or representative item that fits TOPIC_CATEGORY + REGION + SELECTION_CRITERIA\n\nHERO_VISUAL[each] := infer the best visual treatment:\nplated food, product close-up, ritual scene, tool layout, garment portrait, object still life, landscape-backed artifact, map-backed diagram, or symbolic vignette\n\nCOPY_SYSTEM[each] := generate:\n- large item title\n- short emotional tagline\n- origin/location label\n- 2–4 tiny descriptors\n- stamp or badge phrase\n- small contextual note\n\nGRAPHIC_SYSTEM := infer torn paper, printed grid, muted color blocks, topographic lines, stamps, borders, halftone, atlas marks, and editorial spacing\n\nRender:\nA premium regional comparison poster where each panel feels locally specific but belongs to one unified cultural theme.\n\nForbidden:\nhard-coded Southern Hemisphere, fixed breakfasts, fixed foods, fixed countries, fixed beige/red/green palette, fake local facts, random travel-poster clichés.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "category",
+        "default": "TOPIC_CATEGORY"
+      },
+      {
+        "name": "region",
+        "default": "REGION_SET"
+      },
+      {
+        "name": "criteria",
+        "default": "SELECTION_CRITERIA"
+      },
+      {
+        "name": "mood",
+        "default": "MOOD"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787985296015_yhzvl7_HQsNGCaXMAA-Hsp.jpg",
+        "alt": "Regional Cultural Atlas Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787985295956_xuicyq_HQsNGCOWgAAy1fH.jpg",
+        "alt": "Regional Cultural Atlas Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787985296026_osei01_HQsNGCRXgAA0TSo.jpg",
+        "alt": "Regional Cultural Atlas Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787985296715_n3x13b_HQsNGCZXUAAJAcb.jpg",
+        "alt": "Regional Cultural Atlas Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Gadgetify",
+      "url": "https://x.com/Gdgtify"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Gdgtify/status/2093324721693868044"
+    },
+    "publishedAt": "2026-08-28T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32847",
+    "contentHash": "c87dbad1a94bcacbf4175b879fa253f6fccee554"
+  },
+  {
+    "id": "nano-banana-pro:32844",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "32844",
+    "title": "Premium Dark Fantasy Anime Cinematic",
+    "category": "YouTube Thumbnail",
+    "description": "A comprehensive prompt for creating high-budget anime cinematic artwork, focusing on a charismatic warrior with an intense energy aura and dramatic environmental depth.",
+    "promptText": "Create a breathtaking, ultra-premium anime cinematic artwork set in a dark fantasy world, designed to look like a frame from the most expensive anime ever produced. A {argument name=\"character\" default=\"calm, impossibly charismatic male warrior stands alone on the edge of a massive ruined temple overlooking a futuristic ancient city at night\"}. He has sharp expressive eyes, detailed black hair moving naturally in the wind, an elegant dark combat coat with intricate silver detailing, subtle battle damage, and an effortless, intimidating posture. He is not attacking or shouting. He simply stands completely still, looking slightly downward with an emotionless, confident expression. His presence alone dominates the entire scene. Around him is an {argument name=\"aura effect\" default=\"enormous aura field—deep atmospheric energy flowing naturally through the environment like invisible pressure made visible\"}. Thin luminous particles, drifting embers, fragments of dust and rain curve around his body. The ground beneath his feet shows subtle cracks from the sheer pressure of his presence. His coat and hair move dramatically in the energy-filled wind. Behind him, enormous storm clouds spiral across the sky, illuminated by distant lightning. A gigantic moon breaks through the clouds, creating a powerful silhouette around his figure. Far below, thousands of tiny city lights create immense depth and scale. The aura should feel beautiful, intimidating and otherworldly, not like a generic glowing outline. Use layered translucent energy, atmospheric distortion, subtle light refraction, floating particles and faint wave-like pressure around the character. Keep the character's face and body sharply defined while the environment reacts to his presence. Composition: low-angle hero shot, character positioned slightly off-center, massive negative space above him, dramatic depth, foreground particles, distant city below, enormous sky, cinematic perspective. Visual style: elite modern anime production, extraordinarily detailed linework, painterly backgrounds, realistic lighting, physically believable shadows, cinematic color grading, realistic atmospheric perspective, highly detailed eyes, hair strands and fabric, subtle skin texture, volumetric moonlight, high contrast, razor-sharp focal subject, breathtaking environmental detail. Blend stylized anime character design with realistic cinematic rendering, so the image feels like a premium anime still rather than a generic illustration. The character should radiate the ultimate “aura farming” energy: silent confidence, overwhelming presence, effortless dominance, mysterious power, elegance and danger. No text, no logos, no watermark, no goofy expression, no exaggerated screaming, no giant muscles, no generic superhero costume, no messy composition, no excessive neon, no blurry face, no distorted anatomy, no extra fingers, no deformed hands, no cheap CGI appearance. Aspect ratio: 16:9. Ultra-detailed, cine",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character",
+        "default": "calm, impossibly charismatic male warrior stands alone on the edge of a massive ruined temple overlooking a futuristic ancient city at night"
+      },
+      {
+        "name": "aura effect",
+        "default": "enormous aura field—deep atmospheric energy flowing naturally through the environment like invisible pressure made visible"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787985294128_4oxlwo_HQy_C7RbQAATwZP.jpg",
+        "alt": "Premium Dark Fantasy Anime Cinematic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "WeWant Mars",
+      "url": "https://x.com/Madhuribhai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Madhuribhai/status/2093257994733863137"
+    },
+    "publishedAt": "2026-08-28T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32844",
+    "contentHash": "3008ab5b5001f61c2f34cb305420b5a9341f5dd2"
+  },
+  {
     "id": "nano-banana-pro:32841",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
@@ -7120,146 +7269,5 @@
     "publishedAt": "2026-08-18T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=31759",
     "contentHash": "d2e3f99928e5d3becfd7d7d88ee85e40a70e9c1e"
-  },
-  {
-    "id": "nano-banana-pro:31874",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "31874",
-    "title": "Modern Home Interior Lifestyle Portrait",
-    "category": "Profile / Avatar",
-    "description": "A clean and polished lifestyle portrait prompt set in a modern contemporary home with soft daylight and floral fashion.",
-    "promptText": "Create a photorealistic lifestyle portrait of a young woman standing indoors in a {argument name=\"setting\" default=\"bright, modern home\"}. She has medium-brown hair pulled into a neat high ponytail, with a few natural strands around her face. Her complexion is fair with realistic skin texture and subtle natural details. She has light blue-gray eyes, softly defined eyebrows, and a calm, confident expression while looking directly toward the camera. She stands naturally beside a textured off-white interior wall. Her left hand rests casually near her waist while her right hand is raised toward her ponytail, creating a relaxed, everyday pose. Keep her posture natural and anatomically realistic, with balanced proportions and authentic body language. She wears a {argument name=\"outfit\" default=\"pink long-sleeve one-piece casual outfit featuring a delicate repeating floral pattern\"} in muted gray tones. The fabric has subtle texture and natural folds, creating a comfortable contemporary appearance. Add minimal jewelry and no distracting accessories, keeping the styling clean and understated. The background is a warm contemporary home interior with light wooden flooring, large windows, curtains, framed wall artwork, and several green indoor plants in simple ceramic pots. Soft daylight enters through the windows and gently illuminates the room, producing natural highlights on the subject and subtle shadows along the wall and floor. Use a warm, peaceful, airy atmosphere with realistic interior details and natural depth. Photographed on an 85mm portrait lens at approximately f/2.8, eye-level perspective, natural lens compression, sharp focus on the eyes and face, softly blurred background, realistic skin texture, detailed individual hair strands, accurate fabric texture and floral pattern, natural window light, balanced exposure, gentle cinematic color grading, high dynamic range, realistic shadows, professional lifestyle photography, photorealistic rendering, high detail, clean vertical composition, high resolution.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "setting",
-        "default": "bright, modern home"
-      },
-      {
-        "name": "outfit",
-        "default": "pink long-sleeve one-piece casual outfit featuring a delicate repeating floral pattern"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787120728195_hkd104_HP9Fgxdb0AADeR6.jpg",
-        "alt": "Modern Home Interior Lifestyle Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787120728204_ld0jqv_HP9FitZbQAAjnmE.jpg",
-        "alt": "Modern Home Interior Lifestyle Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787120727914_4w9dc7_HP9FjmIaIAAgIsM.jpg",
-        "alt": "Modern Home Interior Lifestyle Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787120728976_oheowd_HP9FkQSaoAA9hew.jpg",
-        "alt": "Modern Home Interior Lifestyle Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "J⭕DIE",
-      "url": "https://x.com/Jodie_Noraa"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Jodie_Noraa/status/2089465253658841104"
-    },
-    "publishedAt": "2026-08-17T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=31874",
-    "contentHash": "43713ff4a589e767e9184140b852db207f04cdd0"
-  },
-  {
-    "id": "nano-banana-pro:31878",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "31878",
-    "title": "Man on Luxury Yacht Staircase",
-    "category": "Social Media Post",
-    "description": "A photorealistic lifestyle shot of a confident man on a luxury yacht with a coastal city and suspension bridge background.",
-    "promptText": "A confident adult {argument name=\"subject\" default=\"male\"} stands at the center-right of the frame, facing the camera with shifted weight and level shoulders. He features a neatly trimmed dark beard with natural density variations and short, stylish brown hair. He wears an unbuttoned white linen shirt, light beige trousers, and matching suede loafers. A subtle, closed smile graces his face as his left hand is raised, with the index finger and thumb lightly gripping the frame of his dark sunglasses, his fingers curling naturally. His right hand rests relaxed inside his front right trouser pocket with the thumb visibly exposed. He is positioned in the foreground on a pristine {argument name=\"setting\" default=\"luxury yacht staircase\"}, featuring warm brown teak wood treads detailed with black striped rubber caulking, bordered by perfectly smooth, glossy bright white fiberglass risers, curved stainless steel handrails, and a dark tinted glass window to the right. The midground opens up on the left half to thriving, choppy ocean water, leading into a deep background featuring a dominant {argument name=\"background\" default=\"suspension bridge\"} with tall towers and cables spanning from the top center to the top right, alongside a mid-right cityscape of buildings clustered on rolling coastal hills. The scene is bathed in a cheerful, breezy, and aspirational late afternoon atmosphere, driven by bright, highly directional warm golden sunlight beaming from the back-left. This single natural light source provides hard light with atmospheric diffusion, creating a split-complementary palette dominated by crisp whites, ocean blues, light beiges, and warm teak. Harsh, defined gray shadows are cast forward and to the right, prominently visible on the wooden steps beneath the subject, while softer shadows beautifully wrap across his body. Intense specular highlights blow out the water surface on the left and create a strong rim light along the yacht's left edges and stainless steel handrails. This tack sharp, grain-free digital lifestyle photograph captures a realistic, clean aesthetic shot from an eye-level perspective. Emulating a full-frame camera with a 35mm or 50mm lens at f/8, a 1/500s shutter speed, and ISO 100, the deep depth of field keeps both the subject and the distant bridge in crisp focus. Post-processing enhances the high contrast, lifts the shadows on the subject's front to compensate for the backlighting, and increases the overall golden warmth while preserving the specular water reflections, all seamlessly framed in a 3:4 aspect ratio.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "male"
-      },
-      {
-        "name": "setting",
-        "default": "luxury yacht staircase"
-      },
-      {
-        "name": "background",
-        "default": "suspension bridge"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787120733655_6wzzgy_HQAvZTEXMAAXQF6.jpg",
-        "alt": "Man on Luxury Yacht Staircase",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Aatif J",
-      "url": "https://x.com/aatif_j"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/aatif_j/status/2089722349645967556"
-    },
-    "publishedAt": "2026-08-18T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=31878",
-    "contentHash": "fef7c4aac5910dfcc6324e283e8fe7a79ef0e81c"
-  },
-  {
-    "id": "nano-banana-pro:31881",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "31881",
-    "title": "Pastel Arachnid Surreal Masterpiece",
-    "category": "Social Media Post",
-    "description": "A surreal editorial photograph featuring a person on a massive pink mohair spider structure in a misty field of tulips.",
-    "promptText": "{\n  \"vibe_title_en\": \"Pastel Arachnid Dream\",\n  \"master_prompt\": \"A cinematic, photorealistic surreal masterpiece. THROUGH THE ELEMENT FRAMING: Shot through an extreme, out-of-focus foreground of dew-covered pale pink tulips and tall morning grass, creating intense depth of field. MIDGROUND: The Protagonist, gender and age neutral, wearing a vintage oversized textured houndstooth blazer. ACCIDENTAL MUSE ENERGY: They are caught completely off-guard, laughing genuinely and looking surprised, with a slight motion blur on their hands as they try to keep their balance. SURREAL ELEMENT: They are sitting atop a massive, hyper-realistic, animatronic spider structure covered entirely in luxurious, heavy pink mohair and faux fur, designed to look like a high-budget practical effect. BACKGROUND: An endless field of pale pink tulips shrouded in dense morning mist. LIGHTING: Volumetric sunrise light piercing through the fog, soft golden hour rim light catching the stray strands of thick pink fur and the subject's hair. CAMERA SPECS: Shot on Hasselblad H6D-100c with an 80mm lens at f/2.8. FILM STOCK: Kodak Portra 400. Intricate micro-details: individual dewdrops on foreground petals, fine weave of the tweed, authentic skin pores and natural imperfections on the subject's laughing face, physical weight to the plush creature. Analog film grain, muted greens, pastel pink dominance. NO NEON.\",\n  \"meta\": {\n    \"intent\": \"Photographic Surrealism / Editorial Storytelling\",\n    \"priorities\": \"Tactile textures, depth of field through foreground elements, genuine mid-motion surprise, physical presence of surreal elements\",\n    \"device_profile\": \"Hasselblad H6D-100c, Kodak Portra 400\"\n  },\n  \"frame\": {\n    \"aspect\": \"4:5\",\n    \"composition\": \"Central subject framed by extreme, out-of-focus foreground floral elements to create a layered, voyeuristic depth\",\n    \"layout\": \"Multi-layered depth (Foreground blurred tulips -> Sharp Midground subject & plush prop -> Foggy background field)\",\n    \"camera_angle\": \"Eye-level, slightly obscured by foreground nature\",\n    \"tilt_roll_degrees\": \"0\"\n  },\n  \"subject\": {\n    \"gender\": \"Female\",\n    \"identity\": \"The Protagonist\",\n    \"demographics\": \"Ageless, universal template\",\n    \"face\": \"Caught in a moment of genuine, surprised laughter, natural skin texture, visible pores, unposed\",\n    \"hair\": \"Slightly windblown, catching the warm rim light of the morning sun\",\n    \"body\": \"Dynamic, off-balance, natural reaction to an unexpected shift in weight\",\n    \"expression\": \"Joyful, surprised, completely off-guard, breaking the fourth wall with an accidental glance\",\n    \"pose\": \"Sitting unsteadily on a massive, soft structure, mid-motion blur on the hands\"\n  },\n  \"wardrobe_accessories\": {\n    \"garments\": [\n      {\n        \"item\": \"Oversized blazer\",\n        \"material\": \"Textured houndstooth wool\",\n        \"color\": \"Muted beige and brown\",\n        \"fit\": \"Loose, vintage drape\"\n      },\n      {\n        \"item\": \"Flowing inner blouse\",\n        \"material\": \"Matte silk\",\n        \"color\": \"Ivory\",\n        \"fit\": \"Relaxed\"\n      }\n    ],\n    \"accessories\": [\n      {\n        \"item\": \"Delicate chain necklace\",\n        \"color\": \"Rose gold\",\n        \"material\": \"Metal\",\n        \"brand_style\": \"Minimalist vintage\"\n      }\n    ]\n  },\n  \"environment\": {\n    \"setting\": \"An overgrown botanical field of pale pink tulips at dawn\",\n    \"surfaces\": \"Dew-covered petals, wet morning grass, ultra-soft dense pink mohair of the giant prop\",\n    \"depth\": \"Extremely shallow, compressed background with prominent, obstructive foreground blur\",\n    \"atmosphere\": \"Humid, foggy, ethereal sunrise mist, peaceful yet surreal\",\n    \"lens_interaction\": \"Shooting directly through out-of-focus foreground tulip heads that wash the edges of the frame in soft pink\"\n  },\n  \"lighting\": {\n    \"key\": \"Soft, diffused morning sunlight cutting through the dense mist\",\n    \"fill\": \"Ambient bounced light from the surrounding pink flora and the massive pink plush structure\",\n    \"rim\": \"Golden hour rim light illuminating the edges of the pink faux fur and the subject's silhouette\",\n    \"shadows\": \"Soft, low-contrast, lifted shadows with a filmic roll-off\",\n    \"color_temperature\": \"Warm pastel (around 5200K), leaning heavily into peach and soft pink tones\",\n    \"sensor_flare\": \"Subtle organic halation from the sunrise cutting through the fog\"\n  },\n  \"camera\": {\n    \"lens_type\": \"Medium format prime\",\n    \"focal_length\": \"80mm\",\n    \"aperture\": \"f/2.8\",\n    \"focus\": \"Tack sharp on the subject's laughing eyes, allowing motion blur on extremities and deep blur on foreground/background\",\n    \"sensor_format\": \"Medium Format 100MP\",\n    \"perspective_distortion\": \"Natural compression, zero wide-angle distortion\"\n  },\n  \"post_processing\": {\n    \"color\": \"Pastel dominant, muted greens and vibrant, soft pinks inspired by classic analog film\",\n    \"tonality\": \"Low contrast, cinematic filmic roll-off in the highlights\",\n    \"texture\": \"Heavy analog grain characteristic of pushed Kodak Portra 400, intense micro-contrast on tactile surfaces like wool and fur\",\n    \"digital_sharpening\": \"None, relies entirely on the optical sharpness of medium format glass\",\n    \"chromatic_aberration\": \"Subtle, organic edge fringing on the extreme foreground out-of-focus elements\"\n  },\n  \"negative_specifications\": [\n    \"Neon lights\",\n    \"CGI look\",\n    \"plastic skin\",\n    \"stiff posing\",\n    \"flat lighting\",\n    \"urban elements\",\n    \"generic studio backdrop\",\n    \"digital illustration\",\n    \"fantasy art\",\n    \"over-sharpening\"\n  ]\n}",
-    "promptFormat": "json",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787120735922_0thggg_HQAu2vRXcAAXq0F.jpg",
-        "alt": "Pastel Arachnid Surreal Masterpiece",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787120736017_int9d8_HQAu2tOWgAAgL8J.jpg",
-        "alt": "Pastel Arachnid Surreal Masterpiece",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "timedoctor.eth",
-      "url": "https://x.com/timedoctor_nft"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/timedoctor_nft/status/2089721749562683708"
-    },
-    "publishedAt": "2026-08-18T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=31881",
-    "contentHash": "6af3764e3677d5c1d2182173dfb05a48eb911048"
   }
 ]
