@@ -1,5 +1,215 @@
 [
   {
+    "id": "nano-banana-pro:35847",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "35847",
+    "title": "Dreamlike Portrait Composition Prompt",
+    "category": "Profile / Avatar",
+    "description": "A prompt for creating a dreamlike, brushstroke-textured portrait composition featuring a young South Asian man in a green suit, combining full-body and close-up elements against a mountain backdrop.",
+    "promptText": "Keep the same features of the attached person, without changes. Reference picture: photo sent.\nFace: keep the exact same person as the reference picture. Format:\nfeaturing a young South Asian man with green eyes and a well-groomed beard. In the foreground, he is shown full-body, dressed in a {argument name=\"suit color\" default=\"green\"} linen casual suit, leaning casually against a stone ledge, with a gold necklace and a watch. His eyes are {argument name=\"eye color\" default=\"green\"}. Overlaid in the background is a large, close-up portrait of his face, with his striking {argument name=\"eye color\" default=\"green\"} eyes as a focus. The entire composition has a dreamlike, brushstroke texture, set against a backdrop of a blurred mountain valley at dusk, creating an artistic and nostalgic atmosphere.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "suit color",
+        "default": "green"
+      },
+      {
+        "name": "eye color",
+        "default": "green"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1791009136635_2eiqd7_HTq-v_absAA_fS_.jpg",
+        "alt": "Dreamlike Portrait Composition Prompt",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Dilshad Hussain",
+      "url": "https://x.com/DilshadAI1"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/DilshadAI1/status/2106205609112879495"
+    },
+    "publishedAt": "2026-10-03T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35847",
+    "contentHash": "c23accb13061697d355f9f0ef2f8c95ad7670b18"
+  },
+  {
+    "id": "nano-banana-pro:35846",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "35846",
+    "title": "Cozy Home Lifestyle Portrait",
+    "category": "Profile / Avatar",
+    "description": "Generates a photorealistic lifestyle portrait of a woman relaxing on a sofa with warm sunlight, suitable for personal branding or stock imagery.",
+    "promptText": "Create a photorealistic high-quality lifestyle portrait of a beautiful young adult woman relaxing on a soft neutral sofa in a cozy modern home. She has long, naturally wavy dark-brown hair, warm fair-to-light olive skin, expressive brown eyes, soft natural makeup, subtle rosy cheeks, and a gentle confident smile. She rests her cheek naturally on one hand while looking directly into the camera.\n\nShe wears an oversized cream-white textured knit sweater, light-wash relaxed-fit jeans, delicate small gold earrings, and a thin gold necklace with a tiny pendant. Natural elegant styling, minimal accessories.\n\nWarm late-afternoon sunlight enters from the side, creating soft highlights on her hair and natural skin texture. Background includes a beige sofa, neutral walls, a small vase of white flowers, books, cushions, and a dark doorway, all softly blurred with shallow depth of field.\n\nPhotography: realistic DSLR photography, 50mm lens, f/1.8, soft natural window light, subtle cinematic tones, realistic skin pores, detailed hair strands, natural fabric texture, realistic proportions, gentle shadows, professional lifestyle editorial photography, authentic candid feeling, high dynamic range, sharp eyes, 4K detail.\n\nNegative prompt: plastic skin, excessive retouching, artificial face, distorted hands, extra fingers, deformed anatomy, blurry eyes, CGI, cartoon, illustration, oversaturated colors, text, logo, watermark.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1791009134382_gd6asb_HTog6qDbcAA-QGA.jpg",
+        "alt": "Cozy Home Lifestyle Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Aynelle",
+      "url": "https://x.com/aynellex"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/aynellex/status/2106031986003615843"
+    },
+    "publishedAt": "2026-10-02T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35846",
+    "contentHash": "3e78e0619f5cca6084b74e60e201479758378ee3"
+  },
+  {
+    "id": "nano-banana-pro:35848",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "35848",
+    "title": "Surrealist Editorial Portrait Prompt",
+    "category": "Social Media Post",
+    "description": "A complex JSON-based prompt for creating a high-budget surrealist editorial shot featuring a subject in a magenta puffer coat amidst cotton clouds and pink fog, emphasizing tactile textures and cinematic lighting.",
+    "promptText": "{\n  \"vibe_title_en\": \"{argument name=\"title\" default=\"The Weightless Surrealism of Pink Illusions\"}\",\n  \"master_prompt\": \"A high-budget practical surrealist editorial shot. The Protagonist, captured in a Three-Quarter Editorial waist-up mid-shot. The subject's body is angled at 45 degrees, but the head is turned directly to the camera, anchored by a piercing, tranquil, and dissociative gaze. The Protagonist wears an avant-garde, massively oversized, bubbled-texture {argument name=\"coat color\" default=\"magenta\"} couture puffer coat that is intentionally draped off one shoulder, revealing highly detailed, hyper-realistic bare skin, natural pores, and collarbone underneath. The setting is a surreal, monochromatic {argument name=\"theme color\" default=\"magenta\"} observation chamber. The floor is engulfed in dense, rolling {argument name=\"fog color\" default=\"pink\"} dry-ice fog. Suspended at various heights around the subject are hyper-realistic, fluffy cloud-like formations physically crafted from dyed raw organic cotton and spun sugar, hanging by invisible ultra-fine wires. The scene is illuminated by tall, vertical, diffused {argument name=\"light color\" default=\"magenta\"} luminescent pillars (NO NEON) that cast a soft but directional glow. A crisp, neutral-white overhead key light isolates the face, highlighting micro-details of the skin and the textural weave of the coat, while the background clouds glow with internal reflections. Shot on Hasselblad H6D-100c with a 50mm prime lens at f/1.4, creating a shallow depth of field that renders foreground cotton clouds slightly out of focus. Kodak Portra 400 film stock, authentic skin textures, natural imperfections, cinematic volumetric haze, tactile physical effects.\",\n  \"meta\": {\n    \"intent\": \"Editorial Surrealism\",\n    \"priorities\": \"Tactile Textures, Monochromatic Depth, High-End Practical Effects\",\n    \"device_profile\": \"High-Resolution Display\"\n  },\n  \"frame\": {\n    \"aspect\": \"4:5\",\n    \"composition\": \"Three-Quarter Editorial, Waist-up\",\n    \"layout\": \"Center-anchored face, asymmetrical framing with suspended clouds\",\n    \"camera_angle\": \"Eye-level, straight on to face, body at 45 degrees\",\n    \"tilt_roll_degrees\": \"0\"\n  },\n  \"subject\": {\n    \"gender\": \"Female\",\n    \"identity\": \"The Protagonist\",\n    \"demographics\": \"Ageless, universal features\",\n    \"face\": \"Symmetrical, neutral, highly textured with visible pores and natural micro-imperfections\",\n    \"hair\": \"Pulled back cleanly, out of the face\",\n    \"body\": \"Body angled at 45-degrees, one bare shoulder exposed\",\n    \"expression\": \"Tranquil dissociation, piercing direct eye contact\",\n    \"pose\": \"Waist-up mid-shot, frozen in a subtle lean, one shoulder dropped\"\n  },\n  \"wardrobe_accessories\": {\n    \"garments\": [\n      {\n        \"item\": \"Avant-garde oversized puffer coat\",\n        \"material\": \"Quilted, bubbled-texture synthetic silk\",\n        \"color\": \"Bubblegum magenta\",\n        \"fit\": \"Massive, disproportionate, draped off one shoulder\"\n      }\n    ],\n    \"accessories\": [\n      {\n        \"item\": \"Minimalist stud earring\",\n        \"color\": \"Translucent pink\",\n        \"material\": \"Resin\"\n      }\n    ]\n  }\n}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "title",
+        "default": "The Weightless Surrealism of Pink Illusions"
+      },
+      {
+        "name": "coat color",
+        "default": "magenta"
+      },
+      {
+        "name": "theme color",
+        "default": "magenta"
+      },
+      {
+        "name": "fog color",
+        "default": "pink"
+      },
+      {
+        "name": "light color",
+        "default": "magenta"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1791009134910_e43keo_HTorcSkXkAAjguB.jpg",
+        "alt": "Surrealist Editorial Portrait Prompt",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1791009135021_14m6kd_HTorcMMXMAAwjP3.jpg",
+        "alt": "Surrealist Editorial Portrait Prompt",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1791009134908_l6p51b_HTorcMyWUAAS9e1.jpg",
+        "alt": "Surrealist Editorial Portrait Prompt",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1791009137168_d64k8j_HTorcMGWEAAm4NH.jpg",
+        "alt": "Surrealist Editorial Portrait Prompt",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "timedoctor.eth",
+      "url": "https://x.com/timedoctor_nft"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/timedoctor_nft/status/2106043544846602330"
+    },
+    "publishedAt": "2026-10-02T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35848",
+    "contentHash": "2661459adfaf127f1b2cf2364477c7a9d6d45516"
+  },
+  {
+    "id": "nano-banana-pro:35845",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "35845",
+    "title": "Avant-Garde Silver Gown Fashion Editorial",
+    "category": "Social Media Post",
+    "description": "Generates a full-body high-fashion editorial photo of a woman in an avant-garde silver gown, preserving facial identity from a reference image.",
+    "promptText": "Use the reference image as the identity reference only. Preserve the girl’s exact facial identity, facial structure, eyes, nose, lips, skin tone, and recognizable features with no identity drift. Create a full-body fashion editorial photograph, showing her completely from head to toe, with both feet visible.\n\nA striking young woman standing confidently in an otherworldly luxury fashion studio, wearing an avant-garde sculptural gown made from flowing translucent silver fabric and delicate metallic petals, asymmetric silhouette, architectural shoulders, subtle crystal embellishments, elegant high-fashion styling, sleek dark hair, minimal silver jewelry, natural confident expression. The fabric gently moves with a soft breeze. Reflective black floor, geometric architectural shadows, sophisticated futuristic atmosphere, premium haute couture editorial, realistic fabric texture, natural skin pores and fine facial details, realistic hands and fingers, anatomically correct proportions, photorealistic photography, full-body composition, camera positioned at eye level and far enough away to capture the entire body without cropping, 85mm fashion photography, soft directional studio lighting, ultra-detailed, 8K, luxury magazine aesthetic, same reference face, consistent identity, no face alteration.\n\nNegative prompt:\nidentity drift, different face, altered facial features, face morphing, cropped head, cropped feet, half-body, close-up, distorted anatomy, elongated limbs, bad proportions, extra fingers, malformed hands, duplicate limbs, plastic skin, over-smoothed skin, CGI, cartoon, unrealistic fabric, blurry face, asymmetrical eyes, low resolution, text, logo, watermark.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1791009134605_k4ix7c_HToVf2ZaYAAoxOT.jpg",
+        "alt": "Avant-Garde Silver Gown Fashion Editorial",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Elvorya",
+      "url": "https://x.com/Elvorya"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Elvorya/status/2106019421063889140"
+    },
+    "publishedAt": "2026-10-02T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35845",
+    "contentHash": "754ff74db52edf89dcc1cb25dce99a7a568a0249"
+  },
+  {
+    "id": "nano-banana-pro:35800",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "35800",
+    "title": "Pastel Blue Knit Sweater Boutique Portrait",
+    "category": "Social Media Post",
+    "description": "Creates a photorealistic fashion portrait of a woman in a boutique setting, using a reference image for identity preservation.",
+    "promptText": "A full-body editorial fashion photograph of a beautiful young woman with the same appearance as the reference, long glossy dark hair, soft bangs, fair skin, and refined feminine features. She stands casually in an upscale minimalist fashion boutique, wearing an oversized pastel-blue knit sweater paired with a black pleated tennis-style skirt, white crew socks, and chunky designer sneakers.Relaxed confident pose, gentle smile, luxury retail interior with modern clothing racks, neutral-toned garments, warm ambient lighting, wood and stone textures, clean architectural lines, cinematic depth of field, realistic lighting, premium fashion advertising, Vogue-style editorial, ultra-detailed, sharp focus, photorealistic, 4K.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1791009133081_ah0zla_HTmmzRYbAAA0cV-.jpg",
+        "alt": "Pastel Blue Knit Sweater Boutique Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Nawal",
+      "url": "https://x.com/nawalsehar"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/nawalsehar/status/2105897710918242518"
+    },
+    "publishedAt": "2026-10-02T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35800",
+    "contentHash": "d0c09a441e7853577a2e3b750f4ec06fb7d29c28"
+  },
+  {
     "id": "nano-banana-pro:35748",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
@@ -31,39 +241,6 @@
     "publishedAt": "2026-10-01T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35748",
     "contentHash": "94fd84f0cabc704aab16b5b8b9fc8a09bc41f22d"
-  },
-  {
-    "id": "nano-banana-pro:35800",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "35800",
-    "title": "Editorial Fashion Portrait in Boutique",
-    "category": "Social Media Post",
-    "description": "A prompt for generating a photorealistic editorial fashion photograph of a woman in an upscale boutique, featuring specific clothing details and cinematic lighting.",
-    "promptText": "A full-body editorial fashion photograph of a beautiful young woman with the same appearance as the reference, long glossy dark hair, soft bangs, fair skin, and refined feminine features. She stands casually in an upscale minimalist fashion boutique, wearing an oversized pastel-blue knit sweater paired with a black pleated tennis-style skirt, white crew socks, and chunky designer sneakers.Relaxed confident pose, gentle smile, luxury retail interior with modern clothing racks, neutral-toned garments, warm ambient lighting, wood and stone textures, clean architectural lines, cinematic depth of field, realistic lighting, premium fashion advertising, Vogue-style editorial, ultra-detailed, sharp focus, photorealistic, 4K.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1790922802947_5rwoxb_HTmmzRYbAAA0cV-.jpg",
-        "alt": "Editorial Fashion Portrait in Boutique",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Nawal",
-      "url": "https://x.com/nawalsehar"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/nawalsehar/status/2105897710918242518"
-    },
-    "publishedAt": "2026-10-02T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35800",
-    "contentHash": "c6e0a4d6c6ca5f7b65016fb2ddd0fa3664038d44"
   },
   {
     "id": "nano-banana-pro:35799",
@@ -5710,216 +5887,5 @@
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=34131",
     "contentHash": "7875b7eac3f25d37e70160fa15faa1c2fb99f6a4"
-  },
-  {
-    "id": "nano-banana-pro:34129",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "34129",
-    "title": "Surreal Ornithological Fashion Symphony",
-    "category": "Product Marketing",
-    "description": "A structured surrealist fashion prompt featuring a centered subject in a teal chamber surrounded by a symmetrical storm of colored birds.",
-    "promptText": "{\n  \"vibe_title_en\": \"The Quiet Rebel's Surreal Ornithological Symphony\",\n  \"master_prompt\": \"Photographic Surrealism. {argument name=\"subject\" default=\"The Protagonist\"} stands perfectly centered in a defiant, quiet rebel posture within an intensely symmetrical deep teal anechoic chamber. They wear oversized, glossy canary-yellow studio headphones and a structured {argument name=\"clothing\" default=\"yellow silk jacket with heavily textured floral embroidery\"}. A chaotic, yet mathematically symmetrical storm of real, vividly colored birds (yellow, blue, and teal) are frozen in mid-flight, violently fluttering around their head, framing a crown of interwoven real pale orchids. The subject's expression is deeply calm, staring dead ahead, completely unfazed by the avian blur. Captured on Phase One IQ4, 24mm f/5.6 wide-angle lens for grand symmetrical centering. Rembrandt lighting with a soft overhead cinematic softbox illuminating the birds' wings, casting micro-shadows on the teal acoustic foam. Kodak Portra 400 film stock, hyper-realistic skin pores, floating organic dust motes, practical high-budget effects, NO NEON.\",\n  \"meta\": {\n    \"intent\": \"Cinematic Surrealism\",\n    \"priorities\": \"Symmetry, Practical Effects, Defiant Posture\",\n    \"device_profile\": \"High-Res Editorial\"\n  },\n  \"frame\": {\n    \"aspect\": \"4:5\",\n    \"composition\": \"Grand Symmetrical Centering\",\n    \"layout\": \"Absolute horizontal and vertical symmetry, subject dead center\",\n    \"camera_angle\": \"Eye-level, perfectly horizontal\",\n    \"tilt_roll_degrees\": \"0\"\n  },\n  \"subject\": {\n    \"gender\": \"Female\",\n    \"identity\": \"The Protagonist\",\n    \"demographics\": \"Ageless\",\n    \"face\": \"Symmetrical, hyper-detailed pores, neutral\",\n    \"hair\": \"Pulled back, wrapped in a crown of real pale orchids\",\n    \"body\": \"Rigid, calm, squared shoulders\",\n    \"expression\": \"Defiant, calm, unfazed\",\n    \"pose\": \"Standing perfectly still while surrounded by chaotic motion\"\n  },\n  \"wardrobe_accessories\": {\n    \"garments\": [\n      {\n        \"item\": \"Structured jacket\",\n        \"material\": \"Yellow silk with heavy floral embroidery\",\n        \"color\": \"Vibrant yellow\",\n        \"fit\": \"Tailored, rigid\"\n      }\n    ],\n    \"accessories\": [\n      {\n        \"item\": \"Oversized studio headphones\",\n        \"color\": \"Canary yellow\",\n        \"material\": \"Glossy plastic and leather\",\n        \"brand_style\": \"High-end audiophile\"\n      },\n      {\n        \"item\": \"Floral crown\",\n        \"color\": \"Pale yellow and white\",\n        \"material\": \"Real orchids and baby's breath\",\n        \"brand_style\": \"Avant-garde floristry\"\n      }\n    ]\n  },\n  \"environment\": {\n    \"setting\": \"Symmetrical anechoic chamber\",\n    \"surfaces\": \"Deep teal acoustic foam wedges\",\n    \"depth\": \"Medium depth, compressed by 24mm symmetry\",\n    \"atmosphere\": \"Stillness contrasting with flying birds, suspended dust motes\",\n    \"lens_interaction\": \"Motion blur on the extreme edges of bird wings\"\n  },\n  \"lighting\": {\n    \"key\": \"Large overhead softbox directly centered\",\n    \"fill\": \"Su\"\n}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "The Protagonist"
-      },
-      {
-        "name": "clothing",
-        "default": "yellow silk jacket with heavily textured floral embroidery"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789022275408_50e51g_HRyIAq3WsAAypVh.jpg",
-        "alt": "Surreal Ornithological Fashion Symphony",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1789022275395_nk5b5m_HRyIAo-XsAAC9iL.jpg",
-        "alt": "Surreal Ornithological Fashion Symphony",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "timedoctor.eth",
-      "url": "https://x.com/timedoctor_nft"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/timedoctor_nft/status/2097701075255959965"
-    },
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=34129",
-    "contentHash": "1c014b39e97e7c504bdd46ad23a7fe484f8772ef"
-  },
-  {
-    "id": "nano-banana-pro:34126",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "34126",
-    "title": "Minimalist Alpine Fashion Magazine",
-    "category": "Product Marketing",
-    "description": "A high-fashion magazine style prompt featuring a stoic alpine model in a minimalist black outfit with artistic motion blur effects.",
-    "promptText": "A high fashion magazine pictorial of an {argument name=\"subject description\" default=\"Alpine-looking woman in her early 20s\"} who stands still, looking at the camera, turning her head in the center, surrounded by a blurry silhouette of people passing by. She has a calm, stoic look on her face and is wearing a {argument name=\"outfit style\" default=\"black minimalist outfit\"}. The background is clean, bright and slightly abstract, and emphasizes the contrast between motion blur and static appearance. Editing style, film composition, pure art photography, soft magazine texture, high resolution.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject description",
-        "default": "Alpine-looking woman in her early 20s"
-      },
-      {
-        "name": "outfit style",
-        "default": "black minimalist outfit"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789022273782_a7z2zj_HRx5qrdasAACZTk.jpg",
-        "alt": "Minimalist Alpine Fashion Magazine",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Elvorya",
-      "url": "https://x.com/Elvorya"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Elvorya/status/2097685311580999686"
-    },
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=34126",
-    "contentHash": "f2bde8036057376961b9ed70150ed403d903e599"
-  },
-  {
-    "id": "nano-banana-pro:33923",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "33923",
-    "title": "Alpine Lake Editorial Travel Poster",
-    "category": "Product Marketing",
-    "description": "A detailed cinematic prompt for creating a luxury travel poster featuring an alpine lake reflection and sophisticated typography.",
-    "promptText": "Create a premium, hyper-realistic cinematic travel editorial poster in 9:16 vertical format.\n\nScene: A breathtaking {argument name=\"landscape\" default=\"alpine mountain lake with crystal-clear turquoise water\"}, surrounded by dramatic snow-capped mountains, dense evergreen pine forests, and steep rocky cliffs. The lake perfectly reflects the mountains and sky. A small rustic wooden cabin sits near the right shoreline, while a traditional wooden rowboat is tied beside a wooden dock in the foreground.\n\nIn the center foreground, show a solo traveler sitting on the wooden dock with their back facing the camera, looking peacefully toward the mountains. The traveler wears a brown wide-brimmed hat, {argument name=\"jacket color\" default=\"burnt-orange\"} outdoor jacket, beige/brown hiking backpack, and neutral outdoor clothing. Natural, realistic proportions and subtle clothing texture.\n\nComposition: Cinematic wide-angle photography, traveler positioned in the lower center, boat on the lower right, expansive lake and mountains dominating the background. Strong depth, natural perspective, layered landscape, peaceful adventurous atmosphere.\n\nLighting: Soft golden morning light, bright blue sky with scattered fluffy clouds, subtle atmospheric haze around the mountains, realistic sunlight and natural shadows. Rich but authentic colors, turquoise water, earthy brown foreground, lush green forest, cool blue mountains.\n\nTypography: Add elegant travel-poster typography over the upper portion of the image:\n\nSmall uppercase text: “COLLECT”\nLarge stylish handwritten/script text: “{argument name=\"title word\" default=\"Moments\"}”\nMedium uppercase text below: “NOT THINGS”\nMinimal decorative horizontal lines with a small heart symbol\nSmall uppercase tagline: “TRAVEL • EXPLORE • LIVE”\n\nUse sophisticated dark teal typography, clean spacing, premium editorial design, balanced hierarchy, highly legible text, and tasteful minimal decoration.\n\nStyle: Luxury travel magazine, cinematic photography, ultra-detailed, photorealistic, professional DSLR photography, HDR, realistic water reflections, natural skin/clothing textures, subtle filmic color grading, atmospheric depth, premium Pinterest travel aesthetic, inspirational and peaceful mood.\n\nAvoid: distorted people, extra limbs, unrealistic architecture, excessive saturation, blurry details, cartoon appearance, fake-looking water, cluttered typography, logos, watermarks.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "landscape",
-        "default": "alpine mountain lake with crystal-clear turquoise water"
-      },
-      {
-        "name": "jacket color",
-        "default": "burnt-orange"
-      },
-      {
-        "name": "title word",
-        "default": "Moments"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789022274506_b0xkyi_HRv-cZJboAA5i66.jpg",
-        "alt": "Alpine Lake Editorial Travel Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1789022274484_82n2is_HRv-cX5bEAAOj-1.jpg",
-        "alt": "Alpine Lake Editorial Travel Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1789022274524_j71yoe_HRv-cZzbkAA3EOV.jpg",
-        "alt": "Alpine Lake Editorial Travel Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1789022275268_ahfbb0_HRv-cajbQAAKa-k.jpg",
-        "alt": "Alpine Lake Editorial Travel Poster",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Aniya Intelligence",
-      "url": "https://x.com/aniyaintel"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/aniyaintel/status/2097549831489405424"
-    },
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33923",
-    "contentHash": "e1444dffe196e96c41e880dff7f61b61d309a303"
-  },
-  {
-    "id": "nano-banana-pro:34122",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "34122",
-    "title": "Monochrome Ink Fashion Illustration",
-    "category": "Product Marketing",
-    "description": "Generates a highly stylized black-and-white ink portrait with geometric construction lines.",
-    "promptText": "Highly stylized {argument name=\"style\" default=\"monochrome fashion illustration\"}, expressive {argument name=\"technique\" default=\"black-and-white ink portrait style\"}, ultra-clean grayscale palette with soft tonal shading and sharp dark accents, elegant feminine facial construction, elongated proportions, minimalistic luxury editorial aesthetic. Use flowing organic contour lines mixed with geometric construction lines crossing the face naturally. Combine loose gestural strokes with precise ink detailing around the eyes, eyebrows, lips, and hair strands. Hair rendered with sweeping fluid brush lines and layered ink curves, creating dynamic movement and asymmetrical framing. Skin shading uses smooth cel-shaded grayscale planes with subtle gradient transitions, while maintaining a hand-drawn ink illustration appearance. Thin sketch lines remain visible as part of the composition. Eyes highly detailed and luminous with crisp eyelashes and reflective highlights. Lips softly sculpted with semi-realistic shading and delicate line texture. Use selective contrast: bold black strokes around facial features balanced against large clean white negative spaces. Overall composition resembles a fusion of modern fashion sketch, manga-inspired editorial art, and minimalist ink wash illustration. {argument name=\"background\" default=\"Background kept plain light gray or off-white\"} with uncluttered negative space. High contrast, elegant, refined, cinematic, expressive line-art aesthetic.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "style",
-        "default": "monochrome fashion illustration"
-      },
-      {
-        "name": "technique",
-        "default": "black-and-white ink portrait style"
-      },
-      {
-        "name": "background",
-        "default": "Background kept plain light gray or off-white"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789022270487_iw21f7_HRvaETCbsAEJXUf.jpg",
-        "alt": "Monochrome Ink Fashion Illustration",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1789022270684_7lk26k_HRvaETNbEAAl2hE.jpg",
-        "alt": "Monochrome Ink Fashion Illustration",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1789022270546_iwv3ih_HRvaETIaUAA_juY.jpg",
-        "alt": "Monochrome Ink Fashion Illustration",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1789022271439_guuxjh_HRvaETJaEAA-Tpz.jpg",
-        "alt": "Monochrome Ink Fashion Illustration",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Zayan",
-      "url": "https://x.com/HustleXR"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/HustleXR/status/2097509829753651228"
-    },
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=34122",
-    "contentHash": "876e15f5c48cb486c4844714239441f9b89b7227"
   }
 ]
