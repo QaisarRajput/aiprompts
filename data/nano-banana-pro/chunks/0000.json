@@ -4,19 +4,28 @@
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
     "externalId": "35920",
-    "title": "Golden Hour Portrait with Strict Identity Preservation",
+    "title": "Photorealistic Sunset Portrait with Reference Face",
     "category": "Profile / Avatar",
-    "description": "Creates a photorealistic portrait of a woman in sporty attire against a sunset backdrop, enforcing strict adherence to a reference face.",
-    "promptText": "A photorealistic portrait of a beautiful young 22-year-old woman sitting casually on a dark granite ledge, looking directly at the camera with a relaxed, subtle smile. She is wearing a sporty, color-blocked outfit: a short-sleeved t-shirt with a solid white front and bright orange sleeves and shoulders, paired with matching orange shorts featuring white drawstrings and white side stripes. Her right leg is pulled up with her right arm resting comfortably on her knee. She has a natural, elegant feminine appearance with healthy glowing skin.\n\nThe setting is an outdoor balcony or terrace with a black metal railing. In the background, a stunning golden hour sunset illuminates a wide river or lake, casting vibrant warm orange and yellow hues across the sky and reflecting beautifully on the water, with lush green trees visible to the left.\n\nShot on an 85mm lens, f/1.8 aperture, cinematic golden-hour lighting, shallow depth of field, beautiful natural background bokeh, ultra-realistic skin texture, soft skin glow, realistic facial details, natural colors, professional photography, high resolution.\n\nSTRICTLY USE THE UPLOADED REFERENCE IMAGE FOR HER FACE AND IDENTITY. Keep the original face 100% unchanged and identical to the reference — same facial features, facial structure, proportions, skin tone, eye shape and color, nose, lips, eyebrows, jawline, hairstyle, hair texture, age, and natural expression. Do not beautify, alter, reshape, or idealize the face. Preserve the exact same identity and hairstyle from the reference image. The final image must look like the exact same girl from the reference photo, only placed in this new setting and outfit.\n\nSkin should have a natural healthy glow while maintaining realistic skin texture and pores. No face distortion, no identity change, no artificial beauty filter, no excessive makeup, no facial modification.",
+    "description": "A detailed prompt for generating a photorealistic portrait of a woman in sporty attire at sunset, strictly preserving the face identity from an uploaded reference image. Compatible with GPT Image 2, Nano Banana Pro, Gemini, and Grok.",
+    "promptText": "A photorealistic portrait of a beautiful young {argument name=\"age\" default=\"22-year-old\"} woman sitting casually on a dark granite ledge, looking directly at the camera with a relaxed, subtle smile. She is wearing a sporty, color-blocked outfit: a short-sleeved t-shirt with a solid white front and bright orange sleeves and shoulders, paired with matching orange shorts featuring white drawstrings and white side stripes. Her right leg is pulled up with her right arm resting comfortably on her knee. She has a natural, elegant feminine appearance with healthy glowing skin.\n\nThe setting is an outdoor balcony or terrace with a black metal railing. In the background, a stunning golden hour sunset illuminates a wide river or lake, casting vibrant warm orange and yellow hues across the sky and reflecting beautifully on the water, with lush green trees visible to the left.\n\nShot on an {argument name=\"lens\" default=\"85mm lens\"}, f/1.8 aperture, cinematic golden-hour lighting, shallow depth of field, beautiful natural background bokeh, ultra-realistic skin texture, soft skin glow, realistic facial details, natural colors, professional photography, high resolution.\n\nSTRICTLY USE THE UPLOADED REFERENCE IMAGE FOR HER FACE AND IDENTITY. Keep the original face 100% unchanged and identical to the reference — same facial features, facial structure, proportions, skin tone, eye shape and color, nose, lips, eyebrows, jawline, hairstyle, hair texture, age, and natural expression. Do not beautify, alter, reshape, or idealize the face. Preserve the exact same identity and hairstyle from the reference image. The final image must look like the exact same girl from the reference photo, only placed in this new setting and outfit.\n\nSkin should have a natural healthy glow while maintaining realistic skin texture and pores. No face distortion, no identity change, no artificial beauty filter, no excessive makeup, no facial modification.",
     "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
+    "templateArguments": [
+      {
+        "name": "age",
+        "default": "22-year-old"
+      },
+      {
+        "name": "lens",
+        "default": "85mm lens"
+      }
+    ],
+    "raycastFriendly": true,
     "featured": false,
     "language": "en",
     "images": [
       {
-        "url": "https://cms-assets.youmind.com/media/1791101707688_im1b91_HTwdO5NaMAApOEZ.jpg",
-        "alt": "Golden Hour Portrait with Strict Identity Preservation",
+        "url": "https://cms-assets.youmind.com/media/1791182789986_5x7oxl_HTwdO5NaMAApOEZ.jpg",
+        "alt": "Photorealistic Sunset Portrait with Reference Face",
         "width": 600
       }
     ],
@@ -30,7 +39,149 @@
     },
     "publishedAt": "2026-10-04T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35920",
-    "contentHash": "3ea3c1538664f0afbe39a1094c424b541af5d96f"
+    "contentHash": "119111529331b198876696decbf9d2cd4faad4ad"
+  },
+  {
+    "id": "nano-banana-pro:35974",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "35974",
+    "title": "Cinematic Luxury Evening Portrait with Reference Image",
+    "category": "Social Media Post",
+    "description": "A detailed prompt for generating a photorealistic cinematic portrait of a woman beside an infinity pool, emphasizing identity preservation from an uploaded reference image.",
+    "promptText": "Use the uploaded image as the exact visual and facial reference. Preserve the woman’s facial identity, facial proportions, hairstyle, and overall appearance with zero identity drift.\n\nCreate a photorealistic cinematic luxury evening portrait of the same woman standing beside a calm infinity pool overlooking a modern waterfront city skyline at blue hour/night. She wears an elegant floor-length silver-white couture gown with delicate crystal embellishments, thin straps, a fitted embellished bodice, flowing pleated skirt, and a subtle train. Add matching sparkling silver high heels.\n\nKeep the same graceful side-profile pose as the reference: body slightly turned sideways toward the camera, shoulders relaxed, one arm naturally resting beside her body, elegant posture, soft confident gaze directly toward the camera.\n\nThe pool should reflect the surrounding city lights naturally. In the background, show a sophisticated modern skyline with tall illuminated towers, softly blurred for cinematic depth of field. Include a realistic, naturally sized full moon in the upper sky — not oversized — with subtle moonlight illuminating the scene. Gentle evening breeze moves a few strands of her hair and the gown slightly.\n\nLighting: realistic moonlight mixed with soft ambient architectural lighting, subtle highlights on the silver dress, natural skin tones, realistic shadows, cinematic contrast, soft atmospheric haze.\n\nCamera: full-body composition, eye-level camera, 85mm portrait lens, shallow depth of field, realistic bokeh, sharp subject, detailed fabric texture, natural skin pores.\n\nStyle: high-end luxury fashion editorial, cinematic photography, ultra-photorealistic, sophisticated, elegant, realistic proportions, natural skin texture, no artificial AI appearance.\n\nNegative prompt: identity change, face drift, different person, altered facial features, oversized moon, plastic skin, excessive retouching, distorted hands, extra fingers, warped body, unnatural pose, cartoon, CGI look, oversaturated colors, excessive glow, duplicate person, blurry face, watermark, text, logo.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1791182791357_o25pg1_HTysDgUa8AAx58V.jpg",
+        "alt": "Cinematic Luxury Evening Portrait with Reference Image",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Elvorya",
+      "url": "https://x.com/Elvorya"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Elvorya/status/2106747910625141182"
+    },
+    "publishedAt": "2026-10-04T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35974",
+    "contentHash": "11712515b6d1b857b6634c6305ec3fde5aad5ef8"
+  },
+  {
+    "id": "nano-banana-pro:35975",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "35975",
+    "title": "Cheetos Snack Ad Portrait",
+    "category": "Social Media Post",
+    "description": "A prompt for a playful studio portrait of a person holding a Cheetos bag, using fisheye lens effects.",
+    "promptText": "Studio portrait of one smiling person holding a Cheetos Crunchy orange chips bag close to the camera, both the bag and the person’s head in the foreground. Captured with an ultra-wide fisheye lens for a playful, youthful, energetic feel.\nThe model wears a glossy bright orange puffer jacket over a white t-shirt.\nBackground in a vibrant orange gradient with light yellow accents, bold and fun.\nSoft cinematic lighting, juicy highlights, slight saturation boost, modern snack-ad editorial style.\nExpressive smile, fun street-commercial aesthetic.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1791182791359_o5qmkz_HTyqEPzagAAi_Rq.jpg",
+        "alt": "Cheetos Snack Ad Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1791182791428_l6j0ml_HTyqEPubsAAn61W.jpg",
+        "alt": "Cheetos Snack Ad Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "simeon-sanai",
+      "url": "https://x.com/Naiknelofar788"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Naiknelofar788/status/2106745724545446089"
+    },
+    "publishedAt": "2026-10-04T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35975",
+    "contentHash": "579cfaaea0a12ac050be1d3d81c29f7f49e8efa5"
+  },
+  {
+    "id": "nano-banana-pro:35973",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "35973",
+    "title": "High-End Beauty Portrait with Reference",
+    "category": "Social Media Post",
+    "description": "A prompt for creating a photorealistic beauty portrait preserving identity from an uploaded image, featuring burgundy outfit and cinematic lighting.",
+    "promptText": "Use the uploaded image as the primary visual reference. Create a high-end photorealistic beauty portrait of the same woman, preserving her facial features, face shape, skin tone, eyes, nose, lips, and overall identity. She has dark brown hair styled in a messy elegant updo with loose wavy strands framing her face. Soft natural makeup, warm brown eyeshadow, subtle eyeliner, long lashes, glossy deep-red lips, and realistic glowing skin.\n\nShe wears an elegant deep burgundy sheer long-sleeve outfit with a high neckline. Her hand rests gracefully near her neck, showing delicate gold rings and detailed burgundy-and-gold nail art. Pose is slightly turned toward the camera with a soft, confident expression.\n\nWarm golden-orange cinematic lighting, strong soft rim light around the hair, cozy dark beige background, shallow depth of field, realistic skin texture, fine hair details, professional beauty photography, 85mm portrait lens, soft bokeh, cinematic color grading, ultra-detailed, photorealistic, 8K. No text, watermark, or logo.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1791182791324_wm9xmc_HTyj2JyaAAAgxIT.jpg",
+        "alt": "High-End Beauty Portrait with Reference",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Aynah",
+      "url": "https://x.com/AynahhX"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AynahhX/status/2106738894670835727"
+    },
+    "publishedAt": "2026-10-04T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35973",
+    "contentHash": "ecc5b670f98ecc63e2654b59f8f78c1fd0551a48"
+  },
+  {
+    "id": "nano-banana-pro:35923",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "35923",
+    "title": "Luxury Crimson Silk Gown Portrait",
+    "category": "Social Media Post",
+    "description": "A prompt for Nano Banana Pro to create an ultra-photorealistic luxury fashion portrait of a woman in a crimson silk gown, strictly preserving facial identity from a reference image.",
+    "promptText": "Use the uploaded image as the master identity reference. Create the same woman with the exact same face and facial identity ,preserve her facial structure, eyes, eyebrows, nose, lips, jawline, cheekbones, skin tone, proportions, natural asymmetry, and recognizable features with maximum accuracy. Do not redesign or beautify her face.\n\nCreate an ultra-photorealistic luxury fashion portrait of her wearing a sculptural {argument name=\"dress_color\" default=\"crimson-red\"} silk gown. The glossy silk forms enormous flowing folds that wrap elegantly around her body and rise dramatically behind her shoulders like waves, creating a striking couture silhouette. Fitted gathered waist, deep V neckline, flowing red fabric cascading downward. Long loose dark-brown wavy hair, elegant red lips, subtle refined makeup, delicate gold earrings and necklace. Warm directional studio lighting, rich deep-red textured background, realistic silk reflections, natural fabric physics, sophisticated luxury editorial campaign, highly detailed skin texture, photorealistic 8K. Front-facing composition, medium-length framing, not head-to-toe.\n\nNegative Prompt\n\nDifferent face, identity drift, facial redesign, altered facial structure, different eyes, different nose, different lips, different jawline, different cheekbones, changed skin tone, exaggerated beauty, plastic skin, over-smoothed skin, excessive makeup, face distortion, asymmetrical eyes, warped features, unnatural expression, extra limbs, extra fingers, malformed hands, deformed body, unrealistic anatomy, distorted fabric, stiff fabric, fake silk, low detail, blurry face, CGI look, cartoon, illustration, 3D render, oversharpening, excessive retouching, watermark, logo, text, cropped face, side profile.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "dress_color",
+        "default": "crimson-red"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1791182790056_9gl44y_HTtdvqCa0AAtuzb.jpg",
+        "alt": "Luxury Crimson Silk Gown Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Elvorya",
+      "url": "https://x.com/Elvorya"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Elvorya/status/2106380334623600930"
+    },
+    "publishedAt": "2026-10-03T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35923",
+    "contentHash": "b52708cb3447c598e85423e7239e8f90da045e0d"
   },
   {
     "id": "nano-banana-pro:35921",
@@ -235,39 +386,6 @@
     "publishedAt": "2026-10-03T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35922",
     "contentHash": "b2b61b74b776b4f1465caf0062e0a0b21bf63eaa"
-  },
-  {
-    "id": "nano-banana-pro:35923",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "35923",
-    "title": "Luxury Fashion Portrait Identity",
-    "category": "Social Media Post",
-    "description": "Detailed prompt for creating an ultra-photorealistic luxury fashion portrait preserving facial identity from a reference image, featuring a crimson silk gown and specific negative prompts.",
-    "promptText": "Use the uploaded image as the master identity reference. Create the same woman with the exact same face and facial identity ,preserve her facial structure, eyes, eyebrows, nose, lips, jawline, cheekbones, skin tone, proportions, natural asymmetry, and recognizable features with maximum accuracy. Do not redesign or beautify her face.\n\nCreate an ultra-photorealistic luxury fashion portrait of her wearing a sculptural crimson-red silk gown. The glossy silk forms enormous flowing folds that wrap elegantly around her body and rise dramatically behind her shoulders like waves, creating a striking couture silhouette. Fitted gathered waist, deep V neckline, flowing red fabric cascading downward. Long loose dark-brown wavy hair, elegant red lips, subtle refined makeup, delicate gold earrings and necklace. Warm directional studio lighting, rich deep-red textured background, realistic silk reflections, natural fabric physics, sophisticated luxury editorial campaign, highly detailed skin texture, photorealistic 8K. Front-facing composition, medium-length framing, not head-to-toe.\n\nNegative Prompt\n\nDifferent face, identity drift, facial redesign, altered facial structure, different eyes, different nose, different lips, different jawline, different cheekbones, changed skin tone, exaggerated beauty, plastic skin, over-smoothed skin, excessive makeup, face distortion, asymmetrical eyes, warped features, unnatural expression, extra limbs, extra fingers, malformed hands, deformed body, unrealistic anatomy, distorted fabric, stiff fabric, fake silk, low detail, blurry face, CGI look, cartoon, illustration, 3D render, oversharpening, excessive retouching, watermark, logo, text, cropped face, side profile.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1791101710272_yrquhx_HTtdvqCa0AAtuzb.jpg",
-        "alt": "Luxury Fashion Portrait Identity",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Elvorya",
-      "url": "https://x.com/Elvorya"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Elvorya/status/2106380334623600930"
-    },
-    "publishedAt": "2026-10-03T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35923",
-    "contentHash": "65c228be92a113399db6f73bfed4d55a5978b7fb"
   },
   {
     "id": "nano-banana-pro:35847",
@@ -5701,143 +5819,5 @@
     "publishedAt": "2026-09-10T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=34125",
     "contentHash": "69b5600c19119088676dcca57b58cbab4ce81de9"
-  },
-  {
-    "id": "nano-banana-pro:34119",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "34119",
-    "title": "Neon Bokeh Romantic Night Portrait",
-    "category": "Social Media Post",
-    "description": "A romantic professional portrait prompt for a couple leaning on a silver railing at night, featuring warm lighting and a colorful neon bokeh background.",
-    "promptText": "Use the uploaded image as the only facial reference and preserve 100% facial identity, hairstyle, beard, skin tone, and natural skin texture.\nA medium shot of a {argument name=\"subjects\" default=\"young South Asian couple\"} posing together, leaning against a silver metal railing at night. On the left, a man with a neatly groomed beard, dark hair, and a lean build wears a dark maroon button-up shirt and a wristwatch, resting his chin on his right hand. Beside him, a young woman with a slender build, soft facial features, and long dark hair, wears a beige floral-patterned traditional tunic, also resting her chin on her hands. Both are looking directly at the viewer with gentle smiles. They are centered in the frame against a blurred background of vibrant green foliage illuminated by {argument name=\"background lighting\" default=\"colorful, bokeh-style neon lights in pink, blue, and yellow hues\"}. The {argument name=\"lighting atmosphere\" default=\"lighting is soft and warm\"}, highlighting their faces and creating a romantic, inviting atmosphere. The composition is well-balanced, utilizing the railing as a foreground element to create depth. The style is that of a professional portrait, characterized by clear focus on the subjects and a creamy, out-of-focus background.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subjects",
-        "default": "young South Asian couple"
-      },
-      {
-        "name": "background lighting",
-        "default": "colorful, bokeh-style neon lights in pink, blue, and yellow hues"
-      },
-      {
-        "name": "lighting atmosphere",
-        "default": "lighting is soft and warm"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789108572336_48oxgo_HR0WkAdb0AAajmd.jpg",
-        "alt": "Neon Bokeh Romantic Night Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Dilshad Hussain",
-      "url": "https://x.com/DilshadAI1"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/DilshadAI1/status/2097857839675167184"
-    },
-    "publishedAt": "2026-09-10T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=34119",
-    "contentHash": "47cb537b49e5d6185cddaf18e24fe308a1605814"
-  },
-  {
-    "id": "nano-banana-pro:33922",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "33922",
-    "title": "Steam Locomotive Collapsing Bridge Storm",
-    "category": "YouTube Thumbnail",
-    "description": "An epic, high-stakes cinematic prompt featuring a vintage steam train crossing a collapsing bridge during a violent ocean storm.",
-    "promptText": "Ultra-realistic cinematic 4K image of a {argument name=\"locomotive\" default=\"colossal vintage steam locomotive racing across an enormous collapsing railway bridge\"} above a violent ocean during a {argument name=\"weather\" default=\"supernatural-looking but physically grounded thunderstorm\"}. The train is captured at the exact moment a massive wave crashes against the bridge far below, while lightning illuminates the entire scene. Hundreds of rain droplets freeze sharply in the foreground, reflecting tiny fragments of light. The locomotive is incredibly detailed: weathered black steel, polished brass components, glowing furnace light, realistic steam escaping from valves, wet metallic surfaces, spinning wheels throwing water and sparks against the rails.\n\nThe environment is breathtaking and immense: towering dark cliffs disappearing into storm clouds, a distant lighthouse barely visible through heavy rain, enormous waves exploding against rocks, dramatic clouds spiraling across the sky, mist flowing beneath the bridge, broken sections of railway disappearing into the distance. A {argument name=\"mystery detail\" default=\"lone passenger silhouette is visible through one warmly illuminated train window\"}, creating mystery and emotional storytelling.\n\nComposition uses an extreme low-angle perspective from beside the railway tracks, making the locomotive feel enormous and powerful. Strong leading lines from the rails pull the eye directly toward the train. Lightning provides dramatic backlighting and creates a brilliant rim around the locomotive and steam. Warm interior light contrasts naturally against the cold storm atmosphere. Photorealistic materials, physically accurate reflections, realistic rain behavior, atmospheric perspective, volumetric mist, cinematic depth of field, subtle motion blur on the wheels while the locomotive remains razor sharp, HDR lighting, natural film grain, incredible micro-details, realistic scale, professional Hollywood cinematography, 35mm anamorphic lens aesthetic, high dynamic range, breathtaking visual storytelling, crystal-clear 4K Ultra HD, no text, no logo, no watermark, no artificial-looking CGI, no cartoon style.\n\nThe key visual: gigantic train + collapsing bridge + ocean storm + lightning + tiny human silhouette = scale, danger, mystery, and cinematic storytelling in one frame.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "locomotive",
-        "default": "colossal vintage steam locomotive racing across an enormous collapsing railway bridge"
-      },
-      {
-        "name": "weather",
-        "default": "supernatural-looking but physically grounded thunderstorm"
-      },
-      {
-        "name": "mystery detail",
-        "default": "lone passenger silhouette is visible through one warmly illuminated train window"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788936827490_f9cp94_HRtrkUNa8AAqt_Z.jpg",
-        "alt": "Steam Locomotive Collapsing Bridge Storm",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "WeWant Mars",
-      "url": "https://x.com/Madhuribhai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Madhuribhai/status/2097388333886546238"
-    },
-    "publishedAt": "2026-09-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33922",
-    "contentHash": "af05d9fc6beda75de40fb994c8e2fd48eb839dfe"
-  },
-  {
-    "id": "nano-banana-pro:33918",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "33918",
-    "title": "Cinematic Astronaut on Damaged Spacecraft",
-    "category": "YouTube Thumbnail",
-    "description": "A structured prompt for generating a poignant scene of a lonely astronaut inside a decaying spacecraft, overlooking a partially destroyed Earth.",
-    "promptText": "{\n  \"scene\": \"{argument name=\"scene\" default=\"A damaged spacecraft drifting through deep space with Earth visible in the distance, partially destroyed\"}\",\n  \"subject\": \"{argument name=\"subject\" default=\"A lonely astronaut sitting inside the spacecraft\"}\",\n  \"action\": \"The astronaut hesitates to answer an incoming holographic call from Earth\",\n  \"detail\": \"{argument name=\"detail\" default=\"The holographic screen shows an incoming call labeled 'MOM'\"}\",\n  \"style\": \"cinematic masterpiece, emotional storytelling, photorealistic\",\n  \"atmosphere\": \"heartbreaking mood, deep space silence, blue ambient glow\",\n  \"camera\": \"ARRI Alexa 65, 35mm anamorphic lens, cinematic framing\",\n  \"quality\": [\n    \"film grain\",\n    \"volumetric lighting\",\n    \"IMAX quality\",\n    \"8K resolution\",\n    \"award-winning cinematography\"\n  ]\n}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "scene",
-        "default": "A damaged spacecraft drifting through deep space with Earth visible in the distance, partially destroyed"
-      },
-      {
-        "name": "subject",
-        "default": "A lonely astronaut sitting inside the spacecraft"
-      },
-      {
-        "name": "detail",
-        "default": "The holographic screen shows an incoming call labeled 'MOM'"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788936825426_kcpj97_HRtoEddbUAA6nJP.png",
-        "alt": "Cinematic Astronaut on Damaged Spacecraft",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Compound Learning - Tech | Science",
-      "url": "https://x.com/SheBuildsAI_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/SheBuildsAI_/status/2097384480181018752"
-    },
-    "publishedAt": "2026-09-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33918",
-    "contentHash": "85324da16a2c00a59d4e992f459bcc11d81313fe"
   }
 ]
