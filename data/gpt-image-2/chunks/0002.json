@@ -1,5 +1,361 @@
 [
   {
+    "id": "gpt-image-2:34323",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34323",
+    "title": "Stylized Pine Tree Game Asset Sheet",
+    "category": "Game Asset",
+    "description": "Creates a clean multi-view concept sheet for a stylized conifer tree game asset with scale references for 3D modeling workflows.",
+    "promptText": "Goal: Create a clean game-asset concept sheet for a stylized conifer tree labeled {argument name=\"asset code\" default=\"TREE01\"}, designed for conversion into a 3D model.\n\nCanvas: Wide horizontal concept-art sheet on a plain light gray background, soft studio lighting, no environment, no decorative border. Use muted natural colors and a painterly semi-realistic fantasy game style.\n\nLayout: Show exactly 4 tree depictions: 1 large front view on the left, 1 large side view in the center, 1 large back view on the right, and 1 smaller game-scale view near the bottom center. Add exactly 2 scale references: a vertical height ruler beside the large front tree labeled {argument name=\"tree height\" default=\"9 m\"}, and a gray human silhouette beside the small game view with a short vertical ruler labeled {argument name=\"human height\" default=\"1.8 m\"}. Place view labels under the trees: {argument name=\"front label\" default=\"FRONT\"}, \"SIDE\", \"BACK\", and \"GAME VIEW\".\n\nSubject details: The tree is a tall spruce or fir with a rugged straight trunk, visible gray-brown cracked bark, exposed root flares at the base, and layered drooping branch tiers. The foliage is dense but irregular, made of jagged clustered needle masses in desaturated olive green, dark pine green, and shadowed charcoal green. The silhouette is triangular and natural, with a pointed crown, asymmetric branch lengths, some bare branch sections visible near the trunk, and broad lower boughs tapering upward. The side view should look narrower with overlapping branches, while the back view should reveal similar foliage massing and trunk structure from behind. The small game view should repeat the same tree design at reduced scale, next to the human silhouette for proportion.\n\nTypography and annotations: Put the asset code in the upper-left corner in a simple serif typeface, large and black. Use small black serif labels beneath each view. Rulers are thin dark gray vertical lines with small caps and understated measurement text.\n\nConstraints: Keep the sheet uncluttered and orthographic, with consistent scale among the three large views. Use exactly the 4 tree depictions and 2 scale references described, avoid extra plants, rocks, UI elements, textures, logos, watermarks, or background scenery.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "asset code",
+        "default": "TREE01"
+      },
+      {
+        "name": "tree height",
+        "default": "9 m"
+      },
+      {
+        "name": "human height",
+        "default": "1.8 m"
+      },
+      {
+        "name": "front label",
+        "default": "FRONT"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789113121277_cw7svi_HR4q5UYawAA41AM.jpg",
+        "alt": "Stylized Pine Tree Game Asset Sheet",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "OrcDev",
+      "url": "https://x.com/orcdev"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/orcdev/status/2098161885757505957#reversed-0"
+    },
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34323",
+    "contentHash": "282277b1379bf01dd31c6a2f0c670d1b2da57743"
+  },
+  {
+    "id": "gpt-image-2:34328",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34328",
+    "title": "Futuristic Sky Runner Robot",
+    "category": "Game Asset",
+    "description": "A colorful 3D game concept scene showing a cute robot jumping across floating platforms in a Tokyo-inspired sky city.",
+    "promptText": "Create a vibrant 3D stylized endless-runner game concept image in a wide 16:9 cinematic frame. Show one cute humanoid robot mascot mid-jump from behind and slightly to the side, running across floating futuristic platforms high above the clouds. The robot has a glossy white rounded helmet with a black face screen and cyan glowing eyes, small antenna, segmented cream-and-gray limbs, blue gloves and oversized blue boots, plus a flowing {argument name=\"scarf color\" default=\"golden yellow\"} scarf trailing dramatically in the wind. The world is a cheerful futuristic {argument name=\"city setting\" default=\"Tokyo-inspired sky city\"} at {argument name=\"time of day\" default=\"warm sunrise\"}, with soft golden light, bright blue sky, stylized puffy clouds, and a distant skyline. Include one snow-capped {argument name=\"background landmark\" default=\"Mount Fuji\"} on the left horizon, one sleek elevated bullet train curving along a rail on the left, and one large red-and-white torii gate platform on the right. The runner path is made of clean cream-colored floating platforms with turquoise-blue tile panels, rounded edges, and colorful support pillars emerging from clouds. Place exactly seven floating collectible crystal gems ahead of the robot along the path: one large pink diamond crystal near the center, one orange crystal, one blue crystal, one magenta crystal, one small pale yellow crystal, one small orange crystal, and one tiny cyan crystal farther into the distance. Use a polished Pixar-like game art style, soft global illumination, saturated colors, crisp toy-like materials, dynamic perspective, strong sense of motion, and no text, UI, logos, or watermarks.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "scarf color",
+        "default": "golden yellow"
+      },
+      {
+        "name": "city setting",
+        "default": "Tokyo-inspired sky city"
+      },
+      {
+        "name": "time of day",
+        "default": "warm sunrise"
+      },
+      {
+        "name": "background landmark",
+        "default": "Mount Fuji"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789113123406_rth3un_HR1obqIbEAEQZcr.jpg",
+        "alt": "Futuristic Sky Runner Robot",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "野生の男",
+      "url": "https://x.com/yasei_no_otoko"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/yasei_no_otoko/status/2097948657018720560#reversed-0"
+    },
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34328",
+    "contentHash": "26a0304b693918e96f7508038cf3ad407883cb32"
+  },
+  {
+    "id": "gpt-image-2:34673",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34673",
+    "title": "Rainy Day Cafe Portrait Prompt",
+    "category": "Profile / Avatar",
+    "description": "A prompt for a photorealistic candid portrait of a woman outside a cafe on a rainy afternoon using GPT Image 2.",
+    "promptText": "A photorealistic candid outdoor portrait of a young woman standing outside a cozy urban café on a rainy afternoon. She has long dark-brown hair styled in a loose low ponytail, with a few soft face-framing strands naturally falling across her face. She gazes gently toward the side with a calm, dreamy expression.\n\nShe wears a warm beige oversized knit sweater layered over a delicate white blouse, paired with a long dark-brown pleated skirt. A deep burgundy-red shoulder bag hangs naturally from her shoulder. She holds a transparent umbrella in one hand while the other hand gently adjusts a strand of hair near her face.\n\nShe stands beside a rain-covered café walkway, surrounded by wet pavement, small green plants, warm café windows, subtle city buildings, and softly glowing street lights in the background. Tiny raindrops are visible on the umbrella, while reflections of the warm lights shimmer beautifully across the wet ground.\n\nNatural smartphone photography, candid lifestyle aesthetic, soft rainy-day atmosphere, realistic skin texture, detailed individual hair strands, authentic knit and fabric textures, natural reflections, shallow depth of field, cinematic ambient lighting, gentle vintage film grain, muted earthy color palette with warm café highlights, soft atmospheric contrast, peaceful romantic mood, highly photorealistic, vertical 4:5 composition.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789458722601_rz9w51_HSOdjGKa4AAbTSR.jpg",
+        "alt": "Rainy Day Cafe Portrait Prompt",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Selina",
+      "url": "https://x.com/selinatasnim1"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/selinatasnim1/status/2099695088435888248"
+    },
+    "publishedAt": "2026-09-15T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34673",
+    "contentHash": "5211af43368b71928d09956b0a9156432d60fda5"
+  },
+  {
+    "id": "gpt-image-2:34655",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34655",
+    "title": "Parisian Cafe Golden Hour Portrait",
+    "category": "Profile / Avatar",
+    "description": "A prompt for generating a cinematic portrait of a woman at a Parisian cafe using GPT Image 2.",
+    "promptText": "A beautiful East Asian young woman sitting outdoors at a cozy, rustic Parisian cafe table. She has long, wavy brown hair styled in a half-updo tied with a large beige satin ribbon bow. She rests her chin on her hand, looking thoughtfully into the distance with gentle, natural makeup. She is wearing a cream-colored ribbed knit cardigan sweater and a brown plaid vintage skirt. On the dark round wooden table sits a bouquet of terracotta-orange chrysanthemums wrapped in newsprint paper and an open magazine. Warm late-afternoon golden hour sunlight creates soft glows and bokeh in the background. Cinematic photography, shallow depth of field, warm color palette, aesthetic, high resolution, 8k.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789458722637_p8tryy_HSKS_zAXsAQd8ZM.jpg",
+        "alt": "Parisian Cafe Golden Hour Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Julia",
+      "url": "https://x.com/juliaevee"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/juliaevee/status/2099402030057951331"
+    },
+    "publishedAt": "2026-09-14T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34655",
+    "contentHash": "b77a5317a8b70d86d50ee20e081e9aff3458a1a4"
+  },
+  {
+    "id": "gpt-image-2:34683",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34683",
+    "title": "Mirror Ballet Pointe Portrait",
+    "category": "Social Media Post",
+    "description": "Prompt for a ballet studio portrait featuring a woman in pointe shoes before a mirror, emphasizing black and white balance and natural daylight.",
+    "promptText": "Subject:\nBlack ballet before mirror\n\nMain Subject:\nVertical full-body photo of adult woman standing on toes in pointe shoes before large mirror in white ballet studio. Person centered in frame.\n\nPerson & Expression:\nLight brown straight bob below chin with thin bangs. Oval face contour, brown eyes looking over shoulder, natural eyebrows, small nose, pale peach lips. Straight back, quietly looking at camera.\n\nClothing & Pose:\nBlack sports bra with thin straps crossing on back, black high-cut ballet shorts. Pale peach-white satin pointe shoes with ribbons crossing ankles. Back turned obliquely, hands lightly clasped behind waist, both feet in pointe. Black top and bottom. Thin straps cross on back.\n\nBackground & Light:\nFloor-to-ceiling mirror, wooden ballet bar, white walls and large window, reflective gray-white floor. Strong daylight from left window creates long rectangular shadows. Main background light is soft light from window side.\n\nComposition & Camera:\n4:5 vertical composition, camera at slightly low rear-oblique angle for full-body shot. Person central, margin from crown to toes, mirror vertical seam placed left. Sharp focus on body lines and pointe shoes. Person fills frame, focused on subject, slight background blur.\n\nTexture & Style:\nPhotorealistic dance photography. Clean depiction of black stretch fabric, satin shoes and ribbons, mirror, glossy floor, natural muscle shadows.\n\nNegative:\nDo not omit both feet in pointe and crossed back straps; do not make it normal upright stance.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789458731043_o7xhcn_HR1pWJqaYAESEv9.jpg",
+        "alt": "Mirror Ballet Pointe Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Prompt アトリエ｜AI画像プロンプト",
+      "url": "https://x.com/CyberTotal2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CyberTotal2026/status/2099759874318184905"
+    },
+    "publishedAt": "2026-09-15T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34683",
+    "contentHash": "6706b81b794ba32dfd253ebf3dfa1400a517f38a"
+  },
+  {
+    "id": "gpt-image-2:34682",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34682",
+    "title": "Parisian Café Vintage Portrait",
+    "category": "Social Media Post",
+    "description": "A prompt for creating a photorealistic image of a stylish woman sitting at a vintage Parisian café, wearing a cream cardigan and plaid skirt, with dried flowers on the table and nostalgic atmosphere.",
+    "promptText": "A vertical, full-body photograph of a stylish young East Asian woman sitting at a vintage outdoor café table, looking down at an open magazine with a soft smile. She is wearing a cream-colored long-sleeved ribbed cardigan and a long, pleated multi-colored brown plaid skirt. Her long wavy brown hair is half-up in a beige bow. On the round wooden table sits a bouquet of dried rust-orange flowers wrapped in newspaper. She wears cream-colored high heels, seated on a wooden chair. The background features a dark Parisian-style café exterior with warm indoor lights glowing through the glass, soft natural daylight, nostalgic atmosphere, highly detailed, photorealistic, 8k resolution.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789458729544_pvewiy_HSOUWudWoAAMXde.jpg",
+        "alt": "Parisian Café Vintage Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Julia",
+      "url": "https://x.com/juliaevee"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/juliaevee/status/2099684987511648391"
+    },
+    "publishedAt": "2026-09-15T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34682",
+    "contentHash": "d309a610ffaf95a71661775b6e5de15b1b94a643"
+  },
+  {
+    "id": "gpt-image-2:34685",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34685",
+    "title": "GPT Image 2 Prompt: Fashion Magazine Scrapbook",
+    "category": "Social Media Post",
+    "description": "A prompt to create a corkboard collage featuring photos of a specific person styled like a Japanese women's fashion magazine scrapbook.",
+    "promptText": "Create a corkboard covered with many photos of the person in the attached image, arranged in the style of a Japanese women's fashion magazine scrapbook.\nDisplay the corkboard filling the entire screen.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789458731824_az7oix_HSN4rMZbEAA0TGJ.jpg",
+        "alt": "GPT Image 2 Prompt: Fashion Magazine Scrapbook",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "モヒにゃぱん",
+      "url": "https://x.com/nyapan_mohy"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/nyapan_mohy/status/2099654540102652111"
+    },
+    "publishedAt": "2026-09-15T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34685",
+    "contentHash": "ddbb8509e18b933a1125e8a94f85345004569269"
+  },
+  {
+    "id": "gpt-image-2:34686",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34686",
+    "title": "Duck Wearing Crab Shell Hat",
+    "category": "Social Media Post",
+    "description": "A two-panel aesthetic image showing a realistic photo of a white duck wearing a crab shell as a hat, paired with a cute hand-drawn illustration of the same scene and inspirational text overlays.",
+    "promptText": "Create a vertical two-panel composite image featuring a white duck wearing a crab shell as a hat.\n\nTop Panel: A photorealistic, high-angle shot of a plump white domestic duck standing on a beige woven rug with black leaf patterns. The duck is facing forward and has a large, cooked orange-red crab carapace resting on its head like a wide-brimmed hat. The background shows a bright, sunlit room with light grey tiled floors, soft shadows, and a glimpse of a dark wooden furniture leg in the upper right. Handwritten-style white text overlay on the left reads \"A Brighter Day\". Small serif text on the top right reads \"Small Creatures Big Happiness\" followed by a dash. Small serif text on the middle right reads \"Same Weird Hat A Kinder Tomorrow\" followed by a dash.\n\nBottom Panel: A minimalist hand-drawn illustration on a textured off-white paper background. It depicts the same duck character in a sketchy ink style with watercolor accents—white body, orange beak and feet, and the orange crab shell hat. Two small motion lines appear near the hat. To the left, handwritten black text reads \"Good Things Ahead\" with a small underline. To the right, small serif text reads \"A Softer World For Silly Creatures\" followed by a dash and a small blue heart symbol.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789458732438_lso3k5_HSKMXT-awAAt1mm.jpg",
+        "alt": "Duck Wearing Crab Shell Hat",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1789458732374_r847ai_HSKMXT4bIAA0Qts.jpg",
+        "alt": "Duck Wearing Crab Shell Hat",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1789458732416_v81g54_HSKMXT4bMAAn4G3.jpg",
+        "alt": "Duck Wearing Crab Shell Hat",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小小东",
+      "url": "https://x.com/xiaoxiaodong01"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/xiaoxiaodong01/status/2099394716060233898#reversed-0"
+    },
+    "publishedAt": "2026-09-14T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34686",
+    "contentHash": "4a86d3adac4fc217e92602a4073dddddb6f8fbfd"
+  },
+  {
+    "id": "gpt-image-2:34688",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34688",
+    "title": "Elegant Spring Equinox Poster",
+    "category": "Social Media Post",
+    "description": "A minimalist poster design combining a cinematic photo of a woman in Hanfu with a white horse and a serene illustrated section featuring traditional calligraphy and ample negative space.",
+    "promptText": "A vertical diptych composition. The top half is a cinematic photograph of a woman in flowing pale green Hanfu and a bamboo hat, seen from behind, reaching up to touch white cherry blossoms on a branch while standing next to a saddled white horse. Soft sunlight filters through the trees with falling petals. The bottom half features a vast expanse of textured beige paper negative space (liubai). In the lower right quadrant, there is a small, delicate illustration or cutout echoing the scene above: the tiny figure of the woman and horse under a branch. Next to this small vignette is vertical Chinese text reading \"Spring Equinox\" and a poetic couplet about walking with flowers.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789458732423_1pk9ag_HSKD2DwbAAAKWZE.jpg",
+        "alt": "Elegant Spring Equinox Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1789458732591_56k0cn_HSKD4CbbAAArm83.jpg",
+        "alt": "Elegant Spring Equinox Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1789458732598_490tn5_HSKD6QeaoAA7RfG.jpg",
+        "alt": "Elegant Spring Equinox Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1789458733580_8i3sfl_HSKD79dbwAA9uXA.jpg",
+        "alt": "Elegant Spring Equinox Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小小东",
+      "url": "https://x.com/xiaoxiaodong01"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/xiaoxiaodong01/status/2099385632305090994#reversed-0"
+    },
+    "publishedAt": "2026-09-14T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34688",
+    "contentHash": "b47bc137437e5aa3521e0cd630be9b405828acf8"
+  },
+  {
     "id": "gpt-image-2:34677",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6370,390 +6726,5 @@
     "publishedAt": "2026-09-08T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33806",
     "contentHash": "5c8c4a3c4bd25e0f24218da84c9b220c7db86813"
-  },
-  {
-    "id": "gpt-image-2:33795",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33795",
-    "title": "SNS Giveaway Campaign Banner",
-    "category": "Social Media Post",
-    "description": "A versatile template for generating flat 2D promotional banners for SNS giveaway campaigns, featuring bright colors and cute pop designs.",
-    "promptText": "[Campaign Information]\n- Campaign Name: {argument name=\"campaign name\" default=\"My Favorite Item Giveaway Campaign\"}\n- Prize List: {argument name=\"prizes\" default=\"Tonkotsu ramen, tea, tissue boxes\"}\n- Entry Conditions/Steps: {argument name=\"entry steps\" default=\"Follow & Repost\"}\n\n[Image Quality/Direction/Composition]\n- Style: Pop, bright, and friendly SNS promotional banner. Eye-catching design.\n- Subject: Illustrations or realistic product photos of {argument name=\"prizes\" default=\"Tonkotsu ramen, tea, tissue boxes\"} popping out of a gift box, surrounded by glamorous ribbons and star decorations, depicted in the center.\n- Color/Tone: A color scheme that creates excitement, such as bright pastel pink, yellow, and light blue.\n- Text Information (for GPT-image / Nano Banana Pro): The text {argument name=\"campaign name\" default=\"My Favorite Item Giveaway Campaign\"} at the top and simple participation steps like {argument name=\"entry steps\" default=\"Follow & Repost\"} at the bottom are clearly laid out in a thick and cute round font.\n- Lighting: Flat, uniform, bright lighting with softened shadows.\n\n[Strict Layout and Output Constraints (Required)]\n- Output the finished design itself filling the entire screen. Background and scene depictions (walls, spaces, shadows, etc.) inside the design may follow the instructions in the text.\n- Prohibited items: Photos of the finished poster in a frame, photos of it on a wall, mockup photos on a desk or paper, perspective distortion of paper edges, or drop shadows.\n- Output the finished flat 2D design itself, filling the entire canvas. Scene elements inside the design (walls, rooms, shadows) described above are allowed. Absolutely NO photo-of-a-poster mockups: no picture frames, no poster-on-wall or poster-on-desk shots, no perspective warp or drop shadow around the artwork's edges.\n\n- Aspect Ratio: \"--ar 1:1\" or \"--ar 16:9\"",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "campaign name",
-        "default": "My Favorite Item Giveaway Campaign"
-      },
-      {
-        "name": "prizes",
-        "default": "Tonkotsu ramen, tea, tissue boxes"
-      },
-      {
-        "name": "entry steps",
-        "default": "Follow & Repost"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788855318614_lhrntb_HRqxQLYakAE3uBb.jpg",
-        "alt": "SNS Giveaway Campaign Banner",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "AI Guide-Note - 実務で使えるAI活用メディア",
-      "url": "https://x.com/AIGuideNote"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AIGuideNote/status/2097183473601569109"
-    },
-    "publishedAt": "2026-09-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33795",
-    "contentHash": "e523a80fb5b818133ec58de7056ce082c61d9ab0"
-  },
-  {
-    "id": "gpt-image-2:33802",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33802",
-    "title": "Korean Girl Golden Hour Cafe Cinematic Portrait",
-    "category": "Social Media Post",
-    "description": "A beautiful cinematic prompt describing a cozy afternoon cafe scene with detailed character focus and soft aesthetic illustration accents.",
-    "promptText": "A {argument name=\"ethnicity\" default=\"Korean\"} girl with long, soft, dark brown hair is sitting at a cozy outdoor café during warm golden hour, gently holding a ceramic cup of coffee near her lips. She is wearing an elegant cream-colored ribbed cardigan with a fitted square neckline and matching high-waisted cream trousers, creating a soft and classy look. A small cream shoulder bag hangs naturally from her shoulder while she sits comfortably on a beautiful woven rattan chair. Beside her sits a cute little girl wearing a beige hijab, a modest cream blouse with delicate lace details, and a flowing brown skirt. The little girl is also holding a warm cup and looking happily toward the {argument name=\"ethnicity\" default=\"Korean\"} girl. In front of them is a round marble café table with a cup of coffee, a freshly baked pastry, and a small glass vase filled with delicate white flowers. The background features lush green trees, a charming café exterior, warm sunlight, and beautiful cinematic bokeh. Add subtle white hand-drawn hearts, sparkles, and a smiling sun around them for a cute dreamy atmosphere, with highly detailed faces, natural expressions, soft lighting, photorealistic quality, and a cozy aesthetic.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "ethnicity",
-        "default": "Korean"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788855297078_9v75gp_HRqZgyHa8AAwvCC.jpg",
-        "alt": "Korean Girl Golden Hour Cafe Cinematic Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "liana",
-      "url": "https://x.com/Lianaalane"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Lianaalane/status/2097157373936935051"
-    },
-    "publishedAt": "2026-09-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33802",
-    "contentHash": "8506d3cdc8d6d0aab13e2aaf38f0e7c6448dbf65"
-  },
-  {
-    "id": "gpt-image-2:33871",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33871",
-    "title": "Toddler Fast Food Comedy Still",
-    "category": "Social Media Post",
-    "description": "A photorealistic vertical viral-video frame of a toddler in a fast-food uniform beside a smiling woman, with a bold comedic subtitle.",
-    "promptText": "Create a vertical 9:16 photorealistic social-media video still inside a bright fast-food burger restaurant. Show exactly 2 people at a wooden counter: a cute toddler boy on the left, standing and facing slightly toward the camera, wearing a white paper fast-food hat with red stripes, a light blue T-shirt, and a white apron with small red restaurant lettering; and a smiling adult woman on the right, leaning forward with both hands on the counter, wearing a blue denim jacket over a gray shirt, shoulder-length wavy blonde hair, and a wedding ring. The woman looks warmly at the child with an amused, encouraging expression, while the child has a calm, slightly mischievous face. Add a bold centered subtitle over the lower middle of the image reading {argument name=\"caption text\" default=\"Please\"} in large white rounded letters with a black drop shadow. Background: softly blurred fast-food interior with exactly 2 red pendant lamps hanging from the ceiling, 1 large digital menu board in the upper left, 1 glowing circular neon sign behind them, tiled wall, red seating, and daylight through windows. Use shallow depth of field, realistic skin texture, natural indoor lighting, warm colors, candid viral comedy-video framing, no extra characters, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "caption text",
-        "default": "Please"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788855351520_ixvyvq_HRqV4HRbYAApz1l.jpg",
-        "alt": "Toddler Fast Food Comedy Still",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Adnan",
-      "url": "https://x.com/Adnan_Ai4"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Adnan_Ai4/status/2097154992985735340#reversed-0"
-    },
-    "publishedAt": "2026-09-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33871",
-    "contentHash": "e76f2cfa771d64e3435c0a4eb7001f238a0cdc7f"
-  },
-  {
-    "id": "gpt-image-2:33841",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33841",
-    "title": "Paris Café Travel Scrapbook Collage",
-    "category": "Social Media Post",
-    "description": "Generates a romantic vertical Paris travel-journal collage featuring a woman at a Seine-side café with Eiffel Tower views and handwritten scrapbook details.",
-    "promptText": "Goal: Create a premium vertical 9:16 Paris travel-journal scrapbook collage with a warm, cinematic editorial aesthetic, featuring {argument name=\"character description\" default=\"a stylish young woman with long naturally wavy dark-brown hair in a high ponytail, soft glam makeup, hoop earrings, olive button-up shirt, and black jeans\"} at a Paris café by the Seine during golden hour.\n\nCanvas: Vertical 9:16 composition, high-resolution, layered scrapbook poster. Use warm sunset light, creamy beige paper textures, soft shadows, elegant travel-magazine color grading, and realistic paper collage depth.\n\nMain scene: The upper two-thirds is a photorealistic cinematic café terrace beside the Seine River. The woman sits at a small round brass café table, leaning her cheek on one hand and smiling gently toward the viewer. Behind her are the Eiffel Tower, the Seine, an arched bridge, river boats, Parisian buildings, leafy tree branches, and a glowing pastel orange-pink sunset sky. At the far left, include a black-green café awning reading {argument name=\"cafe awning text\" default=\"CAFÉ DE PARIS\"}, a chalkboard sign, flower boxes with pink flowers, warm interior café lights, and classic woven bistro chairs.\n\nVisible table items: Include exactly 6 discrete tabletop items in the main scene: 1 white coffee cup with small Paris café lettering, 1 saucer, 1 croissant on a plate, 1 small glass vase with white daisies, 1 vintage black camera, and 1 beige travel book labeled “Good Trips Good Mood.”\n\nScrapbook lower section: The bottom third becomes a tactile collage on textured cream paper. Include exactly 4 layered paper elements: 1 large watercolor-style postcard/photo print on the lower left, 1 torn checklist note on the lower right, 1 muted sage-green torn paper patch beneath the checklist, and 1 Paris postal stamp graphic near the lower center. Add subtle tape, deckled edges, wrinkles, and shadows.\n\nInset postcard image: The lower-left print shows the same woman from behind at the same café table, looking toward the Eiffel Tower across the Seine. Render it as a watercolor/travel sketch with soft paper texture, deckled border, muted pastel colors, lamp posts, leafy branches, boats, bridge, and Paris skyline.\n\nChecklist note: On the torn note at lower right, handwrite the heading {argument name=\"checklist heading\" default=\"Same Place Different Feelings\"}. Include exactly 4 checked checklist items: “Good Coffee,” “Beautiful Views,” “Happier Me,” and “More to Explore.” Add a simple line drawing of a camera beneath the checklist and a taped sprig of tiny white flowers along the right edge.\n\nHandwritten text elements: Add exactly 6 separate handwritten/printed text areas across the collage: 1 café awning text “CAFÉ DE PARIS,” 1 chalkboard phrase “Bon café / Belles journées / Grands rêves” with a small heart, 1 upper-right quote {argument name=\"upper right quote\" default=\"Paris is always a good idea\"} with a heart, 1 lower-left note “Travel / Breathe / Be Happy” with a heart, 1 lower-right checklist heading and four checked items, and 1 bottom quote {argument name=\"bottom quote\" default=\"Collect moments for a brighter tomorrow\"} with a heart. Also include 1 circular postal stamp reading “PARIS FRANCE” with an Eiffel Tower icon and wavy postmark lines.\n\nVisual style: Blend photorealistic luxury travel photography in the main scene with handcrafted scrapbook textures below. Use golden-hour highlights, shallow depth of field, romantic Paris atmosphere, soft bokeh, natural skin tones, realistic reflections on the table and river, and delicate black handwritten script.\n\nConstraints: Keep the composition elegant and uncluttered, preserve the exact counts of objects and text areas, make all text legible, avoid extra people in the foreground, avoid watermarks or logos, and maintain a cohesive beige, sage, pink, brass, and sunset-gold palette.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character description",
-        "default": "a stylish young woman with long naturally wavy dark-brown hair in a high ponytail, soft glam makeup, hoop earrings, olive button-up shirt, and black jeans"
-      },
-      {
-        "name": "cafe awning text",
-        "default": "CAFÉ DE PARIS"
-      },
-      {
-        "name": "checklist heading",
-        "default": "Same Place Different Feelings"
-      },
-      {
-        "name": "upper right quote",
-        "default": "Paris is always a good idea"
-      },
-      {
-        "name": "bottom quote",
-        "default": "Collect moments for a brighter tomorrow"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788855332350_f4vd4s_HRqTUTwb0AANsfI.jpg",
-        "alt": "Paris Café Travel Scrapbook Collage",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Mehwish kiran",
-      "url": "https://x.com/mehwishkiran07"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/mehwishkiran07/status/2097150684202508325#reversed-0"
-    },
-    "publishedAt": "2026-09-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33841",
-    "contentHash": "83106819a3d63c7810a62edf9e80a5dead640d53"
-  },
-  {
-    "id": "gpt-image-2:33810",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33810",
-    "title": "Candid Street Portrait",
-    "category": "Social Media Post",
-    "description": "A prompt for generating a photorealistic, candid street-style portrait of a young woman in bright natural sunlight on a city boulevard, capturing a peaceful, dreamy mood.",
-    "promptText": "A photorealistic candid street-style portrait of a young woman standing outdoors on an elegant city boulevard in bright natural sunlight. She has long, soft, slightly wavy dark brown hair flowing over her shoulders, with a few loose strands gently blown across her face. Her head is tilted slightly upward toward the sunlight, eyes softly closed, with a peaceful, dreamy expression and relaxed lips.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788855302760_o0ho9p_HRqOdj-a4AAQ54C.jpg",
-        "alt": "Candid Street Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Monami",
-      "url": "https://x.com/Themonamix"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Themonamix/status/2097145224191701287"
-    },
-    "publishedAt": "2026-09-08T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33810",
-    "contentHash": "a0ec7f53833f748dcf161756abe1b26df0ff2301"
-  },
-  {
-    "id": "gpt-image-2:33862",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33862",
-    "title": "Five-Panel Cafe Influencer Collage",
-    "category": "Social Media Post",
-    "description": "Generates a realistic five-photo lifestyle collage of a young cafe influencer in cozy bedroom, cafe, restaurant, and car settings.",
-    "promptText": "Goal: Create a realistic social-media-style photo collage of {argument name=\"character name\" default=\"LINH NHI\"}, a young East Asian cafe lifestyle influencer, shown in five candid portrait photos with soft warm lighting, natural skin texture, long brown hair with wispy bangs, a cozy cream cardigan/hoodie, delicate necklace, and feminine casual tank tops. The mood is cute, playful, slightly dreamy, and intimate, like a personal Instagram photo dump.\n\nCanvas: Vertical 4:5 collage, approximately 1000 x 1250 pixels, with thin white dividers between panels. Use a realistic smartphone photography look, shallow depth of field, warm indoor cafe and bedroom lighting, subtle film grain, and soft color grading.\n\nLayout: Use exactly 5 photo panels. Top row has 2 large panels of equal width. Bottom row has 3 smaller vertical panels of equal width. Add a small watermark in the lower-left corner of several panels: a blue dot followed by handwritten white text reading \"LINHNHI\".\n\nPanel count and contents:\n1. Top-left panel: Bedroom selfie angle. The woman wears a cream knit cardigan over a light floral camisole, sits near a bed and wall photos, looks off to the side with a coy expression, one finger touching her lips. Background includes a lamp, flowers, bedding, small wall prints, and a note that reads \"Good Things Take Time\" with a heart.\n2. Top-right panel: Cafe table portrait by a window. She wears a white ribbed tank top with a tiny \"alo\" logo and a pale gray zip hoodie slipped off one shoulder. She winks, sticks her tongue out slightly, and holds up a large peace sign close to the camera. In front of her is an iced coffee cup with printed text \"Good Coffee Better Days\" and a small heart. Window text in the background reads \"Coffee Brunch Lifestyle\" with a heart.\n3. Bottom-left panel: Cafe portrait at a table. She wears a gray cardigan, rests her cheek on one hand, looks sideways with a bored or thoughtful expression. A laptop edge is visible in the foreground, background is softly blurred.\n4. Bottom-middle panel: Restaurant/cafe dinner setting. She wears a cream cardigan and covers her mouth and cheeks with both sweater-covered hands, eyes looking sideways, shy expression. A bowl of food, chopsticks, and a drink are visible at the bottom edge; warm bokeh lights behind her.\n5. Bottom-right panel: Car or window-seat portrait. She wears a cream hoodie over a pink camisole, eyes closed or looking down, one hand on her forehead as if tired or pensive. Soft daylight through the window, black seat and city blur in background.\n\nVisual style: Hyper-realistic Asian influencer photography, soft beauty-retouched but believable, natural facial expressions, warm beige and cream palette, cozy cafe aesthetic, glossy hair, gentle blush, no harsh shadows, no dramatic studio lighting.\n\nConstraints: Keep the same woman consistent across all 5 panels. Use exactly the 5 poses listed, exactly the 2-over-3 collage structure, thin white borders, and the recurring small blue-dot \"LINHNHI\" watermark. Avoid extra panels, extra people, distorted hands, unreadable main text, or cartoon/anime styling.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "LINH NHI"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788855345926_ebtqm9_HRooQrEWoAAjgcd.jpg",
-        "alt": "Five-Panel Cafe Influencer Collage",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "🇻🇳 Gdragon_stk 🇸🇪",
-      "url": "https://x.com/zaizai36077041"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/zaizai36077041/status/2097032853410197878#reversed-0"
-    },
-    "publishedAt": "2026-09-07T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33862",
-    "contentHash": "1539587fb7f49be0ae65018165f29fc5a5f40aff"
-  },
-  {
-    "id": "gpt-image-2:33827",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33827",
-    "title": "Motorcycle Lifestyle Golden Hour",
-    "category": "Social Media Post",
-    "description": "A cinematic golden-hour portrait of a man seated at a rustic café with a high-performance sport motorcycle.",
-    "promptText": "Use the uploaded photo as the facial identity reference.\n\nCreate an ultra-realistic cinematic lifestyle portrait of an adult man seated outdoors beside a premium sport motorcycle at a rustic countryside café during {argument name=\"lighting\" default=\"golden hour\"}.\n\nGive the man a normal, neat short haircut with naturally trimmed sides and a clean hairline. Avoid exaggerated fades, undercuts, spikes, or overly styled hair. Keep the hairstyle simple, mature, and realistic.\n\nDress him in a {argument name=\"clothing\" default=\"fitted black motorcycle riding suit consisting of a premium black leather riding jacket with subtle white, blue, and neon-yellow accent panels\"}, a plain black high-neck inner shirt, black fitted riding trousers, protective black riding gloves, and tall black motorcycle boots with understated sporty details.\n\nPose him seated casually on a wooden café chair beside a rustic wooden table. His posture should appear calm, confident, and relaxed, with one hand resting naturally near his lap and the other positioned comfortably around the chair or thigh. Add stylish dark rectangular sunglasses.\n\nPlace a {argument name=\"motorcycle\" default=\"large high-performance blue, white, red, and black sport motorcycle\"} prominently beside him, angled slightly toward the camera. Include realistic aerodynamic fairings, windshield, mirrors, headlights, exposed suspension components, large front brake discs, racing-style wheels, carbon-fiber details, and premium mechanical textures.\n\nOn the wooden café table, place a white ceramic cup of coffee on a saucer, a neatly folded newspaper, riding gloves or small motorcycle accessories, and subtle everyday café details.\n\nSet the scene on a stone-paved terrace surrounded by traditional dry-stone walls. In the background, show expansive green countryside with rolling hills, grazing fields, scattered mature trees, farmhouses, stone fences, and distant hills illuminated by warm late-afternoon sunlight.\n\nUse beautiful golden-hour lighting coming from the side, producing warm highlights on the rider, reflective leather jacket, motorcycle bodywork, and countryside. Maintain realistic shadows, crisp foreground details, soft atmospheric depth in the distance, and natural cinematic color grading.\n\nComposition: vertical portrait orientation, full-to-three-quarter body framing, rider positioned on the right side, motorcycle dominating the left side, countryside landscape clearly visible in the background.\n\nStyle: ultra-realistic professional photography, premium motorcycle lifestyle editorial, cinematic golden-hour lighting, highly detailed leather and metal textures, realistic skin, natural proportions, sharp focus, subtle depth of field, sophisticated masculine atmosphere, photorealistic 8K quality.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "lighting",
-        "default": "golden hour"
-      },
-      {
-        "name": "clothing",
-        "default": "fitted black motorcycle riding suit consisting of a premium black leather riding jacket with subtle white, blue, and neon-yellow accent panels"
-      },
-      {
-        "name": "motorcycle",
-        "default": "large high-performance blue, white, red, and black sport motorcycle"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788855315991_fu2mxh_HRoPcryW0AAjyAz.jpg",
-        "alt": "Motorcycle Lifestyle Golden Hour",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Abkr Sadiq",
-      "url": "https://x.com/abs_uiux"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/abs_uiux/status/2097006253889425566"
-    },
-    "publishedAt": "2026-09-07T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33827",
-    "contentHash": "847369a0ce9bd69f128645e292a43e9f7002ee25"
-  },
-  {
-    "id": "gpt-image-2:33819",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33819",
-    "title": "Woman by Flower-Covered Table at Night",
-    "category": "Social Media Post",
-    "description": "A highly detailed, structured prompt for a photorealistic portrait of a woman sitting peacefully by a candle-lit table filled with flowers at night.",
-    "promptText": "Subject:\n{argument name=\"subject\" default=\"Profile in flower light\"}\n\nMain Body:\n{argument name=\"main scene\" default=\"A vertical photograph of an adult woman sitting at a flower-covered table in the center-right of a nighttime interior, resting her cheek on her palm and looking out the window.\"}\n\nPerson/Expression:\nQuiet profile expression with eyes looking to the right and mouth closed. Rounded oval face, thin natural eyebrows, wide brown eyes, small nose, and pale pink lips. Light brown hair in a casual high updo with thin bangs and wisps along the cheeks.\n\nClothing/Pose:\n{argument name=\"clothing\" default=\"An off-white dress with small red-pink floral patterns and thin ribbon ties at the shoulders.\"} Sitting in a chair, resting the right elbow on the table and supporting the right cheek with the palm. Left arm near the tabletop.\n\nBackground/Lighting:\nWhite daisies, light purple flowers, and pink roses in the foreground and sides. A small candle on the left, a faceted warm glass lamp on the right, with curtains and thin fairy lights in the background. Warm light from both sides softly envelops the face, with smooth shadows.\n\nComposition/Camera:\n3:4 vertical composition, chest-up photo from seated eye level. The subject is large in the center-right, with the supporting hand and flowers in the lower foreground, leaving space for the light on the left. Focus on the face, with soft bokeh on the foreground flowers and background lights.\n\nTexture/Style:\nPhotorealistic live-action photograph. Soft and detailed rendering of small floral fabric, petals, wisps of hair, and the warm glow of candles and glass lamps.\n\nNegative:\nDo not look at the camera; do not omit flowers or warm lighting.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "Profile in flower light"
-      },
-      {
-        "name": "main scene",
-        "default": "A vertical photograph of an adult woman sitting at a flower-covered table in the center-right of a nighttime interior, resting her cheek on her palm and looking out the window."
-      },
-      {
-        "name": "clothing",
-        "default": "An off-white dress with small red-pink floral patterns and thin ribbon ties at the shoulders."
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788855311117_pld22z_HRNbIytacAAUcpI.jpg",
-        "alt": "Woman by Flower-Covered Table at Night",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2096948348930638211"
-    },
-    "publishedAt": "2026-09-07T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33819",
-    "contentHash": "42ee3749bddad5c42ab683cb63f04c2712bc5e2b"
-  },
-  {
-    "id": "gpt-image-2:33856",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33856",
-    "title": "Anime Schoolgirl in Convenience Store",
-    "category": "Social Media Post",
-    "description": "Generates a vertical modern anime illustration of a bespectacled schoolgirl holding a bottled drink in a bright convenience store.",
-    "promptText": "Create a polished vertical anime illustration of {argument name=\"character name\" default=\"a Japanese high school girl\"} standing inside a bright convenience store beside a refrigerated drink shelf. She is the single main subject, shown from mid-thigh up, facing slightly left while looking off to the left with a soft curious expression and parted lips. She has {argument name=\"hair color\" default=\"glossy black\"} hair with wispy bangs and exactly 2 long braids falling over her chest, warm brown eyes, fair skin with gentle blush, and thin round wire-frame glasses. Her school uniform has exactly 5 visible clothing components: a short-sleeved white sailor blouse, a navy sailor collar, white striped trim, a large deep red ribbon bow at the chest, and a dark navy pleated skirt. Add exactly 3 main accessories/held objects: round glasses on her face, a large navy shoulder school bag hanging from her left shoulder, and a clear plastic bottled tea drink with a pale yellow-green label held in both hands. Place her next to a right-side refrigerated shelf filled with neatly arranged bottled drinks and small Japanese-style price tags, with the labels softly detailed but not meant to be readable. The background should show a convenience-store entrance or window with bright daylight, blurred greenery and street shapes outside, and cool reflective interior surfaces. Use {argument name=\"visual style\" default=\"high-quality modern anime, semi-realistic lighting, delicate linework, soft painterly shading\"}, shallow depth of field, luminous backlighting, subtle rim light on the hair, natural skin tones, crisp focus on the girl, and a calm summer-after-school atmosphere. Use a vertical 2:3 composition, no text overlay, no watermark, no extra characters.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "a Japanese high school girl"
-      },
-      {
-        "name": "hair color",
-        "default": "glossy black"
-      },
-      {
-        "name": "visual style",
-        "default": "high-quality modern anime, semi-realistic lighting, delicate linework, soft painterly shading"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788855342483_m4mq9n_HRnXb0rbsAEGwFK.jpg",
-        "alt": "Anime Schoolgirl in Convenience Store",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Harf_Done",
-      "url": "https://x.com/half_done_yet"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/half_done_yet/status/2096944172024684593#reversed-0"
-    },
-    "publishedAt": "2026-09-07T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33856",
-    "contentHash": "7cddd2b67af05154b6f5e1426fdeab9ed806b890"
   }
 ]
