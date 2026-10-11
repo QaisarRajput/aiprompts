@@ -1,5 +1,297 @@
 [
   {
+    "id": "gpt-image-2:31519",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31519",
+    "title": "Character Pose and Angle Modification",
+    "category": "Comic / Storyboard",
+    "description": "A series of image-to-image modification prompts designed to adjust a character's pose to reclining and changing the camera angle to a top-down view while maintaining character consistency.",
+    "promptText": "1. Generate an image of a {argument name=\"subject\" default=\"woman\"} in a lateral recumbent position, facing the backrest of a sofa.\n2. The attached image is the model {argument name=\"character name\" default=\"Person A\"} that I generated with AI. Change the woman lying on the sofa to {argument name=\"character name\" default=\"Person A\"}.\n3. Change the angle to a top-down view from the ceiling. Do not change the positional relationship between the sofa and {argument name=\"character name\" default=\"Person A\"}.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "woman"
+      },
+      {
+        "name": "character name",
+        "default": "Person A"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786781699214_g4kwby_HPsfWFXa4AAkqSB.jpg",
+        "alt": "Character Pose and Angle Modification",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786781699238_se61pa_HPsfWFabUAAH5tf.jpg",
+        "alt": "Character Pose and Angle Modification",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786781699249_l5etz7_HPsfWFXaoAAaEkl.jpg",
+        "alt": "Character Pose and Angle Modification",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786781700490_jj3vd3_HPsfWFaagAAESkI.jpg",
+        "alt": "Character Pose and Angle Modification",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "りぉみ",
+      "url": "https://x.com/riomimimimi"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/riomimimimi/status/2088297321415246153"
+    },
+    "publishedAt": "2026-08-14T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31519",
+    "contentHash": "b5fabb890ea9a8f0578f7e8cebce5ad2ef9214bc"
+  },
+  {
+    "id": "gpt-image-2:31544",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31544",
+    "title": "Cozy Anime Reading Room Nap",
+    "category": "Comic / Storyboard",
+    "description": "Generates a warm overhead anime-style illustration of a sleepy person napping on a sofa in a book-filled cozy room.",
+    "promptText": "Create a warm, cozy hand-drawn anime illustration in a soft watercolor-and-ink style, viewed from a high overhead three-quarter angle inside a small reading room. The scene shows exactly one young person with {argument name=\"hair color\" default=\"messy dark brown hair\"} sleeping curled on a cream-colored three-seat sofa, wearing loose {argument name=\"pajama pattern\" default=\"white pajamas with thin pale blue vertical stripes\"}, barefoot, hugging exactly two beige rabbit plush toys against their chest, with their head resting on one white pillow at the right end of the couch. The room has honey-toned wooden plank flooring, beige walls, and gentle afternoon sunlight entering through one centered window behind the sofa with sheer white curtains and heavier cream curtains. Include exactly two tall bookcases, one on the left wall and one on the right wall, both filled with neatly arranged books; add two small wall shelves on the upper left with books, a potted plant, and a framed picture. Add exactly three visible potted plants: one on the windowsill, one on a shelf, and one trailing ivy plant near the upper right bookcase. Place a wooden desk and one simple wooden chair on the left side, with an open notebook or papers on the desk. On the floor in front of the sofa, include one woven rectangular rug with fringed edges, exactly one pair of socks lying near the sofa, one small closed book near the rug center, and one brown leather satchel bag to the right. Add one upholstered armchair at the lower right corner, partially cropped. Use a gentle nostalgic palette of cream, tan, caramel wood, muted greens, and soft shadows; linework should be delicate and slightly sketchy, with detailed textures on fabric, rug, books, and wood grain. The mood should feel peaceful, intimate, and sleepy, like a quiet afternoon nap in a home library. No text, no watermark, no modern electronics, no harsh contrast.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "messy dark brown hair"
+      },
+      {
+        "name": "pajama pattern",
+        "default": "white pajamas with thin pale blue vertical stripes"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786781726445_p1hxor_HPsNpL7b0AAxmOR.jpg",
+        "alt": "Cozy Anime Reading Room Nap",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "じょにがたロボ",
+      "url": "https://x.com/jonigata_ai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/jonigata_ai/status/2088278557722337438#reversed-0"
+    },
+    "publishedAt": "2026-08-14T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31544",
+    "contentHash": "a4fad2d661921e256ff3ec11bac17d91ee4a35fd"
+  },
+  {
+    "id": "gpt-image-2:31543",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31543",
+    "title": "Quiet Hamster Manga Page",
+    "category": "Comic / Storyboard",
+    "description": "A structured prompt for generating a delicate grayscale Japanese manga page with a kimono-clad man gently addressing a small hamster in a traditional garden room.",
+    "promptText": "Goal: Create a grayscale Japanese manga page about {argument name=\"character name\" default=\"Hamster who suddenly came back\"}, featuring a quiet traditional room, a tiny hamster, and a beautiful long-haired man in a kimono gently trying to coax it.\n\nCanvas: Vertical manga page, portrait orientation, clean white margins, black panel borders, delicate pencil-and-ink shading, soft screentone gradients, high-detail shoujo manga style. Add a small handwritten-style Japanese title at the top left reading 「ひっくりかえったハムスター」 and a page number at the top right reading 「1/6」. Add a small footer centered at the bottom reading 「はむwithOpus4.6」.\n\nLayout: Use exactly 5 panels arranged from top to bottom. Panel 1 is a wide establishing panel across the top, showing a traditional Japanese veranda and garden. Panel 2 row has two side-by-side panels: left wider panel with the man seen from behind sitting on the veranda facing the hamster; right narrower panel with a closer view of the man by the sliding door. Panel 3 is a wide horizontal close-up panel of the man speaking softly. Panel 4 is a final wide, low horizontal panel showing the hamster rolling over.\n\nPanel details: Panel 1: an empty tatami-and-wood Japanese room opening onto a sunlit garden with hydrangeas, leafy trees, a bamboo fence, and a stone lantern. On the right, an open shoji doorway reveals shelves with books and stacked items inside. On the wooden veranda near the right side sits a small round hamster. Above it place a vertical ellipsis 「・・・・・・」. Dappled sunlight and leaf shadows fall across the floor.\n\nPanel 2 left: the long-haired man sits with his back to the viewer on the veranda, wearing a loose dark haori over a pale kimono. He has very long pale hair braided down his back. The tiny hamster faces him from several feet away. The garden foliage fills the background. Panel 2 right: close portrait of the man standing or leaning by the shoji frame, one hand touching the sliding door. He has pale messy bangs partly covering tired, gentle eyes, a long side braid, a composed slightly melancholic expression, and elegant facial features. Add a vertical speech balloon with 「・・・・・・おや。」.\n\nPanel 3: wide close-up of the man from chest up, angled slightly left, with soft white bokeh/snowlike dots in the background. His expression is kind, calm, and mildly concerned. Use exactly 2 vertical speech balloons: left balloon text 「話したくなくても、ここにいるよ。」 and right balloon text 「・・・・・・話したくなったら、ここにいるよ。」.\n\nPanel 4: minimal pale background with floor line, showing the fluffy hamster lying on its side/back after rolling over, small motion lines near its body. It has round glossy black eyes, tiny ears, soft fur, and an adorably defeated expression. Add large vertical Japanese sound effect text 「ころん」 on the right.\n\nSubject details: The male character should look like an ethereal adult bishounen with {argument name=\"hair color\" default=\"very pale blond or white\"} long messy hair, a thick braid over one shoulder or down his back, slim build, and wearing {argument name=\"outfit\" default=\"a white kimono with a dark haori\"}. The hamster should be {argument name=\"hamster appearance\" default=\"a small round fluffy white hamster with black eyes\"}.\n\nVisual style: Fine monochrome manga line art, elegant shoujo proportions, delicate crosshatching, soft gray washes, detailed botanical background, peaceful atmosphere, subtle humor, readable Japanese lettering, no color.\n\nConstraints: Use exactly 5 panels, exactly 1 hamster, exactly 1 human character, exactly 5 visible text elements inside the story panels: 「・・・・・・」, 「・・・・・・おや。」, 「話したくなくても、ここにいるよ。」, 「・・・・・・話したくなったら、ここにいるよ。」, and 「ころん」. Do not add extra characters, extra animals, modern objects, watermarks, or English dialogue.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "Hamster who suddenly came back"
+      },
+      {
+        "name": "hair color",
+        "default": "very pale blond or white"
+      },
+      {
+        "name": "outfit",
+        "default": "a white kimono with a dark haori"
+      },
+      {
+        "name": "hamster appearance",
+        "default": "a small round fluffy white hamster with black eyes"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786781724457_1nwigj_HPrqpPcakAEpmTQ.jpg",
+        "alt": "Quiet Hamster Manga Page",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786781724434_3ahm9y_HPrqpPTb0AE5NLA.jpg",
+        "alt": "Quiet Hamster Manga Page",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786781724480_25vv1v_HPrqpPTbsAAHblH.jpg",
+        "alt": "Quiet Hamster Manga Page",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786781725388_7rh6zo_HPrqpPWaQAAeUQP.jpg",
+        "alt": "Quiet Hamster Manga Page",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "🐹🐹",
+      "url": "https://x.com/hmst_yyyy"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/hmst_yyyy/status/2088239378854502588#reversed-0"
+    },
+    "publishedAt": "2026-08-14T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31543",
+    "contentHash": "aebd55714b2b3c6fbf274ad1eb0496d0dd4f2dba"
+  },
+  {
+    "id": "gpt-image-2:31540",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31540",
+    "title": "Monochrome Summer Hamster Manga Page",
+    "category": "Comic / Storyboard",
+    "description": "Generates a detailed black-and-white Japanese manga page featuring a straw-hatted hamster traveling through a coastal town and wooded valley.",
+    "promptText": "Goal: Create a monochrome manga page titled {argument name=\"manga title\" default=\"谷戸の夏休み〜八月一日（土）〜\"}, page indicator “1/5”, adapting a quiet summer-vacation short story into a detailed Japanese comic page.\n\nCanvas: Vertical manga manuscript page, black-and-white ink with grayscale screentone, clean white margins, thin black outer border around each panel, reading as a polished printed manga page. Top margin shows the title at upper left and “1/5” at upper right. Bottom center credit reads “はむ（台本：Opus5）”.\n\nLayout: Use exactly 4 panels arranged in three tiers: Panel 1 is a wide full-width establishing shot across the top; Panel 2 is a wide full-width panel across the middle; Panels 3 and 4 are two equal vertical panels side by side on the bottom row.\n\nMain character: A small fluffy hamster-like creature named {argument name=\"character name\" default=\"はむ\"}, round body, soft fur, tiny feet, black bead eyes, wearing a broad straw hat with a dark ribbon, carrying a small vintage travel suitcase. The character appears exactly 3 times: once in Panel 1 sitting at a railroad crossing, once in Panel 2 climbing steps, and once in Panel 3 seen from behind in a wooded path. Panel 4 contains no character, only the empty path.\n\nPanel details:\n1. Top panel: A coastal railway crossing at Kamakura/Koshigoe in midsummer, with crossing gates, signal lights, wooden posts, station sign, rails, and the bright ocean beyond. A large cumulus cloud floats over the sparkling sea; distant coastline visible. The hamster sits near the foreground facing the sea, suitcase beside it. Include two vertical caption boxes: right box says “八月一日（土）はれ”; left box says “江ノ電を降りると、線路の向こうに海が光っていた”.\n2. Middle panel: The hamster walks up a stone stairway bordered by hydrangeas and dense summer greenery, handrail on the left, old houses and a narrow lane visible at the top of the stairs. Include one vertical caption box on the right saying “改札を出て、潮の匂いのする坂をのぼる”.\n3. Bottom-left panel: A shaded old stone path leading toward a tiled-roof gate or small temple entrance deep in a quiet valley, dappled sunlight through trees. The hamster stands in the foreground from behind holding the suitcase and looking ahead. Include one vertical caption box on the left saying “蝉の声が一段深くなる。谷戸の奥。お屋敷はそこにある”. Include one rounded thought bubble near the hamster saying “門のところに……誰か、立っている？”.\n4. Bottom-right panel: A narrow, empty, darker cut-through path with steep stone walls and thick foliage on both sides, strong shadow and bright opening in the distance. Include one vertical caption box on the right saying “途中から人気がなくなって、切通しの暗がりを抜ける”. Add small sound-effect text in the foliage reading “ジイ……ジイ……”.\n\nVisual style: Highly detailed hand-drawn manga linework, realistic backgrounds with nostalgic Showa-era atmosphere, cinematic perspective, delicate hatching, screentone shading, high contrast summer sunlight, quiet mysterious mood, no color. The page should feel like a gentle literary slice-of-life mystery set in Kamakura during summer.\n\nConstraints: Preserve all visible Japanese text exactly as written. Do not add extra panels, characters, speech balloons, modern UI elements, watermarks, or color. Keep the page readable as Japanese manga with vertical caption boxes.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "manga title",
+        "default": "谷戸の夏休み〜八月一日（土）〜"
+      },
+      {
+        "name": "character name",
+        "default": "はむ"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786781723091_gtsk6j_HPq8JhDaoAATfLH.jpg",
+        "alt": "Monochrome Summer Hamster Manga Page",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786781722638_lgs8ug_HPq8JhMa8AAhYCX.jpg",
+        "alt": "Monochrome Summer Hamster Manga Page",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786781722645_lnzd88_HPq8JhBa0AAsQEw.jpg",
+        "alt": "Monochrome Summer Hamster Manga Page",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786781723586_z3ha6y_HPq8JhKbIAAQa78.jpg",
+        "alt": "Monochrome Summer Hamster Manga Page",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "🐹🐹",
+      "url": "https://x.com/hmst_yyyy"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/hmst_yyyy/status/2088188259000259033#reversed-0"
+    },
+    "publishedAt": "2026-08-14T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31540",
+    "contentHash": "bd11c1b10d0c5054aaf8e126eb53e12f2c927e4b"
+  },
+  {
+    "id": "gpt-image-2:31492",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31492",
+    "title": "Commercial Storyboard Story Sheet",
+    "category": "Comic / Storyboard",
+    "description": "A comprehensive instruction for generating a professional 6-panel commercial storyboard sheet, complete with camera directions and visual descriptions.",
+    "promptText": "Create a premium professional 20-second commercial storyboard sheet in 3:4 landscape, designed like a real advertising-agency production storyboard.\n\n- Exactly 6 panels, 2×3 grid\n- Each panel = 3–4 seconds\n- Dark deep-red header: NO. | VISUAL | ACTION / DIALOGUE\n- Large cinematic visual area + narrow white information area\n- White numbered circle in upper-left of every visual\n- Thin black/gray borders, clean white background\n- Sharp, highly legible text\n- Photorealistic commercial photography\n- No extra panels, title, or decorative elements\n- One finished storyboard sheet only\n\nSTORY: “THE LAST 20 MINUTES”\n\nA young Indonesian office worker rushes through the city after work, discovers a MIXUE outlet, takes a spontaneous five-minute break, and enjoys a Strawberry Mi-Shake.\n\nRUSH → PAUSE → DISCOVERY → ORDER → CREATION → HAPPY RESET\n\nPANEL 1 — 0–3s\nCAMERA: Fast Tracking Shot, Handheld\nACTION: Indonesian woman, mid-20s, shoulder-length dark hair, white blouse, navy trousers, white sneakers and black laptop bag rushes through a busy sidewalk while checking her phone.\nDIALOGUE: “Aduh, tinggal sebentar lagi.”\nVISUAL: Busy Indonesian street, office workers, motorcycles, traffic and late-afternoon light with energetic motion.\n\nPANEL 2 — 3–6s\nCAMERA: Slowdown → Smooth Dolly In\nACTION: She notices a MIXUE strawberry drink poster, stops, smiles and decides to enter.\nDIALOGUE: “Lima menit masih cukup.”\nVISUAL: Motion-blurred city around her while she remains sharp. Bright red MIXUE storefront and strawberry drink visible through glass. Cinematic “world stops” effect.\n\nPANEL 3 — 6–9s\nCAMERA: Medium Shot, Smooth Counter Push-In\nACTION: She enters and orders from a cheerful young male cashier in a black MIXUE uniform and cap.\nDIALOGUE:\nCustomer: “Kak, Strawberry Mi-Shake satu.”\nCashier: “Siap!”\nVISUAL: Authentic Indonesian MIXUE interior, menu boards, POS counter and natural interaction.\n\nPANEL 4 — 9–12s\nCAMERA: Over-the-Counter Close-Up\nACTION: Cashier prepares the Strawberry Mi-Shake, pouring fresh strawberry mixture and creamy milk into a transparent branded cup.\nDIALOGUE: “Fresh satu buat kakak.”\nVISUAL: Premium preparation shot with red strawberry layer, creamy milk, realistic liquid movement, condensation and stainless-steel equipment.\n\nPANEL 5 — 12–16s\nCAMERA: Extreme Close-Up, Slow Motion Food Cinematography\nACTION: Creamy topping, strawberry pieces and glossy strawberry sauce are added.\nDIALOGUE: —\nVISUAL: Macro hero shot of strawberry sauce flowing over cream, fresh fruit, condensation, rich red-and-white contrast and shallow depth of field.\n\nPANEL 6 — 16–20s\nCAMERA: Hero Product Shot → Rack Focus\nACTION: Cashier hands her the drink. She takes a sip, relaxes, checks her phone, realizes she still has time and sits by the window.\nDIALOGUE:\nCustomer: “Untung sempat.”\nCashier: “Enjoy, kak.”\nVISUAL: Strawberry drink foreground, woman smiling in middle ground, busy city softly blurred",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786781674971_cjzodw_HPq4ZSva4AAoECb.jpg",
+        "alt": "Commercial Storyboard Story Sheet",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ÀBDŪLLÂH",
+      "url": "https://x.com/itxabdullaa"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/itxabdullaa/status/2088184132962509159"
+    },
+    "publishedAt": "2026-08-14T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31492",
+    "contentHash": "fb554a1cd2c5ebe2b7ce5fa74037d2f6c073174d"
+  },
+  {
+    "id": "gpt-image-2:31652",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31652",
+    "title": "Spotify Miniature Car Ad Scene",
+    "category": "Product Marketing",
+    "description": "Generates a cinematic photorealistic miniature advertising scene with a branded vintage car, driver, wet street reflections, and a giant blurred Spotify logo backdrop.",
+    "promptText": "Create an ultra-photorealistic cinematic miniature advertising scene for {argument name=\"brand name\" default=\"Spotify\"}: a glossy black vintage convertible toy car driving on a rain-soaked miniature city street at night, with neon green branding accents. The car has exactly 3 visible brand marks: one large green circular Spotify logo on the front grille, one green Spotify icon plus the word “Spotify” on the left door, and one small green Spotify icon on the visible wheel hub. Show exactly 2 glowing round headlights, 2 visible wheels with green tire rims, chrome mirrors and bumper details, and a black leather interior. A small realistic male driver sits in the car, with short dark hair, glasses, and a trimmed beard, wearing a dark jacket and holding the steering wheel while looking forward. In the background, place one enormous out-of-focus circular green Spotify logo towering like a billboard, plus soft bokeh city lights and miniature greenery. The road should be wet and highly reflective, with green and warm gold reflections on the asphalt, shallow depth of field, macro lens perspective, dramatic low-angle composition, cinematic lighting, realistic reflections, tilt-shift miniature scale, premium commercial photography look, no extra text besides the brand word on the car.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "brand name",
+        "default": "Spotify"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786867832792_jw1c9h_HPyNts7XkAAh1o0.jpg",
+        "alt": "Spotify Miniature Car Ad Scene",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "EZZOU AI",
+      "url": "https://x.com/EZZOUAI"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/EZZOUAI/status/2088700149216231508#reversed-0"
+    },
+    "publishedAt": "2026-08-15T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31652",
+    "contentHash": "8d92d9963aeffa5659a646ae62b4a8ba5cea70ad"
+  },
+  {
     "id": "gpt-image-2:31593",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6703,292 +6995,5 @@
     "publishedAt": "2026-08-10T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31170",
     "contentHash": "f983314810eaf81b522724f4ebfb117500b94fac"
-  },
-  {
-    "id": "gpt-image-2:31241",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31241",
-    "title": "Polished Anime Noble Portrait",
-    "category": "Comic / Storyboard",
-    "description": "Transforms a rough character sketch into a finished regal anime bust portrait with ornate jewelry, costume details, and preserved handwritten name/title text.",
-    "promptText": "Using REFERENCE_0 as the character base, transform the rough pencil sketch into a polished, high-resolution anime character concept portrait. Preserve the same bust-up 3/4 head angle, calm serious expression, neck length, updo hairstyle silhouette, loose side locks, and the handwritten name/title placement on the left.\n\nRendering style: clean modern anime illustration with crisp line art, soft cel shading, glossy highlights, detailed eyes, and a plain white background. Replace the sketch lines with finished color artwork.\n\nCharacter finish: give the character {argument name=\"hair color\" default=\"deep ruby red\"} hair, vivid {argument name=\"eye color\" default=\"green\"} eyes, fair skin, refined eyelashes, and a composed noble look.\n\nCostume and accessories: redesign the simple neckline into an ornate imperial high collar with cream fabric, gold filigree embroidery, and white lace ruffles. Add exactly 3 visible red gemstone accessories: 1 elaborate gold-and-red hair ornament on the bun, 1 dangling red gemstone earring, and 1 oval red gemstone brooch at the collar. Make the gold details intricate and regal but keep the original portrait composition uncluttered.\n\nText: convert the rough handwritten notes into stylized dark red calligraphy on the left, preserving exactly 2 text blocks: {argument name=\"character name\" default=\"Mariel Trust\"} near the upper left and {argument name=\"title text\" default=\"Ice Emperor\"} near the lower left. Do not add any other text.\n\nConstraints: keep the crop close to the original bust portrait, keep the background blank white, avoid changing the face direction or expression, and make the final image look like a finished character sheet illustration rather than a sketch.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "deep ruby red"
-      },
-      {
-        "name": "eye color",
-        "default": "green"
-      },
-      {
-        "name": "character name",
-        "default": "Mariel Trust"
-      },
-      {
-        "name": "title text",
-        "default": "Ice Emperor"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786523366521_37x1um_HPgatesawAAFfA0.jpg",
-        "alt": "Polished Anime Noble Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "썰렁황제",
-      "url": "https://x.com/iceemperor"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/iceemperor/status/2087448371787386972#reversed-1"
-    },
-    "publishedAt": "2026-08-12T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31241",
-    "contentHash": "66dac88abc3e1267a8b7224c5070346b4879e5d3"
-  },
-  {
-    "id": "gpt-image-2:31183",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31183",
-    "title": "Handcrafted 3D Paper-Craft Travel Diorama",
-    "category": "Comic / Storyboard",
-    "description": "Creates charming 3D paper-craft dioramas of travel scenes, perfect for storybook aesthetics and nostalgic miniature art.",
-    "promptText": "Create a premium handcrafted 3D paper-craft travel diorama centered around a little girl and her beloved doll on a magical journey.\n\nadorable young girl doll character sitting on the upper edge of the diorama with her favorite small doll companion beside her. She wears a charming vintage travel outfit — a soft knitted cardigan, pleated skirt, little boots, cute hat, and a tiny backpack. She holds a miniature travel journal or map, while her doll is dressed in a matching outfit and carries a tiny suitcase.\n\nThe main scene inside the dimensional frame should represent {argument name=\"destination\" default=\"Paris\"} as a magical miniature world. Include its most recognizable architecture and landscapes, but reinterpret everything as handcrafted toys and paper sculptures: tiny buildings, colorful streets, flowers, trees, bridges, cafés, lanterns, local decorations, and a small pathway leading into the scene.\n\nAdd charming storytelling details:\n\nThe girl’s doll sitting beside her as her travel companion\nTiny suitcase covered with travel stickers\nMiniature teddy bear peeking from the backpack\nA tiny camera hanging around the girl’s neck\nSmall postcards and stamps scattered around the frame\nA miniature paper airplane flying through the scene\nA tiny map with a dotted route\nHandcrafted flowers and plants around the foreground\n\nUse a soft pastel vintage palette of dusty pink, warm cream, terracotta, muted teal, sage green, peach, and warm brown.\n\nThe entire artwork should feel like a luxury handcrafted children’s storybook mixed with a vintage travel scrapbook, using layered cardstock, paper quilling, embossed paper, miniature clay details, fabric textures, stitched leather accents, and delicate hand-painted surfaces.\n\nMake the girl and her doll especially charming and expressive, with a cute collectible-doll aesthetic, oversized curious eyes, soft handcrafted facial details, and a warm adventurous personality.\n\nAdd a large raised plaque at the bottom reading:\n\n{argument name=\"destination\" default=\"Paris\"}\n{argument name=\"country\" default=\"France\"}\n\nSurround the composition with subtle travel elements such as a compass, postage stamps, luggage tags, leaves, postcards, and a dotted travel route.\n\nSoft warm studio lighting, realistic miniature shadows, tactile paper fibers, shallow depth of field, premium product photography, highly detailed handcrafted textures, whimsical cinematic atmosphere, elegant composition, cozy nostalgic feeling, museum-quality miniature diorama, 8K.\n\nAvoid: photorealistic humans, plastic-looking 3D characters, excessive text, clutter, harsh colors, modern objects, generic fantasy scenery.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "destination",
-        "default": "Paris"
-      },
-      {
-        "name": "country",
-        "default": "France"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786523317020_1kyoy9_HPgOPhIagAAXz6r.jpg",
-        "alt": "Handcrafted 3D Paper-Craft Travel Diorama",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786523317025_zic1cx_HPgOPg_bUAA8KLH.jpg",
-        "alt": "Handcrafted 3D Paper-Craft Travel Diorama",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "simeon-sanai",
-      "url": "https://x.com/Naiknelofar788"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Naiknelofar788/status/2087434099682427139"
-    },
-    "publishedAt": "2026-08-12T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31183",
-    "contentHash": "92139ea2f20f6708cda05ec32093941ad6e07149"
-  },
-  {
-    "id": "gpt-image-2:31192",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31192",
-    "title": "Oriental Papercut Art of Sacred Temple Bridge",
-    "category": "Comic / Storyboard",
-    "description": "A sophisticated prompt for generating a three-dimensional layered papercut illustration, depicting a woman crossing a celestial bridge toward a glowing paper temple with intricate carving textures.",
-    "promptText": "9:16 vertical version, modern oriental female dreamscape 3D papercut art, modern oriental papercut art, layered paper cut illustration, dimensional paper sculpture, intricate paper carving, paper diorama, layered shadow box, epic oriental papercraft fantasy, poetic female dreamscape, contemporary oriental art poster. The theme of the work is 'She crosses a suspended sky bridge towards the center of the temple.' The core narrative of the scene is: a young oriental woman alone embarks on a long paper-art sky bridge floating above a sea of clouds, with a giant glowing paper-sculpture temple at the end of the bridge. She moves forward step by step, finally deciding to enter the center that only appeared in her dreams. The entire scene emphasizes a pilgrimage-like sense of progression, a vast high-altitude world, and the epic momentum of a paper-art mythological scene. The main character is an adult oriental woman with a visual age of about 25, bright, brave, quiet, and firm, with a sense of solemnity when facing the unknown temple. The character has a soft oval face, clear almond eyes, and gazes intently at the distant temple with a calm and determined expression. The character is not the main large-scale close-up of the scene but an emotional anchor in a huge world, and the proportions must be significantly small. Character hairstyle and headwear: long black hair naturally loose, the ends of the hair blown by the wind into slender flowing paper ribbons, wearing light gold leaves and small star-shaped hair accessories. The headwear is exquisite and light, not complex or tall. The long hair and silk drape extend behind her in the high-altitude wind, forming clear and elegant flowing lines. Character clothing: a layered paper-art long skirt in moon white and cyan-green, the hem unfolded in layers of leaves and cloud patterns, the silk drape slender and light, partially with light gold hollowed patterns. The clothing must have a multi-layered paper structure, fine hollowed edges, paper fibers, slight creases, real paper thickness, and a high-degree of handmade cutting feel. The hem and drape extend in the wind on the bridge, but do not block the perspective direction of the bridge. The dream carrier is: a suspended paper-art sky bridge. Dream imagery includes: sky bridge, cloud sea, temple, flying birds, distant mountains, glowing cloud layers. All bridges, temples, clouds, mountains, birds, and characters must be unified in a high-quality 3D paper sculpture language; realistic characters with paper-cut backgrounds or ordinary CG architecture are not allowed. The overall paper-cut structure adopts: a surrounding dreamscape style. Composition and camera requirements: the camera is located on the bridge surface, using a low-angle or eye-level shot, high-angle top-down shots cannot be used. The line of sight extends along the bridge surface toward the distant temple, forming a strong single-point perspective and epic depth. The sky bridge extends from the foreground at the bottom of the screen to the far center, leading directly to the temple. The bridge width is moderate but visually extremely long, with exquisite hollowed railings, suspension chains, carvings, and paper-art components on both sides. The character is located in a small position in the middle-lower part of the bridge, facing away from or semi-facing away from the camera, walking towards the distant temple. The character must be significantly smaller than the bridge and the temple to highlight the oppressive sense of the scene and the scale of the bridge. The main subject of the scene is an extremely long and narrow suspended paper-art sky bridge. The bridge body floats above an infinite sea of clouds, and the bridge surface is composed of silver-white, moon-white, and light-gold details, with rich oriental hollowed patterns, paper-sculpted railings, layered structures, and translucent edges. The bridge is not an ordinary small bridge but like a sacred bridge leading to the center of a divine realm, with exaggerated length and strong depth, making the viewer feel the distance and the sense of high-altitude danger. In the distance is a huge, multi-layered glowing paper-sculpted temple. The volume of the temple is much larger than the person and even much larger than the bridge entrance porch, possessing a clear sense of oppression and divine scale. The temple is composed of multiple halls, arches, towers, corridors, and a central glowing entrance, with a complex and exquisite structure, layered and situated between the sea of clouds and the mountains. There is a glowing doorway or main hall entrance at the center of the temple, becoming the final visual focus. The temple should be like the ultimate center in a dream, not a common courtyard building. On both sides of the bridge are a huge sea of clouds and high-altitude white space. The sea of clouds is composed of a large number of paper layers of different thicknesses, forming surging layers and a massive sense of volume. Distant paper-art mountains rise from the clouds, the peaks are cyan and misty blue, with fine gold-line hollowed decorations. A few birds may fly by in the high sky to enhance the sense of scale and airspace, but do not stack too many. The overall color scheme is: moon white, cyan-green, silver white as primary colors, with a small amount of light gold accents. Moon white is used for the bridge body, bright parts of the temple, outer layers of character clothing, and highlights of the sea of clouds; cyan-green is used for distant mountains, inner layers of clothing, and partial decorations; silver white is used for temple highlights, bridge surface highlights, and the sky atmosphere; light gold is only used for railing chains, hollowed patterns, clothing outlines, and partial highlights. The overall look must be bright, transparent, and clear, not gray, not darkened, not overall blueish, and not yellowish. Light and paper texture: bright daylight with a blend of cold and warm tones at high altitude illuminates the sky bridge and the temple, the edges of the bridge surface are slightly translucent, the shadow layers of the temple paper are clear, and the paper fibers and layered structures are exquisite and obvious. The distant temple entrance emits a soft but strong light, extending toward the foreground along the bridge. The bridge railings, character's shoulders, hair strands, and skirt edges have soft rim lighting. The paper surface must have clearly visible fiber textures, manual cutting marks, slight creases, layered shadows, and translucent edges, overall looking like a high-quality museum-grade paper sculpture art installation. The atmosphere of the image is: epic, solemn, sacred, vast, quiet, and firm. The focus is not on exaggerated character postures, but on creating a strong sense of pilgrimage and oppression through the extremely long sky bridge, giant temple, massive sea of clouds, and high-altitude space. The scene must look like a paper-art mythological epic scene, not an ordinary dreamscape.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786523325239_kgwky8_HPgI0YQaAAAiKQs.jpg",
-        "alt": "Oriental Papercut Art of Sacred Temple Bridge",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "李岳",
-      "url": "https://x.com/liyue_ai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/liyue_ai/status/2087428220547481880"
-    },
-    "publishedAt": "2026-08-12T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31192",
-    "contentHash": "b8c56c57c53bed6da31059631a01d7a4856efa25"
-  },
-  {
-    "id": "gpt-image-2:31216",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31216",
-    "title": "Professional 3D Animated Storyboard Sheet",
-    "category": "Comic / Storyboard",
-    "description": "Generates a high-detail professional storyboard sheet for 3D animation projects, covering specific scene durations.",
-    "promptText": "Create one complete high-detail professional storyboard sheet image for a 30-second 3D animated short film.\n\nSTORY TITLE: “{argument name=\"story title\" default=\"The Tiny Crew and the Last Photo\"}”\nSHEET: PART 1 — {argument name=\"timeframe\" default=\"0:00 to 0:15\"} https://t.co/PMPoGt3vTq",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "story title",
-        "default": "The Tiny Crew and the Last Photo"
-      },
-      {
-        "name": "timeframe",
-        "default": "0:00 to 0:15"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786523344476_0nkvdu_HPgHOMbacAA6voE.jpg",
-        "alt": "Professional 3D Animated Storyboard Sheet",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "ManuAGI 🤖 - ( ManuIn )",
-      "url": "https://x.com/ManuAGI01"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/ManuAGI01/status/2087426413121155229"
-    },
-    "publishedAt": "2026-08-12T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31216",
-    "contentHash": "e3c4df1c66973499600a1edde264347076c954b3"
-  },
-  {
-    "id": "gpt-image-2:31229",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31229",
-    "title": "Giant Anime Maid Over Shanghai FPS Scene",
-    "category": "Comic / Storyboard",
-    "description": "Generates a cinematic first-person shooter view of rainy Shanghai invaded by a colossal anime maid giantess, ideal for surreal game screenshot concepts.",
-    "promptText": "Goal: Create a cinematic first-person shooter screenshot in Shanghai at night, blending gritty realistic military-game visuals with a surreal giant anime maid looming over the skyline.\n\nCanvas: Wide 16:9 frame, dark rainy night, high-contrast blue-gray color grading, wet lens grime, film grain, subtle scratches, dramatic storm clouds, reflections on the river.\n\nScene and layout: The viewer stands on a riverside battlefield facing the Pudong skyline across dark water. The Oriental Pearl Tower is clearly visible on the far left, with illuminated skyscrapers and neon signs along the waterfront. In the lower right foreground, show a realistic black scoped assault rifle held in first-person view, rain-speckled and aimed toward the skyline. Add fires, smoke plumes, small explosions, and city lights reflected in the water. A helicopter with a bright searchlight appears in the upper right sky.\n\nMain subject: A colossal semi-transparent anime giantess appears behind and above the skyscrapers, scaled so her head and shoulders dominate the sky. She is {argument name=\"character name\" default=\"an original anime maid giantess\"} with {argument name=\"hair color\" default=\"pink-purple twin-tail hair with blue streaks\"}, large purple eyes, small open mouth, and a mischievous or threatening expression. She wears a frilly maid-style headpiece and sailor-maid outfit with dark blue ribbons. Her left hand reaches forward toward the viewer in extreme foreshortening, with the palm and fingers huge in the foreground, as if trying to grab the city or the player. Make her softly luminous and slightly transparent, like a massive holographic or supernatural apparition in the rain.\n\nHUD and readable overlays: Include exactly 5 distinct game-interface elements: 1 square minimap in the lower left, 1 centered crosshair/weapon status cluster near the bottom, 1 ammo counter panel in the lower right showing large numbers similar to “21 / 84”, 1 small status label above the ammo panel, and 1 row of small icons at the top right. Include exactly 2 centered Chinese subtitle lines near the bottom: {argument name=\"first subtitle line\" default=\"汉娜：大家快看天上！\"} and {argument name=\"second subtitle line\" default=\"爱尔兰佬：妈的，这是啥玩意！\"}. Add a small Chinese objective label near the minimap reading {argument name=\"objective label\" default=\"抵达撤离点\"}.\n\nCounted visible elements to include: exactly 1 giant anime maid, exactly 1 oversized reaching hand, exactly 1 helicopter with searchlight, exactly 1 first-person scoped rifle, exactly 1 Oriental Pearl Tower, exactly 2 subtitle lines, and exactly 5 HUD/interface groups. Do not add extra characters in the foreground.\n\nVisual style: Photorealistic AAA military FPS screenshot with realistic rain, wet surfaces, smoky battlefield atmosphere, cinematic lighting, and authentic UI overlays; contrast the realistic war scene with a crisp anime character rendered as a gigantic translucent figure.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "an original anime maid giantess"
-      },
-      {
-        "name": "hair color",
-        "default": "pink-purple twin-tail hair with blue streaks"
-      },
-      {
-        "name": "first subtitle line",
-        "default": "汉娜：大家快看天上！"
-      },
-      {
-        "name": "second subtitle line",
-        "default": "爱尔兰佬：妈的，这是啥玩意！"
-      },
-      {
-        "name": "objective label",
-        "default": "抵达撤离点"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786523358862_8hhkuf_HPf_w-ebwAAabl-.jpg",
-        "alt": "Giant Anime Maid Over Shanghai FPS Scene",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "拭目痛い",
-      "url": "https://x.com/Fvck_Pinky"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Fvck_Pinky/status/2087418178779631988#reversed-0"
-    },
-    "publishedAt": "2026-08-12T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31229",
-    "contentHash": "10bd3e1c580b42cd20d4d27928f43802496f7cda"
-  },
-  {
-    "id": "gpt-image-2:31254",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31254",
-    "title": "Crimson Xianxia Martial Training",
-    "category": "Comic / Storyboard",
-    "description": "A vertical cinematic fantasy artwork of a red-haired xianxia heroine practicing a powerful punch while a dark-robed cultivator watches in an ancient sect courtyard.",
-    "promptText": "Create a vertical cinematic xianxia fantasy scene in an ancient Chinese sect courtyard: a beautiful young martial heroine, {argument name=\"female character name\" default=\"senior sister\"}, dominates the foreground in a dynamic close-up three-quarter pose, throwing a powerful straight punch toward the viewer with her right fist foreshortened. She has vivid {argument name=\"hair color\" default=\"crimson red\"} hair tied in a high ponytail with an ornate gold crown hairpiece, loose strands and ribbons whipping dramatically in the wind, pale porcelain skin, sharp elegant features, intense red-brown eyes, subtle red forehead mark, and a focused fierce expression. Her outfit is an elaborate dark black-and-red armored cultivator costume: sculpted leather-and-metal chest armor, gold filigree trim, layered bracers, chain ornaments, dangling red beads, translucent crimson silk sashes, and a short flowing battle skirt with sheer fabric layers. Red energy embers and smoky magical trails spiral around her punch and across the lower frame. In the background, exactly one male observer, {argument name=\"male character name\" default=\"Zhao Wuyou\"}, stands slightly out of focus on the stone steps, watching her practice; he is a handsome young cultivator with long black hair in a high half-up style, wearing a dark charcoal-black embroidered robe with metallic patterns and layered sleeves, calm and serious. The setting is a misty grand immortal palace courtyard with stone stairs, carved railings, ancient temple architecture, curved roofs, distant pavilions, soft blue-gray morning haze, and shafts of cool daylight. Use an ultra-detailed high-end fantasy illustration style with realistic skin, intricate costume textures, shallow depth of field, dramatic wind motion, glowing red particles, cinematic lighting, strong foreground-background depth, and a vertical 9:16 composition. No text, no watermark, no modern objects, no extra characters.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "female character name",
-        "default": "senior sister"
-      },
-      {
-        "name": "hair color",
-        "default": "crimson red"
-      },
-      {
-        "name": "male character name",
-        "default": "Zhao Wuyou"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786523375169_y12gij_HPf1u9MbkAAsLMd.jpg",
-        "alt": "Crimson Xianxia Martial Training",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786523375138_gkq2o4_HPf1wPragAAHw4w.jpg",
-        "alt": "Crimson Xianxia Martial Training",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786523375062_u6k6do_HPf1xYFaIAE7Z9B.jpg",
-        "alt": "Crimson Xianxia Martial Training",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786523376087_k1d8gx_HPf10dtaQAEjKL0.jpg",
-        "alt": "Crimson Xianxia Martial Training",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "肉山佛x仙姝堕",
-      "url": "https://x.com/RouShanFo"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/RouShanFo/status/2087407285945672022#reversed-0"
-    },
-    "publishedAt": "2026-08-12T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31254",
-    "contentHash": "d98f477a3579f081cb5033591df10a35dfa53d53"
   }
 ]

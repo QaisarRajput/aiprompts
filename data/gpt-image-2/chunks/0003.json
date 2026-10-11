@@ -1,5 +1,273 @@
 [
   {
+    "id": "gpt-image-2:34023",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34023",
+    "title": "Consistent 3x3 Studio View Sheet",
+    "category": "Comic / Storyboard",
+    "description": "Creates a photorealistic 3x3 multi-angle studio view sheet from a single character reference while preserving identity and pose consistency.",
+    "promptText": "Using REFERENCE_0 as the character base, generate a 16:9 surrounding-environment 3x3 view sheet that keeps the person’s identity, outfit, pose energy, and body proportions consistent across all angles.\n\nGoal: Show the same subject from multiple camera directions in a coherent photo studio environment, as if captured around the person.\n\nCanvas and layout: Create one wide horizontal 16:9 image with a dark header bar and a clean 3x3 grid of exactly 9 panels separated by thin white borders. Add the centered Japanese title {argument name=\"title text\" default=\"周辺景観 3x3ビュー\"} at the top.\n\nRequired 9 panels and labels: Place a black rounded label with white Japanese text in the upper-left of each panel. Use exactly these 9 labeled views, arranged left to right, top to bottom: 1) 「左後方」, 2) 「背面」, 3) 「右後方」, 4) 「左側面」, 5) 「正面」, 6) 「右側面」, 7) 「左前方」, 8) 「俯瞰」, 9) 「右前方」.\n\nScene transformation: Expand the original reference into a realistic behind-the-scenes studio setup. Keep the beige seamless paper backdrop from the reference, but reveal the surrounding studio: light stands, softbox lights, camera on tripod, gray concrete floor, a potted plant, a step ladder, a rolling equipment cart with a laptop/monitor, cables, and cardboard boxes. These objects should appear consistently from different angles according to the viewpoint.\n\nSubject: Keep the same man from the reference wearing the same black cap, black T-shirt with the white {argument name=\"shirt text\" default=\"20A\"} lettering, black pants, and black sneakers. Maintain his crouched energetic stance and expressive hands, but rotate him naturally for each labeled viewpoint. The front-view panels should show his face; the rear and side panels should correctly hide or reveal facial features based on angle.\n\nStyle: Photorealistic, high-resolution studio photography, wide-angle documentary look, consistent lighting, realistic perspective, no cartoon styling.\n\nConstraints: The 9 views must be spatially consistent, especially front, back, left, and right. Do not add extra panels, extra labels, watermarks, or unrelated text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "title text",
+        "default": "周辺景観 3x3ビュー"
+      },
+      {
+        "name": "shirt text",
+        "default": "20A"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942343162_fkde8d_HRu3E13asAAYv-P.jpg",
+        "alt": "Consistent 3x3 Studio View Sheet",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "白井圧＠組長",
+      "url": "https://x.com/kumi0708"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/kumi0708/status/2097471450869629049#reversed-1"
+    },
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34023",
+    "contentHash": "5c2a9622f2a46ff28b7440189de2a392cdb27599"
+  },
+  {
+    "id": "gpt-image-2:34087",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34087",
+    "title": "Celestial Sakura Kimono Maiden",
+    "category": "Comic / Storyboard",
+    "description": "A richly detailed vertical anime fantasy illustration of a pink-haired kimono maiden reaching toward a glowing celestial orb in an ornate sakura palace garden.",
+    "promptText": "Create a highly detailed vertical anime fantasy illustration of a graceful young woman in an opulent celestial Japanese palace garden. She has {argument name=\"hair color\" default=\"long flowing pastel pink hair\"} streaming dramatically to the left, pale skin, soft green eyes, and a serene upward gaze. She kneels elegantly on a reflective, jewel-like floor while reaching both arms high toward a radiant glowing orb above her. Dress her in an extravagant layered {argument name=\"outfit\" default=\"multi-colored floral kimono with gold brocade, red, black, purple, white, and emerald layers\"}, with long wide sleeves, ornate embroidery, cherry blossom patterns, cranes, tassels, ribbons, and metallic gold trim. Add a large floral hair arrangement with pink blossoms, dangling ornaments, and gold filigree. Surround her with an overwhelming magical environment: hanging lanterns, golden chains, celestial rings, sparkling particles, waterfall-like lights, palace balconies and pagoda architecture in the background, pink cherry blossoms everywhere, and reflective glassy ornaments. Include exactly 5 prominent spherical ornaments: one large floral globe in the lower right foreground, one purple translucent orb in the lower left foreground, one small dark floral orb near the bottom left edge, one medium floral globe on a pedestal at the right midground, and one floating purple bubble near the upper left. Include one golden crane statue on the left side and many cascading petals. Use {argument name=\"lighting mood\" default=\"warm golden magical backlight with intense sparkles\"}, ultra-intricate details, glossy highlights, rich jewel tones, cinematic depth, luminous bokeh, ornate fantasy realism, and a luxurious sakura festival atmosphere. Composition is vertical 9:16, full-body three-quarter view, no text, no watermark, no modern objects.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "long flowing pastel pink hair"
+      },
+      {
+        "name": "outfit",
+        "default": "multi-colored floral kimono with gold brocade, red, black, purple, white, and emerald layers"
+      },
+      {
+        "name": "lighting mood",
+        "default": "warm golden magical backlight with intense sparkles"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942388043_l8qbhc_HRuzccrbYAAhcan.jpg",
+        "alt": "Celestial Sakura Kimono Maiden",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ねね*",
+      "url": "https://x.com/NeneneAI"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/NeneneAI/status/2097467359636463735#reversed-0"
+    },
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34087",
+    "contentHash": "fb1c9be5a33e5d71900412d85ae6daa07c9eb053"
+  },
+  {
+    "id": "gpt-image-2:34069",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34069",
+    "title": "Monochrome Manga Woman and Stray Cat",
+    "category": "Comic / Storyboard",
+    "description": "Creates a detailed black-and-white Japanese manga page about a lonely office woman finding warmth and confidence through a stray cat.",
+    "promptText": "Goal: Create a monochrome Japanese manga page about a quiet office woman gradually opening up after meeting a stray cat, in a sentimental slice-of-life style. Use {argument name=\"page format\" default=\"vertical manga page, black and white, 4:5 aspect ratio\"}.\n\nCanvas: Full-page manga layout with clean black panel borders, grayscale screentones, fine ink linework, soft shading, realistic urban backgrounds, and expressive but restrained character acting. The reading direction and text boxes should feel like a Japanese manga page, with vertical Japanese dialogue and narration.\n\nMain subject: A young Japanese office woman, {argument name=\"character name\" default=\"unnamed heroine\"}, early 20s, shoulder-length straight black hair with bangs, gentle tired eyes, wearing a cardigan over office clothes and carrying a shoulder bag. She begins lonely and withdrawn, then becomes warmer and more confident. The supporting subject is exactly 1 black-and-white stray cat with round eyes, a fluffy chest, and a slightly scruffy but cute appearance.\n\nLayout: Use exactly 9 distinct panels arranged in a dense manga grid.\n1. Top-left panel: the woman sits at an office desk, resting her cheek on her hand, looking tired beside a computer monitor and papers. Add a thought bubble and vertical narration.\n2. Top-right wide panel: she walks through a city street with buildings and pedestrians behind her, holding her bag strap, looking reserved. Add two tall narration boxes.\n3. Middle-left panel: she crouches in an alley or side street and offers food in a small dish to the stray cat. The cat eats while she watches shyly. Add a speech bubble.\n4. Middle-right panel: the cat sits alone beside a wall in the alley, looking directly at the viewer. Add a small cat sound effect and a tall narration box.\n5. Lower-middle-left panel: in the office cafeteria or workspace, the woman smiles while talking with coworkers; include desks, monitors, and background people. Add a vertical narration box and a speech bubble from another person.\n6. Lower-middle-right panel: close emotional panel of the woman smiling with closed eyes while petting the cat, cheek close to its head. Add a cat sound effect and two narration boxes.\n7. Bottom-left wide panel: the woman sits at her desk holding a drink, smiling brightly with eyes closed; coworkers chat in the background. Add a small vertical speech bubble.\n8. Bottom-center narrow panel: close-up of the cat’s face with partial hand/petting detail, used as a reflective transition. Add two narrow vertical narration boxes.\n9. Bottom-right wide panel: sunset rooftop or riverside overlook from behind; the woman sits beside the cat, both facing a city skyline and dramatic sunburst clouds. Add two narration boxes, one near the sky and one near the lower center.\n\nText content: Include Japanese vertical manga text in the panels. The central theme should be {argument name=\"story theme\" default=\"a lonely ordinary office worker is saved emotionally by a stray cat and learns to connect with people\"}. Use narration similar in tone to: “I am an ordinary office worker anywhere,” “I am not good at talking to people,” “I met one stray cat near the company,” “At first I only watched from a distance,” “Little by little the distance closed,” “Thanks to that child, I became able to look forward,” and “Someday I want to become someone who can give something back.”\n\nVisual style: Authentic seinen/shoujo slice-of-life manga, hand-drawn ink, detailed city and office backgrounds, grayscale tones, subtle hatching, cinematic emotional pacing, clean white gutters, no color, no watermark. Keep the woman and cat consistent across all panels, with the cat appearing in exactly 5 panels: eating, sitting alone, being petted, close-up, and sitting beside her at the skyline.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "page format",
+        "default": "vertical manga page, black and white, 4:5 aspect ratio"
+      },
+      {
+        "name": "character name",
+        "default": "unnamed heroine"
+      },
+      {
+        "name": "story theme",
+        "default": "a lonely ordinary office worker is saved emotionally by a stray cat and learns to connect with people"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942378256_axvqsb_HRunPw2aQAAoGl3.jpg",
+        "alt": "Monochrome Manga Woman and Stray Cat",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "けいすけ🌈『ぽちペタ』音声入力ソフト開発",
+      "url": "https://x.com/kei31"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/kei31/status/2097453957555835344#reversed-0"
+    },
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34069",
+    "contentHash": "4bcfc3f8602f7dc288c3416014dab6c80a495251"
+  },
+  {
+    "id": "gpt-image-2:34045",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34045",
+    "title": "Autumn Onsen Gourmet Sale Poster",
+    "category": "Product Marketing",
+    "description": "Generates a premium Japanese travel advertisement for an autumn hot spring and seasonal gourmet tour sale.",
+    "promptText": "Goal: Create a luxurious square Japanese travel advertisement for an autumn hot spring and gourmet tour sale, aimed at social media promotion.\n\nCanvas: 1:1 square poster, high-resolution, rich warm autumn palette of crimson, gold, amber, cream, and deep brown. Use a premium travel-agency flyer style with layered photo collage panels, diagonal cuts, ornate Japanese paper textures, gold accents, and subtle drop shadows.\n\nLayout: Build a dense collage with exactly 6 main photo areas: 1) upper-left large outdoor rotenburo hot spring with steaming water, natural rocks, a lantern, vivid red maple trees, a lake and mountains in the distance; 2) upper-right close-up of a lavish crab dish in a black tray with steam and side dishes; 3) mid-right close-up of marbled wagyu beef being lifted by chopsticks beside a rice bowl with chestnuts or gingko nuts; 4) lower-left cozy ryokan guest room with tatami, low table, cushions, warm lamps, shoji screens, and autumn scenery outside; 5) lower-right scenic lake and autumn mountain landscape; 6) small background food/seasonal detail panels near the top with mushrooms and vegetables. Separate the panels with clean diagonal cream or gold borders.\n\nCentral typography: Place a large cream washi-paper polygon label in the center. On it, use oversized Japanese calligraphy-style headline text reading {argument name=\"headline text\" default=\"秋の食と温泉旅セール\"}. Make “秋” red-to-orange gradient, “食” gold gradient, and the remaining characters dark brown. Add two decorative maple leaves around the headline. Beneath it, add smaller Japanese text: 「秋限定のごほうび旅」 with thin horizontal lines on both sides.\n\nOffer area: Under the central label, create a deep red patterned price banner with gold trim. Show a small rounded box reading {argument name=\"trip length\" default=\"2泊3日\"}. Next to it, display the large price {argument name=\"price\" default=\"39,800円〜\"} in shiny gold serif numerals with white highlights and dark shadow. Add small gold emphasis marks near the price.\n\nBenefits and call-to-action: Below the price, add a cream rounded plaque with fork, knife, and hot spring icons, followed by text 「食事付き・温泉満喫」. At the bottom center, add a glossy red rounded button with gold outline reading {argument name=\"button text\" default=\"予約受付中 ＞\"}.\n\nAdditional Japanese copy: Include exactly 5 supporting text blocks around the poster: upper-left white handwritten text 「この秋、心もおなかも満たされる。」 with a thin underline; upper-right vertical text on a cream strip 「旬を味わう、贅沢なひととき」; left vertical text over the ryokan panel 「特別な秋を、旅へ。」; lower-left small white text 「日本の美しい秋に、会いに行こう。」; lower-right white text 「行きたかったあの場所へ。」 above a simple white travel-agency logo mark and tagline 「もっと、心が動く旅を。」 plus tiny English text “TRAVEL for a richer tomorrow”.\n\nVisual style: Photorealistic travel photography blended with polished Japanese advertising design. Emphasize steam rising from the hot spring and hot foods, glossy food textures, crisp autumn foliage, warm indoor lighting, elegant Japanese calligraphy, and premium gold-red sale graphics.\n\nConstraints: Keep all Japanese text legible and placed as described. Use no people. Do not add extra prices, logos, QR codes, or unrelated text. Maintain a balanced luxury-tourism composition with strong central hierarchy.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline text",
+        "default": "秋の食と温泉旅セール"
+      },
+      {
+        "name": "trip length",
+        "default": "2泊3日"
+      },
+      {
+        "name": "price",
+        "default": "39,800円〜"
+      },
+      {
+        "name": "button text",
+        "default": "予約受付中 ＞"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942362485_yir0y4_HRwU32HagAAYdMN.jpg",
+        "alt": "Autumn Onsen Gourmet Sale Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "タツキ",
+      "url": "https://x.com/gibkun1"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/gibkun1/status/2097574516205703594#reversed-0"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34045",
+    "contentHash": "c960cab68ab4522ae25016199b175b9507e4d2c3"
+  },
+  {
+    "id": "gpt-image-2:33978",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33978",
+    "title": "Natural Ramen Advertisement Pop",
+    "category": "Product Marketing",
+    "description": "Generates ramen advertisement posters with a focus on natural, non-AI-like aesthetics for a realistic look.",
+    "promptText": "Ramen advertisement pop. Instructed the photo to have a {argument name=\"atmosphere\" default=\"natural atmosphere, excluding the AI feel\"}.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "atmosphere",
+        "default": "natural atmosphere, excluding the AI feel"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942311037_ambgxz_HRwF_T8bUAAPAnq.jpg",
+        "alt": "Natural Ramen Advertisement Pop",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "新清士@AIコンテンツ開発者",
+      "url": "https://x.com/kiyoshi_shin"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/kiyoshi_shin/status/2097558667059155070"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33978",
+    "contentHash": "1eb5b3b40f231868d843017251d79307b3b2989a"
+  },
+  {
+    "id": "gpt-image-2:34062",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34062",
+    "title": "GPT Image 2.5 Anime Launch Poster",
+    "category": "Product Marketing",
+    "description": "Creates a square futuristic anime promotional poster with a winking techwear mascot, robot companion, and detailed GPT Image 2.5 feature UI cards.",
+    "promptText": "Goal: Create a polished square promotional anime key visual for {argument name=\"product name\" default=\"GPT Image 2.5\"}, presenting it as a futuristic creative image-generation service with a cheerful anime ambassador reaching toward the viewer.\n\nCanvas: 1:1 square social-media poster, cinematic neon city background at sunset, high-detail anime illustration blended with sleek SaaS launch-page UI overlays. Use strong depth of field: the character’s outstretched hand is large and slightly motion-blurred in the foreground, her face is sharp, and the city is softly glowing behind her.\n\nMain subject: A cute anime girl in the center-right foreground, about teenage/young adult style, short fluffy {argument name=\"hair color\" default=\"pale pink-blonde\"} bob hair with bangs, one eye winking and one warm reddish-brown eye open, smiling brightly. She wears a futuristic black-and-white techwear jacket with glossy panels, straps, zippers, badges, red ribbon accents, black inner top, and a lanyard badge printed with the OpenAI-like knot logo and “GPT Image 2.5”. Her right arm reaches toward the camera invitingly. Add a small black-and-red hair clip and ribbon on one side.\n\nCompanion robot: Place exactly 1 small rounded companion robot at the lower right, white body with cat-ear-like points, glossy black face screen, cyan smiling eyes, and a chest panel containing the OpenAI-like knot logo plus the text “Create Explore Together”.\n\nBranding and headline: At the upper left, place a large glowing OpenAI-like knot icon followed by huge text “GPT” on the first line and “Image 2.5” below it, with “2.5” in a blue-to-pink neon gradient. Under it, add the tagline “More Expressive. More Creative. Now in Your Hands.” Add handwritten Japanese text beneath: 「想像を、もっと自由に。」\n\nLeft feature stack: Add exactly 6 translucent dark glassmorphism cards stacked vertically on the left, each with a glowing icon, bold white title, smaller subtitle, and where visible a small preview thumbnail strip. The 6 cards are: 1) “Text to Image” with subtitle “Just type your imagination” and 1 landscape castle thumbnail; 2) “Sketch to Image” with subtitle “Turn your sketches into art” and 2 thumbnails showing a sketch converting to a fantasy landscape with an arrow; 3) “Image Editing” with subtitle “Refine with simple instructions” and 2 anime portrait thumbnails with an arrow; 4) “In-context Creation” with subtitle “Consistent characters & style” and 2 anime character thumbnails; 5) “Faster Generation” with subtitle “Create more, wait less” and a lightning icon; 6) “Higher Detail” with subtitle “Sharper, richer, more real” and 1 flower thumbnail.\n\nRight feature stack: Add exactly 3 translucent dark glassmorphism cards on the right side. The top card is “Multi-style” with subtitle “Anime, Realistic, Illustration...” and exactly 3 thumbnails: anime portrait, realistic landscape, cat photo. The middle card is “Follow Instructions” with subtitle “More accurate, more flexible”. The lower card is “Create on Mobile” with subtitle “@ → Sketch (iOS/Android)”.\n\nHandwritten notes: In the upper right sky, add Japanese handwritten copy: 「好きな世界を、今すぐ、ここから。」 followed by a signature {argument name=\"signature\" default=\"Chisato\"} and a heart. At the bottom right, add handwritten Japanese copy: 「つくろう。あなたの『好き』を。」 and the line “with GPT Image 2.5”. At the bottom left, add a small OpenAI-like knot icon and cursive English text “A more creative tomorrow_”.\n\nVisual style: Premium anime promotional art, vibrant blue, cyan, magenta, and sunset-pink lighting; glowing holographic UI panels; reflective metal and glass; crisp typography; dramatic wide-angle selfie perspective; highly detailed face and clothing; soft bloom, rim light, and lens flare. Keep all UI text legible and aligned, with no extra feature cards beyond the specified counts.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "product name",
+        "default": "GPT Image 2.5"
+      },
+      {
+        "name": "hair color",
+        "default": "pale pink-blonde"
+      },
+      {
+        "name": "signature",
+        "default": "Chisato"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942374279_8axutb_HRvpE0sbgAAWyhq.jpg",
+        "alt": "GPT Image 2.5 Anime Launch Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "AIossansan",
+      "url": "https://x.com/toraaiuser2"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/toraaiuser2/status/2097526327750598930#reversed-0"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34062",
+    "contentHash": "618ade17d568cb140c7a7fef47bc9753c4c3da96"
+  },
+  {
     "id": "gpt-image-2:34013",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6483,273 +6751,5 @@
     "publishedAt": "2026-09-04T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33527",
     "contentHash": "1cdc4489a0aaa2ce6ecac67a4276b3733c547ae0"
-  },
-  {
-    "id": "gpt-image-2:33519",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33519",
-    "title": "Moody High-Contrast Cinematic Portrait",
-    "category": "Profile / Avatar",
-    "description": "A cinematic portrait prompt featuring dramatic lighting through blinds, focusing on texture and mood for a male subject.",
-    "promptText": "Use the reference image and create A high-resolution, cinematic portrait of a young man with {argument name=\"hair style\" default=\"messy, voluminous dark hair\"} and a well-groomed beard. He is wearing classic black wayfarer-style sunglasses and a {argument name=\"clothing\" default=\"clean, oversized white t-shirt\"}. The man is seated backward on a {argument name=\"furniture\" default=\"vintage dark wood chair\"}, resting his muscular, crossed forearms comfortably along the top of the curved backrest. On his left wrist, he wears a sleek black smartwatch with a rectangular face. The scene is defined by dramatic, high-contrast lighting filtered through Venetian blinds, casting sharp, rhythmic horizontal shadow bars across his face, torso, and the textured, warm-grey plaster wall in the background. The atmosphere is moody and serene, with a shallow depth of field that keeps the focus sharp on the man’s expression and the texture of his hair, while the lower portion of the chair and his black trousers softly blur into the foreground. The color palette is neutral and sophisticated, dominated by crisp whites, deep blacks, and warm earthy wood tones.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair style",
-        "default": "messy, voluminous dark hair"
-      },
-      {
-        "name": "clothing",
-        "default": "clean, oversized white t-shirt"
-      },
-      {
-        "name": "furniture",
-        "default": "vintage dark wood chair"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788595142543_fjyvws_HRXCQsvaUAA0vHR.jpg",
-        "alt": "Moody High-Contrast Cinematic Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Dr Bloodline | AI",
-      "url": "https://x.com/AiwithBloodline"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AiwithBloodline/status/2095794809575543218"
-    },
-    "publishedAt": "2026-09-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33519",
-    "contentHash": "ffb08afd7d7b44a804220f2d9d39f65c4ba6994e"
-  },
-  {
-    "id": "gpt-image-2:33526",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33526",
-    "title": "Vintage Bedroom Cinematic Portrait",
-    "category": "Profile / Avatar",
-    "description": "An ultra-realistic cinematic portrait prompt for a young man in a vintage bedroom, focusing on film aesthetics and nostalgic lighting.",
-    "promptText": "Ultra-realistic cinematic editorial portrait of a strikingly handsome young man in his early 20s, seated casually in a cozy vintage bedroom, closely inspired by the reference image’s composition, framing, relaxed pose, warm film aesthetic, and nostalgic atmosphere, but featuring a completely original male character. He has thick naturally wavy jet-black hair styled slightly tousled with a few strands falling across his forehead, strong well-defined eyebrows, deep expressive hazel-brown eyes, a straight sculpted nose, prominent cheekbones, a defined masculine jawline, and subtle natural stubble. He wears a {argument name=\"jacket color\" default=\"deep forest-green\"} suede jacket over a clean cream-colored fitted T-shirt, paired with dark charcoal jeans. One arm rests casually toward the camera with a naturally relaxed hand in the foreground, creating subtle depth and perspective. Behind him is a textured beige wall covered with scattered vintage Polaroid photographs, creating a nostalgic personal-gallery atmosphere. Warm tungsten room lighting mixed with soft natural window light, gentle shadows, realistic skin texture, subtle imperfections, shallow depth of field, analog 35mm film grain, muted warm color grading, slight vintage softness, candid fashion photography, authentic photographic details, cinematic composition, natural proportions, highly detailed, photorealistic, 4K.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "jacket color",
-        "default": "deep forest-green"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788595148670_c6yxlh_HRWlmQHbUAEtLUv.jpg",
-        "alt": "Vintage Bedroom Cinematic Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "HeisenLegacy",
-      "url": "https://x.com/MohdAdnanA86218"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/MohdAdnanA86218/status/2095763292275065334"
-    },
-    "publishedAt": "2026-09-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33526",
-    "contentHash": "c043650eb49798110c897f32a6058dd8bedc1d1f"
-  },
-  {
-    "id": "gpt-image-2:33518",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33518",
-    "title": "Floral Robe Mirror Selfie",
-    "category": "Profile / Avatar",
-    "description": "A detailed photorealistic prompt for an East Asian woman taking a mirror selfie in a floral satin robe, set in a sunlit bedroom.",
-    "promptText": "Subject:\n{argument name=\"subject\" default=\"Floral robe mirror time\"}\n\nSubject:\n{argument name=\"character description\" default=\"A young East Asian woman kneeling on a bed in a bright bedroom, taking a mirror selfie with a white smartphone\"}. The floral robe is the main focus.\n\nPerson/Expression:\nSmall round oval face, large dark brown eyes, thin eyebrows, small nose, and pale coral pink lips. Dark brown loose curly hair reaching below the chest with thin bangs. Looking at the smartphone screen with a gentle expression and a slight smile. Soft pink cheeks and natural dewy makeup.\n\nClothing/Pose:\n{argument name=\"clothing\" default=\"A glossy satin robe dress with an ivory base and muted pink and brown cherry blossom-like patterns\"}, deep overlapping collar, wide sleeves, and matching waist belt. Sitting on the bed with knees apart, holding a white smartphone in the right hand next to the right side of the face, with the left hand resting on the bedding.\n\nBackground/Light:\nOn the left background is a window with white lace curtains, a houseplant, and a small wooden side table; on the right is a beige headboard and white pillows; in the foreground is a white duvet. Soft diffused morning light enters from the window on the left, creating faint shadows on the face and robe.\n\nComposition/Camera:\n1:1 square composition, a selfie portrait captured at a natural eye level matching the mirror, showing from the head to the thighs. The person is large and centered, with the smartphone to the right of the face, the window on the far left, and white bedding in the lower half. Focus on the face and smartphone, with a lightly blurred background.\n\nTexture/Style:\nPhotorealistic live-action photograph. Captures the soft sheen of satin, floral patterns, the transparency of curtains, white bedding, and natural skin texture with a bright morning atmosphere.\n\nNegative:\nPlain robe or yukata; outdoor background or normal shooting without a mirror",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "Floral robe mirror time"
-      },
-      {
-        "name": "character description",
-        "default": "A young East Asian woman kneeling on a bed in a bright bedroom, taking a mirror selfie with a white smartphone"
-      },
-      {
-        "name": "clothing",
-        "default": "A glossy satin robe dress with an ivory base and muted pink and brown cherry blossom-like patterns"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788595142418_gycwmm_HQ0YoA6bsAEFKEB.jpg",
-        "alt": "Floral Robe Mirror Selfie",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2095739885659263437"
-    },
-    "publishedAt": "2026-09-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33518",
-    "contentHash": "45412010ff14720d4d5934683610ac6cdeefffd3"
-  },
-  {
-    "id": "gpt-image-2:33504",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33504",
-    "title": "Textured Oil Painting Portrait with Graffiti",
-    "category": "Profile / Avatar",
-    "description": "A prompt that uses an uploaded face as a reference to create a textured oil painting portrait of a young man against a vibrant graffiti street-art background.",
-    "promptText": "Using uploaded face as reference. \nStudy the uploaded photo's facial features and use them as inspiration to draw a similar-looking {argument name=\"subject\" default=\"young man\"} in a textured oil painting portrait style, thick impasto brushstrokes.\nHair: Messy, tousled curly dark hair falling naturally (no cap), light stubble beard.\nOutfit: {argument name=\"clothing\" default=\"White shirt with black tie\"}, casual relaxed fit, no jewelry, no accessories.\nSkin: Clean bare skin, no tattoos.\nPose: Close-up upper body portrait, one hand near chin/jaw, confident intense gaze directly at camera, shoulders slightly angled.\nBackground: {argument name=\"background style\" default=\"Bold colorful graffiti street-art background\"} — vibrant spray-paint style lettering and tags in orange, pink, purple, yellow, and teal colors, urban wall texture, energetic layered graffiti words like \"STAY WILD,\" \"ONE LOVE,\" and abstract graffiti symbols/arrows scattered around.\nArt style: Thick textured oil painting, heavy palette-knife brushstrokes, realistic detailed face rendering blended with rough painterly texture, vivid saturated colors, high contrast, gallery-style fine art portrait.\nCamera angle: Eye-level, close-up chest-up portrait shot, centered composition.\nText overlay:\nSmall stylish signature-style text in the top corner: \"AMIR\"",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "young man"
-      },
-      {
-        "name": "clothing",
-        "default": "White shirt with black tie"
-      },
-      {
-        "name": "background style",
-        "default": "Bold colorful graffiti street-art background"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788595132678_63sn0e_HRV3Mjhb0AAo-8w.jpg",
-        "alt": "Textured Oil Painting Portrait with Graffiti",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "M Amir",
-      "url": "https://x.com/Aiwithamirr1"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Aiwithamirr1/status/2095712337433124873"
-    },
-    "publishedAt": "2026-09-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33504",
-    "contentHash": "710bd79e3328f223c4387215c6588a056569c187"
-  },
-  {
-    "id": "gpt-image-2:33440",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33440",
-    "title": "Tender Mini-Me Studio Portrait",
-    "category": "Profile / Avatar",
-    "description": "Generates a warm photorealistic vertical portrait of an adult woman with a miniature child version seated on her lap for sentimental editorial-style imagery.",
-    "promptText": "Create a premium photorealistic vertical studio portrait of exactly two subjects: an adult young woman and a miniature childlike version of her sitting on her lap. The adult woman is {argument name=\"adult subject\" default=\"a young South Asian woman\"} with warm medium skin, soft natural makeup, thick dark eyebrows, deep brown eyes looking downward with a gentle closed-mouth smile, and {argument name=\"hair style\" default=\"dark wavy hair loosely tied back in a messy low bun with face-framing strands\"}. She wears an oversized plain {argument name=\"shirt color\" default=\"black\"} T-shirt and dark pants, seated in a relaxed pose with one arm down and the other hand resting near her lap. The miniature child is a tiny girl, about doll-sized but fully realistic, sitting cross-legged on the adult's lap, looking up at the adult with a bright affectionate smile; she has matching dark wavy hair, similar facial features, small stud earrings, and wears a muted brown patterned short-sleeve top with matching pants. Include exactly three visible accessories: a delicate thin necklace with a small pearl pendant on the adult, a brown leather-strap wristwatch on the adult's wrist, and small stud earrings on the child. Use a warm beige-brown seamless studio backdrop with subtle texture, golden rim light from the upper right outlining the hair and shoulders, soft diffused key light from the front left, shallow depth of field, realistic skin texture, cinematic color grading, high-end editorial portrait photography, vertical 4:5 composition, adult centered slightly to the right and child positioned lower left on her lap. Keep the mood tender, maternal, intimate, and elegant; no text, no watermark, no extra people, no cartoon styling.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "adult subject",
-        "default": "a young South Asian woman"
-      },
-      {
-        "name": "hair style",
-        "default": "dark wavy hair loosely tied back in a messy low bun with face-framing strands"
-      },
-      {
-        "name": "shirt color",
-        "default": "black"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788595155357_9ztlg9_HRVmyARbcAAIjqm.jpg",
-        "alt": "Tender Mini-Me Studio Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Elsa Ai",
-      "url": "https://x.com/ElsaSofia__AI"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/ElsaSofia__AI/status/2095695933384364480#reversed-0"
-    },
-    "publishedAt": "2026-09-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33440",
-    "contentHash": "ce5283295ac99fc20397c92ba89a7fb96d95bb57"
-  },
-  {
-    "id": "gpt-image-2:33496",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33496",
-    "title": "Luxury Streetwear Doberman Portrait",
-    "category": "Social Media Post",
-    "description": "Creates a powerful fashion-editorial portrait of a man in luxury streetwear seated on marble steps with a Doberman, featuring a monochrome palette and dramatic lighting.",
-    "promptText": "Ultra-realistic cinematic portrait of a {argument name=\"subject description\" default=\"strikingly handsome young man in his early 20s\"}, seated confidently on wide white marble steps, creating a powerful, mysterious fashion-editorial atmosphere. He has thick naturally wavy jet-black hair, slightly tousled, strong well-defined eyebrows, deep expressive dark-brown eyes, a straight sculpted nose, prominent cheekbones, a sharp masculine jawline, and subtle natural stubble. He wears a black ribbed beanie, sleek black rectangular sunglasses, an oversized {argument name=\"outfit\" default=\"black tactical-style jacket\"} over a fitted black shirt, relaxed black trousers, and premium black combat boots. His posture is calm and dominant, elbows resting naturally near his knees, with both hands gently holding the head of a {argument name=\"animal\" default=\"majestic black-and-tan Doberman\"} sitting alertly between his legs. Several anonymous black-clad security figures stand behind him on the staircase, softly blurred and partially obscured by atmospheric white-gray haze. Minimalist white architectural background, symmetrical composition, centered subject, strong depth, dramatic soft lighting, subtle shadows, luxury streetwear aesthetic, moody monochrome palette with natural skin tones, photorealistic skin and fabric textures, cinematic color grading, shallow depth of field, 85mm portrait lens, high detail, editorial photography, 8K, vertical composition, no text, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject description",
-        "default": "strikingly handsome young man in his early 20s"
-      },
-      {
-        "name": "outfit",
-        "default": "black tactical-style jacket"
-      },
-      {
-        "name": "animal",
-        "default": "majestic black-and-tan Doberman"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788595127471_65xfy7_HRbmPISaUAATciD.jpg",
-        "alt": "Luxury Streetwear Doberman Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "HeisenLegacy",
-      "url": "https://x.com/MohdAdnanA86218"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/MohdAdnanA86218/status/2096115834796335363"
-    },
-    "publishedAt": "2026-09-05T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33496",
-    "contentHash": "3ef7370cf45c53605c407ffd523640bb312f4d9e"
   }
 ]
