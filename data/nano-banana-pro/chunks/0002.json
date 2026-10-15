@@ -1,5 +1,269 @@
 [
   {
+    "id": "nano-banana-pro:33185",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "33185",
+    "title": "Netflix Style Cinematic Portrait",
+    "category": "Social Media Post",
+    "description": "A high-end cinematic portrait prompt designed for a Netflix-style visual, emphasizing facial consistency with reference images and a modern, casual fashion aesthetic.",
+    "promptText": "Hyper realistic IMAX level Netflix style cinematic portrait, 9:16 vertical frame, use the uploaded image as the primary facial reference with maximum face consistency, a {argument name=\"gender\" default=\"beautiful young female model\"}. Wearing a {argument name=\"clothing\" default=\"casual, silky taupe button-down collared shirt\"}, accessorized with {argument name=\"accessories\" default=\"classic silver hoop earrings and stylish black wayfarer sunglasses\"}.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "gender",
+        "default": "beautiful young female model"
+      },
+      {
+        "name": "clothing",
+        "default": "casual, silky taupe button-down collared shirt"
+      },
+      {
+        "name": "accessories",
+        "default": "classic silver hoop earrings and stylish black wayfarer sunglasses"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788332545350_mi8aa2_HRIV97QbEAAwlZ7.jpg",
+        "alt": "Netflix Style Cinematic Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "AI Qoro",
+      "url": "https://x.com/AIqoro"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AIqoro/status/2094760949416665414"
+    },
+    "publishedAt": "2026-09-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33185",
+    "contentHash": "1d1ac9c3ea32e91e12a27e0b133f9b0f7eac27e9"
+  },
+  {
+    "id": "nano-banana-pro:33183",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "33183",
+    "title": "Feather Silk Dress Mirror Selfie",
+    "category": "Social Media Post",
+    "description": "A structured JSON prompt for a high-fashion mirror selfie in a luxury green marble bathroom featuring a feather-trimmed silk dress.",
+    "promptText": "{\n  \"core_content\": {\n    \"main_description\": \"A stylish young woman takes a mirror selfie in a luxury bathroom, wearing an {argument name=\"outfit\" default=\"elegant white silk slip dress with feather trim\"}, accessorized with gold bangles and a blue handbag.\"\n  },\n  \"subjects\": [\n    {\n      \"identity\": \"Young woman\",\n      \"spatial_position\": {\n        \"placement\": \"Center frame\",\n        \"scale\": \"Medium shot\"\n      },\n      \"pose\": {\n        \"body_narrative\": \"Standing upright with a slight tilt, one hand raised to her chin in a thoughtful, poised gesture, while the other hand holds a smartphone to capture the reflection.\",\n        \"hand_gesture\": \"Right hand touching chin, left hand holding a smartphone.\"\n      },\n      \"eye_gaze\": {\n        \"direction\": \"Towards the mirror reflection\",\n        \"contact\": \"Direct\",\n        \"focus\": \"Sharp\"\n      },\n      \"appearance\": {\n        \"features\": \"Long brown hair styled in a high ponytail, youthful complexion, natural makeup\",\n        \"expression\": \"Serene and neutral\"\n      },\n      \"attire\": {\n        \"outer_layer\": \"White satin slip dress with cowl neckline and dramatic feather-trimmed high side-slit\",\n        \"accessories\": \"Multiple layered gold bangles on right wrist, gold ring on left hand, vibrant cobalt blue leather shoulder bag\"\n      }\n    }\n  ],\n  \"environment\": {\n    \"scene\": \"Luxury hotel bathroom\",\n    \"background_elements\": [\n      {\n        \"object\": \"Walls\",\n        \"description\": \"{argument name=\"wall material\" default=\"Deep forest green marble with white veining\"}\"\n      },\n      {\n        \"object\": \"Mirror\",\n        \"description\": \"Large circular mirror with a thin gold frame\"\n      }\n    ]\n  },\n  \"aesthetics\": {\n    \"art_style\": \"High-fashion social media photography, clean aesthetic\",\n    \"lighting\": {\n      \"key_light\": \"Warm indoor vanity lighting, soft and diffuse\",\n      \"shadows\": \"Minimal, soft shadows\"\n    },\n    \"camera\": {\n      \"angle\": \"Eye level\",\n      \"lens\": \"Smartphone portrait lens\"\n    }\n  }\n}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "outfit",
+        "default": "elegant white silk slip dress with feather trim"
+      },
+      {
+        "name": "wall material",
+        "default": "Deep forest green marble with white veining"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788332544181_wyk165_HRH1KzkacAAempt.jpg",
+        "alt": "Feather Silk Dress Mirror Selfie",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "AI Qoro",
+      "url": "https://x.com/AIqoro"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AIqoro/status/2094724888883761657"
+    },
+    "publishedAt": "2026-09-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33183",
+    "contentHash": "24f32c6d9b73e04022ff5d3f7b52de1c1d7c5a3e"
+  },
+  {
+    "id": "nano-banana-pro:33184",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "33184",
+    "title": "Textured Paint Splash Portrait",
+    "category": "Social Media Post",
+    "description": "An extreme close-up portrait prompt focusing on hyper-realistic skin textures and colorful, thick paint splashes applied to the face.",
+    "promptText": "Ultra-realistic cinematic close-up portrait of a young woman, front-facing and looking directly into the camera. Her face is naturally beautiful with expressive dark brown eyes, defined eyebrows, soft realistic facial features, full natural lips, and warm medium skin tone. She has long, messy, slightly wet dark-brown/black hair falling naturally around her face and shoulders, with individual strands clearly visible.\n\nHer entire face is covered with thick, textured, expressive splashes and brushstrokes of {argument name=\"paint colors\" default=\"colorful paint—vivid turquoise, cyan, red, orange, yellow, white, and hints of green\"}. The paint should look physically applied to real skin, with layered textures, small droplets, smears, cracks, and raised brushstroke details. Keep her eyes, lips, and facial structure clearly recognizable beneath the paint. Some paint extends naturally down her neck and onto the upper part of her clothing.\n\nShe wears a {argument name=\"clothing\" default=\"dark blue artistic top\"} with subtle colorful paint marks. The background is a dark, moody blue-gray studio backdrop, softly blurred and minimal, creating strong contrast with the vibrant colors on her face.\n\nLighting: {argument name=\"lighting\" default=\"dramatic cinematic studio lighting\"}, soft key light from the front-left, subtle rim light separating her dark hair from the background, realistic highlights on wet paint and skin, deep natural shadows, high dynamic range.\n\nPhotography: extreme facial detail, realistic pores, fine hair strands, natural skin texture, sharp eyes, shallow depth of field, 85mm portrait lens, f/1.8, professional editorial photography, subtle film grain, rich tonal range, photorealistic color grading, sophisticated fine-art portrait aesthetic.\n\nComposition: centered symmetrical face, tight head-and-shoulders framing, camera at eye level, direct eye contact, dark negative space around the subject.\n\nNegative prompt: cartoon, anime, CGI look, plastic skin, beauty filter, excessive retouching, distorted face, asymmetrical eyes, extra facial features, blurry eyes, malformed hands, oversaturated skin, artificial hair, low detail, watermark, text, logo.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "paint colors",
+        "default": "colorful paint—vivid turquoise, cyan, red, orange, yellow, white, and hints of green"
+      },
+      {
+        "name": "clothing",
+        "default": "dark blue artistic top"
+      },
+      {
+        "name": "lighting",
+        "default": "dramatic cinematic studio lighting"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788332542660_toib9o_HRGfUiRagAAM5Ip.jpg",
+        "alt": "Textured Paint Splash Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "𝑨𝒇𝒓𝒊𝒏",
+      "url": "https://x.com/afrinxai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/afrinxai/status/2094711868824965198"
+    },
+    "publishedAt": "2026-09-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33184",
+    "contentHash": "9aa1eb6ccd8740c5d100ba1605b73f9d26768887"
+  },
+  {
+    "id": "nano-banana-pro:33189",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "33189",
+    "title": "Luxury Summer Fashion Editorial",
+    "category": "Social Media Post",
+    "description": "A comprehensive prompt for a high-contrast luxury fashion shot of a man in a cabana, featuring detailed descriptions of lighting and textures.",
+    "promptText": "A {argument name=\"subject\" default=\"tanned adult male with short dark hair and a thick beard\"} sits centered in a straight-on perspective, exuding a confident, relaxed, yet deliberately posed demeanor. His eyes are concealed behind black wayfarer sunglasses, his mouth set in a closed, neutral expression. He wears a {argument name=\"clothing\" default=\"dark navy, nearly black, unbuttoned linen shirt paired with crisp white trousers\"}. His posture leans subtly to the right, his weight supported by his right hand planted flat firmly on the cushion behind his hip. His left knee is elevated, providing a resting place for his casually positioned left hand, where relaxed fingers drape naturally downward over the edge of the knee, showcasing a silver metal watch with a vibrant blue dial. He is seated on a large, pristine light beige tufted outdoor lounge cushion within a luxury over-water cabana. Framing him to the left, top, and center are sheer off-white cabana curtains, tied back with dynamic folds, creases, and overlapping layers of semi-transparent matte fabric that catch the sunlight. To the bottom right, light warm brown finished wood planks form a sleek deck. Beyond the deck on the right, the deep midground reveals clear, rippled turquoise ocean water transitioning to a deeper vibrant blue, with smooth stones perfectly visible on the shallow seabed. The deep background expands into a thriving forested coastline, where green pine trees blanket rolling hills meeting the water. The scene is drenched in energetic, highly directional, bright hard natural light striking from a front 45-degree angle. This intense illumination creates a highly saturated, warm complementary color palette, casting harsh, defined, deep black, short shadows under his chin, beneath his bent left knee, and from the sheer curtains onto the tufted cushion. Preserved bright highlights gleam sharply on his forehead, his nose, the top of his resting left arm, and the bright white fabric of his pants. Shot on a 35mm lens at ISO 100, f/8, and 1/500s, this tack-sharp digital photograph captures the essence of a high-contrast luxury men's summer fashion editorial. The deep depth of field keeps the distant landscape completely crisp and grain-free, featuring post-processing with enhanced vibrance on the oceanic blues and warm tan skin tones, protected highlights, and slightly crushed blacks for a punchy asymmetric visual hierarchy, beautifully framed in a 4:5 aspect ratio.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "tanned adult male with short dark hair and a thick beard"
+      },
+      {
+        "name": "clothing",
+        "default": "dark navy, nearly black, unbuttoned linen shirt paired with crisp white trousers"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788332549832_i0wely_HQ_cu30XUAAKXnB.jpg",
+        "alt": "Luxury Summer Fashion Editorial",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Picts by AI",
+      "url": "https://x.com/pictsbyai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/pictsbyai/status/2094701293302395313"
+    },
+    "publishedAt": "2026-09-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33189",
+    "contentHash": "edd1a72e906026800362aeff6952842cab1186bf"
+  },
+  {
+    "id": "nano-banana-pro:33088",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "33088",
+    "title": "Chiaroscuro Fashion Hat Portrait",
+    "category": "Social Media Post",
+    "description": "A dramatic high-fashion studio portrait utilizing chiaroscuro lighting and a wide-brimmed hat to create mystery.",
+    "promptText": "High-fashion studio portrait of an elegant woman in dramatic chiaroscuro lighting against a {argument name=\"background\" default=\"solid dark gray backdrop\"}. She wears an {argument name=\"accessory\" default=\"oversized wide-brimmed black wool felt hat\"} tilted downward, casting deep shadows that completely obscure her eyes and forehead. Visible are her delicate jawline, sculpted cheekbones, and {argument name=\"makeup\" default=\"bold matte crimson red lips\"}. She is dressed in an off-the-shoulder black bandage evening dress, highlighting her exposed collarbone and sleek neck. Directional soft key light from the side, deep shadows, minimalist, sophisticated, shot on 85mm lens, f/1.8, crisp detail, vogue editorial style.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "background",
+        "default": "solid dark gray backdrop"
+      },
+      {
+        "name": "accessory",
+        "default": "oversized wide-brimmed black wool felt hat"
+      },
+      {
+        "name": "makeup",
+        "default": "bold matte crimson red lips"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788332549330_f9p7x7_HRDlZMvbkAAqKRy.jpg",
+        "alt": "Chiaroscuro Fashion Hat Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "𝑨𝒇𝒓𝒊𝒏",
+      "url": "https://x.com/afrinxai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/afrinxai/status/2094651467311317159"
+    },
+    "publishedAt": "2026-09-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33088",
+    "contentHash": "c38f5ef9616f3423fa0fefabd62e27cfc33f1894"
+  },
+  {
+    "id": "nano-banana-pro:33104",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "33104",
+    "title": "Artistic White Lace Portrait",
+    "category": "Social Media Post",
+    "description": "A romantic side-profile portrait prompt featuring voluminous dark hair and intricate lace clothing with soft backlight.",
+    "promptText": "Create an image side-profile artistic portrait of a woman looking away from the camera toward a light source. ​Her {argument name=\"hair style\" default=\"voluminous dark brown hair is styled in loose waves\"}, catching soft highlights. ​She wears a delicate {argument name=\"clothing\" default=\"off-the-shoulder white lace garment\"} featuring intricate floral lace patterns. ​Sheer, puffy organza sleeves add a soft, romantic, and dreamy quality to her attire. ​Soft daylight filters through sheer curtains in the background, creating a gentle backlight.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair style",
+        "default": "voluminous dark brown hair is styled in loose waves"
+      },
+      {
+        "name": "clothing",
+        "default": "off-the-shoulder white lace garment"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788332542142_vzvtkq_HRGtRG1b0AAsBOF.jpg",
+        "alt": "Artistic White Lace Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "aynelle",
+      "url": "https://x.com/aynellex"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/aynellex/status/2094645819974545735"
+    },
+    "publishedAt": "2026-09-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33104",
+    "contentHash": "15d8b8bb85f2d18e888d6635a9d476e4cce5b94f"
+  },
+  {
     "id": "nano-banana-pro:33097",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
@@ -6840,328 +7104,5 @@
     "publishedAt": "2026-07-31T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30331",
     "contentHash": "5e43d30646e5aee2baaa40db46190e2b5febfe36"
-  },
-  {
-    "id": "nano-banana-pro:30203",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "30203",
-    "title": "Premium Product Studio Transformation",
-    "category": "E-commerce Main Image",
-    "description": "A specialized prompt for transforming basic product images into premium studio-quality advertisements by isolating the subject and adding ingredients.",
-    "promptText": "Product studio transformation, {argument name=\"action\" default=\"isolate the product from the reference image\"} and {argument name=\"result\" default=\"rebuild as a premium ad composition\"}, hero product centered and sharply in focus, surrounded by its {argument name=\"elements\" default=\"key ingredients\"}.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "action",
-        "default": "isolate the product from the reference image"
-      },
-      {
-        "name": "result",
-        "default": "rebuild as a premium ad composition"
-      },
-      {
-        "name": "elements",
-        "default": "key ingredients"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785395931720_sg9gkn_HObh9mRbwAA57-W.jpg",
-        "alt": "Premium Product Studio Transformation",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785395931718_flsyoo_HObh9mQbIAIvXFC.jpg",
-        "alt": "Premium Product Studio Transformation",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785395931767_19lf57_HObh9mRaYAAvtW9.jpg",
-        "alt": "Premium Product Studio Transformation",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785395933387_pah7on_HObh9mUbUAAXWfu.jpg",
-        "alt": "Premium Product Studio Transformation",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Edan Harr, AICD-10",
-      "url": "https://x.com/therealedanharr"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/therealedanharr/status/2082600329552818494"
-    },
-    "publishedAt": "2026-07-29T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30203",
-    "contentHash": "472cf83859e9a2daeed6fa52dc0f6bcffc5d825a"
-  },
-  {
-    "id": "nano-banana-pro:30196",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "30196",
-    "title": "Luxury Skincare Product Advertisement",
-    "category": "E-commerce Main Image",
-    "description": "A professional-grade commercial product photography prompt for skincare, featuring pastel gradients and elegant vanity props.",
-    "promptText": "Luxury skincare product advertisement featuring a {argument name=\"product\" default=\"cosmetic cleanser bottle\"} as the hero subject, placed at the center on a {argument name=\"surface\" default=\"fluffy pastel faux-fur surface\"} with a glossy mirror reflection. The background should have dreamy pastel gradients in lavender, soft pink, peach, and cream with cinematic golden bokeh lights and volumetric glow. Add elegant vanity props including a pearl necklace, jewelry box, scented candle, baby's breath flowers, and a vintage vanity mirror. Use soft warm diffused lighting with subtle rim light, shallow depth of field, creamy bokeh, and ultra-realistic commercial product photography. Include cute hand-drawn doodle arrows, sparkles, hearts, and premium handwritten typography with the headline \"{argument name=\"headline\" default=\"Glowy Skin In A Bottle\"}\", subheading \"Nourish • Hydrate • Glow\", and supporting text \"For Soft, Smooth & Glowing Skin\" and \"Self Care Everyday\". Photorealistic, luxury beauty campaign, premium cosmetic branding, highly detailed textures, realistic reflections, HDR, 85mm macro lens, f/2.0, professional studio lighting, commercial advertising, ultra-realistic 4K, 9:16 vertical composition.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "product",
-        "default": "cosmetic cleanser bottle"
-      },
-      {
-        "name": "surface",
-        "default": "fluffy pastel faux-fur surface"
-      },
-      {
-        "name": "headline",
-        "default": "Glowy Skin In A Bottle"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785395926456_zzcbo7_HOZgUU0akAAHGom.jpg",
-        "alt": "Luxury Skincare Product Advertisement",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785395926222_khyusm_HOZgVdJbYAA1Z2C.jpg",
-        "alt": "Luxury Skincare Product Advertisement",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785395926430_5583dl_HOZgb19agAA0RR7.jpg",
-        "alt": "Luxury Skincare Product Advertisement",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785395927347_kimstn_HOZgdRPbIAADPZW.jpg",
-        "alt": "Luxury Skincare Product Advertisement",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Rowan",
-      "url": "https://x.com/rowanali09"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/rowanali09/status/2082457952901018006"
-    },
-    "publishedAt": "2026-07-29T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=30196",
-    "contentHash": "d393295ac7cece1ff113a8f4a8a57fcf44c49e25"
-  },
-  {
-    "id": "nano-banana-pro:32411",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "32411",
-    "title": "Hybrid 3D Vector Illustration Style",
-    "category": "Game Asset",
-    "description": "A unique stylistic prompt blending glossy 3D rendering with flat vector simplicity for artistic portraits, featuring vibrant colors and fluid organic elements.",
-    "promptText": "A sophisticated {argument name=\"subject\" default=\"hybrid human portrait style\"} that seamlessly combines the whimsical, glossy dimensional rendering of a premium 3D fantasy illustration with the clean, elegant simplicity of contemporary flat vector portraiture. Depict the human subject with recognizable anatomy, natural facial proportions, authentic expression, and clearly identifiable features, while transforming the overall appearance into a refined stylized illustration. The face should combine smooth dimensional modeling with simplified graphic planes: softly sculpted skin, subtle volumetric shading, delicate highlights, clean angular shapes, and carefully controlled flat-color regions. Use the visual language of premium digital character illustration: luminous expressive eyes, softly rendered skin, smooth flowing hair with layered strands, polished highlights, gentle depth, tactile surfaces, and subtle painterly transitions. At the same time, simplify the rendering with elegant vector-like shapes, clean silhouettes, controlled linework, minimal visual noise, and clearly defined color planes inspired by modern editorial portrait illustration. Integrate {argument name=\"artistic elements\" default=\"flowing artistic elements around the human figure, such as fluid paint splashes, soft liquid ribbons, abstract organic shapes\"}. These elements should feel energetic and three-dimensional, organically emerging from the portrait rather than appearing as a separate background decoration. Hair should combine clean graphic masses with silky dimensional strands and sweeping flowing shapes. Facial features should remain refined and human, enhanced with subtle geometric simplification rather than exaggerated cartoon distortion. Clothing should use bold simplified silhouettes with restrained geometric detailing, maintaining an elegant contemporary fashion-illustration appearance. Color treatment should merge the warm, restrained palette of modern vector portraiture with the {argument name=\"color scheme\" default=\"vibrant tropical energy of whimsical fantasy illustration\"}: warm coral, orange, cream, peach, turquoise, cyan, sky blue, deep navy, emerald, red, golden yellow, and subtle lavender accents. Use mostly clean saturated color fields, enhanced selectively with soft gradients, glossy highlights, translucent edges, and gentle volumetric illumination. Background should remain clean and uncluttered, preferably a simple warm solid or softly textured backdrop, allowing the human subject and surrounding artistic splashes to remain the primary focus. The final aesthetic should feel like an original fusion of elegant editorial vector portrait, contemporary digital painting, whimsical 3D character illustration, premium fashion artwork, and colorful fluid fantasy art — clean yet richly dimensional, sophisticated yet playful, expressive, polished, tactile, modern, artistic, and visually distinctive.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "hybrid human portrait style"
-      },
-      {
-        "name": "artistic elements",
-        "default": "flowing artistic elements around the human figure, such as fluid paint splashes, soft liquid ribbons, abstract organic shapes"
-      },
-      {
-        "name": "color scheme",
-        "default": "vibrant tropical energy of whimsical fantasy illustration"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787552793135_75pudi_HQZ5lDnbMAAjjNN.jpg",
-        "alt": "Hybrid 3D Vector Illustration Style",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787552793140_0ibsb7_HQZ5lD9bAAApjg8.jpg",
-        "alt": "Hybrid 3D Vector Illustration Style",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787552793095_nx9jpa_HQZ5lDlaIAAKtp0.jpg",
-        "alt": "Hybrid 3D Vector Illustration Style",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Zayan",
-      "url": "https://x.com/HustleXR"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/HustleXR/status/2091492763397411268"
-    },
-    "publishedAt": "2026-08-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32411",
-    "contentHash": "eeb8b3326059413c869b925630af545385f51495"
-  },
-  {
-    "id": "nano-banana-pro:32186",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "32186",
-    "title": "Serene Landscape and Surreal Figure at Sunset",
-    "category": "Game Asset",
-    "description": "Two dreamlike landscape prompts, one featuring a vibrant mountain lake with pastel reflections and another with a lone figure under a glowing purple tree.",
-    "promptText": "A tranquil digital landscape featuring a vibrant, glowing sunset over distant mountains, with the sun casting {argument name=\"reflections\" default=\"pastel reflections of pink, purple, and turquoise\"} across a calm lake. Two small, forested islands with tall pine trees frame the foreground, and the overall mood is serene and dreamlike, with soft gradients and minimalistic composition set against a muted, hazy background.\n\nA surreal landscape featuring a lone figure standing beneath a large tree with {argument name=\"tree details\" default=\"glowing purple leaves\"} on a cliff edge, overlooking a distant mountain at sunset. A stream of luminous turquoise water flows down the cliff, emitting magical sparkles. The scene is bathed in soft pastel colors, creating a tranquil and mystical atmosphere.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "reflections",
-        "default": "pastel reflections of pink, purple, and turquoise"
-      },
-      {
-        "name": "tree details",
-        "default": "glowing purple leaves"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787379851536_v99f1l_HQQ44bQXoAAEdYz.jpg",
-        "alt": "Serene Landscape and Surreal Figure at Sunset",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787379851506_zj81ft_HQQ46uPW0AAavV9.jpg",
-        "alt": "Serene Landscape and Surreal Figure at Sunset",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Viki",
-      "url": "https://x.com/churvikv"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/churvikv/status/2090858753583169966"
-    },
-    "publishedAt": "2026-08-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32186",
-    "contentHash": "52ec794cbbe880df5bd1d020298ada63b41e7d82"
-  },
-  {
-    "id": "nano-banana-pro:31876",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "31876",
-    "title": "Sydney Sweeney Gaming Setup Portrait",
-    "category": "Game Asset",
-    "description": "A detailed JSON-formatted prompt for a professional gaming streamer portrait featuring Sydney Sweeney in a purple-lit ergonomic setup.",
-    "promptText": "{\n  \"subject\": {\n    \"identity\": {\n      \"biometric_reference\": \"{argument name=\"celebrity\" default=\"Sydney Sweeney\"}\",\n      \"facial_structure\": \"Recognizable soft facial proportions, bright blue eyes, clear transparent-framed glasses, subtle natural makeup, soft pink lips, diamond stud earrings\",\n      \"skin\": \"Fair complexion, smooth natural skin texture, clear anatomical definition, zero smoothing\"\n    },\n    \"hair\": {\n      \"color\": \"Blonde\",\n      \"style\": \"Sleek shoulder-length bob cut with a clean middle part\",\n      \"finish\": \"Soft, natural texture and hair movement\"\n    },\n    \"body\": {\n      \"somatotype\": \"Fit, athletic, well-defined waist and torso alignment\",\n      \"precision\": \"Seated forward in an ergonomic gaming chair, leaning slightly back with head tilted gently to the side\"\n    },\n    \"wardrobe\": {\n      \"apparel\": \"{argument name=\"clothing\" default=\"White ribbed sleeveless crop tank top, paired with dark blue drawstring lounge shorts\"}\",\n      \"textiles\": \"Ribbed cotton knit for top, soft fleece cotton for shorts\",\n      \"branding_override\": \"No text or logos on apparel\",\n      \"accessories\": \"Layered diamond tennis necklaces and a gold chain, gold chain bracelet on wrist\"\n    },\n    \"pose_action\": {\n      \"posture\": \"Seated comfortably on a grey textured gaming chair, arms resting casually near the armrests, head tilted slightly to her right\",\n      \"expression\": \"Relaxed, subtle engaging look directly toward the camera lens\"\n    }\n  },\n  \"scene\": {\n    \"environment\": \"{argument name=\"room style\" default=\"Modern gaming setup and streaming room, featuring a grey fabric ergonomic gaming chair\"}\",\n    \"lighting\": \"Vibrant purple LED ambient background illumination combined with soft, clean white key lighting directly illuminating the subject's face and upper torso\"\n  },\n  \"camera\": {\n    \"framing\": \"9:16 vertical aspect ratio, eye-level portrait shot, medium close-up framing centered on the subject and gaming chair setup\",\n    \"lens_settings\": \"35mm lens, sharp focus on subject's face, glasses reflection, and chair details, smooth background falloff\",\n    \"aesthetic\": \"High-end streamer portrait photography, vibrant color contrast, sharp details, realistic skin texture\"\n  },\n  \"negative_constraints\": {\n    \"anatomy\": \"No extra limbs, no deformed fingers, no extra fingers, no fused digits, no asymmetrical eyes, no bad anatomy\",\n    \"rendering\": \"No beautify smoothing, no plastic skin, no low quality, no blur on face, no noise, no compression artifacts\",\n    \"elements\": \"No unwanted text on clothing, no extra watermarks, no logos other than 'Pinodi'\"\n  }\n}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "celebrity",
-        "default": "Sydney Sweeney"
-      },
-      {
-        "name": "clothing",
-        "default": "White ribbed sleeveless crop tank top, paired with dark blue drawstring lounge shorts"
-      },
-      {
-        "name": "room style",
-        "default": "Modern gaming setup and streaming room, featuring a grey fabric ergonomic gaming chair"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787120731463_cj0t5w_HQBN45eXcAAtoxR.jpg",
-        "alt": "Sydney Sweeney Gaming Setup Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787120731466_ws5vlb_HQBN6XfWgAA5RQu.jpg",
-        "alt": "Sydney Sweeney Gaming Setup Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Pinodi",
-      "url": "https://x.com/PinodiArt"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/PinodiArt/status/2089755909845131739"
-    },
-    "publishedAt": "2026-08-18T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=31876",
-    "contentHash": "06e8bb77b4a46d69c67aa9f974610ed9adfc6013"
-  },
-  {
-    "id": "nano-banana-pro:31469",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "31469",
-    "title": "Futuristic Arachnid Gamer Persona",
-    "category": "Game Asset",
-    "description": "A comprehensive character transformation prompt that turns an uploaded identity into a futuristic arachnid-inspired gamer.",
-    "promptText": "Transform the uploaded person into a premium original {argument name=\"color scheme\" default=\"black-and-crimson\"} futuristic {argument name=\"theme\" default=\"arachnid-inspired\"} character in a cinematic gaming-room environment while preserving the person’s natural appearance and recognizable identity.\nFORMAT LOCK\nVertical 3:4 composition. Full-body portrait. Subject completely visible from head to shoes. High-angle cinematic camera looking downward. Centered framing. Premium editorial gaming-room photography.\nIDENTITY LOCK\nUse the uploaded image as the only identity reference. Preserve the exact facial structure, hairstyle, skin tone, age, body proportions, expression, and overall recognizable appearance. Do not redesign, exaggerate, beautify, or alter the person’s natural features.\nCHARACTER DESIGN\nCreate a completely original futuristic tactical outfit using matte black technical fabric, deep crimson accents, subtle geometric patterns inspired by arachnid structures, realistic stitching, layered materials, and understated protective panels. Add a small original geometric chest insignia with no recognizable superhero symbol. The design should feel like premium futuristic fashion-tech, completely distinct from existing movie, comic, or game costumes.\nENVIRONMENT\nPremium modern gaming bedroom with charcoal interiors, crimson LED lighting, gaming desk, RGB keyboard and mouse, large monitor displaying abstract red geometric artwork, gaming chair, minimalist bed, collectible shelves, warm practical lighting, and dark wooden flooring. Keep the environment sophisticated, clean, cinematic, and uncluttered.\nPOSE\nSubject stands naturally in the center. One hand rests naturally inside the outfit pocket while the other holds a gaming controller. Direct eye contact with the camera. Calm, confident expression. Natural posture, relaxed shoulders, believable anatomy, and realistic hand positioning.\nCAMERA\nHigh-angle cinematic perspective looking downward. Full-body framing with enough surrounding environment to establish the gaming room. Natural lens perspective. Realistic depth of field. Subject remains the primary focal point.\nLIGHTING & STYLE\nSoft cinematic key lighting. Deep controlled shadows. Subtle crimson ambient illumination. Natural skin tones. Gentle rim lighting. Realistic fabric reflections. Soft volumetric atmosphere. Premium editorial color grading. Photorealistic fashion photography. Extremely detailed textures. Sharp facial detail. Realistic materials. High-end cinematic gaming campaign aesthetic. Ultra-detailed 8K quality.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "color scheme",
-        "default": "black-and-crimson"
-      },
-      {
-        "name": "theme",
-        "default": "arachnid-inspired"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786774867558_66snrz_HPskDdrW0AA1KBB.jpg",
-        "alt": "Futuristic Arachnid Gamer Persona",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786774867607_5l7ubd_HPskDdUWgAAbE8D.jpg",
-        "alt": "Futuristic Arachnid Gamer Persona",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "H A J R A",
-      "url": "https://x.com/codewithhajra"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/codewithhajra/status/2088302551531741484"
-    },
-    "publishedAt": "2026-08-14T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=31469",
-    "contentHash": "eecbc1ac6eb8e056e0713932c5fca6be5bb51e46"
   }
 ]
