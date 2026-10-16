@@ -1,5 +1,504 @@
 [
   {
+    "id": "gpt-image-2:28030",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28030",
+    "title": "Z-Seven AI Product Matrix Slide",
+    "category": "Infographic / Edu Visual",
+    "description": "A polished 16:9 Chinese tech presentation slide showcasing four AI-native products around a central Z-Seven brand hub.",
+    "promptText": "Goal: Create a clean futuristic Chinese tech product matrix slide for {argument name=\"brand name\" default=\"Z-Seven\"}, showing the team’s core AI-native product lineup.\n\nCanvas: 16:9 horizontal presentation slide, white to very pale blue background, subtle circuit-board traces, tiny dotted tech patterns, thin connector lines, soft shadows, glossy SaaS/AI startup aesthetic.\n\nHeader: Large centered headline in dark navy and bright blue: {argument name=\"headline text\" default=\"Z-Seven 团队核心产品矩阵\"}. Under it, a smaller gray-blue subtitle: {argument name=\"subtitle text\" default=\"围绕 AI 原生开发体验，构建设计、记忆、框架与终端工具链\"}.\n\nLayout: Arrange exactly 4 rounded rectangular product cards in a 2×2 grid around a central circular hub. The cards are large white panels with subtle shadows, soft borders, and colored accent strokes on the left edge or corner. Connect all four cards to the center with faint blue connector lines and small node dots. In the center, place a circular badge containing a stylized blue Z logo and the text “ZSEVEN”.\n\nProduct cards: Include exactly 4 cards, each with one logo, one product name, one two-line description, and exactly 3 pill-shaped tags.\n1. Top-left card: Product name “OpenPencil” in bright cyan-blue. Large angular blue pencil/Z style logo on the left. Description: “AI 原生矢量设计工具，\\n让 Prompt 直接连接实时画布。” Tags, exactly 3: “Design-as-Code”, “开发 Agent Teams”, “实时画布”.\n2. Top-right card: Product name “Noema” in vivid blue. Minimal blue gradient N-like logo with three short horizontal motion lines. Description: “面向 Coding Agent 的\\n本地优先记忆系统。” Tags, exactly 3: “Local-first”, “词法召回”, “审核队列”.\n3. Bottom-left card: Product name “Jian” in green. Logo resembles the Chinese character “简” inside a thin green circular outline with a small bamboo-like vertical mark. Description: “Rust 原生跨平台 UI 框架，\\n.op 文件即应用。” Tags, exactly 3: “Rust-native”, “Cross-platform”, “.op App”.\n4. Bottom-right card: Product name “Zode” in purple-blue gradient. Logo is a bold futuristic Z/terminal symbol in purple and navy. Description: “AI 原生终端编码 CLI，\\n面向高效开发工作流。” Tags, exactly 3: “CLI”, “插件架构”, “全屏 TUI”.\n\nFooter: Add a rounded horizontal bottom bar with a thin blue line and dot accents. In the center, show exactly 4 workflow steps separated by arrows: “Design → Memory → Framework → CLI”. Beneath it, add the small Chinese caption: “从创作到编码，形成完整的 AI 工具协作闭环”.\n\nVisual style: Modern enterprise AI product slide, crisp vector-like typography, blue/cyan/purple/green accents, soft gradients, high readability, no photo texture, no watermark. Use balanced margins and make all text sharp and legible.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "brand name",
+        "default": "Z-Seven"
+      },
+      {
+        "name": "headline text",
+        "default": "Z-Seven 团队核心产品矩阵"
+      },
+      {
+        "name": "subtitle text",
+        "default": "围绕 AI 原生开发体验，构建设计、记忆、框架与终端工具链"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588804471_g34n3z_HMuYlfgaEAA840U.jpg",
+        "alt": "Z-Seven AI Product Matrix Slide",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Fini.Yang",
+      "url": "https://x.com/FiniYang"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/FiniYang/status/2074920874344591504#reversed-0"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28030",
+    "contentHash": "6af0ee409ecdb19f179c1077099a5e5e21d32b29"
+  },
+  {
+    "id": "gpt-image-2:28079",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28079",
+    "title": "LartAI Download Step Tutorial",
+    "category": "Infographic / Edu Visual",
+    "description": "Creates a tutorial screenshot of the LartAI image generation interface with a bold Step 5 Download arrow annotation.",
+    "promptText": "Goal: Create a wide tutorial-style screenshot graphic showing the LartAI image generation web app interface with an instructional overlay for downloading a generated image.\n\nCanvas: 1200×552 horizontal screen capture composition, bright white UI, clean SaaS dashboard look, thin gray dividers, small icons, and lots of empty white space.\n\nLayout: Full browser-app interface. A left sidebar occupies about 12% of the width, a top navigation bar spans the full width, the central workspace contains one large generated square image, and a right examples strip contains small thumbnails. Add a bold annotation on the left-center reading “Step 5: Download” in a black typewriter/monospace font, with a large curved yellow arrow outlined in black pointing upward toward the small download icon in the top toolbar above the generated image.\n\nTop navigation: Show the LartAI logo at top left. Include exactly 7 main navigation items across the top: “Explore”, “Image Creation” highlighted/underlined in blue, “Video Creation”, “3D Creation”, “Smart Apps”, “Agent”, “Smart Canvas”, and “Cine Studio”; place small red “New” badges near Agent and Smart Canvas. On the right, show “Credits: 120”, pill buttons “Pricing” and “History”, small utility icons, and a purple circular avatar with the letter “B” followed by the username {argument name=\"user name\" default=\"Bubu\"}.\n\nLeft sidebar: Under the “AI Creation” heading, show exactly 14 visible tool entries: “Image Generate” selected in blue, “Image Toolkit”, “Edit” with a small “Nano” tag, “Combine” with a small “Nano” tag, “Inpaint”, “Erase”, “Outpaint”, “Upscale”, “Restore”, “Remove BG”, “Remove Watermark”, “Video Generate” with a small “Veo” tag, “Video Toolkit”, and “3D Generate” with a small “New” tag. At the bottom, include tiny footer text links and social icons, resembling Terms/Privacy/Refund Policy/About and contact details.\n\nCentral generated image: Display a square fashion editorial photo of {argument name=\"main subject\" default=\"a stylish woman wearing sunglasses, a black blazer, black crop top, black trousers, and strappy heels\"} leaning against the front of {argument name=\"vehicle\" default=\"a glossy black Ford Mustang\"} on a city street at golden hour. The subject sits on the car hood/front corner with one leg bent, palm trees and modern buildings in the background, warm cinematic sunlight, realistic shadows, high-end fashion and luxury automotive photography. Add a small dark “LartAI” watermark in the lower-right corner of this generated image.\n\nToolbar and controls: Above the square image, show a row of small square action icons, with the yellow arrow specifically pointing at the download icon. Beneath the large image, show exactly 4 small square result thumbnails in a row, with the first thumbnail selected using a blue border.\n\nRight examples panel: Show the heading “Examples ×” and exactly 3 stacked example thumbnails: a dark car/fashion image, a yellow floral image, and a woman’s face portrait. Below them show exactly 2 small text controls: “Shuffle” and “More”.\n\nBottom prompt area: Include a large prompt input box with a plus button at its left and a visible text prompt beginning with “sunlight creates cinematic rim lighting, soft shadows, and a premium editorial atmosphere...” and containing underlined red spellcheck marks on some words. Below it, show controls including “GPT Image 2”, “medium auto”, “More Settings”, “Deep Tune”, a “4/2” indicator, “Reset”, and a blue circular send button.\n\nText overlay: The annotation text must read exactly {argument name=\"step label\" default=\"Step 5:\\nDownload\"}. Use very large black bold typewriter lettering. The arrow should be bright yellow with a thick black outline, curved, and point from the text region toward the top toolbar download button.\n\nConstraints: Preserve the clean web-app screenshot style, keep all UI text in English, use crisp small interface typography, no browser chrome, no extra popups, and no additional instructional steps.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "user name",
+        "default": "Bubu"
+      },
+      {
+        "name": "main subject",
+        "default": "a stylish woman wearing sunglasses, a black blazer, black crop top, black trousers, and strappy heels"
+      },
+      {
+        "name": "vehicle",
+        "default": "a glossy black Ford Mustang"
+      },
+      {
+        "name": "step label",
+        "default": "Step 5:\\nDownload"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588826801_loafaa_HMtwk5RWYAA6ynY.jpg",
+        "alt": "LartAI Download Step Tutorial",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Bairan",
+      "url": "https://x.com/OxBairan"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/OxBairan/status/2074875841918709818#reversed-1"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28079",
+    "contentHash": "c3043f1999ce3c95af50619f6ae780ae4b41a435"
+  },
+  {
+    "id": "gpt-image-2:28015",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28015",
+    "title": "Futuristic Sports Car Blueprint",
+    "category": "Infographic / Edu Visual",
+    "description": "A detailed technical drawing prompt for a futuristic car in blueprint style, featuring front, side, and rear views with exploded parts diagrams.",
+    "promptText": "A technical drawing of a {argument name=\"subject\" default=\"futuristic sports car\"} in blueprint style. Include line drawings of the sports car from the front, side, and rear views, exploded parts sketches, parts assembly diagrams, and structural diagrams of disassembled components. Use abundant lines and measurement values to indicate the dimensions of each part, with grayscale tones expressing the overall sketch relationship. In addition to the main design, also show scattered thumbnails from different angles.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "futuristic sports car"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588797239_miciie_HMtm9puWcAAhwvJ.jpg",
+        "alt": "Futuristic Sports Car Blueprint",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588797641_f0f8n0_HMtnjzTXUAAa9x8.jpg",
+        "alt": "Futuristic Sports Car Blueprint",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "can",
+      "url": "https://x.com/marmaduke091"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/marmaduke091/status/2074866077499105416"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28015",
+    "contentHash": "eeb3421ac9ac83ce863143ee4fd5f0ec2fafec7a"
+  },
+  {
+    "id": "gpt-image-2:28034",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28034",
+    "title": "Chinese Growth Flywheel Strategy Cover",
+    "category": "Infographic / Edu Visual",
+    "description": "Creates a premium consulting-style strategy cover where a mechanical flywheel is built into the Chinese word for growth.",
+    "promptText": "Goal: Create a clean McKinsey-style strategy cover slide about {argument name=\"topic\" default=\"compound-interest growth methodology\"}, combining Chinese headline typography with an engineered growth flywheel diagram embedded inside the Chinese word “增长”.\n\nCanvas: Wide horizontal presentation cover, about 16:5 aspect ratio, off-white paper background with subtle grain, thin black top rule and faint gray construction grid lines.\n\nTop header: At top left, write “复利时代的增长方法论 | METHODOLOGY FOR GROWTH IN THE AGE OF COMPOUND INTEREST”. At top right, write “STRATEGY COVER | GROWTH SYSTEM | EXECUTIVE INSIGHT”. Use small uppercase condensed sans-serif text, black.\n\nCentral layout: Place the huge dark navy Chinese characters “增长” across the center, occupying most of the slide width. Make the characters feel like architectural, mechanical letterforms: thick navy strokes with black outlines, subtle bevels, and embedded rectangular modules. Integrate a circular flywheel mechanism directly into and behind the characters, centered between the two characters.\n\nDiscrete central elements: Include exactly 1 large word made of 2 Chinese characters: “增” and “长”. Include exactly 1 main circular flywheel with 3 concentric rings, a light gray hub, blue curved arrows, and many small gear-like white rectangular blocks around the outer arc. Include exactly 3 labeled points above the flywheel connected by a thin blue arc: “INPUT”, “OUTPUT”, and “REINVESTMENT”. Include exactly 1 label below the flywheel: “GROWTH ACCELERATION”. Include exactly 2 orange accent nodes on the flywheel and several small blue nodes on the guide lines. Include exactly 2 diagonal segmented ramps attached to the right character, each made of small white rectangular steps. Include exactly 1 horizontal navy arrow extending to the right from the center-right of the composition. Include small blueprint coordinate markings in pale gray near the grid, but keep them secondary and mostly decorative.\n\nBottom title: Centered beneath the graphic, write the bold Chinese title “构建可持续的螺旋增长飞轮”, and below it in smaller uppercase English write “BUILDING A SUSTAINABLE SPIRAL GROWTH FLYWHEEL”.\n\nVisual style: Corporate consulting deck cover, precise vector illustration, blueprint engineering aesthetic, dark navy, black, off-white, pale gray, and small orange highlights. Use crisp linework, restrained colors, lots of white space, and balanced symmetry. The diagram should look disciplined, technical, and premium rather than playful.\n\nConstraints: Preserve the exact visible Chinese and English text. Do not add people, photos, logos, watermark, shadows, or extra sections. Keep the flywheel physically embedded into the word “增长”, not floating separately.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "topic",
+        "default": "compound-interest growth methodology"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588806555_2ry0vr_HMYY0wqWgAAxCms.jpg",
+        "alt": "Chinese Growth Flywheel Strategy Cover",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588806532_czhn8o_HMYY0uTXsAAigay.jpg",
+        "alt": "Chinese Growth Flywheel Strategy Cover",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ToroJushiAi",
+      "url": "https://x.com/ToroJushiAi"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ToroJushiAi/status/2074825836830876010#reversed-0"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28034",
+    "contentHash": "44bf1fa183aa4f9a624c50ad444a697b39ec8e37"
+  },
+  {
+    "id": "gpt-image-2:28004",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28004",
+    "title": "Turkish Market Grocer Realistic Photo",
+    "category": "Infographic / Edu Visual",
+    "description": "A prompt for generating an ultra-realistic news-style photograph of a market grocer in Turkey with fruit prices.",
+    "promptText": "Create a photo from {argument name=\"country\" default=\"Turkey\"}. A grocer standing behind the {argument name=\"fruit\" default=\"fruit\"} on a stall in a market; there are different fruits on the stall, each with its name and price written. Research current prices and write average prices according to Turkey. It should be an {argument name=\"style\" default=\"ultra-realistic news photo\"}.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "country",
+        "default": "Turkey"
+      },
+      {
+        "name": "fruit",
+        "default": "fruit"
+      },
+      {
+        "name": "style",
+        "default": "ultra-realistic news photo"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588791879_55kc1j_HMr-IOpXcAAnURh.jpg",
+        "alt": "Turkish Market Grocer Realistic Photo",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588791873_0htglb_HMr-XJ2WUAAyuEm.jpg",
+        "alt": "Turkish Market Grocer Realistic Photo",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588791928_uothri_HMr-YLAWAAAhsr_.jpg",
+        "alt": "Turkish Market Grocer Realistic Photo",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588792413_3kxoeq_HMr-ZCUWIAAb81F.jpg",
+        "alt": "Turkish Market Grocer Realistic Photo",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Ozan Sihay",
+      "url": "https://x.com/ozansihay"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ozansihay/status/2074751589714133153"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28004",
+    "contentHash": "cbb06e494ea125cfeea9e2d208fd10b2064c4e1b"
+  },
+  {
+    "id": "gpt-image-2:28051",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28051",
+    "title": "GPT5.6 Manga Tier Explainer",
+    "category": "Infographic / Edu Visual",
+    "description": "Generates a vibrant Japanese anime manga infographic poster explaining GPT5.6 and its three Sol, Terra, and Luna tiers.",
+    "promptText": "Goal: Create a colorful vertical Japanese manga explainer page announcing {argument name=\"model name\" default=\"GPT5.6\"} and explaining its three tiers, with energetic shonen magazine composition, anime character reactions, and dense infographic panels.\n\nCanvas: Portrait 3:4 poster, full bleed, high-resolution digital anime illustration. Use bright cyan, sky blue, white, navy, magenta, yellow, and gold with explosive speed lines, diagonal comic borders, lightning shards, starbursts, and a futuristic tropical city background with palm trees in some panels.\n\nLayout: Divide the page into exactly 6 comic/infographic areas: 1 large top headline banner, 1 small upper-left reaction portrait panel, 1 middle-left tier diagram panel, 1 middle-right side-profile dialogue panel, 1 large central action character panel overlapping the tier cards, and 1 bottom comparison teaser strip. Use thick manga panel borders and angled separations.\n\nMain character: A single recurring anime girl appears exactly 5 times across the page. She has long flowing aqua-turquoise twin-tail hair, teal eyes, pale skin, and a vivid royal-blue Chinese-inspired fantasy dress with gold trim, gold flower-knot ornaments, detached sleeve details, black thigh-high stockings, and ornate black-and-gold boots. Her five appearances are: 1) upper-left surprised bust portrait, mouth open, one hand raised; 2) left-middle thoughtful bust portrait with hand near chin; 3) middle-right calm side-profile bust looking right; 4) large central dynamic full-body action pose lunging toward the viewer with one hand extended and one fist clenched; 5) bottom-left small smiling profile portrait.\n\nText content: Use Japanese manga typography and keep the most prominent text as {argument name=\"main headline text\" default=\"GPT5.6が今週木曜日に登場！3つのティアを解説ッッ！\"}. Add a spiky upper-left speech bubble with {argument name=\"surprised speech text\" default=\"待ってッ!! GPT5.6は3つのティアだと!?\"}. Add a middle explanatory bubble about Sol, Terra, and Luna being three tiers and names possibly continuing in the future. Add a right speech bubble saying the roles seem different. Add a bottom teaser line comparing {argument name=\"comparison model\" default=\"Fable5\"} with GPT5.6. Add a large black starburst at bottom right with {argument name=\"closing slogan\" default=\"進化は止まらない！未来は選べるぜ！\"}.\n\nTier infographic: Include exactly 3 stacked tier cards on the left, numbered and labeled: 1) Sol, flagship tier, crown icon, dark navy header, described as the most advanced inference and long-agent-work model, with three circular icons labeled coding, cyber security, and life sciences, plus a pink note that performance improvements are especially noticeable; 2) Terra, balanced tier, scale icon, teal header, described as the everyday default model inheriting GPT-5.5-level balanced ability, with a high-performance badge and a price note showing half price; 3) Luna, high-speed/low-price tier, rocket icon, purple header, described as fastest and lowest cost, suited to high-volume and frequent tasks, with stopwatch and coin icons for fastest and low price.\n\nVisual style: Polished GPT-image anime manga poster, crisp line art, glossy cel shading, dramatic foreshortening, expressive faces, dense but readable layout, handwritten brush-style Japanese headline, clean infographic icons, energetic promotional tech-news tone.\n\nConstraints: Count and show exactly 3 tiers named Sol, Terra, and Luna; exactly 5 depictions of the same character; exactly 3 icons in the Sol card; no extra characters; no logos or watermarks; preserve a clean magazine-page composition with readable Japanese text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "model name",
+        "default": "GPT5.6"
+      },
+      {
+        "name": "main headline text",
+        "default": "GPT5.6が今週木曜日に登場！3つのティアを解説ッッ！"
+      },
+      {
+        "name": "surprised speech text",
+        "default": "待ってッ!! GPT5.6は3つのティアだと!?"
+      },
+      {
+        "name": "comparison model",
+        "default": "Fable5"
+      },
+      {
+        "name": "closing slogan",
+        "default": "進化は止まらない！未来は選べるぜ！"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588813096_vc0dbu_HMrzTGgbMAAXHXZ.jpg",
+        "alt": "GPT5.6 Manga Tier Explainer",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "チビクロ🧩AI錬金術士",
+      "url": "https://x.com/CHIBIKURO_QnQ"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CHIBIKURO_QnQ/status/2074738335751557279#reversed-0"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28051",
+    "contentHash": "0c726ba434462bcae48e22771a79cdecebccda40"
+  },
+  {
+    "id": "gpt-image-2:28048",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28048",
+    "title": "Japanese Egg Cooking Flowchart UI",
+    "category": "Infographic / Edu Visual",
+    "description": "Generates a clean web-app screenshot containing a Japanese decision flowchart for choosing an egg cooking method.",
+    "promptText": "Goal: Create a clean web-app screenshot showing a generated document image: a simple Japanese decision flowchart for how to cook eggs.\n\nCanvas: 762×596 px desktop browser/app view. Light gray page background with a bright blue top app bar spanning the full width. The app bar contains a small white image icon at far left, the Japanese title {argument name=\"app title\" default=\"資料画像生成\"} in white, and a small white grid/menu icon at the far right. A subtle scrollbar is visible on the right edge.\n\nMain card layout: Center a large white rounded rectangle card with a faint drop shadow, about 718×468 px, starting below the blue header. Inside the card is a black-and-white flowchart on a white field, leaving generous margins. Add two floating circular blue action buttons on the right side of the card: one near the upper-right with a white download arrow icon, and one near the lower-right with a white pencil/edit icon.\n\nFlowchart elements: Use exactly 6 rectangular outlined boxes with white fill and black borders, connected by exactly 5 thick black arrows. All text is Japanese and bold black unless noted.\n1. Left box: 「卵をどう調理する？」\n2. Top middle box: 「殻のまま茹でる？」\n3. Top right box: main text 「ゆで卵」 with smaller subtitle 「お好みで半熟〜固茹で」\n4. Middle lower box: 「黄身を崩す？」\n5. Middle right box: 「スクランブルエッグ」\n6. Bottom right box: 「目玉焼き」\n\nFlowchart connections and labels: A right-pointing arrow connects box 1 to box 2. From box 2, a right-pointing arrow labeled 「YES」 above it connects to box 3. From box 2, a downward arrow labeled 「NO」 to the right descends to box 4. From box 4, a right-pointing arrow labeled 「YES」 above it connects to box 5. From box 4, a thick path goes downward then right, labeled 「NO」 near the turn, ending with a right-pointing arrow into box 6.\n\nFooter text: At the lower-left inside the card, add small gray Japanese text {argument name=\"cost note\" default=\"概算 約7円\"}.\n\nVisual style: Minimal monochrome flowchart, clean sans-serif Japanese UI font, thick black arrows, crisp rectangular outlines, lots of white space, realistic screenshot-like UI rendering. Avoid extra boxes, extra icons, decorative colors inside the chart, watermarks, or additional explanatory text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "app title",
+        "default": "資料画像生成"
+      },
+      {
+        "name": "cost note",
+        "default": "概算 約7円"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588812078_gvdqd0_HMrpqEqbkAAPlCA.png",
+        "alt": "Japanese Egg Cooking Flowchart UI",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Tanaka Seigo",
+      "url": "https://x.com/1ft_seabass"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/1ft_seabass/status/2074727508449345745#reversed-0"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28048",
+    "contentHash": "1409049881d34aef9b5498d47239641f0d5a2c26"
+  },
+  {
+    "id": "gpt-image-2:28054",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28054",
+    "title": "Reasoning Effort Anime Comparison",
+    "category": "Infographic / Edu Visual",
+    "description": "A wide four-panel experiment graphic comparing anime portrait outputs across low, medium, high, and xhigh reasoning effort settings.",
+    "promptText": "Goal: Create a wide social-media comparison graphic showing an AI image generation experiment about reasoning effort. The graphic compares four anime-style portrait outputs side by side while keeping the character brief consistent.\n\nCanvas: Horizontal 1200×675 style image with a dark charcoal background, like a tweet attachment or experiment result slide. Use a clean, compact layout with thin black gutters between panels.\n\nHeader text: At the top left, show the Japanese title 「effortテスト： sonnet(Sonnet5)固定で reasoning effort だけ4段階」 in white. Directly underneath, in smaller gray text, show 「同一の顔ブリーフ。effortだけ low→xhigh に変更（画像モデルはgpt-image-2固定）」.\n\nLayout: Below the header, create exactly 4 equal vertical portrait panels arranged left to right. Each panel has a narrow dark label bar at the top with white text. The labels are exactly 4: “effort = low”, “effort = medium”, “effort = high”, and “effort = xhigh”.\n\nSubject details: In every panel, depict the same young anime woman, about 18–22 years old, with {argument name=\"hair color\" default=\"dark brown to black\"} windblown shoulder-length hair, soft delicate facial features, large reflective eyes, a slightly melancholic or thoughtful expression, natural skin tones, and a loose pale blouse. Keep her identity consistent across all 4 panels but allow slight variations in angle, expression, and lighting.\n\nPanel contents: Panel 1 “effort = low” shows her in a warm sunset close-up, facing slightly left of camera, hair blowing across her face, wearing a light blouse with a visible dark strap and subtle red ribbon accent. Panel 2 “effort = medium” shows her centered, looking toward the viewer with glossy eyes, soft backlit sky and greenery behind her, hair swept around her cheeks. Panel 3 “effort = high” shows her in a three-quarter profile, turned toward the right with blue eyes catching the light, dramatic golden clouds behind her, and stronger rim light on her face and neck. Panel 4 “effort = xhigh” shows her slightly more realistic and moody, turned left with half-lidded eyes, long dark hair blown across her face, warm sunset over distant hills, and a pale patterned blouse.\n\nVisual style: High-quality cinematic anime illustration, painterly semi-realistic rendering, warm golden-hour backlight, detailed hair strands, glowing sky, soft atmospheric depth, subtle filmic contrast, consistent color palette of amber sunlight, blue sky, and dark hair. The overall impression should be that all four outputs are similarly high quality with no obvious winner.\n\nConstraints: Use exactly 4 portrait panels and exactly the 4 labels listed above. Preserve the Japanese header text exactly. Do not add logos, watermarks, extra captions, charts, arrows, or additional panels.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "dark brown to black"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588814253_wnu9cy_HMrCKECasAA-YnC.jpg",
+        "alt": "Reasoning Effort Anime Comparison",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "AI Video Project",
+      "url": "https://x.com/aivideo2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/aivideo2026/status/2074684060954411336#reversed-0"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28054",
+    "contentHash": "75ebc84a32d0fe9f1605ceb4ac4f61c91b337499"
+  },
+  {
+    "id": "gpt-image-2:28043",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28043",
+    "title": "Four-Panel AI Landscape Comparison",
+    "category": "Infographic / Edu Visual",
+    "description": "Creates a dark social-media comparison banner with four labeled anime landscape outputs for different Claude model tiers.",
+    "promptText": "Goal: Create a wide comparison graphic showing how four prompt-writing AI model tiers produce the same landscape scene in GPT Image 2, with a dark editorial UI frame and Japanese headline text.\n\nCanvas: Extra-wide horizontal banner, approximately 2:1 aspect ratio, black/dark charcoal background, clean social-media comparison layout. Use thin black dividers between image columns and a compact top title area.\n\nTop text: Large white Japanese headline: {argument name=\"headline text\" default=\"同じ構図・同じ画像AI（GPT Image 2）。プロンプトを“書いたAI”だけが違う4枚\"}. Under it, add a smaller gray subtitle: {argument name=\"subtitle text\" default=\"変えたのは「プロンプトを書くClaudeのモデル階層」だけ（左＝最も安い → 右＝最上位）\"}.\n\nLayout: Four equal vertical landscape panels placed side by side, each with a small dark label bar at the top. Use exactly 4 panels, ordered left to right:\n1. Label: “haiku ｜ 最も安い” — a dramatic semi-realistic anime landscape at golden sunset, high mountain range in the distance, layered misty valleys, wildflower-covered rocky foreground, a tiny solitary person standing on a ridge, warm orange-purple clouds, slightly over-embellished cinematic atmosphere.\n2. Label: “sonnet” — cleaner and more elegant sunset mountain valley, broad sky with soft glowing cumulus clouds, golden light spilling across rolling hills, a small lone figure on a ridge path, balanced composition, polished anime background style.\n3. Label: “opus” — high-quality but restrained sunset vista, deep blue sky fading to orange near the horizon, large illuminated cloud formations, grassy hillside foreground, distant lake or reflective water, tiny figure near the bottom center, premium but conventional scenic framing.\n4. Label: “fable ｜ 最上位” — emotionally directed bright morning or late-afternoon landscape, turquoise-blue sky, towering luminous white clouds, sunbeams over a vast green valley, a small person in a white dress and hat standing in meadow grass at lower right, more narrative and poetic mood.\n\nVisual style: Refined Japanese anime background art blended with painterly cinematic lighting, highly detailed skies and atmospheric perspective. Keep all four panels similar in composition and subject matter so the comparison feels controlled, but vary mood and art direction per label. Use crisp white text, dark label bars, no logos, no watermark.\n\nConstraints: Preserve exactly 4 image panels and exactly these 4 visible panel labels. Make the title and subtitle legible. Keep the overall image looking like a posted comparison chart rather than a standalone landscape collage.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline text",
+        "default": "同じ構図・同じ画像AI（GPT Image 2）。プロンプトを“書いたAI”だけが違う4枚"
+      },
+      {
+        "name": "subtitle text",
+        "default": "変えたのは「プロンプトを書くClaudeのモデル階層」だけ（左＝最も安い → 右＝最上位）"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588810069_mbg2mp_HMq7BVda4AALEdX.jpg",
+        "alt": "Four-Panel AI Landscape Comparison",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "AI Video Project",
+      "url": "https://x.com/aivideo2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/aivideo2026/status/2074676227496198294#reversed-0"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28043",
+    "contentHash": "4827ad534008df44e6fd895b37ce7536631181e1"
+  },
+  {
+    "id": "gpt-image-2:28013",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28013",
+    "title": "Biopunk Horror Manga Technical Dossier",
+    "category": "Infographic / Edu Visual",
+    "description": "A conceptual graphic art prompt for a biopunk technical document featuring a scientist in an inked manga style.",
+    "promptText": "Create an image: A page of a scientific and medical dossier in a {argument name=\"style\" default=\"biopunk horror manga style\"}, with a detailed and complex anime-style technical interface design. In the center, the attached model is dressed as a {argument name=\"role\" default=\"scientist\"}. Strict trichromatic color palette: only white, black, and bright blood red. Inked manga art style, shaded with dot patterns (screentones), with detailed hand-drawn line drawing textures. The background is a worn technical document with a grunge aesthetic, filled with English warning texts and Japanese kanji in blocks, barcodes, biological data boxes, plant diagrams, and a red seal. Old paper texture, photocopy grain, high contrast, dark and suspenseful atmosphere—a masterpiece of conceptual graphic art.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "style",
+        "default": "biopunk horror manga style"
+      },
+      {
+        "name": "role",
+        "default": "scientist"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588796517_76x0s1_HMjCo4SWcAADP0M.jpg",
+        "alt": "Biopunk Horror Manga Technical Dossier",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "HER19845",
+      "url": "https://x.com/her19845"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/her19845/status/2074649918443041109"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28013",
+    "contentHash": "9ab8b3feff3854077c2cf6497f9f25db31852683"
+  },
+  {
+    "id": "gpt-image-2:27927",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27927",
+    "title": "Four-Panel Anime Face Comparison",
+    "category": "Infographic / Edu Visual",
+    "description": "Creates a social-media-ready comparison card with four anime close-up portraits showing different prompt quality tiers.",
+    "promptText": "Goal: Create a wide comparison graphic showing four generated anime-style close-up portraits of the same young woman, comparing prompt-writing AI tiers.\n\nCanvas: 1200×675 landscape image with a dark charcoal/black background, like a social media comparison card. Use a clean editorial layout with a narrow title band at the top and four equal vertical portrait panels underneath.\n\nTop text: Add a large white Japanese headline across the top: 「実験③：女性の顔アップ。同じ画像AI（GPT Image 2）で、プロンプトを“書いたAI”だけが違う4枚」. Beneath it, add a smaller gray Japanese subtitle: 「変えたのは『プロンプトを書くClaudeのモデル階層』だけ（左＝最も安い → 右＝最上位）」.\n\nLayout: Four side-by-side portrait columns, exactly 4 panels, separated by thin black gutters. Each panel has a dark header strip with small white text. The 4 visible panel labels from left to right are: 1) 「haiku｜最も安い」, 2) 「sonnet」, 3) 「opus」, 4) 「fable｜最上位」.\n\nSubject: In every panel, show the same {argument name=\"character description\" default=\"young woman with long dark hair, delicate features, large emotional eyes, soft lips, and a wistful expression\"} in a close-up or bust portrait. She is outdoors in warm golden-hour sunlight with blue sky, soft clouds, distant greenery or mountains, and wind-blown hair. The emotional tone should be tender, cinematic, and slightly melancholic, with teary or reflective eyes.\n\nPanel-specific portrait styles: Panel 1, “haiku”, should look more semi-realistic and decorative, with painterly anime illustration rendering, heavier details, ornate earrings, a braid, warm sunset shadows, and a slightly less clean cel-animation face. Panel 2, “sonnet”, should look cleaner and more theatrical-anime-like, with a soft cel-shaded face, long dark hair tied loosely back, bright rim light, delicate tearful eyes, and a pale blouse. Panel 3, “opus”, should be polished anime illustration with strong cinematic golden backlight, loose dark hair, refined eyes, warm blush, and a close shoulder-turned pose. Panel 4, “fable”, should be the cleanest flat theatrical anime cel style, simpler facial features, long loose hair, sleeveless light top, blue sky and clouds behind her, and an innocent upward-looking expression with subtle tears.\n\nVisual style: High-quality Japanese anime portrait comparison, cinematic lighting, soft lens glow, natural wind, expressive eyes, delicate linework, warm highlights, dark UI-like framing, crisp readable text. Keep the four portraits related but visibly different in rendering quality and style.\n\nConstraints: Use exactly 4 portrait panels and exactly the 4 listed labels. Do not add extra panels, logos, watermarks, or additional explanatory text. Preserve the Japanese text exactly as specified.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character description",
+        "default": "young woman with long dark hair, delicate features, large emotional eyes, soft lips, and a wistful expression"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783500640313_j7kymj_HMosPZ8bIAA5ImB.jpg",
+        "alt": "Four-Panel Anime Face Comparison",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "AI Video Project",
+      "url": "https://x.com/aivideo2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/aivideo2026/status/2074519225981624322#reversed-0"
+    },
+    "publishedAt": "2026-07-07T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27927",
+    "contentHash": "695671563cd4623d84b966c9bb58a2d1d7ba2430"
+  },
+  {
     "id": "gpt-image-2:27930",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6718,512 +7217,5 @@
     "publishedAt": "2026-07-04T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27662",
     "contentHash": "0c4630899887fefd92c99b4865d57d080b491249"
-  },
-  {
-    "id": "gpt-image-2:27682",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27682",
-    "title": "Cozy Moonlight Night Portrait",
-    "category": "Profile / Avatar",
-    "description": "A highly detailed prompt for a realistic nocturnal portrait of a young woman in a cozy room illuminated by moonlight and a warm lamp.",
-    "promptText": "Subject: \nMoonlit Room\n\nPerson/Expression: \n{argument name=\"age and gender\" default=\"woman in her 20s\"}. Naturally small face with a soft outline. {argument name=\"hair color\" default=\"dark brown\"} short bob with light outward flips and loose movement at the ends. Bangs are thin and just touch the eyes. Makeup is a transparent Japanese-style look, with smooth skin that is not overly processed. Expression is calm and slightly sleepy, lips lightly parted, with a gentle gaze towards the camera. Delicate {argument name=\"accessory\" default=\"swinging heart-motif earrings\"} on the ears.\n\nClothing/Pose: \nLight gray soft ribbed camisole and matching room shorts. Natural loungewear for relaxing indoors. The woman is leaning as if sitting on the floor, tilting her upper body slightly back. Her left arm is lightly bent next to her head, with fingertips touching her hair. Her right arm is naturally down at her side. Both knees are up in front, in a composition where the legs enter the foreground. A relaxed night posture with effortless weight distribution.\n\nBackground/Light: \nNight interior. Wooden floor, large window behind, blue night sky and a round moon outside with distant city lights. Large houseplant in the back left, shelf and small lamp in the back right, with pale curtains. The primary light source is the warm lamp in the back right, casting soft orange-toned light on the right side of the face, shoulder, neck, and chest. Secondary blue moonlight enters through the window, coolly outlining the hair and left-side atmosphere. Shadows are not too deep, with a calm night-appropriate contrast.\n\nComposition/Camera: \nVertical composition. Medium shot from a slightly low angle, with legs in the foreground and the face/upper body in the center. The subject is in the center of the frame. The camera is somewhat close, showing from the face to the abdomen clearly. Focus is on the eyes and face. Background is moderately blurred, preserving the atmosphere of the indoor moonlit night.\n\nTexture/Style: \nRealistic photography-style visuals. Carefully depicted natural skin texture, soft shadows, ribbed fabric feel, and calm reflections on the wooden floor. Values the contrast between the warm lamp light and cold moonlight, creating a quiet night mood overall. Avoids excessive saturation or unnatural gloss, finishing as an elegant night portrait.\n\nNegative: \nUnnatural face, misaligned gaze, extra or missing fingers, fused limbs, broken joints, floating hair, broken clothing, asymmetrical earrings, excessive exposure, vulgar expressions, plastic skin, excessive skin correction, shadows inconsistent with light sources, distorted background objects, unnecessary text, logos, or watermarks.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "age and gender",
-        "default": "woman in her 20s"
-      },
-      {
-        "name": "hair color",
-        "default": "dark brown"
-      },
-      {
-        "name": "accessory",
-        "default": "swinging heart-motif earrings"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241299003_deqajd_HMSA0XWbkAAXGxz.jpg",
-        "alt": "Cozy Moonlight Night Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2073381814371283285"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27682",
-    "contentHash": "453c9e559586903215f7d7ab207535a5d99420b0"
-  },
-  {
-    "id": "gpt-image-2:27686",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27686",
-    "title": "Playful Winking Japanese Girl Room Selfie",
-    "category": "Profile / Avatar",
-    "description": "A detailed prompt for generating a realistic Japanese-style portrait of a woman in her 20s with a playful winking expression. It includes specific details for lighting, composition, and a cozy room background to achieve a natural smartphone selfie aesthetic.",
-    "promptText": "Subject:\n{argument name=\"subject\" default=\"mischievous face\"}\n\nPerson/Expression:\nA woman in her 20s. Natural and mature Japanese photography atmosphere. Loose dark brown tied-up hair, thin see-through bangs, a few loose strands around the face. Clear and elegant Japanese-style makeup, natural skin texture, pale blush on cheeks. Winking one eye strongly while looking at the camera with the other eye slightly wide. A bright playful face with the tongue slightly out to the side and teeth showing. Natural tension around eyebrows, cheeks, and nose—joking but not vulgar.\n\nClothing/Pose:\n{argument name=\"outfit\" default=\"Ivory ribbed sleeveless top, brown room shorts\"}. The front zip of the top is open about one-third from the top, the bottom is closed. No logos or text, no transparency, no extra exposure. Leaning forward toward the camera, right hand on the edge of the bed for support, left hand on the thigh. Hips pushed back, shoulders slightly turned inward for a close-range selfie-style pose.\n\nBackground/Light:\n{argument name=\"background\" default=\"A small one-room bedroom\"}. Gray curtains on the right, a white bed in the foreground right, low shelves in the back left, a small warm-colored lamp, houseplants, wood grain floor. A clean, calm space with a lived-in feel. Warm light from the back left lamp, soft auxiliary light from a smartphone shot from slightly above the front, brightly illuminating the face, shoulders, and hair surface. Shadows fall thinly behind and on the floor, the curtain side is slightly darker.\n\nComposition/Camera:\nVertical 4:5. Smartphone close-up selfie style. Camera at a slightly high angle for a light overhead view. Somewhat wide-angle, with the face positioned large in the upper center of the screen. The person occupies about 80% of the screen, leaving background naturally on the sides. Focus on the face, with hair ends and background lightly and softly blurred. Natural perspective of face, shoulders, arms, and torso despite close distance.\n\nTexture/Style:\nHigh-quality realistic Japanese photography. Natural skin texture, modest gloss, no excessive skin correction. Warm indoor colors, soft contrast, intimate distance typical of smartphone photos. Clean lifestyle photo, light film grain, natural finish with minimal AI feel.\n\nNegative:\nMinors, infantile, vulgar expressions, transparent materials, lingerie-like, logos, text, watermarks, extra people, facial collapse, unnatural distortion of eyes, tongue or teeth failure, missing or extra fingers, fused arms or shoulders, unnatural perspective, shadows inconsistent with light sources, plastic skin, excessive HDR, excessive sharpening.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "mischievous face"
-      },
-      {
-        "name": "outfit",
-        "default": "Ivory ribbed sleeveless top, brown room shorts"
-      },
-      {
-        "name": "background",
-        "default": "A small one-room bedroom"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241301055_zpfio7_HMRX-E0bwAA_Bd1.jpg",
-        "alt": "Playful Winking Japanese Girl Room Selfie",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2073362686738645202"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27686",
-    "contentHash": "5c9b9ac2fa137f660e3034d8ff8f1e652bc66fe9"
-  },
-  {
-    "id": "gpt-image-2:27693",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27693",
-    "title": "Dramatic Red Background Portrait",
-    "category": "Profile / Avatar",
-    "description": "A photorealistic cinematic portrait prompt featuring high-contrast directional lighting against a solid dark red background.",
-    "promptText": "A dramatic close-up portrait of a woman with {argument name=\"hair\" default=\"shoulder-length wavy blonde hair\"} and {argument name=\"eyes\" default=\"intense green eyes\"} gazing directly at the viewer.\n\nSubject: A fair-skinned woman with a sharp jawline, defined cheekbones, and a serious, stoic expression. Her hair is styled in loose waves that frame her face, catching highlights from the light source.\n\nClothing: She wears a black ribbed turtleneck sweater that covers her neck and shoulders, providing a stark contrast to her skin tone.\n\nLighting: Strong directional lighting illuminates the left side of her face while casting deep shadows on the right, creating high contrast and emphasizing facial contours. The light source appears warm, reflecting off her forehead and nose.\n\nEnvironment: A {argument name=\"background\" default=\"solid, dark red background\"} that fills the frame behind the subject, isolating her from any external context.\n\nCamera: Tight head-and-shoulders framing with a shallow depth of field that keeps the face in sharp focus while softly blurring the edges of the hair.\n\nStyle Details: Photorealistic cinematic portrait style with high dynamic range, rich color saturation, and a polished studio finish.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair",
-        "default": "shoulder-length wavy blonde hair"
-      },
-      {
-        "name": "eyes",
-        "default": "intense green eyes"
-      },
-      {
-        "name": "background",
-        "default": "solid, dark red background"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241304702_7jdvkz_HMYQBinbEAATSdw.jpg",
-        "alt": "Dramatic Red Background Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "dreamy digital arts",
-      "url": "https://x.com/dreamydigiarts"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/dreamydigiarts/status/2073362636234719581"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27693",
-    "contentHash": "3ba1642fc916733bbf4adb7a9ccd8f636313d4d5"
-  },
-  {
-    "id": "gpt-image-2:27640",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27640",
-    "title": "Modern Minimalist Editorial Poster",
-    "category": "Profile / Avatar",
-    "description": "Generates a stylish minimalist editorial poster with a retro aesthetic, featuring bold typography and clean studio lighting.",
-    "promptText": "Design a modern minimalist editorial poster centered on an {argument name=\"subject\" default=\"Asian man\"} seated on a simple stool. He wears a {argument name=\"clothing\" default=\"beige hoodie, relaxed black trousers, and beige sneakers\"}. His posture should feel casual and confident, with a slight forward lean and both hands resting on his knees. Set the scene in a clean studio with a bold retro graphic layout. Use a {argument name=\"background color\" default=\"warm orange\"} field across the upper area, contrasted with a soft textured beige floor. Place a large ivory white \"01\" behind the subject, partially cropped so it stretches across the canvas. Include these typography details: \"TRACK NUMBER\" in bold black sans serif on the left side, a small \"HARBORIS\" caption above it, and a small upper right caption reading \"Anggadaras1908\". Keep the design modern and editorial, with Swiss style typography, clear negative space, and balanced composition. Use soft studio lighting with subtle shadows beneath the chair. The image should feel cinematic but clean, with no harsh contrast. Frame it as an eye level, medium range, full body shot with centered composition, sharp focus, and high resolution. Color palette: orange, cream, off white, and black accents. Add slight grain, poster paper texture, and a vintage print feel. Keep the face and body exactly the same as the uploaded reference image. Final aspect ratio 3:4.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "Asian man"
-      },
-      {
-        "name": "clothing",
-        "default": "beige hoodie, relaxed black trousers, and beige sneakers"
-      },
-      {
-        "name": "background color",
-        "default": "warm orange"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241272266_t1f2aa_HMYKNfAbAAAVeLd.jpg",
-        "alt": "Modern Minimalist Editorial Poster",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "PromptLab",
-      "url": "https://x.com/iamaiistudio"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/iamaiistudio/status/2073356179619926213"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27640",
-    "contentHash": "35ecb06191dd45113414132dc553bf15469302c9"
-  },
-  {
-    "id": "gpt-image-2:27647",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27647",
-    "title": "Modern Vector Fashion Portrait",
-    "category": "Profile / Avatar",
-    "description": "A vector-style portrait prompt for gpt-image-2 inspired by premium fashion illustration and pop art.",
-    "promptText": "A bold modern vector portrait of a stylish woman wearing {argument name=\"eyewear\" default=\"oversized geometric translucent sunglasses\"} and a {argument name=\"outfit\" default=\"black turtleneck\"}, centered in a symmetrical composition. Hair slicked back with a clean middle part, flawless skin, confident expression, minimal jewelry, soft glossy lips, sharp eyebrows, elegant editorial beauty look. Background features a large perfectly centered circular halo in a matching monochromatic color palette ({argument name=\"color theme\" default=\"teal, cyan, orange, coral, purple, or emerald\"}), with a smooth radial gradient. Use a limited two-tone color scheme with dramatic cel-shaded lighting, crisp vector shapes, thick clean outlines, smooth gradients, high contrast, glossy highlights, and geometric facial shadows. Style inspired by premium fashion illustration, luxury magazine covers, modern pop art, Adobe Illustrator vector artwork, minimalist branding, editorial poster design, flat graphic design with subtle depth, luxury eyewear campaign, ultra-clean composition, centered portrait, contemporary digital illustration, Behance trending, Dribbble aesthetic, award-winning graphic design, 8K. Style keywords: minimal vector portrait, geometric shading, cel shading, modern fashion illustration, monochromatic palette, luxury editorial, pop art, clean vector lines, glossy highlights, bold gradients, premium poster design, centered composition, high-end branding.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "eyewear",
-        "default": "oversized geometric translucent sunglasses"
-      },
-      {
-        "name": "outfit",
-        "default": "black turtleneck"
-      },
-      {
-        "name": "color theme",
-        "default": "teal, cyan, orange, coral, purple, or emerald"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241275988_a677cv_HMYDWbrbgAAogIK.jpg",
-        "alt": "Modern Vector Fashion Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241275990_dhxvn7_HMYDWdQbsAA0G7T.jpg",
-        "alt": "Modern Vector Fashion Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Taaruk",
-      "url": "https://x.com/Taaruk_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Taaruk_/status/2073348376247353581"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27647",
-    "contentHash": "f241a8b63c3c43f302ebdc30c9091051fe19240a"
-  },
-  {
-    "id": "gpt-image-2:27669",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27669",
-    "title": "Cozy Library Portrait Photography",
-    "category": "Profile / Avatar",
-    "description": "An ultra-realistic portrait of a woman in a cozy library setting, captured with professional photography techniques for a high-quality lifestyle look.",
-    "promptText": "Ultra-realistic portrait photography of a beautiful young {argument name=\"ethnicity and gender\" default=\"East Asian woman\"} sitting indoors in a {argument name=\"setting\" default=\"cozy library\"}, wearing large modern over-ear headphones with soft {argument name=\"accessory color\" default=\"orange\"} ear cushions and a light gray headband. She has long dark brown wavy hair cascading over her shoulders, flawless glowing skin, natural makeup, soft pink lips, delicate gold drop earrings, and a gentle warm smile while adjusting the headphones with both hands. She wears an oversized textured royal-blue knitted sweater with soft fabric detail.\n\nBackground filled with wooden bookshelves packed with colorful books, softly blurred using shallow depth of field. Warm ambient indoor lighting, soft cinematic glow, natural skin tones, professional lifestyle photography, eye-level composition, centered framing, ultra-detailed facial features, realistic hair strands, crisp focus on eyes, creamy bokeh background.\n\nCamera: Sony A7R V, 85mm portrait lens, f/1.8, ISO 100, high dynamic range, professional color grading, photorealistic, 8K resolution, magazine-quality portrait, natural expression, cozy reading-room atmosphere, sharp focus, realistic textures, vertical composition (9:16). Negative prompt: low quality, blurry, extra fingers, distorted hands, overprocessed skin, cartoon, anime, CGI, watermark, text, noise, artifacts.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "ethnicity and gender",
-        "default": "East Asian woman"
-      },
-      {
-        "name": "setting",
-        "default": "cozy library"
-      },
-      {
-        "name": "accessory color",
-        "default": "orange"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241288237_t1tj6g_HMX8o7BaUAAhK8K.jpg",
-        "alt": "Cozy Library Portrait Photography",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "auqib",
-      "url": "https://x.com/auqibhabib"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/auqibhabib/status/2073340994817589307"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27669",
-    "contentHash": "c1002f5d6065b8cb2b37aba60da2f25209666431"
-  },
-  {
-    "id": "gpt-image-2:27664",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27664",
-    "title": "Double Exposure Physics Portrait",
-    "category": "Profile / Avatar",
-    "description": "A cinematic portrait of a young man with a double exposure effect overlaying scientific equations and cosmic nebulae.",
-    "promptText": "{argument name=\"style\" default=\"Ultra-detailed cinematic color portrait\"} of the {argument name=\"subject\" default=\"same young man\"} from the uploaded reference image, wearing {argument name=\"accessories\" default=\"black square glasses and a dark knitted turtleneck\"}, in a thoughtful pose with one hand resting on his chin while gazing slightly upward and to the side with an intense intellectual expression. Vibrant double exposure effect featuring glowing handwritten scientific equations, advanced physics formulas, calculus notations, quantum mechanics symbols, geometric diagrams, atomic structures, wave functions, E=mc², tensor equations, and mathematical symbols projected across his face, glasses, hand, and clothing. Rich cosmic background filled with luminous galaxies, colorful nebulae, sparkling stars, energy waves, auroras, glowing particles, and celestial dust in brilliant shades of electric blue, cyan, purple, magenta, orange, gold, teal, and violet. Dramatic cinematic lighting with warm golden rim light and cool blue highlights, volumetric light rays, subtle lens flares, realistic skin texture, crystal-clear eyes, ultra-sharp details, premium sci-fi aesthetic, futuristic genius atmosphere, photorealistic, HDR, masterpiece quality, Unreal Engine, Octane Render, 8K.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "style",
-        "default": "Ultra-detailed cinematic color portrait"
-      },
-      {
-        "name": "subject",
-        "default": "same young man"
-      },
-      {
-        "name": "accessories",
-        "default": "black square glasses and a dark knitted turtleneck"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241286134_kkmt3q_HMXV2jHbkAAElcU.jpg",
-        "alt": "Double Exposure Physics Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Aegon",
-      "url": "https://x.com/Fujimoto_hina"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Fujimoto_hina/status/2073298349772747175"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27664",
-    "contentHash": "8eecbdc724a3859442141846fe60827555aabc00"
-  },
-  {
-    "id": "gpt-image-2:27642",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27642",
-    "title": "Vintage CCD Flash Snapshot",
-    "category": "Profile / Avatar",
-    "description": "Produces a candid, vintage-style snapshot reminiscent of early digital compact cameras, featuring a grainy low-light aesthetic.",
-    "promptText": "Flash-lit mobile phone snapshot with a {argument name=\"camera style\" default=\"vintage CCD compact-camera\"} feel: grainy low-light indoor scene, messy dim room ambience, candid off-guard energy, slight motion blur, {argument name=\"subject\" default=\"young Korean female idol\"} with a soft innocent expression.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "camera style",
-        "default": "vintage CCD compact-camera"
-      },
-      {
-        "name": "subject",
-        "default": "young Korean female idol"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241272917_9c3nuy_HMXTcL_bIAAiSRh.jpg",
-        "alt": "Vintage CCD Flash Snapshot",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "PromptLab",
-      "url": "https://x.com/iamaiistudio"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/iamaiistudio/status/2073295800915185950"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27642",
-    "contentHash": "c3a9a87362f2328aa60e19d2052625a55928e6fe"
-  },
-  {
-    "id": "gpt-image-2:27688",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27688",
-    "title": "Artistic Ink Wash Portrait Sketch",
-    "category": "Profile / Avatar",
-    "description": "A sophisticated prompt for turning photographs into hand-drawn illustrations with a refined sketchbook aesthetic, featuring 0.5mm pencil work and watercolor splashes.",
-    "promptText": "Use the uploaded photo as the primary reference for the character.\n\nIMPORTANT REFERENCE INSTRUCTIONS\n\nPreserve the subject's recognizable identity while simplifying it into a beautiful hand-drawn illustration.\n\nAccurately reflect the uploaded photo's:\n- overall mood and atmosphere\n- outfit and clothing details\n- accessories (glasses, jewelry, hats, bags, etc.)\n- hairstyle and hair color\n- visible pets or companion animals (if present)\n- meaningful personal objects\n\nThe subject should remain immediately recognizable while rendered in an elegant, artistic sketch style.\n\nIf the subject is male, depict a {argument name=\"male age\" default=\"young boy\"}.\nIf the subject is female, depict a {argument name=\"female age\" default=\"young girl\"}.\n\nSTYLE\n\nCreate a highly detailed hand-drawn illustration on a white sketchbook page using fine 0.5mm colored pencils. Build the drawing primarily with delicate pencil strokes and subtle colored-pencil shading while preserving the natural paper texture.\n\nThe sketchbook is placed on a natural wooden easel. Soft, warm sunlight gently filters through a nearby window, creating subtle highlights, delicate shadows, and a cozy, calm artist's studio atmosphere.\n\nBACKGROUND\n\nKeep the background extremely minimal and understated.\n\nUse soft neutral and pastel tones with plenty of negative space.\n\nDo not include complex objects or distracting elements.\n\nAdd only a few small doodles ({argument name=\"doodles\" default=\"stars and hearts\"}) around the subject, drawn loosely with rough 4B pencil outlines.\n\nCOLOR TREATMENT\n\nThe overall image should remain mostly monochrome with very low saturation.\n\nApply color almost exclusively to the subject using soft watercolor-like paint splashes scattered around the figure, blending naturally into the sketch without overwhelming it.\n\nThe paint splashes should feel light, artistic, and organic rather than bold or graphic.\n\nMOOD\n\nWarm, cozy, calm, minimal, elegant, artistic, handmade, gallery-quality, premium illustration with a refined sketchbook aesthetic.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "male age",
-        "default": "young boy"
-      },
-      {
-        "name": "female age",
-        "default": "young girl"
-      },
-      {
-        "name": "doodles",
-        "default": "stars and hearts"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241301659_7g8gcr_HMXRf48bMAAbKYM.jpg",
-        "alt": "Artistic Ink Wash Portrait Sketch",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "사라진인류애를찾아서",
-      "url": "https://x.com/Lil_Egen"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Lil_Egen/status/2073293863335383283"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27688",
-    "contentHash": "c64aee64c8d7d0b35b62ba8d7e800ab606fea351"
-  },
-  {
-    "id": "gpt-image-2:27692",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27692",
-    "title": "YZK Styled Portrait Collage",
-    "category": "Profile / Avatar",
-    "description": "A specialized prompt for creating a vertical collage of portraits based on a single face reference, maintaining strict facial consistency across different poses and close-ups.",
-    "promptText": "A vertical collage of three YZK photos. Using the uploaded selfie as the ONLY and exclusive face reference, keep the facial features, and facial structure exactly the same as the reference image. The character poses against a neutral light background. A girl with a {argument name=\"hairstyle\" default=\"beautiful, voluminous hairstyle, seemingly styled with a brush\"}, wearing {argument name=\"makeup style\" default=\"foxy makeup and pronounced, angled lashes\"}. In the first photo, she's very close to the camera, looking at it with one eye and winking. In the second photo, she's turned away, her head coquettishly turned toward the lens, her hairstyle slightly covering her face, but not too much. In the third photo, she's looking very close to the lens, her hair to the side, thus covering her left eye, pouting and looking forward. Close-up and medium shot, minimalist composition, vintage digital texture, slight blur, glamorous atmosphere. Photo taken on {argument name=\"camera\" default=\"iPhone 17 Pro Max\"} with flash.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hairstyle",
-        "default": "beautiful, voluminous hairstyle, seemingly styled with a brush"
-      },
-      {
-        "name": "makeup style",
-        "default": "foxy makeup and pronounced, angled lashes"
-      },
-      {
-        "name": "camera",
-        "default": "iPhone 17 Pro Max"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241304102_rhwuai_HMW__d_bkAE2ulr.jpg",
-        "alt": "YZK Styled Portrait Collage",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "WasifAI",
-      "url": "https://x.com/doctorwasif"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/doctorwasif/status/2073274304922591604"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27692",
-    "contentHash": "85d3a51f5104b866caf59f80e8056fc8f091c93b"
-  },
-  {
-    "id": "gpt-image-2:27690",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27690",
-    "title": "Bright Seaside Summer Promenade Portrait",
-    "category": "Social Media Post",
-    "description": "A detailed prompt for a bright and refreshing seaside portrait in Japan, featuring a woman in a crochet resort dress with natural summer lighting and coastal scenery.",
-    "promptText": "Subject: Summer Smile by the Sea\n\nPerson/Expression:\nA {argument name=\"age\" default=\"20s\"} woman. Bright ivory-beige skin with a smooth texture and faint pink complexion. Soft highlights on cheeks, nose, shoulders, and collarbones, leaving natural skin texture without excessive skin correction. Pale rose pink blush, champagne beige and pink brown gradient eyeshadow, long thin eyelashes, delicate lower lashes, and natural tear bags. Brows are a soft arch in light brown. Lips have transparent pink-beige gloss with a natural shine in the center. Small, clear catchlights in the eyes. Smiling brightly, with the face turned slightly to the left.\n\nClothing/Pose:\nWearing a {argument name=\"clothing\" default=\"cream beige crochet resort dress\"}. Thin shoulder straps, delicate crochet patterns, lace-up style cutouts from waist to hip, and drawstring shearing on the right side. The fabric is a translucent knit that lets light through, but with an elegant inner structure to avoid overexposure. Matching thin-strap sandals on the feet. Leaning the body slightly forward, hands naturally resting on the knees. Knees are slightly bent, creating a soft S-curve in the hip line. Natural movement in the hair and dress hem caught by the sea breeze.\n\nBackground/Light:\n{argument name=\"background\" default=\"A coastal promenade in Japan, such as Shonan or Hayama\"}. Blue sea and white railings on the left, green hills in the distance. White buildings, outdoor stairs, and potted plants on the right. Bright clear weather around noon. The sun enters from the upper left, creating soft highlights on the face, shoulders, collarbones, and legs. Railing shadows fall diagonally onto the cobblestones, and reflected light from the sea brightens the shadows on the skin and clothing. The background is bright but not overexposed.\n\nComposition/Camera:\nSmartphone vertical screen, 9:16. Full-body Japanese-style photo. The subject is slightly right of center, leaving plenty of blue sky headroom. Including feet, showing sandals and cobblestone shadows. Camera is at a slightly lower height close to eye level, a natural close-range portrait. Natural expansion around 35mm, focus on the person, with a natural, not too shallow bokeh for the sea and buildings.\n\nTexture/Style:\nHigh-quality Japanese realistic photography. Bright, clean summer tones, a refreshing color scheme of white, beige, and blue. Skin is smooth but avoids a plastic feel, carefully depicting each strand of hair, the texture of the crochet, the thin sandal straps, and the texture of the cobblestones.\n\nNegative:\nExpressions appearing as minors, infantilization, excessive exposure, overly transparent clothing, vulgar sexual expressions, naked, exposure of private parts, unwanted persons, background persons, facial collapse, unnatural smiles, tooth failure, extra or missing fingers, fused hands/feet, broken joints, leg inconsistencies, poor contact between clothes and body, floating fabric, shadows inconsistent with light source, excessive skin correction, plastic skin, overexposure, excessive HDR, text, logos, watermarks, obvious AI feel.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "age",
-        "default": "20s"
-      },
-      {
-        "name": "clothing",
-        "default": "cream beige crochet resort dress"
-      },
-      {
-        "name": "background",
-        "default": "A coastal promenade in Japan, such as Shonan or Hayama"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241303155_x46j20_HMRR4mhaUAEGT3B.jpg",
-        "alt": "Bright Seaside Summer Promenade Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2073577350986420254"
-    },
-    "publishedAt": "2026-07-05T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27690",
-    "contentHash": "e5846822ff0e9d555fba8adbc3be16702e0bfb36"
   }
 ]
