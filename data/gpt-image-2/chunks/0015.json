@@ -1,5 +1,431 @@
 [
   {
+    "id": "gpt-image-2:30537",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30537",
+    "title": "Tiny Dragon Rainbow Flame Storyboard",
+    "category": "Comic / Storyboard",
+    "description": "A cinematic eight-panel animated storyboard showing a baby dragon accidentally sneezing rainbow flames in an enchanted forest.",
+    "promptText": "Goal: Create a polished cinematic storyboard sheet for a short animated fantasy scene about {argument name=\"character name\" default=\"a tiny dragon\"} discovering an unexpected magical ability.\n\nCanvas: Wide 16:9 storyboard board, eight panels arranged in a clean 4-by-2 grid. Each panel has a vivid image area on top and a black caption strip beneath it. Use thin black dividers between panels. Overall look: high-end 3D animated family-film style, warm forest lighting, shallow depth of field, expressive character acting, glowing particles, lush flowers, moss, butterflies, and soft golden sunbeams.\n\nMain subject details: The main character is a cute small orange baby dragon with a cream belly, big green eyes, tiny horns, small bat wings, rounded snout, soft scales, and childlike proportions. The story takes place in an enchanted woodland clearing full of flowers, mossy stones, firefly-like sparkles, and friendly animals. The dragon is trying to breathe fire, but instead creates {argument name=\"magical breath effect\" default=\"rainbow flame\"}.\n\nLayout and exact panel count: Use exactly 8 storyboard panels, numbered 1 through 8, with these visible captions and actions:\n\nPanel 1 caption: “1. (0–2s) Establishing Shot” with subcaption “A tiny dragon stands alone, looking determined.” Image: wide establishing shot of the dragon standing on a forest path in a glowing magical clearing, butterflies and flowers around it.\n\nPanel 2 caption: “2. (2–4s) Determination” with subcaption “The dragon puffs its cheeks, takes a huge breath, and spreads its wings.” Image: medium close-up of the dragon squeezing its eyes shut, cheeks inflated, wings open, preparing dramatically.\n\nPanel 3 caption: “3. (4–6s) Failure” with subcaption “It exhales with all its strength… but only a tiny puff of smoke comes out.” Image: close-up of one winking eye and puckered mouth releasing a small gray smoke cloud.\n\nPanel 4 caption: “4. (6–8s) Embarrassment” with subcaption “The dragon feels shy while a bird tilts its head, watching curiously.” Image: the dragon scratches its head sheepishly while a cute blue bird perches on a branch nearby.\n\nPanel 5 caption: “5. (8–10s) The Sneeze” with subcaption “The smoke tickles its nose. It builds up… and prepares for the biggest sneeze ever!” Image: extreme close-up of the dragon’s face, wide eyes, smoky swirl around its nostril, about to sneeze.\n\nPanel 6 caption: “6. (10–12s) Magical Surprise” with subcaption “It sneezes! Instead of fire, a HUGE burst of rainbow flames explodes out!” Image: side view of the dragon sneezing a massive sparkling rainbow blast, bright saturated colors, glittering embers.\n\nPanel 7 caption: “7. (12–14s) Wonder” with subcaption “Animals stare in amazement as the rainbow flames light up the whole forest.” Image: wider shot with the dragon in the center, surrounded by exactly 5 visible woodland animals watching in awe: a rabbit, a squirrel, a deer-like fawn, a hedgehog, and a small bird. Rainbow fire arcs above them through the trees.\n\nPanel 8 caption: “8. (14–15s) Happy Ending” with subcaption “The dragon laughs with joy as a tiny rainbow flame dances above its nose. Everyone celebrates!” Image: joyful close-up of the dragon laughing open-mouthed, eyes sparkling, tiny rainbow flame curling above its nose, cheering forest animals blurred behind.\n\nVisual style: Cinematic 3D animation, cute Pixar-like character appeal, detailed scales and soft skin texture, warm orange-and-gold lighting, magical rainbow glow, volumetric sun rays, bokeh, expressive faces, high production value, family-friendly tone.\n\nText constraints: Keep all captions in English exactly as written. Use clean white sans-serif text centered on each black caption strip. Maintain legibility. Do not add extra panels, logos, watermarks, UI elements, or unrelated text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "a tiny dragon"
+      },
+      {
+        "name": "magical breath effect",
+        "default": "rainbow flame"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573901636_xb3x14_HOnk0LAXAAAmnvk.jpg",
+        "alt": "Tiny Dragon Rainbow Flame Storyboard",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Natalia",
+      "url": "https://x.com/AIwithNatalia"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AIwithNatalia/status/2083447906951160298#reversed-0"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30537",
+    "contentHash": "bb76bb5c4d777ad19734afb2ad0c14ce71e117e6"
+  },
+  {
+    "id": "gpt-image-2:30476",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30476",
+    "title": "Sword Princess Character Reference Sheet",
+    "category": "Comic / Storyboard",
+    "description": "A specialized prompt for GPT Image 2 to create a high-quality fantasy character reference sheet featuring a 'Sword Princess' and a 'General', including full-body views, facial details, and weapon guides in a theatrical anime style.",
+    "promptText": "# Reference and Purpose\n- Attach one {argument name=\"reference\" default=\"full-body female reference image\"} owned by the user.\n- Apply the reference image only to the {argument name=\"subject\" default=\"Princess\"}, not to the General.\n- Create one 1:1 square character sheet suitable for sharing and video production reference.\n- Balance visual appeal with practical utility for identifying persons, outfits, and weapons.\n- No storyboards; no depictions of background such as castle or throne.\n\n# Inheritance of Reference Subject\nInherit the Princess's facial features, eyes, face shape, nose/mouth, hairstyle, color, bangs, parting, length, age, skin, height, proportions, and body type from the reference image. Maintain identity across all views without excessive beautification or aging. Do not inherit outfit, color scheme, or background from the reference.\n\n# Expression\n- Delicate lines equivalent to theatrical anime, high-quality cel shading, and refined texture for metal, cloth, and gems.\n- Sophisticated finish equivalent to an official artbook.\n- Avoid 3D, realistic, or cheap TV anime styles.\n\n# Fixed Character Design\n## Princess\n- Slender and elegant royal fencer.\n- Pearl-white high-grade combat attire, avoiding excessive exposure.\n- Chrome silver shoulder/arm/waist armor. Do not cover the entire chest in metal.\n- Royal crimson short divided tabard and long sash.\n- Pearl-white knee-high boots with crimson/chrome accents.\n- Champagne gold trim, royal crest motifs, small emeralds, and a thin circlet.\n\n## Royal Sword\nSlender silver straight sword with a curved gold guard, dark green grip, crown pommel, and dark brown scabbard.\n\n## General\n- Mature male, taller and broader than the Princess, stern angular face, short black hair with grey.\n- Heavy armor made of blackened steel and high-quality gunmetal.\n- Multi-layered breastplate, broad pauldrons, high collar, gold inlay, lion/raptor reliefs.\n- Black velvet cloak with dark green lining, dark brown leather belt.\n\n# Layout\n1:1 square. Top 6% title, upper section 56%, lower section 38%.\nBackground is white to light ivory. Titles: `{argument name=\"title\" default=\"SWORD PRINCESS\"}` and `CHARACTER REFERENCE` only.\n\n## Upper Section\n- `01 PRINCESS HERO` (45%): Full-body 3/4 view in battle-ready pose.\n- `02 PRINCESS FRONT` (22%): Full-body front view.\n- `03 GENERAL COMBAT` (33%): Full-body 3/4 view of the General.\n\n## Lower Section\n- `04 PRINCESS FACE` (32%): Two facial views (front and 3/4).\n- `05 GENERAL FACE` (16%): One facial view of the General.\n- `07 ASSET GUIDE` (24%): Weapons and color palette.\n- `06 GENERAL SURRENDER` (28%): General kneeling on one knee.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "reference",
+        "default": "full-body female reference image"
+      },
+      {
+        "name": "subject",
+        "default": "Princess"
+      },
+      {
+        "name": "title",
+        "default": "SWORD PRINCESS"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573849746_vai4jo_HOnEvQhaoAACFFh.jpg",
+        "alt": "Sword Princess Character Reference Sheet",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "AIライフハック",
+      "url": "https://x.com/ai_lifehack55"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ai_lifehack55/status/2083412905262006732"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30476",
+    "contentHash": "056df42086e590a4418168cb8220c7864c87fda6"
+  },
+  {
+    "id": "gpt-image-2:30483",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30483",
+    "title": "Lin Daiyu Character Concept Design Board",
+    "category": "Comic / Storyboard",
+    "description": "A detailed character asset board for Lin Daiyu from Dream of the Red Chamber, featuring multiple views, expressions, and clothing textures for film production use.",
+    "promptText": "Character asset setting board for a short drama themed on the Chinese classic \"Dream of the Red Chamber,\" featuring the character Lin Daiyu. It uses a fictional classical family art style, not replicating any existing film or TV versions. An adult Chinese actress presents the delicate youth of a teenage girl, with a thin oval face, \"frown-like\" eyebrows, and clear, emotional eyes with slightly red corners, a slender nose, pale lips, and a pale but naturally flushed complexion. Long black hair is styled in a light low bun. Her figure is slender with slightly pulled-in shoulders, a posture like a willow swaying in the wind, intelligent and sensitive rather than sickly. Pure white seamless background, 16:9 cinematic character asset board. A fixed identity info card in the top left accurately displays the name \"Lin Daiyu\" and the bio: \"An orphaned girl living in the Rong Mansion, guarding sensitive true feelings with a poetic heart.\" The name is in bold black simplified Chinese, and the bio is in smaller dark gray text, left-aligned in up to two lines, with no typos or garbled characters. The largest module shows a full-body main view of her wearing a smoky-blue cross-collar long robe, moon-white pleated skirt, light lotus-root colored silk stole, and plain embroidered shoes, holding a silk pouch for fallen flowers. It displays the same main look from full-body front, left and right sides, back, and three-quarter perspectives, locking the face, eyes, body type, bun, stole, skirt length, and shoe type. It includes front, side, and three-quarter facial close-ups, plus five expressions: cautious upon first entering the mansion, a slight smile when understanding Baoyu, sarcastic, mourning flowers, and clear focus while writing poetry. Costume assets show the simple travel outfit, daily look at Xiaoxiang Pavilion, and the gathering look at the Begonia Poetry Society, showing structure, layers, footwear, weaving patterns, and wear. Makeup and hair assets show light pale foundation, red eye corners, light bean-paste lips, the structure of the low bun, and a few flower ornaments. Items like the silk pouch, poem manuscripts, old handkerchief, brush, medicine bottle, and bamboo-leaf sachet are displayed independently, with color swatches of smoky blue, moon white, lotus root, bamboo green, and ink gray, along with samples of silk, satin, Xuan paper, and white porcelain. Realistic Chinese actor classical cinematic photography, only one character, no Baoyu, maids, gardens, or flower-burying scenes, no replication of existing actors, no exaggerated tear makeup, social media faces, studio hanfu, sexy poses, watermarks, or redundant text. The character's appearance and situation are based on the description of Daiyu in Chapter 3 of \"Dream of the Red Chamber.\"",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573857094_le1at1_HOmrFB0aUAAir4r.jpg",
+        "alt": "Lin Daiyu Character Concept Design Board",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Mr.pinecone",
+      "url": "https://x.com/Mrpinecone888"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Mrpinecone888/status/2083384446066336184"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30483",
+    "contentHash": "7854c5d7f2f3839b421d534a7b2040d80d89cffc"
+  },
+  {
+    "id": "gpt-image-2:30492",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30492",
+    "title": "Silver-haired Warrior in Moonlight Forest",
+    "category": "Comic / Storyboard",
+    "description": "A visual prompt for gpt-image-2 featuring a female warrior with a staff in a misty, moonlit forest with glowing fairies.",
+    "promptText": "A {argument name=\"hair color\" default=\"silver-haired\"} {argument name=\"profession\" default=\"female warrior\"} standing in a {argument name=\"location\" default=\"misty forest\"}, with pale moonlight illuminating her armor and fairy lights dancing at the tip of her staff.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "silver-haired"
+      },
+      {
+        "name": "profession",
+        "default": "female warrior"
+      },
+      {
+        "name": "location",
+        "default": "misty forest"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573861344_h6ly3o_HOmLUyoXsAAgGaY.jpg",
+        "alt": "Silver-haired Warrior in Moonlight Forest",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Yeti Images",
+      "url": "https://x.com/Yeti_Images"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Yeti_Images/status/2083349493903237463"
+    },
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30492",
+    "contentHash": "5425730bb93d1b0c95ba49790d79b6fcf4599083"
+  },
+  {
+    "id": "gpt-image-2:30469",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30469",
+    "title": "MiniDV Retro Arcade Photography Frames",
+    "category": "Comic / Storyboard",
+    "description": "A detailed multi-scene prompt simulating the low-fidelity aesthetic of millennium-era MiniDV home video captures in a nostalgic arcade setting.",
+    "promptText": "Core Intent:\nCapture natural interactions between an adult woman and various arcade machines as a series of authentic MiniDV home video frames from around the millennium. \n\nCommon Settings:\n{argument name=\"video texture\" default=\"Vertical portrait, clearly adult original female, authentic arcade environment. MiniDV home video quality, slight interlaced scan lines, color bleeding, dark noise, motion blur, and a timestamp/recording feel.\"} Characters preserve natural skin texture and slight asymmetries, avoiding excessive skin smoothing or commercial model posing. Arcade lights serve as ambient lighting, with soft top-mounted fill light illuminating the face; random light spots covering facial features are prohibited.\n\nFrame 1:\nNarrow claw machine aisle after closing. Slight high-angle shot from the top left; the woman has just finished restocking and is closing the glass door with one hand, body forming a diagonal line along the machine as she looks back at the camera. Shiny pink-white service uniform with an opaque low collar, cinched waist skirt, and stockings. Contrast between cool white cabinet light and dark hallway shadows.\n\nFrame 2:\nOld-school dance machine platform. Side-tracking shot from waist height; the woman has just finished the last beat, feet landed stably on two pedals, body still in slight motion with ponytail and skirt retaining inertia. Silver-blue stage uniform, with blue-purple reflections from the arcade screen and pedal lights; blur only appears on hair tips and background.\n\nFrame 3:\nRed and black racing simulator cockpit. Low-angle close-up from the side-front of the dashboard; the woman leans back naturally into the bucket seat after the race, shoulders relaxed, turning to look at the camera. Red and black racing-style uniform, with clear wheel, gauge, and seat structures; accurate physical interaction between body and equipment without clipping.\n\nFrame 4:\nInside a pink photo booth. Camera near the outer curtain; the woman peeks her upper body out from between two pink plastic curtains, as if checking for friends after a photo. Black and white lace uniform, hands hidden behind curtains, focus on eyes, slightly parted lips, and close-range flash lighting.\n\nNegative:\n{argument name=\"negative prompt\" default=\"Underage feel, doll-like face, excessive skin smoothing, plastic skin, random facial light spots, perfect commercial ad, modern HD cinema look, floating characters, clipping between equipment and body, deformed steering wheels, incorrect pedal placement, unnaturally enlarged foreground limbs, extra fingers, duplicated limbs, garbled text, real brand logos, watermarks.\"}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "video texture",
+        "default": "Vertical portrait, clearly adult original female, authentic arcade environment. MiniDV home video quality, slight interlaced scan lines, color bleeding, dark noise, motion blur, and a timestamp/recording feel."
+      },
+      {
+        "name": "negative prompt",
+        "default": "Underage feel, doll-like face, excessive skin smoothing, plastic skin, random facial light spots, perfect commercial ad, modern HD cinema look, floating characters, clipping between equipment and body, deformed steering wheels, incorrect pedal placement, unnaturally enlarged foreground limbs, extra fingers, duplicated limbs, garbled text, real brand logos, watermarks."
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573843558_qoy78s_HOjujutboAAGW6f.jpg",
+        "alt": "MiniDV Retro Arcade Photography Frames",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573843518_ra423q_HOjuk01a4AEbg6T.jpg",
+        "alt": "MiniDV Retro Arcade Photography Frames",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573843581_vw9gyf_HOjumINbkAAvbnr.jpg",
+        "alt": "MiniDV Retro Arcade Photography Frames",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573844393_1yk3ba_HOjunqqbcAEiE2O.jpg",
+        "alt": "MiniDV Retro Arcade Photography Frames",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "AI设计钟师傅",
+      "url": "https://x.com/drmrzhong"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/drmrzhong/status/2083177230390415828"
+    },
+    "publishedAt": "2026-07-31T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30469",
+    "contentHash": "c67be7e74e6c9863408e7be58f86dd06fe0145e3"
+  },
+  {
+    "id": "gpt-image-2:30448",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30448",
+    "title": "Anime Movie Poster Style",
+    "category": "Comic / Storyboard",
+    "description": "A clean anime-style movie poster template featuring negative space and high-quality cel-shaded rendering based on a reference image.",
+    "promptText": "a movie poster layout for \"{argument name=\"title\" default=\"TITLE\"}\" with an expansive white background acting as negative space, featuring reference image. high-quality 2D anime illustration medium, cel-shaded with soft 3D-like rendering, using a stark white baseline palette contrasted with the colors of the reference image. Korean manhwa. note: it requires at least 1 image as reference. note 2: add this in the prompt to remove the poster credits: negative: billing block or credit block",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "title",
+        "default": "TITLE"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573823901_olcn1h_HOjUQvuX0AAtCdW.jpg",
+        "alt": "Anime Movie Poster Style",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573823928_6zdrk2_HOjUVFdXUAABRtL.jpg",
+        "alt": "Anime Movie Poster Style",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573824078_4rwaps_HOjVPriWAAACcqR.jpg",
+        "alt": "Anime Movie Poster Style",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "MELTEN",
+      "url": "https://x.com/meltenx"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/meltenx/status/2083149615633760278"
+    },
+    "publishedAt": "2026-07-31T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30448",
+    "contentHash": "d7d62ceb17368564498c1b4526d7e756baec6fc6"
+  },
+  {
+    "id": "gpt-image-2:30501",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30501",
+    "title": "Character sheet prompt:",
+    "category": "Comic / Storyboard",
+    "description": "",
+    "promptText": "“Create a premium cinematic character bible sheet for a casino gambler named ACE. Use the uploaded character sheet as the strict visual reference for his exact face, body, proportions, hair, skin tone and outfit. Do not change his appearance.\n\nLEFT SIDE:",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573868877_6ewk3z_HOjVLaIXMAAL8RS.jpg",
+        "alt": "Comi",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "TechieSA",
+      "url": "https://x.com/TechieBySA"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/TechieBySA/status/2083149225823449431"
+    },
+    "publishedAt": "2026-07-31T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30501",
+    "contentHash": "f3b3827e60a1a3be627f23b66128e2f8f500ab3d"
+  },
+  {
+    "id": "gpt-image-2:30443",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30443",
+    "title": "Cinematic Storyboard: Kindness in Color",
+    "category": "Comic / Storyboard",
+    "description": "A narrative prompt for a storyboard that transitions from black and white to vibrant color, symbolizing an emotional connection through an act of kindness in the rain.",
+    "promptText": "A cinematic, highly detailed scene of a {argument name=\"subject\" default=\"27-year-old man with a smart, lean physique, soft brown hair, and a shy, innocent expression\"}. He is dressed in simple corporate office attire, reflecting the routine of a monotonous 9-to-5 office life. He stands quietly at a {argument name=\"location\" default=\"crowded city bus stop\"} during the evening rush hour, surrounded by dozens of commuters who seem distant and emotionless. The entire world is shown in black and white, emphasizing the dullness and repetition of his daily life. Dark clouds gather overhead, and rain suddenly begins to pour. While everyone around him rushes to open umbrellas or seek shelter, he simply lowers his gaze, accepting the rain in silence. At that moment, a {argument name=\"stranger\" default=\"25-year-old woman with fair skin, an elegant appearance, and a warm, genuine smile\"} steps beside him. She gently extends her umbrella to cover both of them. As he looks up and their eyes meet, they exchange a quiet, heartfelt smile. The instant their eyes meet, the black-and-white world begins transforming into vibrant color. The rain glows softly, the city lights become warm and vivid, and every detail around them comes to life. The crowd remains in the background, blurred and insignificant, while the two stand beneath the umbrella, sharing a silent, magical connection. The scene is emotional, romantic, and hopeful, symbolizing how a single act of kindness can bring color into someone’s life.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "27-year-old man with a smart, lean physique, soft brown hair, and a shy, innocent expression"
+      },
+      {
+        "name": "location",
+        "default": "crowded city bus stop"
+      },
+      {
+        "name": "stranger",
+        "default": "25-year-old woman with fair skin, an elegant appearance, and a warm, genuine smile"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573820474_lx4rpl_HOiy_6mbYAAngft.jpg",
+        "alt": "Cinematic Storyboard: Kindness in Color",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Lily Collins",
+      "url": "https://x.com/Lily_collins3"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Lily_collins3/status/2083111647481328104"
+    },
+    "publishedAt": "2026-07-31T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30443",
+    "contentHash": "9869aeb848725ac77d7a96fc8d779687b7c149b7"
+  },
+  {
+    "id": "gpt-image-2:30500",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30500",
+    "title": "Decade Time Travel Photography Template",
+    "category": "Comic / Storyboard",
+    "description": "A prompt strategy to recreate the same location or person across different eras with period-accurate details like clothing and photo grain.",
+    "promptText": "Decade time-travel / \"same spot through the years\"\nKeep one person or place fixed, change only the era:\n\"The same {argument name=\"subject\" default=\"[subject/location]\"} in {argument name=\"year\" default=\"1986\"}. Update clothing, furniture, cars, signage, and photo grain to match the decade exactly. No modern logos or devices.\"\nRun it for multiple decades and post as a carousel",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "[subject/location]"
+      },
+      {
+        "name": "year",
+        "default": "1986"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573867515_j0zkbm_HOiuzjrawAAnOq-.jpg",
+        "alt": "Decade Time Travel Photography Template",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "WeWant Mars",
+      "url": "https://x.com/Madhuribhai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Madhuribhai/status/2083107044790571431"
+    },
+    "publishedAt": "2026-07-31T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30500",
+    "contentHash": "c23a3974a6af8a4aa2c8c69f268d1d1fe226c1ab"
+  },
+  {
+    "id": "gpt-image-2:30504",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30504",
+    "title": "Character Consistency Reference Instruction",
+    "category": "Comic / Storyboard",
+    "description": "A guidance prompt for GPT Image 2 using image-to-image to maintain consistent character designs, costumes, and world-building based on a reference image.",
+    "promptText": "Use the attached reference image.\n\nReference Image\n\nThis image is a completed character illustration.\n\nUse it as the baseline image for character, costume, background, and world-building.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573870517_lkwii2_HOiVcsbbQAEgFOQ.jpg",
+        "alt": "Character Consistency Reference Instruction",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Eris Create Lab",
+      "url": "https://x.com/Eris_Create_Lab"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Eris_Create_Lab/status/2083079228002836991"
+    },
+    "publishedAt": "2026-07-31T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30504",
+    "contentHash": "0eabbf170279a840284eb26ee8a9fde910732e6b"
+  },
+  {
     "id": "gpt-image-2:30497",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6612,482 +7038,5 @@
     "publishedAt": "2026-07-28T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30169",
     "contentHash": "27f356f1baa2938f9e3bf8b75b06bc90368b322a"
-  },
-  {
-    "id": "gpt-image-2:30145",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30145",
-    "title": "Pirate RPG Character Design Sheet",
-    "category": "Comic / Storyboard",
-    "description": "A detailed character design sheet prompt for an AAA RPG pirate character named Marina, featuring a clean editorial layout and nautical UI accents.",
-    "promptText": "Ultra-detailed 16:9 pirate character design sheet, official AAA RPG character bible, clean editorial layout, weathered parchment-tan background with nautical UI accents. Character name \"{argument name=\"character name\" default=\"MARINA\"}\", title \"{argument name=\"title\" default=\"Storm Captain\"}\", subtitle \"{argument name=\"subtitle\" default=\"A fearless privateer\"}\"",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "MARINA"
-      },
-      {
-        "name": "title",
-        "default": "Storm Captain"
-      },
-      {
-        "name": "subtitle",
-        "default": "A fearless privateer"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785314995061_62as41_HOUFprsbwAAlxXU.jpg",
-        "alt": "Pirate RPG Character Design Sheet",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "𝐌",
-      "url": "https://x.com/Strength04_X"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Strength04_X/status/2082076646946074952"
-    },
-    "publishedAt": "2026-07-28T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30145",
-    "contentHash": "74f36c3d50d72f65b7522f612fd401cf8ef27606"
-  },
-  {
-    "id": "gpt-image-2:30175",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30175",
-    "title": "Anime Rooftop Secret Hatch Discovery",
-    "category": "Comic / Storyboard",
-    "description": "A detailed anime scene of two mascot girls uncovering a glowing futuristic facility beneath a sunny rooftop hideout.",
-    "promptText": "Create a cinematic high-detail anime illustration of two young mascot girls discovering a hidden futuristic underground facility through a rectangular opening in a rooftop. The scene is set on a sunlit urban apartment rooftop under a deep blue summer sky filled with towering white cumulus clouds, with warm golden backlight, sparkling highlights, and dramatic perspective. On the left is {argument name=\"green mascot girl\" default=\"a petite green-haired girl with large green rabbit-like leaf ears, yellow eyes, a white puff-sleeve blouse, green overalls, pink bow tie, and green tail, leaning forward with both hands on a heavy wooden hatch\"}. On the right is {argument name=\"cat girl\" default=\"a petite blonde cat-eared girl with green eyes, short bob hair, white-and-blue school-inspired outfit with yellow accents, long white sleeves, thigh-high white stockings, pink boots, a pink randoseru backpack, and a white tail, kneeling on the rooftop and staring into the opening\"}. Show exactly two characters, both with surprised curious expressions, looking down into the opening. The rooftop is cluttered with stacked cardboard boxes used like a secret kids’ base; include exactly six prominent cardboard boxes, with childlike crayon drawings on them: a smiling sun, a rabbit face, a simple robot, flowers, numbers, and abstract scribbles. Add laundry poles and clotheslines in the upper right with exactly three hanging cloth pieces, plus a small pink star-shaped plush or kite hanging from a pole near the skyline. In the foreground place exactly three exploration props: a straw hat with a pink ribbon, a butterfly net, and a small cluster of leafy plants. Inside the open hatch, depict a glowing blue sci-fi industrial shaft with metallic machinery, pipes, mist, and a small red vehicle or capsule at the center far below, creating strong contrast between nostalgic rooftop play space and hidden cyberpunk technology. Use an illustration-forward anime style with painterly lighting, intricate environmental details, wet reflective rooftop texture, lens-like sparkle, soft atmospheric haze, and a slightly tilted wide-angle composition. No captions, no speech bubbles, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "green mascot girl",
-        "default": "a petite green-haired girl with large green rabbit-like leaf ears, yellow eyes, a white puff-sleeve blouse, green overalls, pink bow tie, and green tail, leaning forward with both hands on a heavy wooden hatch"
-      },
-      {
-        "name": "cat girl",
-        "default": "a petite blonde cat-eared girl with green eyes, short bob hair, white-and-blue school-inspired outfit with yellow accents, long white sleeves, thigh-high white stockings, pink boots, a pink randoseru backpack, and a white tail, kneeling on the rooftop and staring into the opening"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785315022153_ny6tw4_HOOsmH-aAAAR3dY.jpg",
-        "alt": "Anime Rooftop Secret Hatch Discovery",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "田中勇道 | AI画像・動画生成",
-      "url": "https://x.com/yudotanaka"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/yudotanaka/status/2082029544530497994#reversed-0"
-    },
-    "publishedAt": "2026-07-28T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30175",
-    "contentHash": "27d2cbfa48c71147cfc4dc7cece0c772615b972c"
-  },
-  {
-    "id": "gpt-image-2:30160",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30160",
-    "title": "Six-Panel Retro Japanese Poster Collage",
-    "category": "Comic / Storyboard",
-    "description": "Generates a six-panel collage of varied retro Japanese modernist illustrations sharing one cohesive poster-art style.",
-    "promptText": "Goal: Create a vertical 2-column by 3-row collage of exactly 6 separate illustration panels, all in a unified retro Japanese modernist poster style with flat geometric shapes, hard-edged composition, limited palettes, subtle paper grain, ink texture, and strong black/cream/red/orange accents. Each panel should look like a distinct generated artwork sharing the same visual language.\n\nCanvas: Tall portrait canvas, approximately 675 × 1024 px or 2:3 ratio. Use thin white gutters between panels and a narrow white outer border. No captions, no logos, no watermark.\n\nVisual style: A fusion of mid-century graphic design, Japanese printmaking, Constructivist geometry, art deco poster composition, and contemporary anime/editorial illustration. Use flattened perspective, blocky shapes, textured paper, muted cream backgrounds, deep black shadows, burnt orange, vermilion red, slate gray, charcoal, and occasional navy blue. Keep details stylized rather than realistic.\n\nLayout: Arrange exactly 6 panels:\n1. Top-left panel: A geometric night scene with an orange kangaroo-like animal standing upright beside a gray koala-like animal, a cream full moon in the upper left, small star/firework dots, and a grid of orange, beige, black, and gray rectangles in the background. The animals should be angular and origami-like.\n2. Top-right panel: A dark gothic anime-style girl with long pale hair sitting on stone steps before ruined cathedral arches. Use black, gray, lavender, and hot magenta accents, with one red eye visible and a moody ruined-city atmosphere.\n3. Middle-left panel: A reclining elegant long-haired person in black clothing holding a round fan near their face, surrounded by red and black geometric circles, grids, rectangles, and cream negative space. The mood is languid and stylish.\n4. Middle-right panel: A close-up portrait of a pale bob-haired girl with straight black bangs, red eyes, small red vertical face markings, and a black-white-red abstract geometric background with circles and rectangular blocks.\n5. Bottom-left panel: A minimalist city-walking scene with a person in a long gray coat holding a leash attached to a low, stretching orange-and-white corgi. Background includes red circles, black blocks, cream walls, stairs, and sharp architectural geometry.\n6. Bottom-right panel: A back-view portrait of a traditional Japanese woman or geisha in a patterned kimono, standing before pagoda rooftops and a lantern. Include a bright blue sky with cream clouds and bold black, red, cream, and tan architectural shapes.\n\nSubject customization: Keep the collage structure fixed, but allow the overall subject set to be interpreted as {argument name=\"theme\" default=\"six unrelated retro Japanese poster scenes\"}. Use {argument name=\"main palette\" default=\"cream, black, vermilion red, burnt orange, charcoal gray, navy blue\"}. Set the mood to {argument name=\"mood\" default=\"stylish, mysterious, nostalgic, graphic\"}. Use {argument name=\"art style\" default=\"retro Japanese modernist poster illustration with anime influence\"}. Make the image suitable for {argument name=\"use case\" default=\"a social media showcase of varied GPT Image 2 outputs from one consistent style prompt\"}.\n\nConstraints: Exactly 6 panels, exactly 2 columns and 3 rows, no text inside the artwork, no photorealism, no extra panels, no floating UI, no frame labels. Maintain consistent texture and design language across all six panels while making every panel visually distinct.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "theme",
-        "default": "six unrelated retro Japanese poster scenes"
-      },
-      {
-        "name": "main palette",
-        "default": "cream, black, vermilion red, burnt orange, charcoal gray, navy blue"
-      },
-      {
-        "name": "mood",
-        "default": "stylish, mysterious, nostalgic, graphic"
-      },
-      {
-        "name": "art style",
-        "default": "retro Japanese modernist poster illustration with anime influence"
-      },
-      {
-        "name": "use case",
-        "default": "a social media showcase of varied GPT Image 2 outputs from one consistent style prompt"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785315009129_2a21y9_HOTCZgJaYAAHYYE.jpg",
-        "alt": "Six-Panel Retro Japanese Poster Collage",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "なこ/ChatGPT沼",
-      "url": "https://x.com/Dana_Nako"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Dana_Nako/status/2082002679182828012#reversed-0"
-    },
-    "publishedAt": "2026-07-28T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30160",
-    "contentHash": "0f76c864fbd2b4b31e2d3049f7ddee6f26161aca"
-  },
-  {
-    "id": "gpt-image-2:30132",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30132",
-    "title": "Watercolor Travel Sketchbook",
-    "category": "Comic / Storyboard",
-    "description": "Creates a beautiful watercolor travel sketch featuring loose ink lines and soft washes, designed to look like a page from a real handcrafted artist's journal.",
-    "promptText": "Create a beautiful watercolor travel sketch of {argument name=\"subject\" default=\"a person\"} in {argument name=\"scene\" default=\"a bustling European street\"}. The artwork should look like it was painted in a real travel sketchbook using watercolor and fine black ink.\\n\\nUse loose expressive ink lines, soft transparent watercolor washes, visible textured watercolor paper, natural paint bleeds, light splatters, and unfinished sketch details. Keep the architecture and background airy with minimal detail while making the subjects the main focus.\\n\\nCapture a candid, joyful moment with natural expressions and relaxed body language. Use warm daylight, muted earthy colors, soft blues, beige, cream, light browns, and subtle peach tones. Leave plenty of white paper visible to create a clean, elegant composition.\\n\\nThe final image should feel nostalgic, peaceful, romantic, and handcrafted, like an artist's travel journal filled with beautiful memories rather than a polished digital illustration.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "a person"
-      },
-      {
-        "name": "scene",
-        "default": "a bustling European street"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785314978341_76ih6b_HOTABzcbQAA4Xnj.jpg",
-        "alt": "Watercolor Travel Sketchbook",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785314978336_6g1xot_HOTABzhb0AE0MOb.jpg",
-        "alt": "Watercolor Travel Sketchbook",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Maercih",
-      "url": "https://x.com/Maercihh"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Maercihh/status/2082000152416665963"
-    },
-    "publishedAt": "2026-07-28T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30132",
-    "contentHash": "47f0cd08e156e00611bedb8987b6d7260917a66d"
-  },
-  {
-    "id": "gpt-image-2:30151",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30151",
-    "title": "Rainy Cyberpunk Superhero Comic Page",
-    "category": "Comic / Storyboard",
-    "description": "Generates a seven-panel anime superhero storyboard showing two consistent heroes battling drones on a neon rain-soaked rooftop.",
-    "promptText": "Goal: Create a dynamic comic-book storyboard/collage showing an anime-style futuristic superhero battle on a rainy cyberpunk rooftop at night, featuring {argument name=\"spider hero name\" default=\"a black-and-red spider-themed hero\"} and {argument name=\"armored hero name\" default=\"a blue armored tech hero with a round shield\"} fighting surveillance drones and laser attacks.\n\nCanvas: Square 1:1 image, arranged as a polished comic page with thick clean white gutters separating exactly 7 panels. Use cinematic lighting, high-contrast neon reflections, rain streaks, wet rooftop puddles, storm clouds, and a neon city skyline in the background. Overall mood: intense, heroic, dramatic, action-heavy.\n\nLayout: Use exactly seven discrete panels: 3 narrow panels across the top row, 1 large wide action panel across the middle row, and 3 smaller panels across the bottom row.\n\nPanel details:\n1. Top-left panel: wide rooftop establishing shot. The spider-themed hero crouches low in the foreground on a wet rooftop, black suit with red web patterns and glowing white eye lenses; the armored hero stands farther back. Neon signs, antenna towers, rain, and glossy reflections fill the scene.\n2. Top-middle panel: close-up portrait of the spider hero’s masked face under a red hood, white glowing eyes, red web pattern, clenched red fist raised beside the face, red lightning-like web energy crackling around the hand.\n3. Top-right panel: close-up portrait of the armored hero, sleek dark blue and metallic armor, cyan glowing visor, circular cyan chest reactor, raised round shield with red-white-blue rings, heroic three-quarter view.\n4. Middle large panel: main battle scene. On the rooftop, the spider hero slides or lunges through splashing rainwater while projecting a glowing cyan circular energy web-shield from one hand toward the armored hero. The armored hero stands braced with cape flowing, shield ready, cyan energy beam firing upward. Multiple drones hover in storm clouds, shooting red laser beams across the panel; sparks, water splashes, and neon city buildings intensify the action.\n5. Bottom-left panel: the spider hero crouches alone on the wet rooftop, pointing one hand forward as if preparing to shoot a web; rain, antenna mast, and dark buildings behind.\n6. Bottom-middle panel: the armored hero stands in a battle stance holding the round shield while generating a bright cyan energy sphere; concentric red and cyan circular energy rings swirl around him.\n7. Bottom-right panel: both heroes pose together on the rooftop beneath a giant glowing red spiderweb spread across the sky, with a blue drone caught at the center; the spider hero crouches in front while the armored hero stands behind holding the shield.\n\nVisual style: Modern anime superhero illustration mixed with American comic-book paneling, sharp clean line art, saturated neon cyan and red effects, glossy wet surfaces, dramatic rim lighting, detailed armor highlights, expressive action poses, cinematic depth, rain-soaked cyberpunk atmosphere.\n\nText content: No speech bubbles, captions, logos, or readable text.\n\nConstraints: Keep the exact 7-panel comic layout and the two main heroes consistent across all panels. Use {argument name=\"primary energy color\" default=\"cyan\"} for the armored hero’s technology effects and {argument name=\"secondary energy color\" default=\"red\"} for lasers and spider energy. Background should remain a rainy neon rooftop city at night throughout.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "spider hero name",
-        "default": "a black-and-red spider-themed hero"
-      },
-      {
-        "name": "armored hero name",
-        "default": "a blue armored tech hero with a round shield"
-      },
-      {
-        "name": "primary energy color",
-        "default": "cyan"
-      },
-      {
-        "name": "secondary energy color",
-        "default": "red"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785314999635_n8oont_HOS80RyaUAErrxT.jpg",
-        "alt": "Rainy Cyberpunk Superhero Comic Page",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Aftahi Rahman",
-      "url": "https://x.com/aftahi_ai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/aftahi_ai/status/2081996736185471283#reversed-0"
-    },
-    "publishedAt": "2026-07-28T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30151",
-    "contentHash": "b79d50b3d25690d09b130b1783520fb6aea83ccb"
-  },
-  {
-    "id": "gpt-image-2:29992",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29992",
-    "title": "Cozy Storybook Minimalist Illustration",
-    "category": "Comic / Storyboard",
-    "description": "A detailed prompt for generating flat illustrations in a warm Korean/Japanese storybook aesthetic, perfect for lifestyle art and wholesome family scenes featuring cozy interiors and soft characters.",
-    "promptText": "Cozy minimalist flat illustration in a {argument name=\"aesthetic\" default=\"warm Korean/Japanese storybook aesthetic\"}, depicting wholesome everyday family moments with soft rounded characters, simple facial features, rosy cheeks, clean black outlines, {argument name=\"color palette\" default=\"muted pastel color palette\"}, warm cream background, playful hand-drawn decorative doodles, {argument name=\"interior style\" default=\"modern Scandinavian-inspired interiors\"}, natural wooden furniture, indoor plants, large windows, soft natural daylight, cozy café atmosphere, family biking through a quiet neighborhood, candid family selfies, parents and children sharing joyful moments, oversized casual clothing, cute toddlers, clean geometric compositions, gentle textures, subtle paper grain, editorial children's book illustration, slice-of-life storytelling, charming lifestyle artwork, calming and nostalgic mood, minimal shading, flat colors with slight texture, high-detail vector-inspired digital painting, whimsical, Pinterest aesthetic, Instagram illustration style, 4K",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "aesthetic",
-        "default": "warm Korean/Japanese storybook aesthetic"
-      },
-      {
-        "name": "color palette",
-        "default": "muted pastel color palette"
-      },
-      {
-        "name": "interior style",
-        "default": "modern Scandinavian-inspired interiors"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785314974008_gfama4_HOSwPZTaYAAJzSM.jpg",
-        "alt": "Cozy Storybook Minimalist Illustration",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785314974024_g9x1r1_HOSwQXeasAAnxZ1.jpg",
-        "alt": "Cozy Storybook Minimalist Illustration",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785314974103_8xtepq_HOSwRIlbAAADWVk.jpg",
-        "alt": "Cozy Storybook Minimalist Illustration",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785314975352_2bayne_HOSwR0EbAAAQPa1.jpg",
-        "alt": "Cozy Storybook Minimalist Illustration",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Taaruk",
-      "url": "https://x.com/Taaruk_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Taaruk_/status/2081982758101147897"
-    },
-    "publishedAt": "2026-07-28T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29992",
-    "contentHash": "c237c6390040b5fa440bdf774da7d2f967779310"
-  },
-  {
-    "id": "gpt-image-2:30092",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30092",
-    "title": "GPT image 2 × Gemini Omni flash",
-    "category": "Comic / Storyboard",
-    "description": "",
-    "promptText": "-\nTITLE: Luxury Resort Experience Storyboard\n\nFORMAT:\n• Single-page premium storyboard\n• 3:4 Portrait\n• Five-star resort campaign\n• Editorial presentation\n• 8 cinematic storyboard scenes\n\nHEADER:\n• Elegant serif typography\n• Tropical luxury aesthetic\n• Gold decorative doodles\n• Information cards\n• Why This Style Works\n\nSTORYBOARD:\n1. Aerial island resort reveal\n2. Grand lobby entrance\n3. Infinity pool overlooking ocean\n4. Oceanfront breakfast\n5. Spa treatment scene\n6. Sunset dinner by the beach\n7. Luxury suite reveal\n8. Resort hero aerial shot\n\nSTYLE:\nFour Seasons / Aman Resorts aesthetic, cinematic travel photography, warm golden hour lighting, luxury editorial magazine, ultra realistic, 8K.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785314930458_vz7pjt_HOSrI05a4AA6Pgk.jpg",
-        "alt": "Comi",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "𝐌",
-      "url": "https://x.com/Strength04_X"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Strength04_X/status/2081977119811522597"
-    },
-    "publishedAt": "2026-07-28T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30092",
-    "contentHash": "33f519910a9973c878227286679ce152f6dda44f"
-  },
-  {
-    "id": "gpt-image-2:30177",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30177",
-    "title": "Anime Summer Festival Couple",
-    "category": "Comic / Storyboard",
-    "description": "Generates a vertical anime illustration of a yukata-clad couple holding hands at a lantern-lit Japanese summer festival.",
-    "promptText": "Create a polished anime-style vertical illustration of a romantic summer festival night in Japan. In the foreground, show two young adults walking hand in hand through a lively yatai food-stall street under a deep navy starry sky. The boy on the left has messy short black hair, bright brown eyes, a cheerful shy smile, and wears a dark navy blue striped yukata with a gray obi; his free hand is raised behind his head in a bashful gesture. The woman on the right has warm brown hair swept into a neat low bun, expressive brown eyes, and an open happy smile; she wears a pale cream yukata with large blue, purple, and pink morning-glory flowers and green leaves, a wide purple obi with a small gold cord accent, and carries a small purple floral drawstring kinchaku bag in her right hand. The couple should be looking at each other while walking, centered waist-up to full-body, with their joined hands visible near the lower middle. Surround them with glowing red-orange paper lanterns strung diagonally overhead, dense festival crowds in the midground, and colorful stalls on both sides. Include exactly two prominent stall signs with readable Japanese text: the left stall sign says 「たこ焼」 in large red letters, and the right stall sign says 「かき氷」 in large red letters. Use warm lantern light on the characters’ faces, soft rim lighting, rich evening blues, detailed cloth folds, clean linework, expressive faces, and a high-quality modern Japanese anime aesthetic. No watermark, no subtitles, no extra text beyond the stall signage.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785315024539_ttu8mt_HOSgb_BbcAA7fHI.jpg",
-        "alt": "Anime Summer Festival Couple",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785315024456_5rlp3b_HOSgb_DaQAAPSfF.jpg",
-        "alt": "Anime Summer Festival Couple",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "熟師：AI熟女イラスト工房",
-      "url": "https://x.com/aianimemilf"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/aianimemilf/status/2081965336849727998#reversed-0"
-    },
-    "publishedAt": "2026-07-28T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30177",
-    "contentHash": "6fbd36a80cc51c19eeed47009721ac7f9fe6695c"
-  },
-  {
-    "id": "gpt-image-2:30180",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30180",
-    "title": "Surreal Noir Hamster Manga Page",
-    "category": "Comic / Storyboard",
-    "description": "Generates a dramatic black-and-white Japanese manga page where a mysterious bishonen man treats a tiny hamster like the subject of a late-night noir interrogation.",
-    "promptText": "Goal: Create a monochrome Japanese manga page with an accidental surreal-comedy tone: an elegant, melancholy young man in a late-night private study has a dramatic conversation with a cute hamster as if it were a serious noir mystery scene.\n\nCanvas: Vertical manga page, black-and-white with subtle cool blue-gray tinting in the man's hair and eyes, high-resolution screentone shading, crisp black gutters, printed manga texture. Use exactly 8 panels arranged in a dense page layout.\n\nLayout: Panel 1 is a full-width cinematic establishing shot at the top, showing a traditional Japanese-style study at midnight with shoji window grids, rainy dark garden visible outside, hydrangeas, stacked books and drawers, a glowing rectangular lantern, and the man seated at a desk smoking. Panel 2 is a left medium close-up of a hamster peeking over a desk edge. Panel 3 is a right close-up of the man's face, holding a smoking pipe or long cigarette holder near his lips. Panel 4 is a left medium shot of the man reclining with the hamster in his hand while smoke curls upward. Panel 5 is a narrow central hamster reaction panel. Panel 6 is a right close-up of the man gently holding the hamster near his face. Panel 7 is a full-width extreme close-up of the man's eyes and hair, separated by a thin horizontal gutter. Panel 8 is a full-width dramatic final panel with a black background, floating white petals, butterflies, smoke wisps, and the man smiling behind an open folding fan.\n\nSubject details: The main character is {argument name=\"character name\" default=\"an elegant mysterious young man\"}, early twenties, androgynous bishonen features, pale skin, long tousled {argument name=\"hair color\" default=\"dark blue-black\"} hair falling over one eye, sharp red-gray eyes, long dangling earrings, layered dark kimono or formal robe, refined hands, calm teasing expression. The hamster is {argument name=\"hamster description\" default=\"a tiny round gray-and-white hamster with glossy black eyes, small paws, and a confused innocent expression\"}. Emphasize the absurd contrast between ultra-serious romantic manga framing and the hamster's cute presence.\n\nText content: Add vertical Japanese manga narration and speech bubbles throughout, using this exact overall dialogue/narration set where it fits: {argument name=\"Japanese dialogue\" default=\"深夜の私設書庫にて。 / こんな時間まで付き合ってしまったね。 / おや、君はまだ起きていたのかい？ / ふふ、その驚いた顔も可愛いねぇ。 / き、君のせいじゃないのか!? / 君のせい、というわけでもないよ？ / ほら、こうして… / けれど、君がいてくれると夜更けも退屈しない。 / ……さて、そろそろ本題に入ろうか。 / 今夜の議題は、君の処遇だよ。 / 夜は、まだ始まったばかり。\"}. Include small handwritten sound effects near the hamster and smoke, such as tiny squeaks and rustling marks, but keep them secondary.\n\nVisual style: Detailed shojo-seinen hybrid manga illustration, elegant linework, glossy hair rendering, dramatic close-ups, cinematic lighting from the lantern and moonlit windows, fine screentones, high contrast black backgrounds, delicate smoke trails, petals and butterflies in the final panel. The mood should feel ornate, mysterious, and unintentionally funny.\n\nConstraints: Use exactly 8 panels, exactly one human character, exactly one hamster, one folding fan in the final panel, one glowing lantern in the study, multiple speech bubbles but no modern UI elements, no color except subtle blue-gray tint and faint red eyes, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "an elegant mysterious young man"
-      },
-      {
-        "name": "hair color",
-        "default": "dark blue-black"
-      },
-      {
-        "name": "hamster description",
-        "default": "a tiny round gray-and-white hamster with glossy black eyes, small paws, and a confused innocent expression"
-      },
-      {
-        "name": "Japanese dialogue",
-        "default": "深夜の私設書庫にて。 / こんな時間まで付き合ってしまったね。 / おや、君はまだ起きていたのかい？ / ふふ、その驚いた顔も可愛いねぇ。 / き、君のせいじゃないのか!? / 君のせい、というわけでもないよ？ / ほら、こうして… / けれど、君がいてくれると夜更けも退屈しない。 / ……さて、そろそろ本題に入ろうか。 / 今夜の議題は、君の処遇だよ。 / 夜は、まだ始まったばかり。"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785315026306_gficqh_HOSRwUXaQAA5uzH.jpg",
-        "alt": "Surreal Noir Hamster Manga Page",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785315027373_52lj3j_HOSRwUPbcAE4Q23.jpg",
-        "alt": "Surreal Noir Hamster Manga Page",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "🐹🐹",
-      "url": "https://x.com/hmst_yyyy"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/hmst_yyyy/status/2081949220110836219#reversed-0"
-    },
-    "publishedAt": "2026-07-28T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30180",
-    "contentHash": "b9ce523997b72af960b5d281732f6b8b63aed7ca"
-  },
-  {
-    "id": "gpt-image-2:30112",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30112",
-    "title": "Editorial Studio Photography for Fashion Model",
-    "category": "Product Marketing",
-    "description": "A detailed structured prompt for generating hyper-realistic editorial studio photography of a fashion model, featuring dramatic lighting and high-contrast skin textures.",
-    "promptText": "{\n\"style_reference\": {\n\"genre\": \"hyper-realistic editorial studio photography\",\n\"subject\": {\n\"name\": \"{argument name=\"person name\" default=\"[PERSON_NAME]\"}\",\n\"type\": \"self-assured fashion model\",\n\"wardrobe\": \"{argument name=\"wardrobe\" default=\"solid black polo shirt\"}\",\n\"framing\": \"cropped at the waist\",\n\"gaze\": \"tilted upward, eyes diverted from lens\",\n\"expression\": \"bold, cinematic, emotionally charged\"\n},\n\"background\": {\n\"palette\": \"{argument name=\"background color\" default=\"blazing orange-into-red gradient\"}\",\n\"treatment\": \"seamless, minimal, uncluttered\"\n},\n\"lighting\": {\n\"rim_light\": \"radiant golden edge light tracing hair and shoulder line\",\n\"backlight\": \"dramatic, high-contrast separation from background\",\n\"key_light\": \"gentle beauty light sculpting the face\",\n\"overall\": \"punchy contrast, controlled highlights and shadows\"\n},\n\"skin_and_detail\": {\n\"texture\": \"immaculate, pore-level skin rendering\",\n\"sharpness\": \"crisp, precise facial detail\"\n},\n\"aesthetic_direction\": {\n\"category\": \"high-end commercial fashion advertising\",\n\"use_case\": \"premium clothing brand campaign\",\n\"color_grade\": \"warm, rich tonal balance\",\n\"mood\": \"powerful, confident, editorial-grade\"\n},\n\"camera_specs\": {\n\"lens\": \"85mm prime\",\n\"aperture\": \"f/2.0\",\n\"depth_of_field\": \"shallow, subject-isolating\",\n\"focus\": \"tack-sharp on subject\"\n},\n\"technical_quality\": [\n\"ultra-fine detail rendering\",\n\"HDR dynamic range\",\n\"photo-real fidelity\",\n\"editorial magazine polish\",\n\"balanced symmetrical composition\",\n\"8K output resolution\"\n]\n},\n\"exclusions\": [\n\"blur or softness\",\n\"low-res or pixelated output\",\n\"grain or digital noise\",\n\"blown-out highlights\",\n\"crushed/underexposed shadows\",\n\"facial distortion or warping\",\n\"extra or malformed limbs\",\n\"anatomical errors\",\n\"duplicated features\",\n\"watermarks\",\n\"logos or branding marks\",\n\"embedded text\",\n\"head cut off frame\",\n\"cluttered or busy backdrop\",\n\"artificial-looking skin\",\n\"cartoon or illustrated style\",\n\"painterly rendering\",\n\"CGI or 3D-render look\",\n\"oversaturation\",\n\"motion blur artifacts\",\n\"soft/out-of-focus result\",\n\"flat or unflattering lighting\"\n]\n}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "person name",
-        "default": "[PERSON_NAME]"
-      },
-      {
-        "name": "wardrobe",
-        "default": "solid black polo shirt"
-      },
-      {
-        "name": "background color",
-        "default": "blazing orange-into-red gradient"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785314956452_c9bt6h_HOYG9R5bIAAbtPp.jpg",
-        "alt": "Editorial Studio Photography for Fashion Model",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785314956362_uryte3_HOYG993aIAARfy6.jpg",
-        "alt": "Editorial Studio Photography for Fashion Model",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Sarah",
-      "url": "https://x.com/AIwithSarah_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AIwithSarah_/status/2082359550947025144"
-    },
-    "publishedAt": "2026-07-29T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30112",
-    "contentHash": "724dc5f0c910d694f33e5ac742624a80f802ef0f"
   }
 ]
