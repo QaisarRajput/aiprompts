@@ -4,9 +4,9 @@
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
     "externalId": "36753",
-    "title": "Pixar Style Twin Portrait",
+    "title": "Pixar Style Real Person Transformation",
     "category": "Profile / Avatar",
-    "description": "A prompt for generating a studio photograph featuring a real person alongside their giant 3D Pixar-style cartoon counterpart, matching the reference image's identity and clothing.",
+    "description": "A prompt for Nano Banana Pro to generate a photo of a real person alongside their 3D Pixar-inspired cartoon version, preserving identity and clothing details.",
     "promptText": "Create an ultra-realistic, high-quality studio photograph featuring a real human and a giant 3D Pixar-inspired cartoon version of the SAME person, both accurately matching the uploaded reference image.\n\nBoth versions must have the same facial features, skin tone, hairstyle, and overall appearance. The real person wears a pastel pink and cream oversized knitted sweater, light blue high-waisted jeans, and clean white high-top sneakers. The Pixar-style character wears the exact same outfit with realistic knitted fabric details.\n\nPose & Expression: The real person stands naturally beside the giant cartoon version, smiling warmly at the camera with one hand resting gently on the cartoon character's shoulder. The cartoon character stands confidently with slightly wider legs, one hand in its jeans pocket, a mischievous smile, one raised eyebrow, and large expressive animated eyes.\n\nThe cartoon character should be slightly taller and larger than the real person, with a charming 3D animated appearance while maintaining the person's recognizable identity.\n\nBackground & Lighting: Minimalist gray-blue photography studio, soft professional lighting, subtle floor shadows, realistic skin texture on the human, smooth 3D cartoon shading, detailed sweater fibers, natural denim folds, cinematic composition, sharp focus, premium 3D rendering, 8K quality.\n\nImportant Instructions: Strictly preserve the identity of the uploaded reference person. Keep the real person's face photorealistic and the cartoon version recognizably identical. Maintain consistent clothing colors, body proportions, and natural interaction between both characters. No extra people, no text, no watermark, no distorted hands, and no unnecessary accessories.\n\nAspect Ratio: 4:5 (Portrait)",
     "promptFormat": "text",
     "templateArguments": [],
@@ -15,8 +15,8 @@
     "language": "en",
     "images": [
       {
-        "url": "https://cms-assets.youmind.com/media/1792650606761_0lwjba_HVNTSu3akAAsdmU.jpg",
-        "alt": "Pixar Style Twin Portrait",
+        "url": "https://cms-assets.youmind.com/media/1792737110333_et2kth_HVNTSu3akAAsdmU.jpg",
+        "alt": "Pixar Style Real Person Transformation",
         "width": 600
       }
     ],
@@ -30,7 +30,40 @@
     },
     "publishedAt": "2026-10-22T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=36753",
-    "contentHash": "dd6651b521dc1d5821b97370e6c431898b64c455"
+    "contentHash": "6d325ae0159538b582423087aa479dbdd680be1b"
+  },
+  {
+    "id": "nano-banana-pro:36790",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "36790",
+    "title": "Nano Banana Pro Silver Metallic Gown Portrait",
+    "category": "Social Media Post",
+    "description": "A prompt for generating a realistic studio portrait of a woman in a liquid metal silver gown using Nano Banana Pro, with specific negative prompts to avoid CGI artifacts.",
+    "promptText": "Use the master reference image for face identity only. Create the same woman wearing a sculptural silver metallic gown that looks like flowing liquid metal, with realistic reflective folds and a fitted silhouette. She poses against a simple light-gray studio background, one hand resting at her waist, chin slightly raised, confident expression. Natural facial details, visible pores, accurate hands, realistic metallic reflections, luxury magazine photography, head-to-toe composition, both feet visible\n\nNegative prompt: no CGI appearance, no plastic skin, different face, identity drift, face morphing, altered facial structure, asymmetrical eyes caused by errors, plastic skin, excessive retouching, doll-like face, blurry face, unnatural body proportions, extra fingers, missing fingers, fused hands, deformed feet, missing shoes, cropped legs, cropped head, floating accessories, unrealistic fabric, oversaturated colors, CGI, cartoon, artificial skin, duplicate person, text, logo, watermark, low resolution, motion blur.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1792737108959_eymhy4_HVPZm52acAAAjdF.jpg",
+        "alt": "Nano Banana Pro Silver Metallic Gown Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Elvorya",
+      "url": "https://x.com/Elvorya"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Elvorya/status/2113271919181242481"
+    },
+    "publishedAt": "2026-10-22T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=36790",
+    "contentHash": "45a17d72ac337df44efa86a1c06f0b3521da992e"
   },
   {
     "id": "nano-banana-pro:36754",
@@ -5766,51 +5799,5 @@
     "publishedAt": "2026-09-04T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33374",
     "contentHash": "426094c31a0952e9782540e3a8cf7e96b0f57428"
-  },
-  {
-    "id": "nano-banana-pro:33388",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "33388",
-    "title": "Post-Apocalyptic Girl with Welding Goggles",
-    "category": "Game Asset",
-    "description": "A cinematic and gritty portrait of a young girl in a distressed yellow hoodie and welding goggles against a weathered wall.",
-    "promptText": "Cinematic portrait of a young girl with messy {argument name=\"hair color\" default=\"vibrant ginger hair\"} tied in a loose bun and subtle freckles across her nose, gazing upward with a wistful, thoughtful expression. She wears cracked vintage welding goggles pushed up onto her forehead with fractured blue circular lenses. Wearing a heavily distressed, oversized {argument name=\"hoodie color\" default=\"mustard-yellow hoodie\"} covered in paint splatters, frayed seams, patched denim fabric on the sleeves, and a faded embroidered skull patch on the forearm, along with rugged, dusty work gloves. Background is a weathered, peeling wall with {argument name=\"wall color\" default=\"chipped turquoise and faded yellow paint\"}. Soft dramatic directional lighting, gritty post-apocalyptic aesthetic, 85mm lens, shallow depth of field, hyper-detailed fabric textures.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "vibrant ginger hair"
-      },
-      {
-        "name": "hoodie color",
-        "default": "mustard-yellow hoodie"
-      },
-      {
-        "name": "wall color",
-        "default": "chipped turquoise and faded yellow paint"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788591093220_nk6sjr_HRVdPplaUAApurE.jpg",
-        "alt": "Post-Apocalyptic Girl with Welding Goggles",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "𝑨𝒇𝒓𝒊𝒏",
-      "url": "https://x.com/afrinxai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/afrinxai/status/2095720004415103195"
-    },
-    "publishedAt": "2026-09-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33388",
-    "contentHash": "1b9e8b90828eaa562511136823e6f8c36fa88222"
   }
 ]

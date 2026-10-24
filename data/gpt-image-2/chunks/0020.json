@@ -1,5 +1,349 @@
 [
   {
+    "id": "gpt-image-2:28920",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28920",
+    "title": "Shanghai Morning Greeting Poster",
+    "category": "Social Media Post",
+    "description": "A minimalist editorial city poster for a calm Shanghai morning greeting, useful for social media, lifestyle branding, or daily city-note visuals.",
+    "promptText": "Goal: Create a refined minimalist morning greeting poster for {argument name=\"city name\" default=\"上海\"}, blending city travel aesthetics, light editorial typography, and a calm coffee-by-the-window mood.\n\nCanvas: Wide horizontal poster, 16:9 ratio, clean white background with generous negative space and pale blue-gray accents. Overall feeling is airy, quiet, premium, and slightly poetic.\n\nLayout: Left half is a typography and information panel; right half is a large soft-focus lifestyle photo panel. Place a small pale-blue circular badge at the top left reading 「早安」, followed by a thin slash and the small Chinese line 「每一座城市，都有清晨的温度」. Below it, create an oversized black Chinese city title 「上海」, with a very large pale blue-gray serif English title “SHANGHAI” underneath, partially overlapping the Chinese characters. Add subtle thin orbital curve lines and small blue dots across the white background.\n\nRight image panel: A rectangular photo area occupying the middle-right, showing a white ceramic coffee cup on a saucer on a bright windowsill or table, with a hazy Shanghai skyline in the background, including the Oriental Pearl Tower and tall modern skyscrapers. Morning sunlight, slight overexposure, soft blue atmosphere, shallow depth of field. Include a small glass vase with green leafy stems near the far right edge. The lower-right corner of the photo panel should have a rounded or curved cutout edge.\n\nTop-right date card: Add a thin outlined white box in the upper right with the date {argument name=\"date\" default=\"2026-07-17\"} in black serif numerals, and smaller text underneath: 「星期五　农历六月初四」.\n\nInfo row: Under the main title on the left, create exactly 5 small vertical information items, evenly spaced, with light blue-gray numbers and delicate divider lines. The five items are: 1) “01 / 天光 / 微蓝”, 2) a rounded vertical pill labeled 「节奏」 with 「明快」 below and a small blue dot, 3) “03 / 灵感 / 向上”, 4) a small blue filled rectangle labeled 「推荐」 with 「先喝 / 咖啡」 below, 5) a thin outlined circle labeled “05 / 心情 / 清醒” with a small blue dot on its rim.\n\nQuote section: Below the info row, place large pale-blue quotation marks around the quote {argument name=\"quote\" default=\"让清晨先温柔你，再把锋芒交给今天。\"}. Use elegant Chinese typography, centered-left under the info row.\n\nBody copy: At the lower left, add a thin vertical blue line and a short paragraph in small Chinese text: 「上海的清晨，从一束光开始。阳光穿过梧桐的缝隙，落在街角的咖啡店与江面的微波上。给自己一段安静的时间，整理思绪，明确方向，让每一个清醒的开始，都通向更好的自己。」\n\nFooter and QR: Along the bottom, add widely spaced pale-blue uppercase footer text: “MORNING GREETING / CITY NOTE”. In the lower right, place a small QR code with two lines of Chinese caption: 「城市早安计划」 and 「扫码开启美好一天」.\n\nVisual style: Editorial magazine layout, luxury city postcard, pale sky-blue accents, black Chinese calligraphy-like serif title, high-end serif English lettering, thin rules, precise alignment, soft gradients, quiet morning atmosphere. Keep the design spacious, balanced, and uncluttered. No extra icons, no watermark, no additional text beyond the specified content.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "city name",
+        "default": "上海"
+      },
+      {
+        "name": "date",
+        "default": "2026-07-17"
+      },
+      {
+        "name": "quote",
+        "default": "让清晨先温柔你，再把锋芒交给今天。"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784278005944_r4u0cv_HNZE1DragAAx0d_.jpg",
+        "alt": "Shanghai Morning Greeting Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784278005763_22zrjc_HNZE3HJaEAAVs0K.jpg",
+        "alt": "Shanghai Morning Greeting Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784278005763_knrqy1_HNZFwYFaEAA0KO_.jpg",
+        "alt": "Shanghai Morning Greeting Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784278006589_fvqxje_HNZE9HjboAAiuZz.jpg",
+        "alt": "Shanghai Morning Greeting Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小小东",
+      "url": "https://x.com/xiaoxiaodong01"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/xiaoxiaodong01/status/2077924988569759899#reversed-0"
+    },
+    "publishedAt": "2026-07-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28920",
+    "contentHash": "a65f9cbb95b462d58a408d8635cee4c64a6c5651"
+  },
+  {
+    "id": "gpt-image-2:28906",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28906",
+    "title": "Summer Urban Rooftop Portrait",
+    "category": "Social Media Post",
+    "description": "A comprehensive prompt for generating a high-quality summer portrait of a young woman on a rooftop, featuring refreshing blue tones, soda, and hand-drawn decorative elements.",
+    "promptText": "Subject: \n{argument name=\"theme\" default=\"Sky Blue Ramune Day\"}\n\nSubject Body:\n{argument name=\"character\" default=\"A woman in her 20s\"} smiling with a Ramune soda in hand on an {argument name=\"location\" default=\"urban building rooftop in midsummer\"}. Standing slightly to the right of center on a vertical 2:3 canvas, captured from head to upper thighs. The person occupies approximately 70% of the screen, leaving ample negative space of vibrant blue sky at the top. Visual accents include white wireless headphones around the neck, a pale blue drink in a transparent cup, and white hand-drawn style musical notes and stars floating around.\n\nPerson/Expression:\nBright ivory-beige skin with natural pink color and delicate texture. Soft highlights from the summer sun on cheeks, nose tip, shoulders, and collarbones. Light rose pink blush, champagne beige and pink-brown eye makeup, long slender lashes, natural tear bags, soft brown eyebrows, and sheer pink-beige lips. A bright smile with the mouth slightly open, face turned slightly toward the upper left of the screen, with eyes looking diagonally upward. Small, clear catchlights in the eyes. Hair is bright milk tea ash brown with thin see-through bangs, face-framing layers, and medium-long length below the shoulders. Hair ends are loosely curled inward, with fine strands and natural flyaways swaying slightly in the summer air. Each strand, soft luster, and fine highlights are meticulously drawn.\n\nClothing/Pose:\nWearing a white fine-ribbed square-neck camisole with a translucent thin white shirt draped loosely over the shoulders. Bottoms are light sky blue lightweight shorts with a white drawstring at the waist. A healthy, mature, natural physique with a calm, feminine silhouette. Holding the transparent cup at chest height with her own left hand on the right side of the screen, while the fingertips of her right hand lightly bring the straw close to her lips. A relaxed standing posture with hips shifted slightly to the left and a slight difference in shoulder height. Precise depiction of the contact between fingers, cup, and straw.\n\nBackground/Lighting:\nA rooftop of a building in an urban area of Japan. In the middle ground, a metal safety fence; in the background, a group of low to medium-rise buildings and thin power lines, with no text or logos. The sky is high-saturation clear blue with small white cumulus clouds on the left and bottom. Inside the transparent cup are ice, fine carbonated bubbles, and pale light blue Ramune soda, with cold condensation on the cup's surface. The primary light is hard daylight coming from the upper left. It brightly illuminates the cheeks, shoulders, arms, and top of the cup, casting soft shadows under the chin and inside the shirt. Subtle reflected light from the blue sky is added to the skin and white clothing.\n\nComposition/Camera:\nVertical 2:3 aspect ratio, low angle looking up from a slightly low position. Natural perspective equivalent to 35-50mm. Focus accurately on the person's face, with background buildings lightly blurred. About 15% margin above the head, with hand-drawn white stars, notes, and short lines scattered on the left and right, and a white rough outline placed along the person's contour. Decorations do not hide the face, hands, or drink, creating a bright and light screen rhythm.\n\nTexture/Style:\nA bright and clean live-action photo combining summer fashion magazines and SNS portraits. Realistic expression of natural skin texture, transparent carbonation, the sheerness and fine wrinkles of the thin shirt, and the delicate movement of hair. A refreshing color scheme centered on blue, white, and pale light blue. Avoid excessive HDR or overly strong skin-beautifying corrections, adding light film grain and high-definition light depiction.\n\nNegative:\nYoung-looking face, unnatural physique, excessive exposure, unnatural smile, extra fingers, missing fingers, fused fingers, fingers penetrating the cup, poor contact with the straw, distorted headphones, incorrect perspective, shadows inconsistent with the light source, garbled text, brand logos, watermarks, plastic-like skin.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "theme",
+        "default": "Sky Blue Ramune Day"
+      },
+      {
+        "name": "character",
+        "default": "A woman in her 20s"
+      },
+      {
+        "name": "location",
+        "default": "urban building rooftop in midsummer"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784277994338_qdmb7w_HNRTiv5acAA2Ql5.jpg",
+        "alt": "Summer Urban Rooftop Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Prompt アトリエ｜AI画像プロンプト",
+      "url": "https://x.com/CyberTotal2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CyberTotal2026/status/2077914932536840353"
+    },
+    "publishedAt": "2026-07-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28906",
+    "contentHash": "cc3206c23b1f419b4469816098f6e21ebf7e769c"
+  },
+  {
+    "id": "gpt-image-2:28904",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28904",
+    "title": "Pale Blue Swimwear Terrace Portrait",
+    "category": "Social Media Post",
+    "description": "A high-definition fashion portrait of a woman in pale blue swimwear looking over her shoulder on a bright outdoor terrace.",
+    "promptText": "Subject: Turning in Pale Blue\n\nMain Subject: {argument name=\"main subject\" default=\"A vertical portrait of a woman sitting on a bright outdoor terrace, her upper body facing the back right while her face turns back over her shoulder toward the camera\"}. The figure is largely positioned from the center to the right, showing from the top of the head to the upper thighs. Space is left on the left side with plants and a bright wall.\n\nCharacter/Expression: A woman in her 20s. Bright ivory-beige white skin with natural texture including a subtle pink flush. Face tilted slightly downward, with only the eyes directed at the camera, and a calm expression with relaxed lips. Small, clear catchlights in the eyes.\n\nHair: Bright milk-tea ash brown medium-long hair. Thin see-through bangs, layers framing the face, and ends curled loosely inward. Fine stray hairs touch the cheeks and neck, with outlines and soft sheen visible in backlighting.\n\nClothing/Pose: {argument name=\"clothing\" default=\"Pale blue minimal separate swimwear\"}. Thin straps, a deep-back top with a small knot in the center and modest fine frills at the hem. Side-tie bottoms with a matching thin sheer material wrapped lightly around the waist. Right hand placed behind for support, left hand naturally resting on the outer thigh.\n\nBackground/Light: {argument name=\"background\" default=\"White stone terrace with blurred olive-type potted plants and a bright exterior wall in the back\"}. Warm morning natural light enters from the upper right rear, creating a thin rim light on the edges of the hair, shoulders, and back. Soft reflected light from the white wall on the front of the face. Shadows fall faintly to the bottom left.\n\nComposition/Camera: 2:3 vertical frame. Eye level near waist height, shot from a slightly rear diagonal angle. 85mm-equivalent medium telephoto, shallow depth of field. Precise focus on the eyes and face, with smooth blur in the background and foreground.\n\nTexture/Style: High-definition fashion photography. Careful depiction of natural pores and vellus hair, fine fabric weave, sheer material transparency, and small metallic reflections. Soft highlights avoiding overexposure, low contrast, and a clean color palette centered on pale blue and ivory.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "main subject",
+        "default": "A vertical portrait of a woman sitting on a bright outdoor terrace, her upper body facing the back right while her face turns back over her shoulder toward the camera"
+      },
+      {
+        "name": "clothing",
+        "default": "Pale blue minimal separate swimwear"
+      },
+      {
+        "name": "background",
+        "default": "White stone terrace with blurred olive-type potted plants and a bright exterior wall in the back"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784277992995_g2sn1l_HNYrGvWbkAAhMk0.jpg",
+        "alt": "Pale Blue Swimwear Terrace Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Prompt アトリエ｜AI画像プロンプト",
+      "url": "https://x.com/CyberTotal2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CyberTotal2026/status/2077895977613312355"
+    },
+    "publishedAt": "2026-07-16T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28904",
+    "contentHash": "26818084a11d83f0b7ee5c4030c64329cfbc6f59"
+  },
+  {
+    "id": "gpt-image-2:28902",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28902",
+    "title": "Summer Seaside Jump Portrait",
+    "category": "Social Media Post",
+    "description": "A highly detailed prompt for a realistic portrait of a woman jumping at a Japanese seaside town during mid-summer.",
+    "promptText": "Subject: The moment of kicking the sea breeze\n\nMain Subject: {argument name=\"main subject\" default=\"A moment in a mid-summer seaside town where an adult woman jumps from a low concrete platform in the bottom right of the screen to a flat paved road on the left\"}. The person is placed largely in the center-left of the screen, with the whole body occupying about 75% of the vertical frame. Both feet are off the ground in a natural mid-air posture just before landing.\n\nCharacter/Expression: A woman with a mature, well-proportioned body. Healthy and realistic proportions, long dark brown hair. Strong sea breeze causes hair to flow significantly from the front of the face toward the upper left of the screen. The face is turned slightly upward and left, with a broad, open smile and narrowed eyes. Natural light makeup, with the summer sun hitting the cheeks, giving a bright and active impression.\n\nClothing/Pose: {argument name=\"clothing\" default=\"White thin-strap V-neck camisole\"}. Ribbed material that fits the body comfortably, with small buttons lined up at the front center. Pale light blue and white checkered mini pleated skirt, white middle-length socks, white canvas sneakers. The entire skirt catches a strong wind blowing from the back right to the front left, spreading lightly in a large continuous arc from the waist to the hem. Layers of fabric and pleats hang naturally with gravity, fluttering smoothly as a single piece of cloth rather than multiple small waves. Right arm extended to the right, left arm lowered loosely by the side. Knees slightly bent, feet slightly staggered in preparation for landing.\n\nBackground/Light: {argument name=\"background\" default=\"Blue sea and low waves on the left, with green mountains in the distance\"}. In the far right, Japanese seaside houses on a slope, utility poles, power lines, and yellow-and-black railroad crossing equipment. The low concrete platform at the bottom right shows its shape and position clearly, and the area to its left is a wide, flat paved road with no steps or cliffs. Vivid blue sky with three-dimensional white cumulus clouds. Strong natural noon light shines from the upper left, brightly illuminating the left side of the face, shoulders, and legs. Shadows of the person and the platform fall toward the bottom right of the paved road.\n\nComposition/Camera: Vertical 3:4 aspect ratio. A bold low-angle full-body shot looking up from near the ground. Slightly wide-angle but with minimal body distortion. Ample blue sky left above the person's head, with a composition where the platform at the bottom right, the flat ground at the bottom left, and the sea in the back left are understood as a continuous space. High shutter speed freezes the person's silhouette, while leaving faint movement only at the tips of the hair and the edges of the skirt. Sharp focus on the person, with natural medium background blur.\n\nTexture/Style: A realistic Japanese portrait photo capturing the feeling of summer sunlight. Based on transparent blue and white tones, skin has natural texture and subtle sheen. Fine expression of pleats, ribs, individual strands of hair, and the coarse surface of concrete. Refreshing and high saturation, but skin tones are not overexposed, resulting in a clean and natural finish like a magazine photo.\n\nNegative: Underage-looking persons, unnatural body shapes, unnatural skirt shapes, stiff cloth, petal-like split hems, anti-gravity cloth, extra limbs, missing fingers, joint failures, fused feet, floating sensation, landing points with cliffs or steps, incorrect perspective, inconsistent shadow direction, excessive skin retouching, plastic-like skin, garbled text, logos, watermarks.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "main subject",
+        "default": "A moment in a mid-summer seaside town where an adult woman jumps from a low concrete platform in the bottom right of the screen to a flat paved road on the left"
+      },
+      {
+        "name": "clothing",
+        "default": "White thin-strap V-neck camisole"
+      },
+      {
+        "name": "background",
+        "default": "Blue sea and low waves on the left, with green mountains in the distance"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784277991837_lwovo8_HNMOA_nbcAE1ihp.jpg",
+        "alt": "Summer Seaside Jump Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Prompt アトリエ｜AI画像プロンプト",
+      "url": "https://x.com/CyberTotal2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CyberTotal2026/status/2077880958557258134"
+    },
+    "publishedAt": "2026-07-16T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28902",
+    "contentHash": "f2c216d0de953d4a5d2b5b2fef1a4ca390ed362b"
+  },
+  {
+    "id": "gpt-image-2:28942",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28942",
+    "title": "Lost in Russia Travel Collage",
+    "category": "Social Media Post",
+    "description": "A detailed prompt for creating a vintage scrapbook-style Russia travel poster featuring a tourist, Moscow landmarks, maps, stamps, food, and bold typography.",
+    "promptText": "Create a vertical vintage travel-poster collage about a solo traveler in Russia, using a gritty torn-paper scrapbook aesthetic, muted beige paper texture, halftone dots, rough paint strokes, distressed print grain, and high-contrast editorial photomontage. The main headline should dominate the top half: a black torn strip with white uppercase text “LOST IN” above enormous distressed red block letters “RUSSIA”. Center foreground: a stylish male tourist in his early 30s with short brown hair, trimmed beard, black sunglasses, tan overshirt jacket, gray T-shirt, black backpack straps, wristwatch, and a black camera hanging from his neck; he holds an unfolded paper map at waist level and looks confidently toward the right. Background and collage elements: on the right, large colorful onion domes of St. Basil’s Cathedral; on the left, an urban Moscow street scene with old buildings, pedestrians, and a red vintage car driving forward; include a red Moscow Metro “M” sign and a dark directional signboard with exactly 3 arrows labeled “RED SQUARE”, “GUM DEPARTMENT STORE”, and “ST. BASIL’S CATHEDRAL” with smaller Russian text above each English line. Add a blue brush-stroke caption near the upper left-center reading “WHERE STORIES LIVE FOREVER”. Include exactly 3 travel stamp/sticker elements: a round “ADVENTURE AWAITS” airplane stamp in the upper left, a small tan “RUSSIA” postage sticker in the upper right with Cyrillic text, and a round visa/passport stamp near the lower left. Add exactly 3 cultural/food stickers in the lower right: a bowl of red borscht with sour cream, and 3 nested matryoshka dolls grouped beside it. Add a torn black note panel in the bottom right with exactly 3 bullet lines: red star “ICONIC LANDMARKS”, blue star “RICH CULTURE”, white star “UNFORGETTABLE JOURNEYS”. Add a bottom-left torn label reading “RUSSIA MADE FOR EXPLORERS”. Keep the composition busy but readable, with layered ripped paper edges, blue and red paint accents, realistic photographic subject, poster-like typography, and no extra logos or watermarks.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784278021041_hj9tmm_HNYHEToW8AAvbAF.jpg",
+        "alt": "Lost in Russia Travel Collage",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "𝔸𝕝𝕖𝕛𝕒𝕟𝕕𝕣𝕠 𝔾.",
+      "url": "https://x.com/a_galaktionov"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/a_galaktionov/status/2077856058274447633#reversed-0"
+    },
+    "publishedAt": "2026-07-16T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28942",
+    "contentHash": "8d344c11f3d16a85702125a946e2c3bd493a2689"
+  },
+  {
+    "id": "gpt-image-2:28947",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28947",
+    "title": "Tokyo Night Crosswalk Fashion Portrait",
+    "category": "Social Media Post",
+    "description": "Generates a realistic vertical night portrait of a stylish young woman looking back on a busy illuminated Tokyo crosswalk.",
+    "promptText": "Create a realistic night street fashion portrait in a busy Tokyo-style city intersection, shot at pedestrian height with a shallow depth of field. The subject is {argument name=\"character description\" default=\"a young East Asian woman with long wavy black hair, fair skin, and a soft confident smile\"}, standing on a wide zebra crossing and looking back over her shoulder toward the camera in a three-quarter rear pose. She wears {argument name=\"top\" default=\"a fitted white spaghetti-strap tank top\"} and {argument name=\"pants\" default=\"high-waisted light blue skinny jeans\"}, with a delicate dangling earring visible. In her lowered right hand she holds a small cream-colored structured handbag and a black smartphone. The background shows a crowded urban crosswalk at night, blurred pedestrians, a passing black taxi on the left, bright storefronts, glass buildings, glowing billboards, and recognizable Shibuya/Ginza-like city lighting. Use natural skin texture, soft cinematic bokeh, realistic lens perspective, muted urban colors, and flattering ambient neon illumination. Compose vertically in a 2:3 aspect ratio, full-body to mid-calf framing, with the woman centered slightly right and the crosswalk stripes leading into the luminous city behind her. Avoid text overlays, watermarks, exaggerated anatomy, cartoon styling, or over-smoothed plastic skin.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character description",
+        "default": "a young East Asian woman with long wavy black hair, fair skin, and a soft confident smile"
+      },
+      {
+        "name": "top",
+        "default": "a fitted white spaghetti-strap tank top"
+      },
+      {
+        "name": "pants",
+        "default": "high-waisted light blue skinny jeans"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784278025336_dng808_HNWfWtTWkAAuNXp.jpg",
+        "alt": "Tokyo Night Crosswalk Fashion Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784278025349_ov67dc_HNWfWtQXoAAXVQR.jpg",
+        "alt": "Tokyo Night Crosswalk Fashion Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784278025369_1fqbcx_HNWfWtVWEAAfejC.jpg",
+        "alt": "Tokyo Night Crosswalk Fashion Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784278026597_oxp5g8_HNWfWtPW8AAS8xT.jpg",
+        "alt": "Tokyo Night Crosswalk Fashion Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ToroJushiAi",
+      "url": "https://x.com/ToroJushiAi"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ToroJushiAi/status/2077815529260401083#reversed-0"
+    },
+    "publishedAt": "2026-07-16T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28947",
+    "contentHash": "a6e3a56bec1d236b9206bdf5553a6c635ad75a7c"
+  },
+  {
+    "id": "gpt-image-2:28871",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28871",
+    "title": "Golden Hour Street Portrait",
+    "category": "Social Media Post",
+    "description": "A cozy autumn street portrait prompt featuring a woman in an oversized hoodie with warm, cinematic lighting.",
+    "promptText": "Beautiful young woman with long flowing black hair, wearing {argument name=\"clothing\" default=\"an oversized cream-white hoodie\"}, standing on a {argument name=\"location\" default=\"quiet urban street\"} during {argument name=\"lighting\" default=\"golden hour\"}. She smiles softly with eyes closed, arms stretched wide in a carefree pose, wind blowing through her hair. Warm sunlight creates a glowing rim light around her face and hair, candid lifestyle photography, natural happiness, cozy autumn atmosphere, fallen leaves on the road, small local shops and a cyclist in the background, shallow depth of field, soft cinematic colors, realistic skin texture, high detail, dreamy mood, ultra-realistic portrait, street photography, 85mm lens, f/1.8, bokeh, HDR, 8K quality.\nNegative Prompt:\nblurry, low resolution, extra fingers, distorted hands, bad anatomy, duplicate limbs, overexposed highlights, oversaturated colors, artificial skin, heavy makeup, watermark, text, logo, cropped face, motion blur, noise, cartoon, CGI, unrealistic proportions",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "clothing",
+        "default": "an oversized cream-white hoodie"
+      },
+      {
+        "name": "location",
+        "default": "quiet urban street"
+      },
+      {
+        "name": "lighting",
+        "default": "golden hour"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784277967126_ysrnn5_HNXI47-aUAAf1gA.jpg",
+        "alt": "Golden Hour Street Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784277967197_it1pxz_HNXI57NbEAAyzah.jpg",
+        "alt": "Golden Hour Street Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "𝗦𝗮𝗻𝗶𝗮",
+      "url": "https://x.com/saniaspeaks_"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/saniaspeaks_/status/2077787710371058006"
+    },
+    "publishedAt": "2026-07-16T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28871",
+    "contentHash": "81f0774b66502a938713918fcc50e4934e01a697"
+  },
+  {
     "id": "gpt-image-2:28924",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6782,307 +7126,5 @@
     "publishedAt": "2026-07-12T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28506",
     "contentHash": "5ad3861183e80aafe0e8e07cddf41630998787cb"
-  },
-  {
-    "id": "gpt-image-2:28552",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28552",
-    "title": "Woman Touching Mirror in Violet Dress",
-    "category": "Profile / Avatar",
-    "description": "A photorealistic cinematic portrait of a woman in a mystical purple dress touching her reflection in an ornate golden mirror.",
-    "promptText": "Create a realistic, cinematic vertical portrait of a {argument name=\"character description\" default=\"serene adult woman with medium olive skin, shoulder-length dark wavy hair, soft brown eyes, and natural makeup\"} standing in front of an ornate antique gold mirror in a warm bedroom. The camera views her mostly through the mirror reflection: her reflected face and torso are centered, while the back and side of her real body appear in the right foreground, slightly out of focus. She wears a fitted {argument name=\"outfit color and style\" default=\"deep violet long-sleeved semi-sheer mystical dress with delicate gold filigree patterns and subtle glitter\"}, with a small purple crystal pendant necklace. Her hands are pressed gently together at chest height, touching her reflection's hands on the mirror surface, creating a calm introspective moment. Use golden-hour sunlight streaming from a bright window on the left, soft haze, warm candle-like bokeh lights in the background, lavender bedding, a blurred plant, and a framed purple artwork on the wall. The mirror frame is large, arched, heavily carved, and gilded, filling the top and left edges of the composition. Emphasize photorealistic skin texture, realistic fabric translucency, fine dust-like sparkles on the sleeves, shallow depth of field, warm amber and violet color grading, and a magical yet believable atmosphere. No text, no watermark, no extra people, no distorted hands or face.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character description",
-        "default": "serene adult woman with medium olive skin, shoulder-length dark wavy hair, soft brown eyes, and natural makeup"
-      },
-      {
-        "name": "outfit color and style",
-        "default": "deep violet long-sleeved semi-sheer mystical dress with delicate gold filigree patterns and subtle glitter"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783932968576_g6l6nd_HNCl432WYAAt3O2.jpg",
-        "alt": "Woman Touching Mirror in Violet Dress",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Amy G",
-      "url": "https://x.com/amynys"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/amynys/status/2076342104200999252#reversed-0"
-    },
-    "publishedAt": "2026-07-12T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28552",
-    "contentHash": "46f6d795b6c2e47ccab5c2d40ddd9bb02c619372"
-  },
-  {
-    "id": "gpt-image-2:28515",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28515",
-    "title": "Princess Face Big Head Art",
-    "category": "Profile / Avatar",
-    "description": "A prompt for creating stylized big head character art of a princess, generated using the GPT Image 2 model.",
-    "promptText": "{argument name=\"art style\" default=\"QT Big Head Art\"} {argument name=\"subject\" default=\"Princess Face\"}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "art style",
-        "default": "QT Big Head Art"
-      },
-      {
-        "name": "subject",
-        "default": "Princess Face"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783932942961_xa1ecd_HNAfZCHaAAA9ZU2.jpg",
-        "alt": "Princess Face Big Head Art",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Cosmic Cowboy",
-      "url": "https://x.com/CosmicCowboyCDN"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CosmicCowboyCDN/status/2076335782797672821"
-    },
-    "publishedAt": "2026-07-12T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28515",
-    "contentHash": "87eaaf0ba04c05e71f92558ef51b1ad96a2a7384"
-  },
-  {
-    "id": "gpt-image-2:28484",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28484",
-    "title": "Luxury Apartment Mirror Selfie Portrait",
-    "category": "Profile / Avatar",
-    "description": "A detailed prompt for generating a realistic mirror selfie of a woman in a modern luxury apartment, focusing on lighting and high-end fashion details.",
-    "promptText": "A full-length mirror selfie of a {argument name=\"subject\" default=\"beautiful young East Asian woman in her early 20s\"} standing in a modern luxury apartment. She has {argument name=\"hair style\" default=\"very long, straight glossy black hair with soft side bangs falling past her waist\"}. Fair porcelain skin, delicate features with soft makeup — large eyes, glossy lips in a soft neutral expression, a faint blush on her cheeks. She holds a black smartphone up in her right hand to take the mirror selfie, partially covering the upper part of her face, her left hand resting on her hip. She has an attractive hourglass figure — full bust, slim waist, curvy hips. She wears a {argument name=\"clothing\" default=\"cream-colored sequined spaghetti-strap camisole top with a low V-neckline that shimmers softly\"}, paired with fitted white high-waisted shorts, and black strappy ankle-strap high-heeled sandals. She stands with her weight on one leg, hip cocked slightly, posing confidently in front of a large full-length mirror with a slim dark wood frame. Reflected behind her is a bright, elegant modern apartment interior — clean minimalist design, floor-to-ceiling windows with sheer curtains letting in warm natural daylight, pale marble or polished concrete floors, sleek contemporary furniture, soft neutral tones, tasteful decor. Warm natural light streams in from the windows, casting soft highlights across her figure and the floor. Shot on a phone in the mirror, full-body vertical framing, natural skin texture, slightly warm tones, the authentic look of a real mirror selfie in a stylish upscale apartment.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "beautiful young East Asian woman in her early 20s"
-      },
-      {
-        "name": "hair style",
-        "default": "very long, straight glossy black hair with soft side bangs falling past her waist"
-      },
-      {
-        "name": "clothing",
-        "default": "cream-colored sequined spaghetti-strap camisole top with a low V-neckline that shimmers softly"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783932916594_gsss6y_HNCK5mnX0AA_jVK.jpg",
-        "alt": "Luxury Apartment Mirror Selfie Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "John",
-      "url": "https://x.com/johnAGI168"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/johnAGI168/status/2076312877204480020"
-    },
-    "publishedAt": "2026-07-12T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28484",
-    "contentHash": "1d5389e72eba96eb9d086b07921fb5404fb09f9d"
-  },
-  {
-    "id": "gpt-image-2:28464",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28464",
-    "title": "Overhead Documentary Portrait of a Young Girl",
-    "category": "Profile / Avatar",
-    "description": "A detailed prompt for creating a realistic documentary-style overhead portrait of a young girl with natural braids and expressive eyes, using a high-angle perspective and cinematic color grading.",
-    "promptText": "Create a highly realistic documentary style overhead portrait of a {argument name=\"subject\" default=\"young girl\"} with deep brown skin, standing outdoors and looking directly up into the camera with large, expressive dark eyes and a calm, slightly vulnerable expression. Her hair is styled in short natural braids decorated with {argument name=\"braid decorations\" default=\"small red and white beads\"} at the ends. She wears a {argument name=\"outfit\" default=\"simple dark brown sleeveless dress\"} with a subtle colorful design on the chest and small pink sandals.\n\nUse an extreme high angle perspective, with the camera positioned directly above her face. Her eyes and face should be in sharp focus while her body, feet, and the rough ground beneath her gradually fall into a soft blur. Natural diffused daylight, gentle shadows, earthy muted tones, realistic skin texture, subtle facial details, shallow depth of field, intimate emotional storytelling, authentic humanitarian photography, 35mm lens look, soft cinematic color grading, slight film grain, centered composition, vertical portrait format.\n\nKeep the scene natural and respectful. No exaggerated expression, no glamour styling, no artificial makeup, no extra people, no text, no watermark, no distorted hands, no duplicated beads, and no overly smooth or plastic looking skin.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "young girl"
-      },
-      {
-        "name": "braid decorations",
-        "default": "small red and white beads"
-      },
-      {
-        "name": "outfit",
-        "default": "simple dark brown sleeveless dress"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783932904304_o6vdpe_HNCIkfNa0AA8XrO.jpg",
-        "alt": "Overhead Documentary Portrait of a Young Girl",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "BMX",
-      "url": "https://x.com/bmx_ai13"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/bmx_ai13/status/2076309971218944433"
-    },
-    "publishedAt": "2026-07-12T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28464",
-    "contentHash": "71e6640c43bfcb85377d0542490537fab625aa76"
-  },
-  {
-    "id": "gpt-image-2:28463",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28463",
-    "title": "Photorealistic Middle Eastern Male Portrait",
-    "category": "Profile / Avatar",
-    "description": "A highly detailed prompt for a photorealistic portrait of a young Middle Eastern man, focusing on lighting, facial features, and traditional attire.",
-    "promptText": "Using uploaded face 100 percent same & realistic. A high-quality, photorealistic portrait of a {argument name=\"subject\" default=\"handsome young Middle Eastern man\"} with striking {argument name=\"eye color\" default=\"light-colored eyes\"} and a {argument name=\"beard style\" default=\"sharply groomed beard\"}. He is wearing a casual brown and beige striped thobe with gold trim at the neckline, and a traditional patterned shemagh wrapped tightly as a turban with a black band. He is looking directly at the camera with a confident expression, holding sunglasses in his hand. Clean, modern architectural background with soft natural lighting, cinematic depth of field, sharp focus. keep original face and hairstyle 100% reference Ratio 9:16",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "handsome young Middle Eastern man"
-      },
-      {
-        "name": "eye color",
-        "default": "light-colored eyes"
-      },
-      {
-        "name": "beard style",
-        "default": "sharply groomed beard"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783932924105_dfsal7_HNCGYNbbUAEyZx7.jpg",
-        "alt": "Photorealistic Middle Eastern Male Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Dilshad Hussain",
-      "url": "https://x.com/DilshadAI1"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/DilshadAI1/status/2076307190756041085"
-    },
-    "publishedAt": "2026-07-12T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28463",
-    "contentHash": "e5bf6af4ce66a90f14862b6fce291714c81cc826"
-  },
-  {
-    "id": "gpt-image-2:28492",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28492",
-    "title": "Minimalist Portrait with Doodle Hug",
-    "category": "Profile / Avatar",
-    "description": "A playful portrait prompt that combines a photorealistic reference image with a cartoon doodle character in a clean studio setting.",
-    "promptText": "A cute minimalist portrait of a young woman ({argument name=\"reference matching\" default=\"same face, hair and clothes as the uploaded image 100%\"}) sitting casually on the floor in a clean studio setting with a light grey background. Relaxed seated pose with crossed legs, one eye slightly closed in a playful wink and a soft smile. Behind her, a large black-and-white {argument name=\"cartoon character\" default=\"Mr. bean\"} doodle character hugs her from behind, wrapping its cartoon arms around her shoulders and gently squeezing her cheek. 9:16 ratio",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "reference matching",
-        "default": "same face, hair and clothes as the uploaded image 100%"
-      },
-      {
-        "name": "cartoon character",
-        "default": "Mr. bean"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783932922718_jdy9tv_HNBv3vBasAAUo2C.jpg",
-        "alt": "Minimalist Portrait with Doodle Hug",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "lovimg_com",
-      "url": "https://x.com/lovimg_com"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/lovimg_com/status/2076282440814145647"
-    },
-    "publishedAt": "2026-07-12T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28492",
-    "contentHash": "a3b56df0b503303771ef1e0bd87e446de37ca7b7"
-  },
-  {
-    "id": "gpt-image-2:28490",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28490",
-    "title": "Golden Hour East Asian Woman Portrait",
-    "category": "Profile / Avatar",
-    "description": "A high-fidelity DSLR portrait prompt for generating images of an East Asian woman in autumn settings, focusing on realistic skin texture, lighting, and bokeh.",
-    "promptText": "Ultra-realistic DSLR portrait of a beautiful young East Asian woman sitting outdoors beneath a blooming tree during golden hour, looking back over her shoulder directly at the camera with a calm, dreamy expression. She has long, naturally wavy dark brown hair cascading over her back, with a small vibrant red flower tucked behind one ear. She wears elegant gold oval drop earrings and an oversized off-shoulder deep crimson red knit sweater exposing one shoulder. One hand gently brushes through her hair while the other rests naturally out of frame. Warm golden sunlight creates soft glowing skin with subtle specular highlights and natural rim light around her hair. Background filled with large flowering trees, warm autumn foliage, creamy bokeh, and a softly blurred park pathway. Rich cinematic color grading with warm reds and earthy browns, shallow depth of field, ultra-detailed skin texture, realistic hair strands, natural makeup, soft peach lips, sharp eyes with catchlights, HDR photography, 85mm lens, f/1.8, RAW photo, masterpiece, ultra photorealistic, 8K. Ultra-realistic outdoor portrait of a beautiful young East Asian woman photographed from a slightly low-angle perspective beneath a flowering tree on a bright sunny day. She tilts her head gently toward the camera while making soft eye contact with a relaxed, elegant smile. Long voluminous dark brown wavy hair flows naturally over her shoulders, adorned with a small vivid red flower near one ear. She wears delicate gold oval drop earrings and a loose off-shoulder deep crimson red knit sweater. Natural tree leaves cast beautiful dappled shadows across her face and sweater, creating artistic sunlight patterns. Bright blue sky with fluffy white clouds and flowering tree branches fill the background, rendered with soft creamy bokeh. Argentina Warm cinematic lighting, luminous skin, subtle glow, realistic facial details, glossy lips, detailed eyes with natural catchlights, shallow depth of field, HDR, 85mm portrait lens, f/2.0, professional fashion photography, RAW, ultra photorealistic, masterpiece quality, 8K.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783932919913_0951n4_HNABbOobYAEnacE.jpg",
-        "alt": "Golden Hour East Asian Woman Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783932920768_wzxly1_HNABcOwaMAA9eda.jpg",
-        "alt": "Golden Hour East Asian Woman Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "auqib",
-      "url": "https://x.com/auqibhabib"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/auqibhabib/status/2076161025679008153"
-    },
-    "publishedAt": "2026-07-12T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28490",
-    "contentHash": "c5f1443aaf9944bf0cb5f3b0a0c62450991c6884"
   }
 ]

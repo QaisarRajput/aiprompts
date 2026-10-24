@@ -1,5 +1,320 @@
 [
   {
+    "id": "gpt-image-2:26064",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26064",
+    "title": "Earth Cutaway Layer Infographic",
+    "category": "Infographic / Edu Visual",
+    "description": "Generates a photorealistic educational cutaway diagram of Earth with Japanese labels for its four internal layers.",
+    "promptText": "Goal: Create a dramatic scientific cutaway infographic of {argument name=\"planet name\" default=\"Earth\"}, showing the planet in space with its internal layers exposed like a precise 3D sectional model.\n\nCanvas: Square 1:1 composition, high-resolution, black star-filled space background. The planet fills most of the left and center of the frame, with annotation text arranged on the right side.\n\nMain subject: A photorealistic Earth viewed from space, centered slightly left, with Asia, Japan, Southeast Asia, and Australia visible on the surface. Remove a large wedge-shaped quarter section from the front-right side of the globe to reveal the interior. The cutaway should look physically carved, with a thick rocky crust rim and glowing internal layers. Add a subtle blue atmospheric glow around the planet.\n\nCutaway structure: Show exactly 4 discrete internal/structural layers, each visually distinct and aligned with annotation leader lines: 1) a thin brown rocky crust at the outer edge, 2) a thick red-orange molten mantle layer with turbulent texture, 3) a bright orange outer core surrounding the center, and 4) a glowing yellow-white inner core sphere at the center. Make the mantle the largest visible layer, the outer core semi-spherical and luminous, and the inner core intensely bright with swirling heat texture.\n\nText and labels: Place exactly 4 Japanese annotation blocks on the right, each with a white dot marker and thin white leader line pointing to the correct layer. Use bold white Japanese headings and smaller white explanatory text beneath each heading. The four visible labels must be: {argument name=\"crust label\" default=\"地殻\"} with smaller text “地球の最も外側の薄い層。”; {argument name=\"mantle label\" default=\"マントル\"} with smaller text “厚さ約2,900kmの層。高温の岩石がゆっくりと流動している。”; {argument name=\"outer core label\" default=\"外核\"} with smaller text “厚さ約2,200kmの層。主に鉄とニッケルの流体で構成される。”; {argument name=\"inner core label\" default=\"内核\"} with smaller text “半径約1,220kmの固体の層。主に鉄とニッケルでできており、非常に高温・高圧の環境にある。”\n\nVisual style: Photorealistic space-science educational poster, cinematic lighting, crisp typography, realistic Earth texture, glowing lava-like interior, clean white callout lines, high contrast, polished museum infographic style.\n\nConstraints: Keep exactly 4 annotation blocks and exactly 4 layer labels. Do not add extra icons, extra labels, borders, logos, watermarks, or decorative UI panels. Keep all text legible and positioned to the right of the planet.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "planet name",
+        "default": "Earth"
+      },
+      {
+        "name": "crust label",
+        "default": "地殻"
+      },
+      {
+        "name": "mantle label",
+        "default": "マントル"
+      },
+      {
+        "name": "outer core label",
+        "default": "外核"
+      },
+      {
+        "name": "inner core label",
+        "default": "内核"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781774883082_vey9py_HLCf9XObUAA3MW2.jpg",
+        "alt": "Earth Cutaway Layer Infographic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "G2（じーにー）｜AIビジネス翻訳家",
+      "url": "https://x.com/aiclass_g2"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/aiclass_g2/status/2067362555019042839#reversed-0"
+    },
+    "publishedAt": "2026-06-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26064",
+    "contentHash": "e9cab945ac1dcbb8170705bb1c5a92d7ee09b246"
+  },
+  {
+    "id": "gpt-image-2:26029",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26029",
+    "title": "Dentist Storyboard Infographic",
+    "category": "Infographic / Edu Visual",
+    "description": "A clean, Pixar-style storyboard prompt for creating an infographic poster for a dentist with medical-themed colors and geometric borders.",
+    "promptText": "Create a crisp, clean infographic storyboard poster for {argument name=\"subject\" default=\"THE DENTIST\"}. {argument name=\"aspect ratio\" default=\"Wide 16:9\"} layout, white background, black borders, bold black typography, {argument name=\"rendering style\" default=\"premium Pixar 3D stylized rendering\"}, bright vivid colors — clean clinical white, sky blue gloves",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "THE DENTIST"
+      },
+      {
+        "name": "aspect ratio",
+        "default": "Wide 16:9"
+      },
+      {
+        "name": "rendering style",
+        "default": "premium Pixar 3D stylized rendering"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781774868115_c5cl3a_HLB6QmLWAAEdScx.jpg",
+        "alt": "Dentist Storyboard Infographic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "TechieSA",
+      "url": "https://x.com/TechieBySA"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/TechieBySA/status/2067286660149092638"
+    },
+    "publishedAt": "2026-06-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26029",
+    "contentHash": "3a36bcd3b9086abd4e6b57c7746cf9de6552ab19"
+  },
+  {
+    "id": "gpt-image-2:26023",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26023",
+    "title": "Technical Blueprint Infographic",
+    "category": "Infographic / Edu Visual",
+    "description": "A sophisticated prompt for creating professional infographics that combine realistic photos with technical blueprint overlays.",
+    "promptText": "Premium technical infographic of {argument name=\"object\" default=\"[OBJECT]\"}.\nUse the reference image only to understand the shape and structure of the object, without copying the same photo, angle, composition, or background. Reinterpret the subject in a new professional and realistic photograph, clean and well-lit, with a suitable and more aesthetic background. Keep the object as a real photo, not an\nillustration. Add a technical blueprint-style overlay with white lines, arrows, dimensions, labels, and small diagrams of parts, materials, measurements, and functionality.\nClear, elegant, and informative composition.\nInclude a sketch box in the upper left corner with the title \"OBJECT\".",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "object",
+        "default": "[OBJECT]"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781774863247_ugw8ik_HLA8mfXaUAEbE-n.jpg",
+        "alt": "Technical Blueprint Infographic",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1781774863225_pv7692_HLA8mfYboAAQSIj.jpg",
+        "alt": "Technical Blueprint Infographic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Al-Shamus",
+      "url": "https://x.com/im_shahid7"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/im_shahid7/status/2067218870264602681"
+    },
+    "publishedAt": "2026-06-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26023",
+    "contentHash": "90cef9b677395189156ba2a0204f4a3ea45f3f81"
+  },
+  {
+    "id": "gpt-image-2:26047",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26047",
+    "title": "Chinese Civilization Timeline Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "A dense panoramic historical infographic poster visualizing five thousand years of Chinese civilization for educational or museum-style use.",
+    "promptText": "Goal: Create an extremely information-dense panoramic illustrated historical infographic titled {argument name=\"main title\" default=\"中华上下五千年文化历程\"}, showing five thousand years of Chinese civilization as a continuous visual timeline from ancient prehistory to the contemporary era.\n\nCanvas: Wide horizontal poster, approximately 16:9 aspect ratio, parchment-colored background, antique scroll texture, ornate cloud-and-dragon border, warm sepia ink with muted reds, blues, jade greens, bronze, gold, and black calligraphy. Use a dense hand-painted Chinese historical mural style with fine linework, miniature figures, architectural details, artifact illustrations, and museum-catalog precision.\n\nLayout: Divide the poster into 5 stacked horizontal bands. Band 1 is the main chronological panorama with a large title at the top and exactly 10 labeled era panels running left to right: 1) 史前, 2) 夏商周, 3) 春秋战国, 4) 秦汉, 5) 魏晋南北朝, 6) 隋唐, 7) 宋元, 8) 明清, 9) 近现代, 10) 当代. Band 2 is a catalog strip of artifacts, writing, inventions, books, coins, porcelain, seals, instruments, and calligraphy samples. Band 3 is a social-life and economy strip showing agriculture, workshops, markets, schools, rituals, trade, armies, court scenes, ships, bridges, and city streets. Band 4 is a science, medicine, botany, astronomy, cartography, and technology strip with diagrams, scholars, tools, clocks, globes, laboratory-like rooms, and early industrial scenes. Band 5 is a modern-to-contemporary technology strip with laboratories, factories, computers, offices, aerospace, satellites, high-speed rail, renewable energy, and futuristic infrastructure.\n\nSubject details: The top timeline should flow like a continuous ancient landscape with mountains, rivers, roads, palaces, temples, city gates, villages, farms, caravans, horse riders, armies, scholars, emperors, artisans, monks, merchants, opera performers, reform-era citizens, modern engineers, skyscrapers, bullet train, rocket launch, and orbiting spacecraft. Include a pale winding river or dragon-like ribbon crossing the central upper panorama, visually connecting the eras. The left side should feel prehistoric and bronze-age, the middle should emphasize imperial dynasties and classical culture, and the right side should shift into modern industry, urban life, and space technology.\n\nText content: Use the main title {argument name=\"main title\" default=\"中华上下五千年文化历程\"} in large black brush calligraphy centered at the top. Keep the 10 era labels in small dark plaques along the top. Add many tiny Chinese calligraphy notes, scroll fragments, book pages, seals, and labels throughout, but they should function as decorative historical annotations rather than large readable paragraphs.\n\nVisual style: Maximalist educational wall chart, encyclopedic museum mural, ancient Chinese painting fused with historical infographic, thousands of tiny details, crisp miniature scenes, carefully separated panels, no empty space, aged paper texture, hand-drawn ink outlines, subtle watercolor shading, realistic but stylized historical costumes and artifacts.\n\nConstraints: Preserve exactly 10 top era panels and 5 horizontal content bands. Make the image dense but coherent, with no modern English text, no watermark, no logo, no blank areas, and no single oversized character dominating the composition.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "main title",
+        "default": "中华上下五千年文化历程"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781774875322_r0lp7g_HLAzFUIaIAADP8X.jpg",
+        "alt": "Chinese Civilization Timeline Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "今天也要学AI",
+      "url": "https://x.com/DevAIVibe"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/DevAIVibe/status/2067208622975971802#reversed-0"
+    },
+    "publishedAt": "2026-06-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26047",
+    "contentHash": "658ec28218355d40f07518fc27915376322707bf"
+  },
+  {
+    "id": "gpt-image-2:26056",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26056",
+    "title": "Nurse Hospital Vocabulary Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "Creates a Japanese anime watercolor reference poster listing 24 nurse and hospital-scene prompt terms for illustration inspiration.",
+    "promptText": "Goal: Create a vertical Japanese reference poster for AI illustration prompting about nurse and hospital-scene vocabulary, in a delicate anime watercolor style. The poster headline should read {argument name=\"headline text\" default=\"看護師・病院シチュの用語表\"}, with a smaller subtitle explaining that it is a hospital-situation word list for AI illustration ideas. Overall theme: a quiet, wistful hospital night-shift atmosphere featuring {argument name=\"main character\" default=\"a melancholic young female nurse with long messy dark navy hair\"}.\n\nCanvas: Portrait 3:4 poster, cream paper background with faint stains, tape pieces, hand-drawn borders, tiny stars, moon motifs, pressed-flower decorations, and notebook-scrap collage details. Use a muted palette of ivory, pale blue, dusty lavender, gray ink, and soft sepia.\n\nLayout: Top header band with the large Japanese title centered, a small illustration of the nurse near the upper left beside a sticky-note quote, and a small framed keyword memo at the upper right. Below it, create a precise grid of exactly 24 numbered vocabulary cards arranged as 4 columns by 6 rows. Each card contains a number, Japanese term title, small keyword lines, a short point/explanation block, and a miniature anime hospital illustration. At the bottom, add a wide memo section with bullet notes, floral decorations on the left, and a larger resting nurse illustration on the lower right leaning on her arms beside a mug.\n\nThe 24 cards must be exactly these discrete items, numbered and titled: 1. ナースステーション, 2. 病室前, 3. カルテ, 4. 巡回, 5. 夜勤, 6. 引き継ぎ, 7. 休憩室, 8. 蛍光灯, 9. 病院廊下, 10. ナースコール, 11. 点滴スタンド, 12. ベッドサイド, 13. 白衣, 14. スクラブ, 15. 名札, 16. 体温計, 17. 医療用ワゴン, 18. 受付カウンター, 19. 待合室, 20. 面会時間, 21. 夜の病棟, 22. 仮眠前, 23. 申し送りメモ, 24. 病院の余韻.\n\nSubject details: The nurse should wear {argument name=\"uniform style\" default=\"a pale blue nurse scrub uniform with a white coat, ID badge, pens, clipboard, and tired expression\"}. She appears repeatedly throughout the cards in different hospital moments: writing charts, holding a clipboard, standing in hallways, checking IVs, sitting at a desk, drinking from a mug, speaking with another nurse, and resting before sleep. Her mood is gentle, exhausted, introspective, and cinematic rather than cheerful.\n\nVisual style: Fine ink linework, soft watercolor wash, semi-realistic anime illustration, textured paper, handwritten scrapbook feeling, subtle medical equipment, gentle lighting, quiet hospital interiors, transparent panels, thin ruled borders, and tiny decorative stars. Make the text look like a designed Japanese study sheet: mostly legible headings, compact small body text, and neat printed labels. Add atmospheric lighting using {argument name=\"lighting mood\" default=\"cool fluorescent hospital light mixed with warm moonlit night tones\"}.\n\nBottom memo section: Add a torn-paper label reading つかいかたメモ and several Japanese bullet notes in small print, including some red-emphasis lines, explaining how to combine the terms for nurse and hospital-scene illustration prompts.\n\nConstraints: Keep exactly 24 numbered grid cards, no extra cards. Do not use photorealism; keep it as soft anime watercolor. Avoid logos, watermarks, real hospital branding, gore, surgery, emergency trauma, or disturbing medical content. The final poster should feel like a useful prompt-word glossary and a beautiful illustrated reference sheet.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline text",
+        "default": "看護師・病院シチュの用語表"
+      },
+      {
+        "name": "main character",
+        "default": "a melancholic young female nurse with long messy dark navy hair"
+      },
+      {
+        "name": "uniform style",
+        "default": "a pale blue nurse scrub uniform with a white coat, ID badge, pens, clipboard, and tired expression"
+      },
+      {
+        "name": "lighting mood",
+        "default": "cool fluorescent hospital light mixed with warm moonlit night tones"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781774879727_wb7xzu_HK8zFqRaIAAJ5cT.jpg",
+        "alt": "Nurse Hospital Vocabulary Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ぐふとくく",
+      "url": "https://x.com/gufutokuku999"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/gufutokuku999/status/2067155285869809685#reversed-0"
+    },
+    "publishedAt": "2026-06-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26056",
+    "contentHash": "cd370de7f794332843ced063e00b92ddeef75d4a"
+  },
+  {
+    "id": "gpt-image-2:26006",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26006",
+    "title": "Kinkaku-ji Travel Sketch Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "An elegant, minimalist travel poster of Kyoto's Kinkaku-ji temple, designed in a sketchbook style with watercolor washes and pen illustrations.",
+    "promptText": "Minimalist high-resolution travel poster of {argument name=\"subject\" default=\"Kinkaku-ji\"} rendered in {argument name=\"art style\" default=\"sketchbook style\"}, on crisp white paper with a subtle grain texture. Style: precise pen illustration with loose watercolor washes. Fine black ink lines, soft airy color fills, refined traditional Japanese architectural details. Depict a {argument name=\"scene\" default=\"tranquil Kyoto temple scene\"} — the legendary golden pavilion mirrored in a still pond, narrow stone paths, pine trees, gently rippling water, autumn maple leaves in the distance, small lanterns, peaceful visitors in muted clothing, soft morning haze, and warm sunlight falling on the gold-clad walls. Generous negative space in an editorial layout. Mood: serene, contemplative, refined, lyrical. Typography: \"[KINKAKU-JI]\" \"Golden Serenity of Kyoto\" Elevated travel sketch style, understated and elegant, hyper-realistic watercolor + ink journal aesthetic, ultra-high-resolution, 9:16.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "Kinkaku-ji"
+      },
+      {
+        "name": "art style",
+        "default": "sketchbook style"
+      },
+      {
+        "name": "scene",
+        "default": "tranquil Kyoto temple scene"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781774855026_bfqc4a_HK-kZVZaQAAeFiZ.jpg",
+        "alt": "Kinkaku-ji Travel Sketch Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1781774854723_9ialgm_HK-kZVZaAAAR17Q.jpg",
+        "alt": "Kinkaku-ji Travel Sketch Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "PromptLab",
+      "url": "https://x.com/iamaiistudio"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/iamaiistudio/status/2067051685546201509"
+    },
+    "publishedAt": "2026-06-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26006",
+    "contentHash": "de63676c3129d64ac1cedd0de2368505baf8fd68"
+  },
+  {
+    "id": "gpt-image-2:25879",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "25879",
+    "title": "GPT Image 2 Portrait Lighting Reference",
+    "category": "Infographic / Edu Visual",
+    "description": "A collection of technical prompts for GPT Image 2 that demonstrate six classic cinematic lighting setups for professional portraits.",
+    "promptText": "Zone 1 (top-left): Rembrandt lighting, key 45° elevated camera left, fill -45° camera right 0.5x, dramatic triangle on shadow cheek Zone 2 (top-center): Butterfly lighting, key overhead slightly front, fill reflector under chin, butterfly nose shadow, beauty editorial Zone 3 (top-right): Split lighting, hard key 90° camera left, zero fill, half face in shadow, noir mystery Zone 4 (bottom-left): Loop lighting, key 30° elevated camera left, fill -30° camera right 0.3x, small nose loop shadow, natural commercial Zone 5 (bottom-center): Rim lighting dominant, hard backlight 170° camera right gold gel, hair glow, edge separation, heroic silhouette Zone 6 (bottom-right): Clamshell lighting, butterfly key overhead + large soft fill from below 45°, zero shadows, porcelain skin, high-end beauty",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781688894661_8a7clm_HK8DRbfaEAEPUo_.jpg",
+        "alt": "GPT Image 2 Portrait Lighting Reference",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "阿越-AY",
+      "url": "https://x.com/AyccAI"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AyccAI/status/2066875790235775371"
+    },
+    "publishedAt": "2026-06-16T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=25879",
+    "contentHash": "12eb9a10caed976da089d6d20ff38a62126b2e7c"
+  },
+  {
     "id": "gpt-image-2:25948",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
