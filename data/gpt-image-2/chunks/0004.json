@@ -1,5 +1,332 @@
 [
   {
+    "id": "gpt-image-2:34035",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34035",
+    "title": "Golden Retriever Spray Ad",
+    "category": "E-commerce Main Image",
+    "description": "Creates a photorealistic outdoor camping product shot by expanding a close-up dog-spraying reference into a wider pet repellent spray advertisement.",
+    "promptText": "Using the provided reference image as the base, expand it into a wider vertical lifestyle product photo. Keep the golden retriever being sprayed and the hand steadying its body, but zoom out to show the dog sitting happily in profile with its face visible. Add a second human hand holding a blue-and-white trigger spray bottle aimed at the dog, with a fine mist visibly spraying onto the fur. Set the scene in a warm sunlit forest campsite during golden hour, adding exactly 3 major new background elements: 1 olive-green canvas tent on the right, 1 small camping table behind the dog, and 1 softly blurred forest of tall trees. Make the product feel like an outdoor pet repellent spray advertisement; put small readable label text on the bottle: {argument name=\"product label\" default=\"Outdoor Repellent Spray\"} and a simple brand mark: {argument name=\"brand name\" default=\"NIPIP\"}. Use photorealistic shallow depth of field, warm backlighting, natural colors, crisp fur detail, and realistic water droplets/mist. Do not crop tightly like the reference; show the dog, both human hands, the spray bottle, and the campsite context clearly.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "product label",
+        "default": "Outdoor Repellent Spray"
+      },
+      {
+        "name": "brand name",
+        "default": "NIPIP"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942352509_kpd10v_HRbHd-Ka4AA6isc.jpg",
+        "alt": "Golden Retriever Spray Ad",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Dmiao豆苗啊",
+      "url": "https://x.com/nima2qisi2"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/nima2qisi2/status/2096098246313795661#reversed-0"
+    },
+    "publishedAt": "2026-09-05T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34035",
+    "contentHash": "3d21accaa8f73097a178b5ccadaff63f979501d5"
+  },
+  {
+    "id": "gpt-image-2:33963",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33963",
+    "title": "Pixel Art Animation Sprite Sheet",
+    "category": "Game Asset",
+    "description": "Generates a game-ready pixel art sprite sheet for a character, featuring four distinct motions: running, jumping, rotating attack, and falling, based on a reference image.",
+    "promptText": "Uniformly maintain the face, hairstyle, clothing, color scheme, and physique of the attached character, and generate a single sprite sheet image with 4 types of pixel art motions suitable for a game, with a maximum of 4 frames each. {argument name=\"frame size\" default=\"Each frame size is 256x256px\"}.\n- {argument name=\"motion 1\" default=\"Run: Lean the body forward and move arms and legs alternately in large motions.\"}\n- {argument name=\"motion 2\" default=\"Jump: Crouch -> Jump up -> Spread arms and legs in the air -> Land.\"}\n- Spin Attack: Rotate the whole body once: front -> side -> back -> other side.\n- Fall: Stumble -> Lean to the side -> Lie down -> Close eyes and stop moving.\nArrange one action per row in a horizontal line, keeping the size, feet placement, center, and scale consistent for all cells. The background must be a completely solid color. Do not use shadows, text, frames, numbers, UI, blurring, semi-transparency, gradients, or anti-aliasing. Ensure looping motions connect naturally from start to finish.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "frame size",
+        "default": "Each frame size is 256x256px"
+      },
+      {
+        "name": "motion 1",
+        "default": "Run: Lean the body forward and move arms and legs alternately in large motions."
+      },
+      {
+        "name": "motion 2",
+        "default": "Jump: Crouch -> Jump up -> Spread arms and legs in the air -> Land."
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942302037_opsoch_HRwUfy9akAAttE3.jpg",
+        "alt": "Pixel Art Animation Sprite Sheet",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "布留川英一 / Hidekazu Furukawa",
+      "url": "https://x.com/npaka123"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/npaka123/status/2097574111518375970"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33963",
+    "contentHash": "62af970a1ce38f7412e96d41e3962c4bda889ecd"
+  },
+  {
+    "id": "gpt-image-2:33968",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33968",
+    "title": "Character Battle Motion Sprite Sheet",
+    "category": "Game Asset",
+    "description": "A prompt for creating animation-ready pixel art sprite sheets. It instructs the model to generate a 16-frame grid of combat motions like punches and kicks based on a character image reference.",
+    "promptText": "Create a battle motion sprite sheet for this character. Simplified pixel art in {argument name=\"pixel size\" default=\"128px\"}, {argument name=\"grid layout\" default=\"4x4=16 frames\"}, with a transparent background. Include {argument name=\"motions\" default=\"4 idle / 4 punch / 4 kick / 4 hit\"}.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "pixel size",
+        "default": "128px"
+      },
+      {
+        "name": "grid layout",
+        "default": "4x4=16 frames"
+      },
+      {
+        "name": "motions",
+        "default": "4 idle / 4 punch / 4 kick / 4 hit"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942305362_dbxlyr_HRwSI5iaAAAfB2G.jpg",
+        "alt": "Character Battle Motion Sprite Sheet",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "アイビー｜X運用・AIマネタイズ・活用法について発信",
+      "url": "https://x.com/Aivy___X"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Aivy___X/status/2097572540034302295"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33968",
+    "contentHash": "8182a3ec66e744d92fff9fc9c2fb8f2a14fd9377"
+  },
+  {
+    "id": "gpt-image-2:33951",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33951",
+    "title": "3D Emoji Sticker Sheet",
+    "category": "Game Asset",
+    "description": "A creative prompt for generating a 3x3 grid of 3D transparent stickers based on a character reference, suitable for digital communication and branding.",
+    "promptText": "Based on the image I uploaded, design a set of 3D emoji 1:1 transparent sticker sheets, containing 9 different stickers arranged in a 3X3 grid. Each sticker should show a different expression, pose, or reaction. Leave wide and completely transparent gaps between the stickers. No background, shadows, or overlapping elements. Incorporate {argument name=\"emojis\" default=\"🚀🎉🥳🤟\"}.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "emojis",
+        "default": "🚀🎉🥳🤟"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942289059_oo383r_HRwCF0SbsAE5IJP.jpg",
+        "alt": "3D Emoji Sticker Sheet",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "币安小说🍄 头",
+      "url": "https://x.com/BAXSCTO"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/BAXSCTO/status/2097554076494102704"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33951",
+    "contentHash": "65cb87468eb6f4e1f4c9a2045c469102ab99d993"
+  },
+  {
+    "id": "gpt-image-2:34000",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34000",
+    "title": "Plush Whale Tokyo Design Studio",
+    "category": "Game Asset",
+    "description": "A cinematic vertical poster prompt showing a plush whale in a rainy Tokyo high-rise studio designing glowing glass-wing mechanical butterflies.",
+    "promptText": "Goal: Create a 3:4 vertical cinematic visual poster of a futuristic design studio on the top floor of a Tokyo high-rise during blue hour after heavy rain, featuring a plush whale character designing a mechanical butterfly.\n\nCanvas: Vertical 3:4 composition, ultra-detailed cinematic realism, shallow depth of field, glossy reflections, warm desk lights contrasted with cool rainy blue city light. The camera looks slightly downward across a cluttered designer’s desk toward floor-to-ceiling windows.\n\nMain subject: A large cute plush {argument name=\"character name\" default=\"blue whale\"} mascot sits in a black office chair at the desk, wearing a dark gray hoodie with white drawstrings. It has soft fuzzy blue fur, a white belly and muzzle, small black glossy eyes, side fins, and a small rounded fin on top. The character holds a stylus and draws on a large pen-display tablet.\n\nScene and environment: Behind the character, huge rain-covered windows show a vivid Tokyo night skyline with wet glass, bokeh neon reflections, skyscrapers, and Tokyo Tower glowing orange in the distance. Realistic raindrops streak down the glass. Add indoor plants, shelves, desk lamps, and metallic studio equipment. On the left wall, place a minimalist poster with a black circular logo and Chinese text reading 「更快・更锐利・更智能」.\n\nDesk contents: Include exactly 9 distinct desk items: 1 large pen-display tablet showing butterfly concept sketches, 1 black keyboard, 1 transparent glass mug of water, 3 Polaroid photos of the whale character, 1 open notebook, 1 black pen lying in front of the notebook, and 1 black cylindrical pen cup. The three Polaroids should show: the whale wearing sunglasses, the whale wearing a red cap, and the whale drinking from a cup.\n\nButterfly design: Show exactly 2 prominent mechanical butterflies: one larger glowing orange-and-glass butterfly floating in front of the tablet, and one smaller transparent glass-wing butterfly shown in a floating UI card. The larger butterfly should have a metallic orange body, delicate transparent wings with mechanical vein structures, warm LED highlights, and sparkling reflections. The tablet screen should also show multiple drawn stages of the butterfly design, including pencil line sketches and colored mechanical renderings.\n\nInterface overlay: Add exactly 2 floating translucent UI bubbles on the right side. The top bubble contains a small round icon of the whale and Chinese text: 「只把蝴蝶翅膀改成透明玻璃，其他部分保持不变。」 The lower bubble contains the smaller glass-wing butterfly preview. Use rounded rectangles, subtle blue-gray glassmorphism, and soft glow.\n\nNotebook text: On the open notebook in the lower right foreground, write large handwritten Chinese text: 「想象，不止于提示词。」 and below it write “GPT-Image 2.5”.\n\nVisual style: Hyperrealistic 3D cinematic advertising poster, immaculate material rendering, wet glass, polished black tabletop, metal edges, water droplets, soft plush fur, transparent glass wings, orange neon glints, blue ambient city light, volumetric lamp glow, high contrast but clean, almost no noise.\n\nConstraints: Preserve the exact counted items and text placements, keep all text legible, do not add extra characters, avoid cartoon flatness, avoid watermark or logo overlays beyond the described wall poster and notebook text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "blue whale"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942325069_m4z67h_HRvrlBKa0AArsW9.jpg",
+        "alt": "Plush Whale Tokyo Design Studio",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Fini.Yang",
+      "url": "https://x.com/FiniYang"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/FiniYang/status/2097529600947753247#reversed-0"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34000",
+    "contentHash": "6fefd2c4c4a1e0978f2b636df916d256a60183be"
+  },
+  {
+    "id": "gpt-image-2:34030",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34030",
+    "title": "Chibi Mascot Fighting Sprite Sheet",
+    "category": "Game Asset",
+    "description": "Creates a 16-frame 3D chibi mascot battle animation sprite sheet for GIFs, games, or character motion studies.",
+    "promptText": "Goal: Create a clean 3D chibi fighting animation sprite sheet for a cute mascot character, suitable for making a looping GIF.\n\nCanvas: Square 1:1 canvas, about 1200 x 1200 px, with a transparent-background preview shown as a light gray checkerboard. Arrange the sprites in an evenly spaced 4 columns by 4 rows grid, for exactly 16 separate animation frames. Leave generous padding around each character and keep all frames at a consistent scale.\n\nCharacter: A toy-like glossy 3D chibi mascot with a peach-colored round onion/droplet-shaped head and a small pointed top, tiny smiling mouth, rosy cheeks, oversized black sunglasses, and the black number {argument name=\"forehead number\" default=\"29\"} printed on the upper forehead. The body is small and heroic, wearing a bright {argument name=\"suit color\" default=\"blue\"} long-sleeve bodysuit with a white belt stripe, a red scarf/capelet at the neck, a small white circuit-like emblem on the chest, red gloves or rounded fists, and shiny red boots. Use soft studio lighting, smooth plastic/vinyl toy material, rounded proportions, and a cheerful confident expression.\n\nSprite actions: Depict exactly 16 frames of a simple battle motion sequence, all facing mostly forward with slight 3/4 turns. Count and show these frames in order from left to right, top to bottom: 1 neutral guard stance with both fists raised; 2 wider guard stance; 3 right-arm straight punch beginning; 4 right-arm punch fully extended; 5 reset guard stance; 6 guard stance leaning slightly; 7 long straight punch across the body; 8 return to guard; 9 left knee lift preparation; 10 higher knee lift; 11 side kick fully extended to the right; 12 second extended side kick frame; 13 knee lift recovery; 14 neutral guard stance; 15 neutral guard stance variation; 16 final neutral guard stance.\n\nVisual style: High-quality cute 3D render, Nintendo-like mascot toy aesthetic, crisp edges, saturated primary colors, soft shadows, consistent camera angle, consistent character size, no motion blur, no outlines except natural 3D shading.\n\nConstraints: No text labels other than the forehead number. Do not add weapons, backgrounds, UI elements, frame borders, watermarks, or extra characters. Keep the checkerboard transparency preview visible behind every frame.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "forehead number",
+        "default": "29"
+      },
+      {
+        "name": "suit color",
+        "default": "blue"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942348687_oub1q3_HRvahSkaYAAD7hr.jpg",
+        "alt": "Chibi Mascot Fighting Sprite Sheet",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "にく",
+      "url": "https://x.com/29meat_ai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/29meat_ai/status/2097511262477603307#reversed-0"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34030",
+    "contentHash": "6fb3ba67c7239e069bfc62b4ddf8d34317075940"
+  },
+  {
+    "id": "gpt-image-2:33929",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33929",
+    "title": "Futuristic Building Transformation",
+    "category": "Game Asset",
+    "description": "A simple image-to-image instruction to transform a standard building into a futuristic architectural design.",
+    "promptText": "turn {argument name=\"target\" default=\"it\"} into a {argument name=\"style\" default=\"future building\"}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "target",
+        "default": "it"
+      },
+      {
+        "name": "style",
+        "default": "future building"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942270773_mhxzv7_HRvUPvMaIAAMWkE.jpg",
+        "alt": "Futuristic Building Transformation",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "zdhpeter",
+      "url": "https://x.com/peter6759"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/peter6759/status/2097503664789430530"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33929",
+    "contentHash": "0833ad341f8e64a6b9b6f6f72990382d580b2346"
+  },
+  {
+    "id": "gpt-image-2:33799",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33799",
+    "title": "Dual Tone Studio Fashion Portrait",
+    "category": "Profile / Avatar",
+    "description": "A close-up studio portrait prompt for a confident adult man wearing a black turtleneck and blazer, lit with dramatic magenta and electric-blue studio lighting.",
+    "promptText": "Create an ultra-realistic close-up studio portrait of an adult man with a confident, thoughtful expression, photographed from the chest upward in a premium modern editorial style.\n\nGive him thick, neatly styled short black hair with natural volume on top and clean tapered sides. Add a well-groomed full beard and mustache with sharp but natural edges. He is wearing transparent rectangular eyeglasses with subtle reflections from the studio lights.\n\nDress him in a fitted black turtleneck sweater layered underneath a sophisticated black tailored blazer with structured lapels. Keep the outfit completely minimal and monochrome with no visible jewelry or unnecessary accessories.\n\nPose him facing slightly away from the camera, with his head gently tilted upward and his eyes looking toward the upper-right side of the frame, creating a calm, intelligent, aspirational mood.\n\nUse dramatic dual-tone studio lighting: vivid magenta/purple rim light illuminating the left side of his hair and face, and vibrant electric-blue/cyan light illuminating the right side. Keep soft neutral frontal lighting on the face so the skin remains realistic, detailed, and properly exposed.\n\nCreate a blurred futuristic studio background with a rich gradient transitioning from deep purple and magenta on the left to electric blue on the right. Add a glowing diagonal neon-magenta light bar in the lower-left background for extra visual depth.\n\nEmphasize realistic skin texture, detailed beard hairs, sharp eyes, natural eyeglass reflections, crisp fabric texture, cinematic contrast, shallow depth of field, smooth colorful bokeh, premium personal-branding photography, high-end corporate editorial aesthetic, ultra-photorealistic, 85mm portrait lens look, f/1.8, 8K detail, vertical 4:5 composition.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788855295499_2utp34_HRq8iIcb0AEoMmU.jpg",
+        "alt": "Dual Tone Studio Fashion Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Abkr Sadiq",
+      "url": "https://x.com/abs_uiux"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/abs_uiux/status/2097210827652968512"
+    },
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33799",
+    "contentHash": "42b7c4323d7e1629985d2689b97b1b1c580c0e66"
+  },
+  {
     "id": "gpt-image-2:33828",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6464,320 +6791,5 @@
     "publishedAt": "2026-09-04T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33547",
     "contentHash": "508855297eab344e5c8a58fa3248295917e5479c"
-  },
-  {
-    "id": "gpt-image-2:33495",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33495",
-    "title": "Cinematic Subway Editorial Portrait",
-    "category": "Social Media Post",
-    "description": "A comprehensive prompt for creating high-end fashion editorial shots set in a moody subway station at night, featuring motion blur and cinematic lighting while preserving the subject's identity.",
-    "promptText": "Using the attached photo as the identity reference, create a photorealistic, cinematic editorial portrait of this exact same person standing on a modern underground subway platform at night, in the style of a high-end street fashion photograph. Keep the exact same face, facial structure, skin tone, eye color, eyebrows, nose, lips, hairstyle, hair color, facial hair, glasses if present, age and body build as in the attached photo, so the person is instantly recognizable. Only the clothing, setting and photographic style change. Wardrobe adapts to the person: if male, a long black wool overcoat over a black turtleneck or crew-neck sweater, dark tailored trousers, clean minimal look. If female, a long black wool overcoat over a black fitted turtleneck, dark straight trousers, minimal jewelry, hair styled naturally. All clothing is opaque, closed and fully covering, with real wool texture, soft creases and a slightly turned-up collar. Pose and expression: standing near the platform edge, body turned about 30 degrees away from the camera, head turned back toward the lens, one hand relaxed in the coat pocket, the other hanging naturally. Calm, confident, slightly serious expression, direct eye contact with the camera, lips relaxed, chin slightly lowered. Three-quarter body framing from mid-thigh up, the person positioned on the right third of the frame. Setting: a clean modern subway station with a long concrete platform, dark grey tiled floor with a yellow tactile safety strip along the edge, dark walls, cool white ceiling strip lights receding into the distance on the left. Behind the person a subway train is passing at speed, rendered as a long-exposure motion blur: horizontal streaks of silver-grey metal and warm-lit windows, with a bright electric-blue LED light strip along the train body smearing into a glowing horizontal line. Wet reflections on the platform floor pick up the blue and warm light. Camera and light: shot on a full-frame camera with a 35mm lens at f/2.8, slow shutter around 1/8 second so the train is blurred while the person remains perfectly sharp and still, eye-level camera, slight low angle. Lighting is low-key: cool white overhead station light as key from above, blue rim light from the train streak on one side of the face and coat, warm amber fill from platform lamps on the other side. Deep soft shadows, natural skin texture with pores, crisp catchlights in the eyes. Style: cinematic night editorial, high contrast with rich blacks, subtle film grain, palette of 60% deep charcoal and black, 30% cool steel-blue and electric-blue light, 10% warm amber accents. Looks like a real photograph from a fashion campaign shot on location in a metro station.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788595126071_2varpx_HRZgA_VaAAErr0R.jpg",
-        "alt": "Cinematic Subway Editorial Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "M. Asif",
-      "url": "https://x.com/meAsifAi"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/meAsifAi/status/2095968254674260164"
-    },
-    "publishedAt": "2026-09-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33495",
-    "contentHash": "d41abee9ef762eafb22e426b94aa1dd4a5c59595"
-  },
-  {
-    "id": "gpt-image-2:33521",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33521",
-    "title": "Hot Air Balloon Journey Split Panel",
-    "category": "Social Media Post",
-    "description": "A creative prompt that generates a dual-panel image showing a group in a hot air balloon at sunrise, maintaining identity consistency across close-up and wide shots.",
-    "promptText": "Using the attached photo(s) as identity references, create ONE image split into two equal side-by-side panels with a thin white gutter between them, showing the exact same person or group of people riding in a hot air balloon at sunrise. Every person from the attached photo(s) appears in both panels, with their exact same face, facial structure, skin tone, eye color, hairstyle, hair color, facial hair, glasses if present, age and body build, so each person is instantly recognizable. If multiple people are attached, all of them are together in the same basket, standing close, arms around each other or shoulders touching like real friends, a couple or a family, everyone looking happy. Wardrobe adapts to each person: cozy travel outfits for early morning altitude — a cream or oatmeal knit sweater, a light beige or olive jacket, dark jeans or trousers, comfortable sneakers or boots. All clothing is opaque, closed and fully covering, with real knit and fabric texture and natural creases. LEFT PANEL — close-up: camera inside the basket at eye level, 35mm lens at f/2.8, tight framing from the chest up, the people leaning together toward the lens with wide genuine smiles and sparkling eyes, hair slightly moved by the breeze. The woven wicker basket rim is visible at the bottom edge of the frame, and behind them the sky is soft blue with a few thin clouds, the horizon low. Faces tack sharp, background softly blurred, warm golden sunrise light wrapping one side of each face with soft sky fill on the other, clear catchlights in the eyes, natural skin texture. RIGHT PANEL — wide: camera mounted high on the burner frame looking down into the basket at a steep angle, 24mm lens at f/5.6, showing the full group standing in the woven wicker basket looking up at the camera and smiling, one person waving. Above them the brushed-steel burner unit and stainless load frame with wire cables lead up to the edge of the balloon envelope, its bright orange and red ripstop nylon panels partly visible at the top of the frame. Below and around the basket, a vast sunrise landscape stretches to the horizon: rolling patchwork fields, a river, a small village, thousands of feet below, with a soft layer of scattered white clouds at basket level and blue sky above. Everything in focus, crisp and detailed. Light and color for both panels: real early-morning golden-hour sunlight from a low sun near the horizon, warm orange-gold on the balloon fabric and skin, cool soft blue in the sky, gentle atmospheric haze toward the horizon. Palette of 60% soft blue sky and white clouds, 30% warm golden light and natural earth tones from the landscape, 10% vivid orange-red from the balloon envelope. Style: looks like two real photographs from the same balloon flight taken minutes apart on a full-frame camera, joyful, natural and candid, with subtle film grain and true-to-life contrast. Same People",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788595143551_v19wwg_HRZO2yBaQAAxydy.jpg",
-        "alt": "Hot Air Balloon Journey Split Panel",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "M. Asif",
-      "url": "https://x.com/meAsifAi"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/meAsifAi/status/2095949390963998851"
-    },
-    "publishedAt": "2026-09-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33521",
-    "contentHash": "fec5d67f2d4f6957854946a35063d5149e4bee14"
-  },
-  {
-    "id": "gpt-image-2:33486",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33486",
-    "title": "Podcast Studio Interview Shot",
-    "category": "Social Media Post",
-    "description": "Generates a professional podcast studio scene featuring two specific people from reference images seated in a cozy studio setting with realistic lighting.",
-    "promptText": "Photorealistic editorial photograph of a real podcast interview inside a small, cozy home studio. Two people are seated and talking to each other on a podcast set.\n\nThe person from Image 1 sits on the LEFT in a curved light-grey fabric armchair, body angled about 30 degrees toward the right, one hand resting naturally on the armrest, relaxed posture, mid-conversation with a genuine easy smile, eyes on the other person. The person from Image 2 sits on the RIGHT in a matching curved light-grey fabric armchair, body angled about 30 degrees toward the left, leaning slightly forward with elbows on knees, listening attentively with a warm expression, eyes on the person from Image 1.\n\nKeep the exact same faces, skin tone, hairstyle, facial hair, glasses if present, body build and age as in Image 1 and Image 2. Do not alter or idealize either face. Clothing: keep each person's real outfit from their photo, clean and simple.\n\nBetween them stands a low white round side table with a small potted green plant. In front of each person a black professional broadcast microphone on a matte-black articulated boom arm, positioned near their mouth but not covering the face, cables tidy.\n\nBackground: a warm off-white plaster wall. Centered above and behind the two chairs, a black rectangular wall sign with the podcast name \"{argument name=\"podcast name\" default=\"PODCAST NAME\"}\" in clean white bold sans-serif capitals. To the right of the sign, a framed black-and-white typographic poster leaning on a small dark wood shelf; a dark wooden shelving unit on the far right with a few books, a small camera and a decorative object. On the far left a tall green indoor plant and a slim floor lamp. Dark grey curtains hang softly on the far left edge of the wall. Light wood floor.\n\nLighting: one large white softbox key light on a stand in the upper-left corner, softly illuminating both people at about a 2:1 ratio with smooth falloff; a large black-backed softbox visible in the upper-right corner as fill; warm practical glow from the floor lamp. Soft shadows, gentle wraparound skin light, natural skin texture with pores and subtle specular highlights, no harsh hotspots.\n\nCamera: shot on a full-frame digital cinema camera",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "podcast name",
-        "default": "PODCAST NAME"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788595121305_cd3b7c_HRZBLi0bEAAgaRg.jpg",
-        "alt": "Podcast Studio Interview Shot",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "M. Asif",
-      "url": "https://x.com/meAsifAi"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/meAsifAi/status/2095934352823857604"
-    },
-    "publishedAt": "2026-09-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33486",
-    "contentHash": "cdd7780133b2f7d4b1baae92c7681def3df69c61"
-  },
-  {
-    "id": "gpt-image-2:33502",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33502",
-    "title": "Giant Man Standing by Statue of Liberty",
-    "category": "Social Media Post",
-    "description": "A detailed prompt for creating a cinematic travel photo of a giant young man next to the Statue of Liberty, focusing on scale and hyper-realistic detail.",
-    "promptText": "Ultra-realistic cinematic travel photograph of {argument name=\"subject\" default=\"a strikingly handsome young man in his early 20s\"}, portrayed as a giant standing {argument name=\"location\" default=\"beside the Statue of Liberty in New York Harbor\"}, creating a dramatic miniature-scale illusion. He has thick naturally wavy jet-black hair styled slightly tousled, strong well-defined eyebrows, deep expressive hazel-brown eyes, a straight sculpted nose, prominent cheekbones, a sharp masculine jawline, and subtle natural stubble. He wears {argument name=\"outfit\" default=\"a luxurious deep burgundy oversized fleece jacket over a fitted black T-shirt, relaxed light-blue wide-leg jeans, and premium tan leather boots\"}.He casually leans one arm against the Statue of Liberty's upper body while standing confidently beside it, relaxed fashion-model posture, natural facial expression. Low-angle perspective from near ground level, making both the man and statue appear enormous. New York City skyline visible across the Hudson River, including One World Trade Center, boats and ferries moving through the water, tiny tourists and pedestrians below emphasizing the massive scale.Bright clear blue sky with soft dramatic clouds, warm late-afternoon sunlight, realistic reflections on the water, detailed Statue of Liberty texture, cinematic depth of field, realistic skin pores and fabric texture, natural shadows, high-end editorial travel photography, photorealistic, HDR, dynamic composition, 9:16 vertical frame, extremely detailed, realistic proportions, no text, no watermark, no distortion.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "a strikingly handsome young man in his early 20s"
-      },
-      {
-        "name": "location",
-        "default": "beside the Statue of Liberty in New York Harbor"
-      },
-      {
-        "name": "outfit",
-        "default": "a luxurious deep burgundy oversized fleece jacket over a fitted black T-shirt, relaxed light-blue wide-leg jeans, and premium tan leather boots"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788595131266_4eoab8_HRYx8W7aQAAzk4R.jpg",
-        "alt": "Giant Man Standing by Statue of Liberty",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "AI Qoro",
-      "url": "https://x.com/AIqoro"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AIqoro/status/2095917625285247187"
-    },
-    "publishedAt": "2026-09-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33502",
-    "contentHash": "eba7a72cae72955edf2016e896df8c827510fae7"
-  },
-  {
-    "id": "gpt-image-2:33488",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33488",
-    "title": "Professional Lighting Studio Grid",
-    "category": "Infographic / Edu Visual",
-    "description": "A technical prompt designed for gpt-image-2 to showcase a single character under four distinct professional lighting setups (Rembrandt, Butterfly, Split, and Rim) in a single grid.",
-    "promptText": "Take the person from the reference image and create a single 2x2 grid showing this exact same close-up portrait under four different professional lighting setups. Identity lock: identical face, expression (calm neutral), hairstyle, dark top, head size and camera angle in every panel — only the light changes. Panel 1 REMBRANDT: key at forty-five degrees left and above, small triangle of light on the shadowed cheek, moody falloff. Panel 2 BUTTERFLY: key directly above the camera, soft symmetric shadow under the nose, beauty-portrait glow. Panel 3 SPLIT: key exactly from the side, one half of the face lit, the other in darkness. Panel 4 RIM: key behind the subject edging hair and shoulders in bright outline, face lifted only by faint fill, near-silhouette drama. Same {argument name=\"background color\" default=\"medium-gray\"} background throughout, 85mm look, sharp focus on the eyes. Small white labels beneath each panel: \"REMBRANDT\", \"BUTTERFLY\", \"SPLIT\", \"RIM\".",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "background color",
-        "default": "medium-gray"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788595122487_r3q1f0_HRX7WjAaYAA2N4g.jpg",
-        "alt": "Professional Lighting Studio Grid",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "M. Asif",
-      "url": "https://x.com/meAsifAi"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/meAsifAi/status/2095857760537805130"
-    },
-    "publishedAt": "2026-09-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33488",
-    "contentHash": "6df868de43f76815db84b68b69e88f0142321a46"
-  },
-  {
-    "id": "gpt-image-2:33401",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33401",
-    "title": "Handwritten Essay Photo Simulation",
-    "category": "Infographic / Edu Visual",
-    "description": "Generates a realistic photo of a handwritten essay, mimicking a specific person's handwriting style as if taken by a mobile phone.",
-    "promptText": "a photorealistic, taken by phone photo of a handwritten essay in {argument name=\"writing style\" default=\"Einstein's handwriting\"}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "writing style",
-        "default": "Einstein's handwriting"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788595153295_fcy4id_HRToxf0acAEd4I_.jpg",
-        "alt": "Handwritten Essay Photo Simulation",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788595152869_49u0n8_HRTozFXbwAAMDqF.jpg",
-        "alt": "Handwritten Essay Photo Simulation",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Sahil Verma",
-      "url": "https://x.com/sahilvermaai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/sahilvermaai/status/2095556181012128005"
-    },
-    "publishedAt": "2026-09-03T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33401",
-    "contentHash": "dacd3e4ece54472375602e0daf1dfdd4f47e33e8"
-  },
-  {
-    "id": "gpt-image-2:33421",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33421",
-    "title": "Woman Doing Lat Pulldowns in Sunlit Gym",
-    "category": "Profile / Avatar",
-    "description": "A photorealistic prompt describing a woman exercising in a gym with detailed focus on lighting, physique, and equipment texture.",
-    "promptText": "Subject:\n{argument name=\"subject\" default=\"Blue bar in gym light\"}\n\nMain Body:\n{argument name=\"main subject\" default=\"A vertical portrait of an adult woman sitting at a lat pulldown machine in the center of a bright gym, pulling a blue curved bar wide with both hands toward her chest.\"}\n\nCharacter/Expression:\nFace turned slightly upward and toward the right side of the frame, eyes also looking top right. Focused expression with mouth closed. Gentle oval face, natural eyebrows, elongated brown eyes, small nose, and pale pink lips. Dark brown hair tied in a high round bun with thin bangs and wisps at the temples.\n\nClothing/Pose:\n{argument name=\"clothing\" default=\"Light blue thin-strap sports bra with fine gathers at the chest center and short black drawstring shorts.\"} Sitting facing the machine with a straight back, arms opened wide to the upper left and right, pulling the bar to the upper chest.\n\nBackground/Light:\nSoft daylight enters from a large window on the left, highlighting the woman's left silhouette. In the background, gray training machines and cables are softly blurred with shallow depth of field.\n\nComposition/Camera:\n3:4 vertical composition, waist-up portrait from slightly below eye level. The subject is large in the center, with the blue bar captured in an arc from top to chest, without cutting off the arms at the edges. Focus on face and upper body, background naturally blurred.\n\nTexture/Style:\nPhotorealistic live-action photography. Detailed rendering of natural skin texture, stretch of sports fabric, blue paint on the metal bar, and soft shadows from window light.\n\nNegative:\nDo not change the shape or grip of the bar; do not let the hair down.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "Blue bar in gym light"
-      },
-      {
-        "name": "main subject",
-        "default": "A vertical portrait of an adult woman sitting at a lat pulldown machine in the center of a bright gym, pulling a blue curved bar wide with both hands toward her chest."
-      },
-      {
-        "name": "clothing",
-        "default": "Light blue thin-strap sports bra with fine gathers at the chest center and short black drawstring shorts."
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788509877973_d8404f_HRIdy4IbYAAqAJi.jpg",
-        "alt": "Woman Doing Lat Pulldowns in Sunlit Gym",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2095773607742099548"
-    },
-    "publishedAt": "2026-09-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33421",
-    "contentHash": "04e57cc5ee93a1eeb15ee195f1aae485caaca165"
-  },
-  {
-    "id": "gpt-image-2:33448",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33448",
-    "title": "Mixed-Media Floral Fashion Portrait",
-    "category": "Profile / Avatar",
-    "description": "Creates an elegant chest-up portrait of a young woman blended with watercolor flowers, gold flecks, and contemporary fashion styling.",
-    "promptText": "Create a stunning high-end artistic portrait of {argument name=\"character description\" default=\"a young woman\"}, preserving a realistic facial identity with an oval face, soft fair skin, hazel-green eyes, straight dark brown hair, and a gentle natural smile. Style her as a sophisticated contemporary mixed-media fashion portrait: she wears a deep navy blazer over a white blouse with an oversized soft bow at the collar, a wide dark blue velvet headband, and ornate dangling silver-and-pearl earrings. Frame her from the chest up, centered and facing forward, with calm eye contact and elegant posture. Surround her with expressive watercolor and acrylic floral elements on textured cream paper: exactly 5 prominent flowers are visible — 1 large blue flower on the lower left, 1 red-pink flower partly behind it, 1 pale pink blossom on the upper right, 1 white-pink blossom on the mid-right, and 1 purple flower cluster near the lower right shoulder. Add blue, violet, rose, beige, and gold paint washes, splatters, brush strokes, and a few vertical drips around the edges, blending the portrait into the painterly background. Use luminous soft studio lighting, refined skin detail, semi-realistic digital painting mixed with watercolor collage, premium editorial beauty portrait mood, delicate gold flecks, shallow depth, high resolution, no text, no watermark, no extra people.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character description",
-        "default": "a young woman"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788509911983_wbv7iy_HRV_CDsaQAAKJF3.jpg",
-        "alt": "Mixed-Media Floral Fashion Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Hania Ai",
-      "url": "https://x.com/HaniaAi12"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/HaniaAi12/status/2095720935731110395#reversed-0"
-    },
-    "publishedAt": "2026-09-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33448",
-    "contentHash": "62051f97e733053f4cfeff5d710c1952a17bc5f9"
   }
 ]
