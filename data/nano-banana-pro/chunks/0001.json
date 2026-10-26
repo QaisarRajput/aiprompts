@@ -1,5 +1,93 @@
 [
   {
+    "id": "nano-banana-pro:34132",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "34132",
+    "title": "Luxury Product Still Life Campaign",
+    "category": "E-commerce Main Image",
+    "description": "A sophisticated prompt for high-end products like leather goods or watches, emphasizing craftsmanship, warm side lighting, and elegant typography for Nano Banana Pro.",
+    "promptText": "[Product and Campaign Info]\n- Appeal Text: {argument name=\"appeal copy\" default=\"Exquisite & Selected\"}\n- Brand Copy: {argument name=\"brand copy\" default=\"Lifelong leather goods created by skilled craftsmanship\"}\n- Target Product: {argument name=\"products\" default=\"Genuine leather wallet and wristwatch\"}\n\n[Quality, Effects, and Composition]\n- Style: Still-life product photography for high-end luxury brand catalogs or luxury magazine spreads.\n- Subject: {argument name=\"products\" default=\"Genuine leather wallet and wristwatch\"} placed on deep vintage leather or high-quality dark-toned textures. Details that evoke artisanal craftsmanship (such as stitching or metal hairline finishing) are beautifully and richly depicted.\n- Lighting and Color: A color palette based on deep dark brown, black, and brass gold. Warm amber-toned sidelighting with classic, heavy shadows.\n- Text Placement (for GPT-image / Nano Banana Pro): Using a thin gold-colored font, the text \"{argument name=\"appeal copy\" default=\"Exquisite & Selected\"}\" and \"{argument name=\"brand copy\" default=\"Lifelong leather goods created by skilled craftsmanship\"}\" are subtly placed as typography in a calm position on the screen.\n\n[Strict Layout and Output Constraints (Required)]\n- Output the finished flat 2D design itself, filling the entire canvas. Scene elements inside the design (walls, rooms, shadows) described above are allowed. Absolutely NO photo-of-a-poster mockups: no picture frames, no poster-on-wall or poster-on-desk shots, no perspective warp or drop shadow around the artwork's edges.\n\n- Aspect Ratio: --ar 3:4",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "appeal copy",
+        "default": "Exquisite & Selected"
+      },
+      {
+        "name": "brand copy",
+        "default": "Lifelong leather goods created by skilled craftsmanship"
+      },
+      {
+        "name": "products",
+        "default": "Genuine leather wallet and wristwatch"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1789022277328_vvwa7o_HRxBYM_XsAATlYx.jpg",
+        "alt": "Luxury Product Still Life Campaign",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "AI Guide-Note - 実務で使えるAI活用メディア",
+      "url": "https://x.com/AIGuideNote"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AIGuideNote/status/2097623415939076175"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=34132",
+    "contentHash": "9e003557217ecb8694443c20c63bb595da907991"
+  },
+  {
+    "id": "nano-banana-pro:33789",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "33789",
+    "title": "Tight Red Cap Fashion CloseUp",
+    "category": "E-commerce Main Image",
+    "description": "An ultra-realistic macro portrait close-up of a female model wearing a red baseball cap and hoodie, perfect for high-end campaigns.",
+    "promptText": "Ultra-realistic fashion beauty crop of a female model wearing the reference {argument name=\"headwear\" default=\"red baseball cap\"} and matching {argument name=\"apparel\" default=\"red hoodie\"}. Framing: Tight portrait crop from nose to forehead, cap and eyes filling the frame. Focus: The embroidered logo perfectly centered above the model’s eyes, stitching detail and thread depth clearly visible. Pose: Model gripping the hoodie collar softly with both hands, creating subtle fabric folds. Lighting: Soft frontal studio light with faint shadow sculpting on cheekbones and under the cap. Background: Minimal warm studio backdrop, ivory-to-beige gradient. Mood: Bold, confident, fashion-house campaign energy. Finish: Ultra-sharp fabric detail, cinematic realism, shallow depth of field, no text, no branding overlays.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headwear",
+        "default": "red baseball cap"
+      },
+      {
+        "name": "apparel",
+        "default": "red hoodie"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788849678329_xvvdbc_HRngPrWbMAESRUW.jpg",
+        "alt": "Tight Red Cap Fashion CloseUp",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "lovimg_com",
+      "url": "https://x.com/lovimg_com"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/lovimg_com/status/2096953673117294639"
+    },
+    "publishedAt": "2026-09-07T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33789",
+    "contentHash": "3d1309ff2d15169e2a3ba0421a0e3ab24e0349d8"
+  },
+  {
     "id": "nano-banana-pro:34925",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
@@ -6293,93 +6381,5 @@
     "publishedAt": "2026-09-03T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33278",
     "contentHash": "cce8689a56f7646e823eca429625418f7f53bce9"
-  },
-  {
-    "id": "nano-banana-pro:33279",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "33279",
-    "title": "Realistic South Asian Fashion Lifestyle",
-    "category": "Social Media Post",
-    "description": "A lifestyle fashion prompt for a South Asian woman in a modern garden, emphasizing face ID preservation from a reference image.",
-    "promptText": "Preserve 100% face ID and expressions, create an ultra-realistic, high-resolution vertical lifestyle fashion photograph matching the reference image as closely as possible in composition, framing, pose, styling, environment, lighting, colors, and photographic realism. A young adult {argument name=\"ethnicity\" default=\"South Asian\"} woman with a naturally feminine, curvy physique is seated elegantly outdoors on a {argument name=\"setting\" default=\"dark charcoal/black stone-tiled ledge\"} in a luxurious modern garden.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "ethnicity",
-        "default": "South Asian"
-      },
-      {
-        "name": "setting",
-        "default": "dark charcoal/black stone-tiled ledge"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788504568428_24qmae_HRQnEOXb0AASizV.jpg",
-        "alt": "Realistic South Asian Fashion Lifestyle",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "aynelle",
-      "url": "https://x.com/aynellex"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/aynellex/status/2095342691781591157"
-    },
-    "publishedAt": "2026-09-03T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33279",
-    "contentHash": "cf33f32b9481f61f2f87cc8f58befe61c805cb9b"
-  },
-  {
-    "id": "nano-banana-pro:33281",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "33281",
-    "title": "Golden Hour Slatted Shadow Portrait",
-    "category": "Social Media Post",
-    "description": "A moody editorial photography prompt featuring dramatic window shadows and warm golden tones on a close-up portrait.",
-    "promptText": "A close-up cinematic portrait of a young woman with natural beauty, {argument name=\"eye color\" default=\"hazel\"} eyes, and slightly parted lips. Her wavy, {argument name=\"hair color\" default=\"warm-brown\"} hair is loosely tied back with soft, messy tendrils framing her face. She is wearing a {argument name=\"clothing\" default=\"fitted black ribbed knit mock-neck top\"}. Golden hour sunlight streams through a window, casting sharp, dramatic slatted shadow patterns diagonally across her face and neck. High-contrast chiaroscuro lighting, warm golden tones with deep shadows, visible skin texture and subtle freckles, shot on 85mm f/1.4 lens, shallow depth of field, soft muted background, moody editorial photography.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "eye color",
-        "default": "hazel"
-      },
-      {
-        "name": "hair color",
-        "default": "warm-brown"
-      },
-      {
-        "name": "clothing",
-        "default": "fitted black ribbed knit mock-neck top"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788504574241_1r7wfv_HROk6DfbcAANuUX.jpg",
-        "alt": "Golden Hour Slatted Shadow Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "𝑨𝒇𝒓𝒊𝒏",
-      "url": "https://x.com/afrinxai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/afrinxai/status/2095318609287393715"
-    },
-    "publishedAt": "2026-09-03T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33281",
-    "contentHash": "ed16f6994175b908ca03c0773d688e60652fc281"
   }
 ]
