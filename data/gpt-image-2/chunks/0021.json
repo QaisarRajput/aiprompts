@@ -1,5 +1,201 @@
 [
   {
+    "id": "gpt-image-2:28595",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28595",
+    "title": "Photobooth Expression Grid JSON Prompt",
+    "category": "Profile / Avatar",
+    "description": "A technical JSON-formatted prompt for creating a 4x4 grid of black-and-white photobooth expressions while maintaining character identity.",
+    "promptText": "{ \"generation_request\": { \"meta_data\": { \"task_type\": \"{argument name=\"task type\" default=\"black_and_white_photobooth_expression_grid_4x4\"}\", \"language\": \"en\", \"priority\": \"highest\", \"version\": \"v1.0_BW_PHOTOBOOTH_EXPRESSIONS_4X4\" }, \"input\": { \"mode\": \"image_to_image\", \"reference_image_usage\": \"very_high\", \"preserve_identity\": true, \"preserve_facial_features\": true, \"preserve_hairstyle\": true, \"notes\": \"Use the reference as the primary anchor. Create a black-and-white photobooth-style expression grid. Keep the same adult woman identity and hair. Each panel should show a different facial expression. Minimal background, direct photobooth flash look, natural skin texture.\" }, \"output\": { \"aspect_ratio\": \"1:1\", \"resolution\": \"ultra_high\", \"num_images\": 1, \"layout\": { \"type\": \"grid\", \"rows\": 4, \"cols\": 4, \"gutter\": \"thin\", \"panel_consistency\": \"high\" }, \"sharpness\": \"crisp_photobooth\", \"grain\": \"subtle_analog_bw\" }, \"scene\": { \"concept\": \"classic photobooth contact sheet with expressive faces\", \"environment\": \"plain neutral backdrop, no props\", \"lighting\": { \"style\": \"direct photobooth flash\", \"key_light\": \"front flash, slightly hard but flattering\", \"shadows\": \"soft short shadows behind subject\", \"avoid\": \"cinematic side light, dramatic backgrounds\" }, \"camera\": { \"lens\": \"50mm\", \"distance\": \"tight head-and-shoulders framing\", \"focus\": \"eyes sharp in every panel\" } }, \"subject\": { \"type\": \"adult woman\", \"wardrobe\": \"simple strapless or bare-shoulder photobooth look (no logos)\", \"hair\": \"keep same hairstyle across all panels\", \"makeup\": \"minimal, natural\", \"anatomy_rules\": \"correct facial proportions, no warped eyes/mouth\" }, \"expression_set\": { \"panel_01\": \"scrunched smile, eyes squeezed slightly\", \"panel_02\": \"intense stare with fingers framing eyes\", \"panel_03\": \"big laugh, mouth open, joyful\", \"panel_04\": \"bored / unimpressed face, chin in hands\", \"panel_05\": \"sad pout, watery eyes look\", \"panel_06\": \"goofy face with both hands making small horns above head\", \"panel_07\": \"playful tongue out, cheeky grin\", \"panel_08\": \"angry glare, eyebrows down\", \"panel_09\": \"flirty look, hand touching cheek\", \"panel_10\": \"surprised wide eyes, mouth slightly open\", \"panel_11\": \"fake scream / excited shout, hands near face\", \"panel_12\": \"mischievous grin with claw-like hand pose\", \"panel_13\": \"confused frown, lips pressed\", \"panel_14\": \"crying face, hands on head, dramatic\", \"panel_15\": \"tongue out with eyes closed, playful\", \"panel_16\": \"duck face with small devil horns gesture\" }, \"style\": { \"color\"",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "task type",
+        "default": "black_and_white_photobooth_expression_grid_4x4"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784018458160_4r2o7i_HNG2GZgW8AAJVhN.jpg",
+        "alt": "Photobooth Expression Grid JSON Prompt",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "H A J R A",
+      "url": "https://x.com/codewithhajra"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/codewithhajra/status/2076641129403978212"
+    },
+    "publishedAt": "2026-07-13T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28595",
+    "contentHash": "7939dd7e49e4acf5a33da5ae1ca59950bf82c499"
+  },
+  {
+    "id": "gpt-image-2:28589",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28589",
+    "title": "Cinematic Golden Hour Female Portrait",
+    "category": "Profile / Avatar",
+    "description": "A highly detailed, cinematic three-quarter profile portrait of a woman bathed in warm golden-hour window light with a professional DSLR look.",
+    "promptText": "An ultra-realistic cinematic close-up portrait of a {argument name=\"subject\" default=\"beautiful young woman\"}, photographed from a three-quarter profile while gently looking back toward the camera. She has fair porcelain skin with a natural satin glow, subtle freckles across the nose, soft rosy cheeks, full natural pink lips, hazel-green almond-shaped eyes with long eyelashes, and thick, well-groomed dark eyebrows. Her {argument name=\"hair style\" default=\"dark brown hair tied into a low bun\"} with soft wispy curtain bangs framing her face. She wears delicate gold hoop earrings with small heart charms, a thin layered gold necklace, and a {argument name=\"clothing\" default=\"minimalist black spaghetti-strap top\"}.\n\nThe scene is illuminated by warm golden-hour sunlight streaming through a window, creating dramatic bands of light and shadow across her face and shoulder. Rich amber tones, soft falloff, and moody low-key lighting produce an intimate editorial atmosphere. The background is dark, clean, and out of focus with creamy bokeh, emphasizing the subject’s facial features.\n\nShot on a full-frame DSLR with an 85mm f/1.4 portrait lens, shallow depth of field, razor-sharp focus on the eyes, creamy background separation, cinematic color grading, natural skin texture, subtle film grain, premium fashion editorial style, luxury beauty campaign, photorealistic, ultra-detailed, 8K resolution, HDR, soft contrast, elegant composition, high dynamic range, masterpiece quality.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "beautiful young woman"
+      },
+      {
+        "name": "hair style",
+        "default": "dark brown hair tied into a low bun"
+      },
+      {
+        "name": "clothing",
+        "default": "minimalist black spaghetti-strap top"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784018453799_ytkuyy_HNGzJHMbcAACek2.jpg",
+        "alt": "Cinematic Golden Hour Female Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784018453811_a47dj9_HNGzJGzaUAAsCUE.jpg",
+        "alt": "Cinematic Golden Hour Female Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Sairah",
+      "url": "https://x.com/Sairah_0"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Sairah_0/status/2076637896304402467"
+    },
+    "publishedAt": "2026-07-13T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28589",
+    "contentHash": "a72ef254f6e41128f61a1d5557a9094526602a4b"
+  },
+  {
+    "id": "gpt-image-2:28600",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28600",
+    "title": "Realistic Studio Fashion Portrait",
+    "category": "Profile / Avatar",
+    "description": "A detailed prompt for creating a professional studio fashion portrait of an East Asian woman wearing a pink mini dress, featuring soft daylight and clean composition.",
+    "promptText": "Create a realistic vertical fashion lifestyle portrait depicting {argument name=\"subject\" default=\"an East Asian adult female over 21 years old\"} standing in a soft, minimalist studio or modern apartment interior. Centered from the mid-thigh to the head, she faces the camera with a warm, bright smile and a gentle, direct gaze. Her posture is slightly leaning forward, hands behind her back, shoulders relaxed, showing a friendly and confident temperament.\n\nShe has long, curly chestnut-brown hair, side-parted, naturally falling on her shoulders, fluffy and light. Her makeup is delicate and fresh: smooth, translucent skin, soft eyebrows, elegant eyeliner, long lashes, a touch of blush, and hydrated pink lip gloss. An exquisite silver necklace with a small flower pendant rests at her collarbone.\n\nShe is wearing a form-fitting {argument name=\"attire\" default=\"pale pink sleeveless tight mini dress\"} with thin adjustable straps and delicate metal sliders. The dress features a round neck and smooth, stretchy fabric with subtle horizontal pleats around the waist and hips. The fabric should appear soft, matte, and body-hugging while maintaining an elegant, stylish look.\n\nThe background is a bright {argument name=\"background\" default=\"neutral-toned interior\"} with light beige-gray walls, soft blurred shelving, minimal decor, and a clean, modern style. The lighting should be soft diffused daylight from the front, creating soft highlights on the model's face, hair, shoulders, necklace, dress fabric, and arms. Use shallow depth of field, realistic skin textures, sharp fashion aesthetics, and clean, bright colors.\n\nStyle: Realistic indoor fashion portrait, adult model, pale pink slim mini dress, flower pendant necklace, warm smile, minimalist neutral background, soft daylight, shallow depth of field, high detail, vertical aspect ratio, no text, no watermarks, no logos, no social media UI, no phone screenshots, no other people, no distorted anatomy, no cartoon style, no harsh flash, no clutter.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "an East Asian adult female over 21 years old"
+      },
+      {
+        "name": "attire",
+        "default": "pale pink sleeveless tight mini dress"
+      },
+      {
+        "name": "background",
+        "default": "neutral-toned interior"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784018461275_n2lllz_HNGwuODWgAABYhD.jpg",
+        "alt": "Realistic Studio Fashion Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784018461392_y43qhf_HNGwuOOW8AAb3sN.jpg",
+        "alt": "Realistic Studio Fashion Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784018461507_jqb664_HNGwuOKWkAA15Zs.jpg",
+        "alt": "Realistic Studio Fashion Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784018462038_f73vry_HNGwuObXMAAXByo.jpg",
+        "alt": "Realistic Studio Fashion Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ToroJushiAi",
+      "url": "https://x.com/ToroJushiAi"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ToroJushiAi/status/2076635226248216911"
+    },
+    "publishedAt": "2026-07-13T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28600",
+    "contentHash": "789e8d8ef8317aa6afd110ce9177c765e05c9937"
+  },
+  {
+    "id": "gpt-image-2:28602",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28602",
+    "title": "Japanese Modern Back Portrait with Shoji Lighting",
+    "category": "Profile / Avatar",
+    "description": "A detailed photographic prompt for a woman in a wine red satin dress sitting in a traditional Japanese room with soft, cinematic lighting.",
+    "promptText": "Subject:\n{argument name=\"theme\" default=\"Back view with Japanese lighting\"}\n\nMain Subject:\nA vertical photo-style portrait. In the center of the frame, a single adult woman sits on a chair with her back to the camera. Her upper body down to her thighs is featured prominently, occupying more than half of the screen. A calm moment in the center of a quiet Japanese room, enveloped in low lighting and soft brightness through a shoji screen.\n\nPerson/Expression:\nA woman with a delicate and elegant atmosphere, her long black hair flowing naturally. Her face is mostly hidden, focusing on the back of her head. Her head is tilted slightly to the right at an angle that beautifully shows the line from her neck to her shoulders and spine. Although her expression is not directly visible, a quiet and lingering presence is conveyed.\n\nClothing/Pose:\n{argument name=\"clothing\" default=\"A deep wine-red satin slip dress\"}. Thin straps and a low-back design that is wide open at the back. The fabric creates natural drapes and glossy wrinkles from the waist to the seat. The woman sits on a chair with her legs folded and lightly spread to the left and right, and her arms drawn gently across her chest. A posture where the line of the back, shoulder blades, and the drop of the waist look natural.\n\nBackground/Light:\n{argument name=\"background\" default=\"A calm Japanese-modern interior\"}. Tatami floor, dark wood frames, a shoji window on the right, and a hanging scroll on the back wall. In the back left, there is a vase with thin branches and leaves and a small indirect light; on the right, a wooden desk and a small vase with a single red flower. Include a bit of a low bed or the edge of a sleeping platform in the bottom left. The primary light is soft diffused light coming from the shoji on the right, and the fill light is warm indirect lighting from the back left. The overall tone is slightly bright but maintains quiet shadows. The light on the skin gently touches the shoulders, center of the back, and upper waist, with shadows being natural and not too deep.\n\nComposition/Camera:\n2:3 vertical orientation. The camera is almost directly facing the person's back, at a height slightly lower than eye level to mid-level. The person is placed in the center, creating a stable composition with the left and right wooden frames and background elements. The focus is on the back to the waist and the drape of the dress. The background is lightly organized but left enough to feel the atmosphere of the Japanese room. Natural compression typical of a medium-telephoto lens, with a depth of field that is not too shallow to keep the person clear while the background is slightly soft.\n\nTexture/Style:\nRealistic photographic expression. The skin is smooth but avoids excessive correction to maintain a natural texture. The satin is rendered with elegant luster and deep red gradations. The textures of wood, tatami, shoji paper, and vases are also natural. The overall style is cinematic, high-quality, and tranquil Japanese-modern photography.\n\nNegative:\nUnnatural spine or shoulder shapes, extra fingers, missing fingers, fused limbs, unnatural leg angles, poor contact with props, floating sensation, unnatural gravity, overexposure, plastic-like skin, shadows inconsistent with light sources, gibberish text, logos, watermarks.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "theme",
+        "default": "Back view with Japanese lighting"
+      },
+      {
+        "name": "clothing",
+        "default": "A deep wine-red satin slip dress"
+      },
+      {
+        "name": "background",
+        "default": "A calm Japanese-modern interior"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784018463349_5beexg_HM16AYJagAAqM5P.jpg",
+        "alt": "Japanese Modern Back Portrait with Shoji Lighting",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Prompt アトリエ｜AI画像プロンプト",
+      "url": "https://x.com/CyberTotal2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CyberTotal2026/status/2076624680681918561"
+    },
+    "publishedAt": "2026-07-13T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28602",
+    "contentHash": "3b025e1a71613673532a5358935ba010ef9430b0"
+  },
+  {
     "id": "gpt-image-2:28630",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6971,205 +7167,5 @@
     "publishedAt": "2026-07-10T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28313",
     "contentHash": "c82cb8e436b98dbdbb2fb44f98f013f9e11a418e"
-  },
-  {
-    "id": "gpt-image-2:28301",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28301",
-    "title": "Rainy Tokyo Yokai Gyaru Selfie",
-    "category": "Profile / Avatar",
-    "description": "A cinematic photorealistic prompt for generating a Y2K gyaru fox-yokai girl taking a rainy neon Tokyo street selfie.",
-    "promptText": "Create a photorealistic cinematic vertical selfie of a {argument name=\"character type\" default=\"Japanese yokai fox-girl gyaru\"} wandering through modern Tokyo at night in the rain. The subject is a young woman with long black hair, large realistic fox ears with tan inner fur, subtle fang-like charm, glossy makeup, small star stickers or glitter under one eye, and a playful wink. She holds up a V-sign near her cheek while extending her other arm toward the camera as if taking a close wide-angle smartphone selfie. She wears a Y2K gyaru-inspired outfit: cropped pale pink fitted top, dark cropped jacket with wet reflective fabric, and a dark pleated mini skirt. She stands beside a brightly lit convenience-store or arcade frontage with red vending machines visible through glass on the left, neon green and warm orange signage reflections, wet pavement, raindrops, and colorful Tokyo street bokeh in the background. Include one transparent umbrella above and behind her, speckled with raindrops and catching rainbow lens flares. Mood: cute, mischievous, urban supernatural nightlife. Style: ultra-detailed realistic anime-cosplay photography, 35mm wide-angle selfie perspective, shallow depth of field, wet reflections, cinematic teal-orange lighting, high contrast, soft skin detail, visible rain droplets, lens flare and light bloom. Composition: portrait 3:4, subject centered slightly right, face sharp, outstretched forearm large in the foreground, background softly blurred but recognizable as rainy Tokyo. Avoid extra characters, text, logos, distorted hands, duplicate ears, or overly cartoonish rendering.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character type",
-        "default": "Japanese yokai fox-girl gyaru"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783759639665_tsa3ts_HM4c82IaQAAO6bC.png",
-        "alt": "Rainy Tokyo Yokai Gyaru Selfie",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783759639644_0lqinb_HM4dBzMbIAAM5BN.png",
-        "alt": "Rainy Tokyo Yokai Gyaru Selfie",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783759639644_o0ow3c_HM4dIFZbAAAVT7S.png",
-        "alt": "Rainy Tokyo Yokai Gyaru Selfie",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783759640284_i7jbqm_HM4dLR6boAAK0kI.png",
-        "alt": "Rainy Tokyo Yokai Gyaru Selfie",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Valentin de Delalande",
-      "url": "https://x.com/valentinlulu"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/valentinlulu/status/2075628595763171633#reversed-0"
-    },
-    "publishedAt": "2026-07-10T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28301",
-    "contentHash": "4844debe408190a4daa9477b49a9a8c1d6c9a150"
-  },
-  {
-    "id": "gpt-image-2:28263",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28263",
-    "title": "Reference Portrait Replacement",
-    "category": "Profile / Avatar",
-    "description": "A prompt instruction for replacing a character in a photo with a reference portrait while maintaining the original pose and fish-eye lens effect.",
-    "promptText": "上传一张人像作为人物参考，把原图中的人物替换成参考人像，保留原图的动作、表情、眼神、姿势、构图和鱼眼镜头效果。人物为黑色长卷发，五官自然，表情灵动，不要有生硬换脸感。",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783759612246_0no6l0_HM4OHXLaYAAWTCj.jpg",
-        "alt": "Reference Portrait Replacement",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783759612252_4niy47_HM4OHXLboAEju-P.jpg",
-        "alt": "Reference Portrait Replacement",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783759612190_gh6p46_HM4OHXObAAAO0za.jpg",
-        "alt": "Reference Portrait Replacement",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783759613333_91cjyg_HM4OHXNaIAAbK8i.jpg",
-        "alt": "Reference Portrait Replacement",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "serein ｜买美股上币安",
-      "url": "https://x.com/you1873118"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/you1873118/status/2075612008175870333"
-    },
-    "publishedAt": "2026-07-10T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28263",
-    "contentHash": "2c26d93862b52fcc041f0539ef861f831279418a"
-  },
-  {
-    "id": "gpt-image-2:28243",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28243",
-    "title": "Night Hotel View Portrait with Denim Accents",
-    "category": "Profile / Avatar",
-    "description": "A complex prompt for a high-end fashion portrait of a woman in a hotel room overlooking a city night view, featuring detailed descriptions of clothing and lighting contrast.",
-    "promptText": "Subject:\n{argument name=\"subject\" default=\"Hair unraveling in the night view\"}\n\nMain Body:\nIn a high-rise hotel room at night, a woman in her 20s leans against a wooden counter by the window. The person stands slightly to the right of the center of the screen, captured from the top of the head to the middle of the thighs. She rests her left hand on the counter and stands in a natural posture with her hips loosely twisted to the right of the screen.\n\nCharacter and Expression:\nAdd a subtle luster to the bright ivory-beige skin on the cheeks, tip of the nose, shoulders, and collarbone. Pale rose-pink blush, pink-brown eye makeup, delicate long eyelashes, natural tear bags, soft brown eyebrows, and transparent pink-beige lips. Close one eye and smile slightly, directing the open eye toward the camera. Medium-long hair in a bright milk tea ash brown. Carefully depict thin see-through bangs, layers around the face, ends that curve inward loosely, fine highlights, and natural loose strands.\n\nClothing and Pose:\nAn ivory rib-material halterneck top. The chest has a lace-up structure with thin cords crossing each other, with small ruffles at the edges. The bottoms are low-rise shorts with layered denim of different shades. An asymmetrical design combining a diagonally overlapping waist belt, a lace-up opening on one side, metal eyelets, thin chains, and raw hems. The person's left hand is placed flat on the counter, and her right hand lightly touches the hair near her temple. Weight is placed on the right leg, with the left knee slightly relaxed.\n\nBackground and Light:\nA city night view with scattered pale blue lights and red aviation lights through a large window in the back left. The interior is decorated with dark brown curtains, a wooden counter, a black lampshade, a slender metal stand, and small white flowers. Warm indirect lighting from the right of the screen and cold reflected light from the night view from the back left create a soft three-dimensionality on the skin and hair. Shadows fall to the bottom left of the screen, and small reflections are placed on metal parts.\n\nComposition and Camera:\nVertical 3:4 orientation. A natural eye level taken from near the chest, slightly lower. The person occupies about 75% of the screen, leaving a narrow margin above the head and enough space on the sides to see the night view and lighting. 50mm equivalent lens, clear focus on the face and upper body, and smooth bokeh in the background. Do not unnaturally exaggerate the contours of the body or limbs.\n\nTexture and Style:\nAn elegant fashion portrait. Leave natural pores and skin texture, avoiding excessive skin correction. Precisely depict individual strands of hair, the rib fabric, denim fibers, and reflections from the metal chain. Contrast the warm indoor light with the cold night view for a calm luster and realistic photographic texture.\n\nNegative:\nUnnatural face, unnatural gaze, asymmetrical eyes, extra fingers, missing fingers, fused limbs, broken joints, poor clothing contact, floating strings or chains, incorrect perspective, shadows inconsistent with the light source, excessive skin correction, plastic-like skin, garbled text, logos, watermarks.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "Hair unraveling in the night view"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783759599079_3tbpkt_HM1F4iubMAAoG-o.jpg",
-        "alt": "Night Hotel View Portrait with Denim Accents",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2075540033344553061"
-    },
-    "publishedAt": "2026-07-10T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28243",
-    "contentHash": "28510127a6f517974cb088af61a71a3e9fd63f30"
-  },
-  {
-    "id": "gpt-image-2:28254",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28254",
-    "title": "Raw Black and White Film Portrait",
-    "category": "Profile / Avatar",
-    "description": "A prompt for high-grain, black and white cinematic portraits focusing on raw emotion and realistic skin texture without digital retouching.",
-    "promptText": "Portrait shot on 85mm f/1.4, close-up of a {argument name=\"subject\" default=\"Japanese woman in her mid-20s\"}, dark short-medium hair damp and unstyled, angular sensitive face, eyes red-rimmed as if {argument name=\"mood\" default=\"recently crying but expression completely flat now\"}, looking directly into lens with spent calmness. She wears a {argument name=\"clothing\" default=\"simple white tank top\"}.\n\nUpper body portrait, black and white rendering, subject fills 70% of frame, plain wall behind, minimal setting, raw and direct composition.\n\nBlack and white, flat frontal diffused light, even exposure across face, no strong shadows, emphasizing skin texture and facial expression.\n\nPhotographic texture and quality: high-grain black and white film stock, ISO 1600 grain structure, visible skin texture, pores and under-eye shadow, faint moisture on lower lids, stray hairs and slight imperfection throughout, photographic texture not CG render smoothness.\n\nAvoid: color, artificial retouching, soft-focus flattery.\n\n--ar 4:5",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "Japanese woman in her mid-20s"
-      },
-      {
-        "name": "mood",
-        "default": "recently crying but expression completely flat now"
-      },
-      {
-        "name": "clothing",
-        "default": "simple white tank top"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783759607188_via6kg_HMj05ySWYAE2gEB.jpg",
-        "alt": "Raw Black and White Film Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783759607135_j4pn0o_HMj05yUXAAA4H8M.jpg",
-        "alt": "Raw Black and White Film Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783759607248_dakekt_HMj05yRWMAAAUlu.jpg",
-        "alt": "Raw Black and White Film Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783759608199_e48wos_HMj05yRWUAAc6dn.jpg",
-        "alt": "Raw Black and White Film Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "ToroJushiAi",
-      "url": "https://x.com/ToroJushiAi"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/ToroJushiAi/status/2075520412348527093"
-    },
-    "publishedAt": "2026-07-10T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28254",
-    "contentHash": "e9da41138f6be8cc0181558eb056f2cf121af0e0"
   }
 ]

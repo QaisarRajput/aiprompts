@@ -1,5 +1,199 @@
 [
   {
+    "id": "gpt-image-2:30915",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30915",
+    "title": "Eight Distinct Studio Portraits Grid",
+    "category": "Profile / Avatar",
+    "description": "Generates a photorealistic 4-by-2 grid of eight similar-styled but visibly distinct studio headshots for face variation comparison.",
+    "promptText": "Goal: Create a photorealistic comparison grid of eight distinct young East Asian women’s ID-style headshots, emphasizing clearly different facial features while keeping the same general styling.\n\nCanvas: Wide horizontal image in a 16:9 aspect ratio, clean white studio background, divided into exactly 8 equal portrait panels arranged in a 4-column by 2-row grid. Use thin light-gray divider lines between panels, no text, no logos, no watermark.\n\nSubject details: Show exactly 8 separate head-and-shoulders portraits, each facing directly forward and looking into the camera with a calm neutral expression. All are young adult East Asian women with fair skin, long dark brown to black wavy hair, soft see-through bangs, natural makeup, a white knit sweater, and a delicate small necklace. Make each face visibly unique: 1) oval face with balanced eyes and soft lips, 2) slightly rounder face with wider eyes and gentler cheeks, 3) narrower face with straighter brows and smaller mouth, 4) brighter wide-eyed face with slightly shorter bangs, 5) longer face with heavier waves and more serious gaze, 6) petite heart-shaped face with softer jaw and subtle pout, 7) round face with fuller cheeks and larger eyes, 8) slim face with longer hair framing the cheeks and a composed expression.\n\nVisual style: High-resolution realistic studio photography, soft even front lighting, minimal shadows, natural skin texture, clean beauty portrait retouching, sharp focus on eyes, subtle hair detail, consistent camera distance and crop across all panels.\n\nCustomizable elements: Use {argument name=\"number of portraits\" default=\"8\"} portraits in a {argument name=\"grid layout\" default=\"4 columns by 2 rows\"} grid, featuring {argument name=\"subject type\" default=\"young East Asian women\"} with {argument name=\"hairstyle\" default=\"long dark wavy hair with see-through bangs\"} wearing {argument name=\"outfit\" default=\"white knit sweaters with delicate small necklaces\"}.\n\nConstraints: Do not make the faces identical; each portrait must have a distinct face shape, eye shape, brow style, nose, mouth, and overall facial balance. Keep the clothing, background, lighting, and pose consistent so the facial differences are the main comparison point.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "number of portraits",
+        "default": "8"
+      },
+      {
+        "name": "grid layout",
+        "default": "4 columns by 2 rows"
+      },
+      {
+        "name": "subject type",
+        "default": "young East Asian women"
+      },
+      {
+        "name": "hairstyle",
+        "default": "long dark wavy hair with see-through bangs"
+      },
+      {
+        "name": "outfit",
+        "default": "white knit sweaters with delicate small necklaces"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786263567186_anvgdz_HPL4cT1aMAAGT24.jpg",
+        "alt": "Eight Distinct Studio Portraits Grid",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786263567238_q944q8_HPL4cT0a4AAvmf_.jpg",
+        "alt": "Eight Distinct Studio Portraits Grid",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Yas⚡️BizDev-Engineer",
+      "url": "https://x.com/earlyfield8612"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/earlyfield8612/status/2086002748986986876#reversed-0"
+    },
+    "publishedAt": "2026-08-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30915",
+    "contentHash": "dbb4de9a0ab0528362ead1e092a610e00dc1bc66"
+  },
+  {
+    "id": "gpt-image-2:30836",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30836",
+    "title": "Luxury Tropical Villa Fashion Portrait",
+    "category": "Social Media Post",
+    "description": "An ultra-photorealistic fashion photo prompt of a woman at a luxury tropical villa, emphasizing natural lighting and high-detail textures.",
+    "promptText": "Ultra-photorealistic full-body fashion photo of a {argument name=\"subject\" default=\"stylish young woman\"} standing in a {argument name=\"setting\" default=\"luxury tropical villa beside a swimming pool\"}. Long dark hair, black sunglasses, black oversized floral shirt, white cargo jogger pants, silver watch, black-and-white sneakers. Lush palm and monstera plants, modern beige villa, poolside loungers, warm natural daylight, realistic skin and fabric texture, cinematic fashion photography, 9:16 vertical, 8K, natural anatomy.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "stylish young woman"
+      },
+      {
+        "name": "setting",
+        "default": "luxury tropical villa beside a swimming pool"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786263497649_7fcpus_HPQaxPbaIAALltc.jpg",
+        "alt": "Luxury Tropical Villa Fashion Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ayzalnoor",
+      "url": "https://x.com/ayzalnooor24521"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ayzalnooor24521/status/2086321998746267983"
+    },
+    "publishedAt": "2026-08-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30836",
+    "contentHash": "4168291bb3cd67198188c38bb3bb60e2a6d3c5d1"
+  },
+  {
+    "id": "gpt-image-2:30830",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30830",
+    "title": "Bird's-Eye Street Fashion Portrait",
+    "category": "Social Media Post",
+    "description": "A detailed streetwear fashion prompt for gpt-image-2 that utilizes reference images for scene composition and facial identity while randomizing clothing.",
+    "promptText": "ULTRA-REALISTIC CINEMATIC STREET FASHION PORTRAIT — 8K, RAW DSLR QUALITY, MASTERPIECE, HYPER-DETAILED, PHOTOREALISTIC.\nUse the FIRST UPLOADED IMAGE as the MAIN SCENE, CAMERA ANGLE, POSE, COMPOSITION, BACKGROUND, AND BODY POSITION REFERENCE. Use the SECOND UPLOADED IMAGE as the EXCLUSIVE FACIAL IDENTITY REFERENCE.\nA {argument name=\"subject\" default=\"young Asian woman\"} standing casually on a wide asphalt road with bold alternating black-and-white painted stripes. Photographed from a high overhead/bird’s-eye perspective, looking directly up toward the camera with a calm, confident, slightly cool expression. Her body is relaxed, both hands naturally inside her pants pockets, with one leg slightly bent and crossed casually in front of the other. Preserve the exact overall pose, perspective, framing, and visual composition of the first reference image.\n\nFACE & IDENTITY — CRITICAL:\n\nUse the SECOND uploaded photo to reproduce the person's facial identity as accurately as possible. Preserve her exact facial structure, face shape, forehead, eyebrows, eyes, eyelids, nose shape, lips, cheeks, jawline, chin, ears, natural skin texture, complexion, and natural facial proportions. Do not replace, redesign, beautify, masculinize, feminize, or stylize her face. The final face must clearly remain the same person from the facial reference.\n\nHAIR:\n\nThe hairstyle must follow the person in the SECOND uploaded facial reference. Preserve her natural hair characteristics, hairline, texture, thickness, length, volume, and overall hairstyle. Do not copy the hairstyle from the first scene reference.\n\nOUTFIT:\n\nGenerate a {argument name=\"style\" default=\"RANDOM feminine modern streetwear outfit\"} that is completely different from the clothing in both reference images. The outfit can be an oversized T-shirt, relaxed-fit shirt, hoodie, bomber jacket, varsity jacket, denim jacket, casual blazer, or other stylish contemporary streetwear piece, paired with relaxed or loose-fit pants and fashionable sneakers.\n\nRandomize the clothing colors, patterns, and design while keeping the entire outfit cohesive, realistic, feminine, trendy, stylish, and effortless.\n\nACCESSORIES:\n\nRandom subtle feminine accessories are allowed, such as a watch, bracelet, simple rings, small earrings, or a minimal necklace. Keep accessories natural, understated, and realistic.\n\nLIGHTING & VISUAL STYLE:\n\nNatural outdoor daylight, soft realistic shadows, authentic asphalt texture, realistic fabric texture, natural skin tones, cinematic color grading, subtle film grain, realistic depth and perspective, premium street-fashion photography aesthetic, RAW DSLR quality.\n\nCAMERA & COMPOSITION:\n\nHigh-angle bird’s-eye/top-down photography, camera positioned directly above the subject, full-body shot, vertical 9:16 composition, subject centered in frame, realistic head-to-body proportions, natural anatomy. Preserve the strong geometric black-and-white road stripes from the first reference image.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "young Asian woman"
+      },
+      {
+        "name": "style",
+        "default": "RANDOM feminine modern streetwear outfit"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786263491990_ic0td7_HPQaJNnbYAAvxER.jpg",
+        "alt": "Bird's-Eye Street Fashion Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786263492045_vh2q1o_HPQaKE4aAAAYcfk.jpg",
+        "alt": "Bird's-Eye Street Fashion Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Laraib Fatima‎",
+      "url": "https://x.com/AiwithLariab"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AiwithLariab/status/2086321313858429100"
+    },
+    "publishedAt": "2026-08-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30830",
+    "contentHash": "fb4a07ef0781fe8e09af97eea0c2fcc6eb124d99"
+  },
+  {
+    "id": "gpt-image-2:30865",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30865",
+    "title": "Summer Seaside Lace Bikini Portrait",
+    "category": "Social Media Post",
+    "description": "A detailed photorealistic prompt for generating a vertical portrait of a young woman in a white lace bikini on a beach, reaching her arm toward the sunlight with high-contrast lighting and soft background bokeh.",
+    "promptText": "Subject:\nWhite sleeve reaching toward the light\n\nSubject details:\nA full-body portrait of a young woman wearing a {argument name=\"clothing\" default=\"white lace bikini and a sheer white cover-up\"} sitting on the sand at the edge of a blue sea, {argument name=\"pose\" default=\"reaching one arm high toward the sky\"}. The figure is placed prominently from the center to the bottom of the frame, showing the arm and sleeve extending to the top left, a profile of the right side, and the sea behind.\n\nPerson/Expression:\nA slender oval face turned toward the upper left of the screen, with the chin tilted high and eyes closed. Gentle expression with thin eyebrows, a small nose, and coral-colored lips slightly parted. Bright skin with a natural glow. Dark brown hair tied in a large, messy bun at the back, with wet bangs and long loose strands flowing over the forehead, cheeks, and neck.\n\nClothing/Pose:\nA white lace triangle bikini swimsuit. Thin neck straps, a small bow at the center of the chest, and long ties at both hips. Over this, a white horizontally striped semi-transparent long shirt is draped off the shoulders with wide cuffs. Sitting with both legs folded to the left of the frame. Her left hand is placed on the sand at the back right, and her right arm is extended straight up to the top left with the palm open upward.\n\nBackground/Light:\nThe foreground is damp, bright sand and small waves. From the center to the left, there is a turquoise sea with white waves, and low green silhouettes of islands on either side of the horizon. The top half is a vivid blue sky with thin cirrus clouds. {argument name=\"light direction\" default=\"Hard direct sunlight from the top left\"} illuminates the raised hand, face, chest, abdomen, and thighs, casting shadows of the arm and sleeve onto the body.\n\nComposition/Camera:\nVertical 2:3 aspect ratio. The camera is at a low horizontal viewpoint near the sand surface, capturing a full-body shot from the fingertips at the top left to the folded toes at the bottom. The figure occupies about three-quarters of the screen height, with the raised arm positioned on the top-left diagonal, the face toward the top right, and the torso and legs in the bottom half. Focus on the face and body, with the island silhouettes softly blurred.\n\nTexture/Style:\nA high-definition photorealistic photo based on sky blue, turquoise, white, and bright sand colors. Naturally depicts wet skin, fine lace, sheer striped fabric, hair strands, waves, and sand.\n\nNegative:\nDo not change the closed eyes and the posture of the arm reaching toward the upper left.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "clothing",
+        "default": "white lace bikini and a sheer white cover-up"
+      },
+      {
+        "name": "pose",
+        "default": "reaching one arm high toward the sky"
+      },
+      {
+        "name": "light direction",
+        "default": "Hard direct sunlight from the top left"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786263524292_ejg2z0_HPG05u_bAAALPj0.jpg",
+        "alt": "Summer Seaside Lace Bikini Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Prompt アトリエ｜AI画像プロンプト",
+      "url": "https://x.com/CyberTotal2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CyberTotal2026/status/2086320821010636802"
+    },
+    "publishedAt": "2026-08-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30865",
+    "contentHash": "b69fecf742350f3bb9e12f481cf3534753300944"
+  },
+  {
     "id": "gpt-image-2:30856",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6867,204 +7061,5 @@
     "publishedAt": "2026-07-31T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30484",
     "contentHash": "21785dd04c04b02ffbd3cd5523d8b5fa0738d154"
-  },
-  {
-    "id": "gpt-image-2:30515",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30515",
-    "title": "Realistic City Selfie",
-    "category": "Profile / Avatar",
-    "description": "Generates a natural Instagram-style lifestyle selfie of a young woman walking through a sunny Japanese city street.",
-    "promptText": "Create a highly realistic casual smartphone selfie that looks like an authentic Instagram Story lifestyle snap taken outdoors in a Japanese city. The subject is a cheerful young woman, {argument name=\"character name\" default=\"unnamed\"}, with {argument name=\"hair color\" default=\"short blonde hair with soft face-framing bangs\"}, warm natural makeup, clear glowing skin, small hoop earrings, and a gentle closed-mouth smile while looking directly into the phone camera. She is holding the phone high and slightly wide-angle, arm extended toward the lower-left foreground, creating a natural selfie distortion and an intimate candid feel. She wears a plain white crew-neck T-shirt tucked into light blue high-waisted denim shorts, a thin silver necklace, a white watch or bracelet, and carries a beige canvas tote bag over one shoulder. In her other hand she holds exactly 2 visible items: an iced coffee in a clear plastic cup with a domed lid and black straw, and a white plastic shopping bag. Set the scene on a sunny sidewalk near a crosswalk, with urban storefronts, leafy street trees, a cafe terrace with warm interior lights, tiled pavement, tactile paving, and exactly 1 parked bicycle visible on the right side. Include a few distant pedestrians in the background, softly blurred. Use late-afternoon golden-hour sunlight, natural shadows, realistic skin texture, subtle lens distortion, smartphone HDR look, shallow but not overly artificial depth of field, and a candid everyday fashion-photo mood. The overall atmosphere should be {argument name=\"overall mood\" default=\"natural, friendly, stylish, and unposed\"}. No text overlays, no watermark, no beauty-pageant posing, no studio lighting, no fantasy elements.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "unnamed"
-      },
-      {
-        "name": "hair color",
-        "default": "short blonde hair with soft face-framing bangs"
-      },
-      {
-        "name": "overall mood",
-        "default": "natural, friendly, stylish, and unposed"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573879693_as7esa_HOjjGyHbEAEh1gC.jpg",
-        "alt": "Realistic City Selfie",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573879687_cdaopf_HOjjGyRa0AEU4Lf.jpg",
-        "alt": "Realistic City Selfie",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573879720_03xfoi_HOjjGyQaIAAo4rB.jpg",
-        "alt": "Realistic City Selfie",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573880924_idwo1r_HOjjGyOagAAzpm-.jpg",
-        "alt": "Realistic City Selfie",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "ギン",
-      "url": "https://x.com/takkun_life_ea"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/takkun_life_ea/status/2083164541844865477#reversed-0"
-    },
-    "publishedAt": "2026-07-31T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30515",
-    "contentHash": "b7518e91ad57ae326c7698d3f114c9415870c9cd"
-  },
-  {
-    "id": "gpt-image-2:30488",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30488",
-    "title": "Neon Dual-Lighting Beauty Portrait",
-    "category": "Profile / Avatar",
-    "description": "A close-up studio beauty portrait with a striking dual-lighting setup. The subject is a young woman looking over her shoulder against a purple background, illuminated with cool blue-violet light on one side and warm pink light on the other.",
-    "promptText": "Subject: Turning in Purple Light\n\nMain Subject: Reproduce facial features, turning over the shoulder, camera eye contact, right hand on neck, ultra-thin black strap, brown hair, {argument name=\"left light color\" default=\"blue-violet light\"} on the left and {argument name=\"right light color\" default=\"pink light\"} on the right. A photorealistic beauty portrait in vertical orientation of a woman in her 20s captured extremely close from shoulders to crown in a dark studio with a solid {argument name=\"background color\" default=\"purple background\"}. The person has her back to the right and turns her face over her left shoulder to the camera. Large rounded left shoulder in foreground.\n\nCharacter/Expression: Oval face, smooth chin, small nose, and rose-beige lips. Head turned roughly 40 degrees, looking straight at the lens with dark brown eyes. Quiet expression with lips slightly parted. Skin is bright neutral ivory with highlights on nose, cheekbones, and shoulder. Hair is medium brown with thin bangs.\n\nClothing/Pose: Black satin or matte stretch camisole with a single ultra-thin strap. The person twists her upper body, bringing the left shoulder close to the camera. Her right hand touches the right side of her neck. \n\nBackground/Light: Background transitions from lavender to medium purple to dark reddish-purple. Main light is soft pink to reddish-purple from the front right. Auxiliary light is cool cyan-blue to blue-violet from the front left. Magenta rim light on the hair.\n\nComposition/Camera: Vertical 3:4 tight close-up. Camera at eye level. Mid-telephoto lens perspective. Focus strictly on the foreground eye, nose, and lips.\n\nTexture/Style: High-resolution photorealistic studio beauty photography. Detailed pores, hair strands, and smooth light gradients. Catchlights in eyes are small and natural.\n\nNegative: Do not change dual lighting or purple background; avoid extra fingers/limbs; no text, logos, or watermarks.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "left light color",
-        "default": "blue-violet light"
-      },
-      {
-        "name": "right light color",
-        "default": "pink light"
-      },
-      {
-        "name": "background color",
-        "default": "purple background"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573859759_9r69om_HOjGwkWbcAAoaLY.jpg",
-        "alt": "Neon Dual-Lighting Beauty Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2083160759501033747"
-    },
-    "publishedAt": "2026-07-31T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30488",
-    "contentHash": "0aa67d497c5a4cbed169547a0bb2dcddb96ef716"
-  },
-  {
-    "id": "gpt-image-2:30489",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30489",
-    "title": "Sun-Dappled Park Bench Portrait",
-    "category": "Profile / Avatar",
-    "description": "A bright and airy outdoor portrait of a young woman sitting on a wooden park bench. She wears a white chiffon outfit with intricate details, as warm sunlight filters through the trees to create beautiful dapples across her skin and clothes.",
-    "promptText": "Subject: Bench in Dappled Sunlight\n\nMain Subject: A bright portrait of a woman in her 20s sitting on a dark wooden bench in a {argument name=\"background\" default=\"lush green park\"}, captured vertically from head to crossed knees. The subject takes up much of the center frame. She faces forward with her head slightly tilted to her left, supporting herself with her hands on the bench seat. Her right leg is crossed over the left, creating a soft sitting posture.\n\nCharacter/Expression: Small oval face, light ivory skin, brown eyes, and rose-colored cheeks. A calm smile looking at the camera. Her light brown hair is styled in a {argument name=\"hairstyle\" default=\"low braided updo\"} with thin bangs. Golden backlighting on her hair and round sun dapples on her skin.\n\nClothing/Pose: A white {argument name=\"dress type\" default=\"wrap-style mini dress\"} with a deep V-neck and a ribbon tie at the waist. She wears a sheer white chiffon long cardigan over it, falling off the shoulders. Detailed puff sleeves with frilled cuffs. Her hands rest naturally on the bench seat.\n\nBackground/Light: Foreground features a dark brown wooden bench with visible grain. An ivory square bag sits on the right. Background is a park with deep green lawn and large trees. Strong warm natural light from the top-left-back creates sun dapples through the leaves. Background trees have circular bokeh.\n\nComposition/Camera: Vertical 2:3 ratio, knee-up portrait from chest height. Face in the upper center. Shallow depth of field with a portrait lens.\n\nTexture/Style: High-resolution realistic outdoor fashion photo. Ivory, warm skin tones, dark brown, and vibrant green are the main colors. Highlights on shoulders and knees. Detailed fabric textures and wooden bench grain.\n\nNegative: Avoid distortion of face or smile, extra fingers, merging of limbs, unnatural shadows, logos, or watermarks.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "background",
-        "default": "lush green park"
-      },
-      {
-        "name": "hairstyle",
-        "default": "low braided updo"
-      },
-      {
-        "name": "dress type",
-        "default": "wrap-style mini dress"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573859881_oaqji7_HOW9JJvbgAAbzLI.jpg",
-        "alt": "Sun-Dappled Park Bench Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2083148417295909208"
-    },
-    "publishedAt": "2026-07-31T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30489",
-    "contentHash": "2e96f16f72e9cc216566191c729eca799661fdf4"
-  },
-  {
-    "id": "gpt-image-2:30441",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30441",
-    "title": "Premium Luxury Studio Editorial Portrait",
-    "category": "Profile / Avatar",
-    "description": "A high-end studio portrait prompt designed to maintain facial identity while placing the subject in a luxury fashion campaign setting with dramatic crimson lighting.",
-    "promptText": "create a premium studio portrait using my uploaded face as the exact facial reference. Preserve my identity with maximum accuracy, including my face shape, hairstyle, beard, eyebrows, skin tone, lips, jawline, and all unique facial features. Do not change my age or recognizable appearance. I am wearing a {argument name=\"clothing\" default=\"fitted black ribbed knit sweater and matte black rectangular sunglasses\"}. Medium-length textured hair with natural volume. Pose with my body turned slightly to the side while looking confidently away from the camera. {argument name=\"background\" default=\"Deep crimson red gradient background\"} with {argument name=\"lighting\" default=\"dramatic cinematic red rim lighting\"} around my hair and shoulders, soft key light on the face, subtle shadows, ultra-clean luxury editorial aesthetic, high contrast, shallow depth of field, razor-sharp facial details, realistic skin texture, premium fashion campaign look, centered composition, 85mm lens, f/1.8, photorealistic, 8K, IMAX quality, no text, no watermark, no logo.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "clothing",
-        "default": "fitted black ribbed knit sweater and matte black rectangular sunglasses"
-      },
-      {
-        "name": "background",
-        "default": "Deep crimson red gradient background"
-      },
-      {
-        "name": "lighting",
-        "default": "dramatic cinematic red rim lighting"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573819019_j7pjtn_HOjEdM_boAAzieM.jpg",
-        "alt": "Premium Luxury Studio Editorial Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Snow",
-      "url": "https://x.com/iamrealsnow"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/iamrealsnow/status/2083130840968733095"
-    },
-    "publishedAt": "2026-07-31T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30441",
-    "contentHash": "9b4f7214406886c9b323e83cbd2e00dce2748be1"
   }
 ]
