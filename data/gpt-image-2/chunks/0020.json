@@ -1,5 +1,183 @@
 [
   {
+    "id": "gpt-image-2:29012",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29012",
+    "title": "Minimal Queue Illustration",
+    "category": "Infographic / Edu Visual",
+    "description": "A clean flat vector illustration of four side-profile commuters waiting in line, suitable for editorial, transit, or social behavior visuals.",
+    "promptText": "Create a minimalist flat vector illustration of {argument name=\"number of people\" default=\"four people\"} standing in a line as if waiting in a queue, all shown in left-facing side profile on a warm off-white background. Use a simple editorial style with thick dark charcoal outlines, flat muted colors, and very little facial detail. The scene contains exactly 4 discrete human figures from left to right: 1) a young man in a black jacket and black pants wearing a rounded black backpack, standing upright with arms down; 2) a young woman with dark hair in a ponytail, wearing a muted blue long-sleeve top, slim black pants, black shoes, and a black crossbody shoulder bag; 3) a young man in a black outfit with a black backpack, holding a smartphone in one hand at chest height while looking slightly downward; 4) a young woman with shoulder-length dark hair wearing a muted blue top, long black skirt, black shoes, and carrying a white tote bag over one shoulder. Keep the figures evenly spaced, cropped slightly at the far right edge for the fourth person, with no text, no scenery, no shadows, and no extra objects beyond the 4 bags and 1 smartphone. Use a restrained palette of {argument name=\"accent color\" default=\"muted blue\"}, black, charcoal gray, white, and cream, with clean hand-drawn linework and a calm modern urban mood.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "number of people",
+        "default": "four people"
+      },
+      {
+        "name": "accent color",
+        "default": "muted blue"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784363351545_6mb1cm_HNZQ5jrawAAT4uN.jpg",
+        "alt": "Minimal Queue Illustration",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ar",
+      "url": "https://x.com/fpsar3"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/fpsar3/status/2077937234184118558#reversed-0"
+    },
+    "publishedAt": "2026-07-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29012",
+    "contentHash": "d1e6c4b11d2400d4bd6095b8ed129e3953487514"
+  },
+  {
+    "id": "gpt-image-2:28993",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28993",
+    "title": "Consistent Social Media Cover Agent Skill",
+    "category": "YouTube Thumbnail",
+    "description": "A workflow description for an AI agent skill that generates consistent social media covers using multi-reference images, compatible with GPT-Image models.",
+    "promptText": "Input an article, go through three rounds of Q&A, and it directly outputs cover prompts that can be used for image generation. No need to understand design, no need to write prompts yourself, the aspect ratio is fixed at 3:4, and facial consistency can be maintained.👇 👹 The entire workflow is as follows: 1. Skill installation and first-time configuration (save a photo of your own face + confirm the image generation model) 2. Give the article content to the agent, which automatically reads and refines it 3. Round 1: Recommend composition styles based on content (10 options to choose from) + automatically come up with candidate titles 4. Round 2: Face reference images + materials such as UI screenshots/product images 5. Round 3: Choose expressions, background tones, fonts, and font colors all at once, or leave it all to the model if you're lazy 6. Output complete prompts: 3:4 composition, safety zone, multi-reference image writing for Image 1 (face) + Image 2 (materials) are all included 7. Take it to Jimeng / Nano Banana / GPT-Image to generate images (if your agent has an image generation API configured, you can have it generate directly in the conversation) 8. Check if the titles have typos, and regenerate any parts you're unhappy with. 🧐 Tips: You must choose an image generation model that supports multiple reference images, otherwise facial consistency cannot be guaranteed. The skill has 8 built-in sets of example prompts reverse-engineered from real trending covers, and the model will automatically use them as references, pushing the image detail to the maximum.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784363335923_d89xsc_HNZUAHTa4AAC1GZ.jpg",
+        "alt": "Consistent Social Media Cover Agent Skill",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784363336014_09ihov_HNZUAHeaYAETOiX.jpg",
+        "alt": "Consistent Social Media Cover Agent Skill",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784363336627_gcthid_HNZUMeHaIAAplf_.jpg",
+        "alt": "Consistent Social Media Cover Agent Skill",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784363337479_2ccaze_HNZUU8yawAAQMBG.jpg",
+        "alt": "Consistent Social Media Cover Agent Skill",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "狗哥笔记",
+      "url": "https://x.com/pyang1235005"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/pyang1235005/status/2077941050652623196"
+    },
+    "publishedAt": "2026-07-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28993",
+    "contentHash": "1a4c12646fc9813d30793b98566e4bfd2fb849e2"
+  },
+  {
+    "id": "gpt-image-2:29007",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29007",
+    "title": "Whimsical Circus Show Performance",
+    "category": "Comic / Storyboard",
+    "description": "A poetic prompt describing a vibrant circus scene with clowns, monkeys, and thrilling performances, perfect for creating enchanting and energetic illustrations.",
+    "promptText": "an enchantment of clowns and monkeys the circus tents burst with delighted shrieks and thrilling feats of derring-do",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784363346298_es9ze6_HNcjL0WawAASSS1.jpg",
+        "alt": "Whimsical Circus Show Performance",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Michael H. Lester",
+      "url": "https://x.com/mhlester"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/mhlester/status/2078168467115753799"
+    },
+    "publishedAt": "2026-07-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29007",
+    "contentHash": "02f01e98b998bae4026cf6f465c22cdc26ce14a1"
+  },
+  {
+    "id": "gpt-image-2:29024",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29024",
+    "title": "Dark Ronin Katana Splash Art",
+    "category": "Comic / Storyboard",
+    "description": "A cinematic anime action prompt for generating a fierce ronin swordsman slashing through chaotic black ink and crimson splatter.",
+    "promptText": "Create a dark, hyper-detailed anime action illustration in a wide cinematic 16:9 frame. Show {argument name=\"character name\" default=\"a fierce ronin swordsman\"} in the center, lunging forward through chaos with a katana held diagonally across the image from the left foreground toward the lower right foreground. The character has {argument name=\"hair style\" default=\"wild long black hair exploding outward in thick tangled strands\"}, pale shadowed skin, an intense glare with {argument name=\"eye color\" default=\"glowing red eyes\"}, and a black tattered robe or cloak that blends into the surrounding ink. The katana should be the dominant visual element: a long polished blade with a thin bright white edge and red reflected glow, ornate dark hilt visible on the left side, cutting through splashes and motion lines. Surround the figure with violent abstract black ink tendrils, chaotic brush strokes, and {argument name=\"splash color\" default=\"crimson red blood-like splatter\"} bursting across the whole canvas; include exactly one swordsman, one katana, and one central face visible through the darkness. Use a gritty manga-cover style with extreme contrast, dense linework, speed lines, painterly ink textures, horror-action energy, and a limited palette of black, deep red, gray, off-white, and small bright highlights. Background should be an abstract storm of black and red splashes on a dirty parchment-gray field, with no readable text, no logo, no border, and no extra characters.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "a fierce ronin swordsman"
+      },
+      {
+        "name": "hair style",
+        "default": "wild long black hair exploding outward in thick tangled strands"
+      },
+      {
+        "name": "eye color",
+        "default": "glowing red eyes"
+      },
+      {
+        "name": "splash color",
+        "default": "crimson red blood-like splatter"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784363362701_iq3n53_HNbTmNja8AAQvwf.jpg",
+        "alt": "Dark Ronin Katana Splash Art",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784363362816_takk9l_HNbTmMfb0AA5Bby.jpg",
+        "alt": "Dark Ronin Katana Splash Art",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ヤノ",
+      "url": "https://x.com/Ryuki_Yano"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Ryuki_Yano/status/2078080947090755987#reversed-0"
+    },
+    "publishedAt": "2026-07-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29024",
+    "contentHash": "7b6cef5f2412e1b0d73dc829c624b31aa6250f02"
+  },
+  {
     "id": "gpt-image-2:28996",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6862,193 +7040,5 @@
     "publishedAt": "2026-07-15T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28724",
     "contentHash": "89c966d53af86ef8c11176b67e91380431e1323e"
-  },
-  {
-    "id": "gpt-image-2:28726",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28726",
-    "title": "Summer Sky Cat Cloud",
-    "category": "Social Media Post",
-    "description": "A creative and surreal prompt for GPT Image 2 that generates a scene of a woman gazing at a giant cumulonimbus cloud shaped like a cat over a Japanese seaside town.",
-    "promptText": "Subject:\n{argument name=\"theme\" default=\"Cat Walking in the Summer Sky\"}\n\nMain Subject:\nA {argument name=\"ratio\" default=\"vertical 4:5\"} photographic work. Set against a quiet Japanese slope leading to the sea, a woman stands slightly to the right of center, while a giant white cumulonimbus cloud in the sky forms the shape of a cat. The woman occupies about 40% of the lower half of the frame, and the cloud cat is overwhelming in size, covering a wide area of the sky. A summer scene where reality and fantasy naturally connect, emphasizing the scale difference between the person and the cloud.\n\nCharacter and Expression:\nA natural and realistic adult woman. Tall with long limbs and a well-proportioned physique like a sophisticated fashion model. Long {argument name=\"hair color\" default=\"dark brown\"} hair waves loosely and flows slightly backward in the summer breeze. Elegant Japanese-style makeup, translucent skin, gentle eyebrows, and clear eyes. Faces the upper left, looking up at the giant cat cloud. Her mouth is slightly open, with an expression mixed with surprise and quiet longing.\n\nClothing and Pose:\nA summer long dress based in pale ivory. Thin shoulder straps, a clear V-neck that isn't too deep, and a three-dimensional cut that naturally follows the body from the chest to the waist. {argument name=\"pattern\" default=\"A fine blue-gray botanical pattern\"} with a thin knot of the same fabric at the waist. The skirt is made of a light, thin material with a modest slit on one side, and the hem sways slightly in the wind. A small rattan bag hangs from her right hand, and her left arm is naturally at her side. Standing in a composed model pose with weight on one leg and the other knee slightly relaxed.\n\nBackground and Light:\nA Japanese seaside residential area. Stone walls, low fences, old wooden houses with tiled roofs, thin utility poles and wires, and hydrangeas along the slope. Beyond the slope, the blue sea and a distant peninsula are visible. The sky is a deep summer blue. The giant cloud is in the shape of a long-haired cat extending its front paws, with ears, nose, cheeks, chest, and rounded front paws formed as natural cumulus masses. The cloud surface has fine bulges and soft shadows, making it stand out as a cloud rather than animal fur. Strong midday sunlight from the upper left. Bright highlights on the character's shoulders, cheeks, collarbone, and hair edges. Shadows fall toward the lower right of the frame, with pale bluish reflections from the sea and white walls.\n\nComposition and Camera:\nVertical 4:5, medium full shot with a slightly low eye level. Shows the woman significantly from above the knees to the head while leaving enough of the background slope and sea. The person is slightly to the right of center, the cat cloud's face is at the upper left, and the extended front paw points to the upper right. Use about half of the upper part for the blue sky and cloud, with a composition where the person's gaze and the cat cloud's face connect diagonally. 85mm equivalent natural compression, focusing clearly on the person while slightly blurring the background, but keeping the cityscape and sea discernible.\n\nTexture and Style:\nHigh-definition realistic photographic expression. Clear midsummer air, vivid blue and white contrast, soft skin texture, natural hair, light non-see-through fabric, and carefully depicted rattan weave. A calm color tone like a fashion magazine location shoot. Avoid excessive HDR or artificial skin retouching, adding a small amount of film grain and natural light bleed.\n\nNegative:\nUnnatural face, unnatural gaze, excessive chest emphasis, extra fingers, missing fingers, fusion of limbs, broken joints, poor contact with the rattan bag, unnatural fabric digging, unnatural gravity, clouds looking like plush toys, cat outlines being too hard, incorrect perspective, shadows inconsistent with the light source, garbled text, logo, watermark, excessive skin retouching, plastic-like skin.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "theme",
-        "default": "Cat Walking in the Summer Sky"
-      },
-      {
-        "name": "ratio",
-        "default": "vertical 4:5"
-      },
-      {
-        "name": "hair color",
-        "default": "dark brown"
-      },
-      {
-        "name": "pattern",
-        "default": "A fine blue-gray botanical pattern"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784104921832_icjc0r_HNG4JM8bsAA_3ot.jpg",
-        "alt": "Summer Sky Cat Cloud",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2077203242937717227"
-    },
-    "publishedAt": "2026-07-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28726",
-    "contentHash": "f0dcade7dd32e346c1ec387791f5af7f66c2070c"
-  },
-  {
-    "id": "gpt-image-2:28725",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28725",
-    "title": "Summer Water Surface Portrait",
-    "category": "Social Media Post",
-    "description": "A high-quality prompt for generating a realistic summer portrait of a woman jumping over sparkling blue water, emphasizing natural movement and high-key lighting.",
-    "promptText": "Subject:\n{argument name=\"theme\" default=\"Summer Stepping on Light\"}\n\nMain Subject:\nA {argument name=\"ratio\" default=\"vertical 3:4\"} photograph. The moment a woman walks lightly as if hopping over a sparkling blue water surface. The figure is shown in full body, slightly to the right of the center, from the upper body to the tips of the toes. The background is an expanse of water with white light reflections scattered throughout the frame.\n\nCharacter and Expression:\nA natural and realistic woman. Her {argument name=\"hair color\" default=\"light brown\"} hair is tied in a low, loose ponytail, with thin bangs and wisps of hair around her face fluttering slightly in the wind. Her face is tilted slightly downward, looking at the water at her feet. Her mouth is relaxed in a subtle smile, showing a quiet focus amidst the summer light.\n\nClothing and Pose:\nWears a thin, sheer white short-sleeved shirt over a white sleeveless inner top. Bottoms are off-white high-waisted shorts with a thin drawcord at the waist. White socks and white sneakers. Stepping forward significantly with the right foot toward the bottom of the frame, with the left leg lightly bent behind. The left arm is extended horizontally to the left, and the right arm is raised high to the upper right. All five fingers on both hands are naturally separated in a relaxed shape. No defects in wrists or joints; natural movement to maintain balance.\n\nBackground and Light:\nA shallow, clear blue water surface spreads across the frame, with small ripples and white reflections shining like countless grains. Strong midsummer sunlight shines from the upper right, creating bright highlights on the hair, shoulders, shirt edges, and arms. A dark shadow of the figure falls long on the water surface at the lower left, appearing slightly wobbly amidst the reflections.\n\nComposition and Camera:\nA high-angle camera looking down. A composition where the character's movement flows diagonally, forming a large triangle from the right arm to the left arm and the extended right foot. The focus is on the character's face and upper body, with the light on the water surface spreading across the background as large, round bokeh. Leave enough water space around the character to create a sense of floating and openness.\n\nTexture and Style:\nA realistic summer portrait photo. High-key exposure, translucent skin, soft fabric texture of white clothes, and natural hair thinness. A clean color palette based on blue and white, carefully expressing the brightness of strong sunlight and water surface reflections. Avoid excessive skin retouching for a natural and light finish like a magazine photo.\n\nNegative:\nUnnatural face, unnatural gaze, extra fingers, missing fingers, too long fingers, fusion of limbs, broken joints, body floating too much, unnatural gravity, incorrect shadows, reflections inconsistent with the light source, text, logo, watermark, excessive skin retouching, plastic-like skin.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "theme",
-        "default": "Summer Stepping on Light"
-      },
-      {
-        "name": "ratio",
-        "default": "vertical 3:4"
-      },
-      {
-        "name": "hair color",
-        "default": "light brown"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784104921907_6yrg4z_HNHFE7GbAAAFnsV.jpg",
-        "alt": "Summer Water Surface Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2077183865236619644"
-    },
-    "publishedAt": "2026-07-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28725",
-    "contentHash": "04a8e62d3bde3ad35310bdf911ccdf2b09638fb0"
-  },
-  {
-    "id": "gpt-image-2:28688",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28688",
-    "title": "Billiards Hall Focused Portrait",
-    "category": "Social Media Post",
-    "description": "A close-up shot of a woman focused on a pool game in a softly lit billiards hall, featuring a shallow depth of field that highlights her expression and posture.",
-    "promptText": "A close-up shot of a woman with {argument name=\"hair color\" default=\"brown\"} hair pulled back and styled with bangs, wearing a subtle smile and a focused, direct gaze into the camera. She leans forward over a pool table, dressed in a snug {argument name=\"top color\" default=\"light blue\"} ribbed knit long-sleeved top with a low scoop neckline and ruffled cuffs, paired with a {argument name=\"skirt style\" default=\"white polka dot\"} skirt. She accessorizes with a delicate gold necklace and a white wristwatch on her left wrist. The scene is set in a softly lit billiards hall, with the cue ball sharply in the foreground against a shallow depth of field, drawing attention to her expression and posture.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "brown"
-      },
-      {
-        "name": "top color",
-        "default": "light blue"
-      },
-      {
-        "name": "skirt style",
-        "default": "white polka dot"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784104896396_44ggqc_HNOXuBta0AAxvHG.jpg",
-        "alt": "Billiards Hall Focused Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "sada",
-      "url": "https://x.com/sada_ai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/sada_ai/status/2077170680085557686"
-    },
-    "publishedAt": "2026-07-14T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28688",
-    "contentHash": "a95e88c764bae4134ae89a107717e7c2fb87cc95"
-  },
-  {
-    "id": "gpt-image-2:28682",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28682",
-    "title": "Miniature Woman Forced Perspective Portrait",
-    "category": "Social Media Post",
-    "description": "A highly detailed prompt for generating a miniature woman in an Argentina jersey standing on a human hand using forced perspective.",
-    "promptText": "A {argument name=\"subject\" default=\"tiny miniature woman standing on the palm of a human hand\"}, forced perspective illusion, full-body shot, smiling confidently, {argument name=\"hair style\" default=\"long ash-brown wavy hair with soft bangs\"}, wearing the {argument name=\"jersey\" default=\"latest Argentina national football jersey\"} with authentic sky-blue and white vertical stripes, blue denim jeans, clean white sneakers, casual sporty style, elegant relaxed pose with hands in her front pockets, soft natural makeup, photorealistic skin, ultra-realistic facial details, shallow depth of field, giant blurred version of the same woman in the background wearing the same Argentina jersey and jeans, creamy bokeh, soft daylight, cinematic lighting, HDR, ultra-detailed fabric texture, realistic denim folds, realistic skin pores, hyperrealistic, 85mm lens, f/1.4, masterpiece, 8K, extremely high realism, professional photography, volumetric lighting, natural color grading, crisp focus on the miniature figure, soft blurred background, dreamy atmosphere, premium quality.\n\nNegative Prompt:\nlow quality, low resolution, blurry, cartoon, anime, CGI, 3D render, plastic skin, deformed body, extra fingers, extra limbs, bad anatomy, duplicated person, cropped, out of frame, watermark, logo, text, noise, oversaturated, underexposed, overexposed, distorted face, unrealistic proportions, artifacts, motion blur, poorly drawn hands, bad perspective, pixelated, compression artifacts.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "tiny miniature woman standing on the palm of a human hand"
-      },
-      {
-        "name": "hair style",
-        "default": "long ash-brown wavy hair with soft bangs"
-      },
-      {
-        "name": "jersey",
-        "default": "latest Argentina national football jersey"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784104893182_tdaw7p_HNNAR2NbEAEF9hp.jpg",
-        "alt": "Miniature Woman Forced Perspective Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Aijaz",
-      "url": "https://x.com/iamsofiaijaz"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/iamsofiaijaz/status/2077074536521183505"
-    },
-    "publishedAt": "2026-07-14T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28682",
-    "contentHash": "e9a6671bb257d89bfe921dc2fe1b1fd3c8ea60fe"
   }
 ]

@@ -1,5 +1,228 @@
 [
   {
+    "id": "gpt-image-2:31894",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31894",
+    "title": "High-Fashion Editorial Model Portrait",
+    "category": "Product Marketing",
+    "description": "A commercial-style editorial portrait prompt focusing on platinum blonde hair, high-contrast studio lighting, and sharp fashion details.",
+    "promptText": "A {argument name=\"style\" default=\"high-fashion commercial editorial portrait\"} of a stunning blonde model with {argument name=\"hair\" default=\"voluminous, wavy platinum-blonde hair\"} cascading gracefully over one shoulder.She wears an {argument name=\"clothing\" default=\"oversized, rich burgundy-red washed denim jacket\"} styled casually off one shoulder, holding the lapel with one manicured hand. Her makeup is refined with sharp jet-black winged eyeliner, radiant dewy skin, and satin terracotta lips. Crisp direct-flash studio lighting casts a defined,high-contrast hard shadow against a seamless, solid warm-beige background. Shot on an 85mm f/1.8 prime lens, hyper-realistic commercial photography aesthetic, realistic skin texture, authentic fabric weave, sharp focus, 8k resolution, text watermark placed subtly in the bottom center. --ar 9:16",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "style",
+        "default": "high-fashion commercial editorial portrait"
+      },
+      {
+        "name": "hair",
+        "default": "voluminous, wavy platinum-blonde hair"
+      },
+      {
+        "name": "clothing",
+        "default": "oversized, rich burgundy-red washed denim jacket"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787127582599_n3grr4_HQBEJEia4AAvezM.jpg",
+        "alt": "High-Fashion Editorial Model Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Lavinia",
+      "url": "https://x.com/laviniavelle"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/laviniavelle/status/2089745376513569008"
+    },
+    "publishedAt": "2026-08-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31894",
+    "contentHash": "d7950faf5e35f9a1e8eb00efdd6bc337274d5b73"
+  },
+  {
+    "id": "gpt-image-2:31965",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31965",
+    "title": "Japanese Lunch Menu Poster",
+    "category": "Product Marketing",
+    "description": "Creates a vertical Japanese restaurant lunch menu flyer with five photographed set meals, bold calligraphy, hours, and decorative retro accents.",
+    "promptText": "Goal: Create a vertical Japanese restaurant lunch menu poster for a casual diner, warm and slightly retro, with appetizing food photography and large brush-style Japanese typography.\n\nCanvas: Portrait poster, approximately 4:5 ratio, parchment beige background with subtle paper texture, thin gold border, red and gold decorative accents, leaf motifs in the corners, and a festive Japanese pattern strip along the far left edge.\n\nHeader: At the top, place a large calligraphic headline reading {argument name=\"headline text\" default=\"ランチメニュー\"}; make the first word black and the second word deep red. Underline it with a rough gold brush stroke. In the upper-right corner, add a red circular seal containing white Japanese text: 「心を込めた おいしい ひととき」, with small pale pink flower decorations nearby.\n\nMain layout: Create exactly five horizontal menu rows separated by thin beige lines. Each row has a circular icon on the left, a bold Japanese dish name in black calligraphy in the middle-left, and a realistic food photo panel filling the right half. Use warm restaurant tabletop lighting and wooden table surfaces in the photos.\n\nMenu rows, exactly 5 items:\n1. Red circle icon with a plum blossom, label 「ハンバーグ定食」, photo of a glossy demi-glace hamburger steak set with rice bowl, miso soup, broccoli, carrot, and garnish.\n2. Gold circle icon with gyoza dumplings, label 「ジャンボ餃子定食」, photo of large pan-fried gyoza arranged in a row with rice, dipping sauce, soup, and pickles.\n3. Green circle icon with a chicken silhouette, label {argument name=\"karaage item text\" default=\"唐揚げ定食\"}, photo of fried chicken karaage set with shredded cabbage, lemon wedge, rice, soup, and cucumber pickles; make the fried chicken look slightly uncanny and overly bulbous as if AI-generated.\n4. Purple circle icon with a pig silhouette, label 「生姜焼き定食」, photo of pork ginger stir-fry with onions, shredded cabbage, tomato, rice, miso soup, and pickles.\n5. Blue circle icon with a rice bowl, label 「中華丼」, photo of Chinese-style rice bowl topped with shrimp, quail eggs, vegetables, black fungus, thick glossy sauce, plus a small soup bowl.\n\nNotice strip: Beneath the five rows, add a centered bordered beige notice box reading 「※定食ランチにはご飯・汁物付き」, with small gold leaf ornaments on both sides.\n\nBottom information area: Create a cream-colored panel with two large information blocks. On the left, a brown clock icon and label 「営業時間」 above the time {argument name=\"business hours\" default=\"9:00〜16:30\"}. On the right, a red fork-and-spoon icon and label 「ランチタイム」 above the time {argument name=\"lunch time\" default=\"12:00〜14:00\"}. Separate the two blocks with a thin vertical divider.\n\nFooter: Add a deep red footer band with subtle gold brush decorations and small sparkle accents. Center white Japanese closing text: {argument name=\"footer message\" default=\"ゆったりくつろげる空間で、皆さまのご来店を心よりお待ちしております。\"}\n\nVisual style: Polished Japanese print flyer, izakaya/family restaurant aesthetic, warm reds, browns, cream, and gold, high-resolution food photography mixed with decorative vector elements, clean grid alignment. Keep all Japanese text legible and avoid adding extra menu items or extra text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline text",
+        "default": "ランチメニュー"
+      },
+      {
+        "name": "karaage item text",
+        "default": "唐揚げ定食"
+      },
+      {
+        "name": "business hours",
+        "default": "9:00〜16:30"
+      },
+      {
+        "name": "lunch time",
+        "default": "12:00〜14:00"
+      },
+      {
+        "name": "footer message",
+        "default": "ゆったりくつろげる空間で、皆さまのご来店を心よりお待ちしております。"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787127671945_nvqxfn_HQBAdtbW4AAtIn4.jpg",
+        "alt": "Japanese Lunch Menu Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "不自然対数",
+      "url": "https://x.com/study_unnatural"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/study_unnatural/status/2089741120204886224#reversed-0"
+    },
+    "publishedAt": "2026-08-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31965",
+    "contentHash": "0a9bfd4128962decaf0138ff1bbdd4d8de9cb96d"
+  },
+  {
+    "id": "gpt-image-2:31984",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31984",
+    "title": "Blue Rose Beauty Poster",
+    "category": "Product Marketing",
+    "description": "Generates a cinematic fashion beauty poster with an elegant close-up portrait, rose hair accent, eye inset, and romantic typography.",
+    "promptText": "Create a vertical high-fashion cinematic beauty poster featuring {argument name=\"model description\" default=\"a young East Asian woman with porcelain skin, long wavy black hair, soft glossy lips, and expressive brown eyes\"}. The composition is a close-up portrait cropped so only the left half of her face and upper torso dominate the left two-thirds of the canvas, with the right side reserved for typography on a deep electric-blue studio background. She wears a white satin off-shoulder blouse with pale pink lace trim, a delicate silver pendant necklace, and one small gold rounded earring. Place exactly 1 large deep red rose tucked into her hair above her right ear. Add exactly 1 horizontal rectangular inset on the right-center showing a close crop of both eyes, aligned over the blue background. Use elegant editorial lighting, luminous skin retouching, cool blue color grading, subtle film grain, and faint horizontal light streak/glitch blur effects crossing the portrait and typography. Text layout: at the upper right, stack exactly 4 tall condensed uppercase English words, each spaced out vertically: {argument name=\"top English words\" default=\"LONGING / PURE / DESIRE / EYES\"}. Pair the first three with small Chinese captions and place one Chinese phrase below the eye inset: {argument name=\"Chinese captions\" default=\"渴望 / 纯粹 / 心动 / 会说话的眼睛\"}. At the lower right, set the main quote in very tall thin white serif lettering with slight blur and glow: {argument name=\"main quote\" default=\"Could you still live in my eyes\"}. Add exactly 1 tiny uppercase footer near the bottom right reading {argument name=\"footer text\" default=\"BE SEEN. BE REMEMBERED. ONLY IN MY EYES.\"}. Keep the mood romantic, mysterious, luxurious, and melancholic, with the model looking directly at the viewer; no extra people, no logos, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "model description",
+        "default": "a young East Asian woman with porcelain skin, long wavy black hair, soft glossy lips, and expressive brown eyes"
+      },
+      {
+        "name": "top English words",
+        "default": "LONGING / PURE / DESIRE / EYES"
+      },
+      {
+        "name": "Chinese captions",
+        "default": "渴望 / 纯粹 / 心动 / 会说话的眼睛"
+      },
+      {
+        "name": "main quote",
+        "default": "Could you still live in my eyes"
+      },
+      {
+        "name": "footer text",
+        "default": "BE SEEN. BE REMEMBERED. ONLY IN MY EYES."
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787127694825_hr6ked_HQA2Tt2aUAApRp0.jpg",
+        "alt": "Blue Rose Beauty Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "serein",
+      "url": "https://x.com/you1873118"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/you1873118/status/2089729952380035494#reversed-0"
+    },
+    "publishedAt": "2026-08-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31984",
+    "contentHash": "363dfc179bd0dc060520004594b79059a9bffe19"
+  },
+  {
+    "id": "gpt-image-2:31983",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31983",
+    "title": "Deep Blue Desire Fashion Poster",
+    "category": "Product Marketing",
+    "description": "A square high-fashion editorial poster featuring a rose-haired woman layered with oversized typography on a textured cobalt blue background.",
+    "promptText": "Create a square editorial fashion magazine poster with a deep cobalt blue grunge paper background, subtle scratches, dust, fold marks, and worn texture. The main subject is a glamorous young East Asian woman with {argument name=\"hair color\" default=\"long black wavy hair\"}, fair skin, soft smoky makeup, glossy lips, and a red rose tucked behind her left ear. She wears small gold earrings, a delicate necklace, and a romantic white lace tie-front blouse with puff sleeves and a deep neckline. Place her as a large half-body portrait centered slightly right, looking confidently at the camera with a dreamy, cool expression. Overlay enormous tall condensed white typography across the whole poster spelling {argument name=\"main title\" default=\"DESIRE\"}, with the letters stretched vertically and partially transparent so they pass in front of and behind her face and body like a layered fashion layout. Add exactly 4 smaller text elements: a white rectangular label near the upper left reading {argument name=\"top label\" default=\"DEEP\"}, a slim three-line quote at left reading {argument name=\"side quote\" default=\"A MOMENT / FROZEN, / A DESIRE / ETERNAL\"}, a white rectangular label at mid-right reading {argument name=\"right label\" default=\"BLUE\"}, and a small spaced-out label near the bottom center reading \"DESIRE\". Add exactly 2 white star icons: one near the top above the tall typography and one near the lower right corner. Include exactly 1 secondary cutout figure of the same woman at the lower left, seated casually in the same outfit with blue jeans, long ribbon ties trailing, red rose in her hair, looking downward; scale it much smaller than the main portrait. Use high-fashion photorealism blended with graphic design, crisp studio lighting, cool blue color grading, layered transparent text, clean magazine composition, and no extra logos or watermarks.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "long black wavy hair"
+      },
+      {
+        "name": "main title",
+        "default": "DESIRE"
+      },
+      {
+        "name": "top label",
+        "default": "DEEP"
+      },
+      {
+        "name": "side quote",
+        "default": "A MOMENT / FROZEN, / A DESIRE / ETERNAL"
+      },
+      {
+        "name": "right label",
+        "default": "BLUE"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787127690755_8hcjz9_HQA1-jWbsAEbb-1.jpg",
+        "alt": "Deep Blue Desire Fashion Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787127691145_r6fu67_HQA1-ilaQAAKBWg.jpg",
+        "alt": "Deep Blue Desire Fashion Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787127690713_58e9i7_HQA1-i0bIAAz3D0.jpg",
+        "alt": "Deep Blue Desire Fashion Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787127691729_5zd6f4_HQA1-ivbAAAkoFG.jpg",
+        "alt": "Deep Blue Desire Fashion Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "serein",
+      "url": "https://x.com/you1873118"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/you1873118/status/2089729588687782338#reversed-0"
+    },
+    "publishedAt": "2026-08-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31983",
+    "contentHash": "152bfe3105092be0f63a96abecbca22e362a6df5"
+  },
+  {
     "id": "gpt-image-2:31911",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6625,202 +6848,5 @@
     "publishedAt": "2026-08-15T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31589",
     "contentHash": "ffa060352386f04dda49c122d80d55e1e17cfe07"
-  },
-  {
-    "id": "gpt-image-2:31605",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31605",
-    "title": "Dreamy Japanese Movie Portrait",
-    "category": "Social Media Post",
-    "description": "A portrait prompt capturing a dreamy, private-diary aesthetic with Japanese cinematic lighting and soft, natural skin textures.",
-    "promptText": "Create a Japanese cinematic portrait with a dreamlike feel and a private diary vibe. An {argument name=\"subject\" default=\"adult young woman\"} close to the window and the camera, with {argument name=\"hair\" default=\"black slightly wet medium-length hair\"} naturally and messily falling in front of her cheeks, eyes and lips, with some fine strands of hair illuminated by backlight, forming a transparent glowing outline. The subject has naturally delicate light-colored skin, clear and moist eyes and soft, full water-glossy lip makeup. The makeup is very light, retaining real skin texture, pores and subtle luster, without excessive skin smoothing. Her expression is quiet, relaxed, and slightly hazy and alienated, not deliberately smiling, as if suddenly looking back at the camera on an undisturbed summer afternoon.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "adult young woman"
-      },
-      {
-        "name": "hair",
-        "default": "black slightly wet medium-length hair"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786867791522_yfj7ol_HPxA_UMasAAwXH0.jpg",
-        "alt": "Dreamy Japanese Movie Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786867791567_h2ebne_HPxA_URbMAExtY3.jpg",
-        "alt": "Dreamy Japanese Movie Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786867791539_jalxr3_HPxA_UPaAAAa4GI.jpg",
-        "alt": "Dreamy Japanese Movie Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786867792972_gwzsxt_HPxA_UNbkAAJMXV.jpg",
-        "alt": "Dreamy Japanese Movie Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "mo Ki",
-      "url": "https://x.com/static_stare"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/static_stare/status/2088615794397913132"
-    },
-    "publishedAt": "2026-08-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31605",
-    "contentHash": "03bcb76295060f4561ca801574ed3be75ea8f538"
-  },
-  {
-    "id": "gpt-image-2:31609",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31609",
-    "title": "Strawberry Ice Cream Portrait",
-    "category": "Social Media Post",
-    "description": "A detailed photorealistic prompt for a young woman at an ice cream shop, focusing on facial expressions, soft knit textures, and warm café lighting.",
-    "promptText": "Subject:\nStrawberry ice cream pit stop\n\nMain:\nA single {argument name=\"person\" default=\"young adult woman\"} holding a cone of {argument name=\"ice cream type\" default=\"strawberry ice cream\"} at a round wooden table in an ice cream shop with warm lighting. Position the subject largely from the center to the left of the screen, with the face, hands, and ice cream as the close-up protagonists, leaving a showcase on the right.\n\nCharacter/Expression:\nSmall rounded oval face, bright smooth skin, large dark brown eyes, thin natural eyebrows, small nose, pale pink lips. The face is tilted to the bottom right of the screen, with a playful expression looking at the camera only with the eyes while extending the tip of the tongue toward the ice cream. Thin brown eyeliner and long eyelashes, natural glossy makeup. Dark brown short bob nearly black reaching the chin, parted on the right with thin bangs falling over the forehead and eyes, ends moving randomly inside and out.\n\nClothing/Pose:\n{argument name=\"outfit\" default=\"An ivory thin-strap camisole top\"} with fine lace and a small ribbon at the chest, covered by a deep reddish-brown rib-knit cardigan loosely dropped from the shoulders. Leaning forward toward the table, holding a waffle cone vertically with the right hand. Fingers wrapped together, left arm off-screen. The ice cream is a single white scoop mixed with streaks of red strawberry sauce.\n\nBackground/Light:\nA black-framed glass refrigerated showcase and bright shelves on the right, a wood-grain counter and blurred figures of customers in the back, and a dark wood-grain round table in the lower foreground. Warm interior lighting softly illuminates the face, shoulders, and hands from the upper left and front, with small lights in the background creating round bokeh. Skin shadows are shallow and smooth.\n\nComposition/Camera:\n3:4 aspect ratio. Near eye-level camera across the table, a close-range upper-body portrait viewed from slightly above. The top of the head is near the upper edge, the right elbow and torso are cut off at the edge, the face is centered in the upper half, and the ice cream and right hand are prominently placed in the lower center. Precisely focused on the face and ice cream, with the shop background heavily blurred by a shallow depth of field.\n\nTexture/Style:\nA high-definition photorealistic live-action photo taken under warm indoor light. Realistically depicts the natural texture of skin, fine strands of hair, knit stitches, camisole lace, fingertips, waffle cone grid, and the cold texture of slightly melting ice cream. Based on amber and reddish-brown tones, avoiding excessive skin-smoothing or illustrative styles.\n\nNegative:\nAlterations to facial features, short bob, or the positional relationship between tongue and ice cream",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "person",
-        "default": "young adult woman"
-      },
-      {
-        "name": "ice cream type",
-        "default": "strawberry ice cream"
-      },
-      {
-        "name": "outfit",
-        "default": "An ivory thin-strap camisole top"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786867798560_phnr6v_HPqmBuAaQAAHSmC.jpg",
-        "alt": "Strawberry Ice Cream Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2088589018875519101"
-    },
-    "publishedAt": "2026-08-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31609",
-    "contentHash": "b225b925c0363bfc448296869b5ffc1b6630cfde"
-  },
-  {
-    "id": "gpt-image-2:31634",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31634",
-    "title": "AI Image Realism Comparison",
-    "category": "Infographic / Edu Visual",
-    "description": "Generates a two-panel comparison graphic of realistic elderly woodcarver portraits labeled ChatGPT Image 2 and Grok Imagine 2.0.",
-    "promptText": "Create a side-by-side comparison graphic on a white background showing two AI image results from the same prompt. Canvas: landscape aspect ratio, approximately 580×420 px, clean white margins. Layout: two equal vertical image panels aligned horizontally with a narrow white gutter between them; each panel has a black sans-serif heading centered above it. Use exactly 2 headings: left heading “ChatGPT Image 2”, right heading “Grok Imagine 2.0”. Left panel: a highly realistic warm-toned portrait photo of an elderly East Asian woodcarver in a cluttered traditional workshop, gray hair tied back, long white beard and mustache, weathered face with fine wrinkles, wearing dark work clothes, holding a detailed carved wooden statue close to his chest with both hands, soft window light from the left, shelves and tools blurred in the background, dusty particles in the air, documentary realism. Right panel: a more cinematic but less natural portrait of an elderly East Asian craftsman seated at a workbench in a woodworking studio, balding gray hair, deeply wrinkled face, dark shirt, carving a small wooden figure with hand tools, strong dramatic sunlight from a window, many chisels and woodworking tools standing upright behind him, wood shavings scattered across the table, high contrast shadows, slightly artificial glossy look. Include exactly 1 small blue circular overlay icon near the center-left of the right panel, with a simple white symbol inside, resembling an interface marker. Overall style: realistic photographic comparison, left image more natural and detailed, right image more stylized and dramatic. No extra captions, no watermarks beyond the single blue overlay icon, no borders except the white page background.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786867815682_o58e01_HPxWUgbbcAAOP1O.png",
-        "alt": "AI Image Realism Comparison",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Aaron Cheng",
-      "url": "https://x.com/aaroncbuilder"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/aaroncbuilder/status/2088639889382559837#reversed-0"
-    },
-    "publishedAt": "2026-08-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31634",
-    "contentHash": "c939d64f2fa4732405e012fbf82c71189c2137cb"
-  },
-  {
-    "id": "gpt-image-2:31502",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31502",
-    "title": "Retro Geometric Future Culture Poster",
-    "category": "Infographic / Edu Visual",
-    "description": "A sophisticated prompt for generating high-contrast, flat retro-style posters with complex geometric layouts, sharp typography, and vintage ink textures.",
-    "promptText": "Construct any {argument name=\"theme\" default=\"future theme\"} into a retro cultural poster with a {argument name=\"background color\" default=\"black background\"} and strong flattening: at first glance, you see a large-scale high-contrast title and a group of thematic graphics repeated along depth and misplaced layer by layer. Text and images together form an oppressive black-and-white geometric composition rather than independent information areas. Use a nearly pure black background to carry heavy warm white text, with small amounts of {argument name=\"accent color\" default=\"dark red-brown or old gold\"} used only for fine horizontal lines, explanatory text, and weak emphasis; let the big title occupy the main visual weight at the top, and the information is divided into several nested cards with black backgrounds and white borders, interspersed with thematic objects along diagonal or stepped paths, creating a spatial rhythm like printed layouts being continuously copied, ghosted, and misplaced. The subject of the future theme should be dismantled into repeatable outlines, borders, or stacked slices, sharing the same hard-edged ink logic with cards, titles, and thin lines, forming a relationship where text and images block, intersperse, and nest within each other. The typeface adopts a high-contrast, narrow, and sculpted structure: heavy stems, obvious thickness contrast between horizontal and vertical strokes, sharp or slightly irregular corners at the endpoints, hard turns, and narrow internal cavities while maintaining long-distance recognition; no matter how the text system changes, it maintains tight character spacing, strong line spacing contrast, and a reading beat from large titles to small notes, making punctuation, accents, or other text marks obey the overall geometric axis. The image retains only a small amount of form that can support theme recognition, using layers of black, gray, and warm white and tough outlines, without adding soft gradients, commercial-grade polishing, or decorative details. Retain restrained traces of low-definition copying, slight misalignment, rough edges, local uneven inking, and old printing, but do not create serious damage out of thin air; the overall piece must look like a flat system completed by limited ink, repeating screens, and manual typesetting.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "theme",
-        "default": "future theme"
-      },
-      {
-        "name": "background color",
-        "default": "black background"
-      },
-      {
-        "name": "accent color",
-        "default": "dark red-brown or old gold"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786867791811_63be4q_HPuW9IgakAAqWid.jpg",
-        "alt": "Retro Geometric Future Culture Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786867791528_4m0rik_HPuVP5gbMAEXIyP.jpg",
-        "alt": "Retro Geometric Future Culture Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786867791901_kzcfkg_HPuVR_Sa8AAcnTS.jpg",
-        "alt": "Retro Geometric Future Culture Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786867792828_fb1zg3_HPuVT1AasAAmICC.jpg",
-        "alt": "Retro Geometric Future Culture Poster",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "小小东",
-      "url": "https://x.com/xiaoxiaodong01"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/xiaoxiaodong01/status/2088428890599694477"
-    },
-    "publishedAt": "2026-08-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31502",
-    "contentHash": "b470acfde437c3415714a906299280bd066c08af"
   }
 ]
