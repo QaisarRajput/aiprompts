@@ -1,5 +1,97 @@
 [
   {
+    "id": "nano-banana-pro:26821",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "26821",
+    "title": "Raven Summoner Cinematic Portrait",
+    "category": "Profile / Avatar",
+    "description": "A dramatic, cinematic prompt where a subject in formal attire summons a raven from smoke and ashes, designed for use with a reference photo.",
+    "promptText": "A hyper-realistic portrait photo from waist to head of me (use reference photo), wearing a {argument name=\"outfit\" default=\"high coat and a formal suit\"}. I'm standing sideways, my right hand raised and opening the fist while wearing {argument name=\"accessories\" default=\"black leather gloves\"}. My head is slightly lifted, following the direction of my raised palm. From my palm, a {argument name=\"creature\" default=\"black raven\"} emerges, fully formed from swirling ashes and smoke, with its lower body still composed of dust and smoke. Many other ravens I've created are flying around me, forming a chaotic yet natural swarm with varied wing positions and angles; some even perch on my shoulders. Feathers scatter in the wind. The wind blows from below, lifting my coat collar and slightly tousling my hair. My expression is intense yet calm as I summon the ravens. Apply a subtle grain or texture filter to enhance realism. The composition is seamless, with depth in the background, ensuring all elements - figure, coat, ravens, smoke, and feathers - appear integrated and naturally interacting with light and atmosphere. Dramatic, cinematic lighting emphasizes shadows, highlights, and details.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "outfit",
+        "default": "high coat and a formal suit"
+      },
+      {
+        "name": "accessories",
+        "default": "black leather gloves"
+      },
+      {
+        "name": "creature",
+        "default": "black raven"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782545112757_fcf0jv_HLwAa0zWUAAdR_-.jpg",
+        "alt": "Raven Summoner Cinematic Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Alex Prompts",
+      "url": "https://x.com/AlexPromptsAI"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AlexPromptsAI/status/2070530679809466537"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=26821",
+    "contentHash": "d36967e8292782d2c7a0a8b0da64c0ff8ede914e"
+  },
+  {
+    "id": "nano-banana-pro:26822",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "26822",
+    "title": "Minimalist Home Office Portrait",
+    "category": "Profile / Avatar",
+    "description": "Creates a hyper-realistic, candid iPhone-style photo of an East Asian woman working in a minimalist home office with natural lighting.",
+    "promptText": "A beautiful young {argument name=\"ethnicity\" default=\"East Asian woman\"} with a {argument name=\"hairstyle\" default=\"short platinum blonde bob haircut\"}, fair porcelain skin, soft natural makeup, and delicate facial features, sitting in a {argument name=\"setting\" default=\"modern minimalist home office\"} at a wooden desk. She is wearing a fitted white sleeveless top with elegant high-waisted cream wide-leg trousers that completely cover both legs, creating a modest yet stylish look. One hand rests on the keyboard while the other points toward the computer monitor as she looks slightly upward with a calm, thoughtful expression. A black ergonomic office chair, desktop computer, white shelves, books, small decorations, and soft wall art decorate the cozy workspace. Natural daylight streams through the window, mixed with warm indoor ambient lighting. Authentic handheld iPhone 16 Pro camera photo, casual smartphone photography, slightly wide-angle lens, subtle perspective distortion, realistic skin texture, unposed candid moment, full-body shot, vertical 3:4 composition, ultra-realistic, high detail, no AI look, no excessive beauty filter, DSLR-quality realism but unmistakably captured on an iPhone.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "ethnicity",
+        "default": "East Asian woman"
+      },
+      {
+        "name": "hairstyle",
+        "default": "short platinum blonde bob haircut"
+      },
+      {
+        "name": "setting",
+        "default": "modern minimalist home office"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782545113275_7vdufu_HLuOuVNaAAIqFV5.jpg",
+        "alt": "Minimalist Home Office Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Lore",
+      "url": "https://x.com/l_w_lorenzen"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/l_w_lorenzen/status/2070405417893863505"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=26822",
+    "contentHash": "edeac86644976c1beaf3ccc1d6ee223c03e05a83"
+  },
+  {
     "id": "nano-banana-pro:26833",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
@@ -6708,98 +6800,5 @@
     "publishedAt": "2026-06-15T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=25738",
     "contentHash": "156a6b8d262b25bcb7dcb38cdaa76c9f8055e240"
-  },
-  {
-    "id": "nano-banana-pro:25292",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "25292",
-    "title": "Luxury Mirror Selfie Portrait",
-    "category": "E-commerce Main Image",
-    "description": "A mobile photography-style prompt for a mirror selfie in a luxury closet, featuring precise face locking and modern aesthetics.",
-    "promptText": "Use uploaded reference face exactly, zero modification) FACE LOCK — ZERO MODIFICATION POLICY. Face must remain 100% identical. ASPECT RATIO • 3:4. STYLE: Ultra-Modern Mobile Photography. SCENE: Mirror selfie in a luxury walk-in closet. OUTFIT: {argument name=\"dress\" default=\"Satin emerald green slip dress\"}. PROP: Holding a {argument name=\"phone\" default=\"Titanium iPhone 17 Pro Max\"} with triple-lens detail visible. POSE: Standing in front of a mirror, subtle smile, one hand on the hip. LIGHTING: normal, BACKGROUND: Designer bags and soft-lit shelves. CAMERA: Mobile photography style, sharp focus. IMAGE QUALITY: 8K, realistic skin.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "dress",
-        "default": "Satin emerald green slip dress"
-      },
-      {
-        "name": "phone",
-        "default": "Titanium iPhone 17 Pro Max"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1781336382283_ahyfxz_HKlQpLpbMAAy-po.jpg",
-        "alt": "Luxury Mirror Selfie Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Salina",
-      "url": "https://x.com/Salina4nco"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Salina4nco/status/2065270575439007863"
-    },
-    "publishedAt": "2026-06-12T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=25292",
-    "contentHash": "968a0d01accd3abbac81a1d12d2198db63438691"
-  },
-  {
-    "id": "nano-banana-pro:25010",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "25010",
-    "title": "Macro Luxury Biscuit Milk Splash",
-    "category": "E-commerce Main Image",
-    "description": "A commercial food photography prompt for generating high-detail images of biscuits with dynamic milk splashes.",
-    "promptText": "Ultra-realistic {argument name=\"product name\" default=\"[BISCUIT NAME]\"} biscuits stacked dynamically in mid-air, slightly broken to reveal rich texture, creamy filling / buttery layers visible, dramatic milk splash forming artistic curves around the biscuits, soft biscuit crumbs suspended in air, glossy milk droplets frozen in motion, {argument name=\"background\" default=\"dark studio gradient background\"}, cinematic professional lighting, macro food photography, ultra-sharp focus, high contrast, premium luxury commercial advertisement style, dramatic splash effect, hyper-detailed textures, photorealistic, 8K ultra-high resolution\nAspect ratio {argument name=\"aspect ratio\" default=\"3:4\"}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "product name",
-        "default": "[BISCUIT NAME]"
-      },
-      {
-        "name": "background",
-        "default": "dark studio gradient background"
-      },
-      {
-        "name": "aspect ratio",
-        "default": "3:4"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1781165157861_nidqfn_HKbsM0SbkAAiGTg.jpg",
-        "alt": "Macro Luxury Biscuit Milk Splash",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1781165157728_0kes3r_HKbsM0Ua4AAr7g_.jpg",
-        "alt": "Macro Luxury Biscuit Milk Splash",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Aaqib | Ai",
-      "url": "https://x.com/CodeOfFuture"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CodeOfFuture/status/2064597275809366318"
-    },
-    "publishedAt": "2026-06-10T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=25010",
-    "contentHash": "edaeb0cc699ddb320bcdbe7c33d026f5b4b75296"
   }
 ]

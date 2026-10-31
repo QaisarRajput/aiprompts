@@ -1,5 +1,428 @@
 [
   {
+    "id": "gpt-image-2:28075",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28075",
+    "title": "Vintage Family Expedition Newspaper",
+    "category": "Comic / Storyboard",
+    "description": "Generates a personalized retro newspaper front page for a family travel adventure or birthday trip announcement.",
+    "promptText": "Goal: Create a vintage illustrated front page of a personalized expedition newspaper for a family trip, titled {argument name=\"newspaper title\" default=\"THE VOLKOV EXPEDITION TIMES\"}, with a warm 1950s adventure-comic look and aged paper texture.\n\nCanvas: Vertical newspaper page, approximately 4:5 ratio, cream newsprint background with subtle speckles, black ink borders, muted teal, orange, yellow, and red accents. Use bold woodblock-style serif typography for headlines and hand-inked editorial illustration shading.\n\nTop masthead: Large dark teal rectangle with golden serif title text reading “THE VOLKOV EXPEDITION TIMES.” Under it, an orange ribbon banner reading {argument name=\"edition banner\" default=\"Alex’s 40th Birthday Edition\"}. Add a small airplane icon on the left flying through a sunset sky. Below the ribbon, centered subheadline reads “Day 1 Fruth Page — LIFTOFF!” and a small dateline line reads “Wednesday, July 15, 2026 • Vol. 40, No. 1.”\n\nMain headline: Huge all-caps black newspaper headline across the page: {argument name=\"main headline\" default=\"EXPLORERS LEAVE DENVER AT DAWN!\"}\n\nMain illustration: A large framed comic-style scene inside an airplane cabin. Show exactly 4 family members seated or standing by the airplane windows: 1 blonde little girl in a red-and-white striped shirt, denim shorts, and pink clogs standing at the window with one hand raised; 1 curly-haired little boy in a navy shirt, light shorts, and green clogs leaning toward the window; 1 smiling adult man with short brown hair, beard, glasses, navy shirt, tan shorts, sandals, pointing excitedly out the window while holding a small newspaper; 1 smiling adult woman with long black hair, denim shirt dress, brown belt, and cowboy boots seated beside him holding the same newspaper. Through the large airplane window, show snowy mountain peaks, blue water, clouds, and a clearly visible red Golden Gate Bridge in the distance, mixing travel landmarks in a whimsical way. The airplane interior should include blue seats, window frames, cabin wall panels, and warm sunlight.\n\nBottom information boxes: Include exactly 3 lower content areas. First box on the left titled “TODAY’S MISSION,” dark green header, with text: “TODAY’S MISSION: Spot 3 sea lions napping at Pier 39. Bark once (quietly) in their honor.” Add a small sea lion illustration. Second box on the right titled “MY WEATHER/LOG,” orange header, with a cheerful sun icon and a form-like weather report that says “MY WEATHER REPORT — Denver this morning:” followed by blank lines for temperature, San Francisco, and fog yes/no. Third box spans the bottom in dark green and contains exactly 2 fact blurbs separated by a vertical line: left blurb with a circular “DID YOU KNOW?” badge and a small bird/wing icon, reading “Jets cruise 35,000 feet up — that’s 6 miles above your house!”; right blurb with a sourdough bread illustration, reading “And San Francisco’s famous sourdough bread comes from a ‘mother dough’ that bakers have kept alive since 1849.”\n\nFooter: Small centered footer with a tiny bus icon and text “Day 1 • Page 1.”\n\nConstraints: Keep all text legible and arranged like a printed newspaper front page. Use exactly 4 people, exactly 3 lower content areas, exactly 2 fact blurbs, exactly 1 airplane icon, exactly 1 sea lion illustration, exactly 1 sun icon, exactly 1 sourdough bread illustration, and exactly 1 tiny bus icon. Do not add extra panels, extra characters, logos, watermarks, QR codes, or modern UI elements.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "newspaper title",
+        "default": "THE VOLKOV EXPEDITION TIMES"
+      },
+      {
+        "name": "edition banner",
+        "default": "Alex’s 40th Birthday Edition"
+      },
+      {
+        "name": "main headline",
+        "default": "EXPLORERS LEAVE DENVER AT DAWN!"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588824477_ig2aqf_HMtzQLSakAAugiZ.jpg",
+        "alt": "Vintage Family Expedition Newspaper",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588824462_80pycg_HMtzYHlbkAE3XLN.jpg",
+        "alt": "Vintage Family Expedition Newspaper",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588824481_g3m5wg_HMt0XK8a8AAb1x6.jpg",
+        "alt": "Vintage Family Expedition Newspaper",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588825237_vu7meg_HMt0ZAfbMAAwZyM.jpg",
+        "alt": "Vintage Family Expedition Newspaper",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Alex Volkov @ AI Engineer",
+      "url": "https://x.com/altryne"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/altryne/status/2074885728488821013#reversed-0"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28075",
+    "contentHash": "a78c1b2a2c86a1d8f4052fc3dd39a616c424c579"
+  },
+  {
+    "id": "gpt-image-2:28061",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28061",
+    "title": "Anime Lantern Girl Character Sheet",
+    "category": "Comic / Storyboard",
+    "description": "A polished anime concept art prompt for generating a complete magical lantern-girl character reference sheet with expressions, palette, items, and turnaround views.",
+    "promptText": "Goal: Create an elegant anime character design sheet for {argument name=\"character name\" default=\"YOI\"}, a young magical lantern-bearer girl with a refined twilight fantasy aesthetic.\n\nCanvas: Wide horizontal character sheet, about 16:9, soft cream parchment background with pale lavender and peach gradients, subtle bokeh lights, faint sparkles, and a delicate gold ornamental nameplate in the upper left.\n\nMain illustration: On the left half, show a large three-quarter portrait/full upper-body illustration of the character holding a glowing hanging lantern from a thin golden wand. She has {argument name=\"hair color\" default=\"very dark navy-black hair with warm blonde glowing tips\"}, long flowing hair, straight bangs, golden amber eyes, and small ribbon-and-bell hair ornaments. Her expression is calm and gentle. The lantern emits warm yellow-orange light that softly illuminates her face, hand, and outfit.\n\nCharacter outfit: Design a layered dark navy magical school-uniform-inspired outfit with gold trim, brass buttons, a short capelet/cloak that fades into starry sparkles, a structured jacket, layered ruffled skirt, burgundy ribbon accents, striped burgundy-and-cream stockings, and black ankle boots with gold details. The overall motif should feel celestial, lantern-lit, antique, and slightly Victorian.\n\nTop row expression sheet: Include exactly 6 small headshot panels arranged horizontally across the upper right, each with a cream square background and a small label underneath. The 6 expressions are: 1. Calm, 2. Gentle Smile, 3. Surprised, 4. Sad, 5. Determined, 6. Knowing Glance. Keep the same character, hair ornaments, bangs, and lighting style consistent in every expression.\n\nColor palette: Place a vertical color palette near the center-right labeled “Color Palette.” Include exactly 6 rectangular swatches: 1. deep navy, 2. muted burgundy, 3. antique gold, 4. warm orange, 5. pale cream-yellow, 6. rose pink.\n\nSignature items: Add a labeled section “Signature Items” on the upper right with exactly 2 objects: 1. the glowing oval paper lantern hanging from a slim gold wand, 2. a small antique rectangular charm/book-like device with a star emblem and attached cord. Render them as neat item illustrations on a pale panel.\n\nBottom model sheet: Along the bottom, include exactly 4 full-body turnaround panels on clean cream rectangles, each labeled underneath: 1. Front View, 2. Side View, 3. Back View, 4. 3/4 View. The front view shows the lantern wand held outward; the side view emphasizes the cape silhouette; the back view shows the long hair gradient and starry cloak; the 3/4 view shows a dynamic walking pose with the lantern.\n\nVisual style: Polished Japanese anime concept art, soft painterly rendering, delicate linework, glowing highlights, gold accents, warm magical lighting, high detail but airy composition, premium character reference sheet presentation.\n\nConstraints: Use only the visible English labels described above, keep the layout clean and balanced, avoid extra characters, avoid logos or watermarks, and preserve the exact counts of 6 expressions, 6 color swatches, 2 signature items, and 4 full-body views.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "YOI"
+      },
+      {
+        "name": "hair color",
+        "default": "very dark navy-black hair with warm blonde glowing tips"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588816962_4caghl_HMty38vaYAAa6Be.jpg",
+        "alt": "Anime Lantern Girl Character Sheet",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588817198_equs4a_HMty6iOakAAXTZx.jpg",
+        "alt": "Anime Lantern Girl Character Sheet",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "A.I.Warper",
+      "url": "https://x.com/AIWarper"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AIWarper/status/2074878538122236202#reversed-0"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28061",
+    "contentHash": "cb7b7783b272f12808ca8ac6bd1e312ec49ac762"
+  },
+  {
+    "id": "gpt-image-2:28031",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28031",
+    "title": "Vintage Name Dragon Storybook Poster",
+    "category": "Comic / Storyboard",
+    "description": "Creates a whimsical fantasy children's book cover with ornate lettering, a baby dragon, a girl, an owl, and a fox in a magical library.",
+    "promptText": "Goal: Create a richly illustrated vintage storybook poster cover for a fantasy children's tale titled {argument name=\"title text\" default=\"The Name Dragon\"}, with a warm, magical library scene and ornate hand-lettered typography.\n\nCanvas: Vertical portrait poster, 3:4 aspect ratio, like an aged illustrated book cover. Use a dark teal-black background with distressed parchment texture, copper-orange decorative border, corner flourishes, stars, moons, and tiny magical sparkles.\n\nTop typography: The upper half is dominated by large ornate serif lettering reading {argument name=\"title text\" default=\"The Name Dragon\"}. The letters are warm antique gold with engraved line texture, subtle shadowing, curled swashes, and a hand-printed vintage look. Above and around the title are small stars, a crescent moon, a small flame icon at the top center, and symmetrical vine-like flourishes. Beneath the title is a small shield crest with a flame emblem, then the subtitle {argument name=\"subtitle text\" default=\"Every roar remembers home\"} in cream-gold serif type.\n\nMain scene: The lower half shows a cozy magical library inside an arched alcove glowing with sunset light. Bookshelves, lanterns, scrolls, framed art, plants, and warm amber light fill the background. The floor is covered with scattered parchment name cards and golden sparkles.\n\nCharacters: Include exactly 4 main characters. 1) A small orange baby dragon seated at center, cute and expressive, with round green eyes, little gray horns, red-orange scales, tiny wings, a curled tail, and clawed feet; it holds a parchment reading {argument name=\"dragon parchment text\" default=\"Who am I?\"}. 2) A young girl sitting on the left, brown hair tied in a messy bun with a red ribbon, wearing a teal embroidered cloak and red scarf, smiling gently with her chin in her hand. 3) A wise owl on the right wearing round spectacles and a dark robe, reading a brown book labeled {argument name=\"book title\" default=\"The Book of Names\"}. 4) A small orange fox at the lower right wearing a green scarf, looking toward the dragon with curiosity.\n\nVisible text and countable items: Include exactly 6 loose name cards on the floor labeled: “Scorch”, “Spark”, “Ember”, “Puff”, “Home”, and “Blazy”. Add one hanging red banner on the left bookshelf with the text {argument name=\"banner text\" default=\"NAMES LIVE IN MEMORIES AND HEARTS\"}. Keep the title, subtitle, dragon parchment, owl book label, banner, and six name cards readable.\n\nVisual style: Whimsical hand-painted children's book illustration, vintage fantasy cover, warm orange and gold lighting, deep teal shadows, textured paper grain, slightly imperfect ink lines, ornate decorative framing, cozy emotional atmosphere. Avoid photorealism, modern UI elements, or extra characters.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "title text",
+        "default": "The Name Dragon"
+      },
+      {
+        "name": "subtitle text",
+        "default": "Every roar remembers home"
+      },
+      {
+        "name": "dragon parchment text",
+        "default": "Who am I?"
+      },
+      {
+        "name": "book title",
+        "default": "The Book of Names"
+      },
+      {
+        "name": "banner text",
+        "default": "NAMES LIVE IN MEMORIES AND HEARTS"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588805109_230a5k_HMtpRUPbgAEqsJz.jpg",
+        "alt": "Vintage Name Dragon Storybook Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588805442_celadt_HMtpUDibQAAKduw.jpg",
+        "alt": "Vintage Name Dragon Storybook Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "cole",
+      "url": "https://x.com/YUFANCHEN423652"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/YUFANCHEN423652/status/2074874196027662603#reversed-0"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28031",
+    "contentHash": "0df55737f97c4469f285135a598aa81b5874261f"
+  },
+  {
+    "id": "gpt-image-2:28055",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28055",
+    "title": "Anime Monster Hunter Quest Card",
+    "category": "Comic / Storyboard",
+    "description": "Creates a cinematic fantasy anime quest screen featuring a dark-elf archer facing a colossal moonlit abyss dragon with Japanese RPG UI panels.",
+    "promptText": "Goal: Create a dramatic anime fantasy game quest-card key visual for a monster-hunting scene, styled like a high-rank RPG hunt announcement.\n\nCanvas: Wide cinematic 16:9 illustration, dark blue and violet night palette, ultra-detailed anime rendering, high contrast moonlight, glowing purple magic, ornate black-and-gold fantasy UI frames overlaid on the artwork.\n\nMain scene: On the left foreground, show one female dark-elf archer hunter named {argument name=\"character name\" default=\"ニーナ＝ジェニュイン\"}. She has long flowing {argument name=\"hair color\" default=\"silver-lavender hair\"}, pointed elf ears, small black-purple demon horns, violet eyes, and a fierce focused expression. She wears black gothic fantasy armor with fur around the shoulders, layered leather and metal pieces, thigh armor, purple cloak ribbons, and luminous amethyst accents. She is kneeling or bracing in an action pose, drawing a large ornate black bow with jagged metallic limbs and glowing violet crystal cores; the arrow is aimed toward the monster on the right.\n\nMonster and environment: On the right midground/background, depict exactly one colossal abyssal moon-shadow dragon or serpent beast rising from a rocky lake. It has a long coiling body, jagged black scales, many sharp spines, a horned head, glowing purple eyes and mouth, and violet energy cracks radiating through its body. Place it under a bright full moon in a stormy night sky. The setting is a ruined obsidian canyon with sharp rock spires, reflective dark water, scattered purple crystals, magical sparks, mist, and moonlit clouds.\n\nUI overlay: Include exactly 4 separate ornate fantasy interface panels with black interiors, thin gold borders, corner flourishes, and Japanese text. Panel 1 is the top-left quest rank badge, labeled 「クエストランク」 and showing one gold star icon followed by the large number 「7」. Panel 2 is centered near the top, labeled 「クエスト名」 with the quest title {argument name=\"quest title\" default=\"深淵に嘯く月影\"}. Panel 3 is a long bottom-center quest objective bar, labeled 「クエスト内容」 and containing {argument name=\"quest objective\" default=\"深淵の月影獣を討伐し、周辺の脅威を鎮めよ。\"}. Panel 4 is the bottom-right hunter info card with a small bow icon on the left, the label 「名前」 above the character name, and the label 「武器種」 above 「弓」.\n\nStyle constraints: Make the illustration polished, high-detail, fantasy anime concept-art quality, with sharp linework, dramatic lighting, deep blues and purples, gold UI trim, no watermark, no modern objects. Keep the archer and dragon clearly separated left and right, and ensure the UI text is legible and integrated like an official game quest screen.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "ニーナ＝ジェニュイン"
+      },
+      {
+        "name": "hair color",
+        "default": "silver-lavender hair"
+      },
+      {
+        "name": "quest title",
+        "default": "深淵に嘯く月影"
+      },
+      {
+        "name": "quest objective",
+        "default": "深淵の月影獣を討伐し、周辺の脅威を鎮めよ。"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588814841_rck2n1_HMtXb2YawAAmf6g.jpg",
+        "alt": "Anime Monster Hunter Quest Card",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ニーナ＝ジェニュイン＠AIイラスト娘",
+      "url": "https://x.com/Nina_Genuine"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Nina_Genuine/status/2074864582724554875#reversed-0"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28055",
+    "contentHash": "0a9f6119c6936948b419f274c8b07ba7fb602921"
+  },
+  {
+    "id": "gpt-image-2:28002",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28002",
+    "title": "Queen and Snake Portrait",
+    "category": "Comic / Storyboard",
+    "description": "A concise prompt for generating an artistic image of a queen accompanied by a snake.",
+    "promptText": "{argument name=\"person\" default=\"Queen\"} and {argument name=\"animal\" default=\"Snake\"}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "person",
+        "default": "Queen"
+      },
+      {
+        "name": "animal",
+        "default": "Snake"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588790008_5nhxz9_HMtba6AaYAAz5tR.jpg",
+        "alt": "Queen and Snake Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "カーブミラー",
+      "url": "https://x.com/kabumira862571"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/kabumira862571/status/2074852583337087240"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28002",
+    "contentHash": "0e9b84f06b9d00ab2adbbe16e9dd4bf8c727345e"
+  },
+  {
+    "id": "gpt-image-2:28046",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28046",
+    "title": "Sepia Hamster Violinist Salon",
+    "category": "Comic / Storyboard",
+    "description": "A warm antique-style illustration of a fluffy hamster musician in an ornate classical salon, ideal for whimsical storybook or music-themed artwork.",
+    "promptText": "Create a square sepia-toned storybook illustration of {argument name=\"main character\" default=\"a fluffy cream-colored hamster\"} standing in the center of an elegant old European music salon, eyes gently closed and head bowed as if finishing a performance. The hamster is round, soft, and very detailed with fine ink hatching, tiny paws, small ears, and a calm solemn expression, holding a delicate violin bow across its chest with a tiny dark violin or instrument tucked near its paws. The setting is a richly decorated classical room with polished reflective wooden floors, tall paneled walls covered in ornate rococo carvings, a bright window with sheer curtains on the left, and antique furniture. Include exactly 3 prominent background objects: an ornate upholstered chair on the left, a large cello leaning upright on the right, and a vase of pale flowers on a small carved table behind the cello. Use warm monochrome beige, brown, and cream tones, like an antique pencil-and-ink wash drawing with soft backlighting, subtle floor reflections, intricate linework, nostalgic atmosphere, and no visible text or modern objects.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "main character",
+        "default": "a fluffy cream-colored hamster"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588811000_9ks7mk_HMs_hHwbEAA4jsE.jpg",
+        "alt": "Sepia Hamster Violinist Salon",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "🐹🐹",
+      "url": "https://x.com/hmst_yyyy"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/hmst_yyyy/status/2074821895942541458#reversed-0"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28046",
+    "contentHash": "d74fd2eb5573b793d6dc6d37b96bfec846647448"
+  },
+  {
+    "id": "gpt-image-2:27998",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27998",
+    "title": "Character Aging Consistency Test",
+    "category": "Comic / Storyboard",
+    "description": "A prompt designed to test character consistency across six different age stages from 20 to 45 years old.",
+    "promptText": "Run a test for a {argument name=\"character\" default=\"female character\"} across six age stages from {argument name=\"start age\" default=\"20 years old\"} to {argument name=\"end age\" default=\"45 years old\"}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character",
+        "default": "female character"
+      },
+      {
+        "name": "start age",
+        "default": "20 years old"
+      },
+      {
+        "name": "end age",
+        "default": "45 years old"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588788076_i7lwlq_HMsx7skbMAEJWAq.jpg",
+        "alt": "Character Aging Consistency Test",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "𝟡𝟜 ᴾᴸᴬʸᶠᴼᴿᴳᴱ",
+      "url": "https://x.com/94vanAI"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/94vanAI/status/2074806964891373602"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27998",
+    "contentHash": "6db435bffbc270d343313243cfbc4e7262ea3d64"
+  },
+  {
+    "id": "gpt-image-2:28056",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28056",
+    "title": "Japanese Manga A/B Testing Comic",
+    "category": "Comic / Storyboard",
+    "description": "Generates a four-panel Japanese manga comic explaining automated A/B testing for landing page optimization.",
+    "promptText": "Goal: Create a square 2x2 Japanese manga-style promotional comic explaining an automated A/B testing feature for a landing page. Use {argument name=\"feature topic\" default=\"A/B testing automation\"} as the product theme, with an approachable small-business SaaS feeling.\n\nCanvas: Square image, four equal comic panels separated by thick black gutters, arranged in reading order with small white panel-number boxes: 1 at top right, 2 at top left, 3 at bottom right, 4 at bottom left. Hand-drawn ink outlines, warm watercolor shading, off-white paper texture, subtle screen-tone dots, clean readable Japanese lettering in speech bubbles and UI cards.\n\nMain character: A young Japanese male designer, about late 20s to early 30s, short messy black hair, expressive face, wearing a light blue button-up shirt and a dark navy apron. Keep him consistent in all panels. Include a cute small robot assistant in panel 2: round black screen face with glowing eyes, white body, blue ear-like side parts, small antenna, friendly mascot pose.\n\nPanel 1, top right: Nighttime office scene. The designer sits at a desk using a laptop, looking worried and tired, one hand in his hair. Outside the window is a dark city skyline with a crescent moon and stars. Wall clock shows midnight. Desk includes a white mug, notebook, pen, and papers. Speech bubble text: 「デザインAとB… どっちが売れるんだ…」.\n\nPanel 2, top left: Bright decision/setup scene. The robot stands beside the desk and gestures toward the laptop. The designer leans in, smiling with interest and touching his chin. Laptop screen shows an A/B settings interface with exactly two design cards labeled 「デザインA」 and 「デザインB」, a test period line 「4/20～4/26」, a traffic split slider showing 50% and 50%, and a large blue button labeled 「テストを開始する」. Speech bubble text: 「両方試して、お客さんに決めてもらいましょう」.\n\nPanel 3, bottom right: Automation scene at night. The designer sleeps peacefully in an office chair with arms folded, “Z” marks near him, while the laptop/tablet screen in the foreground shows the daily display pattern. Include a clock at midnight and three hanging calendar pages labeled exactly: 「4/20(日)」, 「4/21(月)」, 「4/22(火)」 with arrows between them. Screen title: 「本日の表示パターン」. The screen shows exactly three product-display cards in sequence labeled デザインA, デザインB, デザインA, then an ellipsis. Top caption box text: 「毎日0時に自動で切り替え。あなたは何もしなくてOK」.\n\nPanel 4, bottom left: Results/winner scene. The designer is excited, smiling, and raising a fist. Laptop screen displays a results chart titled 「テスト結果（クリック率）」 with exactly two vertical bars labeled A and B. A is gray at 1.2%, B is blue at 1.68%, with a red upward arrow and badge reading 「1.4倍!」. Include a gold ribbon badge reading 「勝者B」 and a side note on the screen reading 「自動で本採用」. Speech bubble text: 「Bがクリック率1.4倍！ 勝者は自動で本採用」. Small bottom reaction bubble: 「勘、いらなかった…」.\n\nVisual style: Japanese web manga / educational SaaS comic, friendly and polished, clear panel composition, expressive faces, soft watercolor colors, cream paper background, detailed but uncluttered office props, legible UI mockups on laptop screens.\n\nConstraints: Use exactly 4 panels and exactly the numbered panel order described. Preserve all Japanese text exactly as specified. Do not add extra panels, extra characters besides the designer and the one robot mascot, watermarks, logos, or unrelated captions.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "feature topic",
+        "default": "A/B testing automation"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588815162_7uee0j_HMsYEbUakAEnVgN.jpg",
+        "alt": "Japanese Manga A/B Testing Comic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "楽天ABテスト完全自動化サービス@イージークリエイティブ",
+      "url": "https://x.com/EasyCreative_"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/EasyCreative_/status/2074778573131641335#reversed-0"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28056",
+    "contentHash": "9ffc3b66b96295636e6bc55e8e2feb953f9a2693"
+  },
+  {
+    "id": "gpt-image-2:28067",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28067",
+    "title": "Anime Girl at Claw Machine",
+    "category": "Comic / Storyboard",
+    "description": "A detailed vertical anime illustration of a kimono-clad girl happily pointing at a giant shiba inu plush inside a pink arcade claw machine.",
+    "promptText": "Create a vertical 9:16 anime-style illustration set inside a colorful Japanese arcade. Show a cheerful young woman, {argument name=\"character name\" default=\"unnamed anime girl\"}, standing close to a pink claw machine and pointing excitedly at a giant plush shiba inu prize inside the glass cabinet. She has short tousled {argument name=\"hair color\" default=\"champagne blonde\"} hair with soft layered bangs, bright golden-green eyes, fair skin, rosy cheeks, and an open joyful smile. Dress her in an elegant modern kimono outfit: translucent white outer sleeves with detailed white floral patterns, olive-green trim, a black floral skirt layer, gold chains, pearl accents, tassels, a dark obi belt, dangling pearl earrings, and a small botanical hair ornament near one ear. The claw machine should be glossy pink with glass panels, LED strip lighting, a joystick and glowing blue button on the control panel, and a metal claw hanging above the plush. The plush should be oversized, round, tan-and-cream, smiling, with blush cheeks, paw pads, and a green patterned bandana. Use a close medium composition with the girl on the left and the plush on the right, her fingertip nearly touching the glass. Background: softly blurred neon arcade with pink, purple, and blue bokeh lights, prize machines, reflections, and warm overhead glow. Visual style: polished high-detail anime key visual, cinematic lighting, soft depth of field, glossy reflections, delicate hair strands, intricate fabric embroidery, vibrant but pastel arcade colors, cute and inviting mood. No text, no watermark, no extra characters.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "unnamed anime girl"
+      },
+      {
+        "name": "hair color",
+        "default": "champagne blonde"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783588819921_lrsa9r_HMsN_4_bEAAG66_.jpg",
+        "alt": "Anime Girl at Claw Machine",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "essan | AIクリエイター",
+      "url": "https://x.com/essan_x"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/essan_x/status/2074767449262793198#reversed-0"
+    },
+    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28067",
+    "contentHash": "8a43df52dfbe08cfa29ef23bb145a8c3dc4fe522"
+  },
+  {
     "id": "gpt-image-2:27917",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6777,441 +7200,5 @@
     "publishedAt": "2026-07-04T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27678",
     "contentHash": "2327842c650afff2b2f613fff709076bbd43d515"
-  },
-  {
-    "id": "gpt-image-2:27698",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27698",
-    "title": "Rainy Afternoon Photo Collage",
-    "category": "Social Media Post",
-    "description": "A complex prompt for a candid six-panel photo collage that looks like an iPhone camera roll from a rainy day downtown.",
-    "promptText": "A candid photo-dump collage designed to feel like {argument name=\"subject\" default=\"[HUMAN]\"}'s phone gallery from one {argument name=\"weather\" default=\"rainy afternoon\"} running errands downtown. [HUMAN] wears a damp {argument name=\"outfit\" default=\"charcoal-grey oversized trench coat layered over a cream ribbed turtleneck, faded black straight-leg jeans and worn white leather sneakers\"}. The mechanic is a six-panel grid stitched together like an iPhone camera roll, each photo slightly water-speckled on the lens with soft flash hotspots bouncing off wet pavement. Panels: a blurry mirror shot in a shop's rain-fogged window, an overhead shot of shoes splashing through a puddle at a crosswalk, a low-angle shot from a bus shelter bench looking up mid-laugh, a fisheye selfie under an umbrella inches from the lens, a candid shot reflected in a coffee cup lid on a café table, and a motion-blurred shot taken mid-stride on an escalator. Expressions shift from a squinting laugh in the rain to a skeptical side-eye at a shop window to a quiet, unposed half-smile on the bus. Cohesive charcoal grey, cream, faded black and wet-pavement silver palette. Premium candid lifestyle photography, visible grain and uneven exposure, no glossy textures, aspect ratio 4:5.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "[HUMAN]"
-      },
-      {
-        "name": "weather",
-        "default": "rainy afternoon"
-      },
-      {
-        "name": "outfit",
-        "default": "charcoal-grey oversized trench coat layered over a cream ribbed turtleneck, faded black straight-leg jeans and worn white leather sneakers"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241308488_e0kpcy_HMZbP7gb0AAhqb3.jpg",
-        "alt": "Rainy Afternoon Photo Collage",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "AI XO",
-      "url": "https://x.com/Airijinpei"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Airijinpei/status/2073445093860855983"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27698",
-    "contentHash": "cf33ef8205e8bb70d25a016e281cb31eada6057c"
-  },
-  {
-    "id": "gpt-image-2:27654",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27654",
-    "title": "Cyber Core Editorial Surveillance Photography",
-    "category": "Social Media Post",
-    "description": "A futuristic street-style photography prompt that blends high-fashion outfits with digital HUD elements and a surveillance-angle perspective.",
-    "promptText": "Cyber core editorial photography of {argument name=\"subject\" default=\"[HUMAN]\"} wearing {argument name=\"clothing\" default=\"[CLOTHING]\"}, walking through {argument name=\"scene\" default=\"[SCENERY]\"} with [ANIMAL]. Realistic candid street photo from a slightly elevated surveillance-like angle, clean natural motion, stylish everyday fashion, and a calm cinematic mood. Add elegant digital interface elements: face-detection frame, object labels, identity card panel, subtle scan lines, thin HUD boxes, small data text, tracking points, timestamp, and minimal biometric graphics, all clean and well-spaced. Use [PALETTE] with realistic lighting, polished photography, soft contrast, sharp details, and a refined futuristic design language. Beautiful, minimal, and not cluttered, aspect ratio 4:5.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "[HUMAN]"
-      },
-      {
-        "name": "clothing",
-        "default": "[CLOTHING]"
-      },
-      {
-        "name": "scene",
-        "default": "[SCENERY]"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241279541_krj648_HMZZ5hyacAA5HoB.jpg",
-        "alt": "Cyber Core Editorial Surveillance Photography",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241279574_z8pdig_HMZZ5hxbgAAi2Xy.jpg",
-        "alt": "Cyber Core Editorial Surveillance Photography",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Kashberg",
-      "url": "https://x.com/Kashberg_0"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Kashberg_0/status/2073443628895408301"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27654",
-    "contentHash": "e4d9dada79d60da0ac2de2912f4b292cdb18b9c5"
-  },
-  {
-    "id": "gpt-image-2:27649",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27649",
-    "title": "Classic Monte Carlo Sunset Shot",
-    "category": "Social Media Post",
-    "description": "A cinematic automotive photography prompt for gpt-image-2 featuring a 1987 Monte Carlo on a Los Angeles hilltop.",
-    "promptText": "A cinematic, wide-angle shot at dusk at a {argument name=\"location\" default=\"Los Angeles, subran hill top\"} (wet ground, hollywood sign). city skyline glittering in the distant background, graffiti and street art on nearby walls, A sleek {argument name=\"car\" default=\"1987 black monte carlo\"}, metallic black with race stripes is positioned center-frame. The scene features soft studio-quality lighting, clean neutral color grade, professional automotive photography. wet pavement with mirror-like reflections, The overall atmosphere is dark, moody, and hyper-realistic with high-contrast shadows. Shot on a {argument name=\"camera\" default=\"RED camera with a 24mm anamorphic lens\"}, high contrast, cinematic color grading.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "location",
-        "default": "Los Angeles, subran hill top"
-      },
-      {
-        "name": "car",
-        "default": "1987 black monte carlo"
-      },
-      {
-        "name": "camera",
-        "default": "RED camera with a 24mm anamorphic lens"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241277123_48tqst_HMZMJIAbsAANMkt.jpg",
-        "alt": "Classic Monte Carlo Sunset Shot",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241277172_i4h4oz_HMZMJvSbsAEVIlE.jpg",
-        "alt": "Classic Monte Carlo Sunset Shot",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241277136_kxganj_HMZMKTXacAA0UdE.jpg",
-        "alt": "Classic Monte Carlo Sunset Shot",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241277854_ynguz9_HMZMKzIaEAAgKog.jpg",
-        "alt": "Classic Monte Carlo Sunset Shot",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Saul Goodman",
-      "url": "https://x.com/Goodmanprotocol"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Goodmanprotocol/status/2073428437281419657"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27649",
-    "contentHash": "ed6a9f54fc2d4ca5262166abf8eb7042431d2c1e"
-  },
-  {
-    "id": "gpt-image-2:27626",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27626",
-    "title": "Western Woman in Giant Claw Machine",
-    "category": "Social Media Post",
-    "description": "A dreamlike, high-fashion prompt for gpt-image-2 featuring a woman sitting inside a giant pink claw machine filled with plushies.",
-    "promptText": "Subject: {argument name=\"subject\" default=\"A beautiful young Western woman with long golden wavy hair, exquisite and glamorous makeup, full lips, and a playful, seductive, and cute expression\"}\nClothing: {argument name=\"clothing\" default=\"A short, flowy light pink summer dress, light and airy, barefoot\"}\nPose: Gracefully sitting on the giant metal claw of a claw machine, one hand gripping the hook, legs dangling naturally and swinging slightly, a playful yet elegant pose\nScene: {argument name=\"scene\" default=\"Inside a giant transparent glass claw machine, surrounded by giant pink teddy bears, pink unicorn plushies, rainbow manes, sparkling horns, various macaron-colored plush toys, and a mountain of plushies, looking like being trapped in an oversized claw machine.\"}\nAtmosphere: Dreamy, girly, cute, fairytale-like, playful, high-fashion vibe; style blends Kawaii (Japanese cute), Glamour Fashion, and Dreamy Surrealism\nLighting: Soft volumetric light, pink neon lights, rim light, dreamy soft focus, cinematic lighting\nPhotography Style: Realistic photography, fashion magazine cover, dreamy surrealism, cinematic, high-end commercial photography\nQuality Requirements: Ultra-high detail, HDR, Masterpiece, Best Quality, Sharp Focus, 8K, High Resolution\nAspect Ratio: 9:16",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "A beautiful young Western woman with long golden wavy hair, exquisite and glamorous makeup, full lips, and a playful, seductive, and cute expression"
-      },
-      {
-        "name": "clothing",
-        "default": "A short, flowy light pink summer dress, light and airy, barefoot"
-      },
-      {
-        "name": "scene",
-        "default": "Inside a giant transparent glass claw machine, surrounded by giant pink teddy bears, pink unicorn plushies, rainbow manes, sparkling horns, various macaron-colored plush toys, and a mountain of plushies, looking like being trapped in an oversized claw machine."
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241294238_1hcy8x_HMZHBiobIAEHrg4.jpg",
-        "alt": "Western Woman in Giant Claw Machine",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241294635_6gwpvu_HMZHCZfawAAZsmc.jpg",
-        "alt": "Western Woman in Giant Claw Machine",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "LuckySheep",
-      "url": "https://x.com/Lucky_Lambsy"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Lucky_Lambsy/status/2073422988284956681"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27626",
-    "contentHash": "9f02d5cb29a17f51612977da0e092e1ee98f45dc"
-  },
-  {
-    "id": "gpt-image-2:27631",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27631",
-    "title": "Breathtaking Mountain Road Sunset",
-    "category": "Social Media Post",
-    "description": "A landscape photography prompt for a mountain road just after rain, featuring wet asphalt reflections and golden sunset lighting.",
-    "promptText": "A breathtaking mountain road just after rainfall, wet asphalt reflecting the golden sunset, lush green hills covered in mist, dramatic clouds, tiny water droplets on leaves, fresh atmosphere, cinematic lighting, ultra realistic, HDR, peaceful, highly detailed, 8K, DSLR quality, wide-angle landscape photography, no people, natural colors. A stunning sunrise over a crystal-clear lake surrounded by majestic mountains, colorful sky with orange and pink clouds, gentle fog floating above the water, lush green trees, mirror-like reflections, peaceful morning atmosphere, cinematic composition, ultra realistic, HDR, volumetric lighting, 8K, DSLR landscape photography, highly detailed, no people.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241268472_k6zfq6_HMZBf-AWIAAj2S8.jpg",
-        "alt": "Breathtaking Mountain Road Sunset",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241268502_zuurdw_HMZBgCWWEAA3Z_j.jpg",
-        "alt": "Breathtaking Mountain Road Sunset",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "𝐍𝐚𝐯𝐞𝐞 𝐀𝐢",
-      "url": "https://x.com/navi_Ai2"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/navi_Ai2/status/2073416714524430723"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27631",
-    "contentHash": "684157ee48f4c286e76434f8508e21be7000617d"
-  },
-  {
-    "id": "gpt-image-2:27629",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27629",
-    "title": "Isometric Room History Timeline",
-    "category": "Infographic / Edu Visual",
-    "description": "An advanced prompt that generates an isometric cutaway of a room showing the evolution of objects across different time periods in a four-quadrant layout.",
-    "promptText": "2x2 grid, 16:9, AI infers: An isometric cutaway of a single room (like a {argument name=\"room type\" default=\"study or kitchen\"}) divided into four seamless quadrants. The bottom-left quadrant is furnished with the earliest era’s {argument name=\"theme\" default=\"[THEME]\"} objects, the top-left is a middle period, the top-right is late period, and the bottom-right is the most modern. The room’s architecture morphs subtly but stays consistent; the objects tell the time shift ::5 Time Logic: AI_INFER 25–30 objects distributed across the four time quadrants, each zone historically consistent. Quadrants flow clockwise like a time-loop ::5 Composition: Isometric view (no perspective distortion), seamless quadrant transitions, no clutter, objects neatly arranged on surfaces ::3 Material Physics: Real materials, period-appropriate aging, soft shadows, no glowing items ::2 Illumination: Neutral ambient light across all zones, no dramatic shadows ::2 Typography: Small year range subtly placed on the floor of each quadrant ::2 Render Stack: Isometric time-room, evolutionary diorama, interior timeline, 8k ::1 Negative: [perspective, broken room geometry, anachronistic mixing across quadrants, excavation, moss, bioluminescence] ::-1",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "room type",
-        "default": "study or kitchen"
-      },
-      {
-        "name": "theme",
-        "default": "[THEME]"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241267203_2wst4r_HML98-YW8AESg-p.jpg",
-        "alt": "Isometric Room History Timeline",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Gadgetify",
-      "url": "https://x.com/Gdgtify"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Gdgtify/status/2073464356378198044"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27629",
-    "contentHash": "becd0ad6a5b7de9237cdf10202a2f68abb1ad9ca"
-  },
-  {
-    "id": "gpt-image-2:27718",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27718",
-    "title": "Anime AI Prompt Review Meeting",
-    "category": "Infographic / Edu Visual",
-    "description": "A humorous anime-style office meeting scene featuring a GPT2 monitor-headed businessman being questioned by three fantasy girls, useful for parody or social media illustrations.",
-    "promptText": "Goal: Create a clean white-background anime illustration of a humorous prompt review meeting, as if an AI image model is being interviewed by three fantasy/anime girls around an office table.\n\nCanvas: Landscape 4:3 composition, full-body group shot, bright white studio background, crisp cel-shaded anime rendering with polished details and soft shadows under furniture.\n\nLayout: Place a black rectangular meeting table in the center foreground, angled slightly in perspective. Put one office chair on the left and two office chairs on the right. Include exactly 4 characters: 1 faceless AI businessman on the left, 1 standing dark elf woman in the middle-left, 1 small maid girl seated middle-right, and 1 red-haired swordswoman seated far right. Add a large pink Japanese headline at the top right reading {argument name=\"headline text\" default=\"NaraSAN 新規プロンプトみーてぃんぐ\"}. Add hand-drawn colorful Japanese reaction comments around the characters, like manga annotations, including blue text near the AI businessman, teal text around the dark elf, purple text near the maid, and red text near the red-haired swordswoman.\n\nCharacter details: The left character is a male office worker in a navy suit, white shirt, black tie, white gloves, and black dress shoes, seated upright in a black rolling office chair. His head is a flat white rectangular monitor or signboard with rounded corners and a sweat-drop icon; the screen text reads {argument name=\"AI screen label\" default=\"GPT2\"}. He holds his gloved hands together in a nervous apologetic gesture.\n\nThe central standing character is a confident dark elf woman with long {argument name=\"elf hair color\" default=\"black-purple\"} hair, pointed ears, violet eyes, and an ornate navy-and-black fantasy dress with gold trim, shoulder cutouts, flowing sleeves, thigh-high boots, and a jeweled hair ornament. She leans forward toward the table, one hand pointing sharply at documents, the other hand raised gripping or gesturing near a tall transparent acrylic divider panel, with an irritated speaking expression.\n\nThe seated middle-right character is a petite black-haired girl in a purple-and-white maid outfit with a frilled maid headdress, purple ribbon bow, white apron, black tights, and purple Mary Jane shoes. She sits demurely with hands together on her lap, looking slightly confused or quietly amused.\n\nThe seated far-right character is a red-haired anime swordswoman with a high ponytail, blue eyes, white-and-red kimono-style warrior outfit with gold dragon embroidery, black pants, armored boots, and a green-sheathed katana at her side. She sits in a black rolling chair with a small sweat drop and puzzled expression, looking toward the meeting.\n\nTable objects: Include exactly 8 visible tabletop items: 1 stack of white papers near the left edge, 1 open or loose document in the center with a red stamp mark, 1 blue folder stack at front-left, 1 black binder at front-center, 1 silver laptop or tablet stack near the rear-center beside the acrylic divider, 1 loose document at the rear-right, 1 chart page with blue bar graph at front-right, and 1 additional white sheet beside the chart. Keep the documents legible only as simple lines, stamps, and chart graphics, not full readable paragraphs.\n\nVisual style: High-quality modern anime illustration, humorous meeting scene, clean line art, soft gradients, expressive faces, detailed outfits, sharp office furniture, manga-style floating speech comments. Use mostly white negative space around the group, with no background room details.\n\nConstraints: Use exactly 4 characters and exactly 8 tabletop items. Preserve the visible English text on the AI screen and the pink Japanese headline. Do not add extra people, logos, watermarks, or a detailed office background.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "headline text",
-        "default": "NaraSAN 新規プロンプトみーてぃんぐ"
-      },
-      {
-        "name": "AI screen label",
-        "default": "GPT2"
-      },
-      {
-        "name": "elf hair color",
-        "default": "black-purple"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241320086_t7r55j_HMY33T8b0AAidol.jpg",
-        "alt": "Anime AI Prompt Review Meeting",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "NaraSAN0919",
-      "url": "https://x.com/0Narasan"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/0Narasan/status/2073406109470396698#reversed-0"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27718",
-    "contentHash": "8f85d8c2d04066b6a5474a64e924c2f9d3b3c39c"
-  },
-  {
-    "id": "gpt-image-2:27680",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27680",
-    "title": "Banknote Engraving Deep Sea Creatures",
-    "category": "Infographic / Edu Visual",
-    "description": "A prompt for GPT Image 2 creating glowing deep-sea creatures in a Banknote Parallel-Hatching Engraving style.",
-    "promptText": "Banknote Parallel-Hatching Engraving Style, {argument name=\"creatures\" default=\"4 rare glowing deep-sea creatures: Deep-Sea Anglerfish, Stoplight Loosejaw, Vampire Squid, Atolla Jellyfish\"}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "creatures",
-        "default": "4 rare glowing deep-sea creatures: Deep-Sea Anglerfish, Stoplight Loosejaw, Vampire Squid, Atolla Jellyfish"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241297003_ifpfp6_HMXvvsUbYAA84bc.jpg",
-        "alt": "Banknote Engraving Deep Sea Creatures",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241296998_ej9a8q_HMXvxjAakAAspol.jpg",
-        "alt": "Banknote Engraving Deep Sea Creatures",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241296951_ejupto_HMXvzgNa8AEVyPA.jpg",
-        "alt": "Banknote Engraving Deep Sea Creatures",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241297872_mi11rm_HMXv08MbEAA1PxD.jpg",
-        "alt": "Banknote Engraving Deep Sea Creatures",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "TWnese",
-      "url": "https://x.com/TWnese"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/TWnese/status/2073327507454197893"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27680",
-    "contentHash": "92e6bdaedca00154abc18f092c2db09c43bf3338"
-  },
-  {
-    "id": "gpt-image-2:27643",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27643",
-    "title": "Typographic Travel Poster with Inner Scenes",
-    "category": "Infographic / Edu Visual",
-    "description": "A creative prompt for a travel poster where each letter of a city's name serves as a window into iconic local landmarks.",
-    "promptText": "Clean, modern typographic travel poster in a 3:2 landscape format. The words \"NEW YORK\" — seven large, bold, uppercase geometric sans-serif letters set on a single line (or \"NEW\" stacked above \"YORK\" if better balanced) — span the full width and ARE the entire composition. Every illustrated element lives strictly INSIDE the letterforms, as if each letter is a window cut out of white paper revealing a scene; nothing spills outside the letter silhouettes. Outside the letters: pure, empty, flat white background — no objects, no cast shadows, no decoration. — WHAT FILLS EACH LETTER (NYC-accurate, clipped to the letter shape) — N : the Statue of Liberty — standing torch raised, following one vertical of the N. E : stacked Manhattan brownstone facades with fire escapes nested in the three horizontal bars. W : the Brooklyn Bridge — its two Gothic stone arches and suspension cables spanning the W's zig-zag, a small boat on the East River below. Y : the Empire State Building — the Art-Deco spire cradled in the fork of the Y. O : the ring frames Times Square — glowing billboards, a yellow taxi cab, a scramble of tiny pedestrians. R : the Flatiron Building's distinctive triangular wedge silhouette inside the R. K : Central Park greenery and the One World Trade Center spire slicing along the K's diagonals; a subway car along the base. Small city details (a yellow cab, a hot-dog cart with faint steam, a pigeon, a subway roundel, drifting clouds) appear ONLY where they fit within a letter's interior. Keep full legibility of \"NEW YORK\". — STYLE — Elegant flat vector illustration, crisp geometric shapes, minimal detail, clean outlines, subtle shadows contained inside the letters only. Limited palette: deep navy, warm cream, muted red, soft gray-blue — a restrained warm-yellow accent used ONLY on the taxis / Times Square glow. Optional minimal tagline beneath in wide-spaced small capitals: \"THE CITY THAT NEVER SLEEPS\", thin and understated. Perfectly balanced centered composition. premium flat vector, minimalist travel poster, geometric illustration, editorial tourism branding, clean typography, high contrast, ultra-sharp lines, museum-quality print, scalable SVG aesthetic, 8K.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241273546_77911y_HMWurFrbMAAcxCv.jpg",
-        "alt": "Typographic Travel Poster with Inner Scenes",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241273575_qsproo_HMWurFkakAAd3__.jpg",
-        "alt": "Typographic Travel Poster with Inner Scenes",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241273557_8fyxf6_HMWurFzaAAAQjP5.jpg",
-        "alt": "Typographic Travel Poster with Inner Scenes",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783241274238_33wal8_HMWurFobsAA8AIx.jpg",
-        "alt": "Typographic Travel Poster with Inner Scenes",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Sairah",
-      "url": "https://x.com/Sairah_0"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Sairah_0/status/2073255273654013966"
-    },
-    "publishedAt": "2026-07-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27643",
-    "contentHash": "0808ad2e51be6bd140d4459b87b3fa6d34f4e480"
   }
 ]

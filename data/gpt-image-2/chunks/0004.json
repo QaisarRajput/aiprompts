@@ -1,5 +1,417 @@
 [
   {
+    "id": "gpt-image-2:34019",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34019",
+    "title": "AI Product Sketch to Lamp Render",
+    "category": "Infographic / Edu Visual",
+    "description": "A photorealistic studio scene visualizing an AI workflow that transforms a hand-drawn product sketch into a finished ceramic table lamp.",
+    "promptText": "Create a clean, photorealistic product-design workspace scene showing an AI-assisted transformation from sketch to finished object. Use a wide 16:9 canvas with soft natural daylight, pastel mint-green wall, realistic shadows from window light, and a modern maker-studio aesthetic. On the left, place a sheet of rough off-white textured drawing paper standing upright on a blue gridded cutting mat, held at the top with one small strip of orange tape; the paper shows a detailed graphite construction sketch of a {argument name=\"product type\" default=\"mushroom-shaped ceramic table lamp\"}, including vertical and horizontal guide lines, a domed shade, a short neck, rounded bulbous base, hatch shading, and a ground shadow. In front of the sketch are exactly 2 drawing tools: one black pencil angled diagonally and one white rectangular eraser. Across the center, add a translucent futuristic UI visualization: exactly 4 semi-transparent glass panels receding from left to right, each showing the lamp evolving from rough sketch to cleaner render to simplified 3D form, with pale cyan outlines and a subtle blue glow. Add exactly 3 interface overlays: one bottom-left rounded rectangle with three horizontal slider controls, one upper-right rectangular crop/selection frame around a dome preview, and one bright blue glowing cursor arrow pointing at the lamp evolution. On the right, place the final physical {argument name=\"product color and material\" default=\"glossy warm-white ceramic\"} lamp on a rectangular speckled stone platform: a smooth hemispherical dome shade, small brass stem, softly glowing warm light under the shade, and a round bulbous base matching the sketch. Surround the scene with studio props: leafy green plants partially visible at the upper left and upper right, a white cup holding paintbrushes at the far right, a small round tray with a red-orange block in the lower right, and stacked sample boards or notebooks in the lower left. The blue cutting mat should cover the tabletop with precise grid lines, reinforcing a design-prototyping environment. No visible text, no logos, no watermark; emphasize the concept of turning a hand sketch into a finished product through transparent AI editing layers.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "product type",
+        "default": "mushroom-shaped ceramic table lamp"
+      },
+      {
+        "name": "product color and material",
+        "default": "glossy warm-white ceramic"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942339417_gggsxx_HRvqeLvbUAAQOKg.jpg",
+        "alt": "AI Product Sketch to Lamp Render",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "AI产品第一打假",
+      "url": "https://x.com/ManuTrrsCmps10"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ManuTrrsCmps10/status/2097527875318464917#reversed-0"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34019",
+    "contentHash": "50757f2824918c702355cac49b5f0eb168aef615"
+  },
+  {
+    "id": "gpt-image-2:34031",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34031",
+    "title": "Japanese Corridor Window Detail Sheet",
+    "category": "Infographic / Edu Visual",
+    "description": "Generates a clean Japanese architectural detail sheet from a reference, focusing on inferred corridor window section, elevation, and partial construction details.",
+    "promptText": "Using REFERENCE_0 as the architectural source, reorganize it into a cleaner, more focused Japanese technical drawing sheet for the corridor window assembly. Keep the same subject and hand-drafted architectural illustration style, but simplify the page and redraw the construction details as an inferred measured detail rather than a broad explanatory board.\n\nGoal: Create a detailed drawing titled {argument name=\"main title\" default=\"廊下 窓まわり詳細図\"} with subtitle {argument name=\"subtitle\" default=\"(断面図・展開図・部分詳細図)\"}. Treat all dimensions as estimates from the reference/photo and note that the unit is {argument name=\"unit note\" default=\"mm\"}.\n\nLayout: Use exactly 4 drawing areas: 1 large A-A section detail on the left, 1 interior elevation view at the upper right, and 2 small partial detail diagrams at the lower right. Make the left section the dominant focus and include a small key plan/section marker at the top of it.\n\nLeft main section: Redraw the corridor window section at S=1/10 with clearer construction layers and orange dimension lines. Show exterior planting and exterior ground on the left, the tall wood sash/glass opening in the center, and the interior corridor side on the right. Include labels for exterior side, interior side, ceiling, steel column, wood sash, double glass, brick sill/window base, brick exterior wall, steel angle/bracket, floor build-up, existing RC slab/foundation, GL ±0 and FL ±0. Emphasize estimated dimensions including opening height about 2100, window base about 300, brick rise 180, brick ledge width 350, exterior passage about 600, wall 100, sill/bench 350, and corridor width about 1200.\n\nUpper-right drawing: Create an interior elevation view labeled {argument name=\"elevation label\" default=\"内観立面図（廊下側） S=1/50\"}. Show the corridor-side window wall with repeated vertical wooden frames, glass panes, brick/bench base, steel columns, exterior planting visible through the glass, and orange A-A section markers.\n\nLower-right details: Add exactly 2 partial detail diagrams labeled a and b: a. upper/head detail showing ceiling, PB substrate/paint finish, wood sash, and double glass; b. lower/sill detail showing brick finish, mortar substrate, brick support, and steel angle plus bracket, with orange dimensions 350, about 300, and 180.\n\nStyle and constraints: Maintain the reference’s clean Japanese architectural presentation: thin black linework, light gray hatching, muted wood and brick tones, orange dimensions, white background, precise leader lines, and a professional measured-drawing look. Use Japanese technical labels where shown, but avoid overcrowding. Add a bottom caution note {argument name=\"caution note\" default=\"※寸法は写真からの推定です。実施設計時は現地調査のうえ決定してください。\"}. Do not add unrelated photos, people in the interior, decorative icons, or extra drawing panels.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "main title",
+        "default": "廊下 窓まわり詳細図"
+      },
+      {
+        "name": "subtitle",
+        "default": "(断面図・展開図・部分詳細図)"
+      },
+      {
+        "name": "unit note",
+        "default": "mm"
+      },
+      {
+        "name": "elevation label",
+        "default": "内観立面図（廊下側） S=1/50"
+      },
+      {
+        "name": "caution note",
+        "default": "※寸法は写真からの推定です。実施設計時は現地調査のうえ決定してください。"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942349584_8zjz43_HRvlECqboAAplOX.jpg",
+        "alt": "Japanese Corridor Window Detail Sheet",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "KOBATAKA｜Vibe Modeling",
+      "url": "https://x.com/shion_takk"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/shion_takk/status/2097523271302599071#reversed-1"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34031",
+    "contentHash": "568325387927ff1432b709b397cc7bdbe3e25c87"
+  },
+  {
+    "id": "gpt-image-2:34068",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34068",
+    "title": "Faithful Japanese Policy Infographic Recreation",
+    "category": "Infographic / Edu Visual",
+    "description": "Creates a sharpened, near-identical recreation of a dense Japanese government-style policy infographic from a reference image.",
+    "promptText": "Using REFERENCE_0 as the sole source, faithfully recreate the Japanese Kasumigaseki-style policy infographic as a clean, high-resolution 16:9 slide. Preserve the original overall layout, dense information structure, blue title bar, yellow/red emphasis bands, arrows, callout boxes, illustrated landscape/business icons, and all visible Japanese labels as closely as possible. Improve the output by making it sharper, brighter, less compressed, and more legible, with cleaner vector-like text boxes and clearer small illustrations, while keeping the same crowded official-government presentation aesthetic. Keep the top title text as {argument name=\"headline text\" default=\"地域循環共生圏（日本発の脱炭素化・SDGs構想）\"}, keep the version label as {argument name=\"version label\" default=\"Ver. 26\"}, and retain the main central label {argument name=\"central concept label\" default=\"地域循環共生圏\"}. Do not simplify the diagram, do not modernize it, do not remove small labels, and do not add new branding, watermarks, people, or unrelated decorative elements.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline text",
+        "default": "地域循環共生圏（日本発の脱炭素化・SDGs構想）"
+      },
+      {
+        "name": "version label",
+        "default": "Ver. 26"
+      },
+      {
+        "name": "central concept label",
+        "default": "地域循環共生圏"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942377632_6gt3fh_HRvZeQ7aoAAhJQp.jpg",
+        "alt": "Faithful Japanese Policy Infographic Recreation",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信⚡️》",
+      "url": "https://x.com/masahirochaen"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/masahirochaen/status/2097509616989143355#reversed-2"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34068",
+    "contentHash": "1c622d761fbe68e1216617b85d5f125dddc0a46f"
+  },
+  {
+    "id": "gpt-image-2:34016",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34016",
+    "title": "ChatGPT An Lushan Infographic Screenshot",
+    "category": "Infographic / Edu Visual",
+    "description": "Generates a realistic ChatGPT mobile screenshot featuring a detailed Chinese educational infographic about the An Lushan Rebellion.",
+    "promptText": "Goal: Create a realistic vertical smartphone screenshot of a ChatGPT conversation showing an AI-generated Chinese history infographic about {argument name=\"topic\" default=\"安史之乱\"}.\n\nCanvas: 576 × 1024 portrait phone screen, clean white iOS-style interface, high-resolution screenshot look with soft shadows and rounded UI elements.\n\nTop status and navigation: Show the iPhone status bar with exactly 5 visible status items: time “8:47”, a small user/person icon, black Dynamic Island with one tiny orange dot, cellular/Wi‑Fi indicators, and a battery badge reading “16”. Below it, show exactly 3 floating navigation controls: a left circular hamburger/menu button with a small blue notification dot, a right rounded pill containing an edit/compose icon, and a three-dot menu icon.\n\nChat layout: On the right side near the top, place one light-blue user message bubble containing exactly this Chinese text: “生成图片：全面讲一讲\\n安史之乱”. Beneath it, show one generated image card with rounded corners. Add exactly 2 small action icons under the card on the left: a share/upload icon and an ellipsis icon. Add one white circular share button overlay at the lower-right corner of the generated image card.\n\nGenerated image card content: The card is a dense, horizontal Chinese educational infographic poster about the An Lushan Rebellion. Use an antique parchment and ink-wash historical style with dark red section headers, beige paper background, weathered borders, and a dramatic top banner painting of a burning Tang dynasty city, smoke, soldiers, banners, and a dark horse silhouette. Large brush-calligraphy title at upper left: “安史之乱”. Include a smaller subtitle about the major turning point of the Tang dynasty from prosperity to decline. Keep all infographic text in Chinese and make it appear mostly legible.\n\nInfographic sections: Use exactly 9 visible content sections in the poster: 1) “什么是安史之乱?” explanatory text block, 2) “主要人物” row with exactly 5 illustrated portrait figures labeled An Lushan, Shi Siming, Tang Xuanzong, Tang Suzong, and Yang Guifei, 3) “叛乱的原因” list with exactly 4 numbered causes, 4) “叛乱的过程” vertical timeline with exactly 6 dated milestones, 5) a central “叛乱形势图” map of Tang China with red and black arrows showing rebel and imperial movements, 6) “重要战役与事件” column with exactly 4 thumbnail battle/event images, 7) “叛乱的影响” block with exactly 4 icon-and-text impact items, 8) “历史意义” block with exactly 3 icon-and-text meaning items, and 9) “后世评价” block with exactly 3 quote cards. Add a bottom slogan line in Chinese resembling “以史为鉴，方知兴替。” with a small grayscale battlefield silhouette along the bottom edge.\n\nBottom input bar: At the bottom of the phone screenshot, show the ChatGPT message composer as one rounded white pill with exactly 4 elements: a plus icon, gray placeholder text “询问 ChatGPT”, a microphone icon, and a blue circular voice-wave button.\n\nVisual style: Modern ChatGPT mobile UI combined with a richly detailed Chinese history infographic. The screenshot should feel like an authentic mobile app capture, with white margins, subtle drop shadows, rounded corners, and no external watermark.\n\nConstraints: Do not add extra chat messages. Keep the infographic fully contained inside the rounded image card. Preserve the visible Chinese text where specified. Use accurate Tang dynasty historical visual motifs and avoid fantasy elements.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "topic",
+        "default": "安史之乱"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942336326_nitsar_HRvHdzDaAAAiunu.jpg",
+        "alt": "ChatGPT An Lushan Infographic Screenshot",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942336347_1nfb9s_HRvHdy-bwAAXSzp.jpg",
+        "alt": "ChatGPT An Lushan Infographic Screenshot",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Kin",
+      "url": "https://x.com/KinGao476942"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/KinGao476942/status/2097489377173901591#reversed-0"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34016",
+    "contentHash": "1eb4b098959d19b71c55c1c44c1d3008d722903a"
+  },
+  {
+    "id": "gpt-image-2:34001",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34001",
+    "title": "Magnified Glass Building Cutaway",
+    "category": "Infographic / Edu Visual",
+    "description": "A cinematic photorealistic prompt for generating a nine-floor annotated glass building cutaway viewed through a rainy magnifying glass.",
+    "promptText": "Goal: Create a cinematic photorealistic architectural cutaway scene of a glass apartment building viewed through a handheld magnifying glass, with annotated floor-by-floor labels.\n\nCanvas: Landscape 4:3 image, ultra-detailed evening cityscape at sunset after rain. A waterfront modern glass building stands beside a reflective river or lake, with distant skyline, warm orange sun near the horizon, blue storm clouds, and a faint rainbow on the left.\n\nMain composition: In the extreme foreground, a human hand holds a large round magnifying glass at the right edge. The lens dominates the center of the frame and contains sharp focus, visible rim distortion, and many raindrops on the glass. Inside the magnified circle, the front building is crisp and enlarged, revealing a transparent nine-floor cross-section with people, furniture, and warm interior lights. Outside the lens, the same building and city are slightly softer and less magnified, emphasizing the optical effect. Water reflections, wet rocks, plants, and a few small fish near the clear shallows appear along the bottom.\n\nBuilding details: A tall modern steel-and-glass rectangular building on piloti columns at the waterline, with warm yellow interior lighting and transparent walls. Show exactly 9 stacked visible levels, each as a distinct room or activity scene with tiny realistic people.\n\nFloor labels and annotations: Place thin white leader lines from the rooms to clean white text on the right side inside or beside the magnifying glass. Include exactly these 9 labeled floors, top to bottom:\n1. “9F · Rooftop Garden” with subtext “Tea under string lights · Evening sky”; show people seated among plants and string lights on an open roof terrace.\n2. “8F · Lounge” with subtext “Friends talking · Warm ambient lights”; show a cozy social lounge with sofas and people chatting.\n3. “7F · Workshop Lab” with subtext “Careful inspection · Tools neatly arranged”; show a maker workshop with shelves, tools, and a person working at a bench.\n4. “6F · Child's Room” with subtext “Story time · Toys on the floor”; show a warm kids’ room with an adult and child, toys scattered.\n5. “5F · Mini Gym” with subtext “Treadmill run · Evening workout”; show exercise machines, one person running, another working out.\n6. “4F · Reading Room” with subtext “Quiet notes · Bookshelves and desk lamp”; show bookshelves, desk, lamp, and a seated reader.\n7. “3F · Design Office” with subtext “Team discussion · UI review in progress”; show a small office meeting with screens and a blue presentation board.\n8. “2F · Artist Studio” with subtext “Painter at work · Large canvas by the window”; show an artist painting on a large canvas, art supplies and easel.\n9. “1F · Family Kitchen” with subtext “Cooking dinner · Steam and warm light”; show family members at a dining table/kitchen with glowing lamps and steam.\n\nVisual style: Photorealistic, highly cinematic, rich depth of field, warm interior glow contrasted with cool blue evening outdoors, realistic rain droplets, reflections, refraction through magnifying lens, sharp micro-details, realistic people at miniature scale, premium architectural visualization quality.\n\nText constraints: The annotation text must be legible, white, modern sans-serif, aligned vertically on the right, with thin white pointer lines. Keep all labels in English. Do not add extra floors, extra labels, logos, watermarks, or unrelated text.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942325589_7wku2y_HRvEouRaIAA8Fcr.jpg",
+        "alt": "Magnified Glass Building Cutaway",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "关木",
+      "url": "https://x.com/ZeroZ_JQ"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ZeroZ_JQ/status/2097486264417259962#reversed-0"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34001",
+    "contentHash": "a68010351bb3800bca80d2137293ccb016c53b7f"
+  },
+  {
+    "id": "gpt-image-2:34061",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34061",
+    "title": "Witch Sketch to Fantasy Result UI",
+    "category": "Infographic / Edu Visual",
+    "description": "Creates a chat-style UI screenshot where a crude witch doodle prompt becomes a polished moonlit fantasy village image.",
+    "promptText": "Goal: Create a minimalist chat-style image generation interface screenshot showing a rough sketch prompt and a polished generated result.\n\nCanvas: Square-ish light gray/off-white background, about 665×677 px, with lots of empty space. Use a clean modern mobile/web UI aesthetic with rounded cards and subtle shadows.\n\nLayout: Place exactly 3 main UI elements: 1 small sketch image card in the upper right, 1 small rounded text prompt bubble directly below it, and 1 large generated image card in the lower left. Leave the left side mostly blank above the large card.\n\nUpper sketch card: A white rounded rectangle with a childlike black-and-orange doodle. The doodle contains exactly 6 orange star shapes, a tall crooked black tower in the center, 3 small black haunted houses along the bottom, an orange full moon in the upper right, and 1 black witch silhouette flying across the moon. Keep the sketch rough, marker-like, playful, and sparse.\n\nPrompt bubble: A pale peach rounded pill below the sketch card containing the Japanese text {argument name=\"prompt bubble text\" default=\"闇夜を飛ぶ魔女の画像。\"} in small dark brown type.\n\nGenerated image card: A large rounded-corner square image in the lower left, cinematic fantasy style. Depict a cozy gothic village at night beneath a deep navy starry sky. Include exactly 1 tall stone clock/bell tower with a pointed dark roof near the left-center, exactly 1 enormous glowing golden full moon near the upper right, and exactly 1 black witch silhouette riding a broom in front of the moon. Include clustered steep-roof houses with warm yellow-lit windows in the foreground, soft glowing stars, dramatic moonlit clouds, and dark treetops framing the bottom. The image should feel like a highly polished transformation of the crude sketch.\n\nUI details: On the lower-left corner inside the large generated image, show the small white Japanese label {argument name=\"edit label\" default=\"編集\"}. On the lower-right corner inside the same image, show a small white share/export icon. No other visible text.\n\nVisual style: High contrast between the simple doodle and the refined result; rounded corners; soft app-interface spacing; no watermark; no extra panels; keep the composition faithful to a generated-image chat result.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "prompt bubble text",
+        "default": "闇夜を飛ぶ魔女の画像。"
+      },
+      {
+        "name": "edit label",
+        "default": "編集"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942372953_wduox6_HRuN0upa8AEyzSI.png",
+        "alt": "Witch Sketch to Fantasy Result UI",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "G2（じーにー）｜AIビジネス翻訳家",
+      "url": "https://x.com/aiclass_g2"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/aiclass_g2/status/2097426058983449075#reversed-0"
+    },
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34061",
+    "contentHash": "bfe17a66b915f87a7e7ff475cd6f5e5759dd0790"
+  },
+  {
+    "id": "gpt-image-2:33949",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33949",
+    "title": "Hairstyle Analysis Comparison Portrait",
+    "category": "Infographic / Edu Visual",
+    "description": "This prompt uses a reference portrait to generate a side-by-side hairstyle comparison graphic, helping visualize different looks on the same subject.",
+    "promptText": "Create a {argument name=\"task\" default=\"hairstyle analysis graphic\"} using this portrait. Show side-by-side {argument name=\"subject\" default=\"hairstyle\"} comparisons to highlight which {argument name=\"plural_subject\" default=\"hairstyles\"} suit the subject best",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "task",
+        "default": "hairstyle analysis graphic"
+      },
+      {
+        "name": "subject",
+        "default": "hairstyle"
+      },
+      {
+        "name": "plural_subject",
+        "default": "hairstyles"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942286542_d3d5vt_HRuCFkMacAAb9um.jpg",
+        "alt": "Hairstyle Analysis Comparison Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Veee",
+      "url": "https://x.com/vikktorrrre"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/vikktorrrre/status/2097413100677022138"
+    },
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33949",
+    "contentHash": "e783e04e20f46a1ceacd7c1389875df1d8a063bd"
+  },
+  {
+    "id": "gpt-image-2:33956",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33956",
+    "title": "Editorial PPT Cover Design",
+    "category": "Infographic / Edu Visual",
+    "description": "A highly sophisticated design prompt for creating artistic PPT covers using architectural typography and rich textures.",
+    "promptText": "@Create Image\nForm a massive visual anchor with a strong brush weight using the core text or symbols of the theme. Let the letterforms act as a vertical architectural skeleton of the frame, colliding in scale, overlapping, and partially crossing boundaries with the main image. Summarize the main subject as an exaggerated, enlarged flat silhouette, organizing the image with sharp white-out lines, limited but layered color blocks, and clear boundaries. Let the environment support the form, creating a foreground-midground-background relationship around the subject while maintaining a central breathing zone. Use an asymmetric composition where the high-density main form creates a strong crop along one edge, while the secondary subject crosses the central axis into the white space. The bottom is stabilized by a wider supporting shape. The reading flow moves naturally from high-contrast anchors through image events down to the lower information zone. Use deep, low-saturation theme colors for structural weight, warm near-whites to open up space, and brighter or warmer focal colors within the same palette to mark theme events. Use near-black text for maximum readability. Let hand-written or seal-like cultural symbols related to the theme become emotional anchors juxtaposed with the subject. Fine titles, descriptions, poems, and signatures serve as low-register editorial annotations, adapted to the text system's structure. Form a multi-part rhythm of main character skeletons and secondary character breathing through scale, density, direction, and weight, allowing text to actively intersperse with color blocks, images, and white space, creating a restrained, vivid, and narratively tense editorial visual.\n\nSubject: {argument name=\"subject\" default=\"The Life of Su Shi\"}\nPurpose: {argument name=\"purpose\" default=\"PPT cover for courseware\"}.\nTotal 10 images.\nNote: No serial numbers or coding logic, award-winning courseware level.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "The Life of Su Shi"
+      },
+      {
+        "name": "purpose",
+        "default": "PPT cover for courseware"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942296887_pkcuqa_HRsyR6lasAEh9LL.jpg",
+        "alt": "Editorial PPT Cover Design",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942296911_m5yld1_HRsyb6LaIAE_U5v.jpg",
+        "alt": "Editorial PPT Cover Design",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小小东",
+      "url": "https://x.com/xiaoxiaodong01"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/xiaoxiaodong01/status/2097326027194478693"
+    },
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33956",
+    "contentHash": "3fea28e05289b7bb4f80675235c358830bdf5e36"
+  },
+  {
+    "id": "gpt-image-2:33985",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33985",
+    "title": "Dirty Produce Germs Kitchen Scene",
+    "category": "Infographic / Edu Visual",
+    "description": "A vertical Pixar-like kitchen illustration showing worried dirty fruits and vegetables with pests, Spanish health-safety signs, and magnified germs for a food hygiene campaign.",
+    "promptText": "Create a vertical 9:16 cinematic 3D animated-style scene in a warm sunlit kitchen about dirty produce and invisible germs. In the foreground on a rustic wooden countertop, show exactly 5 anthropomorphic vegetables/fruits with worried cartoon faces: 1 large red apple in the center with big eyes, raised brown eyebrows, open anxious mouth, water droplets, dirt specks, a stem and one green leaf; 1 red tomato at front left with big eyes and shocked open mouth; 1 pale green lettuce/cabbage head at back left with large eyes, frightened mouth, dirt splashes, and leafy folds; 1 tall orange carrot at back right with leafy green top, dirt on its skin, big eyes and sad frown; 1 small broccoli head partly hidden at far right with worried eyes. Add exactly 7 visible small pests on the produce: 1 cute brown snail with eye stalks sitting on the lettuce, 1 green caterpillar crawling on the apple, 3 black flies with translucent wings perched on the apple/tomato/leaf area, and 2 tiny worm-like bugs near the tomato edge. Scatter clumps of dark soil and crumbs across the table and on the produce. At bottom right foreground, place a large handheld magnifying glass angled over the apple, revealing enlarged colorful cartoon microbes inside the lens, including round spiky germs and rod-shaped bacteria in green, yellow, orange, and red, sharply detailed compared with the rest of the scene. Background: cozy kitchen with shallow depth of field, potted plants on a sunny windowsill, sink and jars softly blurred. Include two framed signs: on the left wall a cream poster with hand-lettered Spanish text {argument name=\"left sign text\" default=\"FRUTAS Y VERDURAS MÁS LIMPIAS = UNA FAMILIA MÁS SANA\"} and a small red heart below; on the right a black chalkboard with white chalk Spanish text {argument name=\"right sign text\" default=\"LO QUE NO VES TAMBIÉN IMPORTA\"}. Visual style: high-quality Pixar-like clay/stop-motion 3D, expressive oversized eyes, tactile vegetable textures, realistic dirt and water droplets, macro photography feeling, warm golden morning light, soft bokeh, crisp foreground focus, wholesome public-health advertisement mood. Use {argument name=\"main subject\" default=\"dirty fruits and vegetables\"} as the scene theme, with {argument name=\"lighting style\" default=\"warm golden kitchen sunlight\"} and {argument name=\"mood\" default=\"concerned but charming and educational\"}. Avoid logos, watermarks, extra text, extra produce characters, or additional pests beyond the counted visible items.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "left sign text",
+        "default": "FRUTAS Y VERDURAS MÁS LIMPIAS = UNA FAMILIA MÁS SANA"
+      },
+      {
+        "name": "right sign text",
+        "default": "LO QUE NO VES TAMBIÉN IMPORTA"
+      },
+      {
+        "name": "main subject",
+        "default": "dirty fruits and vegetables"
+      },
+      {
+        "name": "lighting style",
+        "default": "warm golden kitchen sunlight"
+      },
+      {
+        "name": "mood",
+        "default": "concerned but charming and educational"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942314561_rn48g6_HRryRbtasAA2mPp.jpg",
+        "alt": "Dirty Produce Germs Kitchen Scene",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942314505_4gnb6t_HRryYSoXsAA5fXa.jpg",
+        "alt": "Dirty Produce Germs Kitchen Scene",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "cmfba",
+      "url": "https://x.com/cmfba_"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/cmfba_/status/2097255107020681575#reversed-0"
+    },
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33985",
+    "contentHash": "1995ef01027479ec27880cb9ab0b0415afac7cd1"
+  },
+  {
     "id": "gpt-image-2:33840",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6338,415 +6750,5 @@
     "publishedAt": "2026-09-06T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33567",
     "contentHash": "06a88b7b25e3291a73007f9db6829fcd8954cde9"
-  },
-  {
-    "id": "gpt-image-2:33636",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33636",
-    "title": "2D Anime to 3D Toy Avatar",
-    "category": "Profile / Avatar",
-    "description": "Transforms a reference anime character into a simplified glossy 3D toy-style avatar suitable for character model previews.",
-    "promptText": "Using REFERENCE_0 as the character base, transform the anime character into a simple stylized 3D toy/avatar model while preserving the recognizable face cues, round glasses, short dark bob haircut, and gentle expression. Change the result from a 2D illustration lineup into a single full-body 3D render in a neutral standing pose, viewed slightly from above and slightly three-quarter front.\n\nStyle: soft, glossy plastic / clay-like 3D character with simplified anatomy, rounded forms, segmented doll-like limbs, and minimal facial detail. Make the hair into chunky sculpted pieces rather than painted strands.\n\nNew outfit and body design: replace the original exposed/censored body with a modest toy outfit made of exactly 5 visible components: 1 oversized white T-shirt, 1 pale blue letter “M” on the shirt front, 1 blue shorts/hip piece, 2 blue leg pieces, and 2 rounded white shoes. Use simple cylindrical arms with mitten-like hands and blocky shoulder pieces.\n\nScene: place the character alone on a pale blue-gray studio floor plane against a dark nearly black background, with soft overhead lighting, gentle shadows, and a clean 3D preview/render look.\n\nConstraints: do not include the original multi-view lineup, censor mosaic, or reference sheet layout. Do not add text other than the single shirt letter {argument name=\"shirt letter\" default=\"M\"}. Keep the model cute, non-realistic, and clearly toy-like. Use {argument name=\"character style\" default=\"soft glossy plastic 3D avatar\"} and {argument name=\"background\" default=\"dark studio backdrop with pale blue-gray floor\"}.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "shirt letter",
-        "default": "M"
-      },
-      {
-        "name": "character style",
-        "default": "soft glossy plastic 3D avatar"
-      },
-      {
-        "name": "background",
-        "default": "dark studio backdrop with pale blue-gray floor"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788682111380_h8ajjt_HReyHDCaAAA60k1.png",
-        "alt": "2D Anime to 3D Toy Avatar",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788682111363_juncz2_HReyNyJaUAAsT0-.jpg",
-        "alt": "2D Anime to 3D Toy Avatar",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "蘭熊才王（らんくまさいわん）",
-      "url": "https://x.com/j0PvbqHs6q29754"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/j0PvbqHs6q29754/status/2096340370334630033#reversed-1"
-    },
-    "publishedAt": "2026-09-05T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33636",
-    "contentHash": "52cfb641e4f11b757f119735267c1958c24d3f95"
-  },
-  {
-    "id": "gpt-image-2:33653",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33653",
-    "title": "Heroic Yellow Robot with Cape",
-    "category": "Profile / Avatar",
-    "description": "A cinematic full-body render prompt for creating a clean armored yellow robot mascot with a pixel smile and dramatic cape.",
-    "promptText": "Create a clean, high-detail full-body 3D character render of {argument name=\"character name\" default=\"Solip\"}, a friendly heroic humanoid robot standing in a confident front-facing pose against a pure black studio background. The robot has a bulky armored mech body made of angular mustard-yellow metal panels with black mechanical joints, subtle scratches, beveled edges, and realistic wear. Its head is a square yellow helmet-like monitor with rounded corners, side circular ear modules, a glossy black screen face, and a cute green LED pixel expression: exactly 2 upside-down U-shaped eyes and 1 smiling curved mouth. Add the teal marking {argument name=\"chest label\" default=\"C2\"} on the upper right chest plate. The robot wears exactly 1 dramatic black cape flowing behind both shoulders, with a teal inner lining and teal trim visible along the edges. Include detailed segmented arms, articulated black fingers, large shoulder rings, piston-like elbows, thick armored thighs, knee plates, heavy boot-like feet, and exposed dark understructure between plates. Use cinematic low-key lighting with warm golden rim light from the upper left, crisp reflections on metal, deep shadows, a subtle floor reflection, and an ultra-clean premium sci-fi toy/film render look. Center the character vertically in a portrait composition, slightly low camera angle, sharp focus, no background props, no extra characters, no text except the chest label.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "Solip"
-      },
-      {
-        "name": "chest label",
-        "default": "C2"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788682126500_e99wir_HReAJFuaUAAzOLG.jpg",
-        "alt": "Heroic Yellow Robot with Cape",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Solip | Model C2 Companion Unit",
-      "url": "https://x.com/SolipC2"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/SolipC2/status/2096285516899467612#reversed-0"
-    },
-    "publishedAt": "2026-09-05T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33653",
-    "contentHash": "ab4d1ca9322413c72dd6508a9e10cd9a55c85e94"
-  },
-  {
-    "id": "gpt-image-2:33569",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33569",
-    "title": "GTA Style Character Transformation",
-    "category": "Profile / Avatar",
-    "description": "A sophisticated identity-reference prompt to transform a personal photo into a stylized GTA-inspired character while maintaining key facial and clothing details.",
-    "promptText": "Use my photo as the main identity reference. Use the target image I'm going to attach as reference for pose, composition, framing, lighting, setting, color palette, and visual style. Replace the character in the target image with the person from my photo, keeping my identity recognizable: face, hair, beard, skin tone, physical build, serious expression, and main facial features. Keep exactly the pose, body posture, arm and hand position, framing, composition, perspective, lighting, and setting from the target image. Don't alter the environment, colors, or original atmosphere except for the minimum needed to naturally integrate the new character. Reconstruct the full character, don't just do a simple face swap. Adapt my face and body to the pose of the target image, maintaining realistic anatomy, natural proportions, and coherence between head, neck, shoulders, arms, and hands. Apply a {argument name=\"visual style\" default=\"visual style clearly inspired by GTA cover art\"}: stylized-realism character illustration, defined outlines, skin and clothing with a polished painterly finish, high contrast, cinematic lighting, saturated but controlled colors, luxury-meets-street urban aesthetic. Avoid making it look like a generic illustration or a photo filter. Keep the {argument name=\"outfit\" default=\"outfit from my photo: oversized white t-shirt, black watch, and bracelet/chain on the wrist\"}. You can subtly improve the texture, drape, and finish of the clothing to make it look more premium, but without changing the main outfit. Replace any bag or handheld object from the target image with a premium black urban-style backpack, naturally integrated into the pose and scene. Add GTA 6 Logo Do not include: camera equipment, gimbal, audiovisual gear, real logos, text, trademarks, weapons, facial deformities, poorly constructed hands, excessive muscle mass, cartoonish appearance, or costume-like look.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "visual style",
-        "default": "visual style clearly inspired by GTA cover art"
-      },
-      {
-        "name": "outfit",
-        "default": "outfit from my photo: oversized white t-shirt, black watch, and bracelet/chain on the wrist"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788682053383_gpf4zs_HRdqSLsacAAwATt.jpg",
-        "alt": "GTA Style Character Transformation",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788682053358_b8koa0_HRdqSLtbEAACKuW.jpg",
-        "alt": "GTA Style Character Transformation",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "H A J R A",
-      "url": "https://x.com/codewithhajra"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/codewithhajra/status/2096261025456689250"
-    },
-    "publishedAt": "2026-09-05T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33569",
-    "contentHash": "d66d33a3fff23864c740ae282ae2a3f197114e66"
-  },
-  {
-    "id": "gpt-image-2:33647",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33647",
-    "title": "Kawaii Denim Portrait",
-    "category": "Profile / Avatar",
-    "description": "A warm semi-realistic portrait prompt for creating a cute young woman with a polka-dot bow, denim overalls, and floating hearts and stars.",
-    "promptText": "Create a polished vertical portrait of a cute young woman with {argument name=\"hair color\" default=\"long wavy dark brown hair\"}, soft fair skin, large light hazel-green eyes, natural brows, subtle rosy makeup, and a gentle dreamy expression, looking slightly upward and to the side rather than directly at the camera. She wears a bright red headband tied in a large bow with white polka dots, small gold heart-shaped earrings, a {argument name=\"shirt color\" default=\"coral pink\"} long-sleeve shirt, and blue denim overalls with visible stitching, a front bib pocket, brass buttons, and a shoulder buckle. Frame her from mid-torso up in a centered three-quarter portrait, with her hair flowing over one shoulder and a soft studio beauty-lighting look. The background is a warm peach-orange gradient filled with creamy circular bokeh lights and exactly 14 floating decorative shapes: 8 red hearts of varying sizes and 6 small golden stars, softly blurred at different depths. Use a romantic kawaii-inspired semi-realistic digital painting style, high detail in the face and hair, smooth skin, warm color grading, shallow depth of field, no text, no watermark, no extra people, vertical 9:16 composition.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "long wavy dark brown hair"
-      },
-      {
-        "name": "shirt color",
-        "default": "coral pink"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788682121547_rubsjl_HRdnSaOa8AAu9zg.jpg",
-        "alt": "Kawaii Denim Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Emma",
-      "url": "https://x.com/emma_ai6"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/emma_ai6/status/2096257742780465538#reversed-0"
-    },
-    "publishedAt": "2026-09-05T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33647",
-    "contentHash": "608e63cc27e2d6fb6c93fccb3466f56d05e888a8"
-  },
-  {
-    "id": "gpt-image-2:33578",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33578",
-    "title": "Luxury Gym Mirror Selfie Portrait",
-    "category": "Profile / Avatar",
-    "description": "A prompt for a stylish mirror selfie set in a modern luxury gym, focusing on athletic aesthetics and minimalist atmosphere.",
-    "promptText": "A stylish young woman taking a mirror selfie in a modern luxury gym, sitting cross-legged on a {argument name=\"bench type\" default=\"wooden workout bench\"}. She has {argument name=\"hair style\" default=\"long, straight dark-brown hair\"}, a calm natural expression, and holds a black smartphone in front of her face. She wears a {argument name=\"outfit\" default=\"sleek all-black sleeveless athletic outfit with loose black pants and light-colored chunky sneakers\"}, with a simple wristwatch. Spacious upscale gym interior with large mirrors, fitness machines, warm beige lighting, polished wooden flooring, clean minimalist atmosphere, soft ambient lighting, realistic photography, natural skin texture, shallow depth of field, subtle background blur, full-body composition, vertical 9:16, high detail.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "bench type",
-        "default": "wooden workout bench"
-      },
-      {
-        "name": "hair style",
-        "default": "long, straight dark-brown hair"
-      },
-      {
-        "name": "outfit",
-        "default": "sleek all-black sleeveless athletic outfit with loose black pants and light-colored chunky sneakers"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788682060688_ufgwvg_HRdksUsacAANmYx.jpg",
-        "alt": "Luxury Gym Mirror Selfie Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788682060822_o68wap_HRdkueqbIAAYfAr.jpg",
-        "alt": "Luxury Gym Mirror Selfie Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Aqsa",
-      "url": "https://x.com/Aqsahere_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Aqsahere_/status/2096254920353624544"
-    },
-    "publishedAt": "2026-09-05T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33578",
-    "contentHash": "a35fc5d58da1cfffbe7fd2eacf53c20fcdcffb1c"
-  },
-  {
-    "id": "gpt-image-2:33576",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33576",
-    "title": "Futuristic Mirrored Sunglasses Monochrome Portrait",
-    "category": "Profile / Avatar",
-    "description": "A sophisticated black-and-white fashion editorial prompt focusing on high-fashion aesthetics and identity reconstruction.",
-    "promptText": "Use my uploaded reference photos to accurately reconstruct my real face and identity. Preserve my exact facial structure, jawline, forehead proportions, eyebrows, eye shape, nose, lips, skin tone, beard/moustache (if present), hairline, hairstyle, hair texture, ears, neck proportions, and overall facial geometry. Do not blend me with the original model. Make it unmistakably me.\nCreate an ultra-realistic high-fashion editorial close-up portrait with a minimalist luxury aesthetic, captured entirely in dramatic black and white with rich monochrome tones, deep blacks, crisp highlights, natural skin texture, and subtle film grain.\nThe composition is a perfectly centered head-and-shoulders portrait. My head faces directly toward the camera with no tilt or rotation. My expression is serious, confident, and slightly intense, with lightly furrowed eyebrows creating subtle forehead lines. My lips remain naturally closed with a neutral expression. The jaw is relaxed yet defined.\nI am wearing {argument name=\"eyewear\" default=\"futuristic mirrored wraparound shield sunglasses\"} featuring polished metallic frames and {argument name=\"lens type\" default=\"reflective chrome lenses\"} that completely cover my eyes. The sunglasses, skin, hair, clothing, and background are all rendered in black and white, while the lenses reflect a bright monochrome studio environment with soft rectangular light panels and subtle gradients. Maintain clean, realistic reflections, sharp facial detail, natural shadows, strong tonal contrast, and a premium cinematic fashion-photography look.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "eyewear",
-        "default": "futuristic mirrored wraparound shield sunglasses"
-      },
-      {
-        "name": "lens type",
-        "default": "reflective chrome lenses"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788682060503_1s29yy_HRdOqeCaoAEkuh5.jpg",
-        "alt": "Futuristic Mirrored Sunglasses Monochrome Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Harboris",
-      "url": "https://x.com/harboriis"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/harboriis/status/2096230669500264573"
-    },
-    "publishedAt": "2026-09-05T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33576",
-    "contentHash": "e802299fa1743411bfdcce26bf552b9612353062"
-  },
-  {
-    "id": "gpt-image-2:33640",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33640",
-    "title": "Waving Schoolgirl in Sunlit Hallway",
-    "category": "Profile / Avatar",
-    "description": "Generates a polished anime portrait of a smiling sailor-uniform schoolgirl waving in a softly lit school corridor.",
-    "promptText": "Create a high-quality vertical anime-style portrait of a cheerful Japanese high school girl in a sunlit school hallway. She is turned slightly away from the viewer but looking back over her shoulder with a gentle smile, raising one open hand in a friendly wave. She has {argument name=\"hair color\" default=\"glossy black\"} hair styled in two loose braided pigtails with soft wispy bangs, large warm brown eyes, delicate round wire-frame glasses, smooth fair skin, and a subtle natural blush. She wears a classic sailor-style school uniform: a white short-sleeve blouse, navy sailor collar with two white stripes, a red necktie, and a dark pleated skirt. The hallway background is softly blurred with windows on the left, cool blue-gray walls, and strong late-afternoon sunlight streaming in, creating bright rim light, dappled highlights on her hair and shirt, and cinematic depth of field. Use polished modern Japanese anime rendering with semi-realistic lighting, detailed hair strands, soft painterly skin, expressive eyes, clean linework, and a warm nostalgic school-life atmosphere. No text, no watermark, no extra characters.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "glossy black"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788682114491_si38yv_HRdAacBaQAAQK9v.jpg",
-        "alt": "Waving Schoolgirl in Sunlit Hallway",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Harf_Done",
-      "url": "https://x.com/half_done_yet"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/half_done_yet/status/2096215257731715384#reversed-0"
-    },
-    "publishedAt": "2026-09-05T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33640",
-    "contentHash": "0fce50a9a69f577389b28da6216e7204851c51f5"
-  },
-  {
-    "id": "gpt-image-2:33646",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33646",
-    "title": "Dreamy Polka-Dot Bow Portrait",
-    "category": "Profile / Avatar",
-    "description": "Generates a cute ultra-realistic digital-art portrait of a young woman in denim overalls with a red polka-dot bow and romantic heart-and-star background.",
-    "promptText": "Create a cute, dreamy, ultra-realistic digital-art portrait of a young woman with {argument name=\"hair color\" default=\"long wavy dark brown hair with subtle warm highlights\"}, soft fair skin, large hazel-green eyes, natural brows, a small straight nose, and soft pink lips, gazing slightly upward and to the viewer’s right with a calm gentle expression. She wears a {argument name=\"headband style\" default=\"red headband tied in a large bow with white polka dots\"}, small gold heart-shaped earrings, a {argument name=\"shirt color\" default=\"coral pink long-sleeve shirt\"}, and blue denim overalls with visible seams, front bib pocket, straps, and brass hardware. Frame as a vertical waist-up portrait, centered, with her head and shoulders filling most of the image, slightly tilted pose, hair flowing over one shoulder in voluminous loose waves. Use a warm peach-to-orange dreamy background with soft glowing bokeh lights and exactly 12 floating decorative elements: 7 red hearts and 5 small golden stars scattered around her head. Make the style polished, cute, romantic, semi-photorealistic digital painting with smooth skin rendering, detailed hair strands, soft studio lighting, shallow depth of field, warm color grading, and no text or watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "long wavy dark brown hair with subtle warm highlights"
-      },
-      {
-        "name": "headband style",
-        "default": "red headband tied in a large bow with white polka dots"
-      },
-      {
-        "name": "shirt color",
-        "default": "coral pink long-sleeve shirt"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788682121147_hoaxbe_HRc56Mta8AEb2zS.jpg",
-        "alt": "Dreamy Polka-Dot Bow Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788682121180_ajqlsb_HRc57i1akAAsgpG.jpg",
-        "alt": "Dreamy Polka-Dot Bow Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "AI Qoro",
-      "url": "https://x.com/AIqoro"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AIqoro/status/2096207871017140238#reversed-0"
-    },
-    "publishedAt": "2026-09-05T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33646",
-    "contentHash": "ae716e211eb1bd3605bf016668fbaddb3eba83dd"
-  },
-  {
-    "id": "gpt-image-2:33594",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33594",
-    "title": "White Mirror Selfie Photography",
-    "category": "Profile / Avatar",
-    "description": "A sophisticated prompt for generating a high-definition mirror selfie with a clean white aesthetic, focusing on soft lighting and realistic textures in a bedroom setting.",
-    "promptText": "Subject:\nWhite negative space reflected in the mirror\n\nMain Subject:\nA vertical photograph of an adult woman taking a smartphone selfie in a full-length mirror in a {argument name=\"background\" default=\"bright white bedroom\"}, wearing a {argument name=\"clothing\" default=\"white off-shoulder top and white shorts\"}. The subject occupies the center of the frame from head to thighs, showing the device in her right hand and pulling the waistband with her left hand.\n\nCharacter/Expression:\n{argument name=\"expression\" default=\"Calm expression with her face turned to the right looking at the device screen and glossy lips closed\"}. Slender oval face, small chin, dark brown almond eyes, thin parallel eyebrows, smooth nose bridge, and plump rose-colored lips. Long ash-brown hair with thin bangs, lightly tied at the back and flowing loosely from the right shoulder to the chest.\n\nClothing/Pose:\nA white fine-ribbed short-sleeved top with a wide horizontal collar exposing the left shoulder, with a short length crossing diagonally at the front. White shorts with a thin waistband featuring grey lettering. Holding a white triple-camera style device next to her face with her right hand, lightly pulling the left waistband sideways with her left hand, standing with her hips shifted to the left.\n\nBackground/Lighting:\nA rounded mirror on the left, white shelves, a small bottle of white flowers and cosmetics, a pale wood-grain closet in the center background, and a white wall and curtain on the right. Soft daylight enters from the window on the left, illuminating the face and abdomen and creating soft shadows along the contours.\n\nComposition/Camera:\n3:4 vertical composition. Eye-level view of the standing pose via the mirror surface, leaving a small amount of space above the head, cropped at the top of the head and mid-thighs. The device is placed in the top right, the face in the top center, and the pulled waistband in the bottom left, making the subject large in the center. Focus on the face and torso, keeping the indoor background mostly clear.\n\nTexture/Style:\nPhotorealistic high-definition live-action photograph. Precisely depicts natural skin texture, soft shadows on the abdomen, fine hair strands, white ribbed fabric and waistband, and mirror reflections in a clean tone of white and pale wood color.\n\nNegative:\nDo not distort the hands or mirror image; do not change the clothing color.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "background",
-        "default": "bright white bedroom"
-      },
-      {
-        "name": "clothing",
-        "default": "white off-shoulder top and white shorts"
-      },
-      {
-        "name": "expression",
-        "default": "Calm expression with her face turned to the right looking at the device screen and glossy lips closed"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788682081711_aoot58_HRMtm3jbAAAUiz1.jpg",
-        "alt": "White Mirror Selfie Photography",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2096182049115627735"
-    },
-    "publishedAt": "2026-09-05T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33594",
-    "contentHash": "e660af41e93ef5e0c2efb274930a485d42a80e1a"
   }
 ]
