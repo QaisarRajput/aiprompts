@@ -1,5 +1,416 @@
 [
   {
+    "id": "gpt-image-2:27642",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27642",
+    "title": "Vintage CCD Flash Snapshot",
+    "category": "Profile / Avatar",
+    "description": "Produces a candid, vintage-style snapshot reminiscent of early digital compact cameras, featuring a grainy low-light aesthetic.",
+    "promptText": "Flash-lit mobile phone snapshot with a {argument name=\"camera style\" default=\"vintage CCD compact-camera\"} feel: grainy low-light indoor scene, messy dim room ambience, candid off-guard energy, slight motion blur, {argument name=\"subject\" default=\"young Korean female idol\"} with a soft innocent expression.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "camera style",
+        "default": "vintage CCD compact-camera"
+      },
+      {
+        "name": "subject",
+        "default": "young Korean female idol"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783241272917_9c3nuy_HMXTcL_bIAAiSRh.jpg",
+        "alt": "Vintage CCD Flash Snapshot",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "PromptLab",
+      "url": "https://x.com/iamaiistudio"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/iamaiistudio/status/2073295800915185950"
+    },
+    "publishedAt": "2026-07-04T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27642",
+    "contentHash": "c3a9a87362f2328aa60e19d2052625a55928e6fe"
+  },
+  {
+    "id": "gpt-image-2:27688",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27688",
+    "title": "Artistic Ink Wash Portrait Sketch",
+    "category": "Profile / Avatar",
+    "description": "A sophisticated prompt for turning photographs into hand-drawn illustrations with a refined sketchbook aesthetic, featuring 0.5mm pencil work and watercolor splashes.",
+    "promptText": "Use the uploaded photo as the primary reference for the character.\n\nIMPORTANT REFERENCE INSTRUCTIONS\n\nPreserve the subject's recognizable identity while simplifying it into a beautiful hand-drawn illustration.\n\nAccurately reflect the uploaded photo's:\n- overall mood and atmosphere\n- outfit and clothing details\n- accessories (glasses, jewelry, hats, bags, etc.)\n- hairstyle and hair color\n- visible pets or companion animals (if present)\n- meaningful personal objects\n\nThe subject should remain immediately recognizable while rendered in an elegant, artistic sketch style.\n\nIf the subject is male, depict a {argument name=\"male age\" default=\"young boy\"}.\nIf the subject is female, depict a {argument name=\"female age\" default=\"young girl\"}.\n\nSTYLE\n\nCreate a highly detailed hand-drawn illustration on a white sketchbook page using fine 0.5mm colored pencils. Build the drawing primarily with delicate pencil strokes and subtle colored-pencil shading while preserving the natural paper texture.\n\nThe sketchbook is placed on a natural wooden easel. Soft, warm sunlight gently filters through a nearby window, creating subtle highlights, delicate shadows, and a cozy, calm artist's studio atmosphere.\n\nBACKGROUND\n\nKeep the background extremely minimal and understated.\n\nUse soft neutral and pastel tones with plenty of negative space.\n\nDo not include complex objects or distracting elements.\n\nAdd only a few small doodles ({argument name=\"doodles\" default=\"stars and hearts\"}) around the subject, drawn loosely with rough 4B pencil outlines.\n\nCOLOR TREATMENT\n\nThe overall image should remain mostly monochrome with very low saturation.\n\nApply color almost exclusively to the subject using soft watercolor-like paint splashes scattered around the figure, blending naturally into the sketch without overwhelming it.\n\nThe paint splashes should feel light, artistic, and organic rather than bold or graphic.\n\nMOOD\n\nWarm, cozy, calm, minimal, elegant, artistic, handmade, gallery-quality, premium illustration with a refined sketchbook aesthetic.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "male age",
+        "default": "young boy"
+      },
+      {
+        "name": "female age",
+        "default": "young girl"
+      },
+      {
+        "name": "doodles",
+        "default": "stars and hearts"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783241301659_7g8gcr_HMXRf48bMAAbKYM.jpg",
+        "alt": "Artistic Ink Wash Portrait Sketch",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "사라진인류애를찾아서",
+      "url": "https://x.com/Lil_Egen"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Lil_Egen/status/2073293863335383283"
+    },
+    "publishedAt": "2026-07-04T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27688",
+    "contentHash": "c64aee64c8d7d0b35b62ba8d7e800ab606fea351"
+  },
+  {
+    "id": "gpt-image-2:27692",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27692",
+    "title": "YZK Styled Portrait Collage",
+    "category": "Profile / Avatar",
+    "description": "A specialized prompt for creating a vertical collage of portraits based on a single face reference, maintaining strict facial consistency across different poses and close-ups.",
+    "promptText": "A vertical collage of three YZK photos. Using the uploaded selfie as the ONLY and exclusive face reference, keep the facial features, and facial structure exactly the same as the reference image. The character poses against a neutral light background. A girl with a {argument name=\"hairstyle\" default=\"beautiful, voluminous hairstyle, seemingly styled with a brush\"}, wearing {argument name=\"makeup style\" default=\"foxy makeup and pronounced, angled lashes\"}. In the first photo, she's very close to the camera, looking at it with one eye and winking. In the second photo, she's turned away, her head coquettishly turned toward the lens, her hairstyle slightly covering her face, but not too much. In the third photo, she's looking very close to the lens, her hair to the side, thus covering her left eye, pouting and looking forward. Close-up and medium shot, minimalist composition, vintage digital texture, slight blur, glamorous atmosphere. Photo taken on {argument name=\"camera\" default=\"iPhone 17 Pro Max\"} with flash.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hairstyle",
+        "default": "beautiful, voluminous hairstyle, seemingly styled with a brush"
+      },
+      {
+        "name": "makeup style",
+        "default": "foxy makeup and pronounced, angled lashes"
+      },
+      {
+        "name": "camera",
+        "default": "iPhone 17 Pro Max"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783241304102_rhwuai_HMW__d_bkAE2ulr.jpg",
+        "alt": "YZK Styled Portrait Collage",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "WasifAI",
+      "url": "https://x.com/doctorwasif"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/doctorwasif/status/2073274304922591604"
+    },
+    "publishedAt": "2026-07-04T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27692",
+    "contentHash": "85d3a51f5104b866caf59f80e8056fc8f091c93b"
+  },
+  {
+    "id": "gpt-image-2:27690",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27690",
+    "title": "Bright Seaside Summer Promenade Portrait",
+    "category": "Social Media Post",
+    "description": "A detailed prompt for a bright and refreshing seaside portrait in Japan, featuring a woman in a crochet resort dress with natural summer lighting and coastal scenery.",
+    "promptText": "Subject: Summer Smile by the Sea\n\nPerson/Expression:\nA {argument name=\"age\" default=\"20s\"} woman. Bright ivory-beige skin with a smooth texture and faint pink complexion. Soft highlights on cheeks, nose, shoulders, and collarbones, leaving natural skin texture without excessive skin correction. Pale rose pink blush, champagne beige and pink brown gradient eyeshadow, long thin eyelashes, delicate lower lashes, and natural tear bags. Brows are a soft arch in light brown. Lips have transparent pink-beige gloss with a natural shine in the center. Small, clear catchlights in the eyes. Smiling brightly, with the face turned slightly to the left.\n\nClothing/Pose:\nWearing a {argument name=\"clothing\" default=\"cream beige crochet resort dress\"}. Thin shoulder straps, delicate crochet patterns, lace-up style cutouts from waist to hip, and drawstring shearing on the right side. The fabric is a translucent knit that lets light through, but with an elegant inner structure to avoid overexposure. Matching thin-strap sandals on the feet. Leaning the body slightly forward, hands naturally resting on the knees. Knees are slightly bent, creating a soft S-curve in the hip line. Natural movement in the hair and dress hem caught by the sea breeze.\n\nBackground/Light:\n{argument name=\"background\" default=\"A coastal promenade in Japan, such as Shonan or Hayama\"}. Blue sea and white railings on the left, green hills in the distance. White buildings, outdoor stairs, and potted plants on the right. Bright clear weather around noon. The sun enters from the upper left, creating soft highlights on the face, shoulders, collarbones, and legs. Railing shadows fall diagonally onto the cobblestones, and reflected light from the sea brightens the shadows on the skin and clothing. The background is bright but not overexposed.\n\nComposition/Camera:\nSmartphone vertical screen, 9:16. Full-body Japanese-style photo. The subject is slightly right of center, leaving plenty of blue sky headroom. Including feet, showing sandals and cobblestone shadows. Camera is at a slightly lower height close to eye level, a natural close-range portrait. Natural expansion around 35mm, focus on the person, with a natural, not too shallow bokeh for the sea and buildings.\n\nTexture/Style:\nHigh-quality Japanese realistic photography. Bright, clean summer tones, a refreshing color scheme of white, beige, and blue. Skin is smooth but avoids a plastic feel, carefully depicting each strand of hair, the texture of the crochet, the thin sandal straps, and the texture of the cobblestones.\n\nNegative:\nExpressions appearing as minors, infantilization, excessive exposure, overly transparent clothing, vulgar sexual expressions, naked, exposure of private parts, unwanted persons, background persons, facial collapse, unnatural smiles, tooth failure, extra or missing fingers, fused hands/feet, broken joints, leg inconsistencies, poor contact between clothes and body, floating fabric, shadows inconsistent with light source, excessive skin correction, plastic skin, overexposure, excessive HDR, text, logos, watermarks, obvious AI feel.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "age",
+        "default": "20s"
+      },
+      {
+        "name": "clothing",
+        "default": "cream beige crochet resort dress"
+      },
+      {
+        "name": "background",
+        "default": "A coastal promenade in Japan, such as Shonan or Hayama"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783241303155_x46j20_HMRR4mhaUAEGT3B.jpg",
+        "alt": "Bright Seaside Summer Promenade Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Prompt アトリエ｜AI画像プロンプト",
+      "url": "https://x.com/CyberTotal2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CyberTotal2026/status/2073577350986420254"
+    },
+    "publishedAt": "2026-07-05T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27690",
+    "contentHash": "e5846822ff0e9d555fba8adbc3be16702e0bfb36"
+  },
+  {
+    "id": "gpt-image-2:27672",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27672",
+    "title": "Monochrome Green Fashion Editorial",
+    "category": "Social Media Post",
+    "description": "A surreal and minimalist high-fashion editorial campaign prompt utilizing a monochrome emerald green color palette with an oversized boot sculpture.",
+    "promptText": "{\n  \"style\": \"high-fashion editorial photography with a minimalist surrealist concept\",\n  \"subject\": \"a self-assured woman casually leaning beside an enormous {argument name=\"color theme\" default=\"green\"} leather boot installation\",\n  \"pose\": \"relaxed but commanding full-body stance, torso slightly angled, one hand carrying a compact handbag\",\n  \"outfit\": {\n    \"top\": \"sleek {argument name=\"material color\" default=\"emerald green\"} sleeveless fitted top\",\n    \"bottom\": \"coordinated green leather trousers\",\n    \"footwear\": \"knee-high green leather boots\",\n    \"accessories\": \"small structured handbag in matching green leather\"\n  },\n  \"composition\": {\n    \"scale\": \"surreal oversized footwear sculpture contrasted against the human model\",\n    \"framing\": \"centered full-body fashion campaign frame with clean negative space\",\n    \"background\": \"seamless pure white studio backdrop\",\n    \"floor\": \"glossy white floor with soft reflections\"\n  },\n  \"lighting\": {\n    \"type\": \"soft controlled studio illumination\",\n    \"mood\": \"clean, luxurious, premium editorial atmosphere\",\n    \"shadows\": \"subtle natural shadows with polished control\"\n  },\n  \"color_palette\": \"monochrome emerald and leather green tones set against neutral white\",\n  \"camera\": {\n    \"angle\": \"eye-level perspective\",\n    \"lens\": \"85mm fashion portrait lens\",\n    \"depth_of_field\": \"crisp subject detail with a smooth, distraction-free studio background\"\n  },\n  \"vibe\": \"modern luxury fashion campaign, confident styling, surreal elegance, magazine-ready presentation\",\n  \"quality\": \"ultra-high resolution, sharp details, polished commercial editorial finish\"\n}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "color theme",
+        "default": "green"
+      },
+      {
+        "name": "material color",
+        "default": "emerald green"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783241290100_lxu8cw_HMavpe-a4AAKXD2.jpg",
+        "alt": "Monochrome Green Fashion Editorial",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "PromptLab",
+      "url": "https://x.com/iamaiistudio"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/iamaiistudio/status/2073537863472545880"
+    },
+    "publishedAt": "2026-07-04T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27672",
+    "contentHash": "d3ce769156e8edac9001fec361f992ebfc9b3504"
+  },
+  {
+    "id": "gpt-image-2:27674",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27674",
+    "title": "Cyber Samurai Empress Portrait",
+    "category": "Social Media Post",
+    "description": "An ultra-realistic cinematic portrait prompt for a female cyber samurai empress in futuristic matte black armor with glowing plasma weapons.",
+    "promptText": "Ultra-realistic cinematic UHD portrait A female cyber samurai empress standing in an ancient imperial courtyard, wearing {argument name=\"armor color\" default=\"matte black\"} powered armor engraved with flowing gold dragons. Her face is hidden behind a futuristic tactical respirator, black hair tied in a high warrior bun. She points a glowing {argument name=\"weapon\" default=\"plasma katana\"} toward the viewer, illuminating her armor with {argument name=\"light color\" default=\"warm amber\"} light. Imperial soldiers and banners fade into the foggy background. Highly detailed mechanical armor, polished black titanium, gold filigree, cinematic lighting, volumetric fog, Unreal Engine 5, photorealistic, shallow depth of field, masterpiece, HDR, 8K.\n[CHARACTER], standing confidently in the center of a [SETTING], wearing [ARMOR STYLE] featuring [ORNAMENTATION/THEME] engraved across the armor in intricate metallic detail. Their face is partially concealed by a sleek [MASK TYPE], with [HAIRSTYLE] and [FACIAL EXPRESSION] visible above the mask.\n\nHolding a [WEAPON] toward the camera in a dynamic foreground perspective, the weapon glowing with [ENERGY COLOR/EFFECT], creating dramatic leading lines.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "armor color",
+        "default": "matte black"
+      },
+      {
+        "name": "weapon",
+        "default": "plasma katana"
+      },
+      {
+        "name": "light color",
+        "default": "warm amber"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783241291500_899h9t_HMZ14PeacAAeP4q.jpg",
+        "alt": "Cyber Samurai Empress Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "David",
+      "url": "https://x.com/tealdog2"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/tealdog2/status/2073474291321167965"
+    },
+    "publishedAt": "2026-07-04T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27674",
+    "contentHash": "a5cabea45aecf658f791e4caedd93ce876833f0b"
+  },
+  {
+    "id": "gpt-image-2:27641",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27641",
+    "title": "Mysterious Portrait with Floral Accents",
+    "category": "Social Media Post",
+    "description": "Creates a moody and mysterious fashion portrait of a woman wearing flowers on her hand, set against a rustic stone wall during golden hour.",
+    "promptText": "Ultra-realistic portrait photography of a {argument name=\"subject\" default=\"young woman with long wavy dark brown hair\"}, wearing an {argument name=\"outerwear\" default=\"oversized vintage brown leather jacket\"}, standing outdoors in front of a {argument name=\"background\" default=\"rustic stone wall\"} during golden hour. She covers most of her face with one hand placed vertically over her eyes and nose, creating a mysterious aesthetic. Fresh colorful flowers are attached to her hand and fingers: a deep purple flower centered on the hand, a bright red flower on one finger, and a soft pink flower near the wrist. A pale pink daisy-like flower is tucked behind her ear. Warm sunlight illuminates her hair and jacket from the side, creating rich highlights, soft shadows, and cinematic contrast. Natural skin texture, realistic hair strands, shallow depth of field, creamy background bokeh, moody editorial fashion style, candid composition, soft earthy tones, highly detailed, DSLR photography, 85mm lens, f/1.8, photorealistic, ultra sharp focus, 8K quality, natural outdoor lighting, luxury fashion magazine aesthetic, vertical portrait, centered composition.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "young woman with long wavy dark brown hair"
+      },
+      {
+        "name": "outerwear",
+        "default": "oversized vintage brown leather jacket"
+      },
+      {
+        "name": "background",
+        "default": "rustic stone wall"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783241272567_c4t2zp_HMZhTZPaIAEh7Wi.jpg",
+        "alt": "Mysterious Portrait with Floral Accents",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "auqib",
+      "url": "https://x.com/auqibhabib"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/auqibhabib/status/2073451701089320968"
+    },
+    "publishedAt": "2026-07-04T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27641",
+    "contentHash": "642b4eb67eb2356703e21cb95c0fdf20534581f2"
+  },
+  {
+    "id": "gpt-image-2:27644",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27644",
+    "title": "Candid Phone Gallery Photo Dump Collage",
+    "category": "Social Media Post",
+    "description": "Creates a realistic social media-style collage designed to look like a personal phone gallery, complete with candid shots and rain effects.",
+    "promptText": "A candid photo-dump collage designed to feel like {argument name=\"person\" default=\"[HUMAN]\"}'s phone gallery from one {argument name=\"weather\" default=\"rainy afternoon\"} running errands downtown. [HUMAN] wears a damp {argument name=\"outfit\" default=\"charcoal-grey oversized trench coat layered over a cream ribbed turtleneck\"}, faded black straight-leg jeans and worn white leather sneakers. The mechanic is a six-panel grid stitched together like an iPhone camera roll, each photo slightly water-speckled on the lens with soft flash hotspots bouncing off wet pavement. Panels: a blurry mirror shot in a shop's rain-fogged window, an overhead shot of shoes splashing through a puddle at a crosswalk, a low-angle shot from a bus shelter bench looking up mid-laugh, a fisheye selfie under an umbrella inches from the lens, a candid shot reflected in a coffee cup lid on a café table, and a motion-blurred shot taken mid-stride on an escalator. Expressions shift from a squinting laugh in the rain to a skeptical side-eye at a shop window to a quiet, unposed half-smile on the bus. Cohesive charcoal grey, cream, faded black and wet-pavement silver palette. Premium candid lifestyle photography, visible grain and uneven exposure, no glossy textures, aspect ratio 4:5.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "person",
+        "default": "[HUMAN]"
+      },
+      {
+        "name": "weather",
+        "default": "rainy afternoon"
+      },
+      {
+        "name": "outfit",
+        "default": "charcoal-grey oversized trench coat layered over a cream ribbed turtleneck"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783241274081_jecoii_HMZdPjea4AAxZWy.jpg",
+        "alt": "Candid Phone Gallery Photo Dump Collage",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "simeon-sanai",
+      "url": "https://x.com/Naiknelofar788"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Naiknelofar788/status/2073447210457743835"
+    },
+    "publishedAt": "2026-07-04T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27644",
+    "contentHash": "313c9e3cfbef0a9a751b76403802e91482b63f99"
+  },
+  {
+    "id": "gpt-image-2:27678",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27678",
+    "title": "Giant Forced Perspective City Selfie",
+    "category": "Social Media Post",
+    "description": "A complex prompt for gpt-image-2 utilizing forced perspective to create a 'giant woman' selfie effect in a realistic urban intersection.",
+    "promptText": "Subject: {argument name=\"subject\" default=\"A young woman, using the person in the reference image as the subject, strictly maintaining consistency in facial features, skin texture, hairstyle, glasses (if any), age, and gender. Do not change features, skin color, hairstyle, or gender. Do not use AI-style or sculpted skin; present a natural, realistic portrait effect.\"}\nClothing: Maintain the clothing from the reference image without modifications.\nPose: Selfie pose, one arm fully extended and raised high, holding a selfie device to capture the shot. The arm is complete and clearly visible, a key part of the frame, but the device itself must not be shown. The other hand reaches toward the lens, holding the provided {argument name=\"camera product\" default=\"Canon camera product\"}, positioning it as the closest and most striking subject. The head is slightly tilted toward the camera with a relaxed expression. The full body is visible from head to toe, with feet touching the ground.\nScene: {argument name=\"scene\" default=\"A real urban intersection including crosswalks, road markings, traffic signs, cars, bicycles, and real-scale pedestrians, representing a grounded city street environment.\"}\nComposition: Selfie perspective from a top-down extreme high angle, creating a natural selfie perspective. Layers: Canon camera at the forefront, followed by the face, full body, and urban background, providing depth.\nPerspective Effect: Forced perspective to make the person appear giant, occupying the main frame while surrounding buildings are reduced to knee height, maintaining a shocking but spatially logical scale.\nAtmosphere: Realistic, natural cinematic city life scene highlighting the scale and realistic photography without fantasy elements.\nLighting: Natural daylight, sunny or slightly cloudy, soft realistic shadows, no dramatic or neon effects.\nPhotography Style: Hyper-realistic cinematic selfie photography, emphasizing natural perspective and high realism.\nProduct Requirements: The Canon camera must remain consistent in appearance, shape, color, and logo without distortion.\nQuality: Maximum photorealism, distinct layers, rich details, no AI artifacts, professional commercial quality.\nNegative Requirements: No AI-drawn feel, plastic skin, distorted body parts, extra limbs, or watermarks.\nAspect Ratio: 9:16",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "A young woman, using the person in the reference image as the subject, strictly maintaining consistency in facial features, skin texture, hairstyle, glasses (if any), age, and gender. Do not change features, skin color, hairstyle, or gender. Do not use AI-style or sculpted skin; present a natural, realistic portrait effect."
+      },
+      {
+        "name": "camera product",
+        "default": "Canon camera product"
+      },
+      {
+        "name": "scene",
+        "default": "A real urban intersection including crosswalks, road markings, traffic signs, cars, bicycles, and real-scale pedestrians, representing a grounded city street environment."
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783241294504_zhefp0_HMZdC0vb0AAVP5M.jpg",
+        "alt": "Giant Forced Perspective City Selfie",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1783241294637_ll224h_HMZdC0saAAAjyGl.jpg",
+        "alt": "Giant Forced Perspective City Selfie",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "LuckySheep",
+      "url": "https://x.com/Lucky_Lambsy"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Lucky_Lambsy/status/2073447009156214930"
+    },
+    "publishedAt": "2026-07-04T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27678",
+    "contentHash": "2327842c650afff2b2f613fff709076bbd43d515"
+  },
+  {
     "id": "gpt-image-2:27698",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6774,411 +7185,5 @@
     "publishedAt": "2026-07-02T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27482",
     "contentHash": "d0865f595e4244b06a92cc8d2bcd806e83a8356f"
-  },
-  {
-    "id": "gpt-image-2:27481",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27481",
-    "title": "Monochrome Fantasy Noble Couple",
-    "category": "Comic / Storyboard",
-    "description": "A delicate black-and-white manga pencil portrait of an intimate aristocratic fantasy couple, useful for romantic character art or visual novel inspiration.",
-    "promptText": "Create a delicate monochrome pencil illustration in refined shoujo fantasy style showing a romantic aristocratic couple posed close together from the waist up. The woman, {argument name=\"female character\" default=\"a gentle young noblewoman\"}, stands on the left with long softly flowing dark hair, straight bangs, luminous large eyes, a calm faint smile, dangling diamond-shaped earrings, and an ornate high-neck lace dress with embroidered floral details and a jeweled brooch at the collar and waist. The man, {argument name=\"male character\" default=\"a handsome young nobleman\"}, stands on the right slightly behind her, taller, leaning close with his head near hers, sharp eyes, tousled medium-length dark hair, a composed serious expression, and a decorated military-inspired noble coat with a high collar, buttons, chains, shoulder ornaments, and gemstone-like insignia. Their shoulders touch and they look directly toward the viewer, creating an intimate rare moment of quiet eye contact and closeness. Use only black, graphite gray, and warm off-white paper tones, with extremely fine linework, soft cross-hatching, subtle smudged shading, detailed hair strands, sparkling eyes, and intricate costume ornamentation. Background: faint sketchy Gothic palace architecture with tall arched windows on the left and delicate climbing vines and floral tracery on the right, kept very pale so the couple remains the focus. Composition: vertical portrait, centered couple, elegant dreamy atmosphere, high detail, hand-drawn manga pencil sketch, no color, no text, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "female character",
-        "default": "a gentle young noblewoman"
-      },
-      {
-        "name": "male character",
-        "default": "a handsome young nobleman"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783069448205_g5nzhw_HMMBq0UaEAAxbJo.jpg",
-        "alt": "Monochrome Fantasy Noble Couple",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "美和",
-      "url": "https://x.com/tokikageyomikag"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/tokikageyomikag/status/2072502101377462537#reversed-0"
-    },
-    "publishedAt": "2026-07-02T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27481",
-    "contentHash": "765a10371a0c65d54268bf33faba0ba5babde35b"
-  },
-  {
-    "id": "gpt-image-2:27504",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27504",
-    "title": "Pastel Flower Sticker-Stamp Toy",
-    "category": "Product Marketing",
-    "description": "A cute 3D game concept render of a pastel flower-themed toy sticker-stamp printer for product or prop design inspiration.",
-    "promptText": "Create a polished 3D concept-art product render of a cute toy sticker-stamp printer shaped like a rounded vertical capsule, centered on a soft pastel lavender background. The toy has a cream upper body and bright lime-green lower base, with glossy molded plastic, rounded bevels, soft studio lighting, and subtle contact shadow. At the top is one large circular pink push button embossed with a simple five-petal flower and a raised circular center. In the middle is one yellow scalloped rotary dial with a white circular face showing a purple tulip icon with two green leaves, and a small orange triangular pointer above it. Around the dial are exactly four small flower icons: pink flower at upper left, blue flower at upper right, glowing yellow flower at lower left, and purple flower at lower right, plus small decorative dot indicators and two pairs of green leaf buttons near the bottom corners. At the front bottom is a horizontal sticker slot with a green ridged roller edge, feeding out one cream paper strip with rounded corners. The strip shows exactly three printed flower stickers stacked vertically: pink flower with yellow center at top, purple flower with yellow center in the middle, and blue flower with yellow center at bottom, each with green leaves and stem. Use a playful toy-study aesthetic for {argument name=\"product type\" default=\"sticker-stamp toy\"}, pastel palette with {argument name=\"background color\" default=\"lavender\"}, cream plastic body, {argument name=\"base color\" default=\"lime green\"}, {argument name=\"top button color\" default=\"pink\"}, and {argument name=\"dial icon\" default=\"purple tulip\"}. No text, no logo, no watermark, no hands, no extra accessories, front-facing view, high-detail smooth plastic render suitable for game concept art.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "product type",
-        "default": "sticker-stamp toy"
-      },
-      {
-        "name": "background color",
-        "default": "lavender"
-      },
-      {
-        "name": "base color",
-        "default": "lime green"
-      },
-      {
-        "name": "top button color",
-        "default": "pink"
-      },
-      {
-        "name": "dial icon",
-        "default": "purple tulip"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783069459184_88t6ue_HMNnBUmaoAAnNNG.jpg",
-        "alt": "Pastel Flower Sticker-Stamp Toy",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Pokitoy",
-      "url": "https://x.com/oasiverse_stu"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/oasiverse_stu/status/2072762484855808197#reversed-0"
-    },
-    "publishedAt": "2026-07-02T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27504",
-    "contentHash": "4407ef1bb12170c7c4ee74340404e228b3b0dffd"
-  },
-  {
-    "id": "gpt-image-2:27420",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27420",
-    "title": "Anti-Design Stinky Tofu Advertisement",
-    "category": "Product Marketing",
-    "description": "A creative and chaotic 'anti-design' meme poster prompt for Changsha stinky tofu, mixing hyper-realistic food photography with crude hand-drawn doodles.",
-    "promptText": "Creative composite street-food advertisement for Changsha stinky tofu, 16:9 horizontal aspect ratio, intentionally ugly anti-design meme poster, chaotic low-budget food ad aesthetic, deliberately cluttered and awkward composition. The background looks badly assembled from greasy night-market textures, cheap red-yellow menu scraps, stained plastic table covers, mismatched tiled wall fragments, handwritten price boards, oil splatters, and ugly pasted paper elements. Harsh uneven flash lighting, slightly off focus in places, awkward shadows, bad perspective, and an intentionally unpolished “made in 5 minutes” look.\n\nAt the center-right is a real-life photograph of authentic Changsha stinky tofu as the hero product. The tofu is served in a cheap paper bowl or disposable snack tray, featuring deep black crispy cubes with rough porous texture, golden crunchy edges, vivid red chili oil, chopped coriander, minced garlic, pickled long beans, and glossy sauce dripping into the cracks. Add visible steam, oily reflections, crunchy surface detail, spicy aroma feeling, and strong late-night street food realism. The food itself should look hyper-realistic, delicious, hot, and craveable, even though the surrounding design is intentionally messy and ugly.\n\nAwkwardly interacting with the real stinky tofu is a badly hand-drawn black ink cartoon doodle character, scribbly and crude like a bored notebook sketch, with disproportionate limbs, wobbly line art, bad crosshatching, and silly emotional expression. The doodle character is pinching its nose with one hand while being dragged toward the Changsha stinky tofu by exaggerated smell waves, eyes turning into hearts, drooling uncontrollably, one foot lifted off the ground as if the smell is magically pulling it in. The scale is wrong, the perspective is wrong, and the doodle is integrated terribly on purpose.\n\nAdd extra ugly doodle elements around the food:\ncrooked smell waves,\nmessy arrows,\nscribbled flames,\nawkward little stars,\nsweat drops,\nshaky excitement marks,\nbadly drawn chili peppers,\ntiny ghost-like aroma clouds,\nsloppy handwritten side notes,\nall in rough black notebook-doodle style.\n\nAt the top, add a deliberately ugly but highly eye-catching Chinese slogan in badly kerned anti-design typography:\n\n\"Smells like a turn-off\"\n\"Eats like a long line\"\n\nAdd a smaller messy handwritten side note nearby:\n\n\"This Changsha bite\"\n\"Is stinky in just the right way\"\n\nAt the lower center, add a bold distorted main title in Chinese:\n\n\"Changsha Stinky Tofu\"\n\nAdd a fake street-snack sub-brand phrase in tacky anti-design style:\n\n\"Black and powerful\"\n\"Fragrant beyond belief\"\n\nOptional additional ugly handwritten Chinese copy:\n\"First bite: frown\"\n\"Second bite: so good\"\n\"Third bite: want to take home\"",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783069413849_o5oy69_HMPSUDCaYAAnZzm.jpg",
-        "alt": "Anti-Design Stinky Tofu Advertisement",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783069413867_a2ldli_HMPSUDCboAASnTh.jpg",
-        "alt": "Anti-Design Stinky Tofu Advertisement",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Loriel.AI",
-      "url": "https://x.com/ou_zhen599"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/ou_zhen599/status/2072731520809542079"
-    },
-    "publishedAt": "2026-07-02T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27420",
-    "contentHash": "8432850ad7d284bb4eb7ff31816056ef8acc7a24"
-  },
-  {
-    "id": "gpt-image-2:27496",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27496",
-    "title": "Avant-Garde Red Black Fashion Portrait",
-    "category": "Product Marketing",
-    "description": "A dramatic photorealistic fashion editorial portrait with bold red-and-black geometric styling and sculptural clothing.",
-    "promptText": "Create a high-fashion editorial portrait of a young East Asian woman with {argument name=\"hair color\" default=\"glossy jet-black hair with a single thin red streak\"}, blunt straight bangs, long hair, pale skin, dramatic brown eyes, glossy dark red lips, and a small beauty mark under one eye. She is lying sideways on a minimalist studio set, propping her head with one hand and gazing directly into the camera with a calm, intense, slightly melancholic expression. Style her in an avant-garde {argument name=\"outfit color\" default=\"black and vivid crimson red\"} sculptural dress: a black sleeveless base with voluminous black fabric around the lower body and one large folded, petal-like crimson satin sleeve or shoulder structure wrapping across the foreground. Add a sleek black cuff bracelet on her wrist. The background is a bold abstract composition with exactly three main geometric areas: a large soft gray-white circular spotlight shape behind her head, a deep black negative-space field, and a sharp diagonal saturated red panel on the right. Use hard directional studio lighting from the upper left, creating strong shadows, high contrast, glossy highlights on hair and lips, and a cinematic chiaroscuro mood. Frame vertically in a close fashion-magazine crop, with her face in the left-center, the red sculptural fabric dominating the lower center, and the diagonal red background creating tension on the right. Photorealistic, ultra-detailed skin texture, luxury editorial styling, dramatic color blocking, no text, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "glossy jet-black hair with a single thin red streak"
-      },
-      {
-        "name": "outfit color",
-        "default": "black and vivid crimson red"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783069455701_uhun4j_HMPLqEda8AAuqlY.jpg",
-        "alt": "Avant-Garde Red Black Fashion Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "eijo",
-      "url": "https://x.com/eijo_AIart"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/eijo_AIart/status/2072724343818449293#reversed-0"
-    },
-    "publishedAt": "2026-07-02T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27496",
-    "contentHash": "5523205e231b69489ecd3e0af8fe9ec818d3e838"
-  },
-  {
-    "id": "gpt-image-2:27434",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27434",
-    "title": "Miniature Makeup Artists Fantasy World",
-    "category": "Product Marketing",
-    "description": "A whimsical fantasy prompt featuring miniature beauticians applying makeup to a giant eye in a luxurious rose-gold setting.",
-    "promptText": "A fantastic fairy-tale beauty world where tiny female makeup artists create eye makeup on the giant eye of a beautiful young woman. The woman has flawless porcelain skin, a deep expressive eye, long curled eyelashes coated with mascara, and a soft natural glow. Mid-range composition with the woman's face positioned on the left side, showing only one eye as the central focus. On the right side, a luxurious rose-gold vanity table holds oversized cosmetic products where miniature makeup artists, only a few centimeters tall, work together. Two tiny beauticians wearing elegant rose-gold professional makeup artist robes stand on miniature step ladders. One carefully blends shimmering metallic {argument name=\"eyeshadow color\" default=\"pink\"} eyeshadow across the giant eyelid using a soft blending brush. Another gently blows loose sparkling pink glitter from her hand, creating a magical cloud of glitter that slowly falls and settles onto the eyelid. The glitter sparkles like fairy dust in warm sunlight. Another miniature artist carefully cleans the oversized rose-gold eyeshadow jars with a soft cloth. Three luxurious round rose-gold eyeshadow jars filled with shimmering pink pigment sit prominently in the foreground, both upright and lying on their sides, much larger than the tiny artists to emphasize the dramatic scale difference. The shimmering eyeshadow reflects warm sunlight with brilliant metallic highlights that perfectly match the glitter. The environment is bright, modern, elegant, and minimalistic with a dreamy fantasy atmosphere. Soft natural daylight, warm cinematic lighting, magical glow, shallow depth of field, macro photography, hyper-realistic skin texture, ultra-detailed eyelashes, premium luxury cosmetics, whimsical miniature world, enchanting fairy-tale mood, surreal scale contrast, photorealistic, HDR, 8K, ultra-sharp focus, masterpiece, award-winning beauty photography.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "eyeshadow color",
-        "default": "pink"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783069420861_79pme6_HMO8F_fbUAA0MAb.jpg",
-        "alt": "Miniature Makeup Artists Fantasy World",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Nas",
-      "url": "https://x.com/Nas_tech_AI"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Nas_tech_AI/status/2072707069157994957"
-    },
-    "publishedAt": "2026-07-02T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27434",
-    "contentHash": "f1cc276a74426141f8b4cd4dfc6d79d109c97e92"
-  },
-  {
-    "id": "gpt-image-2:27457",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27457",
-    "title": "Luxury Fashion Editorial with Persian Cats",
-    "category": "Product Marketing",
-    "description": "A high-fashion editorial portrait of a woman in a pink faux fur coat surrounded by Persian cats in a monochromatic studio setting.",
-    "promptText": "A luxury fashion editorial portrait of a confident young woman seated elegantly in the center of an oversized plush faux fur armchair, wearing a premium {argument name=\"outfit color\" default=\"pastel pink\"} faux fur coat, fitted white trousers, and clean white lace up combat boots. She sits with legs crossed, hands gently resting in her lap, maintaining a calm, powerful expression while looking directly into the camera.\n\nSix majestic long haired {argument name=\"cat breed\" default=\"Persian cats\"} are perfectly arranged symmetrically around her, two perched on the chair’s backrest, two resting on each armrest, and two sitting gracefully on the floor beside the chair. Each cat has fluffy, well groomed fur in soft cream, silver, gray, and white tones, remaining calm and regal.\n\nThe chair is covered in luxurious pink faux fur matching the outfit, placed against a seamless pastel pink studio backdrop and floor for a monochromatic high fashion aesthetic. Soft diffused studio lighting creates smooth shadows, flattering skin tones, glossy fur textures, and crisp detail throughout the scene.\n\nCentered composition, perfect symmetry, Vogue magazine editorial style, luxury fashion campaign, premium studio photography, minimalist aesthetic, ultra realistic, hyper detailed facial features, realistic cat fur, cinematic color grading, shallow depth of field, medium full body shot, 85mm lens, f/2.8, HDR, ray tracing, 8K, masterpiece, photorealistic.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "outfit color",
-        "default": "pastel pink"
-      },
-      {
-        "name": "cat breed",
-        "default": "Persian cats"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783069432425_u5f0wn_HMO3QdPagAAxZbw.jpg",
-        "alt": "Luxury Fashion Editorial with Persian Cats",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783069432490_9kubsn_HMO3QdGbkAACvbh.jpg",
-        "alt": "Luxury Fashion Editorial with Persian Cats",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Snow",
-      "url": "https://x.com/iamrealsnow"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/iamrealsnow/status/2072701775048745116"
-    },
-    "publishedAt": "2026-07-02T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27457",
-    "contentHash": "421efc8b9e2243cf85a0d1a1940226300018ba4e"
-  },
-  {
-    "id": "gpt-image-2:27522",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27522",
-    "title": "Aerial Championship Night Stadium",
-    "category": "Product Marketing",
-    "description": "A cinematic photorealistic aerial view of a packed illuminated soccer stadium at night for sports, broadcast, or event visuals.",
-    "promptText": "Create a photorealistic aerial top-down wide shot of a packed championship-night soccer stadium in a large city at dusk/night, viewed from high above the near end so the entire oval bowl and full green pitch are visible. The stadium is brightly illuminated by floodlights and roof lighting, with a vivid striped grass field, crisp white soccer markings, two goals, center circle, penalty boxes, and touchlines. The stands are completely filled with fans split into two dominant color sections: a large red crowd on the left side with flags and banners, and a darker blue crowd on the right side, with thousands of tiny phone lights sparkling throughout. Add a burst of golden confetti or smoke near the upper-right stands, glowing floodlight haze, realistic crowd density, stadium architecture, scoreboard screens at both far corners, and surrounding city streets and buildings fading into the dark background. Use a cinematic drone-photography look, ultra-detailed realism, high dynamic range, cool blue night tones contrasted with bright stadium greens and warm city lights, 16:9 landscape composition, no text, no drawn route overlay, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783069469917_qzvfve_HMOvQIVaUAAeLLu.jpg",
-        "alt": "Aerial Championship Night Stadium",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783069469895_m0a0na_HMOvQIVaIAASGQn.jpg",
-        "alt": "Aerial Championship Night Stadium",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Kiana Liang",
-      "url": "https://x.com/Kiana_Liang0609"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Kiana_Liang0609/status/2072695334942498937#reversed-0"
-    },
-    "publishedAt": "2026-07-02T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27522",
-    "contentHash": "701efd87653d8f8276809fb52b5056b18e788c43"
-  },
-  {
-    "id": "gpt-image-2:27521",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27521",
-    "title": "Footballer Triptych Character Card",
-    "category": "Product Marketing",
-    "description": "Creates a realistic three-panel studio reference card of a footballer in a numbered national-team kit, useful for character consistency and sports visuals.",
-    "promptText": "Goal: Create a high-resolution football character reference card for {argument name=\"character name\" default=\"Erling Braut Haaland\"}, showing the same athlete in a national-team kit from multiple views for use as a consistent visual reference.\n\nCanvas: Wide horizontal 16:9 studio composite, clean light-gray background, realistic professional sports photography, sharp focus, even softbox lighting, no watermark.\n\nLayout: Split the image into exactly 3 vertical panels separated by thin dark-gray divider lines. Panel 1 on the left shows a full-body front view. Panel 2 in the center shows a full-body back view. Panel 3 on the right shows a tight front-facing head-and-shoulders portrait crop.\n\nSubject details: Tall athletic blond male footballer with pale skin, light blue eyes, strong square jaw, neutral serious expression, slicked-back blond hair tied into a small low bun/ponytail. Keep facial identity consistent across all 3 panels.\n\nUniform: Norway-inspired football kit in {argument name=\"main kit color\" default=\"bright red\"} with a dark navy cross-like vertical-and-horizontal chest design, white trim, Norway crest, white Nike-style swoosh, matching red shorts, red socks, white ankle socks, and pink football boots. The shirt number must be {argument name=\"shirt number\" default=\"9\"} in white on the front, shorts, and large on the back. The back name text must read {argument name=\"back shirt name\" default=\"BRAUT HAALAND\"} above the number.\n\nPanel details: Left panel: full standing pose, arms relaxed at sides, facing camera, entire body visible from head to boots. Center panel: same player from behind, arms relaxed, hair bun visible, back name and large number clearly legible. Right panel: close-up portrait from upper chest upward, centered face, red collar and part of navy patterned shoulder visible, realistic skin texture and studio lighting.\n\nConstraints: Use exactly 3 panels and exactly 1 athlete repeated across them; no extra players, no action pose, no ball, no stadium, no crowd, no additional text besides kit branding, crest, back name, and number.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "Erling Braut Haaland"
-      },
-      {
-        "name": "main kit color",
-        "default": "bright red"
-      },
-      {
-        "name": "shirt number",
-        "default": "9"
-      },
-      {
-        "name": "back shirt name",
-        "default": "BRAUT HAALAND"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783069468961_1k2a6t_HMOuzbWb0AEZj9L.jpg",
-        "alt": "Footballer Triptych Character Card",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Kiana Liang",
-      "url": "https://x.com/Kiana_Liang0609"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Kiana_Liang0609/status/2072695329611493721#reversed-0"
-    },
-    "publishedAt": "2026-07-02T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27521",
-    "contentHash": "c7641a70a3411aa1ed670acb4bc726564990f910"
-  },
-  {
-    "id": "gpt-image-2:27456",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27456",
-    "title": "Nike FIFA World Cup Sports Poster",
-    "category": "Product Marketing",
-    "description": "Creates a high-end sports editorial poster in the Nike campaign style, featuring a football player with double exposure effects and monochrome portraits.",
-    "promptText": "Create a premium sports poster in the style of a Nike × FIFA World Cup editorial campaign. Feature one legendary football player as the hero with a dynamic full-body action pose layered in front of a massive grayscale close-up portrait. Apply a bold horizontal color strip across the eyes using the {argument name=\"national flag colors\" default=\"national flag colors\"} while the rest of the portrait remains monochrome. Place a huge hand-painted jersey number on the right with textured brush strokes.\n\nUse a clean white concrete background with subtle stadium architecture, smoke, dust, paint splashes, ink textures, halftone patterns, distressed paper, and grunge overlays. Add a vertical outlined surname on the left edge, small uppercase first name, handwritten signature near the bottom, national team crest, minimalist typography, inspirational slogan, and modern editorial layout.\n\nColor palette should match the player's national team ({argument name=\"team colors\" default=\"Portugal: red & green, Argentina: sky blue & white, France: blue, white & red, Brazil: yellow, green & blue\"}). Use dramatic rim lighting, high contrast, realistic skin texture, sharp jersey fabric details, cinematic shadows, premium magazine cover composition, dynamic depth, layered collage design, sports branding aesthetic, ultra-realistic, 8K, HDR, award-winning graphic design.\n\nStyle keywords:\neditorial sports poster, FIFA World Cup, Nike campaign, double exposure, layered collage, monochrome portrait, selective color, grunge textures, paint splashes, brush typography, stadium atmosphere, premium branding, modern sports graphic design, photorealistic, ultra detailed.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "national flag colors",
-        "default": "national flag colors"
-      },
-      {
-        "name": "team colors",
-        "default": "Portugal: red & green, Argentina: sky blue & white, France: blue, white & red, Brazil: yellow, green & blue"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783069431200_v04axv_HMOTQPab0AAxEpQ.jpg",
-        "alt": "Nike FIFA World Cup Sports Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783069431181_ra34e8_HMOTQQaa8AEqMy-.jpg",
-        "alt": "Nike FIFA World Cup Sports Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783069431186_etijof_HMOTQojaUAAk3TI.jpg",
-        "alt": "Nike FIFA World Cup Sports Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783069431989_wuk88d_HMOTaAca0AEMseb.jpg",
-        "alt": "Nike FIFA World Cup Sports Poster",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Taaruk",
-      "url": "https://x.com/Taaruk_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Taaruk_/status/2072662601285390492"
-    },
-    "publishedAt": "2026-07-02T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27456",
-    "contentHash": "be167017135f20b151542757f36e5710cdb6fd1f"
   }
 ]
