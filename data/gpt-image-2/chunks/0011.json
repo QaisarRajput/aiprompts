@@ -1,5 +1,235 @@
 [
   {
+    "id": "gpt-image-2:31946",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31946",
+    "title": "Editorial Outfit Breakdown",
+    "category": "Social Media Post",
+    "description": "Transforms a full-body outfit photo into a magazine-style fit check poster with six extracted clothing callouts, labels, brands, and prices.",
+    "promptText": "Using REFERENCE_0 as the source outfit photo, turn the mirror-style fit check into an editorial magazine outfit breakdown while keeping the original person, pose, room photo, and worn outfit visible as the central base image. Add a bold fashion-layout overlay with the headline {argument name=\"headline text\" default=\"TODAY’S FIT\"} at the top and a small handwritten subtitle {argument name=\"subtitle text\" default=\"what I’m wearing\"} beneath it.\n\nExtract and isolate exactly 6 clothing/accessory items from what the subject is wearing, presenting them as cutout product callouts with off-white sticker outlines and thin white leader lines pointing back to the matching item on the subject: 1) jacket, 2) pants, 3) sneakers, 4) beanie, 5) sunglasses, 6) necklace. Arrange the cutouts around the subject: jacket upper left, pants lower left, sneakers bottom left, beanie upper right, sunglasses mid-right, necklace lower right.\n\nAdd compact uppercase labels next to each item with brand and price in an editorial catalog style: JACKET — KOVI — $128; PANTS — SENKO — $94; SNEAKERS — VYRO — $145; BEANIE — NOMA — $38; SUNGLASSES — AERI — $72; NECKLACE — MOTIF — $46. Use {argument name=\"label style\" default=\"condensed black uppercase fashion typography\"} for the labels and preserve the gritty high-contrast cutout collage look.\n\nKeep the background photo recognizable, slightly darkened where needed for readability, and do not invent extra garments beyond the 6 visible outfit pieces. Maintain a vertical social-media editorial poster composition with clean spacing and no additional logos or watermarks beyond what is already present in the reference.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline text",
+        "default": "TODAY’S FIT"
+      },
+      {
+        "name": "subtitle text",
+        "default": "what I’m wearing"
+      },
+      {
+        "name": "label style",
+        "default": "condensed black uppercase fashion typography"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787127652793_mxo8bg_HQA2L6hbAAAYrYC.jpg",
+        "alt": "Editorial Outfit Breakdown",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Magnific",
+      "url": "https://x.com/magnific"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/magnific/status/2089729810176319778#reversed-1"
+    },
+    "publishedAt": "2026-08-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31946",
+    "contentHash": "e15af402560ab1541bdfacc55dab32b5e005c276"
+  },
+  {
+    "id": "gpt-image-2:31903",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31903",
+    "title": "Halftone Experimental Character Poster",
+    "category": "Social Media Post",
+    "description": "An artistic prompt for a black-and-white halftone character poster featuring a sharp realistic color strip and condensed typography.",
+    "promptText": "Create a {argument name=\"aspect ratio\" default=\"9:16\"} experimental character poster featuring a close-up or waist-up portrait with a strong, confident pose. Build the main portrait in stark black and white with a visible vintage halftone print texture. Keep the face detailed with smaller dots, while using heavier halftone patterns across the hair, jacket and darker areas. Introduce a {argument name=\"color accent\" default=\"single sharp color strip\"} cutting through the portrait — across the eyes, cheek and hand. Inside this strip, show realistic high-resolution photography with cool skin tones, subtle blue-grey shadows and natural facial details. Integrate large condensed typography directly into the artwork. Allow parts of the letters to disappear beyond the edges, overlap the subject and interact with the color strip. Use a minimal palette of black, white and grey, with restrained electric blue and deep burgundy accents. Add a few subtle graphic marks: thin technical lines, small circles, registration marks and labels like {argument name=\"labels\" default=\"“VISUAL TRACE”, “SUBJECT 01” and “SIGNAL FOUND”\"}. Make it feel like an underground fashion editorial mixed with a photocopied art zine and experimental character archive. Avoid excessive glitch effects, warm color grading, multiple color windows, floating objects, complicated interface elements, long text, logos, watermarks or decorative sparkles.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "aspect ratio",
+        "default": "9:16"
+      },
+      {
+        "name": "color accent",
+        "default": "single sharp color strip"
+      },
+      {
+        "name": "labels",
+        "default": "“VISUAL TRACE”, “SUBJECT 01” and “SIGNAL FOUND”"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787127596745_fb3u0u_HQAyUBUbAAAALh3.jpg",
+        "alt": "Halftone Experimental Character Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "James AI",
+      "url": "https://x.com/AIwithJames"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AIwithJames/status/2089725568384430429"
+    },
+    "publishedAt": "2026-08-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31903",
+    "contentHash": "a613f84c6d85812526eb3d69970a4fd46b140937"
+  },
+  {
+    "id": "gpt-image-2:31914",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31914",
+    "title": "Watercolor Editorial Illustration Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "A GPT Image 2 prompt that transforms an uploaded photo into a split-screen design featuring the original photo on top and a watercolor-style retro illustration on the bottom.",
+    "promptText": "Please turn each photo I upload into a separate, high-end design poster with a 3:4 vertical layout, split 50/50. The top half preserves the original photo with refined color grading. The bottom half extracts the subject and reinterprets it as a light, retro hand-drawn illustration using watercolor and mixed media textures. It blends modernist editorial illustration, Bauhaus composition, and picture book aesthetics. The color palette is derived from the photo, using soft tones and high lightness. Add hand-drawn artistic text derived from the photo's theme. The overall mood is relaxed, chic, and slightly quirky, like a page from a vintage fashion sketchbook.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787127610126_0wtuti_HQDKpXUakAAK5p0.jpg",
+        "alt": "Watercolor Editorial Illustration Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787127609217_nbmfxs_HQDKteuaIAAj7Jq.jpg",
+        "alt": "Watercolor Editorial Illustration Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787127609160_llwcnj_HQDLLgYbcAA6MWO.jpg",
+        "alt": "Watercolor Editorial Illustration Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小小东",
+      "url": "https://x.com/xiaoxiaodong01"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/xiaoxiaodong01/status/2089893684527730867"
+    },
+    "publishedAt": "2026-08-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31914",
+    "contentHash": "5607ba8db72ea51966b1fffe5597a107a836ac8f"
+  },
+  {
+    "id": "gpt-image-2:31915",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31915",
+    "title": "Japanese Style Calendar Magazine Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "A sophisticated prompt for creating Japanese-style magazine layouts with a calendar theme, featuring polaroid-style photos and elegant calligraphy overlays.",
+    "promptText": "On a warm-textured paper background, the composition presents a vertical calendar magazine layout. In the upper-left of the frame, a Polaroid film photo with a widened white border and a subtle 3D projection is attached. The frame showcases a life scene with film texture determined by the {argument name=\"subject\" default=\"Good morning greeting for a specific city with a quote and weather for August 19, 2026\"}, with clear and natural tones. The upper-left of the frame features the month and large date digits in a rich, deep vintage serif font extracted from the primary colors, while the upper-right has slender, delicate characters for the day of the week and lunar calendar. Bold, free-spirited handwritten brush calligraphy diagonally stamps across the bottom-right edge of the frame, extending onto the card background to create a vivid layered effect. Below the frame, low-saturation English intros and sparsely arranged, rhythmic left-aligned Chinese poetic sentences are placed, with a minimalist brand signature and tiny category tags at the bottom-right. The overall colors of text and decoration echo the primary tones in the frame, creating a deep and shallow progression, overall presenting a quiet, elegant, relaxed, and healing Japanese lifestyle aesthetic.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "Good morning greeting for a specific city with a quote and weather for August 19, 2026"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787127611928_c50xti_HQCsE63agAAbPnV.jpg",
+        "alt": "Japanese Style Calendar Magazine Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787127611903_fh8c2y_HQCsjAcaEAEaW8B.jpg",
+        "alt": "Japanese Style Calendar Magazine Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787127611994_w7no5b_HQCskqfaMAAcAbU.jpg",
+        "alt": "Japanese Style Calendar Magazine Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787127613266_sebbzd_HQCsnmrbgAAMFt8.jpg",
+        "alt": "Japanese Style Calendar Magazine Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小小东",
+      "url": "https://x.com/xiaoxiaodong01"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/xiaoxiaodong01/status/2089860052308119958"
+    },
+    "publishedAt": "2026-08-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31915",
+    "contentHash": "4fba62d2d4bdc9b64e520e85bc3429ad4c67f100"
+  },
+  {
+    "id": "gpt-image-2:31821",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31821",
+    "title": "LLMFIT Model Loadout Dashboard",
+    "category": "Infographic / Edu Visual",
+    "description": "A wide cyberpunk dashboard infographic showing GPU-based local LLM recommendations, hardware specs, and estimated performance scores.",
+    "promptText": "Goal: Create a dark futuristic dashboard infographic for {argument name=\"dashboard title\" default=\"LLMFIT RECOMMENDATIONS\"}, showing local AI model recommendations for a workstation.\n\nCanvas: Wide 21:9 desktop-panel image, black and deep teal background with subtle glow, thin neon cyan border, faint scanline/grid texture, compact technical UI styling.\n\nLayout: Top header bar with small label “LEGION / MODEL INTELLIGENCE”, large title “LLMFIT RECOMMENDATIONS”, subtitle “NVIDIA GeForce RTX 5090 · 31.84 GB VRAM · 125.18 GB RAM”, and a small outlined close-box icon at the top right. Main content is split into two panels: a large left recommendation module occupying about two thirds of the width, and a narrower right verification panel.\n\nLeft panel: Add a large cyberpunk card titled “LEGION MODEL LOADOUT”, with “LEGION” in neon lime and the rest in white blocky techno typography. Under the title, show exactly 4 hardware/status tiles with icons: 1) NVIDIA GeForce RTX 5090, 31.8 GB VRAM with a GPU fan icon, 2) Intel(R) Core(TM) Ultra 9 285K with a CPU chip icon, 3) 125.2 GB system RAM with a memory module icon, 4) CUDA with a circular CUDA emblem. Beneath the tiles, show exactly 6 ranked model rows, each with a large lime outlined rank number, model name, quantization, runtime, RAM amount, and estimated tok/s speed. The 6 rows are: 1) shawnw3j/Huihui-Qwen3.6-27B-abliterated-AWQ-MTP — AWQ-4bit — vLLM — 14.7 GB — 80.9 estimated tok/s; 2) Vortex5/G4-Starry-Ocean-12B — Q8_0 — llama.cpp — 16 GB — 82.8 estimated tok/s; 3) shawnw3j/Qwen3.6-27B-AWQ-MTP — AWQ-4bit — vLLM — 14.7 GB — 80.9 estimated tok/s; 4) Minachist/Qwen3.6-27B-INT8-Autoround-V2 — AutoRound-4bit — vLLM — 16.6 GB — 80.9 estimated tok/s; 5) exnivo/Qwen3.8-20B-Minitron — Q8_0 — llama.cpp — 22.6 GB — 49.9 estimated tok/s; 6) Lorbus/Qwen3.6-27B-int4-AutoRound — AutoRound-4bit — vLLM — 16.6 GB — 80.9 estimated tok/s. Use small cyan icons for chip/runtime/RAM/speed columns.\n\nFooter inside left card: Center a slim neon divider with the text “ESTIMATED BY LLMFIT · VERIFY WITH A LOCAL BENCHMARK.”\n\nRight panel: Title it “VERIFIED LLMFIT DATA” with a small note “ESTIMATES, NOT BENCHMARKS”. Show exactly 6 compact verification entries matching the same 6 models, numbered 01 through 06 in lime, each with smaller gray metadata text and a bright cyan score on the far right: 80.9, 82.8, 80.9, 80.9, 49.9, 80.9. Add a small orange warning note at the bottom: “llmfit recommendations are estimates from detected hardware, not measured benchmarks.”\n\nBottom app chrome: Add a tiny timestamp line at bottom left, “GENERATED 8/17/2026, 7:53:32 PM”, and a small green outlined button at bottom right labeled {argument name=\"button label\" default=\"Refresh scan\"} with a refresh icon.\n\nVisual style: High-contrast sci-fi terminal UI, angular panel corners, thin glowing cyan circuit traces, lime accents, white condensed techno font, dense but readable technical typography, subtle green monitor glow. Keep the image crisp like a generated dashboard screenshot, not a poster.\n\nConstraints: Use exactly 6 model recommendation rows, exactly 4 hardware tiles, and exactly 6 verified-data entries. Do not add people, photos, logos beyond simple hardware-style icons, or extra sections. Keep all visible text in English.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "dashboard title",
+        "default": "LLMFIT RECOMMENDATIONS"
+      },
+      {
+        "name": "button label",
+        "default": "Refresh scan"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787127678160_c7567a_HP-PZRpasAAZplH.jpg",
+        "alt": "LLMFIT Model Loadout Dashboard",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Rich · Atom Tan Studio",
+      "url": "https://x.com/atomtanstudio"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/atomtanstudio/status/2089546619264139569#reversed-0"
+    },
+    "publishedAt": "2026-08-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31821",
+    "contentHash": "1d31202a13a078e83a49019b969295656eac2cc8"
+  },
+  {
     "id": "gpt-image-2:31941",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6573,216 +6803,5 @@
     "publishedAt": "2026-08-16T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31710",
     "contentHash": "a72123850478ad3a55a0cc04c456e7516ebaabd9"
-  },
-  {
-    "id": "gpt-image-2:31713",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31713",
-    "title": "Robot Woman Fast Food Counter Chaos",
-    "category": "Product Marketing",
-    "description": "A photorealistic action shot of a sleek robot woman at a chaotic fast-food counter with fries and ketchup mid-air under harsh fluorescent lighting.",
-    "promptText": "Robot woman terrorizes fast food. Photorealistic culinary photography of a sleek robot woman looming over a chaotic fast-food counter, 85mm f/1.4, shallow depth of field, dynamic low-angle shot, harsh overhead fluorescent lighting mixed with warm golden-hour spill from a window, capturing greasy burger wrappers, scattered fries, and ketchup splatters mid-air, her metallic fingers gripping a dripping soda cup, condensation beads on her chrome plating, background blurred with frantic staff and startled customers, one fry caught in her shoulder joint, atmosphere tense and electric featuring in a photorealistic photography style, under soft natural window light, gritty heavy atmosphere atmosphere, extreme close-up. zero dead frames pure visual momentum rich background detail sharp focus natural skin texture with pores and creases stable characters movie-level temporal coherence. Create a high-end food advertising shot of a sleek, chrome-plated robot woman presiding over a lavish fast-food banquet, ornate gold and crystal details glinting under dramatic rim lighting, her polished fingers delicately holding a glossy burger, rich velvet backdrop, cinematic close-up, shallow depth of field, surreal elegance featuring in a high-end advertising campaign style, under natural overcast daylight, mysterious enigmatic atmosphere, aerial drone overview. no artifacts consistent identity across frames zero dead frames pure visual momentum movie-level temporal coherence. Uncanny dreamlike scene of a chrome robot woman with a glowing red chest core, looming over a sunlit fast-food drive-thru, her metal fingers gripping a ketchup bottle, squirting a perfect blood-red spiral onto a burger held by a terrified cashier, wide-angle shot, shallow depth of field, harsh noon light, with a flock of pigeons frozen mid-air in the background, all staring at her featuring in a bizarre surreal imagery style, under blue hour twilight, melancholic longing atmosphere, parallax dolly movement. rich skin detail with natural pores physically accurate shadows perfect liquid physics simulation no artifacts facial expression consistency. Vogue-style fashion photograph of a chrome-plated robot woman in a sculptural ivory pantsuit, poised mid-stride in a neon-lit fast-food diner, her gaze icy and commanding. she clutches a glossy ketchup bottle like a couture clutch, while soft haze and hard flash sculpt her metallic curves, evoking an eerie, intimate stillness featuring in a high-fashion editorial style, under golden hour lighting, serene contemplative stillness atmosphere, parallax dolly movement. rich background detail sharp focus natural skin texture with pores and creases no morphing hands or faces no artifacts.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786954591904_t43an6_HPzLlRYXMAAYMBq.jpg",
-        "alt": "Robot Woman Fast Food Counter Chaos",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786954591815_vsi7pp_HPzMBzQWoAAvJvy.jpg",
-        "alt": "Robot Woman Fast Food Counter Chaos",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786954595547_01wgoz_HPzMFO_WAAAHGfe.jpg",
-        "alt": "Robot Woman Fast Food Counter Chaos",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786954592644_qmxghv_HPzMIX7WcAAzyor.jpg",
-        "alt": "Robot Woman Fast Food Counter Chaos",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "AlexAImaginator",
-      "url": "https://x.com/TraffAlex"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/TraffAlex/status/2088770246983446943"
-    },
-    "publishedAt": "2026-08-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31713",
-    "contentHash": "6852031b7637d3315266861ca00a8efa8069f91f"
-  },
-  {
-    "id": "gpt-image-2:31585",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31585",
-    "title": "Rugged Desert Fashion Collage",
-    "category": "Product Marketing",
-    "description": "A high-end cinematic fashion editorial collage prompt featuring a man in a desert canyon environment with multiple panels.",
-    "promptText": "Ultra-realistic cinematic fashion editorial collage featuring the {argument name=\"subject\" default=\"same handsome young man\"} in a {argument name=\"environment\" default=\"rugged desert canyon environment\"}, arranged in a premium 3-panel composition with thin elegant white dividing lines. The man has thick naturally textured dark black hair, a sharp masculine jawline, defined cheekbones, straight nose, expressive deep dark eyes, neatly trimmed beard and subtle stubble, with realistic skin texture and natural masculine features. CHANGE THE OUTFIT: He wears a {argument name=\"outfit\" default=\"sophisticated dark olive-green oversized utility jacket layered over a fitted black premium T-shirt\"}, tailored black cargo trousers, and sleek black high-top leather boots. Add a minimalist silver chain, luxury black wristwatch, and subtle bracelet. The outfit should look modern, masculine, expensive and effortlessly stylish. LEFT TOP PANEL: Full-body portrait of the man standing confidently on rocky desert terrain, one hand casually in his jacket pocket, looking toward the side with a calm, powerful expression. Dramatic sandstone cliffs and dry desert vegetation in the background. CENTER PANEL: Full-body cinematic walking shot, the man stepping naturally across rugged stone formations, jacket moving slightly in the desert breeze, looking away from the camera. Strong fashion-editorial posture and realistic body proportions. BOTTOM LEFT PANEL: Rear three-quarter view as he walks away, turning his head slightly toward the camera, showcasing the jacket silhouette and cargo trousers against the rocky canyon. RIGHT LARGE PANEL: Ultra-detailed close-up portrait from the chest up, looking directly into the camera with a confident, intense but natural expression. Highly detailed eyes, beard, hair strands, skin pores and fabric texture. Jacket collar and black shirt clearly visible. Warm golden-hour desert lighting, cinematic shadows, earthy brown and olive color palette, subtle film grain, shallow depth of field, realistic sunlight, volumetric atmosphere, premium luxury fashion photography, high-end magazine editorial aesthetic, photorealistic, 8K detail, HDR, natural skin tones, sophisticated color grading, realistic fabric folds, sharp focus, cinematic lens compression, no text, no logos, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "same handsome young man"
-      },
-      {
-        "name": "environment",
-        "default": "rugged desert canyon environment"
-      },
-      {
-        "name": "outfit",
-        "default": "sophisticated dark olive-green oversized utility jacket layered over a fitted black premium T-shirt"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786867770963_3dwtxm_HPygFf0bgAATxwk.jpg",
-        "alt": "Rugged Desert Fashion Collage",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Aatif J",
-      "url": "https://x.com/aatif_j"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/aatif_j/status/2088720354604953877"
-    },
-    "publishedAt": "2026-08-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31585",
-    "contentHash": "e1b86e647e86a005ac9c88f5eeb4499942990cf0"
-  },
-  {
-    "id": "gpt-image-2:31583",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31583",
-    "title": "Realistic Beach Lifestyle Portrait",
-    "category": "Product Marketing",
-    "description": "A highly detailed prompt for a realistic lifestyle photograph on a tropical beach, focusing on facial consistency from a reference image.",
-    "promptText": "Create a highly realistic lifestyle photograph of the {argument name=\"subject\" default=\"same clearly adult girl from the reference image\"}, preserving her exact facial identity, facial structure, proportions, skin tone, and natural facial features without altering or beautifying her face. Shot on a Canon G7 X Mark III, knee-length composition with the camera positioned around chest level. She is standing naturally at the water’s edge on a {argument name=\"location\" default=\"pristine snow-white sandy beach\"}, with crystal-clear turquoise water surrounding the shoreline. Behind her, tall tropical limestone cliffs rise dramatically, with several elegant white yachts and small boats visible farther out on the water. Keep the entire background sharp, detailed, and naturally in focus — no artificial background blur or bokeh. Her body is turned slightly into a soft profile while her head gently tilts to one side. Both arms are raised naturally toward her head, with her palms lightly touching her temples and hair. Her eyes are closed and her lips are slightly parted, creating a calm, relaxed expression. She wears stylish sunglasses. She has a very slim waist and naturally toned feminine figure. Her hair is extremely long, reaching her waist, smooth and straight with a polished layered cascade haircut. The hair is arranged neatly over her back, with softly inward-curled ends and no waves or curls. Her skin has a subtle natural sun-kissed tan with realistic pores, fine texture, and authentic tonal variation. She wears a {argument name=\"clothing\" default=\"sophisticated white pleated two-piece set\"} consisting of a cropped high-collar top with an open back and a matching high-rise long pleated skirt. Minimalistic jewelry and accessories, nothing distracting. Short square-shaped nails with a clean French manicure. Bright tropical summer atmosphere, intense turquoise water, deep blue cloudless sky, crisp natural sunlight, realistic shadows and reflections, natural daylight with absolutely no flash. Premium authentic travel photography aesthetic, realistic Canon G7 X Mark III rendering, natural colors, lifelike skin texture, subtle camera imperfections, high detail, realistic fabric texture, true-to-life proportions. Do not change the reference girl’s identity or facial features. No face reshaping, no excessive retouching, no plastic skin, no artificial beauty filter, no CGI appearance, no excessive HDR, no background blur, no text, no logos, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "same clearly adult girl from the reference image"
-      },
-      {
-        "name": "location",
-        "default": "pristine snow-white sandy beach"
-      },
-      {
-        "name": "clothing",
-        "default": "sophisticated white pleated two-piece set"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786867769227_q3r9gt_HPx1rS9bwAAF3QB.jpg",
-        "alt": "Realistic Beach Lifestyle Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Meem",
-      "url": "https://x.com/mehvishs25"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/mehvishs25/status/2088673724732198957"
-    },
-    "publishedAt": "2026-08-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31583",
-    "contentHash": "b338b85b31ca5810d8b909eb9a0057256d9ed269"
-  },
-  {
-    "id": "gpt-image-2:31630",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31630",
-    "title": "Realistic Unaju Grilled Eel Box",
-    "category": "E-commerce Main Image",
-    "description": "A photorealistic restaurant-style food shot of glossy grilled eel over rice in a lacquered bento box for menu or promotional use.",
-    "promptText": "Create a realistic high-resolution food photography image of {argument name=\"dish name\" default=\"unaju, Japanese grilled eel over rice\"} served in a rectangular black lacquered bento box with a thin red inner rim, placed on a warm dark wooden restaurant table. The box is filled with white rice and topped edge-to-edge with exactly 4 long grilled eel fillets arranged horizontally in parallel, slightly overlapping, coated in a glossy caramel-brown tare sauce with visible char marks, tiny blistered skin texture, subtle grill lines, and faint skewer marks. The eel should look moist, oily, and sizzling, with bright specular highlights and appetizing lacquered reflections. Use a close-up three-quarter overhead angle, shallow depth of field, natural warm restaurant lighting, and rich contrast. In the softly blurred background include exactly 3 supporting table items: a small white side dish at the upper left with pale pickles or garnish, a dark cylindrical cup near the upper center, and a black soup bowl at the upper right containing clear broth and a small green herb leaf. Keep the focus sharply on the eel and lacquer box, with no people, no utensils, no text, and no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "dish name",
-        "default": "unaju, Japanese grilled eel over rice"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786867813200_f60d29_HPwmbgsbUAAiarj.jpg",
-        "alt": "Realistic Unaju Grilled Eel Box",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "いにしえ@AI Director / Creator / Engineer｜Will Oldgram",
-      "url": "https://x.com/old_pgmrs_will"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/old_pgmrs_will/status/2088587919544262884#reversed-0"
-    },
-    "publishedAt": "2026-08-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31630",
-    "contentHash": "fabf43d4014cca2c62b444100b6eb6c1d660df21"
-  },
-  {
-    "id": "gpt-image-2:31650",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31650",
-    "title": "Overhead Pepperoni Pizza Photo",
-    "category": "E-commerce Main Image",
-    "description": "Generates a realistic top-down studio product photo of a whole pepperoni pizza for food advertising or menu imagery.",
-    "promptText": "Create a high-quality professional overhead product photograph of a whole pepperoni pizza centered on a clean bright white seamless studio background. The pizza should be perfectly round and fill most of the square frame, photographed from directly above with soft studio lighting and a subtle natural shadow around the crust. Show a thin-to-medium golden-brown crust with darker toasted bubbles around the rim, rich red tomato sauce visible near the edges, glossy melted mozzarella cheese with lightly browned spots, fine dried herb seasoning scattered across the cheese, and exactly 21 round pepperoni slices arranged evenly across the surface in a balanced pattern from edge to center. Make the pepperoni deep red-orange, shiny with rendered oil, slightly curled at the edges, and speckled with seasoning. Keep the composition appetizing, realistic, crisp, and commercial-food-photography quality, with no plate, no text, no hands, no props, and no background clutter.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786867830666_e1lihp_HPwN7fkboAAhgyV.jpg",
-        "alt": "Overhead Pepperoni Pizza Photo",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "𝐌",
-      "url": "https://x.com/Strength04_X"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Strength04_X/status/2088559657899962646#reversed-0"
-    },
-    "publishedAt": "2026-08-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31650",
-    "contentHash": "c313532afdb589f7cdedf54d27e39b5a721e1443"
   }
 ]
