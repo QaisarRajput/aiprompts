@@ -1,5 +1,277 @@
 [
   {
+    "id": "gpt-image-2:27437",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27437",
+    "title": "Anime VTuber Gaming Thumbnail",
+    "category": "YouTube Thumbnail",
+    "description": "A detailed prompt for creating a chaotic, neon-lit anime YouTube thumbnail featuring a catgirl VTuber reacting to a Minecraft scene.",
+    "promptText": "Create a vibrant anime-style YouTube thumbnail for a livestream gaming broadcast in a wide 16:9 layout. Set the scene inside a {argument name=\"room style\" default=\"neon purple and pink\"} streamer room. In the center, show a cute {argument name=\"character type\" default=\"catgirl VTuber\"} seated at a desk from the waist up, leaning forward with energetic body language, one hand on a computer mouse and the other hand reaching toward the viewer. Give her light orange-blonde bob-cut hair with soft bangs, fluffy brown-and-cream cat ears, and a visible cat tail. Cover the middle of her face with a solid rectangular censor block so her face is intentionally hidden.\n\nDress her in a black-and-white maid-inspired outfit: a frilly white blouse, black dress bodice, puff sleeves, white ruffles, a black ribbon bow, and a gold bell choker. On the desk, include a mechanical keyboard with bright RGB lighting, a glowing gaming mouse, and a streamer microphone on the far left with pink-purple LED illumination. Add two cat-themed foreground props: a plush cat face at the bottom left and a black cat-shaped mug at the bottom right. Behind her, place a gaming chair decorated with paw-print details.\n\nOn the left side of the thumbnail, add large bold Korean headline text in thick white block letters with black filled shadows and a glowing purple outline, stacked across two lines. The text should read: {argument name=\"korean text\" default=\"방송중 대참사\"}. Beneath it, add a smaller yellow comic-style burst caption with a black outline reading: > 크리퍼 실화냐.\n\nOn the right side, place one large computer monitor angled inward. The screen should show a Minecraft-like scene with a bright blue sky, green trees, water, and a large green Creeper lunging outward toward the viewer. Outline the Creeper dramatically like a sticker cutout. Add starburst effects and neon accents around the monitor to make the moment feel chaotic and explosive.\n\nUse exaggerated clickworthy thumbnail aesthetics throughout: ultra-saturated colors, sharp cel shading, thick outlines, glossy highlights, high contrast, dynamic perspective, and a streamer-disaster mood designed to grab attention instantly.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "room style",
+        "default": "neon purple and pink"
+      },
+      {
+        "name": "character type",
+        "default": "catgirl VTuber"
+      },
+      {
+        "name": "korean text",
+        "default": "방송중 대참사"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783069422483_hfumrb_HMMkkICacAAwxj2.jpg",
+        "alt": "Anime VTuber Gaming Thumbnail",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "PromptLab",
+      "url": "https://x.com/iamaiistudio"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/iamaiistudio/status/2072540845711163881"
+    },
+    "publishedAt": "2026-07-02T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27437",
+    "contentHash": "955cfb7c1034eda35cb94fe554ece0cdfbc5f9c9"
+  },
+  {
+    "id": "gpt-image-2:27505",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27505",
+    "title": "Storyboard Re-Render Workflow UI",
+    "category": "Comic / Storyboard",
+    "description": "Creates a dark node-graph UI comparing a gray 3D motion storyboard with a 90s anime-style repaint for animation reference workflows.",
+    "promptText": "Goal: Create a dark node-based workflow screenshot showing a side-by-side comparison between a gray 3D animation storyboard and a re-rendered 90s anime-style storyboard, as if inside a visual AI/compositing tool.\n\nCanvas: Landscape 4:3 screen capture on a nearly black dotted grid workspace. Add thin teal curved connector lines between nodes, with small circular input/output ports on the node edges.\n\nLayout: Place exactly 2 tall rounded-rectangle nodes side by side. Both nodes are titled “Painter” at the top left with a small brush/pen icon, and a three-dot menu at the top right. The left node shows the grayscale source storyboard; the right node shows the stylized output storyboard. Each node contains exactly 4 stacked widescreen storyboard frames separated by thick black dividers, followed by a compact painter control panel at the bottom.\n\nLeft node storyboard frames: Render all 4 frames as monochrome gray 3D viewport/cinematic previz images with low-saturation clay materials and simple urban geometry. Frame 1: a generic male mannequin walks down a city sidewalk with storefronts, a hydrant, street pole, and road markings. Frame 2: the mannequin raises one leg toward a stone building wall as if beginning to climb. Frame 3: the mannequin is partially up the wall, body leaning back, legs pressed against the facade. Frame 4: rear view of the mannequin walking upward along a vertical building facade, with windows and rooftop perspective visible.\n\nRight node storyboard frames: Recreate the same 4 actions and camera angles, but as detailed {argument name=\"visual style\" default=\"1990s hand-painted anime cel animation\"}. Use a young adult male character with {argument name=\"character outfit\" default=\"green jacket, blue jeans, and brown shoes\"}, brown hair, and realistic anime proportions. Frame 1: he walks along a sunny city sidewalk past storefronts, a red fire hydrant, streetlight, and road marking “633”. Frame 2: he lifts his foot onto a stone wall beside a glass storefront. Frame 3: he climbs higher on the building facade, with street, hydrant, fire escape, and shop signs in the background. Frame 4: rear view as he walks vertically up the pale building wall, windows receding below him and rooftops visible ahead.\n\nPainter controls: At the bottom of each node show exactly 3 tool icons: a highlighted yellow brush icon, an eraser icon, and a grid/hash icon. Include a small “Reset” label on the right. Under the icons show exactly 3 labeled controls: Color with a white swatch and hex text “FFFFFF” plus “100%”; Size with a slider, left node value “30” and right node value “60”; Hardness with a slider and “100%”.\n\nVisual style: Crisp UI mockup, dark charcoal panels, rounded corners, subtle shadows, muted teal connector accents, precise alignment. The left storyboard should look like a gray 3D render, while the right storyboard should look like a polished anime repaint with blue-gray shadows, ink outlines, hand-painted backgrounds, and cinematic framing.\n\nConstraints: Use exactly 2 nodes, exactly 4 storyboard frames per node, and exactly 3 controls per node. Keep all visible UI text in English. Do not add extra panels, logos, watermarks, or explanatory captions outside the node interface.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "visual style",
+        "default": "1990s hand-painted anime cel animation"
+      },
+      {
+        "name": "character outfit",
+        "default": "green jacket, blue jeans, and brown shoes"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783069459372_0w50uh_HMPhJ__aMAENFwd.jpg",
+        "alt": "Storyboard Re-Render Workflow UI",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Finn McKenty",
+      "url": "https://x.com/thefinnmckenty"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/thefinnmckenty/status/2072749962094674018#reversed-0"
+    },
+    "publishedAt": "2026-07-02T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27505",
+    "contentHash": "e03fd8288e54b3be23b87e0fa70c3d25cb59def8"
+  },
+  {
+    "id": "gpt-image-2:27468",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27468",
+    "title": "Purple Mechanical Goddess Triptych",
+    "category": "Comic / Storyboard",
+    "description": "A structured prompt for generating a three-panel anime-realistic fantasy scene of a silver-haired mage awakening an ancient mechanical core.",
+    "promptText": "Goal: Create a vertical fantasy sci-fi triptych showing the same silver-haired divine mechanic mage at the moment an ancient mechanical core fully activates, in a brilliant purple arcane-mechanical spectacle.\n\nCanvas: Tall vertical 9:16 composition divided into exactly 3 stacked horizontal cinematic panels with no text, no borders, and continuous violet energy lighting across all panels.\n\nPanel 1, long shot: Show {argument name=\"character name\" default=\"a young silver-haired goddess mechanic mage\"} standing centered in a vast ancient cathedral-like mechanical temple. She wears a white-and-silver ornate techno-mage coat, short skirt, high boots, and metallic accessories, holding a tall staff raised upward. The temple is filled with activated clockwork architecture, circular gears, rune rings, and luminous machinery. Include exactly 11 floating mechanical cubes suspended in the air around the ceiling and sides, each glowing with violet cores and etched circuitry. Include exactly 2 large circular magic diagrams on the left and right foreground walls/floor, plus a central vertical beam of energy descending from above into the raised staff. The floor is glossy black stone covered in glowing circuit traces and reflections. Mood: energy explosion, temple resonance, overwhelming scale.\n\nPanel 2, close-up: Show the same character from chest up, facing forward with calm divine confidence. Her {argument name=\"hair color\" default=\"long silver-white hair\"} streams outward in the energy storm, with twin-tail-like flowing sections and small mechanical hair ornaments. Her eyes glow faint violet, and a small luminous circular sigil is marked on her forehead. She wears the same white mechanical mage outfit with visible gears, fasteners, shoulder details, and collar. On the right side of the frame, include exactly 1 ornate staff head or mechanical halo device, a circular clockwork ring radiating purple light. Surround her with violet lightning arcs, transparent magical runes, and swirling energy filaments. Mood: divine awakening, controlling the ancient core.\n\nPanel 3, extreme close-up: Fill the panel with exactly 1 human eye, showing pale lashes and silver hair strands crossing the frame. The iris is transformed into an intricate glowing purple circular mechanism: nested clockwork rings, tiny rune markings, radial circuit lines, and a bright central core. Violet lightning branches across the iris and sclera, with crystalline reflections and wet eye detail. Mood: law engraving, godlike pupil, microscopic arcane machinery.\n\nVisual style: Ultra-detailed anime-realistic fantasy illustration, high-end concept art, ethereal purple palette, luminous violet electricity, ancient machinery, sacred geometry, clockwork magic, crystal-clear sharp detail, cinematic lighting, dramatic depth, glossy reflections, high contrast, volumetric glow, majestic and mystical atmosphere.\n\nConstraints: Use exactly 3 stacked scenes in the order long shot, close-up, extreme eye close-up. Keep the same character identity and costume across all panels. No captions, no logos, no watermark, no extra characters. Dominant color is {argument name=\"energy color\" default=\"violet purple\"}; setting is {argument name=\"setting\" default=\"an ancient mechanical temple\"}; core concept is {argument name=\"activation event\" default=\"the ancient mechanical core fully activating\"}.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "a young silver-haired goddess mechanic mage"
+      },
+      {
+        "name": "hair color",
+        "default": "long silver-white hair"
+      },
+      {
+        "name": "energy color",
+        "default": "violet purple"
+      },
+      {
+        "name": "setting",
+        "default": "an ancient mechanical temple"
+      },
+      {
+        "name": "activation event",
+        "default": "the ancient mechanical core fully activating"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783069439567_iwoqg2_HMOyZz3aoAAX2eL.jpg",
+        "alt": "Purple Mechanical Goddess Triptych",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Molly Mo",
+      "url": "https://x.com/BloominOne"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/BloominOne/status/2072696479320621474#reversed-0"
+    },
+    "publishedAt": "2026-07-02T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27468",
+    "contentHash": "ebf2e2cf64afc97418cd5a52dbc3cc18bc418c48"
+  },
+  {
+    "id": "gpt-image-2:27472",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27472",
+    "title": "Giant Weaponized Robot in Refinery",
+    "category": "Comic / Storyboard",
+    "description": "A cinematic photorealistic prompt for generating a towering female combat android armed with two blades in a rainy industrial refinery.",
+    "promptText": "Create a cinematic photorealistic vertical image of one gigantic humanoid female combat robot standing in the center of an industrial oil refinery under a dark overcast sky. The robot has a pale porcelain-white armored body with exposed black mechanical joints, cables, pistons, screws, and intricate inner machinery visible between segmented plates; she has a slim feminine silhouette, broad armored chest, long legs, large mechanical feet, a calm doll-like face, pale skin, red eyes, and shoulder-length {argument name=\"hair color\" default=\"silver-gray\"} hair blowing slightly in the wind. She is holding exactly two weapons: one long conical spear-like blade integrated into or gripped by her left hand, pointing downward to the wet ground, and one long straight sword-like blade in her right hand, angled down and outward. Show her from a low-angle perspective so she towers over the scene, emphasizing immense scale. Surround her with a sprawling refinery: exactly five prominent vertical distillation towers or chimneys visible in the background, plus dense scaffolding, catwalks, pipes, tanks, railings, and small human workers in helmets at ground level for scale. The ground is wet asphalt with puddles and reflections, suggesting recent rain. Use cool gray colors, high contrast metal textures, realistic lighting, shallow atmospheric haze, and dramatic sci-fi realism. No text, no logo, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "silver-gray"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783069441606_hyn1rv_HMOo4rfbAAAo4lM.jpg",
+        "alt": "Giant Weaponized Robot in Refinery",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "カーブミラー",
+      "url": "https://x.com/kabumira862571"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/kabumira862571/status/2072685952406069665#reversed-0"
+    },
+    "publishedAt": "2026-07-02T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27472",
+    "contentHash": "e302074bf998eaf1ecfb7d7f53418fa13afa878c"
+  },
+  {
+    "id": "gpt-image-2:27471",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27471",
+    "title": "Queen and Serpent Fantasy Portrait",
+    "category": "Comic / Storyboard",
+    "description": "A richly detailed prompt for generating a regal fantasy queen standing with a giant ivory serpent in an ornate cathedral palace throne room.",
+    "promptText": "Create a lavish dark-fantasy royal portrait of {argument name=\"character name\" default=\"the Queen and the Serpent\"}: a tall, pale, ethereal young queen standing front and center in a cathedral-like palace throne room, posed confidently before an ornate gold-and-red throne. She has very long flowing {argument name=\"hair color\" default=\"silver-white\"} hair, delicate features, red lips, a calm imperious expression, and a spiked jeweled crown. Dress her in an elaborate {argument name=\"gown color\" default=\"deep crimson red\"} off-shoulder couture gown with a fitted corset bodice, intricate gold embroidery, chains, filigree armor-like accents, a high slit revealing one leg, jeweled sandals, and a long cape/train pooling dramatically across a polished marble floor. Behind and around her coils exactly one enormous pale ivory-white serpent with pearlescent scales: its thick body loops horizontally around the throne and across the foreground, with its head visible on the viewer’s left, golden eyes, slightly open mouth, and forked tongue extended. The setting is a grand Gothic palace hall with towering white marble columns, pointed arched windows, ornate gold tracery, red velvet banners with gold royal crests on both sides, gold candelabras, white marble steps, reflective patterned marble flooring, and bright daylight streaming through the windows under a blue sky. Use a vertical 4:5 composition, symmetrical centered framing, full-body view, ultra-detailed fantasy realism, cinematic lighting, rich red and gold palette, luxurious textures, sharp focus on the queen and serpent, no text, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "the Queen and the Serpent"
+      },
+      {
+        "name": "hair color",
+        "default": "silver-white"
+      },
+      {
+        "name": "gown color",
+        "default": "deep crimson red"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783069441268_o0fdzx_HMOdf9naQAAWQB3.jpg",
+        "alt": "Queen and Serpent Fantasy Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "カーブミラー",
+      "url": "https://x.com/kabumira862571"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/kabumira862571/status/2072673434036043778#reversed-0"
+    },
+    "publishedAt": "2026-07-02T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27471",
+    "contentHash": "8497cc289efe50062455ede446a49f6ef77310ee"
+  },
+  {
+    "id": "gpt-image-2:27421",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27421",
+    "title": "Purple Bakery Illustration Prompt",
+    "category": "Comic / Storyboard",
+    "description": "A whimsical illustration prompt for a two-story purple bakery on a British street corner, featuring charming details like flowers, a bicycle, and puppies in a hand-drawn style.",
+    "promptText": "The {argument name=\"bakery color\" default=\"Purple\"} Bakery on the British Street, a {argument name=\"building style\" default=\"two-story storefront at the corner of the street\"}, sells a variety of breads and attracts a lot of customers. The door is decorated with bright flowers, there are chairs at the door where customers sit and eat bread, there is a purple tree at the door, there is a bicycle parked at the door, and there are puppies at the door. {argument name=\"art style\" default=\"Simple illustration style\"}, hand-drawn irregular lines, lines have a slight shake, cute style --ar 9:16",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "bakery color",
+        "default": "Purple"
+      },
+      {
+        "name": "building style",
+        "default": "two-story storefront at the corner of the street"
+      },
+      {
+        "name": "art style",
+        "default": "Simple illustration style"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783069414220_saaqwl_HMN_1mqbMAAnlEY.jpg",
+        "alt": "Purple Bakery Illustration Prompt",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Nas",
+      "url": "https://x.com/Nas_tech_AI"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Nas_tech_AI/status/2072640817274241257"
+    },
+    "publishedAt": "2026-07-02T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27421",
+    "contentHash": "b6a719b8bd05f914bacfc22ee2887837328da6df"
+  },
+  {
     "id": "gpt-image-2:27501",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6775,324 +7047,5 @@
     "publishedAt": "2026-06-29T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27211",
     "contentHash": "ebd50b8651c4cde307479b13d5b275a07ad1a1d2"
-  },
-  {
-    "id": "gpt-image-2:27144",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27144",
-    "title": "Cinematic Triple Exposure Portrait",
-    "category": "Profile / Avatar",
-    "description": "A sophisticated prompt for generating photorealistic portraits with a triple-exposure motion effect, creating a sense of movement through time.",
-    "promptText": "Create a photorealistic cinematic portrait using the {argument name=\"subject\" default=\"uploaded person\"} as the exact identity. Dress the subject in a {argument name=\"attire\" default=\"tailored charcoal blazer over a black shirt\"}, captured in a dramatic three-quarter profile with a calm, determined expression. Create a striking {argument name=\"motion effect\" default=\"triple-exposure effect\"} by keeping the central face razor-sharp while two semi-transparent duplicates appear on either side with smooth horizontal motion blur, suggesting movement through time.Use a rich crimson background with warm cinematic lighting, subtle rim light, and soft shadows that sculpt the face. Emphasize ultra-realistic skin texture, natural facial details, premium fabric textures, and shallow depth of field. Shoot with an 85mm lens, editorial composition, high-end magazine styling, refined color grading, and ultra-detailed 8K realism.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "uploaded person"
-      },
-      {
-        "name": "attire",
-        "default": "tailored charcoal blazer over a black shirt"
-      },
-      {
-        "name": "motion effect",
-        "default": "triple-exposure effect"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782810216431_s9la66_HL-sdSKa8AA7OIM.jpg",
-        "alt": "Cinematic Triple Exposure Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Aijaz",
-      "url": "https://x.com/iamsofiaijaz"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/iamsofiaijaz/status/2071563980569780522"
-    },
-    "publishedAt": "2026-06-29T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27144",
-    "contentHash": "f2b0cc3584a2abdf0ff9962b8e3c2fc4155016c9"
-  },
-  {
-    "id": "gpt-image-2:27202",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27202",
-    "title": "Retro Gothic Film Portrait",
-    "category": "Profile / Avatar",
-    "description": "Generates a moody vintage-film gothic portrait of a melancholic young woman against old newspaper walls with subtle static typography.",
-    "promptText": "Create a vertical 2:3 cinematic retro editorial portrait of a young woman with {argument name=\"hair color\" default=\"long black wavy hair\"}, pale skin, delicate facial features, and a cold melancholic gaze, leaning against an old corner wall covered with yellowed vintage newspaper clippings and faded retro posters. She wears a dark gothic lolita-inspired outfit: black velvet dress or jacket, white ruffled lace collar, white lace shoulder trim and cuffs, plus a long dark beaded cross necklace. Her expression is distant, tired, slightly sorrowful and untouchable, with parted lips and soft smoky eyes, looking directly at the viewer from a close three-quarter angle. Use {argument name=\"visual style\" default=\"soft-focus analog film photography\"}, muted beige-gray tones, dusty sunlight from the upper left, shallow depth of field, visible film grain, scratches, haze, static noise, and slightly faded colors. The room should feel cramped, nostalgic, and decayed, with peeling paper texture and blurred posters in the background. Add exactly 6 small white typewriter-style English text overlays integrated into the image like avant-garde magazine typography: 1) near the upper left wall, “STATIC / FACE”; 2) mid-right, “NOISE / PRAYER”; 3) below it, “// / QUIET / THREAT”; 4) lower left near her shoulder, “EYES OPEN. / TRUTH CORRUPTED / BEYOND THE NOISE.”; 5) bottom left, “// / FALSE”; 6) faint horizontal glitch lines and tiny unreadable static marks around the frame. Keep the woman as the clear subject, crop from chest upward with one arm softly entering the lower right foreground, and avoid modern objects, bright colors, smiling expression, or clean digital sharpness. Customize the mood as {argument name=\"mood\" default=\"do not come close, but you cannot stop looking\"}.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "long black wavy hair"
-      },
-      {
-        "name": "visual style",
-        "default": "soft-focus analog film photography"
-      },
-      {
-        "name": "mood",
-        "default": "do not come close, but you cannot stop looking"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782810258183_54w97l_HL-qxPNbEAAzY7i.jpg",
-        "alt": "Retro Gothic Film Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782810258188_peyfoz_HL-qxPNbkAAKBtH.jpg",
-        "alt": "Retro Gothic Film Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782810258186_uglqeh_HL-qxO4aAAAMQxY.jpg",
-        "alt": "Retro Gothic Film Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782810259111_jca5w2_HL-qxONbAAAjmz6.jpg",
-        "alt": "Retro Gothic Film Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "serein",
-      "url": "https://x.com/you1873118"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/you1873118/status/2071562137454133508#reversed-0"
-    },
-    "publishedAt": "2026-06-29T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27202",
-    "contentHash": "44a8e9378870dd47496c8f7e5c87214f4c4bc9c5"
-  },
-  {
-    "id": "gpt-image-2:27177",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27177",
-    "title": "Realistic Japanese Fashion Portrait",
-    "category": "Profile / Avatar",
-    "description": "A detailed prompt for generating a high-fidelity portrait of a Japanese woman in a stylish black dress with soft indoor lighting.",
-    "promptText": "An extremely beautiful {argument name=\"subject\" default=\"Japanese woman\"} in a candid pose, vertical portrait composition, with straight bangs and a neat updo, leaning slightly toward the camera in front of an indoor {argument name=\"background color\" default=\"beige\"} wall. The shot is a tight half-body composition. She is wearing a form-fitting {argument name=\"outfit\" default=\"black spaghetti strap mini dress\"} with drawstring ruched sides, paired with sheer black stockings and a delicate necklace. The makeup features sharp, winged eyeliner; the overall lighting is warm and soft with clean, distinct shadows. Realistic photography, eyes in sharp focus, sharp facial details, authentic skin texture, clear hair strands, and natural fabric texture, 3:4 aspect ratio.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "Japanese woman"
-      },
-      {
-        "name": "background color",
-        "default": "beige"
-      },
-      {
-        "name": "outfit",
-        "default": "black spaghetti strap mini dress"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782810237826_tvjufe_HL-QwiBboAAw154.jpg",
-        "alt": "Realistic Japanese Fashion Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782810237790_dzyx3o_HL-QwiBbIAAhaIk.jpg",
-        "alt": "Realistic Japanese Fashion Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782810237770_zta4gr_HL-QwiGaoAA6dUz.jpg",
-        "alt": "Realistic Japanese Fashion Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782810238699_qgp6dh_HL-QwiFaAAAdgTi.jpg",
-        "alt": "Realistic Japanese Fashion Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "BeautyVerse",
-      "url": "https://x.com/BeautyVerse_Lab"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/BeautyVerse_Lab/status/2071533524134551615"
-    },
-    "publishedAt": "2026-06-29T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27177",
-    "contentHash": "0821bdab18cce61fa5b0f9b3eaac884af5c48082"
-  },
-  {
-    "id": "gpt-image-2:27222",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27222",
-    "title": "Understated Luxury Studio Portrait",
-    "category": "Profile / Avatar",
-    "description": "A refined editorial portrait prompt for creating a quietly luxurious fashion image centered on knitwear, natural beauty, and a premium wristwatch detail.",
-    "promptText": "Create a high-end editorial studio portrait of {argument name=\"character name\" default=\"a young woman\"} with an understated luxury fashion mood. Vertical 2:3 crop, waist-up framing, centered slightly to the right. She has shoulder-length softly wavy {argument name=\"hair color\" default=\"dark brunette\"} hair parted to one side, natural refined makeup, small stud earrings, clear skin texture, and a warm gentle smile while looking slightly off-camera to the viewer’s left. She wears a premium deep {argument name=\"sweater color\" default=\"charcoal black\"} knitted crew-neck sweater with visible ribbed texture and relaxed sleeves. Her arms are crossed comfortably over her chest, with one hand resting on the opposite upper arm, and a luxury {argument name=\"watch type\" default=\"stainless steel wristwatch with a black dial\"} prominently visible on her wrist as the main detail. Use a muted warm gray studio background with subtle vertical tonal variation, soft directional key light from the front-left, gentle shadows, realistic skin tones, shallow depth of field, editorial magazine photography, quiet confidence, minimalist elegance, no logos, no text, no loud accessories, no harsh contrast.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "a young woman"
-      },
-      {
-        "name": "hair color",
-        "default": "dark brunette"
-      },
-      {
-        "name": "sweater color",
-        "default": "charcoal black"
-      },
-      {
-        "name": "watch type",
-        "default": "stainless steel wristwatch with a black dial"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782810271941_tvqw3r_HL-ExQqakAAJsU5.jpg",
-        "alt": "Understated Luxury Studio Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782810271926_ruu0ec_HL-EzuhbUAA59MF.jpg",
-        "alt": "Understated Luxury Studio Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Cherry 2.O",
-      "url": "https://x.com/Mind_Boticni"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Mind_Boticni/status/2071520763296071944#reversed-0"
-    },
-    "publishedAt": "2026-06-29T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27222",
-    "contentHash": "0ecbbb36b11d4ae95a1c7316b747a376af923c08"
-  },
-  {
-    "id": "gpt-image-2:27220",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27220",
-    "title": "Realistic Night Mirror Selfie",
-    "category": "Profile / Avatar",
-    "description": "Generates a candid ultra-realistic apartment mirror selfie with warm low-light ambience for lifestyle or virtual model imagery.",
-    "promptText": "Create an ultra-realistic casual mirror selfie of a young adult woman in a cozy apartment at night. She is seated on a gray sofa, framed from upper thighs to head, holding a dark smartphone in her right hand so the phone partially covers the right side of the image. She has {argument name=\"hair color and style\" default=\"shoulder-length wavy blonde hair with a loose, slightly messy texture\"}, fair skin, soft natural makeup, defined brows, and a relaxed faint smile while looking slightly toward the phone screen. She wears {argument name=\"outfit\" default=\"a fitted heather-gray ribbed crop tank top and matching light-gray drawstring lounge shorts\"}. The pose is casual and intimate: torso angled slightly toward the mirror, left arm resting down by her side, one knee visible in the foreground. The environment is a modern living room or bedroom corner with warm indoor lighting, a glowing table lamp on the left, beige curtains behind her, a large dark window showing blurred city lights at night, a potted plant near the window, and neutral gray upholstery. Use realistic smartphone camera aesthetics: vertical 4:5 composition, close personal framing, slight mirror distortion, soft low-light noise, warm skin tones, natural shadows, shallow background softness, candid social-media realism rather than studio perfection. Avoid text, watermark, exaggerated beauty retouching, extra fingers, distorted phone, or unrealistic anatomy.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color and style",
-        "default": "shoulder-length wavy blonde hair with a loose, slightly messy texture"
-      },
-      {
-        "name": "outfit",
-        "default": "a fitted heather-gray ribbed crop tank top and matching light-gray drawstring lounge shorts"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782810270705_giei64_HL-AcCZa8AAhDV9.jpg",
-        "alt": "Realistic Night Mirror Selfie",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "daram",
-      "url": "https://x.com/My_dar4m"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/My_dar4m/status/2071515581594149186#reversed-0"
-    },
-    "publishedAt": "2026-06-29T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27220",
-    "contentHash": "e71ce9fe5c553cdd0bd7cbd77de94f1542148712"
-  },
-  {
-    "id": "gpt-image-2:27225",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27225",
-    "title": "Embarrassed Fox Boy Anime Sticker",
-    "category": "Profile / Avatar",
-    "description": "Generates a cute furry anime sticker of a laughing fox boy mascot with streetwear details, ideal for avatars, emotes, and character art.",
-    "promptText": "Create a square 1:1 anime-style sticker illustration on a clean white background, featuring a single cheerful anthropomorphic fox boy with orange fur and cream muzzle/cheeks, large upright fox ears, spiky golden-orange hair, and a fluffy youthful face. He is laughing with closed crescent eyes, an open smiling mouth with one small fang visible, and a slightly embarrassed expression shown by a bluish-purple shaded blush band across the upper face and exactly 5 visible sweat drops on the face. Pose him from the waist up, centered, with his left hand behind his head in a sheepish scratch and his right fist held near his chest. Add exactly 4 small curved motion/emotion marks around the head, 2 on the left and 2 on the right. Outfit: black short-sleeve jacket with a bright cyan-blue hood and zipper trim, black backpack straps with silver buckles over both shoulders, white T-shirt with a simple black doodle bunny face graphic, black fingerless gloves with metallic silver knuckle plates, and white bandage wraps on both wrists/forearms. Use crisp clean line art, cel-shaded anime rendering, glossy highlights on hair and ears, warm orange and cream fur tones, vivid cyan accents, and a cute expressive mascot/furry character style. Keep the background plain white with no text, no watermark, no extra characters, and no scenery. The character can be customized as {argument name=\"character species\" default=\"anthropomorphic fox boy\"}, {argument name=\"fur color\" default=\"orange with cream muzzle and cheeks\"}, {argument name=\"hood color\" default=\"bright cyan blue\"}, {argument name=\"shirt graphic\" default=\"simple black doodle bunny face\"}, and {argument name=\"expression\" default=\"embarrassed laughing smile\"}.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character species",
-        "default": "anthropomorphic fox boy"
-      },
-      {
-        "name": "fur color",
-        "default": "orange with cream muzzle and cheeks"
-      },
-      {
-        "name": "hood color",
-        "default": "bright cyan blue"
-      },
-      {
-        "name": "shirt graphic",
-        "default": "simple black doodle bunny face"
-      },
-      {
-        "name": "expression",
-        "default": "embarrassed laughing smile"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782810273456_tosr38_HL9zZjyaQAARuig.jpg",
-        "alt": "Embarrassed Fox Boy Anime Sticker",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "XuGiNo..",
-      "url": "https://x.com/xugino_cn"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/xugino_cn/status/2071501552662257973#reversed-0"
-    },
-    "publishedAt": "2026-06-29T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27225",
-    "contentHash": "1ee23a0261a813e841cc993263d5e3ab9ab8a219"
   }
 ]

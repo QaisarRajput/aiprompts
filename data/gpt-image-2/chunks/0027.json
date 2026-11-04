@@ -1,5 +1,275 @@
 [
   {
+    "id": "gpt-image-2:26886",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26886",
+    "title": "Historic Battle Visualization Scroll",
+    "category": "Infographic / Edu Visual",
+    "description": "A customizable prompt for creating 3:1 aspect ratio historical battle maps and terrain visualizations.",
+    "promptText": "Generate a [Classic Battle Visualization Scroll], a single complete image, no collages, no grids, no columns, horizontal 3:1 aspect ratio.\n\nBattle Theme: [{argument name=\"battle theme\" default=\"Battle of Red Cliffs\"}]\nTitle: [{argument name=\"title\" default=\"Battle of Red Cliffs\"}]\nSubtitle: [{argument name=\"subtitle\" default=\"A one-sentence summary of the key turning point\"}]\nCore Content: [Battlefield terrain / opposing sides / main attack routes",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "battle theme",
+        "default": "Battle of Red Cliffs"
+      },
+      {
+        "name": "title",
+        "default": "Battle of Red Cliffs"
+      },
+      {
+        "name": "subtitle",
+        "default": "A one-sentence summary of the key turning point"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549946942_cnnjqq_HLuLdICXQAAuB2o.jpg",
+        "alt": "Historic Battle Visualization Scroll",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549947043_efusd3_HLuLdk7XYAAbpfb.jpg",
+        "alt": "Historic Battle Visualization Scroll",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549946918_j0qbnd_HLuLeDzW4AEJ3C9.jpg",
+        "alt": "Historic Battle Visualization Scroll",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549948500_3cns9y_HLuLeetXkAAoTLs.jpg",
+        "alt": "Historic Battle Visualization Scroll",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Larus Canus",
+      "url": "https://x.com/MrLarus"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/MrLarus/status/2070401850101158066"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26886",
+    "contentHash": "0121b922f3a9d3f544efca65f84d7b9d9c20ffa8"
+  },
+  {
+    "id": "gpt-image-2:26913",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26913",
+    "title": "Korean Human-Agent Team Infographic",
+    "category": "Infographic / Edu Visual",
+    "description": "A structured prompt for generating a dense Korean infographic summarizing Anthropic-style guidance for effective human-agent teams.",
+    "promptText": "Goal: Create a tall Korean infographic poster summarizing Anthropic’s lesson on building effective human-agent teams, page {argument name=\"page number\" default=\"1/2\"}, with a clean beige editorial tech style and numbered lesson sections.\n\nCanvas: Vertical 2:3 poster, off-white warm background, thin rounded cards, orange numbered circles, black Korean typography, subtle gray dividers, small line-art illustrations, and Anthropic-like minimal branding. Use a dense but readable layout similar to a blog-summary infographic.\n\nHeader: Large bold title in Korean: “Anthropic의 교훈: 효과적인 Human-Agent Team 만들기”. Under it, small subtitle: “한 사람이 한 AI와 일하던 시대에서, 사람과 에이전트가 같은 워크스페이스에서 함께 일하는 팀의 시대로”. Metadata row: “원문 요약 | Claude Tag | 2026.06.24”. Top-right corner has a small rounded page badge “1/2” and an illustration of a hand placing blocks on three orange drawers; the drawers show simple icons for humans, a robot, and a target.\n\nLayout: Use exactly 5 main numbered sections on this page, stacked in a clear grid. Section 1 and 2 sit side by side below the header. Section 3 is a wide band split between three participation cards and a mock chat screenshot. Section 4 is a full-width lesson card. Section 5 is another full-width lesson card. Bottom has a navigation strip, source strip, and footer branding.\n\nSection 1: Number badge “1” and title “무엇이 달라졌나?”. Show a comparison diagram with exactly 2 panels: left panel labeled “싱글플레이어”, showing one human icon ↔ one AI robot icon with caption “1명 인간 ↔ 1개 AI”; right panel labeled “멀티플레이어”, showing multiple human silhouettes + multiple robot icons + a target icon with caption “여러 사람 + 여러 에이전트 + 공동 목표”. Add a bottom callout: “이제 AI 협업은 개인 작업이 아니라 팀 작업에 가깝다”.\n\nSection 2: Number badge “2” and title “멀티플레이어 에이전트란?”. Include exactly 3 definition rows with icons: robot icon row “여러 인간과 동시에 일하는 AI 에이전트”; brain icon row “자체 기억(memory), 스킬(skills), 자격증명(credentials)을 보유”; Slack logo-inspired colored icon row “Slack 같은 협업 공간에 상주하며 팀 목표를 지원”. Bottom example pill: “예: 팀 채널에서 데이터 분석을 함께 진행”.\n\nSection 3: Number badge “3” and title “팀에 생산적으로 참여하려면”. Left side contains exactly 3 rounded cards: card 1 with head and sticky-note icon, title “지속적 메모리”, description “목표를 기억하고 실행을 조정”; card 2 with shield and key icon, title “인간과 분리된 자격증명”, description “안전한 권한과 예측 가능한 가드레일”; card 3 with database and magnifying-glass icon, title “넓고 지속적인 정보 접근”, description “조직이 원하는 방식을 이해하고 행동”. Below those cards add a star callout: “기술만으로는 부족하다 → 팀의 운영 방식과 공통 규범도 필요”. Right side shows a Slack-like chat screenshot titled “# data-analysis” with a purple sidebar and exactly 5 visible chat messages from these senders: “민지 (분석 리드)”, “Claude (Data Analyst)”, “호준 (PM)”, “Claude (Data Analyst)”, and a small final status/message area. Include tiny avatars and timestamps, but keep text mostly legible and compact.\n\nSection 4: Number badge “4” and title “Lesson 1. 공개적으로 일하고, 에이전트에 넓은 맥락을 제공하라”. Left illustration: exactly 3 people sitting with laptops around a dotted shared workspace diagram containing document, chat, and code icons. Middle bullet area explains that agents should work in visible spaces like Slack, Jira, documents, and repositories; private DMs can hide context; and agents need access to recorded conversations and artifacts. Add two side cards: card titled “왜 중요한가?” with orange star icon and bullet points about memory not being automatic, missing context lowering output quality, and shared context improving recommendations; card titled “Anthropic 식 운영 방식” with gear icon and bullets about shared channels, openly sharing work products, moving useful DMs into shared space, and documenting easy-to-read summaries. Bottom lock callout: “민감한 대화는 DM, Claude.ai, Claude Code와처럼 별도 공간에서 다룰 수 있다”.\n\nSection 5: Number badge “5” and title “Lesson 2. 모든 인간과 에이전트에 역할과 도구를 명확히 부여하라”. Include a short Korean bullet list about assigning clear roles, tools, credentials, and expectations. Below left, create exactly 2 small tables: “Human (사람)” table with 4 rows of human teammates and roles; “Agents (에이전트)” table with 4 rows: “Claude (Data Analyst)”, “Claude (Design Critic)”, “Claude (Research Synthesizer)”, “Claude (QA Tester)”. On the right, a green bordered checklist card titled “잘 작동하는 팀의 모습” with exactly 5 checklist items: “합의된 Task Set”, “사람과 에이전트가 같은 스레드에서 함께 작업”, “각 역할의 범위와 책임을 문서화”, “개인은 AI가 나타나는 대신, 팀 전체가 같은 맥락과 같은 숫자를 공유”, and one concise final item about shared tools and permissions.\n\nBottom navigation: Add an orange arrow icon and text: “다음 페이지: Lesson 3 복잡성 설정 · Lesson 4 신뢰 구축 · 체크리스트 · 결론”, with a small “1/2” badge on the right. Source strip contains two icon-labeled items: “출처 URL: https://claude.com/blog/building-effective-human-agent-teams” and “원문 제목: Building effective human-agent teams”. Bottom-right large wordmark “ANTHROPIC”. Bottom-left copyright “© 2026 Gonnecter”. Add a tiny colorful abstract logo at the bottom-right corner.\n\nVisual style: Modern Korean business infographic, crisp vector line art, warm cream background, orange accents, muted purple for chat mockup, green for success checklist, precise alignment, high information density, readable Korean text, no photorealism, no shadows beyond very subtle card depth.\n\nConstraints: Keep exactly 5 numbered main sections, exactly 2 comparison panels, exactly 3 definition rows, exactly 3 participation cards, exactly 5 chat messages, exactly 2 role tables, and exactly 5 checklist items. Do not add extra pages, extra lesson numbers, watermarks, or unrelated icons.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "page number",
+        "default": "1/2"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549968030_klrnaw_HLuDwL2aAAAlnsp.jpg",
+        "alt": "Korean Human-Agent Team Infographic",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549968051_t4n7uk_HLuDwL6aMAAq27F.jpg",
+        "alt": "Korean Human-Agent Team Infographic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "고영혁 (Dylan Ko)",
+      "url": "https://x.com/Gonnector"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Gonnector/status/2070393328584343918#reversed-0"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26913",
+    "contentHash": "d0d20dcf296e3db108f38956c7a979892da4990b"
+  },
+  {
+    "id": "gpt-image-2:26873",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26873",
+    "title": "Extreme Weather TV Reporter System",
+    "category": "Infographic / Edu Visual",
+    "description": "A comprehensive instruction set for GPT Image 2 to generate fictional weather reporters during extreme events like typhoons or heatwaves while maintaining character consistency from a reference image.",
+    "promptText": "[Input Items] Reference image: 1, Weather type: Heatwave / Typhoon / Blizzard, Aspect ratio: Required (e.g. 1:1) [Recommended Reference Image] Use an image where the person's features, hairstyle, hair color, age, build, and outfit style are clear. An image showing the face to upper body or full body is recommended. A simple background is ideal. [Main Instructions] Depict the person in the attached reference image as an outdoor reporter reporting from a site of extreme weather in a fictional television broadcast. Faithfully maintain the features, hairstyle, hair color, eye impression, age, build, atmosphere, and expression format from the reference image, ensuring the person is recognizable. Reconstruct live-action images as high-quality realism, and anime or illustrations while maintaining the original art style, lines, coloring, and texture. Do not inherit the background, lighting, composition, or original pose from the reference image. Naturally adjust the outfit to match the input weather while keeping the original colors and atmosphere as much as possible. The person is a local reporter holding a broadcast hand microphone and reporting the situation to the camera. Depict the moment they are not just standing calmly, but are being buffeted by the extreme weather, frantically yet desperately continuing the broadcast. Make the hair, clothing, facial expression, posture, body tilt, hand movements, and belongings react naturally to the weather so the person looks like they are truly on-site. Make the facial expression large enough to convey the severity of the situation, but do not make it a serious expression of only fear or pain. Make it an impressive on-site broadcast that stands out on social media. However, this appeal should be expressed through the person's reaction and the power of the extreme weather, not through UI decorations. Overlay a simple fictional TV broadcast UI on the screen. The UI should be fixed in the same shape and placement for all weather types, with no busy decorations, weather maps, complex numbers, or long text. At the top of the screen, place small fixed UI elements paired on the left and right. On the top left, display 'LIVE' in white text inside a small red horizontal banner. On the top right, display a red and white warning triangle icon and 'ALERT' in white text as a small banner UI at the same top position, height, and design style as the top left. Align the distance of the left and right UI elements from the top and the edges, adjusting the width naturally according to the content. At the bottom of the screen, place a horizontal, simple broadcast bar. In the lower bar, display only the text exactly identical to the input weather type, largely and clearly. If input is 'Heatwave', show '猛暑'. If 'Typhoon', show '台風'. If 'Blizzard', show '猛吹雪'. Limit text only to the 'LIVE' and 'ALERT' in the top UI and the weather type display in the bottom bar. Do not display any text other than the specified weather name, such as region names, station names, program names, real logos, corporate logos, or additional tickers. Within the background, do not display readable signs, advertisements, guideboards, road sign text, descriptions, English characters, Japanese, or numbers. [Weather-Specific Expressions] ■ Heatwave: Use a city street corner under intense midsummer sunlight as the background. Make it immediately obvious that it is a dangerous heatwave rather than a normal sunny day. Make the road surface white-bleached, dry, matte, non-glossy asphalt. Express the dry, extreme heat with fine cracks, dry dust, strong shadows with clear outlines, and slight heat haze visible on the road in the distance. Do not include wet roads, puddles, flooding, mirror reflections, textures like after rain, splashes, fog, or steam-like appearances. The person should be sweating heavily on their forehead and neck, with a slightly flushed face, enduring the heat and glare while reporting. Hold a microphone in one hand and wipe sweat with a handkerchief or small towel in the other. Have the hair slightly messy from the heat, continuing the report while looking flustered. Express sweat primarily on the skin; do not make hair or clothes look drenched as if by rain. Keep the clothing basically dry. ■ Typhoon: Use an outdoor site with a dark sky, driving heavy rain, storm winds, splashes, wet roads, and strongly swaying trees as the background. Make the wind and rain cross the screen so the intensity of the typhoon is obvious at a glance. The person should tilt their body and plant their feet firmly while reporting. Hair is violently disheveled by the strong wind, and clothes are blown about and wet from the rain. Strongly grip the microphone with one hand and use the other hand to support the body or clothes. If necessary, naturally add simple rain gear or a hood that retains the vibe of the original outfit. Do not use an umbrella. Keep the pose dynamic but within a range where the face, hands, and microphone are easy to see as a news broadcast screen. ■ Blizzard: Use a winter street surrounded by heavy snow and strong winds as the background. Snow should blow violently sideways, visibility should be hazy and white, and there should be thick snow accumulation on the road and surroundings. Make it clear that this is a blizzard where it is difficult even to stand, not just normal snowfall. The person should wear a thick winter coat, scarf, gloves, and a hood if necessary, bracing themselves in a forward-leaning posture while shrinking from the cold. Snow should be attached to the hair, shoulders, and winter gear, showing them desperately continuing the broadcast while squinting. Naturally match the color and impression of the winter gear to the outfit in the reference image and the person's vibe. [Composition and Finishing] Make the person the main subject in a medium-range TV broadcast composition where they are clearly visible from the top of the head to above the knees. Position the person in the center of the screen, with a composition where the face, hands, microphone, posture reacting to the weather, extreme weather in the background, top UI, and bottom UI are all easy to read. The person's size should fit naturally between the top and bottom UI and appear stable as a TV broadcast screen. Avoid extreme wide angles, extreme poster-style compositions, or compositions where the person occupies too much of the screen. Express the weather strongly and exaggeratedly, but do not completely hide the person's face or body. Do not depict blood, injuries, collapses, evacuees, or serious disaster damage; finish it as an exaggerated local broadcast with a sense of presence and comicality that stands out on social media. Do not overlap the UI bars or text with the person, microphone, hands, or face. Correctly depict the person's body, fingers, and microphone, and do not generate duplicate people, different people, extra limbs, extra microphones, garbled text, nonsensical characters, or real-world logos.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549936785_wpwilj_HLtaPaFbEAAhFth.jpg",
+        "alt": "Extreme Weather TV Reporter System",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "AIライフハック",
+      "url": "https://x.com/ai_lifehack55"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ai_lifehack55/status/2070347937952211435"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26873",
+    "contentHash": "a84eda902b1bfdc70114d83e1e13370487a252d9"
+  },
+  {
+    "id": "gpt-image-2:26911",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26911",
+    "title": "Flashy AI Appearance Consulting Sales Banner",
+    "category": "YouTube Thumbnail",
+    "description": "A high-impact Japanese promotional banner for selling an AI appearance-consulting prompt package on social media.",
+    "promptText": "Goal: Create a flashy Japanese social-media sales banner advertising an AI appearance-consulting prompt package, designed like a high-converting X/Twitter promo thumbnail.\n\nCanvas: Wide horizontal 16:9 banner, ultra-saturated, glossy, cinematic ad design. Background is an explosive gold-and-magenta money burst with flying yen coins, banknotes, spark trails, confetti, and intense lens flares.\n\nLayout: Left third features a cute mascot character in a white hoodie and white pants, running or leaning forward with both hands extended toward the viewer. The character has a round white helmet-like head, black X-shaped eyes, and a big smiling black mouth, similar to a friendly faceless mascot. Above the mascot is one white speech bubble reading 「今日から」 and a large red exclamation mark pair nearby. Bottom-left has a black-and-gold laurel badge reading 「累計 5億」.\n\nCenter: The main focal point is huge 3D metallic-gold typography with dramatic bevels, shadows, and glowing highlights. At the top center, place a purple ribbon label reading 「1件あたり」. Below it, show the main price stack: 「¥10,000〜」 on the first line and 「¥20,000」 on the second line, extremely large and gold. Under the price, add a gold ribbon reading 「今日から売れる」.\n\nProduct elements: Include exactly 3 boxed product/package mockups around the center: 1) a dark red box near the left-center labeled 「提案資料 一式」 with a small document preview, 2) a smaller dark red box lower-left of center labeled 「プロンプト集」 with a chat bubble icon, and 3) a dark red box on the right labeled 「Before/After 画像」 showing two female profile photos side by side with small English labels “BEFORE” and “AFTER”.\n\nRight side: Add a tilted red rubber-stamp graphic in the upper-right that says “SOLD OUT” in English, with a transparent white stamp background and distressed texture.\n\nBottom typography: Across the bottom, use enormous red-to-gold 3D Japanese lettering with white highlights and dark drop shadows reading 「1〜2万円／今日から売れる」. Just above that, on a white-and-gold banner, place purple text reading 「AI 外見コンサル完全プロンプト」.\n\nVisual style: Maximum-impact Japanese internet marketing thumbnail, luxury gold, red, purple, and magenta palette, high contrast, exaggerated 3D text, glowing outlines, sparkle effects, dynamic motion, dense composition, celebratory “money explosion” atmosphere.\n\nText customization: Use the exact visible Japanese copy unless changed: {argument name=\"main price text\" default=\"¥10,000〜 ¥20,000\"}, {argument name=\"bottom headline\" default=\"1〜2万円／今日から売れる\"}, {argument name=\"product name\" default=\"AI 外見コンサル完全プロンプト\"}, {argument name=\"top ribbon text\" default=\"1件あたり\"}, {argument name=\"stamp text\" default=\"SOLD OUT\"}.\n\nConstraints: Keep all text crisp and readable, preserve the exact count of 3 product boxes, 1 mascot, 1 speech bubble, 1 badge, and 1 sold-out stamp. Do not add extra logos, watermarks, or unrelated characters.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "main price text",
+        "default": "¥10,000〜 ¥20,000"
+      },
+      {
+        "name": "bottom headline",
+        "default": "1〜2万円／今日から売れる"
+      },
+      {
+        "name": "product name",
+        "default": "AI 外見コンサル完全プロンプト"
+      },
+      {
+        "name": "top ribbon text",
+        "default": "1件あたり"
+      },
+      {
+        "name": "stamp text",
+        "default": "SOLD OUT"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549966906_jkxgbi_HLtnEoeawAAi9XI.jpg",
+        "alt": "Flashy AI Appearance Consulting Sales Banner",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "まるお｜AIエージェント×コンテンツマーケ｜AI特許取得｜慶應AI卒｜元日テレAI責任者｜1年で2億",
+      "url": "https://x.com/Maruo_0314"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Maruo_0314/status/2070361902182699210#reversed-0"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26911",
+    "contentHash": "9418e0b8308f9baf707be14868fa2a06100827db"
+  },
+  {
+    "id": "gpt-image-2:26844",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26844",
+    "title": "Cinematic Cyberpunk Neo-Noir Scene",
+    "category": "Comic / Storyboard",
+    "description": "A complex structural prompt for a mysterious businessman in a rainy futuristic city, inspired by Denis Villeneuve's cinematography.",
+    "promptText": "{\n  \"title\": \"The Man Who Sold Tomorrow\",\n  \"image_description\": \"A cinematic neo-noir scene set in a futuristic city during heavy rain. A mysterious businessman stands alone beneath a glowing holographic billboard 500 stories above the city. Countless neon lights reflect across the wet rooftop surface. Flying vehicles drift silently through dense fog between skyscrapers. The man wears a perfectly tailored black overcoat and leather gloves. In his hand is a small golden pocket watch. The watch displays tomorrow's date. His expression is calm but deeply troubled, as if he knows something nobody else does. Lightning briefly illuminates the city skyline behind him.\",\n  \"subject\": {\n    \"character\": \"Mysterious businessman\",\n    \"appearance\": \"Elegant black overcoat, leather gloves, sharp facial features\",\n    \"expression\": \"Melancholic, thoughtful, secretive\",\n    \"pose\": \"Standing at the edge of a skyscraper rooftop\"\n  },\n  \"environment\": {\n    \"location\": \"Cyberpunk megacity rooftop\",\n    \"weather\": \"Heavy rain\",\n    \"atmosphere\": \"Fog, neon reflections, distant flying vehicles\"\n  },\n  \"cinematography\": {\n    \"camera_angle\": \"Low angle\",\n    \"shot_type\": \"Medium wide shot\",\n    \"lens\": \"85mm anamorphic lens\"\n  },\n  \"quality\": {\n    \"style\": \"Denis Villeneuve inspired sci-fi cinema\",\n    \"realism\": \"Ultra photorealistic\",\n    \"resolution\": \"8K\"\n  }\n}",
+    "promptFormat": "json",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549918277_b1v4ia_HLxetW7bwAAS__s.jpg",
+        "alt": "Cinematic Cyberpunk Neo-Noir Scene",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Nas",
+      "url": "https://x.com/Nas_tech_AI"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Nas_tech_AI/status/2070634066530181232"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26844",
+    "contentHash": "ac7b68e88528e9028d7755351e9cf6c26857af04"
+  },
+  {
+    "id": "gpt-image-2:26840",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26840",
+    "title": "Retro 1960s Four-Panel Fashion Editorial",
+    "category": "Comic / Storyboard",
+    "description": "Generates a vintage-style studio photography grid featuring a single subject in four distinct character roles with bold pastel blocking.",
+    "promptText": "Retro studio photography featuring the same woman in four distinct character roles, laid out side by side in a horizontal panel grid. Each panel has its own bold {argument name=\"colors\" default=\"pastel backdrop (yellow, blue, pink, mint)\"}. She's styled in {argument name=\"era\" default=\"1960s vintage fashion\"} throughout, colorful prints, pink knee-high socks, and bold makeup.\n\nLeft panel (Office): Seated at a desk surrounded by props, a rotary telephone, file folders, stationery. Patterned dress, expression of surprise while on the phone.\nSecond panel (Travel): Wide-brimmed hat, vibrant ensemble, posed with a vintage suitcase and travel accessories, elegant posture.\nThird panel (Sports): Retro athletic outfit, holding a tennis racket and ball with laid-back playful energy.\nRight panel (Home): Wearing a robe with rollers in her hair, holding a hand mirror at a vanity table with beauty products arranged around her.\n\nPanels are neatly divided with symmetrical framing and consistent lighting and camera angle throughout. Soft bright studio light, high-end fashion editorial aesthetic, razor-sharp detail, vivid saturated colors, near-shadowless, no text, no logos, no watermarks.\nStyle: {argument name=\"style\" default=\"pop art nostalgia, Wes Anderson symmetry, fashion editorial photography, pastel color blocking\"}, high resolution, 8K, clean composition.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "colors",
+        "default": "pastel backdrop (yellow, blue, pink, mint)"
+      },
+      {
+        "name": "era",
+        "default": "1960s vintage fashion"
+      },
+      {
+        "name": "style",
+        "default": "pop art nostalgia, Wes Anderson symmetry, fashion editorial photography, pastel color blocking"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782549916608_658oip_HLxWjX-bcAAXRnA.jpg",
+        "alt": "Retro 1960s Four-Panel Fashion Editorial",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "PromptLab",
+      "url": "https://x.com/iamaiistudio"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/iamaiistudio/status/2070625353580925426"
+    },
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26840",
+    "contentHash": "298e64d3697b5fe2edb345476497950fca447b01"
+  },
+  {
     "id": "gpt-image-2:26890",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6946,299 +7216,5 @@
     "publishedAt": "2026-06-23T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26620",
     "contentHash": "31d825c34f195fe846c18b5dd6efbd315ecd746a"
-  },
-  {
-    "id": "gpt-image-2:26607",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26607",
-    "title": "Golden Hour Wildflower Portrait",
-    "category": "Product Marketing",
-    "description": "A cinematic wide shot portrait of a woman in a field of wildflowers with a strong teal and amber color scheme, designed for environmental storytelling.",
-    "promptText": "Wide environmental portrait, {argument name=\"subject description\" default=\"woman in brown turtleneck\"} standing in {argument name=\"setting\" default=\"vast golden wildflower field\"} under {argument name=\"sky color\" default=\"deep teal sky\"}, sunglasses glinting, one hand brushing through flowers at waist height, motion in fabric and petals suggesting light breeze, strong complementary color theory teal vs amber, cinematic wide shot, rule of thirds, subject positioned right third, negative space left for caption text, golden hour, high dynamic range color grade --ar 4:5 --v 6",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject description",
-        "default": "woman in brown turtleneck"
-      },
-      {
-        "name": "setting",
-        "default": "vast golden wildflower field"
-      },
-      {
-        "name": "sky color",
-        "default": "deep teal sky"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291884579_pbrva6_HLfhBmVaQAApgUG.jpg",
-        "alt": "Golden Hour Wildflower Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291884552_chsl7i_HLfhCMMaAAA_RPE.jpg",
-        "alt": "Golden Hour Wildflower Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291884677_fmidp7_HLfhCzDasAA-zuQ.jpg",
-        "alt": "Golden Hour Wildflower Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Shahid Wani",
-      "url": "https://x.com/meng_dagg695"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/meng_dagg695/status/2069370000968958388"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26607",
-    "contentHash": "e559978cd82ee5226e7f399b2942f7550d8108d4"
-  },
-  {
-    "id": "gpt-image-2:26619",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26619",
-    "title": "Surreal Marble Gallery Portals",
-    "category": "Product Marketing",
-    "description": "A luxury fashion editorial scene of a bearded male model surrounded by floating marble portal portraits in a grand neoclassical gallery.",
-    "promptText": "Create a hyper-realistic high-fashion editorial photograph in a vertical 4:5 frame set inside a grand surreal white marble gallery. The scene features a luxurious neoclassical interior with polished marble floors, tall cream-white arches, carved columns, soft daylight, subtle statues in the background, and warm cinematic shadows. In the lower left foreground, place one seated Hollywood-style male fashion model with curly dark hair, a thick beard, and a strong masculine presence, wearing a sharp black suit, open-collar white dress shirt, black trousers, and glossy black leather dress shoes; he sits casually on a low white marble plinth with one hand braced behind him and one leg bent, looking upward into the surreal installation. Around him, suspend exactly five large circular white marble portal frames like floating mirrors/windows, each with thick beveled stone rims and dark reflective interiors, showing close-up alternate versions of the same bearded male model with different poses and emotions: 1) upper left portal, small, the man leans forward with one hand near his face; 2) center portal, largest, dramatic close-up of curly hair, beard, and hand near chin; 3) upper right portal, partial close-up in profile wearing a dark suit; 4) lower left portal, smaller close-up with serious shadowed expression; 5) right side portal, large close-up cropped at the cheek and collarbone with intense moody lighting. Make the portals overlap the architecture and each other with believable depth, reflections, and occlusion, as if revealing parallel cinematic portraits. Visual style: hyper-realistic, luxury fashion campaign, masculine cinematic beauty, controlled surreal chaos, marble texture detail, shallow depth of field in the portraits, warm beige and ivory palette, black suit contrast, natural museum-gallery lighting, elegant editorial composition. Use no text, no logos, no watermark, no extra people, and keep the model’s face visible rather than covered. Optional customization: model identity can be described as {argument name=\"character name\" default=\"an unnamed Hollywood-style bearded male model\"}, outfit as {argument name=\"outfit\" default=\"black suit with an open-collar white dress shirt\"}, setting as {argument name=\"gallery material\" default=\"white marble\"}, mood as {argument name=\"emotional tone\" default=\"surreal masculine cinematic perfection\"}, and number of portals as {argument name=\"portal count\" default=\"five\"}.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "an unnamed Hollywood-style bearded male model"
-      },
-      {
-        "name": "outfit",
-        "default": "black suit with an open-collar white dress shirt"
-      },
-      {
-        "name": "gallery material",
-        "default": "white marble"
-      },
-      {
-        "name": "emotional tone",
-        "default": "surreal masculine cinematic perfection"
-      },
-      {
-        "name": "portal count",
-        "default": "five"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291893112_23jdkl_HLe1QUBa8AA2Yoz.jpg",
-        "alt": "Surreal Marble Gallery Portals",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Cherry 2.O",
-      "url": "https://x.com/Mind_Boticni"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Mind_Boticni/status/2069321877705891971#reversed-0"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26619",
-    "contentHash": "b6781f1de0f7e8c5dcd9cc89ced26968bd8e0a91"
-  },
-  {
-    "id": "gpt-image-2:26588",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26588",
-    "title": "Rustic Italian Food Advertisement",
-    "category": "Product Marketing",
-    "description": "A detailed advertising poster prompt for a premium tomato sauce brand, capturing a warm, rustic Mediterranean kitchen atmosphere.",
-    "promptText": "A warm {argument name=\"product\" default=\"Italian tomato sauce\"} advertisement poster. A cheerful Italian grandmother in a classic red apron proudly holds a wooden spoon dripping with rich tomato sauce beside a giant premium tomato sauce jar 3x her height, featuring vintage Italian countryside illustrations, ripe sun-kissed tomatoes, olive branches, and rolling Tuscan hills on the label. \"{argument name=\"brand name\" default=\"BELLA SALSA\"}\" written in elegant red and gold italic font across the jar.\n\nWarm rustic Italian kitchen background with hanging garlic braids, dried herbs, copper pots, fresh tomatoes in wicker baskets, wooden shelves, and textured brick walls. Rich Mediterranean atmosphere with golden afternoon sunlight streaming through a farmhouse window.\n\nLarge classic warm serif typography \"{argument name=\"brand name\" default=\"BELLA SALSA\"}\" in red and gold fills the background, blending seamlessly into the rustic setting. Deep red tomato tones, warm earthy colors, and premium artisanal food branding throughout the composition.\n\nTagline at the bottom: \"Made with amore.\"\n\nSmall text in the top-right corner reads: \"Designed with GPT Image 2\" in subtle grey.\n\nPhotorealistic, authentic Italian food lifestyle editorial, premium gourmet advertising campaign, warm rustic kitchen lighting, ultra-detailed food photography, cinematic composition, luxury packaging design, magazine-quality commercial poster, highly realistic textures, inviting and appetizing atmosphere, 8K resolution, professional food branding.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "product",
-        "default": "Italian tomato sauce"
-      },
-      {
-        "name": "brand name",
-        "default": "BELLA SALSA"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291876371_8d35qy_HLeeFJpaAAAwxRe.jpg",
-        "alt": "Rustic Italian Food Advertisement",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "AI Enthu",
-      "url": "https://x.com/v_garg_s"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/v_garg_s/status/2069296383249785016"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26588",
-    "contentHash": "1b1075302d26c51cc8496eee9f872eae21e8902d"
-  },
-  {
-    "id": "gpt-image-2:26605",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26605",
-    "title": "Italian Food Advertisement Poster",
-    "category": "Product Marketing",
-    "description": "A detailed prompt for creating a rustic Italian food advertisement featuring a grandmother tossing pasta, ideal for commercial food photography and branding.",
-    "promptText": "A warm Italian food advertisement poster. A cheerful Italian grandmother in a classic red apron tosses {argument name=\"pasta type\" default=\"fresh pasta\"} in the air beside a giant premium pasta box 3x her height with vintage Italian countryside illustrations on the packaging, \"{argument name=\"brand name\" default=\"BELLA PASTA\"}\" written in classic red and gold italic font on the box. Warm rustic Italian kitchen background with hanging dried herbs copper pots and brick walls. Classic warm serif typography \"{argument name=\"brand name\" default=\"BELLA PASTA\"}\" in red and gold filling the background. Tagline bottom: \"{argument name=\"tagline\" default=\"Made with amore.\"}\" Small text top-right corner reads \"Designed with GPT Image 2\" in grey. Photorealistic, authentic Italian food lifestyle editorial, warm rustic kitchen lighting.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "pasta type",
-        "default": "fresh pasta"
-      },
-      {
-        "name": "brand name",
-        "default": "BELLA PASTA"
-      },
-      {
-        "name": "tagline",
-        "default": "Made with amore."
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782291884112_zjwixg_HLeGgMmbwAEV9fc.jpg",
-        "alt": "Italian Food Advertisement Poster",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "𝐌",
-      "url": "https://x.com/Strength04_X"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Strength04_X/status/2069270467316470119"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26605",
-    "contentHash": "d65c31938baa1194dbd7043d9e655545dd8441e2"
-  },
-  {
-    "id": "gpt-image-2:26537",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26537",
-    "title": "Couple Lock Screen iPhone Flat Lay",
-    "category": "E-commerce Main Image",
-    "description": "An ultra-realistic flat lay of two iPhones with matching couple wallpapers interacting across both lock screens.",
-    "promptText": "Create an ultra-realistic luxury Apple-style flat lay photograph of exactly two iPhone 15 Pro devices placed side by side on warm beige linen fabric in golden-hour sunlight, with soft diagonal window shadows and realistic phone reflections. The left phone is slightly left of center and the right phone is slightly right of center, both upright in portrait orientation with black rounded bezels, titanium edges, Dynamic Island cutouts, lock-screen status icons, flashlight and camera buttons at the bottom, and the white home indicator bar. Both lock screens show the date “Sunday, June 20” and the large time “05:30”; the left carrier label reads {argument name=\"left carrier label\" default=\"Smart\"} and the right carrier label reads {argument name=\"right carrier label\" default=\"DITO\"}. The lock-screen wallpapers form a seamless couple interaction across the two separate screens: on the left screen, a young woman with long brown hair wears a black T-shirt with bold white text {argument name=\"left shirt text\" default=\"I’M HIS\"} followed by a red heart; her arm extends horizontally out of the left phone wallpaper and continues visually across into the right phone, playfully punching or pressing against the young man’s cheek. On the right screen, a young man with tousled dark hair wears a black hoodie with bold white text {argument name=\"right shirt text\" default=\"I’M HERS\"} followed by a red heart, reacting subtly to her playful punch. Include exactly two visible people, exactly two phones, exactly two red heart icons on the shirts, and make the pose align perfectly across the gap between screens so the arm feels like one continuous image. Faces should appear anonymized or softly obscured while preserving realistic skin tones, hair, clothing, and lighting. Use shallow depth of field, crisp 8K photoreal detail, premium smartphone product photography, warm beige and black color palette, no extra devices, no extra text beyond the lock screen and shirt text, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "left carrier label",
-        "default": "Smart"
-      },
-      {
-        "name": "right carrier label",
-        "default": "DITO"
-      },
-      {
-        "name": "left shirt text",
-        "default": "I’M HIS"
-      },
-      {
-        "name": "right shirt text",
-        "default": "I’M HERS"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205413275_n2q90v_HLau1Q5asAASuho.jpg",
-        "alt": "Couple Lock Screen iPhone Flat Lay",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Arina Ai",
-      "url": "https://x.com/Arina_hoqe"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Arina_hoqe/status/2069033328104308951#reversed-0"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26537",
-    "contentHash": "53c6613170b7851b19257579a91ec91e1ecfa893"
-  },
-  {
-    "id": "gpt-image-2:26425",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26425",
-    "title": "Cinematic Steamed Momo Photography",
-    "category": "E-commerce Main Image",
-    "description": "A highly detailed cinematic food photography prompt featuring steamed momos with macro details and dramatic studio lighting.",
-    "promptText": "Cinematic food photography of freshly {argument name=\"food item\" default=\"steamed momos (dumplings)\"} stacked on a {argument name=\"surface\" default=\"rustic weathered wooden board\"}. The dumplings have glossy dough with intricate handmade pleats and a subtle oil sheen, with thick dramatic steam rising. Split scene showing a deconstructed view: floating dumpling wrappers, balls of spiced minced filling, and scattered fresh herbs suspended in air.\n\nFrozen-in-time effect with flour particles mid-air, motion-frozen spices, and a dramatic slow-motion splash. Wispy swirling steam and falling herb leaves add atmosphere.\n\n{argument name=\"setting\" default=\"Dark moody rustic kitchen setting\"}. Weathered wooden cutting board with visible wood grains and cracks.\n\nCinematic studio lighting with warm inviting tones, high contrast and deep shadows for a professional editorial look. Macro photography, 8K resolution, hyper-detailed textures, shallow depth of field with blurred background and crisp sharp focus on the ingredients.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "food item",
-        "default": "steamed momos (dumplings)"
-      },
-      {
-        "name": "surface",
-        "default": "rustic weathered wooden board"
-      },
-      {
-        "name": "setting",
-        "default": "Dark moody rustic kitchen setting"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782121948182_a59rcu_HLaCM0_aAAIaZb6.jpg",
-        "alt": "Cinematic Steamed Momo Photography",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "PromptLab",
-      "url": "https://x.com/iamaiistudio"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/iamaiistudio/status/2068984482603147590"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26425",
-    "contentHash": "71b1b9c490e06d3cc3e4dc1e89345120eb6e8275"
   }
 ]

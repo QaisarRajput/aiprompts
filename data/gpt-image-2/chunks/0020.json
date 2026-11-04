@@ -1,5 +1,293 @@
 [
   {
+    "id": "gpt-image-2:29150",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29150",
+    "title": "Pixel Monster Music Sequencer UI",
+    "category": "Game Asset",
+    "description": "Generates a vertical retro pixel-art synth dashboard with four monster tracks, knobs, transport controls, effects, and audio meters.",
+    "promptText": "Goal: Create a vertical pixel-art sci-fi music sequencer interface showing four cute monster audio tracks, like a retro game synth dashboard.\n\nCanvas: Tall portrait mobile screen, 720×1200 style, dark navy background with glowing rounded rectangular panels and crisp pixel-art edges. Use a limited neon palette with cyan, mint, red, purple, and yellow accents. Everything should look like high-resolution pixel art, with subtle scanline/dither texture and no photorealism.\n\nLayout: At the very top, create one wide rounded header bar. Inside it place exactly 6 discrete control/readout elements: 1 small alien/robot face icon on the left, 1 dotted equalizer readout beside it, 3 square transport buttons in the center showing stop, play, and record icons, and 1 dotted menu/grid indicator on the right.\n\nMain track area: Stack exactly 4 horizontal rounded track panels, each with a left track number and a vertical level meter, a monster character on the left, a circular dotted status control in the middle, and a large rotary knob on the right.\n\nTrack 1: Label number “1”. Mint/teal theme. The creature is a sleepy squat round monster with small horns/spikes, closed eyes, lying down, with “Z Z” sleep marks above it. The middle control is a dotted circular ring with a small center dot. The right knob has a pale yellow arc and one mint indicator dot near the top.\n\nTrack 2: Label number “2”. Red theme. The creature is a red one-eyed monster standing aggressively, mouth open with teeth, one arm raised and casting a crackling magical red orb above its hand. The middle control is a red dotted ring with a solid red center dot. The right knob has a red arc and one red indicator dot.\n\nTrack 3: Label number “3”. Cyan theme. The creature is a blue dancing one-eyed monster wearing headphones, smiling with a toothy mouth, arms raised, with exactly 2 floating music notes near its head. The middle control is a cyan dotted circle containing a play triangle. The right knob has a cyan arc and one cyan indicator dot.\n\nTrack 4: Label number “4”. Purple theme. The creature is a purple energetic monster with multiple ghosted afterimage duplicates behind it, big eyes, waving arms, small sparkle marks around it. The middle control is a purple dotted circle containing a play triangle. The right knob has a purple arc and one purple indicator dot plus a tiny triangular tick at the top.\n\nBottom mixer section: Create one wide rounded bottom panel. On the left, include exactly 1 square album-art tile with a glowing mint border, showing a floating mossy cube planet or asteroid with small orbiting rocks and tiny stars. To the right of the album art, arrange exactly 5 square effect buttons in one row: 1 purple concentric-circle/radar icon, 1 cyan vertical waveform/spectrum icon, 1 green pixel burst icon, 1 yellow audio waveform icon, and 1 yellow ringed planet icon. Beneath those buttons, add exactly 2 horizontal audio meters: the left meter has a microphone icon followed by green-to-yellow vertical bars, and the right meter has a speaker icon followed by green-to-yellow vertical bars, separated by a thin vertical divider.\n\nText content: Only include the visible track numbers “1”, “2”, “3”, and “4”; do not add readable labels or words besides the two “Z” sleep marks. Use abstract pixel icons rather than detailed typography.\n\nStyle constraints: Retro 16-bit pixel-art UI, dark futuristic synth console, glowing outlines, rounded panels, clean symmetry, high contrast, playful monster characters, no watermark, no realistic 3D rendering. Make the main accent color palette customizable: {argument name=\"primary neon color\" default=\"mint cyan\"}, {argument name=\"danger track color\" default=\"hot red\"}, {argument name=\"party track color\" default=\"purple\"}, {argument name=\"background color\" default=\"deep navy\"}, {argument name=\"interface theme\" default=\"retro monster music sequencer\"}.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "primary neon color",
+        "default": "mint cyan"
+      },
+      {
+        "name": "danger track color",
+        "default": "hot red"
+      },
+      {
+        "name": "party track color",
+        "default": "purple"
+      },
+      {
+        "name": "background color",
+        "default": "deep navy"
+      },
+      {
+        "name": "interface theme",
+        "default": "retro monster music sequencer"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784450563574_unxbxg_HNi8-F3boAApz7f.jpg",
+        "alt": "Pixel Monster Music Sequencer UI",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Mikkel Malmberg",
+      "url": "https://x.com/mikker"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/mikker/status/2078619008589496326#reversed-0"
+    },
+    "publishedAt": "2026-07-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29150",
+    "contentHash": "9a23dde2afbf10bd95136fbbe8a86ec6451b7c02"
+  },
+  {
+    "id": "gpt-image-2:29135",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29135",
+    "title": "Elegant Anime Summoner Fan Art",
+    "category": "Game Asset",
+    "description": "A vertical anime portrait prompt for creating an elegant young summoner in a fantasy kimono outfit with an ornate staff and soft glowing background.",
+    "promptText": "Create a polished vertical anime fan-art illustration of {argument name=\"character name\" default=\"Minamo\"}, an elegant young female summoner inspired by early-2000s fantasy RPG heroine costume design. Show her from mid-thigh upward in a soft three-quarter frontal pose, gently smiling with calm blue eyes and shoulder-length wavy {argument name=\"hair color\" default=\"rose pink hair with subtle blue-tinted tips\"} blowing lightly to the right. She wears an asymmetrical white sleeveless kimono-style top crossing over the chest, a visible black strap at the side, detached wide white sleeves tied with small black ribbon lacing, a bright yellow floral obi with turquoise ornamental patterns, pink trim, a large pink flower ornament at the center, two small dangling pink flowers, and long turquoise tassels. Pair it with a deep navy pleated hakama-style skirt decorated with faint pink cherry blossom patterns near the lower area. Her accessories are small turquoise earrings. In her left hand at the image edge, include exactly one ornate summoner staff: a tall blue shaft with a pink grip section, gold rings and fittings, a blue tassel at the bottom, and a large partial golden circular lattice head with a turquoise gem visible near the top-left edge. Use a bright airy white-to-pale-cyan background with exactly no scenery, only soft glowing blue bokeh dots and tiny floating sparkles. Style: high-quality modern anime illustration, delicate linework, glossy eyes, soft skin shading, pastel lighting, subtle rim light, clean composition, elegant fantasy mood. Canvas: vertical portrait 9:16, close crop with the staff partly cut off on the left and the right sleeve extending out of frame. Constraints: no text, no watermark, no extra characters, no weapons other than the single staff, keep the outfit graceful and recognizable as a white-and-navy summoner kimono with yellow floral obi.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "Minamo"
+      },
+      {
+        "name": "hair color",
+        "default": "rose pink hair with subtle blue-tinted tips"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784450553800_8fasz9_HNil2gGbgAAkXYo.jpg",
+        "alt": "Elegant Anime Summoner Fan Art",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784450552929_0azoa7_HNil2gUbwAAPFc4.jpg",
+        "alt": "Elegant Anime Summoner Fan Art",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784450552865_htsp92_HNil2gObQAAi8tb.jpg",
+        "alt": "Elegant Anime Summoner Fan Art",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784450553688_c2f5uy_HNil2gFbMAAMj1J.jpg",
+        "alt": "Elegant Anime Summoner Fan Art",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "あいぼりー",
+      "url": "https://x.com/HetareIvory"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/HetareIvory/status/2078594432660906148#reversed-0"
+    },
+    "publishedAt": "2026-07-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29135",
+    "contentHash": "ac78ae0b2fc77f9facfd636a18868b60b6ab53c8"
+  },
+  {
+    "id": "gpt-image-2:29033",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29033",
+    "title": "Mint Chip Summer Anime Portrait",
+    "category": "Profile / Avatar",
+    "description": "A detailed text prompt for generating a sunny anime portrait of a young woman enjoying mint chocolate chip ice cream at a pastel seaside café.",
+    "promptText": "Create a polished anime-style close-up portrait of a cheerful young woman at a sunny seaside ice cream shop, holding a large mint chocolate chip waffle cone near her mouth as if about to taste it. She has {argument name=\"hair color\" default=\"warm chestnut brown\"} hair tied in a messy high bun with loose wispy strands and a pastel aqua bow, bright blue-green eyes, soft flushed cheeks, glossy lips, and a delighted open smile. Her outfit is a mint-aqua summer camisole dress with thin straps, ruffled neckline, translucent off-shoulder sleeves, and tiny chocolate-chip-like dot accents, paired with matching turquoise nail polish. Include exactly 3 visible accessories: one mint ice-cream-cone dangling earring, one delicate gold necklace with a small turquoise pendant, and one aqua hair bow. The ice cream cone should have exactly 3 stacked scoops of mint chip ice cream, dark chocolate drizzle, colorful sprinkles, and one small square chocolate piece stuck into the top scoop. Set the scene in warm golden-hour light with a soft turquoise-and-cream beach café background, blurred umbrellas and shop details, shallow depth of field, sparkling highlights, dreamy bokeh, and a fresh summer atmosphere. Use high-detail digital illustration, semi-realistic anime rendering, luminous skin, detailed hair strands, crisp eyes, vibrant pastel color palette, portrait orientation, no text, no watermark, no extra characters.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "warm chestnut brown"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784363367591_012dxs_HNd5t8PaYAABUoc.jpg",
+        "alt": "Mint Chip Summer Anime Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "春永睦月　Harunaga Mutsuki",
+      "url": "https://x.com/HarunagaMutsuki"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/HarunagaMutsuki/status/2078263637534498978#reversed-0"
+    },
+    "publishedAt": "2026-07-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29033",
+    "contentHash": "4f852758fa2a959ccfea11c2e72754c4d9e9680f"
+  },
+  {
+    "id": "gpt-image-2:28972",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28972",
+    "title": "Golden Hour Beach Portrait",
+    "category": "Profile / Avatar",
+    "description": "A cinematic golden hour portrait of a woman with natural makeup on a tropical beach, emphasizing realistic skin textures and ocean waves.",
+    "promptText": "A high-quality, cinematic portrait of a beautiful young woman with soft, natural makeup and {argument name=\"hair style\" default=\"shoulder-length brown hair with bangs\"}, wearing stylish sunglasses on top of her head. She is wearing a {argument name=\"top\" default=\"fitted black crop top\"}, smiling warmly at the camera. The setting is a {argument name=\"location\" default=\"scenic tropical beach\"} during the golden hour, with the ocean waves gently washing onto the sand in the background. Soft natural sunlight, realistic skin texture, shallow depth of field, blurred beach background with palm trees, 8k resolution, photorealistic",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair style",
+        "default": "shoulder-length brown hair with bangs"
+      },
+      {
+        "name": "top",
+        "default": "fitted black crop top"
+      },
+      {
+        "name": "location",
+        "default": "scenic tropical beach"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784363324504_4x9rlf_HNb6kSbWsAAqBjl.jpg",
+        "alt": "Golden Hour Beach Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Avelyrah",
+      "url": "https://x.com/AvelyrahnAI"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AvelyrahnAI/status/2078123789670604906"
+    },
+    "publishedAt": "2026-07-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28972",
+    "contentHash": "ffd33bb8a3edbf94608d68040d3016aaf2727295"
+  },
+  {
+    "id": "gpt-image-2:28983",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "28983",
+    "title": "Korean Woman City Night Portrait",
+    "category": "Profile / Avatar",
+    "description": "A photorealistic portrait of a young Korean woman in a pale green mini-dress, set against a modern city night backdrop with warm reflections.",
+    "promptText": "A photorealistic photo of a stunning young Korean adult East Asian woman in her twenties, with long reddish-brown hair, gentle smile, wearing a {argument name=\"outfit\" default=\"fitted light pale green short-sleeved mini-dress\"}, sitting with legs crossed and hands on top a dark wooden table, looking directly at the camera with a subtle smile. She is in a {argument name=\"setting\" default=\"modern indoor setting with large windows overlooking a city night view\"}, with warm ambient lighting and reflections of city lights. Realistic, high-resolution, detailed, medium shot, sharp focus, 8k resolution",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "outfit",
+        "default": "fitted light pale green short-sleeved mini-dress"
+      },
+      {
+        "name": "setting",
+        "default": "modern indoor setting with large windows overlooking a city night view"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784363330726_2inra5_HNb1MbjagAAO2-B.jpg",
+        "alt": "Korean Woman City Night Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784363330732_y8826b_HNb1MbabMAAKKCX.jpg",
+        "alt": "Korean Woman City Night Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "David",
+      "url": "https://x.com/tealdog2"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/tealdog2/status/2078117876318277798"
+    },
+    "publishedAt": "2026-07-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28983",
+    "contentHash": "4cec9dcfd6849b602de0c8d4bc4fa8945439d688"
+  },
+  {
+    "id": "gpt-image-2:29029",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29029",
+    "title": "Watercolor Anime Girl in Summer Sky",
+    "category": "Profile / Avatar",
+    "description": "A soft pastel anime illustration of a shy girl in casual streetwear under a bright watercolor sky, suitable for character art or cover artwork.",
+    "promptText": "Create a vertical anime-style watercolor illustration of a cute teenage girl seen from a slightly low, close-up three-quarter angle against a bright blue sky with soft white clouds and a faint diagonal airplane contrail. The girl has long flowing {argument name=\"hair color\" default=\"pale blonde\"} hair, large glossy {argument name=\"eye color\" default=\"green\"} eyes, rosy cheeks, and a shy, thoughtful expression with one hand raised near her mouth. She wears a {argument name=\"cap color\" default=\"red\"} baseball cap with subtle plaid stitching and a small dark bow or ribbon at the back, two small flower hairpins on one side, and a side braid tied with a tiny white bow. Her outfit consists of exactly 5 main visible clothing/accessory pieces: an oversized white zip hoodie slipping off one shoulder, a pale yellow short-sleeve top, a green plaid pleated mini skirt, a red crossbody sling bag with black strap and silver zipper pulls, and the red cap. Make the fabric loose and airy, with wind pushing her hair and hoodie outward to the right. Use delicate thin brown line art, soft pastel colors, translucent watercolor washes, paper grain texture, gentle bloom, and a dreamy light summer atmosphere. Keep the composition cropped dynamically from head to upper thighs, with no text, no extra characters, no photorealism, and no harsh shadows.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "pale blonde"
+      },
+      {
+        "name": "eye color",
+        "default": "green"
+      },
+      {
+        "name": "cap color",
+        "default": "red"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784363364954_noqw7y_HNZwQUibcAAVQt7.jpg",
+        "alt": "Watercolor Anime Girl in Summer Sky",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Neve",
+      "url": "https://x.com/Neve_AI"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Neve_AI/status/2078085724222677307#reversed-0"
+    },
+    "publishedAt": "2026-07-17T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29029",
+    "contentHash": "c918ae67ccb2738fd49b30cba5b87114044f19ad"
+  },
+  {
     "id": "gpt-image-2:28961",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6767,291 +7055,5 @@
     "publishedAt": "2026-07-15T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28798",
     "contentHash": "381c74ef7a6e2405d0d2f498ef9b36ad3ce763cb"
-  },
-  {
-    "id": "gpt-image-2:28843",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28843",
-    "title": "Sunny Freckled Profile Portrait",
-    "category": "Profile / Avatar",
-    "description": "Generates a soft realistic square profile portrait of a smiling freckled young woman for use as a warm, dreamy social media avatar.",
-    "promptText": "Create a soft, sunny, dreamy square profile portrait of {argument name=\"character name\" default=\"Ava\"}, a young woman facing the camera with a warm natural smile. She has fair sun-kissed skin with many visible freckles across her nose, cheeks, and forehead, hazel-green eyes with detailed catchlights and subtle golden corona coloring, long natural eyelashes, softly defined brows with individual brow hairs, and realistic skin texture. Her hair is {argument name=\"hair color\" default=\"light golden brown\"}, parted in the center, worn loose and straight with slightly wavy ends, with many fine wispy flyaway hairs catching the light. She wears small gold hoop earrings and a white sleeveless lace-trimmed top with delicate ruffled lace straps and a square neckline. Frame as a close-up head-and-shoulders profile picture, centered and symmetrical, from upper chest to just above the head, looking directly into the lens. Use warm golden-hour sunlight from the front-left, gentle highlights on the cheeks and hair, soft shadows, shallow depth of field, and a dreamy pastel {argument name=\"background color\" default=\"pale lavender\"} studio backdrop with very subtle paper texture. Style should be highly realistic polished portrait photography, natural beauty editorial, soft but crisp facial detail, no heavy makeup, no text, no watermark, no extra people.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "Ava"
-      },
-      {
-        "name": "hair color",
-        "default": "light golden brown"
-      },
-      {
-        "name": "background color",
-        "default": "pale lavender"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784191479706_2hxk9p_HNOmY_AWQAA5QRN.jpg",
-        "alt": "Sunny Freckled Profile Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "X Girls",
-      "url": "https://x.com/thesoragirls"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/thesoragirls/status/2077187046766989593#reversed-0"
-    },
-    "publishedAt": "2026-07-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28843",
-    "contentHash": "b511f04872ee0ff952231ae55b507755e131cdd5"
-  },
-  {
-    "id": "gpt-image-2:28770",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28770",
-    "title": "Dramatic Chiaroscuro Portrait",
-    "category": "Profile / Avatar",
-    "description": "A photorealistic low-key studio portrait of an elegant woman in a white satin cheongsam-inspired top, useful for cinematic fashion or character photography concepts.",
-    "promptText": "Create a photorealistic vertical portrait of {argument name=\"character name\" default=\"a young East Asian woman\"} sitting against a completely black background, lit by a narrow dramatic beam of warm light from the upper left. She has {argument name=\"hair color and style\" default=\"short chestnut-brown bob hair with wispy bangs\"}, smooth natural makeup, large dark eyes, and a subtle shy smile. Pose her facing the camera in a close half-body composition, with one hand raised gently to her lips as if in a quiet, thoughtful moment. She wears {argument name=\"outfit\" default=\"a sleeveless white satin cheongsam-inspired top with a high Mandarin collar, floral jacquard texture, frog-button closures, and a keyhole neckline\"}. Emphasize chiaroscuro lighting: strong highlights on her face, hair, shoulder, hand, and glossy fabric, with the rest of the body fading into deep shadow. Use realistic skin texture, soft specular highlights, shallow depth of field, intimate studio photography mood, high contrast, elegant cinematic atmosphere, vertical 2:3 framing, no text, no watermark, no extra objects.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "a young East Asian woman"
-      },
-      {
-        "name": "hair color and style",
-        "default": "short chestnut-brown bob hair with wispy bangs"
-      },
-      {
-        "name": "outfit",
-        "default": "a sleeveless white satin cheongsam-inspired top with a high Mandarin collar, floral jacquard texture, frog-button closures, and a keyhole neckline"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784191478225_vfdmtw_HNN0VOUagAAuNzD.jpg",
-        "alt": "Dramatic Chiaroscuro Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784191478303_qrh65u_HNN0VPebwAAkZyH.jpg",
-        "alt": "Dramatic Chiaroscuro Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "周防義経",
-      "url": "https://x.com/y_suou"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/y_suou/status/2077131764133396832#reversed-0"
-    },
-    "publishedAt": "2026-07-14T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28770",
-    "contentHash": "89d2829ef250dd54ada636fb862f4865af12a6b2"
-  },
-  {
-    "id": "gpt-image-2:28816",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28816",
-    "title": "Japanese Seaside Fashion Portrait",
-    "category": "Social Media Post",
-    "description": "A highly detailed professional photography prompt for a fashion portrait of a Japanese woman standing by the sea, specifying attire, lighting, and camera settings.",
-    "promptText": "Subject:\n{argument name=\"subject\" default=\"A profile draped in blue\"}\n\nMain Subject:\nA single adult woman standing at a sunny seaside. A vertical 2:3 fashion portrait with the person positioned slightly left of center, capturing them from the chest to the top of the head. Wearing a vibrant blue outer garment dropped low from both shoulders, creating an impressive contrast between the {argument name=\"clothing\" default=\"white V-neck garment\"} and the blue sea.\n\nPerson & Expression:\nA natural Japanese woman with a calm, adult atmosphere. A dark brown blunt bob, almost black, showing a clean neckline. The sea breeze lightly blows the bangs and hair ends to the right. The head is tilted slightly forward, with the face in a diagonal profile facing right. Gaze is cast diagonally downward, with a quiet and relaxed expression and lips slightly parted. Transparent light beige skin, coral-tone lips, delicate eyeliner, and natural eyelashes.\n\nClothing & Pose:\nAn ivory white V-neck dress with thin shoulder straps. The neckline is deep but elegant, with a soft ribbed lightweight fabric naturally following the curves of a mature body. A vibrant cobalt blue light jacket is lowered to above the elbows, broadly revealing both shoulders and collarbones. Shoulders are relaxed, with the upper body slightly twisted to the left. Delicate drop earrings with small transparent stones at the end of thin gold chains. A dainty necklace with a single small stone.\n\nBackground & Light:\nThe background is {argument name=\"background\" default=\"a deep blue sea stretching to the horizon and a clear sky\"}. A blurred small island silhouette in the far left and a white seaside railing at the bottom. Strong natural light from around noon shines from the top left, creating bright highlights on the hair surface, left shoulder, collarbone, and cheek. Soft blue reflected light on the right side of the face, with natural thin shadows under the nose and chin. Fine reflections of light sparkle on the sea surface, clearly separating the blue of the sky and the sea.\n\nComposition & Camera:\nVertical 2:3, medium close-up focused on the bust. The person occupies about 75% of the screen, leaving a small amount of sky above and space for the sea on the right. Camera is at an eye-level slightly higher than the chest. 85mm equivalent medium telephoto lens, shallow depth of field precisely focused on the eyes and profile, smoothly blurring the background sea and island.\n\nTexture & Style:\nHigh-quality summer fashion photography. Natural skin leaving slight texture and fine hairs, no excessive skin retouching. Precise depiction of fine weaves of white cloth, light wrinkles in the blue jacket, and small reflections from metal accessories. A high-saturation yet clean color tone focused on blue and white, fresh contrast, and delicate film grain.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "A profile draped in blue"
-      },
-      {
-        "name": "clothing",
-        "default": "white V-neck garment"
-      },
-      {
-        "name": "background",
-        "default": "a deep blue sea stretching to the horizon and a clear sky"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784191460304_uignfo_HNMHAI_bsAA2ukN.jpg",
-        "alt": "Japanese Seaside Fashion Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2077658241061032384"
-    },
-    "publishedAt": "2026-07-16T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28816",
-    "contentHash": "dbcd482f5538bfe70c68a21068f3c02298145f24"
-  },
-  {
-    "id": "gpt-image-2:28815",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28815",
-    "title": "Seaside Terrace Summer Fashion Portrait",
-    "category": "Social Media Post",
-    "description": "A comprehensive prompt for creating a realistic fashion-style photograph of a woman on a seaside terrace with natural summer light and coastal backgrounds.",
-    "promptText": "Subject:\n{argument name=\"subject\" default=\"fingertips reaching for the sea\"}\n\nMain Subject:\nA single adult woman with a mature model-like physique stands slightly to the right of the center on a {argument name=\"background style\" default=\"seaside terrace on a hill overlooking the summer sea\"}. The figure occupies about 60% of the screen in full-body view, supporting herself on one leg while lightly kicking the other back and stretching both arms diagonally towards the top right.\n\nCharacter/Expression:\nAn adult woman with a natural and sophisticated atmosphere. Long dark brown hair in loose waves flows backward in the sea breeze. Thin bangs with fine strands around the face. Face tilted slightly toward the top right, gaze fixed on the tips of her reaching fingers. Mouth slightly open with a calm, expansive expression. Bright ivory-beige skin with natural color and texture. Makeup includes rose-beige blush, delicate lashes, soft brown eyebrows, and translucent pink-beige lips.\n\nClothing/Pose:\n{argument name=\"outfit\" default=\"Light white summer set\"}. The top is a thin-strapped V-neck crop top with subtle gathers and lace transitions at the bust and hem. The back is tied with a thin ribbon. The bottom is a high-waisted short tiered mini-skirt made of thin cotton. It spreads naturally to the left in the wind, with soft ruffles at the hem. Standing on her right leg, lifting the left leg behind with a bent knee. Arms extend smoothly forward from the shoulders, wrists slightly flexed, and fingertips relaxed and open. Footwear consists of delicate ivory strap sandals.\n\nBackground/Lighting:\nA vibrant turquoise blue sea and a large arching coastline stretch below, with green hills, white buildings, and small seaside townscapes in the distance. The ground is a safe stone-paved observation terrace. A low white wall and wooden railing create a boundary with the sea, with a few tropical plants at the edge of the foreground. Clear weather around noon in summer. Strong natural light from the top left illuminates the front of the face, shoulders, arms, and legs. Shadows fall to the bottom right, with faint reflections from white walls and floor. Sparkling light on the sea surface.\n\nComposition/Camera:\nVertical 4:5 aspect ratio. Full-body portrait with the person slightly right of center, leaving wide blue sky above. Sufficient margin at the bottom, with the raised leg creating horizontal movement to the left. Camera position is slightly below waist height at a slight low angle. Natural compression of a medium telephoto lens, keeping the person sharp and softly blurring the distant coastline. Focus on eyes and face, shallow depth of field but coastal shape remains recognizable.\n\nTexture/Style:\nBright, translucent, realistic summer fashion photography. Carefully expresses the thinness of white fabric, fine wrinkles, hem movement in the wind, individual hair strands, and natural skin texture. Blue sky, sea, and white clothing provide color contrast; fresh saturation without being overly flashy. Clean and airy, like a resort feature in a magazine.\n\nNegative:\nLooking like a minor, unnatural physique, exaggerated chest, unnatural face, unnatural gaze, extra fingers, missing fingers, fused limbs, broken joints, mismatched leg lengths, shadows inconsistent with light source, gibberish text, logos, watermarks, excessive skin correction, plastic-like skin.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "fingertips reaching for the sea"
-      },
-      {
-        "name": "background style",
-        "default": "seaside terrace on a hill overlooking the summer sea"
-      },
-      {
-        "name": "outfit",
-        "default": "Light white summer set"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784191459629_ehbc10_HNMMZrhbUAAt29g.jpg",
-        "alt": "Seaside Terrace Summer Fashion Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2077547511342911772"
-    },
-    "publishedAt": "2026-07-16T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28815",
-    "contentHash": "6bcef4316d2b73426381a9adfb4f25efaecbf323"
-  },
-  {
-    "id": "gpt-image-2:28838",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28838",
-    "title": "Argentina Fan Stadium Portrait",
-    "category": "Social Media Post",
-    "description": "A photorealistic stadium portrait of a stylish adult female soccer fan wearing an Argentina-inspired number 10 outfit, suitable for sports fan editorial imagery.",
-    "promptText": "Create a photorealistic vertical portrait of an adult Japanese woman sitting in the blue plastic seats of a modern soccer stadium, close to the pitch, looking directly at the camera with a soft confident smile. She has {argument name=\"hair style\" default=\"shoulder-length straight black bob with a side part\"}, smooth fair skin, natural makeup, and a polished idol-like appearance. She wears {argument name=\"team jersey\" default=\"Argentina national team sky-blue and white striped cropped jersey\"} with a visible AFA-style crest, three shoulder stripes, and the number {argument name=\"jersey number\" default=\"10\"} printed large on the front, paired with a {argument name=\"skirt color\" default=\"light blue pleated mini skirt\"}. Compose her seated three-quarter view in the foreground, one hand resting on her thigh and the other on the seat, with rows of empty and occupied blue stadium seats receding behind her, a green soccer field visible to the left, railings, distant spectators in matching blue-and-white outfits, and a large covered stadium roof with steel beams overhead. Use bright natural daylight, shallow depth of field, realistic fabric texture, crisp facial detail, wide-angle smartphone-like perspective, vibrant sky-blue tones, and high-end editorial sports-fan photography style. Avoid text overlays, watermarks, extra logos beyond the jersey crest and number, distorted hands, or unrealistic anatomy.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair style",
-        "default": "shoulder-length straight black bob with a side part"
-      },
-      {
-        "name": "team jersey",
-        "default": "Argentina national team sky-blue and white striped cropped jersey"
-      },
-      {
-        "name": "jersey number",
-        "default": "10"
-      },
-      {
-        "name": "skirt color",
-        "default": "light blue pleated mini skirt"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784191476589_51qewg_HNThgCBbsAAIwNj.jpg",
-        "alt": "Argentina Fan Stadium Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "vevrier90333",
-      "url": "https://x.com/vevrier9033833"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/vevrier9033833/status/2077533359371440367#reversed-0"
-    },
-    "publishedAt": "2026-07-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28838",
-    "contentHash": "ef8948ab72a9b4304450e72762a2aa2bc21c8650"
-  },
-  {
-    "id": "gpt-image-2:28802",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28802",
-    "title": "Nighttime Convenience Store Street Photography",
-    "category": "Social Media Post",
-    "description": "A professional-grade prompt for creating photorealistic nighttime scenes outside a convenience store, focusing on lighting, depth of field, and natural urban atmosphere.",
-    "promptText": "Photorealistic everyday background-and-pose set featuring an {argument name=\"subject\" default=\"adult woman\"} at night. Background identity: a brightly lit neighborhood convenience-store exterior at night, with a glowing storefront, fluorescent interior light spilling through large glass windows, refrigerated display glow, poster-like non-readable color blocks, a small outdoor ashtray or stand, bicycle silhouettes, wet asphalt, reflected white-green-orange storefront light, and layered city darkness beyond. The setting should feel ordinary, urban, and unmistakably shaped by artificial light at night. Depth lock: create a clear three-layer composition. In the foreground, a softly blurred bollard, bicycle handlebar, or wet pavement reflection enters near the lens. In the middle ground, the subject stands just outside the storefront near the window or entrance edge. In the background, the convenience-store interior glow, shelf depth, glass reflections, and darker street beyond recede naturally. Use the window reflections and pavement sheen to create depth instead of a flat lit wall. Composition lock: vertical 4:5 lifestyle crop from around waist height, framed from mid-thigh or waist to head. The subject fills about 65–75% of the frame. Keep the glowing glass, part of the entrance frame, some wet pavement reflection, and layered store depth visible. The image should feel like a natural nighttime street moment. Action and pose lock: the subject stands casually with both feet on the ground, body angled slightly toward the storefront. One hand holds a {argument name=\"prop\" default=\"small warm drink cup or bottle\"} at lower-chest or waist height. The other hand rests naturally near the pocket area, the side of the body, or lightly against the storefront edge. Shoulders remain lowered, posture relaxed, and weight distribution natural, as if she has just stepped out and paused for a moment. Camera and gaze lock: her head remains mostly aligned with the storefront-side angle rather than turning fully toward the camera. The camera is positioned near the glass edge within her natural forward field. Only her eyes shift briefly toward the lens, with minimal head movement, preserving a natural three-quarter face angle and a quiet candid feeling. Avoid: facing the camera square-on, hard posed stance, dramatic lean, raised knee, drink presented toward the viewer, full-body street snapshot, empty dark background, readable commercial text or real logos dominating the frame.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "adult woman"
-      },
-      {
-        "name": "prop",
-        "default": "small warm drink cup or bottle"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784191449371_ns8ne3_HNTTfteaoAAN9Jm.jpg",
-        "alt": "Nighttime Convenience Store Street Photography",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784191449432_rh6k78_HNTTftfbQAESX6N.jpg",
-        "alt": "Nighttime Convenience Store Street Photography",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "MoodLock｜AI画像の惜しいを直す",
-      "url": "https://x.com/MoodLock_JP"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/MoodLock_JP/status/2077517875653566741"
-    },
-    "publishedAt": "2026-07-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28802",
-    "contentHash": "67db7f7346497dc1b025fd50fecf241b54e62874"
   }
 ]
