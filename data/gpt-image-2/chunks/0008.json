@@ -1,5 +1,525 @@
 [
   {
+    "id": "gpt-image-2:32810",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32810",
+    "title": "Isometric Cathedral Travel Poster",
+    "category": "Product Marketing",
+    "description": "Creates a premium two-panel travel poster that turns a landmark photo into a cinematic scene plus a 3D isometric miniature diorama.",
+    "promptText": "Using the provided reference image as the layout and poster-style guide, create a new vertical 3:4 high-end travel design poster with the same two equal horizontal sections, but replace the Venetian canal subject with {argument name=\"landmark\" default=\"a Gothic twin-spired cathedral in Vienna at blue-hour night\"}.\n\nTop section: show a cinematic realistic travel photograph of the landmark front-on at dusk/night, with warm architectural lighting, dark tree silhouettes on both sides, deep blue sky, and a single glowing infinity-shaped light trail wrapping around the two spire tops.\n\nBottom section: transform the same landmark into a clean 3D isometric miniature diorama on a small square base, including exactly 2 tall illuminated spires, exactly 1 central cathedral building, exactly 6 surrounding trees, paved plaza tiles, warm doorway/window lights, and the same glowing infinity light trail around the spires. Keep the minimal cream editorial background and soft shadows like the reference poster.\n\nTypography and graphic details: place a left-aligned title block in the lower half with the headline {argument name=\"headline text\" default=\"INFINITE FAITH\"}, a thin horizontal divider line beneath it, and the small caption {argument name=\"caption text\" default=\"LIGHT CONNECTS\\nWHAT TIME CANNOT.\"}. Add a small bottom-left label {argument name=\"series label\" default=\"No. 011\\nEvening Series\"}. Add a small compass icon on the right side of the lower half, and place bottom-right coordinates and city text {argument name=\"location text\" default=\"48.2196° N, 16.3656° E\\nVIENNA\"}. Use elegant serif typography, restrained spacing, premium museum-poster aesthetics, realistic-to-miniature transformation, no collage, no extra panels, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "landmark",
+        "default": "a Gothic twin-spired cathedral in Vienna at blue-hour night"
+      },
+      {
+        "name": "headline text",
+        "default": "INFINITE FAITH"
+      },
+      {
+        "name": "caption text",
+        "default": "LIGHT CONNECTS\\nWHAT TIME CANNOT."
+      },
+      {
+        "name": "series label",
+        "default": "No. 011\\nEvening Series"
+      },
+      {
+        "name": "location text",
+        "default": "48.2196° N, 16.3656° E\\nVIENNA"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787917375622_4rclzk_HQvKhefasAEcqBN.jpg",
+        "alt": "Isometric Cathedral Travel Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Nora Vale",
+      "url": "https://x.com/NoravaleAI"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/NoravaleAI/status/2092989142095564804#reversed-1"
+    },
+    "publishedAt": "2026-08-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32810",
+    "contentHash": "8910ddf76fe5c8b5bc27d32cc9bbdeeff02df36b"
+  },
+  {
+    "id": "gpt-image-2:32832",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32832",
+    "title": "Woman Encased in Amber Glass Cube",
+    "category": "Product Marketing",
+    "description": "A cinematic surreal portrait prompt for creating a woman suspended in a reflective glass cube with cherries and botanical details.",
+    "promptText": "Create a dark, cinematic fine-art portrait in vertical 9:16 format: a young woman with {argument name=\"hair color\" default=\"dark curly hair\"} and olive skin is encased from the shoulders up inside a perfectly clear glass cube filled with transparent amber liquid or resin. Her face is centered slightly right, calm and melancholic, eyes half open and looking forward, lips relaxed, with realistic skin texture and wet highlights. The glass cube has sharp visible edges, thick refractive corners, glossy reflections, tiny bubbles, ripples, and distorted light caustics across the surface. Inside and around the cube are delicate tangled green stems and botanical filaments, plus exactly 8 visible dark red cherries suspended at different depths: 3 on the left side, 1 near the lower center front, and 4 on the right side. The lower part of the image shows a second rounded glass vessel or pedestal beneath the cube, also filled with dark amber reflections and dripping liquid. Use an almost black background with warm golden bokeh, low-key chiaroscuro lighting, high contrast, rich brown and bronze tones, shallow depth of field, hyperrealistic photographic detail, dramatic editorial fashion mood, no text, no watermark, no extra faces.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "dark curly hair"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787917390294_2mft02_HQvJhzIXwAAkzJc.jpg",
+        "alt": "Woman Encased in Amber Glass Cube",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Lim Tzu",
+      "url": "https://x.com/limtzugar"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/limtzugar/status/2092988135575609470#reversed-0"
+    },
+    "publishedAt": "2026-08-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32832",
+    "contentHash": "4346d4672f018caf5ae8bc1018faf4fd9b2fb99b"
+  },
+  {
+    "id": "gpt-image-2:32796",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32796",
+    "title": "Military Editorial Portrait Collage",
+    "category": "Product Marketing",
+    "description": "Generates a polished four-pose military editorial collage of one man in camouflage uniform with a jeep and signature-style title text.",
+    "promptText": "Goal: Create an ultra-realistic professional military editorial collage featuring {argument name=\"character name\" default=\"Major Abkr Sadiq\"}, the same adult Black man consistently across exactly four portraits, with identical facial identity, natural medium-dark skin tone, clean-shaven face, short black hair mostly covered by a beret, calm confident expression, and polished magazine-cover styling.\n\nCanvas: Vertical 4:5 portrait poster on a clean white studio background with soft gray shadows and subtle misty fade effects around the lower edges of each cutout. Use high-end editorial photography, crisp detail, natural skin texture, realistic fabric, and professional studio lighting.\n\nLayout: Arrange exactly four portraits of the same man in a seamless collage. Portrait 1 is a large close-up bust on the upper left, wearing camouflage uniform and dark green beret, right hand raised in a salute near his temple, looking directly at camera. Portrait 2 is the largest central figure, three-quarter to nearly full-body, standing front-facing in camouflage uniform, adjusting his collar with one hand, wearing a black wristwatch, looking calm and authoritative. Portrait 3 is on the upper right, a full-body walking pose in the same camouflage uniform, tan combat boots, dark green beret, holding sunglasses in one hand, stepping forward toward camera. Portrait 4 is on the lower left, a smaller full-body portrait leaning casually beside an olive military jeep, one arm resting on the vehicle, wearing the same uniform, beret, and tan combat boots.\n\nSubject details: Use a modern green woodland camouflage military uniform with long-sleeve jacket, matching trousers, chest pockets, shoulder epaulettes, dark green undershirt, tan lace-up combat boots, dark green beret with a small gold military-style crest centered on the front, and a black tactical wristwatch. The man should appear dignified, composed, athletic, and professional, not aggressive.\n\nProps and background elements: Include exactly one olive-green military off-road jeep in the lower-left area, partially cropped, with visible front wheel, side door, window, hood edge, and rugged tire details. Keep the rest of the background minimal white, with soft collage blending and no battlefield scenery.\n\nText content: Add a handwritten black signature-style name at the lower right reading {argument name=\"signature text\" default=\"Major Abkr Sadiq\"}. Beneath it, add a small uppercase serif motto reading {argument name=\"motto text\" default=\"DUTY • HONOUR • SERVICE\"}. Text should be elegant, black, and placed with ample white space.\n\nVisual style: Hyper-realistic military fashion editorial, premium recruitment-poster aesthetic, clean composite photography, sharp face detail, realistic camouflage texture, balanced contrast, soft studio highlights, subtle shadows, and tasteful white fade transitions between portraits.\n\nConstraints: Use exactly four portraits of the same man and exactly one jeep. Do not add extra soldiers, weapons, flags, medals, helmets, explosions, buildings, or clutter. Avoid cartoon, CGI, painterly, or overly dramatic war imagery. Maintain consistent face, uniform, beret crest, skin tone, and body proportions across all four portraits.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "Major Abkr Sadiq"
+      },
+      {
+        "name": "signature text",
+        "default": "Major Abkr Sadiq"
+      },
+      {
+        "name": "motto text",
+        "default": "DUTY • HONOUR • SERVICE"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787917366199_eonedi_HQun3HPWkAAVkKo.jpg",
+        "alt": "Military Editorial Portrait Collage",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Abkr Sadiq",
+      "url": "https://x.com/abs_uiux"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/abs_uiux/status/2092951030719758837#reversed-0"
+    },
+    "publishedAt": "2026-08-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32796",
+    "contentHash": "202818fe85f5196577b22d9363f3e18ddfe339d9"
+  },
+  {
+    "id": "gpt-image-2:32732",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32732",
+    "title": "Luxury Arabian Fashion Editorial Triptych",
+    "category": "Product Marketing",
+    "description": "Creates a three-panel photorealistic Arabian fashion editorial featuring one consistent male model in a white thobe and red keffiyeh.",
+    "promptText": "Goal: Create a luxury Arabian fashion editorial triptych featuring the same young male model with a consistent face and body across all frames, using {argument name=\"character identity\" default=\"a young Black man with smooth dark skin, oval face, calm expression, almond eyes, full lips, slim build, and youthful features\"}. Dress him in {argument name=\"outfit\" default=\"a pristine white thobe, a red-and-white checkered keffiyeh/ghutra, a black agal, polished black leather shoes, and a silver luxury wristwatch\"}.\n\nCanvas: Vertical 2:3 fashion magazine collage, three portrait panels separated by thin white borders. Warm neutral studio environment with tan-brown plaster walls, soft archway shadows, and a muted stone floor. Use refined editorial lighting, shallow depth of field, realistic fabric texture, and high-end commercial photography quality.\n\nLayout: Use exactly 3 images in one collage. The left panel is a tall full-body portrait occupying the full height of the canvas and about half the width; the model stands centered, hands gently clasped at waist level, feet visible, looking directly at camera. The right side is split into exactly 2 stacked panels: top-right is a waist-up portrait where he lightly adjusts the collar or chest area with one hand, wristwatch visible; bottom-right is a seated three-quarter portrait where he rests one hand near his chin and the other arm on his lap, wristwatch visible, looking calmly into the camera.\n\nSubject details: Keep the model’s facial identity, skin tone, age, hairstyle hidden under the headscarf, proportions, and expression consistent in all 3 panels. The thobe should be crisp and minimal with a high collar, concealed placket, long sleeves, and subtle folds. The red-and-white headscarf drapes naturally over one shoulder in all views, held by a black agal. The mood is dignified, serene, elegant, and luxurious.\n\nVisual style: Photorealistic high-fashion editorial, warm earth-tone palette, soft directional studio light, subtle shadows, rich textile detail, clean composition, premium Arabian fashion shoot aesthetic.\n\nConstraints: No extra people, no text, no logos, no watermark, no sunglasses, no exaggerated jewelry beyond the watch, no fantasy elements, no distorted hands, no inconsistent face between panels.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character identity",
+        "default": "a young Black man with smooth dark skin, oval face, calm expression, almond eyes, full lips, slim build, and youthful features"
+      },
+      {
+        "name": "outfit",
+        "default": "a pristine white thobe, a red-and-white checkered keffiyeh/ghutra, a black agal, polished black leather shoes, and a silver luxury wristwatch"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787917367918_n59324_HQuS_ZXWUAA24Lt.jpg",
+        "alt": "Luxury Arabian Fashion Editorial Triptych",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Abkr Sadiq",
+      "url": "https://x.com/abs_uiux"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/abs_uiux/status/2092928083133153342#reversed-0"
+    },
+    "publishedAt": "2026-08-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32732",
+    "contentHash": "f0dba318dc5e795ba6fac2fd71076592de7eef3a"
+  },
+  {
+    "id": "gpt-image-2:32702",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32702",
+    "title": "Premium Pizza Advertising Poster",
+    "category": "Product Marketing",
+    "description": "A highly detailed advertising prompt for creating agency-level food posters for Instagram, focusing on branding, texture, and creative composition.",
+    "promptText": "CREATIVE DIRECTION\nCreate a premium, agency-level {argument name=\"brand\" default=\"DOMINO'S\"} advertising poster inspired by the visual language of bold QSR / FMCG social campaigns: strong graphic composition, one instantly readable visual metaphor, controlled product photography, saturated brand colour as the entire world, clean negative space, tactile food realism, short stacked typography and carousel-system consistency.\nDo not copy any specific reference composition.\nExtract the common principles and build an original execution.\nThe poster must feel like a real global pizza campaign art-directed for Instagram, photographed by a commercial food photographer, not a generic AI food poster.\n\nThe visual must communicate the idea before the viewer reads the copy.\n\nCAMPAIGN DNA\nBrand: {argument name=\"brand\" default=\"DOMINO'S\"}\nHero product: {argument name=\"product\" default=\"signature pepperoni / cheese pizza\"} in authentic Domino's packaging language\nCampaign territory: craving + delivery win\nConcept: THE BOX IS THE WIN\nPersonality: hungry, playful, confident, fast, slightly cheeky\nColour system\n- Dominant {argument name=\"color\" default=\"red (#E31837)\"}\n- Domino's blue (#006491) used only as logo, box accent, small graphic punctuation\n- White\n- Soft cream / mozzarella highlight\n- Restrained dark red shadow\nThe red must own the frame immediately. It should not look like generic ketchup advertising.\n\nCREATIVE EXECUTION\nGraphic visual metaphor + premium pizza hero + QSR social poster\nUse:\n- oversized short typography\n- product scale\n- repetition of brand red\n- negative space\n- one gag / one object relationship\n- controlled steam and cheese gloss\n- strong alignment\nAvoid environmental documentary. This is not a street-lifestyle film still unless the specific frame requires hands/tray.\n\nBACKGROUND\nA completely controlled advertising field.\nRich saturated Domino's red with subtle tonal depth.\nAllowed:\n- extremely subtle blob / pepperoni-dot pattern at very low contrast\n- restrained radial falloff\n- soft dimensional shadowing\nForbidden:\n- random restaurant interior as default\n- dirty kitchen\n- city street\n- collage clutter\n- extra brands\n\nHERO PRODUCT\nPhotoreal Domino's pizza as the most important physical object.\nPreserve recognizable Domino's box / logo geometry. Do not invent a new logo. Do not redesign the wordmark.\nShow:\n- molten mozzarella\n- pepperoni oil\n- realistic crust blistering\n- visible steam, restrained\n- authentic corrugated pizza box when the box is in frame\n- believable grease sheen, not plastic CGI\nProduct occupies roughly 50–65% of the frame width unless the idea needs scale contrast.\n\nTYPOGRAPHIC SYSTEM\nHeadline: short, 3–6 words, bold contemporary grotesk / heavy sans.\nPrimary line in white.\nOne hook word may be cream-yellow.\nSecondary line smaller, quieter.\nOptional bottom lockup: ORDER NOW as a small yellow pill.\nOptional footer: Hot. Fast. Yours.\nTypography is hierarchy, not decoration.\nDo not flood the frame with copy.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "brand",
+        "default": "DOMINO'S"
+      },
+      {
+        "name": "product",
+        "default": "signature pepperoni / cheese pizza"
+      },
+      {
+        "name": "color",
+        "default": "red (#E31837)"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787829224487_k0ki6i_HQuO6YjaMAA0klI.jpg",
+        "alt": "Premium Pizza Advertising Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787829224497_t8qytc_HQuO6YLbgAALItU.jpg",
+        "alt": "Premium Pizza Advertising Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787829224501_xt7rs8_HQuO6YUbMAAZYY0.jpg",
+        "alt": "Premium Pizza Advertising Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787829225294_us53xr_HQuO6YObYAApsvE.jpg",
+        "alt": "Premium Pizza Advertising Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ᴍᴜʀᴘʜʏ",
+      "url": "https://x.com/Diplomeme"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Diplomeme/status/2092924708346073379"
+    },
+    "publishedAt": "2026-08-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32702",
+    "contentHash": "675e3c041c28dd1d71c546d5fa9a27ff4683df23"
+  },
+  {
+    "id": "gpt-image-2:32801",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32801",
+    "title": "Luxury Mirror Fragment Fashion Portrait",
+    "category": "Product Marketing",
+    "description": "Generates a cinematic high-end menswear portrait surrounded by seven irregular mirror fragments for fashion campaign visuals.",
+    "promptText": "Create an ultra-realistic cinematic editorial fashion portrait of an adult {argument name=\"subject description\" default=\"Black man with short cropped hair\"} standing confidently against a warm beige/taupe studio wall, styled like a luxury menswear campaign. He wears {argument name=\"outfit\" default=\"an all-black tailored suit with a black button-up shirt, slim black trousers, black leather loafers, a silver wristwatch, and dark aviator sunglasses\"}. Pose him full-body in the center, leaning lightly back against the wall with both hands in his trouser pockets, legs crossed at the ankles, calm serious expression, direct gaze. Surround him with exactly 7 irregular polygon mirror fragments mounted or floating around him: 1 large mirror at upper left showing a close-up of his face in sunglasses, 1 medium mirror at upper right showing his side profile, 1 tall mirror on the right showing the back of his head and shoulders, 1 medium mirror at lower left showing a cropped torso reflection, 1 small mirror at bottom left showing his wristwatch and hand in pocket, 1 medium mirror at lower right showing a close-up of his loafer and trouser cuff, and 1 tiny partial mirror fragment near the top edge. Give every mirror thin beveled reflective edges and realistic reflections from different angles, as if fragmented shards are embedded in the set. Use {argument name=\"lighting style\" default=\"warm golden-hour studio lighting with soft window-like highlights\"}, gentle shadows on the wall, glossy marble floor reflections, shallow editorial depth, high-end fashion campaign composition, vertical 4:5 aspect ratio, sharp realistic fabric texture, polished shoes, natural skin texture, cinematic contrast, no text, no logo, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject description",
+        "default": "Black man with short cropped hair"
+      },
+      {
+        "name": "outfit",
+        "default": "an all-black tailored suit with a black button-up shirt, slim black trousers, black leather loafers, a silver wristwatch, and dark aviator sunglasses"
+      },
+      {
+        "name": "lighting style",
+        "default": "warm golden-hour studio lighting with soft window-like highlights"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787917370507_y34zbd_HQtjP1QXYAExna-.jpg",
+        "alt": "Luxury Mirror Fragment Fashion Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Abkr Sadiq",
+      "url": "https://x.com/abs_uiux"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/abs_uiux/status/2092875587060728130#reversed-0"
+    },
+    "publishedAt": "2026-08-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32801",
+    "contentHash": "afbbcfeb6cfb8b50c559c425e98e08ae6db5d2d4"
+  },
+  {
+    "id": "gpt-image-2:32688",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32688",
+    "title": "Luxury Wristwatch Commercial Ad",
+    "category": "E-commerce Main Image",
+    "description": "Professional studio-quality commercial prompt for generating luxury product photography of a wristwatch in an executive setting.",
+    "promptText": "Ultra-realistic high-end commercial advertisement of a {argument name=\"product\" default=\"premium luxury wristwatch\"} placed on a {argument name=\"surface\" default=\"dark walnut desk\"} inside an elegant modern office at {argument name=\"time of day\" default=\"sunrise\"}. The watch is positioned naturally on a sophisticated leather watch stand, featuring a polished stainless-steel case, detailed mechanical dial, realistic metallic hands, subtle reflections on the sapphire crystal, and finely textured leather strap.\n\nIn the background, a large floor-to-ceiling window reveals a realistic city skyline slowly illuminated by the first morning sunlight. Soft golden sunlight enters through the window and naturally falls across the watch, creating precise highlights along the metal edges and realistic shadows on the wooden surface. A premium fountain pen, a closed leather notebook, and a few minimal office accessories are arranged naturally around the watch, creating an authentic executive lifestyle setting.\n\nExtreme attention to realistic materials and small details: individual dial markings, realistic brushed and polished metal surfaces, accurate glass reflections, subtle fingerprints and natural micro-imperfections, realistic leather grain, physically accurate shadows, natural ambient light, authentic depth of field, soft background bokeh, professional studio-quality product photography combined with real environmental lighting.\n\nShot with a professional full-frame camera, 85mm lens, f/2.0 aperture, natural cinematic color grading, realistic exposure, premium luxury watch campaign aesthetic, sophisticated and believable, photorealistic, ultra-detailed, 8K resolution, sharp focus on the watch, realistic proportions, vertical 9:16 composition, no fantasy elements, no surreal effects, no floating objects, no distorted watch face, no random numbers or text, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "product",
+        "default": "premium luxury wristwatch"
+      },
+      {
+        "name": "surface",
+        "default": "dark walnut desk"
+      },
+      {
+        "name": "time of day",
+        "default": "sunrise"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787829209701_z5e6lq_HQpEDVXa0AAydeg.jpg",
+        "alt": "Luxury Wristwatch Commercial Ad",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787829210053_z62ut1_HQpEItlaYAAr39a.jpg",
+        "alt": "Luxury Wristwatch Commercial Ad",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "𝐔𝐑𝐖𝐀 𓂃♡",
+      "url": "https://x.com/Urwa_345"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Urwa_345/status/2092560031309009240"
+    },
+    "publishedAt": "2026-08-26T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32688",
+    "contentHash": "435df1c1efcd2023dd69030a44dec03273ae7cce"
+  },
+  {
+    "id": "gpt-image-2:32594",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32594",
+    "title": "Luxury Skincare Campaign Poster",
+    "category": "E-commerce Main Image",
+    "description": "A high-end beauty campaign prompt for luxury skincare products featuring glass bottles, soft botanical shadows, and golden lighting.",
+    "promptText": "Create a premium skincare poster for a fictional brand. Feature a glass serum bottle on a glossy cream surface with golden lighting, water droplets, soft reflections, botanical shadows, elegant typography, and a high-end beauty campaign feel. Create a refreshing soda poster for a fictional drink brand. Feature a colorful can with ice, bubbles, condensation, citrus slices, splash effects, bold typography, vibrant colors, and crisp commercial product lighting. Create a futuristic product launch poster for a fictional AI device. Feature a sleek minimal device floating in the center with glowing light, glass reflections, subtle motion blur, modern typography, and a clean high-end tech campaign style.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787732139338_upi6dq_HQk_5U8aAAA6_Kq.jpg",
+        "alt": "Luxury Skincare Campaign Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787732139471_ys238v_HQk_5U-acAEtBYd.jpg",
+        "alt": "Luxury Skincare Campaign Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787732139584_lf0pb5_HQk_5U6asAA7kkM.jpg",
+        "alt": "Luxury Skincare Campaign Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Playyy AI",
+      "url": "https://x.com/Playyy_ai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Playyy_ai/status/2092273800830447964"
+    },
+    "publishedAt": "2026-08-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32594",
+    "contentHash": "7b39ba21c37aa59051bd015f15953bde8840db2d"
+  },
+  {
+    "id": "gpt-image-2:32604",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32604",
+    "title": "Luxury Perfume Commercial Photography",
+    "category": "E-commerce Main Image",
+    "description": "A professional-grade prompt for commercial product shots of high-end perfume in a luxurious hotel lobby with city skyline views.",
+    "promptText": "Ultra-realistic professional commercial product photography of a {argument name=\"product\" default=\"premium glass perfume bottle\"} placed on a {argument name=\"surface\" default=\"polished black marble table\"} inside a luxurious modern hotel lobby. The perfume bottle has a sophisticated transparent glass design, elegant metallic cap, realistic liquid visible inside, subtle condensation droplets, and clean premium packaging. In the background, a large floor-to-ceiling window overlooks a {argument name=\"view\" default=\"beautiful modern city skyline\"} during golden hour, with warm sunlight naturally entering the room. The bottle is positioned perfectly in the center of the composition with realistic studio-quality reflections on the glass and marble surface. A few delicate white flowers and minimal luxury accessories are arranged naturally around the product without distracting from it. Soft warm sunlight creates realistic highlights along the edges of the bottle while subtle professional fill lighting keeps the product perfectly exposed. Natural shadows, realistic glass refraction, accurate reflections, physically accurate materials, authentic photography imperfections, shallow depth of field, realistic background bokeh, premium beauty campaign aesthetic, high-end commercial photography, shot on a professional full-frame camera with an 85mm lens, natural cinematic color grading, extremely detailed, photorealistic, 8K resolution, sharp product focus, realistic proportions, vertical 9:16 composition, no fantasy elements, no surreal effects, no floating objects, no distorted packaging, no extra text, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "product",
+        "default": "premium glass perfume bottle"
+      },
+      {
+        "name": "surface",
+        "default": "polished black marble table"
+      },
+      {
+        "name": "view",
+        "default": "beautiful modern city skyline"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787732145924_o8l8o0_HQkvwkmaoAAXSni.jpg",
+        "alt": "Luxury Perfume Commercial Photography",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787732146017_bxf29z_HQkv6Z_asAAX8-0.jpg",
+        "alt": "Luxury Perfume Commercial Photography",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "𝐔𝐑𝐖𝐀 𓂃♡",
+      "url": "https://x.com/Urwa_345"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Urwa_345/status/2092256327917797570"
+    },
+    "publishedAt": "2026-08-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32604",
+    "contentHash": "55e351f2600183b57e77b4b348fc786af85bb6ba"
+  },
+  {
+    "id": "gpt-image-2:32647",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32647",
+    "title": "Friendly Reception Portrait",
+    "category": "E-commerce Main Image",
+    "description": "A photorealistic vertical portrait of a smiling young Japanese woman in neutral office attire at a modern reception desk.",
+    "promptText": "Create a realistic vertical portrait photo of a friendly young Japanese woman, about {argument name=\"age\" default=\"mid 20s\"}, standing behind a modern reception desk in a bright upscale office or clinic lobby. She has {argument name=\"hair style\" default=\"shoulder-length dark brown bob with soft inward ends and wispy bangs\"}, clear natural makeup, warm eyes, and a gentle genuine smile while looking directly at the camera. She is wearing a {argument name=\"top\" default=\"beige sleeveless ribbed high-neck knit top\"} tucked into a {argument name=\"skirt\" default=\"high-waisted cream pencil skirt\"}, with her arms relaxed behind her back and a polite receptionist-like posture. The background shows a curved white marble reception counter, a black monitor partly visible, soft under-counter lighting, pale wood wall panels, a blurred wall logo, glass doors or windows to the left, and a potted plant in the distance. Use soft natural indoor lighting, shallow depth of field, creamy bokeh, realistic skin texture, professional full-body-to-waist framing, 3:4 vertical composition, clean neutral beige and white color palette, high-resolution photorealism, no text overlay, no watermark, no exaggerated fashion styling.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "age",
+        "default": "mid 20s"
+      },
+      {
+        "name": "hair style",
+        "default": "shoulder-length dark brown bob with soft inward ends and wispy bangs"
+      },
+      {
+        "name": "top",
+        "default": "beige sleeveless ribbed high-neck knit top"
+      },
+      {
+        "name": "skirt",
+        "default": "high-waisted cream pencil skirt"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787732180136_wij96y_HQkXSY7bMAABJ0_.jpg",
+        "alt": "Friendly Reception Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "グラビア大好き",
+      "url": "https://x.com/Otchigura000"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Otchigura000/status/2092229601825374443#reversed-0"
+    },
+    "publishedAt": "2026-08-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32647",
+    "contentHash": "12c03e0fd806c4734062db01c5f8eac52ae14e54"
+  },
+  {
+    "id": "gpt-image-2:32640",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32640",
+    "title": "Realistic Shoyu Ramen Bowl",
+    "category": "E-commerce Main Image",
+    "description": "Generates a close-up photorealistic ramen bowl on a rustic wooden table for food photography or restaurant menu visuals.",
+    "promptText": "Create a square, ultra-realistic food photograph of a steaming bowl of {argument name=\"dish\" default=\"shoyu ramen\"} on a rustic wooden table in a cozy ramen shop. The camera is close to the bowl at a slightly elevated front angle, using shallow depth of field: the front ramen toppings and bowl rim are crisp while the rear of the bowl, spoon, and warm wood background fall into soft bokeh. Use natural window light from the upper left, warm brown and golden tones, glossy broth highlights, subtle steam haze, and a high-clarity modern smartphone-photo look. The ramen is served in one dark speckled ceramic bowl with an earthy black-brown glaze and tan rim rings. Include exactly 7 visible topping or serving elements: 1 large sheet of dark green nori standing vertically on the left, 1 halved soft-boiled egg with glossy orange yolk at front left, 1 large round slice of pale chashu pork at the front, 1 small white narutomaki fish cake with a pink spiral near the spoon, 3 tan bamboo shoot strips across the back-left noodles, 1 mound of sliced green scallions in the center, and 1 pale ceramic-and-wood ramen spoon resting across the right rear rim filled with amber broth. Show thin yellow noodles curling through clear brown soy broth with small oil droplets. Background is only the textured wooden tabletop and softly blurred warm interior tones; no people, no text, no logos, no extra utensils, no chopsticks.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "dish",
+        "default": "shoyu ramen"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787732175255_kokrpg_HQihMAmakAAS5C9.jpg",
+        "alt": "Realistic Shoyu Ramen Bowl",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "OGIZARU_おぎざる_",
+      "url": "https://x.com/ogizaru_tob8000"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ogizaru_tob8000/status/2092162384827969922#reversed-0"
+    },
+    "publishedAt": "2026-08-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32640",
+    "contentHash": "f7ff0b19c95680aea8f5b3128a570fd87f2901e7"
+  },
+  {
     "id": "gpt-image-2:32624",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6287,466 +6807,5 @@
     "publishedAt": "2026-08-24T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32428",
     "contentHash": "ab1e79b47c868412b8bc8131feacd2f4c92aad11"
-  },
-  {
-    "id": "gpt-image-2:32526",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32526",
-    "title": "Giant Lip Essence Boulevard Advertisement",
-    "category": "Product Marketing",
-    "description": "A photorealistic cinematic prompt for a cosmetics advertisement featuring an oversized lip essence tube in a rainy European city boulevard at sunset.",
-    "promptText": "Ultra-realistic cinematic product advertisement featuring a giant glossy {argument name=\"product color\" default=\"deep-red\"} {argument name=\"product\" default=\"lip essence tube\"} standing vertically in the center of a busy grand city boulevard after rain. The product is dramatically oversized, towering above the surrounding buildings and vehicles. Minimal premium packaging with bold white “{argument name=\"branding\" default=\"LPSS\"}” branding and smaller text reading “LIP ESSENCE – NATURAL CARE – Moisturizing Treatment.” Wet reflective road surface with realistic reflections, cars driving around the product, pedestrians walking and photographing it with smartphones. Elegant historic European-style architecture on both sides, beautiful golden-domed cathedral visible in the background, dramatic blue sky filled with soft golden sunset clouds, warm sunlight creating a luxurious glow. Highly detailed realistic textures, accurate product reflections, cinematic lighting, shallow atmospheric depth, photorealistic photography, premium beauty campaign aesthetic, 8K, sharp focus, realistic proportions, vertical composition, no distortion, no extra text, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "product color",
-        "default": "deep-red"
-      },
-      {
-        "name": "product",
-        "default": "lip essence tube"
-      },
-      {
-        "name": "branding",
-        "default": "LPSS"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787645579462_8tj4g9_HQdia_WWoAAfSc6.jpg",
-        "alt": "Giant Lip Essence Boulevard Advertisement",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787645579543_ksyx5l_HQdidYJWEAApKAE.jpg",
-        "alt": "Giant Lip Essence Boulevard Advertisement",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "𝐒𝐊_𝐀𝐈",
-      "url": "https://x.com/Its_Saad_kkk"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Its_Saad_kkk/status/2091748835328512255"
-    },
-    "publishedAt": "2026-08-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32526",
-    "contentHash": "064f57db476e2fb891d4df52f43fe87a846ba4eb"
-  },
-  {
-    "id": "gpt-image-2:32420",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32420",
-    "title": "Luxury Fashion Magazine Cover",
-    "category": "Product Marketing",
-    "description": "A professional editorial prompt for creating a high-end Vogue-style magazine cover featuring sophisticated portrait photography and minimalist studio lighting.",
-    "promptText": "Create a high-end luxury fashion magazine cover portrait of an elegant young woman wearing delicate round silver wire-frame eyeglasses and a minimalist white satin blouse. She has sleek, dark brown hair styled in a precise center part and pulled back into a clean low hairstyle. Her expression is calm, sophisticated, confident, and subtly sensual, with natural makeup, glowing skin, soft pink lips, and realistic facial features.\n\nPose her in a close-up three-quarter portrait, with one hand gently resting against her cheek and the other arm folded naturally across her body. Add a refined silver metal wristwatch with a detailed linked bracelet on her wrist.\n\nUse a pure white studio background with soft, diffused high-key lighting, subtle shadows, flawless editorial skin texture, realistic pores, natural highlights, and premium beauty-photography retouching. Behind her, place oversized black serif typography reading “VOGUE”, partially obscured by the model’s head and shoulders, creating an authentic luxury fashion magazine composition.\n\nUltra-realistic professional photography, 85mm portrait lens, shallow depth of field, crisp eyes, soft cinematic lighting, sophisticated minimalist styling, high-end Vogue editorial aesthetic, photorealistic skin, extremely detailed, clean composition, vertical magazine-cover format, 4K.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787645576007_n0gjft_HQdLe9raoAA0jjE.jpg",
-        "alt": "Luxury Fashion Magazine Cover",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Aijaz",
-      "url": "https://x.com/iamsofiaijaz"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/iamsofiaijaz/status/2091723554287145464"
-    },
-    "publishedAt": "2026-08-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32420",
-    "contentHash": "7a002b40669b9ba434f737da1addb2e00d747226"
-  },
-  {
-    "id": "gpt-image-2:32474",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32474",
-    "title": "Tamago Kake Gohan Food Photo",
-    "category": "E-commerce Main Image",
-    "description": "A realistic Japanese breakfast food photo featuring raw egg over steamed rice with soy sauce and simple tabletop props.",
-    "promptText": "Create a realistic food photography image of {argument name=\"dish\" default=\"tamago kake gohan, Japanese steamed white rice topped with a raw egg\"} in a rustic ceramic bowl. The bowl is centered in the foreground on a warm wooden table, filled with glossy short-grain white rice and one cracked raw egg on top: a vivid orange yolk sitting intact in the middle, surrounded by translucent egg white spreading into the rice with a light soy-sauce tint. Use a shallow depth of field and natural soft window light, with appetizing highlights on the yolk and individual rice grains clearly visible. In the background, place exactly 2 supporting props: a small glass soy sauce dispenser with dark liquid on the left, slightly blurred, and a ceramic bowl containing exactly 3 brown eggs on the right, also blurred. In the lower left foreground, include exactly 1 pair of wooden chopsticks resting diagonally beside a small dark chopstick rest. Style the scene as a high-resolution Japanese home breakfast photo, warm tones, realistic textures, no text, no hands, no people, no packaging, no extra utensils.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "dish",
-        "default": "tamago kake gohan, Japanese steamed white rice topped with a raw egg"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787645620742_9i0vwv_HQcvI6qbsAApsvf.jpg",
-        "alt": "Tamago Kake Gohan Food Photo",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "みどり🐲Midori Tatsuta",
-      "url": "https://x.com/midori_tatsuta"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/midori_tatsuta/status/2091695385228284286#reversed-0"
-    },
-    "publishedAt": "2026-08-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32474",
-    "contentHash": "0e1abfe5b91fcb7ceb5107f950d09f9049cf91ae"
-  },
-  {
-    "id": "gpt-image-2:32467",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32467",
-    "title": "Minimal Luxury Perfume Product Shot",
-    "category": "E-commerce Main Image",
-    "description": "Generates a centered photorealistic luxury perfume bottle asset with a dark studio look for reusable product marketing visuals.",
-    "promptText": "Create a minimalist luxury product shot of a single {argument name=\"product type\" default=\"perfume bottle\"} centered on a deep matte black background, with the product occupying only about 18% of the image height and surrounded by generous negative space. The bottle is a transparent faceted octagonal glass flacon with thick beveled edges, dark {argument name=\"liquid color\" default=\"amber\"} liquid inside, a blank square {argument name=\"label color\" default=\"ivory white\"} front label framed by a thin metallic gold border, two small gold collar pieces at the neck, and a short black rectangular spray cap extending horizontally. Use dramatic low-key studio lighting with subtle highlights on the glass edges, faint gold reflections, and almost no visible shadow. Keep the composition perfectly centered and symmetrical, premium fragrance-ad style, photorealistic, crisp glass refraction, no brand name, no extra text, no hands, no props, no surface line, isolated product feel suitable for background removal and reuse on websites, slides, and ads.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "product type",
-        "default": "perfume bottle"
-      },
-      {
-        "name": "liquid color",
-        "default": "amber"
-      },
-      {
-        "name": "label color",
-        "default": "ivory white"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787559667406_gbicyd_HQaqOJqXgAAvLBd.jpg",
-        "alt": "Minimal Luxury Perfume Product Shot",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "TheFrenchAIGuy",
-      "url": "https://x.com/TheFrenchAIGuy"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/TheFrenchAIGuy/status/2091546242157305862#reversed-0"
-    },
-    "publishedAt": "2026-08-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32467",
-    "contentHash": "94b522b304d7fdfe8d4a52644606bfe704c9334f"
-  },
-  {
-    "id": "gpt-image-2:32368",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32368",
-    "title": "Photorealistic Codex Token Coins",
-    "category": "E-commerce Main Image",
-    "description": "A premium product-render prompt for creating metallic Codex-style tokens with embossed cloud-terminal branding and blue studio lighting.",
-    "promptText": "Create a high-end photorealistic product render of {argument name=\"token name\" default=\"CODEX\"} tokens as futuristic silver coins on a glossy dark surface. Show exactly 5 discrete coins: 4 coins stacked horizontally on the left in a short pile, and 1 large coin leaning upright in the foreground on the right, partially overlapping the stack. The upright coin should dominate the composition, with a ridged reeded edge, brushed matte silver metal, beveled rims, concentric circular grooves, and embossed lettering around the rim: {argument name=\"top rim text\" default=\"CODEX\"} at the top and {argument name=\"bottom rim text\" default=\"BUILD THE FUTURE\"} at the bottom. In the center of each coin, emboss a rounded-square app-icon panel containing a cloud-shaped logo with a terminal prompt symbol, like a greater-than chevron and a short horizontal dash. The left stack should show the top coin face at a shallow angle with the same cloud-terminal emblem and faint rim text, while the coin edges reveal crisp vertical ridges. Use dramatic blue studio lighting with cool cyan highlights, deep navy shadows, soft reflections on the tabletop, and a smooth blue-to-lavender gradient background. Macro product photography look, sharp focus on the upright coin, shallow depth of field on the stacked coins, premium crypto-token aesthetic, no extra objects, no watermark, square 1:1 composition.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "token name",
-        "default": "CODEX"
-      },
-      {
-        "name": "top rim text",
-        "default": "CODEX"
-      },
-      {
-        "name": "bottom rim text",
-        "default": "BUILD THE FUTURE"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787559682598_w1c191_HQXvKBCakAA3Se9.jpg",
-        "alt": "Photorealistic Codex Token Coins",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Sherlock",
-      "url": "https://x.com/thesherlocker"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/thesherlocker/status/2091340569679470947#reversed-0"
-    },
-    "publishedAt": "2026-08-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32368",
-    "contentHash": "d58f84b9c35dbe9fad99b00357a1734c07358ef9"
-  },
-  {
-    "id": "gpt-image-2:32383",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32383",
-    "title": "Glowing Totoro Robot Figure Diorama",
-    "category": "E-commerce Main Image",
-    "description": "A cinematic product-style prompt for generating a glowing mecha Totoro collectible figure hovering over a miniature sunset landscape diorama.",
-    "promptText": "Create a cinematic high-end collectible figure product photo of a floating robot version of {argument name=\"character name\" default=\"Totoro\"}, reimagined as a glossy black steampunk/mecha cat-forest spirit toy with a round body, off-white belly, visible metal panel seams, scratches, rivets, and worn edges. The figure has exactly 2 glowing warm amber circular LED eyes, exactly 2 tall black cone ears/horns on top, a wide toothy grin with cream rectangular teeth, thin black whiskers, exactly 2 outstretched segmented mechanical arms, and spiked claw hands with 5 pointed claws on each hand. The belly contains exactly 7 warm glowing crescent-shaped LED cutouts arranged like the classic Totoro chest markings. The robot is hovering above a detailed miniature landscape diorama on a round black display base: tiny forested hills, a winding blue river, small houses, misty clouds, and smoke effects. Under the body are exactly 2 bright orange jet flames, with vapor clouds below, and exactly 3 transparent curved acrylic support rods visible behind the figure. Set the scene against a dramatic {argument name=\"background setting\" default=\"sunset mountain valley with a river and distant lake\"}, with orange-pink clouds, a low sun near the horizon, and warm reflected light. Use shallow depth of field, realistic studio macro photography, premium resin figure craftsmanship, cinematic lighting, soft bokeh, highly detailed textures, square vertical composition, no text, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "Totoro"
-      },
-      {
-        "name": "background setting",
-        "default": "sunset mountain valley with a river and distant lake"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787472408527_aljjgt_HQVROZJa0AAiztV.jpg",
-        "alt": "Glowing Totoro Robot Figure Diorama",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "カーブミラー",
-      "url": "https://x.com/kabumira862571"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/kabumira862571/status/2091166918866845854#reversed-0"
-    },
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32383",
-    "contentHash": "a4d5c4a721f2bda4b9d1b50cc90d5e193610bfb2"
-  },
-  {
-    "id": "gpt-image-2:32452",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32452",
-    "title": "Professional Studio Portrait Emerald Theme",
-    "category": "Profile / Avatar",
-    "description": "A studio lighting prompt for a professional portrait of a woman in an emerald green blouse with dark curly hair.",
-    "promptText": "Professional studio portrait of a stunning woman with voluminous, long curly {argument name=\"hair color\" default=\"dark brown\"} hair with warm caramel highlights She has deep brown eyes natural glossy lips, and gentle studio makeup She is wearing a silk {argument name=\"blouse color\" default=\"emerald green\"} blouse and subtle gold hoop earrings, resting one hand softly near her collarbone The background consists of rich, deep {argument name=\"background color\" default=\"emerald green\"} velvet drapery with dramatic studio rim lighting highlighting her hair texture Soft key light on her face, shallow depth of field, sharp focus, 85mm lens, photorealistic, cinematic lighting, 8k resolution.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "dark brown"
-      },
-      {
-        "name": "blouse color",
-        "default": "emerald green"
-      },
-      {
-        "name": "background color",
-        "default": "emerald green"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787559651110_8o6u2c_HQdGooZWEAA3uDq.jpg",
-        "alt": "Professional Studio Portrait Emerald Theme",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Lavinia",
-      "url": "https://x.com/laviniavelle"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/laviniavelle/status/2091718234420510987"
-    },
-    "publishedAt": "2026-08-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32452",
-    "contentHash": "84b35e2d8e00b0b4524fdddb1aa0b401d634b6af"
-  },
-  {
-    "id": "gpt-image-2:32450",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32450",
-    "title": "Neon Flux Cyberpunk Portrait",
-    "category": "Profile / Avatar",
-    "description": "A striking anime-inspired digital illustration of a cyberpunk woman with crimson-teal hair and neon rim lighting.",
-    "promptText": "A stylized cyberpunk fashion portrait of a striking young woman with sleek shoulder-length crimson-teal hair, luminous icy-blue eyes, sharp eyeliner, glossy coral lips, and subtle red markings beneath one eye. She faces the camera directly with a calm, confident expression, centered in a tight waist-up composition. She wears a high-gloss black latex turtleneck bodysuit beneath an oversized cobalt-blue vinyl jacket, with metallic ear cuffs and small silver piercings. Behind her is a dense futuristic city alley filled with abstract red-orange neon signage, deep navy architecture, cables, panels, and layered urban details. Dramatic neon rim lighting, saturated red and electric-blue palette, smooth porcelain skin, glossy specular reflections, soft cinematic shadows. Polished anime-inspired digital illustration blended with semi-realistic facial rendering, crisp linework, luxurious fashion-editorial styling, symmetrical composition, shallow depth of field, moody futuristic nightlife atmosphere",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787559649154_3ycb1j_HQcfFg4WIAAo9n8.jpg",
-        "alt": "Neon Flux Cyberpunk Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787559648875_p7kp1m_HQcfFhAW4AAovvc.jpg",
-        "alt": "Neon Flux Cyberpunk Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "LANDCÄSTER.EXE",
-      "url": "https://x.com/LANDCASTER_92"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/LANDCASTER_92/status/2091674756701433970"
-    },
-    "publishedAt": "2026-08-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32450",
-    "contentHash": "1cb8d4cb1769939627f861953a7d6f840f261257"
-  },
-  {
-    "id": "gpt-image-2:32459",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32459",
-    "title": "Cute Baby and Kittens Wallpaper",
-    "category": "Profile / Avatar",
-    "description": "A simple and sweet prompt for generating a high-quality wallpaper featuring a smiling baby surrounded by kittens in a soft, warm photographic style.",
-    "promptText": "A {argument name=\"subject\" default=\"cute baby wearing pink and a hat\"} with big eyes, surrounded by {argument name=\"companions\" default=\"kittens\"}, with a happy smile, warm lighting, and soft colors. The photography style resembles a {argument name=\"style\" default=\"cute pet wallpaper background\"}, with the baby's full body visible in the image.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "cute baby wearing pink and a hat"
-      },
-      {
-        "name": "companions",
-        "default": "kittens"
-      },
-      {
-        "name": "style",
-        "default": "cute pet wallpaper background"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787559654968_lbvpjd_HQbO3G9acAAQaHh.jpg",
-        "alt": "Cute Baby and Kittens Wallpaper",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Compound Learning - Tech | Science",
-      "url": "https://x.com/SheBuildsAI_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/SheBuildsAI_/status/2091586526492967080"
-    },
-    "publishedAt": "2026-08-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32459",
-    "contentHash": "b7b553a7c5af794c67abf2bdb8cff9be70f0ac8e"
-  },
-  {
-    "id": "gpt-image-2:32427",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32427",
-    "title": "Minimalist Hand-Drawn Doodle Style",
-    "category": "Profile / Avatar",
-    "description": "A prompt to transform an existing image into a charming minimalist hand-drawn doodle illustration with watercolor accents.",
-    "promptText": "Transform the image into a charming minimalist hand-drawn doodle illustration. Preserve the main subject, pose, proportions, and overall composition while simplifying everything into playful, childlike forms. Use loose brush-pen outlines with subtle wobble, uneven pressure, and naturally imperfect handmade strokes. Keep the linework clean and sparse, with tiny expressive details that give the subject personality. Add delicate watercolor-ink touches with very soft, restrained color accents while maintaining plenty of clean white space. Create a naive sketchbook feeling with whimsical cartoon shapes, spontaneous marks, gentle imperfections, and an authentic handmade drawing quality. Avoid excessive detail, realism, heavy shading, or polished digital-vector edges. The final result should feel like a cute artist’s notebook doodle drawn by hand with watercolor ink.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787559622626_6lt288_HQaslCmbEAQmzY-.jpg",
-        "alt": "Minimalist Hand-Drawn Doodle Style",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Laraib Fatima‎",
-      "url": "https://x.com/AiwithLariab"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AiwithLariab/status/2091548854760181828"
-    },
-    "publishedAt": "2026-08-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32427",
-    "contentHash": "d6354fa733ab7546454b51d7f35e54c76e29e429"
-  },
-  {
-    "id": "gpt-image-2:32487",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32487",
-    "title": "Watercolor Fantasy Dragon-Bird Boy",
-    "category": "Profile / Avatar",
-    "description": "Generates a pastel anime watercolor portrait of a hybrid fantasy boy crouching under a Japanese parasol in a sunny park.",
-    "promptText": "Create a soft watercolor anime illustration of a cheerful fantasy beast-boy character named {argument name=\"character name\" default=\"unnamed dragon-bird boy\"} crouching in a sunlit park. He has short messy {argument name=\"hair color\" default=\"deep violet\"} hair, large upright wolf/cat-like ears with pale inner fur, round orange-tinted sunglasses resting on his forehead, closed smiling eyes, and a relaxed mischievous grin. His body blends human, bird, reptile, and sea-creature traits: green scaled lower legs, large orange birdlike taloned feet with blue claws, a long green reptilian tail curving behind him with small blue dorsal spines, feathered orange-and-white arm plumage on one arm, and a small octopus companion or tentacled hand-like creature draped over his left hand near his cheek, with exactly eight visible green-blue tentacles and round blue suction cups. Dress him in a sleeveless dark navy Chinese-style vest with orange-gold trim and frog closures, loose dark navy cropped pants with orange edging, and an orange hanging front sash decorated with a small gold ornament and tassel. Pose him in a low squat facing slightly left, one elbow resting on his knee and one hand supporting his cheek, looking carefree and cute. Above and behind him place one large traditional Japanese paper parasol, tilted diagonally, with pale mint outer panels, warm orange underside, blue ribs, and a dark blue handle pole. Background: bright overexposed summer park with soft green trees, dappled sunlight, pale grass and path, and one faint wooden bench in the right distance. Visual style: delicate hand-painted anime watercolor, light pencil/ink outlines, pastel colors, translucent washes, airy high-key lighting, gentle bloom, whimsical fantasy character design, no text, no watermark, vertical portrait composition.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "unnamed dragon-bird boy"
-      },
-      {
-        "name": "hair color",
-        "default": "deep violet"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787559680119_xhkze4_HQZ4P9maMAAnejD.jpg",
-        "alt": "Watercolor Fantasy Dragon-Bird Boy",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "A-kei(エィケイ)",
-      "url": "https://x.com/A__Kei"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/A__Kei/status/2091492793755562202#reversed-0"
-    },
-    "publishedAt": "2026-08-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32487",
-    "contentHash": "81359fbd645b9cc8d686cc7bc29b9c03c8677792"
   }
 ]
