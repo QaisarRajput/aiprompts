@@ -1,5 +1,161 @@
 [
   {
+    "id": "gpt-image-2:29110",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29110",
+    "title": "Miniature Beach Adventure Collage",
+    "category": "Comic / Storyboard",
+    "description": "Generates a playful six-panel hyper-realistic beach collage featuring a tiny person interacting with oversized summer objects.",
+    "promptText": "Goal: Create a whimsical hyper-realistic 2-column by 3-row photo collage showing a tiny miniature young man on a sunny beach, interacting with oversized summer objects as if he is a toy-sized person in a real world.\n\nCanvas: Vertical collage, 768×1152 style aspect ratio, six equal rectangular panels separated by clean white gutters. Bright midday beach lighting, shallow depth of field, blue ocean horizon and sandy beach background in every panel.\n\nMain subject: The same miniature young man appears in all 6 panels, about toy-sized, with a handsome youthful face, short dark wavy hair, light skin, wearing a burgundy button-up shirt, black pants, and white sneakers. Keep his identity and outfit consistent across the collage. Use {argument name=\"character name\" default=\"a miniature young man\"} as the recurring subject.\n\nPanel count and contents: Use exactly 6 panels.\n1. Top-left: A giant human hand tilts a small pink bucket, pouring a mound of dry sand over and around the tiny man while he sits on the beach with both hands raised in surprise.\n2. Top-right: The tiny man sits inside a giant pink frosted donut-shaped float in splashing ocean water, wearing a blue snorkel mask/tube and yellow flippers, while a large human hand steadies the float from the right.\n3. Middle-left: The tiny man crouches on the sand and pulls a rope tied around an enormous spiral seashell, as if trying to drag it.\n4. Middle-right: A large human hand holds a red-and-green popsicle on a wooden stick; the tiny man clings to the popsicle with his arms and legs, as if hugging it.\n5. Bottom-left: A giant waffle cone held by a human hand drips melting pink ice cream over the tiny man, who sits on a puddle of pink ice cream with both hands raised.\n6. Bottom-right: The tiny man lounges in a miniature beach chair under a small yellow-and-white umbrella, wearing dark sunglasses, while a large human hand offers him a blue-orange juice box with a white straw.\n\nVisual style: Ultra-realistic macro photography, playful forced-perspective miniature scene, crisp details on sand grains, realistic skin texture on the oversized hands, vivid beach colors, cinematic sunlight, natural shadows, glossy water splashes, realistic scale contrast, high-resolution editorial collage.\n\nConstraints: No text, captions, logos, or watermarks. Keep the same character, clothing, and beach environment in every panel. Make the objects oversized relative to the miniature person, with believable contact shadows and realistic interactions.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "a miniature young man"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784450536067_crauqs_HNfFYJ4bIAAs_kf.jpg",
+        "alt": "Miniature Beach Adventure Collage",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Nomi AI",
+      "url": "https://x.com/AiwithNomi"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AiwithNomi/status/2078346787577045487#reversed-0"
+    },
+    "publishedAt": "2026-07-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29110",
+    "contentHash": "91879f8fcb2ce506f6aaef98a43fc879561bbfa2"
+  },
+  {
+    "id": "gpt-image-2:29088",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29088",
+    "title": "Nostalgic Japanese Children's Illustration Style",
+    "category": "Comic / Storyboard",
+    "description": "A comprehensive style template for transforming existing character illustrations into hand-drawn Japanese children's book art, emphasizing nostalgic textures and soft, traditional colors.",
+    "promptText": "Please perform i2i using a completed illustration instead of a character reference.\n\n[Japanese Children's Illustration Transformation Prompt]\n\nTransform into a hand-drawn children's illustration that evokes Japanese nostalgia.\n\nMaintain the identity of the characters from the original image.\n\nRespect the original image for facial features, hairstyle, hair color, ears, costume design, color scheme, pose, composition, gaze, and expression atmosphere.\n\n────────────────────\n\n[Character Deform]\n\nNaturally deform the characters to approximately {argument name=\"head to body ratio\" default=\"3.5 to 4\"} heads tall.\n\nA rounded physique characteristic of young children.\n\nKeep the neck short.\n\nNarrow the shoulder width.\n\nMake the arms and legs slightly shorter.\n\nMake the cheeks plump and round.\n\nMake the chin small.\n\nMake the nose small and inconspicuous.\n\nEyes should not be large anime-style, but simple eyes dominated by black pupils.\n\nAvoid flashy emotional expressions.\n\nA gentle, slightly blank, quiet expression.\n\n────────────────────\n\n[Costume]\n\nDo not change the costume design.\n\nThe cloth should be slightly larger than the body, a natural silhouette that hangs softly.\n\nFrills and fabrics should be drawn softly and somewhat omitted.\n\nJudge shoes naturally depending on the scene.\n\nBare feet are fine indoors or in nature.\n\nShoes are fine in modern city streets.\n\n────────────────────\n\n[Background]\n\nMaintain the location of the original image for the background.\n\nOrganize background information to about 40-60%.\n\nBoldly omit details.\n\nRepresent buildings, trees, and crowds only with outlines and color surfaces.\n\nWeaken the background's presence.\n\nTake a wide margin on the screen.\n\nTreat the margin as part of the work.\n\nDo not draw the characters to fill the screen.\n\nPlace the characters slightly smaller, leaving a quiet space.\n\n────────────────────\n\n[Props/Animals]\n\nNaturally place one puppy or kitten only if it fits the world of the work.\n\nDo not add them forcibly.\n\n────────────────────\n\n[Lines]\n\nThin and delicate hand-drawn lines.\n\nDo not use black outlines.\n\nSoft brown or ink-colored brush lines.\n\nDo not draw too many lines.\n\n────────────────────\n\n[Texture]\n\nDo not emphasize the yellowing of the paper.\n\nThe paper is an off-white color close to white.\n\nDo not transform the entire screen to sepia.\n\nKeep the paper texture subtle.\n\nColoration that looks like paint has naturally soaked into the paper.\n\nIt should not be a uniform watercolor filter.\n\nSuppress the sharpness typical of digital illustrations.\n\n────────────────────\n\n[Colors]\n\nValue white.\n\nLeave margins close to white.\n\nSaturation is modest.\n\nUse mainly traditional Japanese colors.\n\nPale indigo blue.\n\nGrayish cherry blossom pink.\n\nYoung grass green.\n\nLight ink color.\n\nSoft vermilion.\n\nLight is natural light.\n\nAvoid strong contrasts.\n\n────────────────────\n\n[Atmosphere]\n\nTranquility.\n\nNostalgia.\n\nGentleness.\n\nAir where you can feel the wind.\n\nAn atmosphere where time flows slowly.\n\nA work that stands as an illustration in a single children's picture book.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "head to body ratio",
+        "default": "3.5 to 4"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784450519894_ojs282_HNfDhxMaIAAeKS8.jpg",
+        "alt": "Nostalgic Japanese Children's Illustration Style",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Eris Create Lab",
+      "url": "https://x.com/Eris_Create_Lab"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Eris_Create_Lab/status/2078344744405815493"
+    },
+    "publishedAt": "2026-07-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29088",
+    "contentHash": "9b2c11184ba576e9dd4869597e3cceb0d327cfcd"
+  },
+  {
+    "id": "gpt-image-2:29094",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29094",
+    "title": "Textbook Scribble on Crumpled Paper",
+    "category": "Comic / Storyboard",
+    "description": "A prompt designed to mimic the aesthetic of a simple, low-quality doodle found on a piece of wrinkled school paper.",
+    "promptText": "Draw with very simplified lines and design, with the quality of a doodle written in a {argument name=\"location\" default=\"textbook\"}, on a piece of {argument name=\"texture\" default=\"crumpled paper\"}.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "location",
+        "default": "textbook"
+      },
+      {
+        "name": "texture",
+        "default": "crumpled paper"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784450524816_dxgjau_HNeeyunb0AEGLwH.jpg",
+        "alt": "Textbook Scribble on Crumpled Paper",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "とらの",
+      "url": "https://x.com/TlanoAI"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/TlanoAI/status/2078304747115933947"
+    },
+    "publishedAt": "2026-07-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29094",
+    "contentHash": "28ffb3adf6a71086fb82d5b7c79d4287a1f324ce"
+  },
+  {
+    "id": "gpt-image-2:29152",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29152",
+    "title": "Black and White Menswear Ad",
+    "category": "Product Marketing",
+    "description": "A monochrome luxury fashion editorial ad with a suited male model in brutalist concrete architecture and customizable headline text.",
+    "promptText": "Create a cinematic black-and-white luxury fashion advertisement featuring a slim young male model with pale skin and wavy dark curly hair, resembling a refined editorial menswear campaign. He stands on the right side of a wide horizontal frame, leaning casually against a tall smooth concrete wall, one hand in his trouser pocket, wearing an all-black tailored suit, black open-collar dress shirt, black belt, and subtle necklace. His expression is calm, aloof, and confident, looking slightly off-camera. The setting is a minimalist brutalist concrete architectural corridor with towering angular walls, sharp diagonal openings, visible concrete bolt holes, a cloudy sky visible through the left opening, and a reflective wet floor. Use dramatic natural side lighting so the model casts a distinct shadow on the wall behind him. Place elegant white serif typography on the left-center reading {argument name=\"headline text\" default=\"Fearlessly Refined\"}. Keep the composition spacious and high-fashion, with deep grayscale contrast, film grain, soft editorial lighting, crisp tailoring detail, no extra logos, no watermark, and no additional text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline text",
+        "default": "Fearlessly Refined"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784450564459_t3x53s_HNhGWd5acAIkj7E.jpg",
+        "alt": "Black and White Menswear Ad",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Zephyra Leigh",
+      "url": "https://x.com/ZephyraLeigh"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ZephyraLeigh/status/2078488598178087213#reversed-0"
+    },
+    "publishedAt": "2026-07-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29152",
+    "contentHash": "21f66dffa73f2a43572b942e26d1e95f3dc369c6"
+  },
+  {
     "id": "gpt-image-2:29099",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6883,188 +7039,5 @@
     "publishedAt": "2026-07-12T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28738",
     "contentHash": "b1c1ab37b93c0ecd7b3c6b288201c66fa9d6bc6f"
-  },
-  {
-    "id": "gpt-image-2:28510",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28510",
-    "title": "Realistic Outfit Reference Converter",
-    "category": "E-commerce Main Image",
-    "description": "A sophisticated prompt for GPT Image 2 to transform anime or illustration outfits into realistic product reference images on transparent mannequins.",
-    "promptText": "Image 1 is a photograph of a transparent mannequin titled 'Outfit Reference', featuring a Front Shot and a Back Shot side by side. Image 2 is a reference image for the outfit design. Please handle images of any style, such as live-action, illustrations, anime, CG, or sketches. You are to act as a professional clothing analyst, apparel pattern maker, and product photographer. [Objective] Accurately interpret only the outfit of the person shown or depicted in Image 2, reconstruct it as a high-quality, real-world garment, and generate a product reference image placed on the transparent mannequin from Image 1. Target the complete coordination, including clothing, shoes, legwear, hats, belts, and accessories. However, completely ignore bags and luggage. [Absolute Prohibitions] - Do not reflect the face, hairstyle, skin tone, body shape, makeup, expression, or pose of the person in Image 2 in the output. - Do not replace the mannequin with human skin or a human body. - Do not lose the texture of the transparent mannequin. - Do not make the outfit look anime-style, CG-style, cosplay-like, or like cheap plastic. - Avoid flat coloring, overly uniform surfaces, and artificial-looking gloss. [Composition] Maintain exactly the same layout as Image 1. - Left half: Front Shot. - Right half: Back Shot. - Reproduce the text labels 'Outfit Reference', '▼Front Shot', and '▼Back Shot' at the top of the image. - The background must be the same solid green back background as Image 1. - Maintain the mannequin's pose, transparency, proportions, joint positions, and standing position. - Fit the outfit naturally to the mannequin's body shape so that the 3D volume of the bust and the slenderness of the waist are clearly identifiable even when the clothes are worn. [Clothing Analysis] Read all of the following elements from Image 2: 1. Item composition: Tops, bottoms, dresses, rompers, outerwear, innerwear, etc. 2. Silhouette: Tight, regular, oversized, A-line, bodycon, flare, etc. 3. Neckline: V-neck, crew neck, square neck, halter, off-the-shoulder, open collar, etc. 4. Sleeves: Sleeveless, short sleeves, long sleeves, puff sleeves, bell sleeves, sheer sleeves, etc. 5. Front closure: Buttons, zippers, hooks, lace-up, wrap, pullover, etc. 6. Pockets: Position, shape, number, flap, patch, slash, cargo, etc. 7. Waist: Belts, corsets, elastic, drawstrings, waist seams, darts, etc. 8. Hem: Length, curve, slits, ruffles, ribbing, raw edges, pleats, etc. 9. Decoration: Embroidery, prints, lace, studs, eyelets, chains, ribbons, ruffles, patches, etc. 10. Shoes: Type, height, material, heel, sole, buckles, laces, metal fittings, etc. 11. Legwear: Socks, tights, stockings, garters, fishnets, etc. 12. Accessories: Hats, chokers, necklaces, bracelets, belts, gloves, etc. 13. Color and color scheme: Main color, accent colors, patterns, gradients, metallic colors, etc. [Backside Completion] If the back is not shown in Image 2, complete it naturally based on the front structure and general garment design. Design the collar, shoulder lines, sleeve attachments, side seams, waist seams, hem lines, zipper positions, back pockets, and back darts without contradiction. [Conversion to Real Materials] Even if Image 2 is in an illustration or anime style, replace that design with materials that would work as real-world garments. While remaining faithful to the colors of the original image, adjust the saturation, brightness, and texture to look natural as real fabric. Estimate the best material from the appearance and describe realistic surface textures such as: - Cotton: Fine plain weave, slight fuzziness, matte diffuse reflection. - Cotton Twill: Diagonal weave, natural stiffness with some thickness. - Denim: Indigo color variations, white warp threads, stiff fold wrinkles, 3D stitch effect. - Satin: Smooth, liquid-like gloss, directional highlights. - Silk: Soft flowing luster, thin and supple drape. - Polyester: Light semi-gloss, fine fiber feel that is not too uniform. - Leather: Natural grain, thickness, swelling around seams, elegant semi-gloss. - Enamel: Strong specular reflection, sharp highlights, hard surface. - Chiffon: Sheerness, airy lightness, density in overlapping areas. - Organza: Stiff transparency, hard reflections. - Lace: 3D thread feel, openwork patterns, fine irregularities on the edges. - Knit: Stitches, ribbing, tension from stretching, soft shadows. - Wool: Napped feel, matte surface, thick drape. - Mesh: Regularity of holes, shadows in overlapping parts, tension of elastic material. [Sewing and Details] To make the outfit look like a genuine high-end apparel product, carefully depict the following: - Topstitching, double stitching, edging stitches. - Sewing thread in buttonholes. - Metallic feel of zipper teeth, sliders, and pulls. - Weight and reflection of eyelets, buckles, studs, and chains. - Darts, princess lines, side seams, shoulder lines, and seam lines. - Hem folds, seam allowances, and slight visibility of the lining. - Edge finishing of lace and ruffles. - Shoe soles, heels, stitching, leather grain, and metal hardware texture. [Wear Wrinkles and Fit] Add natural wrinkles and tension for each material according to the mannequin's body shape. - Soft materials: Fine, shallow wrinkles, smooth drapes along the body. - Hard materials: Large fold wrinkles, structural stiffness. - Thick materials: Weight falling downward due to gravity, thickness around seams. - Thin materials: Light floating feel, sheerness in overlaps, delicate swaying. Locations for wrinkles: Underarms, around the bust, waist narrowing, back of elbows, pocket openings, crotch, back of knees, hem, shoe openings. [Bust and Waist Fit Expression] The outfit should naturally fit the 3D shape of the transparent mannequin's unique body type. - The size of the bust must be clearly visible through the clothes. - Include natural tension lines in horizontal and diagonal directions near the apex of the bust. - Express the 3D form through darts, princess lines, elasticity, and seam tension. - In the case of button-front closures, suggest light tension between buttons around the bust area. - Naturally express the line that narrows sharply from under the bust to the slim waist. - Ensure the presence of the bust is recognizable from the tension of the fabric on the sides and the side lines even in back shots. - However, do not make the clothes look torn, poorly sized, or extremely unnatural. [Lighting and Shooting Quality] The output should be a high-quality photograph, like a lookbook or product shoot for a real apparel brand. - Natural shadows from studio lighting. - Appropriate shadows in wrinkle valleys, back of collars, under pockets, and deep in pleats. - Matte materials have subtle diffuse reflection. - Glossy materials have clear highlights according to the material. - Semi-glossy materials have soft reflections. - Metal parts have small, sharp reflections. - The boundary between the transparent mannequin and the outfit should look natural. - Detailed density that can withstand close-ups. [Final Quality] The final image should be a reconstruction of the outfit design from Image 2 as a high-quality, real-world garment. It should have the material, sewing, weight, gloss, wrinkles, and fit as if produced by a real brand, rather than a cheap cosplay costume.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783932938083_z2z85f_HNAF1gtb0AApqTk.jpg",
-        "alt": "Realistic Outfit Reference Converter",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "AIギャル物語",
-      "url": "https://x.com/JPAI_HEAVEN"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/JPAI_HEAVEN/status/2076254888460439726"
-    },
-    "publishedAt": "2026-07-12T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28510",
-    "contentHash": "c7136e947721b79b86bcdd703520259709a1cbff"
-  },
-  {
-    "id": "gpt-image-2:28466",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28466",
-    "title": "Premium Studio Product Shot",
-    "category": "E-commerce Main Image",
-    "description": "A professional-grade prompt for high-end e-commerce product photography featuring seamless backgrounds, commercial lighting, and photorealistic detail.",
-    "promptText": "Ultra-realistic, premium studio product photograph of {argument name=\"product name\" default=\"[product_name]\"}, perfectly centered on a flawless seamless white infinity background, captured with exceptional precision and commercial-quality lighting. The product is clean, pristine, and free of dust, fingerprints, scratches, or imperfections, showcasing highly detailed textures, realistic materials, and accurate colors. Soft, diffused key lighting combined with balanced fill lighting creates smooth gradients and subtle reflections, while a perfectly natural soft shadow sits directly beneath the product for depth without distraction. Crisp edge definition, true-to-life proportions, and outstanding micro-detail throughout. Shot using a {argument name=\"camera\" default=\"[camera_type]\"} paired with a {argument name=\"lens\" default=\"[lens_type]\"}, professional product photography settings, ultra-sharp focus from edge to edge, minimal noise, HDR imaging, realistic reflections, natural contrast, color-calibrated workflow, premium luxury commercial advertising aesthetic, high-end e-commerce catalog quality, magazine-level product presentation, photorealistic rendering, 8K ultra-high resolution, flawless studio perfection.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "product name",
-        "default": "[product_name]"
-      },
-      {
-        "name": "camera",
-        "default": "[camera_type]"
-      },
-      {
-        "name": "lens",
-        "default": "[lens_type]"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1783932905695_9f8it5_HNBHgi_acAAyqcE.jpg",
-        "alt": "Premium Studio Product Shot",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783932905735_hfib32_HNBHhd3bwAAHsVr.jpg",
-        "alt": "Premium Studio Product Shot",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783932905501_af5e3o_HNBHii3bkAAYs9P.jpg",
-        "alt": "Premium Studio Product Shot",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1783932906525_suyrjk_HNBHjd1bUAAZbWl.jpg",
-        "alt": "Premium Studio Product Shot",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Anissa",
-      "url": "https://x.com/SimplyAnnisa"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/SimplyAnnisa/status/2076238114788716579"
-    },
-    "publishedAt": "2026-07-12T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28466",
-    "contentHash": "733d64acc948fa8b8679babe01e1dd1d7f0e6adf"
-  },
-  {
-    "id": "gpt-image-2:28739",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28739",
-    "title": "Y2K Feminine Lace Outfit",
-    "category": "E-commerce Main Image",
-    "description": "A detailed feminine summer outfit prompt in the Y2K style, featuring a white eyelet lace bustier mini dress and chunky platform loafers.",
-    "promptText": "Outfit: a feminine {argument name=\"color\" default=\"white\"} summer {argument name=\"style\" default=\"Y2K\"} outfit featuring a fitted white eyelet lace bustier-style mini dress with a soft sweetheart neckline, delicate all-over cutwork embroidery, lightly structured bodice shaping, side ruched drawstring details, small ribbon-tie accents, and a softly flared mini skirt hem, with premium fabric texture, realistic garment construction, clean stitching, natural seam tension, believable lightweight cotton lace weight, subtle wrinkles, realistic drape, refined edge finishing, visible seams, real folds, well-made clothing details, high-quality material feel, and detailed garment realism; paired with white knee-high lace socks with subtle floral openwork texture and black chunky platform loafer-style shoes with leather-like material, clean stitching, metal-free minimal finishing, layered rubber sole construction, and realistic footwear materials; finished with a small ivory-to-cream rounded mini shoulder bag with a simple short strap and clean leather-like body; add a random mix of delicate feminine accessories in pearl-tone, silver-tone, or soft romantic Y2K style that naturally match the outfit; not costume-like, not cheap-looking.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "color",
-        "default": "white"
-      },
-      {
-        "name": "style",
-        "default": "Y2K"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784104930531_hsc3kv_HM3BZmOawAE09-L.jpg",
-        "alt": "Y2K Feminine Lace Outfit",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784104930548_o7q9po_HM3BZmYa8AECq2H.jpg",
-        "alt": "Y2K Feminine Lace Outfit",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "MoodLock｜AI画像の惜しいを直す",
-      "url": "https://x.com/MoodLock_JP"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/MoodLock_JP/status/2075527653730521319"
-    },
-    "publishedAt": "2026-07-10T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28739",
-    "contentHash": "ba115d61df135bb284ce1d216a3a3c7c53896a8c"
-  },
-  {
-    "id": "gpt-image-2:28828",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28828",
-    "title": "Anime Style Character Concept Sheet",
-    "category": "Game Asset",
-    "description": "A prompt for generating a polished anime-style character concept art sheet on a clean white background, ideal for modern fashion and animation character design.",
-    "promptText": "Create a premium, modern high-fashion CHARACTER CONCEPT ART SHEET in a {argument name=\"layout\" default=\"16:9 widescreen layout\"} on a pure white background, following this exact structured composition and visual aesthetic: [STYLE]: {argument name=\"art style\" default=\"highly polished 2D digital anime\"}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "layout",
-        "default": "16:9 widescreen layout"
-      },
-      {
-        "name": "art style",
-        "default": "highly polished 2D digital anime"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784191468438_4aolee_HNTatWpaoAA_VuW.jpg",
-        "alt": "Anime Style Character Concept Sheet",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "PixieVerse",
-      "url": "https://x.com/itsPixieVerse"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/itsPixieVerse/status/2077526636162109842"
-    },
-    "publishedAt": "2026-07-15T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28828",
-    "contentHash": "4440f462fbb8eb59ec863754fc010e1ffd449b91"
   }
 ]

@@ -1,5 +1,204 @@
 [
   {
+    "id": "gpt-image-2:26477",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26477",
+    "title": "Canadian Football Character Board",
+    "category": "Game Asset",
+    "description": "A structured prompt for generating a complete cinematic character reference board with views, expressions, outfit flat-lays, lighting variants, and palette.",
+    "promptText": "Goal: Create a full cinematic character reference board for a fictional professional Canadian football player named {argument name=\"character name\" default=\"Canadian Titan\"}, designed as a production-ready visual consistency sheet for animation or image generation.\n\nCanvas: Wide 16:9 horizontal board, dark charcoal/black textured technical background with thin yellow grid lines, rounded panel borders, subtle grunge speckles, and a bold sports-scouting dossier aesthetic. Use high-contrast yellow typography and white micro-labels. Main title at top left reads “CHARACTER BOARD” in huge condensed block letters.\n\nMain subject: A hyper-realistic, ultra-muscular male football athlete, age 31, 6'2\" / 188 cm, broad shoulders, thick neck, strong jawline, full beard, short blond hair, blue eyes, wearing a {argument name=\"uniform description\" default=\"red Canadian football kit with white number 99, white shorts, red-and-white socks, white cleats with maple leaf details\"}. Show him as disciplined, relentless, confident, focused, and unyielding. Face may be softly anonymized/blurred while keeping the body, uniform, and pose sharp.\n\nLayout and required discrete elements:\n- Left side: one large full-body hero render of the player standing front-facing in the red jersey and white shorts, taking up the left third of the board.\n- Beside the hero render: one vertical profile information card with exactly 10 labeled entries: Name “Canadian Titan”, Age “31”, Height “6'2” (188 cm)”, Build “Ultra-muscular powerhouse”, Hair “Short blond”, Eyes “Blue”, Features “Strong jawline, full beard, broad shoulders, thick neck”, Outfit “Canada football kit, red jersey #99, white shorts, red/white socks, cleats with maple leaf”, Character “Disciplined, relentless, leader, competitor, protector”, Mood “Confident, focused, unyielding”.\n- Panel 01 — Views: exactly 4 full-body turnaround renders labeled Front, 3/4 Left, Side Left, Back; all show the same player and uniform, with the back view clearly showing number 99.\n- Panel 02 — Expressions: exactly 5 bust portraits labeled Neutral, Smile, Thoughtful, Focused, Serious; all cropped across the chest with the same red jersey and maple leaf emblem.\n- Panel 03 — Outfit Detail: exactly 1 close-up crop of the red jersey fabric showing the white maple leaf chest emblem, Nike-style swoosh, and part of the large white number.\n- Panel 04 — Outfit Flat-Lays: exactly 5 item cards labeled Jersey (Front), Shorts (Front), Socks, Cleats, Crest Detail; show the red #99 jersey, white shorts, red/white striped socks, white cleats with red maple leaf accents, and a close-up maple leaf crest patch.\n- Panel 05 — Lighting / Mood: exactly 4 bust lighting variants labeled Soft Daylight, Warm Tungsten Interior, Cool Blue Night, Hard Cinematic Side-Light.\n- Panel 06 — Color Palette: exactly 6 rectangular swatches labeled #B31117, #BA0E14, #EDEDEF, #C9CED6, #D7B49E, #9E7B67.\n\nText and styling: Use crisp legible English labels. Bottom left note reads: “Use this character board as a visual reference for consistent depiction of the character across all generations.” Bottom right footer reads: “STYLE · Modern · Realistic · Cinematic”. Maintain a polished realistic sports photography look with cinematic lighting, sharp uniform texture, realistic anatomy, and clean organized panel spacing. Do not add extra panels, extra players, extra numbers, logos beyond generic sports marks, or unrelated props.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "Canadian Titan"
+      },
+      {
+        "name": "uniform description",
+        "default": "red Canadian football kit with white number 99, white shorts, red-and-white socks, white cleats with maple leaf details"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782121971398_jpsqf7_HLWVsVdbAAApUmX.jpg",
+        "alt": "Canadian Football Character Board",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Oogie",
+      "url": "https://x.com/oggii_0"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/oggii_0/status/2068724468089082203#reversed-0"
+    },
+    "publishedAt": "2026-06-21T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26477",
+    "contentHash": "2bf804073df30be21e3ee9bca0f20ad6ad0b499d"
+  },
+  {
+    "id": "gpt-image-2:26476",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26476",
+    "title": "Football Player Turnaround Sheet",
+    "category": "Game Asset",
+    "description": "Creates a photorealistic four-view character reference sheet for a muscular Canadian-themed football player used for consistent animation or modeling.",
+    "promptText": "Goal: Create a photorealistic 360-degree character turnaround reference sheet for a massive professional football player, designed to keep the same character consistent from every angle.\n\nCanvas: Wide horizontal studio sheet, clean pure white background, high-key lighting, full-body figures aligned on the same baseline with no props or environment.\n\nLayout: Show exactly 4 full-body views of the same character, evenly spaced from left to right: 1) front view, 2) left side profile view, 3) back view, 4) right three-quarter side view. Keep body proportions, outfit details, height, skin tone, hair, and accessories consistent across all 4 views.\n\nSubject details: A hyper-muscular, heavyset male American football player with a very broad chest, huge arms, thick neck, powerful legs, pale skin, short light-brown hair, and a blurred/obscured face for anonymity. He is standing upright with relaxed arms at his sides, imposing athletic posture, and visible cold breath mist near the face.\n\nUniform: The player wears a Canadian-themed red football jersey with white number {argument name=\"jersey number\" default=\"99\"} on the front and back, a white maple leaf emblem centered above the number, small white sleeve stripes, and a small white athletic swoosh logo. Add tight white football pants with red side stripes and small red maple leaf accents, red knee-high socks with two white horizontal stripes, white lower sock panels, and white football cleats splattered with red maple leaf graphics. Use a patriotic red-and-white color palette.\n\nVisual style: Ultra-realistic sports photography, sharp detail, glossy fabric texture, sweat/frosty skin texture, realistic muscle anatomy, studio product-reference lighting, crisp cutout edges, no illustration or cartoon style.\n\nCustomizable details: Character should be a {argument name=\"player archetype\" default=\"massive Canadian football lineman\"}; uniform country theme is {argument name=\"country theme\" default=\"Canada\"}; primary uniform color is {argument name=\"primary uniform color\" default=\"red\"}; secondary uniform color is {argument name=\"secondary uniform color\" default=\"white\"}.\n\nConstraints: Exactly 4 views only; do not add helmets, footballs, text labels, borders, shadows that obscure the feet, extra players, background scenery, or logos beyond simple generic athletic marks and maple leaf symbols. Maintain identical outfit details and physique in every view.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "jersey number",
+        "default": "99"
+      },
+      {
+        "name": "player archetype",
+        "default": "massive Canadian football lineman"
+      },
+      {
+        "name": "country theme",
+        "default": "Canada"
+      },
+      {
+        "name": "primary uniform color",
+        "default": "red"
+      },
+      {
+        "name": "secondary uniform color",
+        "default": "white"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782121970979_i78nmj_HLWV7Wwb0AAwi76.jpg",
+        "alt": "Football Player Turnaround Sheet",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Oogie",
+      "url": "https://x.com/oggii_0"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/oggii_0/status/2068724463399756216#reversed-0"
+    },
+    "publishedAt": "2026-06-21T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26476",
+    "contentHash": "4f6b512820e882cc0def30d068032d6cc5b171b9"
+  },
+  {
+    "id": "gpt-image-2:26387",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26387",
+    "title": "Blonde Yukata Girl Holding Ramune",
+    "category": "Profile / Avatar",
+    "description": "A vertical anime illustration prompt for creating a summer yukata character scene with a censored face and a sparkling ramune bottle.",
+    "promptText": "Create a vertical 9:16 anime-style illustration of {argument name=\"character name\" default=\"Hikari\"}, a cheerful young woman in a summer yukata, shown from the waist up in a close perspective on a sunny old-fashioned brick-and-cobblestone street. She has short fluffy {argument name=\"hair color\" default=\"golden blonde\"} bobbed hair with a single long ahoge strand curving upward, soft layered strands, and bright backlit highlights. Place a large flat peach-beige square censor block centered over the entire face, covering the eyes, nose, mouth, and most facial features while leaving the hair, neck, hands, and outfit visible. She wears exactly 2 visible clothing pieces: a pale mint-green yukata with large white flower blossoms and green leaves, and a cream-colored obi sash at the waist. Pose her leaning slightly toward the viewer; her left hand lightly grips the front collar of the yukata near her chest, and her right hand holds exactly 1 transparent blue glass ramune-style soda bottle with a blue cap, visible water, bubbles, condensation, and sparkling highlights. The background is a picturesque European-Japanese festival-like alley with brick buildings, dark wooden window frames, climbing greenery, potted flowers, a wall lantern, rooflines receding into the distance, and a bright blue sky with soft white clouds. Use polished modern anime rendering, crisp linework, soft skin shading, luminous hair, detailed fabric folds, shallow depth of field, warm summer sunlight, vibrant colors, and a romantic cheerful mood. No text, no watermark, no extra characters, and keep the face fully hidden by the plain square block.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "Hikari"
+      },
+      {
+        "name": "hair color",
+        "default": "golden blonde"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782032881847_qsncxe_HLLMo0SakAA67VT.jpg",
+        "alt": "Blonde Yukata Girl Holding Ramune",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ヒカリちゃん@AIイラスト",
+      "url": "https://x.com/Bluetoothmatsu"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Bluetoothmatsu/status/2068618676354347308#reversed-0"
+    },
+    "publishedAt": "2026-06-21T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26387",
+    "contentHash": "4a5df5bd97b5238fbb7a8ce088742acdb621c02a"
+  },
+  {
+    "id": "gpt-image-2:26343",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26343",
+    "title": "Cozy Apartment Lifestyle Snapshot",
+    "category": "Profile / Avatar",
+    "description": "Generates a realistic iPhone-style snapshot of a woman in a knit sweater sitting in a warm, lived-in bedroom, emphasizing natural lighting and candid mobile photography aesthetics.",
+    "promptText": "A young Japanese woman in her mid-20s, long straight dark brown hair, soft natural makeup, wearing a {argument name=\"clothing\" default=\"baggy knit sweater and loose trousers\"}, sitting relaxed on the edge of a tidy bed in {argument name=\"location\" default=\"her cozy apartment bedroom\"}. Natural smile, hands resting in her lap, a tote bag beside her. The room is warm and lived-in: bookshelves, framed art prints, a study desk with a laptop, stationery, indoor plants and personal touches filling the background. Shot to look like a {argument name=\"photography style\" default=\"spontaneous iPhone snapshot in natural window daylight\"}. Slight lens softness, authentic mobile HDR processing, no cinematic color grading, candid phone photo aesthetic, realistic skin texture, natural proportions, full-body composition, clean background, lifestyle photography, 4K.\nNegative prompt:\nlow resolution, blurry, heavy makeup, studio lighting, cinematic grading, unrealistic skin, anime, cartoon, CGI, watermark, text, extra fingers, distorted anatomy, overprocessed image.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "clothing",
+        "default": "baggy knit sweater and loose trousers"
+      },
+      {
+        "name": "location",
+        "default": "her cozy apartment bedroom"
+      },
+      {
+        "name": "photography style",
+        "default": "spontaneous iPhone snapshot in natural window daylight"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782032863671_i5o65b_HLSFqspaQAEEW7D.jpg",
+        "alt": "Cozy Apartment Lifestyle Snapshot",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782032863668_03jay9_HLSFqsmbEAAeR_n.jpg",
+        "alt": "Cozy Apartment Lifestyle Snapshot",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782032863699_zwl25q_HLSFqspaQAAHWgO.jpg",
+        "alt": "Cozy Apartment Lifestyle Snapshot",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782032864342_hg3yhu_HLSFqsobgAAyfJa.jpg",
+        "alt": "Cozy Apartment Lifestyle Snapshot",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "PromptLab",
+      "url": "https://x.com/iamaiistudio"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/iamaiistudio/status/2068425287818461247"
+    },
+    "publishedAt": "2026-06-20T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26343",
+    "contentHash": "894c78de946fb3d496a77bc87337225e8f32d449"
+  },
+  {
     "id": "gpt-image-2:26378",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6784,212 +6983,5 @@
     "publishedAt": "2026-06-19T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26213",
     "contentHash": "829d80b1c8baa0016ba39766ff69b62fd99dc758"
-  },
-  {
-    "id": "gpt-image-2:26219",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26219",
-    "title": "FIFA World Cup 2026 Hero Poster",
-    "category": "Product Marketing",
-    "description": "An ultra-realistic sports advertising prompt for a 2026 World Cup championship poster featuring a star football player.",
-    "promptText": "Create an ultra-realistic FIFA World Cup 2026 championship poster featuring a {argument name=\"subject\" default=\"young football superstar\"} wearing a {argument name=\"jersey color\" default=\"white\"} national team jersey with {argument name=\"jersey number\" default=\"number 10\"}. A massive cinematic portrait of the player dominates the background, with sharp facial details, stylish windswept hair, and a confident expression. In the foreground, the player walks through a futuristic golden stadium tunnel illuminated by dramatic lights and reflections. Elegant white and gold color palette, luxury sports branding, glowing energy streaks, metallic textures, trophy-inspired design elements, epic World Cup atmosphere, high-end advertising style, inspirational sports hero aesthetic. Include dynamic depth, volumetric lighting, ultra-detailed skin, realistic fabric folds, glossy floor reflections, and award-winning poster composition. Text: “LEGENDS AREN’T BORN. THEY INSPIRE A GENERATION.” 8K resolution, hyper-realistic, cinematic, masterpiece, trending on Behance and ArtStation, premium sports campaign photography.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "young football superstar"
-      },
-      {
-        "name": "jersey color",
-        "default": "white"
-      },
-      {
-        "name": "jersey number",
-        "default": "number 10"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1781945741875_0djj5j_HLJUSE7bQAAEKvJ.jpg",
-        "alt": "FIFA World Cup 2026 Hero Poster",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Muhammad Jamil",
-      "url": "https://x.com/JamilAI55"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/JamilAI55/status/2067807860063695072"
-    },
-    "publishedAt": "2026-06-19T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26219",
-    "contentHash": "7f4febc7ce263ea98669b621bdcbc6c7bf0624b8"
-  },
-  {
-    "id": "gpt-image-2:26245",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26245",
-    "title": "Elegant Saree Gown Portrait",
-    "category": "Product Marketing",
-    "description": "A high-fashion prompt for a full-body portrait of a girl in a luxury rainbow ombre saree gown inside a boutique.",
-    "promptText": "Photorealistic full-body portrait of an elegant girl with {argument name=\"hair color\" default=\"brown\"} hair in a soft updo, glam makeup, wearing a luxury {argument name=\"outfit style\" default=\"rainbow ombre saree gown\"} (peach, yellow, green, blue, purple) with heavy zardozi, sequins, and beadwork. V-neck cap sleeves, mermaid silhouette, embroidered gold border, sheer net dupatta, diamond jewelry, silver clutch. Standing in a {argument name=\"location\" default=\"luxury boutique\"} with marble floors, crystal chandelier, pastel gowns in background, bright luxury fashion photography.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "brown"
-      },
-      {
-        "name": "outfit style",
-        "default": "rainbow ombre saree gown"
-      },
-      {
-        "name": "location",
-        "default": "luxury boutique"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1781945757876_fku3be_HLJTUHAbYAAwoWQ.jpg",
-        "alt": "Elegant Saree Gown Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Avelyrah",
-      "url": "https://x.com/AvelyrahnAI"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AvelyrahnAI/status/2067806787567526182"
-    },
-    "publishedAt": "2026-06-19T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26245",
-    "contentHash": "fee80099152dff306a3e1172677ada9c47189d65"
-  },
-  {
-    "id": "gpt-image-2:26283",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26283",
-    "title": "Chibi Pop Stars on Soccer Base",
-    "category": "Product Marketing",
-    "description": "A cinematic toy-style scene of two big-headed pop-star figurines posing on a soccer-field display base in a sunset stadium.",
-    "promptText": "Create a photorealistic collectible toy scene on a soccer stadium field at sunset: two big-headed chibi vinyl pop-star figurines standing on a single round green soccer-field display base with a red rim and white pitch markings. The left figurine is a female singer with extremely oversized voluminous curly {argument name=\"female hair color\" default=\"golden blonde\"} hair, wearing a sparkly {argument name=\"female outfit color\" default=\"red\"} two-piece stage outfit with crisscross top, fringe skirt, tall glitter boots, and holding one black microphone in her lowered hand. The right figurine is a male singer with slick glossy {argument name=\"male hair color\" default=\"black\"} hair, wearing a sparkling {argument name=\"male jacket color\" default=\"red\"} sequined jacket over a white shirt, black cropped pants, shiny black shoes, and holding one black microphone in his lowered hand. Their raised inner arms meet in a celebratory clasp above the center. Include exactly 2 figurines, exactly 2 handheld microphones, and exactly 1 shared circular soccer-themed base. Place them in the foreground on realistic grass, with a blurred packed stadium crowd, bright stadium floodlights on both sides, and a dramatic orange-purple dusk sky behind them. Use shallow depth of field, glossy plastic toy texture, oversized heads and small bodies, playful high-energy concert personality, cinematic lighting, and a 16:9 horizontal composition. Cover each figurine’s face with a plain opaque rectangular {argument name=\"face censor color\" default=\"warm brown\"} block, with no facial features visible.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "female hair color",
-        "default": "golden blonde"
-      },
-      {
-        "name": "female outfit color",
-        "default": "red"
-      },
-      {
-        "name": "male hair color",
-        "default": "black"
-      },
-      {
-        "name": "male jacket color",
-        "default": "red"
-      },
-      {
-        "name": "face censor color",
-        "default": "warm brown"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1781945786450_jp9owj_HLI7uDMWIAA0P6M.jpg",
-        "alt": "Chibi Pop Stars on Soccer Base",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1781945786355_9191iz_HLI7tzlWoAExEYO.jpg",
-        "alt": "Chibi Pop Stars on Soccer Base",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1781945786351_w0new1_HLI7uQrW0AAI6xI.jpg",
-        "alt": "Chibi Pop Stars on Soccer Base",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1781945787902_x1rg0n_HLI7uLxXcAAx3fZ.jpg",
-        "alt": "Chibi Pop Stars on Soccer Base",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Zephyra Leigh",
-      "url": "https://x.com/ZephyraLeigh"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/ZephyraLeigh/status/2067780848032809202#reversed-0"
-    },
-    "publishedAt": "2026-06-19T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26283",
-    "contentHash": "c0d00653a6052869f8b6a5ce33400182241b8cd9"
-  },
-  {
-    "id": "gpt-image-2:26145",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26145",
-    "title": "Premium Coconut Skincare Product Shot",
-    "category": "E-commerce Main Image",
-    "description": "A high-end product photography prompt for a skincare bottle set in a tropical coconut-themed environment with creamy textures and realistic splashes.",
-    "promptText": "Minimal {argument name=\"bottle color\" default=\"white\"} bottle with {argument name=\"pump style\" default=\"golden pump\"} surrounded by {argument name=\"environment\" default=\"cracked coconuts\"}, coconut milk splash and foam clouds, tropical luxury spa atmosphere, creamy textures, realistic bubbles floating in background, premium skincare commercial, soft warm lighting, ultra detailed 8K.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "bottle color",
-        "default": "white"
-      },
-      {
-        "name": "pump style",
-        "default": "golden pump"
-      },
-      {
-        "name": "environment",
-        "default": "cracked coconuts"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1781861758599_8n8q40_HLEKpeEakAAgSwz.jpg",
-        "alt": "Premium Coconut Skincare Product Shot",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "𝐌",
-      "url": "https://x.com/Strength04_X"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Strength04_X/status/2067445760325734734"
-    },
-    "publishedAt": "2026-06-18T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26145",
-    "contentHash": "6df125779660d690848475f93b5c00eb286a5da6"
   }
 ]
