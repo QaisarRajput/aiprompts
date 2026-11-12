@@ -1,5 +1,344 @@
 [
   {
+    "id": "gpt-image-2:26285",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26285",
+    "title": "Sunflower Botanical Couture Poster",
+    "category": "Product Marketing",
+    "description": "A vertical high-fashion rooftop flower-shop poster featuring a model in an ornate sunflower couture dress with vintage botanical typography.",
+    "promptText": "Goal: Create a glamorous vertical fashion-poster photograph for a fictional botanical couture collection, featuring a young adult woman modeling an extravagant sunflower dress on a nighttime rooftop flower shop. The mood is editorial, luxurious, slightly surreal, and cinematic, like a high-fashion magazine cover.\n\nCanvas: Tall vertical 9:16 poster, full-bleed image, warm flash photography against a dark rainy/cloudy city night. Use shallow depth of field, bokeh high-rise lights, rich contrast, slight film grain, and a handheld fashion-photo feel.\n\nMain subject: A slender female model stands centered in a confident runway pose, body angled slightly, one arm raised behind her head and the other arm lowered holding a brown paper bouquet bag. Her face is intentionally obscured by a plain vertical beige rectangle. She has long dark hair partly hidden behind flowers. Skin is softly lit by direct flash. The outfit is an elaborate botanical couture mini-dress made from real and jeweled sunflowers, gold stems, yellow petals, tiny blossoms, beadwork, and transparent floral wiring.\n\nCounted sunflower elements: Show exactly 9 prominent sunflower heads: 2 large sunflowers tucked beside the model’s hair at upper left, 1 very large sunflower covering the center of her chest, 1 large sunflower standing vertically on her right side near the bust, 1 sunflower at her waist center, 2 large sunflower heads forming the skirt front, 1 small sunflower bracelet on her left wrist, and 1 sunflower bouquet head visible in the brown paper bag at lower left. Additional tiny yellow filler flowers and greenery may be scattered through the dress, but do not add extra large sunflower heads.\n\nEnvironment: Set the scene on a rooftop or balcony flower shop at night, with potted plants and flower racks surrounding the model. Include a dark chalkboard sign on the left with handwritten chalk text reading “Sunflower” and faint Japanese price writing underneath. Add small colorful flowers in the lower right, greenery in pots, and blurred urban buildings with illuminated windows in the background.\n\nTypography and poster design: Add ornate antique botanical engraving graphics in cream-gold ink over the bottom third, including mirrored sunflower illustrations, curling vines, leaves, decorative borders, and a vintage label frame. At top left, place small spaced serif uppercase text: “BOTANICAL COUTURE QUEENS”. Across the lower center, place a huge distressed vintage serif title: “SUNFLOWER”. Above it, add italic text: “Helianthus annuus”, and a small caption: “A SYMBOL OF ADORATION, LONGEVITY & RADIANT BEAUTY.” Below the main title, add: “BOTANICAL COUTURE COLLECTION” and “BLOOMING ELEGANCE, NATURALLY TIMELESS.” Near the bottom center inside a small ornate frame, add: “No.108”, then “TOKYO FLORAL ATELIER”, then “JAPAN”.\n\nVisual style: High-fashion editorial photography mixed with luxury botanical poster design, realistic flowers, gold and yellow palette, black night background, cream-gold typography, ornate Victorian botanical engraving overlays, dramatic flash highlights, elegant adult color grading.\n\nParameters: Make the collection title {argument name=\"collection title\" default=\"SUNFLOWER\"}, the botanical name {argument name=\"botanical name\" default=\"Helianthus annuus\"}, the top-left brand text {argument name=\"brand text\" default=\"BOTANICAL COUTURE QUEENS\"}, the shop location {argument name=\"atelier location\" default=\"TOKYO FLORAL ATELIER JAPAN\"}, and the featured flower {argument name=\"featured flower\" default=\"sunflower\"}.\n\nConstraints: Keep the model’s face covered by a simple beige rectangle; keep the text legible and in English except the faint Japanese-style chalk price marks; do not add logos, watermarks, extra people, or extra large sunflower heads.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "collection title",
+        "default": "SUNFLOWER"
+      },
+      {
+        "name": "botanical name",
+        "default": "Helianthus annuus"
+      },
+      {
+        "name": "brand text",
+        "default": "BOTANICAL COUTURE QUEENS"
+      },
+      {
+        "name": "atelier location",
+        "default": "TOKYO FLORAL ATELIER JAPAN"
+      },
+      {
+        "name": "featured flower",
+        "default": "sunflower"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781945789779_xgf5u6_HLMN6KxacAEYLH1.jpg",
+        "alt": "Sunflower Botanical Couture Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "AI Girl's Photo Studio",
+      "url": "https://x.com/AI_GIRL_DESIGN"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AI_GIRL_DESIGN/status/2068091455977996674#reversed-0"
+    },
+    "publishedAt": "2026-06-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26285",
+    "contentHash": "3b0c73ec90c489dcdebbf986be34bbb906dd052a"
+  },
+  {
+    "id": "gpt-image-2:26222",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26222",
+    "title": "Mixed-Media Product Poster",
+    "category": "Product Marketing",
+    "description": "A creative brand campaign poster prompt combining real product photography with playful black marker doodle illustrations and characters.",
+    "promptText": "Innovative mixed-media brand campaign poster, vertical format, premium minimalist studio setup on a bright off-white background. A real photographed {argument name=\"product\" default=\"[BRAND PRODUCT]\"} serves as the centerpiece while playful hand-drawn black marker illustrations extend beyond it, merging the physical and illustrated worlds seamlessly. A quirky doodle character is {argument name=\"character action\" default=\"[SCENE]\"}, using, climbing, carrying, or creatively interacting with the product in an unexpected way. The sketch style is energetic, imperfect, and expressive, featuring handwritten details, arrows, tiny props, motion lines, and humorous visual storytelling. Elegant bold typography at the top displays the {argument name=\"brand name\" default=\"[BRAND]\"} tagline, while the authentic full-color [BRAND] logo sits neatly at the bottom. Crisp studio shadows, photorealistic product textures, strong contrast between real and illustrated elements, modern advertising composition, viral social media campaign aesthetic, imaginative art direction, polished creative agency quality, highly scroll-stopping.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "product",
+        "default": "[BRAND PRODUCT]"
+      },
+      {
+        "name": "character action",
+        "default": "[SCENE]"
+      },
+      {
+        "name": "brand name",
+        "default": "[BRAND]"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781945742895_k7f5zx_HLMOovhacAIBf2K.jpg",
+        "alt": "Mixed-Media Product Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1781945743026_tf92ds_HLMOozeacAIFeM6.jpg",
+        "alt": "Mixed-Media Product Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1781945742883_rgqn7j_HLMOo3TaEAAIxWO.jpg",
+        "alt": "Mixed-Media Product Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1781945743587_8mnvdj_HLMOo7OacAIky_D.jpg",
+        "alt": "Mixed-Media Product Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Johnn",
+      "url": "https://x.com/john_my07"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/john_my07/status/2068012753361813692"
+    },
+    "publishedAt": "2026-06-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26222",
+    "contentHash": "7227015d2d71650f31e9f927a43b4991c4c5914c"
+  },
+  {
+    "id": "gpt-image-2:26223",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26223",
+    "title": "Automotive Magazine Cover Portrait",
+    "category": "Product Marketing",
+    "description": "A magazine cover prompt designed for GPT Image 2 that preserves the identity of a reference subject while placing them in a luxury automotive setting.",
+    "promptText": "Use the reference image as the only source for the girl’s identity. Preserve 100% facial identity, resemblance, face shape, skin tone, eye shape, nose, lips, age, proportions, and all recognizable features exactly. Do not alter her face or make her appear as a different person.\n\nCreate an ultra-realistic automotive lifestyle magazine cover featuring the same girl from the reference image, posing confidently beside a glossy matte-black luxury sports coupe. She is leaning casually against the hood of the car with one hand resting on its sculpted body panel while looking directly at the camera with a confident editorial expression.\n\nShe wears a sleek black leather trench coat tailored to her figure. Her long straight hair is gently blown by the wind. Makeup is glamorous yet refined, featuring defined eyes, softly contoured skin, and deep berry lipstick.\n\nScene: a moody underground parking garage with dramatic overhead spotlighting, subtle neon accent lights, and a wet reflective concrete floor that mirrors both the car and her silhouette.\n\nDesign it as a premium automotive magazine cover with “ROAD & TRACK” as a bold modern sans-serif masthead at the top, accompanied by realistic automotive spec callouts and editorial cover text.\n\nUltra-detailed matte-black luxury sports coupe with realistic metallic sheen, accurate body proportions, premium paint reflections, cinematic atmosphere, luxury editorial styling, 35mm lens photography, shallow depth of field, high dynamic range, automotive photography, photorealistic, 8K quality, magazine cover composition.\n\nNegative prompt: cartoon, anime, illustration, blurry, low quality, fake car proportions, extra fingers, deformed hands, distorted reflections, duplicate person, altered face, different identity, watermark, text artifacts, oversaturated skin, CGI look.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781945743795_ns8emu_HLLpALXbQAAhPyO.jpg",
+        "alt": "Automotive Magazine Cover Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Meem",
+      "url": "https://x.com/mehvishs25"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/mehvishs25/status/2067971380109537778"
+    },
+    "publishedAt": "2026-06-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26223",
+    "contentHash": "9ab4f4ea02923d8238be280d73f2c2ff057da562"
+  },
+  {
+    "id": "gpt-image-2:26236",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26236",
+    "title": "Food Dish Advertisement Poster",
+    "category": "Product Marketing",
+    "description": "Convert a simple snapshot of food into a professional promotional poster using natural language instructions.",
+    "promptText": "Create a promotional poster for this {argument name=\"category\" default=\"dish\"} using this {argument name=\"image\" default=\"image\"}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "category",
+        "default": "dish"
+      },
+      {
+        "name": "image",
+        "default": "image"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781945749727_2euqiz_HLLb3Dda8AAtXC2.jpg",
+        "alt": "Food Dish Advertisement Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Adam也叫吉米",
+      "url": "https://x.com/Adam38363368936"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Adam38363368936/status/2067958682344988723"
+    },
+    "publishedAt": "2026-06-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26236",
+    "contentHash": "e3c88b2b35373fbd0ba07fba3daa032c04e5b8c6"
+  },
+  {
+    "id": "gpt-image-2:26229",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26229",
+    "title": "Realistic Restaurant Employee Lifestyle Photo",
+    "category": "Product Marketing",
+    "description": "A highly detailed lifestyle prompt for GPT Image 2 capturing a young restaurant worker in a modern café with vibrant colors and natural movement.",
+    "promptText": "Ultra-realistic cinematic lifestyle photograph of a {argument name=\"subject\" default=\"beautiful young woman working as a restaurant employee\"} in a {argument name=\"setting\" default=\"trendy modern café\"}. Captured from a dynamic side angle behind the counter while reaching forward to serve a customer, natural working moment, focused expression, elegant messy bun hairstyle, white oversized shirt with rolled sleeves, beige apron, minimal makeup, natural skin texture. Bright and airy restaurant interior with shock colors and vibrant accents, colorful flowers, neon menu boards, pastel furniture, warm sunlight pouring through large windows, energetic yet premium atmosphere. Customers chatting in the background, coffee machines, pastries, glassware, and restaurant details visible. Shot on {argument name=\"camera\" default=\"iPhone 16 Pro\"}, shallow depth of field, cinematic lighting, realistic candid photography, Vogue-style lifestyle editorial, authentic employee-at-work moment, vibrant color grading, highly detailed, aesthetic Instagram photography, 9:16 vertical composition, no AI look, no posing, natural documentary realism.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "beautiful young woman working as a restaurant employee"
+      },
+      {
+        "name": "setting",
+        "default": "trendy modern café"
+      },
+      {
+        "name": "camera",
+        "default": "iPhone 16 Pro"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781945746526_u0iu9k_HLKtUBsWIAA9e3k.jpg",
+        "alt": "Realistic Restaurant Employee Lifestyle Photo",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1781945746510_ooaqbz_HLKtULRXsAACVKM.jpg",
+        "alt": "Realistic Restaurant Employee Lifestyle Photo",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Saad AI",
+      "url": "https://x.com/AiwithSaad"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AiwithSaad/status/2067905743827656926"
+    },
+    "publishedAt": "2026-06-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26229",
+    "contentHash": "59a83780ba8b41d39846e3bca6e91d9c7dde0e3f"
+  },
+  {
+    "id": "gpt-image-2:26224",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26224",
+    "title": "Italian-Japanese Fusion Restaurant Poster",
+    "category": "Product Marketing",
+    "description": "A specialized prompt for designing high-end restaurant posters that combine Italian culinary themes with Japanese minimalist layout aesthetics.",
+    "promptText": "A minimalistic advertising poster about food in a modern Italian style with Japanese layout aesthetics, preserving the exact compositional structure: two large rounded vertical geometric color blocks arranged diagonally along the composition, food photography with a view from above. The upper left block is a hero dish: {argument name=\"first dish\" default=\"fresh tagliatelle pasta with truffle cream and parmesan cheese on a light ceramic plate\"}, with thin slices of black truffle, olive oil and microgreens, premium restaurant service. The lower right block is the second hero dish: {argument name=\"second dish\" default=\"slow—stewed ossobuco with saffron risotto on a matte dark plate\"}, with rich sauce, gremolata and fresh herbs, modern author's Italian cuisine. Floating side dishes and appliances are neatly arranged around each dish: vintage cutlery, linen napkins, sprigs of rosemary and thyme, cherry tomatoes, slices of parmesan, miniature saucepans with olive oil, fresh handmade focaccia, olives and spices. Large typography in modern Italian style is aligned to the upper right, the text is entirely in English : the name of the restaurant, the names of the dishes and the prices. Small text with prices is placed next to each dish. Airy editorial is a negative space system, a soft pastel commercial palette with shades of cream, terracotta, olive, sage and graphite. Clear asymmetrical visual hierarchy, premium restaurant branding aesthetics, cinematic soft shadows, modern menu presentation in poster format. The subtle signature in the footer is naturally integrated into the bottom of the composition. Pure vertical composition, ultra detailed, premium branding, realistic food styling, soft cinematic dim green lighting, Italian cuisine editorial poster design, minimalism.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "first dish",
+        "default": "fresh tagliatelle pasta with truffle cream and parmesan cheese on a light ceramic plate"
+      },
+      {
+        "name": "second dish",
+        "default": "slow—stewed ossobuco with saffron risotto on a matte dark plate"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781945743889_jhk45t_HLJtNgmbYAALAR0.jpg",
+        "alt": "Italian-Japanese Fusion Restaurant Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1781945744127_m6h3cz_HLJtNhAa8AA2jZO.jpg",
+        "alt": "Italian-Japanese Fusion Restaurant Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1781945743945_8pfq7c_HLJtNgXbwAA_6mL.jpg",
+        "alt": "Italian-Japanese Fusion Restaurant Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Al-Shamus",
+      "url": "https://x.com/im_shahid7"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/im_shahid7/status/2067835275695534326"
+    },
+    "publishedAt": "2026-06-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26224",
+    "contentHash": "b3128af3715b32f0863fa0e8a8e324526b04b797"
+  },
+  {
+    "id": "gpt-image-2:26213",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26213",
+    "title": "Pixar Style Chibi Figurine Creator",
+    "category": "Product Marketing",
+    "description": "Generates a premium studio campaign portrait of a real person standing next to a collectible 3D chibi figurine of themselves.",
+    "promptText": "Create a premium studio campaign portrait featuring the uploaded person standing beside a collectible {argument name=\"figurine style\" default=\"Pixar-style chibi figurine\"} version of themselves.\n\nFORMAT LOCK\nVertical 4:5 composition. Full-body view. Both subjects fully visible from head to toe. Premium magazine-cover quality. Clean centered studio composition.\n\nIDENTITY LOCK\nUse the uploaded image as the only identity reference. Preserve exact facial structure, facial proportions, hairstyle, hair color, skin tone, expression, body proportions, clothing, accessories, jewelry, watch, shoes, and recognizable identity traits. The real person and the figurine must clearly represent the same individual.\n\nSTUDIO ENVIRONMENT\nMedium {argument name=\"backdrop color\" default=\"neutral grey\"} seamless backdrop with a subtle radial gradient, slightly brighter behind the subjects and darker toward the edges. Professional photography studio setup. Clean floor. No props. No distractions.\n\nLIGHTING\n{argument name=\"lighting style\" default=\"Large softbox key light\"} from upper-left. Gentle warm fill light from the right. Subtle rim light from behind. Soft premium studio shadows. Natural skin rendering. Both subjects must share identical lighting direction and shadow behavior.\n\nREAL PERSON\nStanding on the right side of the frame. Full height visible. Three-quarter stance toward camera. Relaxed confident pose. Weight on the back leg. Direct eye contact with the camera. Exact outfit and appearance from the reference image.\n\nCHIBI FIGURINE\nStanding on the left side, slightly in front of the real person.\nHeight reaches approximately the real person's chest level (about 60% of their height).\nBalanced Pixar-style proportions. Head approximately 30% of total figure height. Body approximately 70% of total figure height. Full visible torso, arms, legs, and feet. Not a bobblehead. Not a Funko Pop. Not oversized head proportions.\nFacial design should be a highly recognizable Pixar-style interpretation of the real person. Large expressive eyes with detailed irises and bright catchlights. Sculpted hairstyle matching the reference. Soft rounded cheeks. Warm friendly smile. Premium collectible figure quality.\n\nWARDROBE MATCH\nThe figurine wears the exact same outfit, shoes, accessories, jewelry, watch, colors, patterns, and styling as the real person, adapted naturally to chibi proportions.\n\nINTERACTION\nThe real person's right arm rests naturally on top of the figurine's head. Palm touching the hair. Relaxed elbow position. Comfortable natural interaction. Both subjects appear photographed together in the same studio at the same moment.\n\nOUTPUT STYLE\nPremium studio campaign photography. Photoreal human subject. High-end Pixar/Disney-style collectible figurine. Luxury advertising aesthetic. Realistic shadows. Seamless integration. Ultra-detailed materials. 8K quality. Fine film grain.\n\nNEGATIVE PROMPT\nAvoid bobblehead proportions. Avoid Funko Pop style. Avoid giant floating head. Avoid childlike",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "figurine style",
+        "default": "Pixar-style chibi figurine"
+      },
+      {
+        "name": "backdrop color",
+        "default": "neutral grey"
+      },
+      {
+        "name": "lighting style",
+        "default": "Large softbox key light"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1781945738783_7dzbgk_HLJadUCWUAAixiV.jpg",
+        "alt": "Pixar Style Chibi Figurine Creator",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "H A J R A",
+      "url": "https://x.com/codewithhajra"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/codewithhajra/status/2067814643372786104"
+    },
+    "publishedAt": "2026-06-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26213",
+    "contentHash": "829d80b1c8baa0016ba39766ff69b62fd99dc758"
+  },
+  {
     "id": "gpt-image-2:26219",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
