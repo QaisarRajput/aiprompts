@@ -1,5 +1,175 @@
 [
   {
+    "id": "gpt-image-2:35412",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "35412",
+    "title": "Identity Replacement Template for Photorealistic Portraits",
+    "category": "Profile / Avatar",
+    "description": "A structured JSON prompt designed to replace a person's face in a reference photo while preserving all other elements like pose, clothing, and background. Ideal for identity swaps in generated portraits.",
+    "promptText": "{\n  \"prompt_type\": \"reference_template_identity_replacement\",\n\n  \"CORE_RULE\": \"Use the supplied image as a locked photographic template. Preserve the photograph as closely as possible, but replace the woman's facial identity with a completely different fictional adult woman.\",\n\n  \"PRESERVE\": [\n    \"exact pose and body position\",\n    \"head angle and gaze direction\",\n    \"camera angle, height, perspective and framing\",\n    \"subject scale and crop\",\n    \"background and environment\",\n    \"lighting and shadows\",\n    \"hairstyle, hair length and placement\",\n    \"ALL clothing exactly as shown in the reference\",\n    \"ALL accessories and jewelry exactly as shown in the reference\",\n    \"glasses, if present\",\n    \"clothing colors, materials, patterns, fit and silhouette\",\n    \"jewelry type, placement and appearance\",\n    \"overall smartphone photography aesthetic\"\n  ],\n\n  \"IDENTITY_CHANGE\": {\n    \"instruction\": \"Create a completely different fictional adult woman. Do not preserve the reference woman's recognizable identity or facial structure.\",\n    \"change\": [\n      \"face shape\",\n      \"eyes and eye spacing\",\n      \"eyebrows\",\n      \"nose\",\n      \"cheekbones\",\n      \"jawline\",\n      \"chin\",\n      \"lips\",\n      \"overall facial proportions\"\n    ],\n    \"rule\": \"The new woman must clearly look like a different person while keeping the same photograph composition.\"\n  },\n\n  \"CLOTHING_AND_ACCESSORIES\": {\n    \"instruction\": \"Do not invent, redesign or recolor the wardrobe. Automatically copy the clothing and accessories visible in the supplied reference image.\",\n    \"preserve\": [\n      \"top or shirt\",\n      \"bottoms\",\n      \"dress or outerwear if present\",\n      \"shoes if visible\",\n      \"glasses if present\",\n      \"necklaces\",\n      \"earrings\",\n      \"rings\",\n      \"bracelets\",\n      \"watches\",\n      \"all other visible accessories\"\n    ],\n    \"important\": \"Whatever the woman is wearing or carrying in the reference must remain visually consistent in the generated image.\"\n  },\n\n  \"PHOTOGRAPHY\": {\n    \"style\": \"authentic candid smartphone photograph\",\n    \"realism\": \"extreme photorealism\",\n    \"skin\": \"natural pores and realistic imperfections\",\n    \"processing\": \"natural smartphone HDR\",\n    \"retouching\": \"minimal and believable\"\n  },\n\n  \"CLEANUP\": [\n    \"remove text\",\n    \"remove watermarks\",\n    \"remove logos\",\n    \"remove captions\",\n    \"remove UI elements\",\n    \"remove screen borders\",\n    \"remove black strips or borders\"\n  ],\n\n  \"NEGATIVE_PROMPT\": [\n    \"same woman\",\n    \"same face\",\n    \"facial duplicate\",\n    \"recognizable identity\",\n    \"different pose\",\n    \"different camera angle\",\n    \"different framing\",\n    \"different background\",\n    \"different clothing\",\n    \"different accessories\",\n    \"invented jewelry\",\n    \"invented clothing\",\n    \"changed clothing color\",\n    \"missing accessories\",\n    \"missing glasses\",\n    \"CGI\",\n    \"3D render\",\n    \"plastic skin\",\n    \"airbrushed skin\",\n    \"anime\",\n    \"illustration\",\n    \"extr\"",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790322683565_locrt4_HS-2ntBXYAAF3x1.jpg",
+        "alt": "Identity Replacement Template for Photorealistic Portraits",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Visual AI Club",
+      "url": "https://x.com/visualaiclub"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/visualaiclub/status/2103100362517348485"
+    },
+    "publishedAt": "2026-09-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35412",
+    "contentHash": "de2b6e982eb38df82ab87fcbc7be56620b9089de"
+  },
+  {
+    "id": "gpt-image-2:35405",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "35405",
+    "title": "GPT Image 2 Prompt for Glasses Portrait with Blue Ribbon",
+    "category": "Profile / Avatar",
+    "description": "A detailed prompt for generating a close-up photorealistic portrait of a young woman wearing silver glasses and a light blue ribbon top.",
+    "promptText": "Subject:\nSilver glasses and light blue ribbon.\n\nMain Subject:\nIn the center of the frame, a close-up of a young woman leaning forward towards the camera indoors. Key elements include thin silver-rimmed glasses worn low on the nose, a light blue tied camisole top, and her left hand resting against her cheek.\n\nCharacter & Expression:\nA rounded oval face, large dark brown eyes, thin eyebrows, a well-defined nose, and glossy pink lips. Face is frontal, gaze strongly aligned with the camera over the glasses, wearing a modest smile. Dark brown wavy hair falls below the shoulders with thin bangs and strands crossing the face.\n\nClothing & Pose:\nA short camisole top with light blue fine ribs, thin straps, chest frills, and a long string tied in the center. Thin rectangular silver metal glasses are perched near the tip of the nose. Body leans deeply forward from the waist, right forearm braced downwards, fingertips of the left hand touching the cheek under the glasses.\n\nBackground & Light:\nWooden chest on the left background, large green leaves and a pale frame on the right, white rug at the bottom edge, bright window in the rear right. Soft morning sun shines from the upper right window onto hair, shoulders, and chest, heavily blurring the background.\n\nComposition & Camera:\n3:4 vertical composition, close-up frontal camera slightly above chest level capturing a bust shot from head to below the chest. Face and glasses are very large in the upper center, light blue top occupies the lower half. Arms are cropped at the screen edges, sharp focus on both eyes, deep blur on background.\n\nTexture & Style:\nPhotorealistic live-action photo. High-definition natural pores, eyelashes, silver glasses, light blue ribs, and fine hair lines, with morning light in pale blue, wood tones, and warm skin colors.\n\nNegative Prompt:\nOmission of silver glasses and upward gaze; change of light blue ribbon.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790322679070_3jgkhb_HS4-7kBagAATL0n.jpg",
+        "alt": "GPT Image 2 Prompt for Glasses Portrait with Blue Ribbon",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Prompt アトリエ｜AI画像プロンプト",
+      "url": "https://x.com/CyberTotal2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CyberTotal2026/status/2103051563996787155"
+    },
+    "publishedAt": "2026-09-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35405",
+    "contentHash": "b39414461f7103bf0a8cc262342cd9dbce89b296"
+  },
+  {
+    "id": "gpt-image-2:35334",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "35334",
+    "title": "Kitten Heart Portrait Prompt",
+    "category": "Profile / Avatar",
+    "description": "A prompt for generating a photorealistic portrait of a young woman holding a white and gray kitten with blue eyes, making a heart shape with her hands around the cat's face.",
+    "promptText": "Subject:\nKitten and Flower Heart\n\nMain Subject:\nCenter of the screen, young woman holding a white and gray kitten with blue eyes against her chest. Main focus on large heart made with both hands, pastel floral dress, and peach flowers in foreground.\n\nCharacter & Expression:\nSmall oval face, large dark brown eyes, thin eyebrows, well-defined nose, glossy pale pink closed lips. Face turned forward, calm expression with gaze aligned with camera. Bright brown hair below shoulders with thin bangs and strands framing face. Kitten has round blue eyes and gray ears/nose.\n\nClothing & Pose:\nLong-sleeved dress with white base and small floral pattern in light blue, peach, and yellow, sheer fine fabric, white lace trim, and tie at chest. Supporting kitten between chest and bent knee, raising both arms forward, forming a heart shape enclosing cat's face with thumbs and fingertips.\n\nBackground & Light:\nSmall floral wallpaper on right, window with white curtains at top left, blurred peach and white flowers in lower foreground. Soft morning sun from top left window warmly illuminates hair, face, and cat fur, creating shallow bokeh on flowers.\n\nComposition & Camera:\n9:16 vertical composition, front camera at eye level capturing close portrait from head to below cat's chest. Woman's face upper left, kitten lower right, hand heart placed largely in center. Dress cropped at bottom edge, focus on both pairs of eyes, foreground flowers heavily blurred.\n\nTexture & Style:\nPhotorealistic live-action photo. High definition for natural skin, blue cat eyes, soft long fur, floral fabric, fingertips, and foreground flowers, featuring morning light in pale peach, blue, and white.\n\nNegative:\nOmit hand heart or kitten; change blue cat eyes",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790322684504_m2f52z_HS47aL4a8AEA1CK.jpg",
+        "alt": "Kitten Heart Portrait Prompt",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Prompt アトリエ｜AI画像プロンプト",
+      "url": "https://x.com/CyberTotal2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CyberTotal2026/status/2102959708764270785"
+    },
+    "publishedAt": "2026-09-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35334",
+    "contentHash": "d340ce9f0616f3ecdd32d4b9c6517e2c49156241"
+  },
+  {
+    "id": "gpt-image-2:35403",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "35403",
+    "title": "Y2K Sneaker Editorial Photo",
+    "category": "Social Media Post",
+    "description": "Generates a full-body fashion editorial photo of a character tying shoelaces in a studio setting with playful Y2K doodle backgrounds and pastel aesthetics.",
+    "promptText": "Create a high-quality full-body Y2K fashion editorial photograph of the same female character from the reference image.\n\nThe character is sitting on a clean white studio floor in a relaxed, cute pose, leaning slightly forward while tying the bright neon-pink shoelaces of a chunky white sneaker. Her head is tilted slightly downward and she is looking at the shoe with a focused, gentle expression, subtly biting her lower lip in concentration.\n\nCHARACTER:\n- Young woman with short, wavy purple bob hair\n- Soft purple bangs framing the forehead\n- Cute pastel pink and purple hair clips\n- Natural fair skin with visible freckles across the cheeks and nose\n- Soft makeup, subtle eyeliner and natural pink lips\n- Keep the character's facial features, hairstyle, skin tone and overall identity consistent with the reference image\n\nOUTFIT:\n- Oversized white long-sleeved crew-neck sweatshirt\n- Cute colorful pastel Y2K graphic printed on the front\n- Matching white and pastel-pink shorts\n- Sheer white patterned tights with small cute bow motifs\n- Pastel ruffled scrunchie bracelet around the wrist\n- Chunky white sneakers with holographic/iridescent panels\n- Pastel mint-green accents on the sneakers\n- Bright vibrant neon-pink shoelaces\n\nPOSE AND COMPOSITION:\n- Full-body composition\n- Sitting naturally on the floor\n- One leg bent upward and the other positioned comfortably to the side\n- Hands actively tying the pink shoelaces\n- One sneaker prominently visible in the foreground\n- Camera positioned slightly low and front-facing\n- Fashion editorial photography\n- Natural anatomy and realistic hands and fingers\n- Balanced composition with the character as the main focus\n\nBACKGROUND:\nClean bright white studio background with a playful Y2K pop aesthetic.\nSurround the character with colorful decorative elements:\n- Pastel purple, pink, mint and lavender doodles\n- Hearts\n- Stars\n- Sparkles\n- Shoe-print graphics\n- Cute arrows\n- Planet/ring doodles\n- Floating sneaker illustrations\n- Pastel shoeboxes stacked around the scene\n- Cute sneaker-cleaning bottles and brushes\n- Small decorative text bubbles saying “Sneaker Game” and “Lace Up\"",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790322677597_y75uah_HTCEHWzaoAE9R-R.jpg",
+        "alt": "Y2K Sneaker Editorial Photo",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Wareen AI 💟",
+      "url": "https://x.com/Wareenaa"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Wareenaa/status/2103326297758019608"
+    },
+    "publishedAt": "2026-09-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35403",
+    "contentHash": "5a9f9c9bfa2dc68470465246f7e46ac961a6584d"
+  },
+  {
+    "id": "gpt-image-2:35398",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "35398",
+    "title": "GPT Image 2 Editorial Art Book Poster",
+    "category": "Social Media Post",
+    "description": "A complex prompt for generating a high-end art-book editorial poster that splits an uploaded photo into a photographic top half and a minimalist illustration bottom half.",
+    "promptText": "Create a high-end independent art-book editorial poster using the uploaded photo as the EXACT visual reference.\n\nSTRICT FORMAT:\n- Vertical 3:4 canvas\n- Divide the composition horizontally into two equal 50/50 sections\n- Top half = original photograph\n- Bottom half = minimalist handmade-paper illustration\n\nTOP HALF — PHOTOGRAPH:\nPreserve the uploaded photograph faithfully and naturally.\nKeep the exact subject identity, facial features, pose, clothing, hairstyle, body position, objects, environment, composition, perspective, lighting and recognizable details.\nDo not redesign or replace the subject.\nDo not change the scene.\nApply only subtle premium editorial color grading with soft natural contrast, refined tones and realistic photographic texture.\nThe photograph should remain photographic and occupy exactly the entire top 50%.\n\nBOTTOM HALF — MINIMALIST ILLUSTRATION:\nReinterpret only the most recognizable elements from the original photo as a small centered handmade paper illustration.\n\nThe illustration must:\n- occupy only around 10–20% of the bottom section\n- remain clearly recognizable from the original photo\n- use delicate imperfect hand-drawn lines\n- use bold flat acrylic-like color shapes\n- have subtle handmade paper grain\n- have slightly organic imperfect edges\n- feel handcrafted rather than digitally perfect\n- use no more than 4 colors extracted from the original photograph\n- maintain generous warm off-white negative space around the illustration\n\nKeep the illustration small and understated.\nDo not let it dominate the bottom half.\n\nEDITORIAL DESIGN:\nCreate a quiet, poetic, refined independent art-book aesthetic.\nUse a warm off-white paper background in the bottom half.\nOptional: add extremely minimal editorial typography beneath the illustration using small elegant uppercase serif lettering with generous letter spacing.\nTypography must be subtle and secondary.\n\nVISUAL MOOD:\nquiet\npoetic\nminimal\nrefined\nartistic\npremium\nmuseum-catalogue / independent art-book aesthetic\nnatural\ntimeless\n\nSTRICTLY AVOID:\ncartoon style\nanime\nwatercolor\ncolored-pencil rendering\n3D rendering\nglossy effects\nphotorealistic illustration\nbusy composition\nlarge illustration\ncommercial advertising aesthetic\noversaturated colors\nheavy shadows\nexcessive typography\nextra objects\naltered identity\nchanged clothing\nchanged pose\nchanged facial features\n\nThe final image should look like a carefully designed contemporary art-book cover where the original photograph and its tiny handmade interpretation coexist in a restrained 50/50 editorial composition.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790322671680_ijpyug_HS_hFfpboAALBzG.jpg",
+        "alt": "GPT Image 2 Editorial Art Book Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1790322671677_kmypag_HS_hFfibUAAPBst.jpg",
+        "alt": "GPT Image 2 Editorial Art Book Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Laraib Fatima‎",
+      "url": "https://x.com/AiwithLariab"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AiwithLariab/status/2103147178730655753"
+    },
+    "publishedAt": "2026-09-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=35398",
+    "contentHash": "763228c584e59631b933b5c04fd36af9778eda72"
+  },
+  {
     "id": "gpt-image-2:35319",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -5374,195 +5544,5 @@
     "publishedAt": "2026-09-14T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34686",
     "contentHash": "4a86d3adac4fc217e92602a4073dddddb6f8fbfd"
-  },
-  {
-    "id": "gpt-image-2:34688",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "34688",
-    "title": "Elegant Spring Equinox Poster",
-    "category": "Social Media Post",
-    "description": "A minimalist poster design combining a cinematic photo of a woman in Hanfu with a white horse and a serene illustrated section featuring traditional calligraphy and ample negative space.",
-    "promptText": "A vertical diptych composition. The top half is a cinematic photograph of a woman in flowing pale green Hanfu and a bamboo hat, seen from behind, reaching up to touch white cherry blossoms on a branch while standing next to a saddled white horse. Soft sunlight filters through the trees with falling petals. The bottom half features a vast expanse of textured beige paper negative space (liubai). In the lower right quadrant, there is a small, delicate illustration or cutout echoing the scene above: the tiny figure of the woman and horse under a branch. Next to this small vignette is vertical Chinese text reading \"Spring Equinox\" and a poetic couplet about walking with flowers.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789458732423_1pk9ag_HSKD2DwbAAAKWZE.jpg",
-        "alt": "Elegant Spring Equinox Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1789458732591_56k0cn_HSKD4CbbAAArm83.jpg",
-        "alt": "Elegant Spring Equinox Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1789458732598_490tn5_HSKD6QeaoAA7RfG.jpg",
-        "alt": "Elegant Spring Equinox Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1789458733580_8i3sfl_HSKD79dbwAA9uXA.jpg",
-        "alt": "Elegant Spring Equinox Poster",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "小小东",
-      "url": "https://x.com/xiaoxiaodong01"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/xiaoxiaodong01/status/2099385632305090994#reversed-0"
-    },
-    "publishedAt": "2026-09-14T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34688",
-    "contentHash": "b47bc137437e5aa3521e0cd630be9b405828acf8"
-  },
-  {
-    "id": "gpt-image-2:34677",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "34677",
-    "title": "Japanese Urban Scene Illustration Prompt",
-    "category": "Social Media Post",
-    "description": "A prompt for generating a stylized navy and ivory line-art illustration of a dense Japanese city street or railway station, featuring architectural details and pedestrians.",
-    "promptText": "Create a vertical editorial illustration inspired by the reference images, depicting a dense Japanese urban scene in a highly stylized navy-blue and warm ivory monochrome line-art aesthetic.\n\nShow a narrow Japanese city street viewed from an elevated perspective, with tall tightly packed buildings on both sides, layered storefronts, balconies, windows, hanging signs, Japanese typography, utility poles, tangled overhead power cables, street lamps, awnings, railings, bicycles, and small architectural details. The street should lead naturally into the distance, creating strong depth and perspective.\n\nInclude several small pedestrians naturally walking through the scene—people carrying bags, checking phones, crossing the street, and walking in pairs. Keep them simplified but expressive, with clean silhouettes and minimal facial detail.\n\nUse deep indigo/navy ink for all outlines, shadows, signs, cables, windows, and architectural details, contrasted against a warm cream/off-white paper background. Strong graphic shadows and large solid navy areas should create a bold screen-print/poster effect.\n\nFor the second scene, depict a Japanese railway station platform from a slightly elevated side perspective. Show detailed steel roof structures, beams, electrical cables, overhead signage, platform markings, tiled flooring, railway tracks, columns, railings, ticket-area structures, and several commuters waiting or walking while looking at their phones. Preserve the same visual language: precise architectural linework, simplified human figures, deep navy shadows, cream paper, and dense urban detail.\n\nStyle: Japanese urban sketchbook + architectural ink illustration + vintage travel poster + screen printing + manga-inspired environmental linework, intricate hand-drawn details, clean perspective, bold negative space, slightly imperfect ink texture, sophisticated editorial composition, nostalgic analog print feel.\n\nColor palette: only deep navy blue, muted blue-gray, and warm ivory/cream. No bright colors.\n\nComposition: highly detailed, visually dense, balanced foreground/midground/background, strong vanishing points, cinematic framing, crisp linework, subtle paper grain, premium art-book illustration.\n\nAspect ratio: 4:5 vertical.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789458725576_sorca1_HSJv7x7bkAIIlDA.jpg",
-        "alt": "Japanese Urban Scene Illustration Prompt",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1789458725705_tsk7al_HSJv8g4bQAAf8cL.jpg",
-        "alt": "Japanese Urban Scene Illustration Prompt",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Taaruk",
-      "url": "https://x.com/Taaruk_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Taaruk_/status/2099363471326618061"
-    },
-    "publishedAt": "2026-09-14T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34677",
-    "contentHash": "148556cf5070f2ac4ecf925b8fa265f6462a4d25"
-  },
-  {
-    "id": "gpt-image-2:34687",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "34687",
-    "title": "Wastewater Treatment Plant Infographic",
-    "category": "Infographic / Edu Visual",
-    "description": "A detailed industrial-style infographic poster illustrating the workflow and principles of a wastewater treatment plant, featuring process diagrams and bold typography.",
-    "promptText": "Create a horizontal infographic poster explaining the working principles of a wastewater treatment plant. The design style is industrial, modern, and high-contrast, utilizing a color palette of deep red, black, white, and teal/blue for water elements.\n\n**Layout & Text Elements:**\n1.  **Top Left/Center (Headline):** Large, bold, distressed red Chinese characters \"污水处理厂\" (Wastewater Treatment Plant) spanning across the top. Below it, large black bold text \"工作原理\" (Working Principles). Smaller black text underneath: \"从进水、分离、生化反应到净化出水\" (From influent, separation, biochemical reaction to purified effluent).\n2.  **Left Sidebar:** Vertical layout with small text blocks. Top block: \"让每一滴污水重回自然\" (Let every drop of sewage return to nature), \"水的下一站是更洁净的未来\" (Water's next stop is a cleaner future), English text \"CLEANER WATER BRIGHTER TOMORROW\". Bottom block (red background): \"处理改变为了更好的水环境\" (Treatment changes for a better water environment), English text \"CLEAN CYCLE HEALTHY CITIES\".\n3.  **Right Side (Background Image):** A large photographic collage showing an aerial view of circular clarifier tanks filled with blue-green water, connected by pipes and walkways. Overlay text on the right: \"从污水到清水\" (From sewage to clear water), \"连接城市与更健康的生活\" (Connecting cities with healthier lives), \"FOR A CLEANER TOMORROW\", \"水循环 城市运行 与自然共生\" (Water cycle, city operation, symbiosis with nature), \"净化 让城市更有生命力\" (Purification makes cities more vibrant), \"CLEAN WATER STRONGER CITIES\".\n4.  **Bottom Center (Process Diagram):** A schematic cross-section diagram showing the flow of water through different stages. Arrows indicate direction from left to right. Labels above the sections: \"格栅 / 沉砂\" (Screening/Grit Chamber), \"初沉\" (Primary Sedimentation), \"生化反应\" (Biochemical Reaction - depicted with bubbles), \"二沉\" (Secondary Sedimentation). Labels at ends: \"进水\" (Influent) on left, \"出水\" (Effluent) on right.\n5.  **Bottom Right:** Small text block: \"更干净的水 更宜居的城市 更可持续的明天\" (Cleaner water, more livable cities, more sustainable tomorrow), English text \"CLEANER WATER HEALTHIER CITIES A BRIGHTER TOMORROW\".\n6.  **Center Red Box:** A small red square containing white text: \"看不见的工程 支撑看得见的美好生活\" (Invisible engineering supports visible good life), English text \"INFRASTRUCTURE FOR A HEALTHIER TOMORROW\".\n\n**Visual Style Details:**\n*   Use a grainy texture overlay on the entire image to give it a printed paper feel.\n*   The typography should be heavy sans-serif for Chinese characters.\n*   The water in the photos and diagrams should be a distinct teal/cyan color against the grayscale/red/black background.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789458733276_rp96yq_HSMGlTdaoAAEKuS.jpg",
-        "alt": "Wastewater Treatment Plant Infographic",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1789458733214_u53ggv_HSMIL5fbcAA6R70.jpg",
-        "alt": "Wastewater Treatment Plant Infographic",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "小小东",
-      "url": "https://x.com/xiaoxiaodong01"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/xiaoxiaodong01/status/2099530880842879182#reversed-0"
-    },
-    "publishedAt": "2026-09-14T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34687",
-    "contentHash": "cbcdb3891eab4aa340d86ca0987091abe5853527"
-  },
-  {
-    "id": "gpt-image-2:34654",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "34654",
-    "title": "Green Wall Shadow Portrait",
-    "category": "Profile / Avatar",
-    "description": "A detailed prompt for GPT Image 2 featuring a woman in a young grass green dress sitting against a weathered blue-green wall, focusing on light and shadow effects. Includes precise composition and texture instructions.",
-    "promptText": "Subject:\nBlue wall and young grass dress.\n\nMain Subject:\nA vertical photo of an adult woman in a young grass green thin-strap mini dress, sitting with legs folded on the floor next to an old blue-green wall. The person should be centered in the frame.\n\nPerson & Expression:\nLight brown straight hair below shoulders with thin bangs. Slender oval face shape, brown eyes looking left, natural eyebrows, small nose, pale peach lips. Quiet profile leaning back against the wall.\n\nClothing & Pose:\nPale young grass green thin-strap mini dress with gathers and thin tie strings at the chest, faint plant pattern throughout the fabric, small frills at the hem. One leg extended long forward, the other folded inward, right hand on floor, left hand on thigh.\n\nBackground & Light:\nRough blue-green wall with rust-colored spots, gray floor, large potted plant and white curtains in far left. Diagonal light enters from left window, casting sharp leaf shadows on legs and floor. Main background light is soft light from window side.\n\nComposition & Camera:\n3:4 vertical composition, camera is full-body diagonal view from near the floor. Place person in center-right, potted plant in far left, extended leg diagonally to bottom left. Focus on face, young grass fabric, wall texture. Capture person largely, focus on subject, keep background lightly blurred.\n\nTexture & Style:\nPhotorealistic quiet indoor photography. Precisely depict thin fabric and frills, peeling blue-green wall, plants, hard window shadows, natural skin.\n\nNegative:\nDo not omit the spotted blue-green wall and the single leg extended onto the floor.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789388946462_mq9lra_HR1ceysbMAAoGVu.jpg",
-        "alt": "Green Wall Shadow Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2099470719235318149"
-    },
-    "publishedAt": "2026-09-14T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34654",
-    "contentHash": "da9c25590ad88450dbec5138217bd78299a979ea"
-  },
-  {
-    "id": "gpt-image-2:34638",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "34638",
-    "title": "Digital Oil Painting Portrait",
-    "category": "Profile / Avatar",
-    "description": "A prompt for creating a digital oil painting style portrait of a man wearing sunglasses.",
-    "promptText": "A highly detailed digital oil-painting style portrait of a rugged, handsome man use image for face reference with wearing light green oval sunglasses with thin silver frame .Natural smile thoughtful expression, looking directly at the viewer. He is wearing a slightly open white/light-gray collared shirt underneath a dark rugged jacket. Head-and-shoulders composition, centered framing, realistic facial anatomy, expressive eyes, natural skin texture, warm skin tones, dramatic soft lighting, painterly brush strokes, visible textured strokes throughout the face and clothing. Muted cool gray-blue architectural background with soft abstract vertical shapes, shallow depth of field, cinematic atmosphere, sophisticated character-study portrait, realistic yet painterly, high detail, soft edges, subtle highlights, 4K digital artwork.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1789388930768_nc08oa_HSJj6bsbgAAE17P.jpg",
-        "alt": "Digital Oil Painting Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Aijaz",
-      "url": "https://x.com/iamsofiaijaz"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/iamsofiaijaz/status/2099350239698428169"
-    },
-    "publishedAt": "2026-09-14T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34638",
-    "contentHash": "73aee2d432f5348968bda578a8457f4108f12ed5"
   }
 ]

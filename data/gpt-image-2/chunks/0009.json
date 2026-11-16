@@ -1,5 +1,212 @@
 [
   {
+    "id": "gpt-image-2:32536",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32536",
+    "title": "Sunlit Yellow Wall Summer Stroll",
+    "category": "Social Media Post",
+    "description": "A vibrant summer scene prompt featuring a woman walking along a bright yellow wall with leaf shadows.",
+    "promptText": "Subject: White walking against a yellow wall\n\nMain Subject:\nA full-body photograph of a woman in {argument name=\"clothing color\" default=\"white summer clothes\"} taking a step forward while walking along a {argument name=\"wall color\" default=\"vibrant yellow-orange\"} wall in the center of the frame. A small brown shoulder bag and the shadows of the person and leaves falling on the wall serve as accents.\n\nPerson/Expression:\nThe woman faces the upper right of the frame, smiling peacefully while looking into the distance. She has a slightly elongated oval face, narrow eyes with natural eyebrows, a clean nose bridge, and pale pink lips. Her dark brown hair is styled in a casual low bun at the back, with thin bangs and loose strands. Natural glowing skin and light blush.\n\nClothing/Pose:\nA white V-neck top with thin straps, layered with a sheer white long-sleeved shirt worn open with sleeves rolled to the elbows. White drawstring shorts and white low sandals. Her left hand is in her pocket, her right arm swings naturally forward, and she walks with legs crossed. A brown rectangular bag hangs from her left shoulder.\n\nBackground/Light:\nThe background is a solid, rough yellow-orange wall with large leaf shadows spreading from the upper right. Sharp direct sunlight from the upper right casts a clear silhouette of her profile and full body shadow to the left.\n\nComposition/Camera:\n3:4 vertical orientation, full-body shot from eye level down to the toes. The subject is slightly left of center, leaving space on the right for the yellow wall and leaf shadows. Relatively deep focus covering both the person and the background.\n\nTexture/Style:\nA photorealistic image utilizing the contrast of strong summer sunlight and vivid yellow/white. Clearly depicts the texture of the wall and the lightness of the thin fabric.\n\nNegative:\nDo not change the yellow wall color; do not change the walking posture to a static standing pose.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "clothing color",
+        "default": "white summer clothes"
+      },
+      {
+        "name": "wall color",
+        "default": "vibrant yellow-orange"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787645594984_iem0h9_HQZZ5CSbYAAg7_Y.jpg",
+        "alt": "Sunlit Yellow Wall Summer Stroll",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Prompt アトリエ｜AI画像プロンプト",
+      "url": "https://x.com/CyberTotal2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CyberTotal2026/status/2092092102255554964"
+    },
+    "publishedAt": "2026-08-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32536",
+    "contentHash": "3c3a19ddd3dae2f1f5e63eded4bcf60669f47585"
+  },
+  {
+    "id": "gpt-image-2:32529",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32529",
+    "title": "Calligraphic Sports Grid System",
+    "category": "Social Media Post",
+    "description": "A structured, logic-based prompt that translates sports movements into minimalist calligraphic art within a 2x2 grid.",
+    "promptText": "2x2 grid, do this for {argument name=\"subject\" default=\"Olympics sports\"}: 16:9 INPUT ::= {argument name=\"keyword\" default=\"[TOPIC_OR_WORD]\"}    W := derive_word(INPUT)  A := infer_actor_or_symbol(INPUT)  E := infer_defining_action(INPUT)  M := infer_reactive_medium(E, INPUT)    LAYOUT_SOLVER ::    +--------------------------------------------------------------------------------+  |                                                                                |  |       ┌─ glyph capable of holding A                                             |  |       ↓                                                                        |  |    [ GLYPH ]   [ GLYPH ]   [ ACTION_GLYPH ]   [ GLYPH ]   [ GLYPH ]           |  |        A                           │                                             |  |                                    │ motion_vector(E)                           |  |                                    ▼                                             |  |                         **** IMPACT ****                                        |  |                    ╭─────────┼─────────╮                                        |  |                ≈≈≈≈≈≈≈≈≈ reactive baseline ≈≈≈≈≈≈≈≈                           |  |                                                                                |  +--------------------------------------------------------------------------------+    SEMANTIC_ASSIGNMENT ::    BODY_SLOT :=      glyph whose counter/curve/stem best accommodates pose(A)    ACTION_SLOT :=      glyph whose geometry naturally expresses E    GROUND_SLOT :=      bottom typographic zone transformed into M    FUSION ::    A.body_part       -> glyph_stroke  A.gesture         -> terminal_or_curve  ACTION_GLYPH      -> motion_trajectory  M.surface         -> shared_word_baseline  collision         -> ink_burst  energy_propagation-> concentric_marks_or_topic_equivalent    BRUSH_PHYSICS ::    stroke_width(t) ∝ pressure(t)  dryness(t)      ∝ velocity(t)  splatter        ∝ impact_force(E)  ripple_radius   ∝ elapsed_visual_time    RULES ::  - only enough literal detail to understand A and E  - preserve huge white negative space  - reaction marks become compositional support for the entire word  - use asymmetry and sparse brush imperfections  - infer the appropriate reaction if M is not liquid  - never preassign a specific letter, actor, action, or medium",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "Olympics sports"
+      },
+      {
+        "name": "keyword",
+        "default": "[TOPIC_OR_WORD]"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787645585032_9cosub_HQcT6X-WUAAZ4va.jpg",
+        "alt": "Calligraphic Sports Grid System",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Gadgetify",
+      "url": "https://x.com/Gdgtify"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Gdgtify/status/2092070457771991118"
+    },
+    "publishedAt": "2026-08-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32529",
+    "contentHash": "77b815c67e27b898ea7a48109d83aa2a36f5de84"
+  },
+  {
+    "id": "gpt-image-2:32539",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32539",
+    "title": "Morning Light Sandal Adjustment",
+    "category": "Social Media Post",
+    "description": "A prompt describing a serene morning scene of a woman adjusting her sandals by a large window with soft sunlight.",
+    "promptText": "Subject:\n{argument name=\"subject\" default=\"Adjusting sandals by the morning window\"}\n\nMain Figure:\nA woman sitting on a step near a bright large window in the center of the screen, leaning forward to reach for the thin sandal on her right foot. Full body shown wearing a pale beige camisole and white wrap-style shorts.\n\nPerson/Expression:\nThe woman bends her upper body forward, looking down at her feet. A small rounded face with a short jaw, long downcast eyes, thin eyebrows, a thin nose bridge, and calm reddish lips. Dark brown chin-length bob tucked behind the ear on the right side, with light thin bangs along the forehead. Makeup is very light and natural.\n\nClothing/Pose:\nA {argument name=\"clothing color\" default=\"beige-toned\"} ribbed camisole top with thin shoulder straps and a deep round neck, and white wrap-style shorts tied prominently at the right hip. Her right leg is bent and crossed over the left thigh, her right hand reaching down to the ankle strap, and her left arm resting along her knee. She is wearing low-heeled thin strap sandals.\n\nBackground/Lighting:\nThe background features a large window behind white curtains on the left, a bright stone floor, and a large ceramic pot with thin branches in the back right. Morning sun from the left creates soft highlights on the shoulders and legs, casting long window shadows on the floor.\n\nComposition/Camera:\n2:3 vertical orientation, capturing the full sitting body from a slightly higher eye level, focused on the person. The bent right knee is large in the center foreground, the left leg extends long toward the bottom left, and the interior background is calmly blurred.\n\nTexture/Style:\nA natural-light live-action photo balanced with pale ivory and skin tones. Softly and cleanly depicts the thin ridges of the fabric, the stone floor, and the skin.\n\nNegative:\nDo not break the posture of reaching for the right foot; do not make the face look toward the front.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "Adjusting sandals by the morning window"
+      },
+      {
+        "name": "clothing color",
+        "default": "beige-toned"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787645598124_uod5y1_HQZYo58aIAEHsB9.jpg",
+        "alt": "Morning Light Sandal Adjustment",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Prompt アトリエ｜AI画像プロンプト",
+      "url": "https://x.com/CyberTotal2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CyberTotal2026/status/2092057370641957058"
+    },
+    "publishedAt": "2026-08-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32539",
+    "contentHash": "a5372e01bd97b033c32806811cee7528813f86b3"
+  },
+  {
+    "id": "gpt-image-2:32546",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32546",
+    "title": "Tender Expressive Woman Portrait",
+    "category": "Social Media Post",
+    "description": "A short, poetic prompt focusing on the emotional expression of a woman's eyes, conveying shyness, longing, and dependence.",
+    "promptText": "She looks up, her {argument name=\"gaze\" default=\"dark and bright eyes looking at you with deep affection\"}, the corners of her eyes slightly upturned, as if holding a pool of warm water. That gaze is soft and burning, with a hint of shyness, yet it cannot hide the longing and dependence within.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "gaze",
+        "default": "dark and bright eyes looking at you with deep affection"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787645603232_sufdxj_HQgaV-RbkAA-NuU.jpg",
+        "alt": "Tender Expressive Woman Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787645603306_vy55kv_HQga5K5bEAAt9Um.jpg",
+        "alt": "Tender Expressive Woman Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "韦小宝",
+      "url": "https://x.com/nicebabycat"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/nicebabycat/status/2091951896840024451"
+    },
+    "publishedAt": "2026-08-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32546",
+    "contentHash": "977d5c368e6b9f47cfe5bff17baa0c7ed06678f5"
+  },
+  {
+    "id": "gpt-image-2:32566",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32566",
+    "title": "Floating Anime Girl with Teal Spirals",
+    "category": "Social Media Post",
+    "description": "Generates an ethereal full-body anime girl suspended among blue orbital ribbons, berry spheres, and green vine-like droplets for fantasy illustration use.",
+    "promptText": "Create a vertical full-body anime illustration on a clean white background: a delicate teenage girl floating weightlessly in the center, facing forward with a calm, slightly melancholic expression. She has {argument name=\"hair color\" default=\"short wavy black hair with soft blue highlights\"}, large clear blue eyes, pale skin, and a petite build. Dress her in a neat dark navy long-sleeve blouse with a white pointed collar and small front buttons, paired with a translucent layered pale blue tulle skirt that glows softly; add white knee socks and glossy dark navy loafers. Her arms hang slightly outward with relaxed open hands, legs together as if suspended above the ground, with a faint oval shadow far below her feet. Surround her with an elegant abstract spiral composition: multiple thin teal-blue ribbon lines orbit around her body in wide looping arcs from above her head down past her feet, like musical staff lines or flowing orbital paths. Include exactly three main visual element types around her: blue glossy berry-like spheres in varied sizes, fresh pale green vine tendrils with small leaves and droplets, and clusters of tiny teal-blue particles. The largest particle cluster should sit behind her right shoulder and upper torso, with smaller floating spheres distributed around the spiral. Use airy watercolor-and-digital-paint rendering, luminous cyan/teal/blue palette, soft gradients, fine linework, high detail, transparent watery textures, ethereal botanical sci-fi atmosphere, centered composition, no text, no border, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "short wavy black hair with soft blue highlights"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787645622449_z3iztl_HQfC1kYbkAAOE3D.jpg",
+        "alt": "Floating Anime Girl with Teal Spirals",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "春永睦月　Harunaga Mutsuki",
+      "url": "https://x.com/HarunagaMutsuki"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/HarunagaMutsuki/status/2091855052575211656#reversed-0"
+    },
+    "publishedAt": "2026-08-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32566",
+    "contentHash": "d31e054e2c6fb5021ba0a0a29ad5d362a7119fb4"
+  },
+  {
     "id": "gpt-image-2:32542",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6706,233 +6913,5 @@
     "publishedAt": "2026-08-23T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32387",
     "contentHash": "71e1aa6e5bc1ce7b2b86a28373ff2f42a2bf5a90"
-  },
-  {
-    "id": "gpt-image-2:32354",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32354",
-    "title": "Oriental Futurism Female Concept Art",
-    "category": "Game Asset",
-    "description": "A sophisticated concept art prompt for creating surreal 'Oriental Futurism' female characters, featuring intricate details of traditional clothing merged with high-tech elements.",
-    "promptText": "Create a vertical 4:5 surreal female art concept map of '{argument name=\"style\" default=\"Oriental Futurism\"}', with a strong dreamlike quality. The image is high-end, quiet, and mysterious, suitable for {argument name=\"use case\" default=\"early stage visual settings for movies or games\"}.\nIn the center of the image is a {argument name=\"subject\" default=\"young Oriental woman\"} from a future Oriental civilization, shown in a two-thirds portrait. She has a delicate face, deep brown eyes, a classic straight nose, restrained vermilion cherry lips, and porcelain white skin with an inner jade-like glow. Her expression is calm and detached, her gaze passing over the viewer as if receiving messages from a distant era. Her ink-black hair is partially pinned up, while other strands float slowly in a weightless environment; a white jade hairpin hangs unsupported in her hair, which is also a miniature quantum interface surrounded by an ultra-thin cool white halo.\nShe wears a futuristic haute couture gown evolved from the silhouette of Hanfu: retaining layered hems and flowing Oriental curves, with materials transformed into translucent smart silk, pearl ceramic flakes, and flexible liquid metal. One-shoulder design, healthy and plump classical physique, a sculpture-like stretched posture, and soft highlights and shadows showing body volume. Slender glowing circuits grow inside the fabric, arranged in the rhythm of auspicious clouds, landscapes, and ancient star maps, without any readable text. Wide sleeves and belts gradually deconstruct into floating ink particles, silver data streams, and transparent light films, with traditional embroidery appearing to be generated in real-time.\nThe figure stands barefoot on a boundless mirror-like shallow water, which is a sensing liquid display medium; every step spreads precise concentric light patterns. Behind her, a giant pearl moon is a sleeping planetary-level quantum data core, with slowly rotating concentric mechanical structures and translucent energy layers visible inside. Upside-down mountains float in the sky, revealing white floating cities and anti-gravity buildings; vermilion koi fish turn into translucent holographic data life, passing through the air, sleeves, and moon shadows; white lotuses are aggregated by miniature drone swarms, opening and closing silently in the mist.\nBehind the figure floats multiple rings similar to an ancient armillary sphere, combined with a minimalist holographic interface to form an Oriental icon-like technological halo, without any text or numbers.\nThe spatial scale and physical logic are deliberately impossible: two moons appear in the sky at the same time, the reflection is clearer than the solid object, distant buildings fall upward, and ink clouds pass through mechanical structures. The overall atmosphere remains poetic, quiet, and lucidly dreamlike, without a horror vibe. Hair, long sleeves, data streams, and holographic koi form an S-shaped dynamic through the image; the figure is a clear visual anchor, retaining large areas of Oriental white space and deep spatial layers.\nUse soft cinematic volumetric light, misty light beams, cool white holographic glow, pearl diffuse reflection, and delicate rim lighting. The main colors are moon white, jade green, silver gray, and light ink black, with only a small amount of vermilion as the visual focus. The technological feel comes from materials, structure, optics, and spatial design, rather than dense neon lights.\nA fusion of high-precision realistic characters, Oriental fine brushwork lines, ink washes, precise industrial design, and contemporary surreal concept art; edges softly blend into the misty white background, with credible materials and rich but not crowded details.\nFinal effect: Original futuristic Oriental civilization aesthetics, with equal emphasis on dreamlike and technological qualities, elegant, ethereal, unfamiliar but credible, with the temperament of high-end art gallery and movie concept settings. Natural facial and hand structures, clear clothing layers. No text, inscriptions, seals, logos, watermarks, or borders; avoid conventional neon cyberpunk cities, cheap fairy tale posters, mechanical prosthetic stacks, excessive skin smoothing, plastic skin, cluttered interfaces, deformed fingers, repeated limbs, and misplaced features.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "style",
-        "default": "Oriental Futurism"
-      },
-      {
-        "name": "use case",
-        "default": "early stage visual settings for movies or games"
-      },
-      {
-        "name": "subject",
-        "default": "young Oriental woman"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787472381408_ybdfm6_HQVXrQEakAEcUZ1.jpg",
-        "alt": "Oriental Futurism Female Concept Art",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787472379772_th0gqv_HQVXtwbbAAAtqE7.jpg",
-        "alt": "Oriental Futurism Female Concept Art",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Mr Gafish | 鱼哥",
-      "url": "https://x.com/MrGafish"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/MrGafish/status/2091175229183971335"
-    },
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32354",
-    "contentHash": "17fc6ba3e18fc21fd3eba07425dff337375fe5c7"
-  },
-  {
-    "id": "gpt-image-2:32369",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32369",
-    "title": "Game of Thrones Isometric Map Diorama",
-    "category": "Game Asset",
-    "description": "Generates a photorealistic miniature isometric poster map of Westeros and Essos with title typography, suitable for TV-show world diorama concepts.",
-    "promptText": "Goal: Create an ultra-detailed photorealistic isometric miniature scale-model diorama map of the world from {argument name=\"TV show\" default=\"Game of Thrones\"}, floating on a pure warm off-white studio background with a soft drop shadow beneath.\n\nCanvas: Vertical poster composition, 4:5 aspect ratio, centered diorama occupying the lower two-thirds and large title typography in the upper third. Use clean studio lighting, realistic shadows, shallow but readable depth, and a premium collectible tabletop model look.\n\nTitle text: At the top, set small spaced uppercase text reading {argument name=\"world label\" default=\"WESTEROS & ESSOS\"}. Below it, place a huge tall condensed serif/fantasy title reading {argument name=\"main title\" default=\"GAME OF THRONES\"}, dark charcoal with slightly weathered texture; make the O in THRONES resemble the Iron Throne vertical blade motif. Beneath the main title, add small spaced text reading {argument name=\"subtitle\" default=\"HBO | 2011\"}.\n\nMap layout: Build two separate raised landmass miniatures divided by blue sea. On the left is Westeros, tall and narrow, with a snowy northern region at the top, a wall-like icy boundary, rugged green central lands, winding pale roads, mountain ridges, forests, lakes, castle miniatures, and a warmer southern desert region at the bottom. On the right is Essos, wider and more horizontal, with jagged central mountains, dry yellow-orange plains to the east, green-brown western terrain, rivers, roads, fortified cities, pyramids, towers, and ruins. Both continents have thick carved cliff edges like cutaway terrain, rocky brown sides, and tiny coastal islands.\n\nDiscrete elements to include: Use exactly 10 heraldic banner markers placed across the map: 6 on Westeros and 4 on Essos. Westeros banners: one black northern banner in the snowy top region, one yellow-and-blue banner in the upper central region, one red lion banner in the central region, one dark red banner near the central-west castle, one blue banner in the lower central region, and one red lion banner at the southern castle. Essos banners: one dark blue banner in the mountain region, one red banner in the far upper-right city, one green banner at the right-side city, and one blue-gold banner in the lower central city. Add exactly 24 tiny sailing ships and boats scattered in the surrounding seas and between the continents, all miniature scale and varied in size.\n\nVisual style: Hyper-real miniature realism, isometric three-quarter top-down view, highly detailed terrain texture, tiny castles and settlements, crisp roads and rivers, muted fantasy-map colors, blue water, snow white north, ochre desert, mossy greens, rocky grays, and subtle atmospheric shadows. The diorama should feel like a handcrafted museum-quality prop or board-game map, not a flat illustration.\n\nConstraints: No people, no modern objects, no watermark, no UI, no border frame. Keep all text legible and centered. The background must remain plain off-white with ample negative space around the title and floating map.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "TV show",
-        "default": "Game of Thrones"
-      },
-      {
-        "name": "world label",
-        "default": "WESTEROS & ESSOS"
-      },
-      {
-        "name": "main title",
-        "default": "GAME OF THRONES"
-      },
-      {
-        "name": "subtitle",
-        "default": "HBO | 2011"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787472396315_nldbk7_HQUqQ7nXsAAiVZL.jpg",
-        "alt": "Game of Thrones Isometric Map Diorama",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787472396300_p57ght_HQUqQ7oWUAAEN1e.jpg",
-        "alt": "Game of Thrones Isometric Map Diorama",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787472396339_bilmn6_HQUqQ7qX0AARTrz.jpg",
-        "alt": "Game of Thrones Isometric Map Diorama",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787472397283_37m8s4_HQUqQ8jW4AAQX5_.jpg",
-        "alt": "Game of Thrones Isometric Map Diorama",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "TechieSA",
-      "url": "https://x.com/TechieBySA"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/TechieBySA/status/2091167214195847433#reversed-0"
-    },
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32369",
-    "contentHash": "c9458edac2224ba1aa495dc4751cbd357f04da75"
-  },
-  {
-    "id": "gpt-image-2:32286",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32286",
-    "title": "Fantasy Crescent Star Magic Staff",
-    "category": "Game Asset",
-    "description": "Generates an ornate fantasy RPG magic staff asset with gold filigree, purple crystals, and a crescent-star design for game UI or item illustration use.",
-    "promptText": "Create a high-fantasy magical staff game asset isolated on a pure white or transparent background, angled diagonally from lower left to upper right. The staff has a long twisted dark walnut wooden shaft wrapped by thin spiraling polished gold vines. At the top is an ornate gold crescent-moon frame with filigree engravings, leaf-like gold brackets, and a brilliant faceted purple crystal star set inside the crescent, emitting a soft violet glow and bright white sparkle at its center. Include exactly 8 visible purple jewel elements: 1 large five-point star crystal in the crescent, 1 round amethyst gem below the crescent, 1 dangling purple teardrop crystal on a fine gold chain, 4 small oval purple inlays along the shaft, and 1 large round purple orb set into the bottom pommel. Include exactly 6 visible gold star ornaments: 1 star at the top tip of the crescent, 1 small star overlapping the upper left of the large purple star, 1 small star on the right point of the large purple star, 1 small star on the lower right curve of the crescent, 1 tiny star above the dangling crystal, and 1 star clasp on the middle of the shaft. The bottom pommel should be ornate gold with a glowing purple orb. Render in highly detailed polished fantasy RPG item icon style, glossy metallic gold, carved wood grain, gemstone refraction, subtle magical violet aura, crisp edges, centered composition with lots of empty background space, no text, no character, no shadow-heavy scene.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787472403179_icc238_HQT10plaUAAfy4X.jpg",
-        "alt": "Fantasy Crescent Star Magic Staff",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "連",
-      "url": "https://x.com/mikagenomikoto"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/mikagenomikoto/status/2091066421275250798#reversed-0"
-    },
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32286",
-    "contentHash": "ccb4adffe10bdabf7cf54b198fef9fbe37291911"
-  },
-  {
-    "id": "gpt-image-2:32213",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32213",
-    "title": "Tribal Fantasy Warrior with Guardian Owl",
-    "category": "Game Asset",
-    "description": "A dark fantasy portrait prompt featuring a fierce tribal warrior woman and a majestic giant owl, set in a mystical forest with cinematic lighting.",
-    "promptText": "A detailed portrait of a fierce tribal fantasy warrior woman leaning close to a massive, majestic great horned owl, cinematic lighting, dark moody atmosphere. The woman has {argument name=\"hair style\" default=\"long, wavy dark hair\"} adorned with intricate silver chains, beads, and metallic headpieces. She has striking {argument name=\"eye color\" default=\"light green\"} eyes, piercing the camera, with silver and icy-white war paint painted across her cheeks and nose. She wears dark leather armor decorated with silver pendants and turquoise gemstones Beside her the giant owl features sharp {argument name=\"owl eye color\" default=\"glowing orange\"} eyes, patterned white and black feathers and an ornate silver circular medallion studded with a blue crystal resting on its forehead. The background is a shadowy, mystical forest in cool blue and dark gray tones. Highly detailed feathers, hyper-realistic, photorealistic textures, 8k resolution, dramatic dark fantasy aesthetic, masterpiece.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair style",
-        "default": "long, wavy dark hair"
-      },
-      {
-        "name": "eye color",
-        "default": "light green"
-      },
-      {
-        "name": "owl eye color",
-        "default": "glowing orange"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787472354111_8n08qs_HQTSLQQbYAAFRuu.jpg",
-        "alt": "Tribal Fantasy Warrior with Guardian Owl",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "AqibAi",
-      "url": "https://x.com/Aqib__786Ai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Aqib__786Ai/status/2091027228645552456"
-    },
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32213",
-    "contentHash": "bde4f694717593b618b795ab130285c976c7b201"
-  },
-  {
-    "id": "gpt-image-2:32215",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32215",
-    "title": "Clumsy Hand-Drawn Photo Doodle",
-    "category": "Profile / Avatar",
-    "description": "Transforms a reference photo into a cute, amateur-style doodle with shaky lines and colored pencil textures while preserving key identity features.",
-    "promptText": "Using the attached photo as reference, preserve the recognizable identity, hairstyle, expression, pose, clothing, baby animal, and original colors. Redraw it as a cute, clumsy hand-drawn doodle with an oversized crooked head, tiny awkward body, dot eyes, and simple facial features. Use thin, slightly shaky black ballpoint-pen lines and loosely scribbled colored-pencil strokes. Keep it intentionally amateur and adorably awkward, but clean and uncluttered, with a simplified background and plenty of white paper.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787386201606_5yg3ut_HQTxjljbEAAneqt.jpg",
-        "alt": "Clumsy Hand-Drawn Photo Doodle",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Oogie",
-      "url": "https://x.com/oggii_0"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/oggii_0/status/2091061728117428531"
-    },
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32215",
-    "contentHash": "099adc728d210e71f959a7a52ad8e63d9644f5af"
   }
 ]

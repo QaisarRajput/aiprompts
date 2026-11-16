@@ -1,5 +1,243 @@
 [
   {
+    "id": "gpt-image-2:31971",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31971",
+    "title": "AI Image Model Stadium Leaderboard",
+    "category": "Infographic / Edu Visual",
+    "description": "A colorful 3D stadium scene featuring a giant French AI image model ranking scoreboard, useful for social media leaderboard visuals.",
+    "promptText": "Goal: Create a vibrant 16:9 Pixar-like 3D illustration of a packed robot sports stadium showing a giant electronic scoreboard ranking AI image models, as if it is a summer league leaderboard.\n\nCanvas: Wide landscape image, bright sunny afternoon, blue sky with a strong sun flare in the upper left, colorful flags on the stadium rim, football field at the bottom with a yellow goalpost centered under the scoreboard. The scene is crowded with hundreds of small cute toy-like robots in the stands and foreground, all cheering.\n\nMain subject: A huge black stadium scoreboard dominates the center, supported by metal trusses. It has LED dot-matrix styling, glowing cyan and amber text, thin grid lines, rounded table border, and small yellow star icons on both sides of the main header. At the very top of the scoreboard, show two small amber digital panels reading {argument name=\"time\" default=\"15:08\"} and {argument name=\"temperature\" default=\"32°C\"} with a sun icon.\n\nScoreboard text: The main headline must read {argument name=\"headline text\" default=\"CLASSEMENT DES MODÈLES D’IMAGE IA\"}. Under it, create a table with exactly 5 columns labeled RANG, MODÈLE, META-SCORE, PRIX / 1K, EVOLUTION. Include exactly 10 ranked rows, each with a small robot avatar icon next to the model name:\n1. GPT-Image 2 — meta-score 1498 — price $211 — evolution =\n2. Mai Image 2.6 — meta-score 1427 — price ~$50 — evolution NEW in a small blue badge\n3. Reve 2.1 — meta-score 1381 — price $200 — evolution red down arrow 1\n4. Grok Imagine Image 2.0 — meta-score 1369 — price $80 — evolution NEW in a small blue badge\n5. Reve 2.0 — meta-score 1341 — price $24 — evolution red down arrow 2\n6. Muse Image — meta-score 1315 — price (Pas d’API) — evolution red down arrow 2\n7. Nano Banana 2 — meta-score 1314 — price $67 — evolution red down arrow 2\n8. GPT-Image 1.5 — meta-score 1300 — price $133 — evolution red down arrow 2\n9. Seedream 5.0 Pro — meta-score 1287 — price $90 — evolution red down arrow 2\n10. Qwen Image 3.0 Pro — meta-score 1265 — price $75 — evolution NEW in a small blue badge\n\nSurroundings: Add a left stadium sign reading {argument name=\"left banner text\" default=\"AOÛT - SOLEIL & PROMPTS\"} with a small sun drawing. Add a right sign reading CRÉER / INNOVER / IMAGINER. Add cheering props including a foam finger reading GO IA! and a purple flag reading IA TEAM. Foreground robots should be larger and out of focus at the edges, including visible jersey numbers 01 and 32, with one small referee robot standing on the field near the scoreboard.\n\nVisual style: Ultra-detailed colorful 3D animation style, glossy plastic robots, playful futuristic sports atmosphere, shallow depth of field, crisp readable scoreboard typography, warm sunlight, high saturation, cinematic composition.\n\nConstraints: Keep all scoreboard numbers and labels legible and exactly as listed, use French text where specified, no logos, no watermark, no extra table rows.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "time",
+        "default": "15:08"
+      },
+      {
+        "name": "temperature",
+        "default": "32°C"
+      },
+      {
+        "name": "headline text",
+        "default": "CLASSEMENT DES MODÈLES D’IMAGE IA"
+      },
+      {
+        "name": "left banner text",
+        "default": "AOÛT - SOLEIL & PROMPTS"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787213859560_o4z7wr_HQEXtrOXsAAH_mm.jpg",
+        "alt": "AI Image Model Stadium Leaderboard",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Creative Diffusion",
+      "url": "https://x.com/StableTom"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/StableTom/status/2089977967585656947#reversed-0"
+    },
+    "publishedAt": "2026-08-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31971",
+    "contentHash": "c0072022277cedde5e56dc1234efc44e2c24c135"
+  },
+  {
+    "id": "gpt-image-2:31945",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31945",
+    "title": "2D Floor Plan to 3D Home Render",
+    "category": "Infographic / Edu Visual",
+    "description": "Transforms a flat apartment floor plan into a realistic top-down 3D dollhouse interior render for real estate or design visualization.",
+    "promptText": "Using the provided 2D apartment floor plan as the exact layout reference, transform it into a realistic top-down 3D dollhouse-style home visualization. Preserve the same room arrangement, wall positions, door and window openings, and the same eight labeled functional areas: 2 bedrooms, 1 kitchen, 1 living area, 1 bathroom, 2 closets, and 1 wash/dry closet. Convert the flat black-and-white symbols into furnished 3D rooms with light wood flooring, thick dark exterior and interior walls, beige/cream neutral decor, realistic furniture, open wooden doors, visible closets with clothing, a bathtub/shower, toilet and vanity in the bathroom, kitchen cabinets and island seating, sofas and chairs in the living area, and beds/nightstands in both bedrooms. Use an elevated isometric/top-down camera angle so the whole apartment is visible in one image, with clean architectural-render lighting, soft shadows, and a white studio background. Keep any floor-plan text minimal; only retain the wash/dry label as visible text if needed. Overall style: photorealistic interior design render, neat, modern, warm, and uncluttered.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787213829706_sq7a85_HQEQ4QpaYAA-eTz.jpg",
+        "alt": "2D Floor Plan to 3D Home Render",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "AIAI.COM",
+      "url": "https://x.com/Aiaicom09"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Aiaicom09/status/2089970496330993903#reversed-1"
+    },
+    "publishedAt": "2026-08-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31945",
+    "contentHash": "426737998fe0dc18f808196134f77d353bcdfc9f"
+  },
+  {
+    "id": "gpt-image-2:31916",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31916",
+    "title": "Tension Line Art Concept Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "A conceptual prompt that turns photos into minimalist line art posters featuring symbolic 'thorn-like' lines that evoke themes of tension and public discourse.",
+    "promptText": "Create individual 3:4 split-screen posters from uploaded photos. The top half is the original photo with editorial grading. The bottom half is a minimalist conceptual line illustration representing public issues. It uses continuous black hand-drawn lines like tight wires, thorns, or bindings that coil and tighten to reveal the subject's silhouette. The layout emphasizes large white space with a quiet but tense atmosphere. Text is minimal and integrated into the lines, inspired by modernist conceptual posters and experimental editorial design.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787213777764_zzezia_HQEF40CawAA64Py.jpg",
+        "alt": "Tension Line Art Concept Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787213777668_di78nh_HQEF8AyakAAE8uD.jpg",
+        "alt": "Tension Line Art Concept Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787213777674_ud1dc1_HQEF-WUbMAA93M9.jpg",
+        "alt": "Tension Line Art Concept Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787213778385_lcsz6o_HQEGEo0acAAVkf4.jpg",
+        "alt": "Tension Line Art Concept Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小小东",
+      "url": "https://x.com/xiaoxiaodong01"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/xiaoxiaodong01/status/2089959872876228689"
+    },
+    "publishedAt": "2026-08-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31916",
+    "contentHash": "6db9e34d6d36d7ff4bb06b096db34367d126480f"
+  },
+  {
+    "id": "gpt-image-2:31977",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31977",
+    "title": "Steamed Rice Low High Comparison",
+    "category": "Infographic / Edu Visual",
+    "description": "Creates a photorealistic two-panel Japanese rice quality comparison image for demonstrating low versus high generation quality.",
+    "promptText": "Goal: Create a square side-by-side quality comparison image of realistic Japanese steamed white rice, divided into two horizontal panels: top labeled {argument name=\"top label\" default=\"LOW\"} and bottom labeled {argument name=\"bottom label\" default=\"HIGH\"}. The subject is a freshly cooked mound of glossy white rice in a ceramic bowl on a warm wooden dining table, with steam rising visibly from the rice in both panels.\n\nCanvas: 1:1 square image, photorealistic food photography, warm indoor breakfast lighting, shallow depth of field, natural brown and cream tones. Use a clean horizontal split exactly halfway across the image, creating 2 stacked panels.\n\nTop panel: Close-up of a beige ribbed ceramic bowl filled high with steaming white rice. The rice should look slightly too uniform and overly shiny, with many similar rounded grains clustered together, subtly artificial but still appetizing. Background is softly blurred and includes exactly 4 supporting food elements: 1 wooden miso soup bowl at back left, 1 small plate with yellow tamagoyaki at lower left, 1 plate with grilled salmon and a white garnish at back right, and 1 small blue patterned dish with pickles at lower right. Add the label {argument name=\"top label\" default=\"LOW\"} in the lower right of this panel, bold red block letters with white outline and dark drop shadow.\n\nBottom panel: Similar Japanese breakfast scene with another ceramic rice bowl centered slightly lower, filled with steaming white rice. Make the rice grains more irregular in size, shape, angle, and spacing, with a softer, less plastic shine and a more natural cooked texture. Background is softly blurred and includes exactly 5 supporting food elements: 1 grilled salmon plate at back left, 1 small dish of yellow pickles and cucumber slices at lower left, 1 small pale dish of greens at back center, 1 wooden miso soup bowl with green onions at right, and 1 partial tabletop area in warm wood. Add the label {argument name=\"bottom label\" default=\"HIGH\"} in the lower right, bold blue block letters with white outline and dark drop shadow.\n\nLogo/text overlay: Place a black circular logo overlapping the left side of the horizontal split. Inside it, large white text reads {argument name=\"logo main text\" default=\"AiRT\"}, with a small red ladybug-like icon near the letters. Below it add two lines of small white text: {argument name=\"logo subtitle\" default=\"Ai ART CREATOR\"} and {argument name=\"logo tagline\" default=\"For videos/images\"}.\n\nConstraints: Keep the image photographic rather than illustrated. Emphasize the comparison between artificial-looking rice texture in the top panel and more natural irregular rice texture in the bottom panel. Use realistic steam wisps, soft bokeh backgrounds, no extra labels, no additional panels, and no people.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "top label",
+        "default": "LOW"
+      },
+      {
+        "name": "bottom label",
+        "default": "HIGH"
+      },
+      {
+        "name": "logo main text",
+        "default": "AiRT"
+      },
+      {
+        "name": "logo subtitle",
+        "default": "Ai ART CREATOR"
+      },
+      {
+        "name": "logo tagline",
+        "default": "For videos/images"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787213850048_uw3srx_HQA9GVGaUAA_1Yh.jpg",
+        "alt": "Steamed Rice Low High Comparison",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "AiRT🎥生成AI動画を創る人",
+      "url": "https://x.com/AutoIntelliMode"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AutoIntelliMode/status/2089842777853239360#reversed-0"
+    },
+    "publishedAt": "2026-08-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31977",
+    "contentHash": "ad0c5151bd2dd27646ea1728fc260c88e107ee42"
+  },
+  {
+    "id": "gpt-image-2:31913",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31913",
+    "title": "Retro Editorial Illustration Split Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "A sophisticated prompt that transforms an uploaded photo into a 50/50 split design: the top half is a refined version of the photo, and the bottom half is a hand-drawn editorial illustration.",
+    "promptText": "Please turn each photo I upload into a separate, high-end design poster. Do not combine multiple photos into a collage; output one poster per photo. Use an overall {argument name=\"composition ratio\" default=\"3:4 vertical composition\"}, strictly divided into two equal sections, with the top and bottom each occupying exactly 50% of the canvas height.\n\nFor the top half, preserve the original photograph, maintaining the subject’s structure, realistic texture, natural lighting, and original color atmosphere. Apply only subtle, refined photographic color grading to give it the quality of editorial magazine photography and fine-art exhibition imagery.\n\nFor the bottom half, extract the most recognizable subject, silhouette, pose, and narrative relationships from the photograph, then reinterpret them as a light, naïve, retro hand-drawn editorial illustration. Do not mechanically trace or reproduce every detail. Instead, reinterpret the subject through simplified forms, slightly exaggerated proportions, symbolic features, and humorous visual metaphors. Blend the aesthetics of modernist editorial illustration, Bauhaus composition, children’s picture books, and fashion sketching. Keep the forms concise and the lines thin, delicate, and slightly imperfect by hand.\n\nDerive the color palette from the photograph above, using a limited palette with high lightness and low-to-medium saturation. Leave generous areas of off-white or pale negative space. Use a mixed-media texture inspired by watercolor, gouache, colored pencil, oil pastel, and dry-brush techniques. Preserve visible paper grain, rough edges, and slight misregistration. Keep the overall composition balanced, airy, and spacious.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "composition ratio",
+        "default": "3:4 vertical composition"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787213823320_iprjgb_HQAcWxEaQAAS8pK.jpg",
+        "alt": "Retro Editorial Illustration Split Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787213823336_zwjnc8_HQAcXw3boAAagpd.jpg",
+        "alt": "Retro Editorial Illustration Split Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787213823341_bmq4m3_HQAcZFpaYAAkT0d.jpg",
+        "alt": "Retro Editorial Illustration Split Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787213824020_5h8f3i_HQAca8UbIAAlalt.jpg",
+        "alt": "Retro Editorial Illustration Split Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小小东",
+      "url": "https://x.com/xiaoxiaodong01"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/xiaoxiaodong01/status/2089702197365985649"
+    },
+    "publishedAt": "2026-08-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31913",
+    "contentHash": "2c35a433a0a4eca2673645868682890a0557b33e"
+  },
+  {
     "id": "gpt-image-2:32015",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6601,255 +6839,5 @@
     "publishedAt": "2026-08-18T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31849",
     "contentHash": "351fb1290db7f5e0af093ed1516ec910b7fc1085"
-  },
-  {
-    "id": "gpt-image-2:31781",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31781",
-    "title": "Parisian Café Mixed Media Illustration",
-    "category": "Product Marketing",
-    "description": "A sophisticated prompt that blends a photorealistic Parisian café background with a hand-drawn monochrome ink illustration of a stylish woman reading a newspaper.",
-    "promptText": "Create a surreal editorial street photograph that seamlessly blends a {argument name=\"café setting\" default=\"real-life Parisian café exterior\"} with a hand-drawn black-and-white illustrated character. A {argument name=\"character description\" default=\"stylish young woman with long wavy hair, rectangular glasses, a tailored light blazer and wide-leg trousers\"} sits naturally on a {argument name=\"bench color\" default=\"pastel pink\"} wooden bench outside a charming French café, legs crossed, calmly reading a large newspaper. Render the entire woman, her clothing, shoes, hands and newspaper as a detailed monochrome ink illustration with expressive fine linework, delicate cross-hatching, subtle sketch texture and a clean thick white sticker-like outline around her entire silhouette. Keep the café environment completely photorealistic and softly colored: weathered French architecture, muted blue-gray café doors and windows, warm interior lights, cobblestone pavement, climbing flowers, a small mint-green round café table, pink flower pot and glass jar. The illustrated character must physically interact with the real bench and environment with accurate perspective, scale, contact shadows and natural placement. Elegant whimsical mixed-media photography, 2D hand-drawn illustration merged into reality, sophisticated European street aesthetic, subtle film grain, soft natural daylight, realistic depth of field, highly detailed, cinematic composition, photorealistic background, vertical 4:5.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "café setting",
-        "default": "real-life Parisian café exterior"
-      },
-      {
-        "name": "character description",
-        "default": "stylish young woman with long wavy hair, rectangular glasses, a tailored light blazer and wide-leg trousers"
-      },
-      {
-        "name": "bench color",
-        "default": "pastel pink"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787044616098_qw7qk7_HP-udLzbgAIbCEv.jpg",
-        "alt": "Parisian Café Mixed Media Illustration",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787044616013_ezjc5x_HP-ueAeboAE3AYF.jpg",
-        "alt": "Parisian Café Mixed Media Illustration",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Taaruk",
-      "url": "https://x.com/Taaruk_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Taaruk_/status/2089580595840233579"
-    },
-    "publishedAt": "2026-08-18T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31781",
-    "contentHash": "7d839e43a66915bfb48ea9a163830202fbc8ec50"
-  },
-  {
-    "id": "gpt-image-2:31771",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31771",
-    "title": "Historic Train Station Fashion Illustration",
-    "category": "Product Marketing",
-    "description": "A high-end mixed-media prompt combining photorealistic portraiture with graphite and watercolor sketches at a train station.",
-    "promptText": "Use the uploaded image strictly ONLY for face matching and identity reference. Create a striking, high-end mixed-media fashion illustration featuring a {argument name=\"subject\" default=\"handsome man\"} standing inside a {argument name=\"location\" default=\"grand historic train station\"}. The artwork seamlessly blends photorealistic portraiture with expressive graphite sketching, watercolor painting, and ink illustration techniques. The subject has neatly styled hair with texture. He wears a {argument name=\"outfit\" default=\"tailored camel-colored wool overcoat layered over a dark charcoal chunky-knit scarf\"} wrapped elegantly around his neck. Pose & Expression: Medium portrait composition. The man stands confidently with his left hand tucked into his coat pocket and his right arm resting naturally at his side. He gazes thoughtfully off-camera to the left with a stoic, contemplative, and slightly nostalgic expression, conveying quiet confidence and timeless elegance. Background & Environment: The left side of the composition transitions into an atmospheric train station interior featuring soaring iron-and-glass architecture, vaulted arches, and an approaching vintage steam locomotive emerging through drifting steam. The environment gradually dissolves into loose architectural sketches, construction lines, and expressive hand-drawn details. No text and extra element. Art Style & Medium: A sophisticated fusion of graphite pencil drawing, watercolor washes, fine ink linework, and subtle digital painting. The illustration should feature rough sketch marks, visible pencil strokes, architectural drafting lines, monochromatic and sepia-toned watercolor textures, ink splatters, paint drips, and soft smoke effects. The entire artwork is rendered on aged parchment paper with weathered stains, subtle creases, and vintage paper texture. The portrait remains highly detailed while the surrounding elements fade into artistic abstraction. Color Palette: Warm sepia, beige, camel, charcoal black, soft gray, ivory parchment tones, and muted watercolor browns with subtle cool accents in the eyes. Lighting: Soft cinematic ambient lighting with gentle highlights on the face and coat, creating depth and contrast while maintaining the hand-painted aesthetic. Quality & Detail: Masterpiece, museum-quality illustration, ultra-detailed facial features, highly detailed clothing textures, expressive brushwork, dynamic visual contrast, elegant composition, fine-art editorial style, professional mixed-media artwork, 8K resolution, sharp focus, intricate textures, watercolor and graphite fusion, premium fashion illustration. Aspect Ratio: 4:5.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "handsome man"
-      },
-      {
-        "name": "location",
-        "default": "grand historic train station"
-      },
-      {
-        "name": "outfit",
-        "default": "tailored camel-colored wool overcoat layered over a dark charcoal chunky-knit scarf"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787044641455_8lzmtq_HP-sraRWkAAXEth.jpg",
-        "alt": "Historic Train Station Fashion Illustration",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Mr. Tariq",
-      "url": "https://x.com/AiWithTariq"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AiWithTariq/status/2089578632092258789"
-    },
-    "publishedAt": "2026-08-18T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31771",
-    "contentHash": "7aa3304565f50169e1ba9c4856f49579deea5973"
-  },
-  {
-    "id": "gpt-image-2:31762",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31762",
-    "title": "Premium Esquire Magazine Cover Portrait",
-    "category": "Product Marketing",
-    "description": "A sophisticated prompt for creating professional magazine covers featuring cinematic lighting and high-end editorial photography style, designed to capture a charismatic actor's presence.",
-    "promptText": "SUBJECT:\n{argument name=\"actor description\" default=\"A charismatic young actor with textured dark hair, expressive eyes, and a relaxed but commanding presence.\"}\n\nCreate ONE premium magazine cover.\nBuild one cinematic portrait emphasizing charisma, ambition, and contemporary Hollywood style.\n\nSTYLE: {argument name=\"photography style\" default=\"Esquire-quality photography, dramatic directional lighting, black, cream, and deep burgundy palette, modern tailoring, natural skin texture, subtle film grain, cinematic contrast, elegant negative space, shallow depth of field, premium editorial photography, 8K.\"}\n\nMAGAZINE TITLE: {argument name=\"magazine title\" default=\"ESQUIRE\"}\n\nISSUE DATE: AUGUST 2026\n\nHEADLINES: The Next Chapter\n\nMade for the Moment\nInside the Mind",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "actor description",
-        "default": "A charismatic young actor with textured dark hair, expressive eyes, and a relaxed but commanding presence."
-      },
-      {
-        "name": "photography style",
-        "default": "Esquire-quality photography, dramatic directional lighting, black, cream, and deep burgundy palette, modern tailoring, natural skin texture, subtle film grain, cinematic contrast, elegant negative space, shallow depth of field, premium editorial photography, 8K."
-      },
-      {
-        "name": "magazine title",
-        "default": "ESQUIRE"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787044618340_qo7wpm_HP-a-SobwAANUGF.jpg",
-        "alt": "Premium Esquire Magazine Cover Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Zephyra Leigh",
-      "url": "https://x.com/ZephyraLeigh"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/ZephyraLeigh/status/2089559323047514331"
-    },
-    "publishedAt": "2026-08-18T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31762",
-    "contentHash": "c7411645e3fa44ad0119a9883eb2ee9e13787e54"
-  },
-  {
-    "id": "gpt-image-2:31824",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31824",
-    "title": "Luxury SPA Service Menu Poster",
-    "category": "Product Marketing",
-    "description": "A commercial price list poster prompt for high-end beauty services with a soft pink and black high-contrast aesthetic.",
-    "promptText": "Generate a luxury beauty promotion poster centered on user requirements. A pure white rounded rectangular price card with rich 3D layers floats in the lower-middle section, featuring soft diffused shadows and overlapping back layers, with a circular punched tag detail in the upper left corner. The top half of the poster is a transparent and ethereal light pink soft-light textured background, with subtle fluid marble and petal-blending textures, complemented by a faint light-colored postmark watermark on the right edge. A high-contrast modern serif uppercase English title is centered at the top, followed by a Chinese slogan decorated with curly braces and ultra-fine subtext. The floating card presents a rigorous and clear information architecture: the top segment has the theme card name and fine hand-drawn embellishments; below is a high-contrast focal price area with currency labels on the left and oversized modern bold serif italic numbers in bright rose pink on the right. The middle segment contains champagne-pink gradient rounded capsule feature tags, and the lower segment neatly lists multiple equidistant project items, each guided by tiny dots, including project name and frequency, aligned on the right with uniform black rounded capsule unit price tags with white text, separated by ultra-fine light grey lines. The card bottom ends with a smooth, elegant light pink upward-convex arc, with a micro-convex 3D embossed heart badge and small uppercase English text in the center. The bottom edge of the poster leaves comfortable light pink whitespace with a centered, widely spaced micro-slogan text. The overall color scheme is based on soft light pink, pure white, and high-contrast black capsules, with pure high-key light and precise lines, showcasing an elegant and romantic commercial visual.\n\nTheme: {argument name=\"theme\" default=\"SPA Club Service Price List\"}\nForget the original colors, re-plan a color scheme suitable for the theme. I like {argument name=\"color palette\" default=\"purple\"}\nRatio 9:16",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "theme",
-        "default": "SPA Club Service Price List"
-      },
-      {
-        "name": "color palette",
-        "default": "purple"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787044651978_w6q1ig_HP-aymDaYAAXFVt.jpg",
-        "alt": "Luxury SPA Service Menu Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787044651990_4tpb5d_HP-azdAbEAA1uhz.jpg",
-        "alt": "Luxury SPA Service Menu Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787044652092_ypxmnb_HP-a0plaAAA80mw.jpg",
-        "alt": "Luxury SPA Service Menu Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787044652871_o3vbo1_HP-a1tcawAAtDIe.jpg",
-        "alt": "Luxury SPA Service Menu Poster",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "小小东",
-      "url": "https://x.com/xiaoxiaodong01"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/xiaoxiaodong01/status/2089559167719928179"
-    },
-    "publishedAt": "2026-08-18T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31824",
-    "contentHash": "e77d1f05e972d88ba8e9338e78bf0452061f8f99"
-  },
-  {
-    "id": "gpt-image-2:31843",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31843",
-    "title": "Premium GPU Branding Collage",
-    "category": "E-commerce Main Image",
-    "description": "A structured prompt for generating a sleek four-panel product branding collage featuring a graphics card, cooling fans, and a minimalist logo.",
-    "promptText": "Goal: Create a premium product-branding collage for a high-end computer graphics card and cooling fan, using {argument name=\"brand logo\" default=\"a minimalist angular S-shaped monogram\"} as the only visible logo mark.\n\nCanvas: Square 1:1 image, divided into exactly 4 equal quadrants in a clean 2x2 grid with no gutters. Use a dark, modern studio aesthetic with matte textures and soft directional lighting.\n\nLayout and visible elements: Top-left quadrant shows a close-up diagonal view of a black triple-fan graphics card partially cropped by large overlapping circular foreground shapes; include exactly 3 visible cooling fans on the card, with the logo centered on each fan hub. Top-right quadrant is a minimalist light gray matte background with a single centered dark blue-gray brand logo, no other objects or text. Bottom-left quadrant shows a long side/detail close-up of the graphics card running horizontally, including the PCIe gold connector along the lower edge, black heatsink fins, a metallic silver edge strip, and one small logo near the right end; a large pale circular shape is cropped into the lower foreground. Bottom-right quadrant shows exactly 1 standalone black cooling fan module floating or resting at a slight angle on a dark blue-gray studio surface, with the logo on its central hub and a soft shadow beneath it.\n\nVisual style: Photorealistic 3D product render, premium tech hardware advertising, matte black metal, graphite gray, deep navy, soft beige-gray, subtle brushed and molded plastic textures, shallow shadows, crisp edges, restrained contrast, no clutter. Use geometric circular overlays as design elements: one large navy circle cropping into the top-left panel, one large pale gray circle cropping into the bottom-left panel, and one large dark circle cropping into the bottom-right panel.\n\nColor palette: {argument name=\"primary hardware color\" default=\"matte black and graphite\"}, {argument name=\"accent color\" default=\"dark blue-gray\"}, {argument name=\"background color\" default=\"warm light gray and deep charcoal\"}.\n\nConstraints: No readable text, no labels, no watermark, no people, no RGB lighting, no extra components beyond the graphics card, the single fan module, circular overlays, and the logo marks. Keep the composition minimal, balanced, and suitable for a sleek GPU launch campaign.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "brand logo",
-        "default": "a minimalist angular S-shaped monogram"
-      },
-      {
-        "name": "primary hardware color",
-        "default": "matte black and graphite"
-      },
-      {
-        "name": "accent color",
-        "default": "dark blue-gray"
-      },
-      {
-        "name": "background color",
-        "default": "warm light gray and deep charcoal"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787044667092_t9x94w_HP8I__lXQAAzZlb.jpg",
-        "alt": "Premium GPU Branding Collage",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "احمد الجعيد",
-      "url": "https://x.com/Aljuaidx"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Aljuaidx/status/2089398657225224316#reversed-1"
-    },
-    "publishedAt": "2026-08-17T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31843",
-    "contentHash": "5da8d42cb15ca8e12903332fad07a8fe86dc293b"
   }
 ]

@@ -1,5 +1,204 @@
 [
   {
+    "id": "gpt-image-2:37510",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "37510",
+    "title": "GPT Image 2 Multi-View Character Consistency Prompt",
+    "category": "Profile / Avatar",
+    "description": "A prompt for generating consistent character photos using reference images for face, clothing, and pose depth maps with GPT Image 2.",
+    "promptText": "Please generate an image: Photorealistic vertical 2:3 aspect ratio, a solo photo of a fictional {argument name=\"age\" default=\"20-year-old\"} adult woman, youthful, like a college sophomore, not looking mature. Image 1 is the face reference: keep facial features, skin tone, hairstyle, and hair color consistent. Image 2 is the clothing reference: wear this outfit exactly as shown, keeping style, color, material, and accessories consistent. Image 3 is a grayscale depth map of a human model: only use it as a reference for body pose and camera angle; it is not a real person and does not provide clothing or face details. Scene: {argument name=\"scene_description\" default=\"a tree-lined path in a park on a spring afternoon\"}, with fresh green leaves and benches by the road, soft natural light, iPhone casual snapshot quality, realistic skin texture, slight film grain. Single image, no collage, no text or watermarks, hands naturally relaxed with all five fingers complete, face and limbs undistorted.\n\nPlease generate another image: Refer to the previous one: same person, hairstyle, clothing, scene, and lighting completely consistent, but change the body pose and camera angle to match the pose from this depth map (the depth map is just a human model, providing no clothing or face). Vertical 2:3 single image, no collage, no text or watermarks, fingers complete.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "age",
+        "default": "20-year-old"
+      },
+      {
+        "name": "scene_description",
+        "default": "a tree-lined path in a park on a spring afternoon"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1794728417207_k35343_HXHxYSvXEAAMbgb.jpg",
+        "alt": "GPT Image 2 Multi-View Character Consistency Prompt",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1794728417157_lzb5tg_HXHxYSuWkAAM_cW.jpg",
+        "alt": "GPT Image 2 Multi-View Character Consistency Prompt",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Candy",
+      "url": "https://x.com/CandyTravelight"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CandyTravelight/status/2121772672140886063"
+    },
+    "publishedAt": "2026-11-15T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=37510",
+    "contentHash": "ca00a6a240a572e7527e3f22c2e897b3566196c5"
+  },
+  {
+    "id": "gpt-image-2:37511",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "37511",
+    "title": "Real Photo with Doodle Interaction Prompt",
+    "category": "Social Media Post",
+    "description": "A prompt for creating a mixed-media fashion photo where a real person interacts with a hand-drawn stick figure, based on an uploaded reference image.",
+    "promptText": "Using the user-uploaded portrait as the sole reference for the subject, create a playful and creative mixed-media fashion photograph combining 'real photography' with '2D hand-drawn doodles'.\n\n[Character Fidelity]\nAccurately preserve the facial features, proportions, face shape, hairstyle, hair color, skin tone, age appearance, and personal vibe of the person in the uploaded photo, ensuring high identity consistency between the generated character and the original. Prioritize retaining the clothing style, colors, and outfit details from the original photo; do not arbitrarily alter the person's appearance or clothing style.\n\n[Creative Interaction]\nThe core of the image is the playful interaction between the real person and a black hand-drawn stick figure.\nThe person is positioned slightly to the right of the center, walking naturally and dynamically towards the front-right, body leaning slightly forward, one leg stepping out and the other extending back. The person looks back at the hand-drawn figure behind them, showing a lively expression such as laughing happily, looking playfully surprised, or appearing slightly helpless, creating a storytelling snapshot moment.\nOn the left side of the frame, there is a cute simple line drawing of a stick figure made with thick black lines, featuring a round head, simple facial features, thin limbs, and a funny expression.\nThe stick figure is pulling hard on the hem, sleeve, or bag of the real person, leaning back with bent legs, striking a comical pose trying desperately to stop the person from leaving. Automatically choose the most natural interaction point based on the person's actual clothing and accessories.\nEmphasize realistic interaction effects: The stick figure's hands accurately grab the real clothing or accessories, causing natural stretching, deformation, wrinkles, and tension in the fabric due to the pull. The 2D hand-drawn lines connect precisely with the real photographic subject at the contact points, creating a visual illusion that the drawn character is physically participating in the person's actions.\n\n[Doodle Style]\nAdopt a minimalist, cute, and humorous black marker hand-drawn doodle style. Lines have slight natural irregularities typical of hand drawing, moderate thickness, flat appearance, without adding 3D shadows, complex textures, or realistic materials.\nSprinkle a few hand-drawn exclamation marks, sweat drops, motion lines, hearts, or playful symbols around the person and the stick figure to enhance the emotional interaction. The doodles blend naturally into the composition without obscuring the person's face.\n\n[Scene and Composition]\nMinimalist light gray/white photo studio, seamless pure background, floor has soft realistic contact shadows.\nUse a 3:4 vertical full-body composition. The real person is concentrated on the right side of the frame, the hand-drawn figure on the left, forming a clear visual connection through the pulling action. Both the person and the figure are fully in frame, feet clearly visible, with appropriate whitespace around the subjects, resulting in a clean, concise, and design-oriented look.\n\n[Photography and Texture]\nProfessional commercial fashion photography, soft even studio diffused lighting, realistic natural skin texture, clear hair details, realistic fine clothing fibers and wrinkles, natural and lively movements, bright and soft colors.\nThe real person part presents high-resolution photorealistic effects, while the hand-drawn part maintains pure 2D black doodle texture, creating a distinct yet harmonious contrast between the two visual languages.\nThe overall atmosphere is relaxed, playful, cute, and humorous, with the visual appeal of a creative social media fashion photo.\nNo text, no watermarks, no complex backgrounds, no extra cartoon characters.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1794728420538_59xox2_HXImlQFbAAAbrEb.jpg",
+        "alt": "Real Photo with Doodle Interaction Prompt",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "鱼哥",
+      "url": "https://x.com/MrGafish"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/MrGafish/status/2121800940743520742"
+    },
+    "publishedAt": "2026-11-15T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=37511",
+    "contentHash": "d1ab2b5795fc3a300a72b26a8b13f36465d9f9de"
+  },
+  {
+    "id": "gpt-image-2:37507",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "37507",
+    "title": "Rainy Luxury Street Fashion Photo",
+    "category": "Social Media Post",
+    "description": "Generates an ultra-photorealistic luxury street-style fashion photograph of a young man holding a transparent umbrella on a rainy city street, featuring detailed outfit descriptions and cinematic lighting.",
+    "promptText": "Create an ultra-photorealistic luxury street-style fashion photograph of a handsome young adult man in his mid-20s, with naturally styled dark hair, a well-defined masculine jawline, refined facial features, realistic skin texture, and a calm, confident expression.\n\nPose & Composition:\n\nHe stands naturally in the middle of a busy city street on a rainy day, holding a large transparent dome umbrella above his head with one hand. His body faces slightly toward the camera while his head is turned toward the right side of the frame, looking into the distance with a composed, thoughtful expression. His other hand casually carries a sleek black leather handbag. Capture his entire body in a vertical full-length fashion photograph, maintaining the same camera angle, subject placement, and perspective as the reference image.\n\nOutfit & Styling:\n\nHe wears a sophisticated cream-colored high-neck knit sweater underneath a cropped cream-and-charcoal bomber jacket featuring intricate black botanical and vintage floral patterns. The jacket has a slightly oversized silhouette, padded texture, a raised collar, and subtle black detailing. Pair it with elegant, relaxed-fit ivory wide-leg tailored trousers with a flowing drape and clean construction. Complete the look with understated luxury footwear, mostly visible beneath the trousers.\n\nUmbrella & Accessories:\n\nA large transparent umbrella with a curved black handle and slim black metal ribs, featuring realistic raindrops and water droplets scattered across its clear surface. He holds the umbrella naturally at chest level. A minimalist black leather handbag hangs casually from his other hand.\n\nEnvironment & Background:\n\nA sophisticated European-style city shopping street during gentle rainfall. Elegant architectural facades, large glass storefront windows, warm amber interior lighting, wet pavement reflecting the surrounding lights, and several pedestrians carrying dark umbrellas in the background. Keep the surrounding people naturally blurred with subtle motion blur, creating a cinematic sense of movement while the male subject remains perfectly sharp.\n\nPhotography & Lighting:\n\nShot on a professional Canon EOS R5 with an 85mm portrait lens, shallow depth of field, natural overcast daylight mixed with warm storefront lighting, realistic reflections, beautifully controlled highlights, detailed fabric textures, authentic rain droplets, and cinematic color grading. Premium luxury fashion editorial photography, understated quiet-luxury aesthetic, sophisticated neutral color palette, exceptional photorealism.\n\nAspect Ratio: 9:16 vertical portrait.\n\nPreserve the reference image's overall composition, umbrella placement, full-body framing, outfit silhouette, rainy urban atmosphere, background pedestrian movement, and elegant editorial mood. No text, no logos, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1794728411261_9ez2vn_HXFqczJbAAA44b8.jpg",
+        "alt": "Rainy Luxury Street Fashion Photo",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ORHAN",
+      "url": "https://x.com/OrhanGhazi65942"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/OrhanGhazi65942/status/2121593952059134027"
+    },
+    "publishedAt": "2026-11-14T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=37507",
+    "contentHash": "8d71b0d12e7c638d5021c807dc4fb285c87c5204"
+  },
+  {
+    "id": "gpt-image-2:37508",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "37508",
+    "title": "Wadi Rum Desert Travel Portrait",
+    "category": "Social Media Post",
+    "description": "A detailed photorealistic prompt for a travel portrait in Wadi Rum, Jordan, featuring golden hour lighting and Bedouin elements.",
+    "promptText": "A stunning photorealistic full-body travel portrait of a beautiful young woman standing in the golden desert of Wadi Rum, Jordan, during sunset. She wears a stylish beige oversized button-up shirt, white fitted tank top, beige cargo pants, and clean white sneakers. A small cream shoulder bag hangs from her shoulder. Her brunette hair is styled in a messy elegant bun with soft face-framing bangs. One hand gently touches her hair while the other rests casually in her pocket. A camel stands in the background, with traditional Bedouin decorations, glowing lanterns, Persian rugs, and dramatic sandstone mountains. Warm golden-hour sunlight, natural skin texture, realistic facial features, soft cinematic shadows, luxury travel photography, editorial fashion photography, 85mm lens, shallow depth of field, ultra-detailed, 4K, natural colors, vertical 9:16 composition. No text, no watermark, no logo.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1794728411406_rfbezd_HXEpxgAb0AAYbUC.jpg",
+        "alt": "Wadi Rum Desert Travel Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Rubi",
+      "url": "https://x.com/AIwithRubii"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AIwithRubii/status/2121522846048678162"
+    },
+    "publishedAt": "2026-11-14T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=37508",
+    "contentHash": "f556501182f8ca45acb9a58a3727afc2728c2b84"
+  },
+  {
+    "id": "gpt-image-2:37509",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "37509",
+    "title": "GPT Image 2 Minimalist Aesthetic Prompt",
+    "category": "Infographic / Edu Visual",
+    "description": "A detailed prompt for generating minimalist, high-quality cover art with ample whitespace and traditional ink/watercolor aesthetics using GPT Image 2.",
+    "promptText": "Generate a highly serene, whitespace-rich cover-style image around any subject object, where the first thing seen is a large bright empty space with restrained typographic order, and the second glance enters the fine dense graphics at the bottom. Place a line of extremely thin, widely spaced informational text at the top; the central title uses tall, thin serif or light hand-set typography, with wide letter spacing, faint strokes, clear hierarchy, making the text feel like it quietly floats in the air rather than pressing down on the image. Do not directly pile up the subject object; instead, translate it into a symbolic carrying structure growing from the lower edge: forming organic veins with clear dark line drawings, diagonally penetrating the whitespace, working together with low-positioned pale narrative layers, tiny scale markers, and local architectural or artifact-like details to establish a rhythm of quiet observation; graphic density concentrates at the bottom and one side, edges can be cropped, letting the whitespace bear solemnity, pause, and lingering flavor. The drawing texture is a mix between Eastern ink wash and woodcut line drawing, lines have hand-made rough edges and slight registration deviations, pale color layers are transparently stacked, paper surface is delicate but kept clean. Colors are extracted from the material, emotion, season, and cultural signals of the theme itself; large areas of high-brightness base colors handle ventilation, a small amount of low-saturation intermediate colors support the narrative layer, clear dark colors carry the line skeleton and text information, minimal theme accent colors are placed only at visual pauses; keep the overall look clear, quiet, bright, clean, gently pulling warm and cool apart, textures must not become turbid, smoky, or heavily aged.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1794728411531_ddahuv_HXFjEOhbEAElf5o.jpg",
+        "alt": "GPT Image 2 Minimalist Aesthetic Prompt",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1794728410037_s0i9hm_HXFj6ztaAAA-zRt.jpg",
+        "alt": "GPT Image 2 Minimalist Aesthetic Prompt",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1794728409925_poinav_HXFj9xMa8AAeW5T.jpg",
+        "alt": "GPT Image 2 Minimalist Aesthetic Prompt",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1794728410781_yo1fp3_HXFj-ZEboAAtzw5.jpg",
+        "alt": "GPT Image 2 Minimalist Aesthetic Prompt",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1794728410831_mt1hoa_HXFkEe-asAAh5ii.jpg",
+        "alt": "GPT Image 2 Minimalist Aesthetic Prompt",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小小东",
+      "url": "https://x.com/xiaoxiaodong"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/xiaoxiaodong/status/2121587331371290946"
+    },
+    "publishedAt": "2026-11-14T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=37509",
+    "contentHash": "0cbab20594607e34f117f2cb1827a0cb0e2fb1d3"
+  },
+  {
     "id": "gpt-image-2:37497",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -5323,180 +5522,5 @@
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=36762",
     "contentHash": "bd3be77273f9f54199405ade3d10fc0167e2e35e"
-  },
-  {
-    "id": "gpt-image-2:36760",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "36760",
-    "title": "GPT Image 2 Hand-drawn Infographic Prompt",
-    "category": "Infographic / Edu Visual",
-    "description": "A prompt for GPT Image 2 to create a hand-drawn style infographic card explaining the water cycle, with specific layout and color instructions.",
-    "promptText": "Two vertically connected rounded rectangular panels are anchored by extremely thick, slightly undulating black hand-drawn outlines, with white buckles crossing the panel edges, forming striking paired modules and clear vertical rhythm. Content is organized using Gestalt proximity and layout zoning, with each panel internally divided into a stable left-image/right-text column, balancing left and right weights, titles and information read top-to-bottom in the right column; the overall visual center falls on the junction of the two panels and their respective prominent large titles, keeping the page header area independent with logos and main title. Images and text connect via juxtaposition and backing: the left side is reserved for character or theme illustrations, placed on irregular rounded clean light-colored bases; the right side uses prominent large characters to lead multiple lines of explanation, accompanied by small line-drawing symbols adjacent to text to indicate content. Text hierarchy is always distinct, large titles are thick and striking, explanatory text is thinner with generous line spacing, small text and symbols create rhythm points; glyph construction is upright and readable, with clear counters, crisp endings, and compact faces complementing handwritten images, maintaining this hierarchy regardless of text volume; when text is insufficient, secondary small text is supplemented based on the theme. Text edges are flat and clear, forming a clean typography layer outside the hand-drawn lines. Whitespace includes gaps between panels, backing whitespace around image bases, reading gaps between text lines, and pauses between header and body; each remains spacious, allowing thick frames, illustrations, and titles to stand out clearly. Illustration content is provided by the appended theme, adopting a complete, concentrated, slightly tilted hand-drawn composition within the left column, with simple main outlines, light dynamic details, and upright load-bearing parts; content density is about half-frame, mainly concentrated in the left column of each panel, the rest being white or light-colored rounded bases, flat panel color blocks, and bottom whitespace, generating no scenery. Uses a composite of techniques: outlining frames and characters with continuous, slightly shaky thick black lines; spreading large panel areas and local illustration colors with clean, smooth digital flat coloring; pressing information areas with crisp text typesetting; overall resembling an illustration arrangement synthesized from hand-drawn lines, computer flat coloring, and clear typesetting. Color scheme maintains a high-brightness keynote, colors vivid, saturated but not glaring, the most intense color surfaces fall within the paired panels echoed by character locals; pairing warm light backgrounds with varying brightness levels of light color surfaces, stabilizing layers with strong black-and-white line text contrast. Overall warm and cheerful, friendly and energetic, resembling matte digital color blocks combined with dense marker lines; hue follows the theme, but brightness/darkness, thickness/thinness, saturation/dilution, warm tendencies, and cheerful friendly psychological feelings maintain this personality regardless of theme. Overall temperament is light, friendly, and orderly. Appended theme, accurate text, usage, and aspect ratio take priority; grouping of upper/lower panels, left-image/right-text, thick black hand-drawn borders, image backing, clear text hierarchy, and high-brightness warm-thick color schemes remain unchanged.\n\n------\nTheme: Water Cycle Educational Poster",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1792655536306_ls8575_HVJR58Wb0AAm5Zk.jpg",
-        "alt": "GPT Image 2 Hand-drawn Infographic Prompt",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "小小东",
-      "url": "https://x.com/xiaoxiaodong"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/xiaoxiaodong/status/2112841549046505677"
-    },
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=36760",
-    "contentHash": "94cdbd9184564ff199aeb9aa0a8e4059213b10a0"
-  },
-  {
-    "id": "gpt-image-2:36766",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "36766",
-    "title": "Kiyomizu-dera Travel LP with Anime Mascot",
-    "category": "Infographic / Edu Visual",
-    "description": "A detailed vertical infographic-style landing page for Kiyomizu-dera tourism, combining an anime character guide with real scenic photos, app UI mockups, and structured travel information.",
-    "promptText": "Goal: Create a comprehensive, high-density vertical travel landing page (LP) for Kiyomizu-dera in Kyoto.\nCanvas: Vertical aspect ratio (approx. 4:5), featuring a vibrant mix of anime illustration and realistic photography with a clean white background accented by orange and purple brushstrokes.\nLayout:\n1. Header: Top navigation bar with logo 'あぽろ塾 APOLLO JUKU' on the left, menu items (Search, Model Course, Spot, Gourmet, Access) in center, and an orange CTA button '今すぐ旅に出る' on right.\n2. Hero Section: Large title '清水寺 Kiyomizu-dera' in bold black serif font. Subtitle '京都・東山の絶景と歴史をめぐる'. A central anime character (orange hair, cat ears, streetwear jacket with 'KYOTO' text) pointing right, accompanied by a tuxedo cat. Background shows a panoramic view of Kyoto with autumn foliage and pagodas. Floating handwritten text: '見たことのない京都に、きっと出会える。' and 'ここにしかない景色がある。'. Location info block: '京都・東山', '早朝散策がおすすめ', '春は桜、秋は紅葉が人気'. World Heritage badge and coordinates '34.9945, 135.7843'.\n3. Highlights Section ('見どころ'): Horizontal scrollable cards showing photos of '清水の舞台', '音羽の滝', '三年坂・二年坂', '京都の街並みを一望', '世界遺産'. Each card has a photo, title, and short description.\n4. App & Features Section: Left side features a smartphone mockup displaying a map app interface with pins for Kiyomizu-dera, Otowa Waterfall, etc. Center column lists 'アプリの主な機能' (App Main Features) with icons: Spot Search, Model Course, Favorites, Offline Map. Right side is 'モデルコース' (Model Course) with numbered steps 01-04 showing route thumbnails.\n5. Seasonal Recommendations ('おすすめの季節'): Four distinct seasonal blocks (Spring, Summer, Autumn, Winter) with corresponding landscape photos and brief text descriptions.\n6. Access Section ('アクセス'): Bottom right area listing transport options (Train, Bus, Car) with specific station names and walking times. Includes a small silhouette of a pagoda and 'Kyoto' script.\nVisual style: Modern Japanese web design aesthetic. High contrast between the colorful anime mascot and the serene real-world photography. Use of orange (#FF5722 approx) and purple accents. Clean sans-serif typography for body text, elegant serif for headings.\nText content: Preserve all Japanese text exactly as shown in the image, including section headers like '見どころ', 'モデルコース', 'アクセス', and the specific location names.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1792655539295_4nzuva_HVI4562aoAEfx-k.jpg",
-        "alt": "Kiyomizu-dera Travel LP with Anime Mascot",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "あぽろ",
-      "url": "https://x.com/apollo_nt"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/apollo_nt/status/2112813837955240340#reversed-0"
-    },
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=36766",
-    "contentHash": "dad2be82659558ea5a508ae44790ae4521a53176"
-  },
-  {
-    "id": "gpt-image-2:36722",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "36722",
-    "title": "Swiss Editorial Diptych with Texture Zones",
-    "category": "Infographic / Edu Visual",
-    "description": "A detailed GPT Image 2 prompt for creating a vertical diptych from an uploaded photo. The top half preserves the original image, while the bottom half applies seven experimental texture zones (Reeded Glass, Engraving, Stipple, Halftone, Pixel Mosaic, Overlay, Duotone) in a Swiss editorial style.",
-    "promptText": "Create one vertical 3:4 diptych for each uploaded photo, divided into equal top and bottom halves with a seamless join. No divider, frame, or collage. Swiss editorial design, experimental photography, and vintage print aesthetics.\n\nTOP HALF — ORIGINAL PHOTOGRAPH\nPreserve the original identity, pose, scene, composition, perspective, lighting, and colors. Allow only subtle color grading and background extension. No text.\n\nBOTTOM HALF — SEVEN EXPERIMENTAL TEXTURE ZONES\nRepeat the entire original photo. Overlay seven asymmetrical rectangular zones of different sizes directly onto the image pixels, crossing non-critical details. Maintain visual continuity inside and outside every zone. Never crop, zoom, shift, duplicate, or redraw the image. Keep all important focal features visible.\n\nSEVEN NUMBERED TECHNIQUES\n\n01. Reeded Glass: Vertical optical refraction.\n\n02. Black-and-White Engraving: Fine etched lines and crosshatching.\n\n03. American Stipple: Black-and-white microdot texture.\n\n04. Vintage Halftone: CMYK printing dots.\n\n05. Pixel Mosaic: Square pixel blocks.\n\n06. Transparent Overlay: 2–4 translucent overlapping layers.\n\n07. Duotone Screen Print: Two-color screen-printing effect.\n\nDESIGN DETAILS\nAdd hairline borders, tiny corner squares, and fine leader lines to identify each rectangular zone. Label every technique with its corresponding number and English name. Keep all areas outside the seven zones photographic and realistic.\n\nSTRICT REQUIREMENTS\nNo logos, watermarks, extra images, or unnecessary decorative elements. Preserve the original photograph's integrity and maintain a clean, sophisticated editorial layout.\n\nOUTPUT: One high-definition 3:4 vertical poster with equal top and bottom halves.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1792655532802_d57ipr_HVIaD8JaUAAhavB.jpg",
-        "alt": "Swiss Editorial Diptych with Texture Zones",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1792655531323_0nu738_HVIaD8bbwAAkR8p.jpg",
-        "alt": "Swiss Editorial Diptych with Texture Zones",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Sairah",
-      "url": "https://x.com/Sairah_0"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Sairah_0/status/2112779843251376490"
-    },
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=36722",
-    "contentHash": "e420606a7c83b5ac4c3d093a57de6f231a9cd23e"
-  },
-  {
-    "id": "gpt-image-2:36721",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "36721",
-    "title": "Dramatic Portrait with Red Light on Eyes",
-    "category": "Profile / Avatar",
-    "description": "A prompt for creating a hyper-realistic dramatic portrait of a person (using an imported photo) with a red horizontal light illuminating only their eyes against a dark background.",
-    "promptText": "Ultra-realistic dramatic portrait of the person ({argument name=\"photo\" default=\"imported photo\"}), messy hair strand over one eye, black turtleneck, centered, intense gaze. A bright and sharp horizontal red light illuminates only the eyes and reflects on the gray wall; the rest is in deep shadow. Dark, minimalist, and cinematic atmosphere.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "photo",
-        "default": "imported photo"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1792569133952_g3hqek_HVEsM2QWsAA3fMY.jpg",
-        "alt": "Dramatic Portrait with Red Light on Eyes",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Ibrahim Kamara · Travail & Argent",
-      "url": "https://x.com/Ibrakamara6"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Ibrakamara6/status/2112518312349368787"
-    },
-    "publishedAt": "2026-10-20T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=36721",
-    "contentHash": "2ee20bf1736878ff2a18717c5f9a90f5f5c15ba4"
-  },
-  {
-    "id": "gpt-image-2:36728",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "36728",
-    "title": "Serene Good Morning Watercolor Poster",
-    "category": "Social Media Post",
-    "description": "Generates a poetic Chinese-style good morning poster featuring watercolor canyon cliffs, a lone figure, and elegant bilingual typography.",
-    "promptText": "Create a vertical 3:4 poster in a serene, poetic Chinese minimalist style with watercolor textures and generous central whitespace. The background shows two towering cliffs on the left and right sides, painted in soft blue-gray tones with delicate pink and orange highlights, forming a narrow canyon that opens into a bright white misty center. At the bottom of the canyon stands a tiny solitary woman seen from behind, wearing a long light-colored coat and a flowing red scarf, walking toward the glowing opening.\n\nTypography layout:\n- Top-left corner: one large black serif Chinese character \"早\" (Morning).\n- Top-right corner: one large black serif Chinese character \"安\" (Peace), together reading \"早安\" (Good Morning).\n- Top-center small text block: \"2026 / 10/21 / WED\" followed by a short horizontal line, then three lines of spaced small Chinese text: \"新的一天\", \"比昨天更靠近\", \"想要的生活\".\n- Center vertical column of medium-sized black Chinese characters reading top to bottom: \"把平凡的每一天过成值得的\".\n- A handwritten cursive English phrase \"Good Morning\" in coral-orange ink sweeping diagonally across the middle of the image, overlapping the vertical text.\n- Below the vertical text, a centered small paragraph of three lines: \"更清醒的自己\", \"更踏实的节奏\", \"更靠近热爱的生活\", followed by a short divider line and four more tiny lines: \"不急不躁\", \"一步步走\", \"日子会给你\", \"想要的答案\".\n- Bottom edge: wide-tracked uppercase serif letters \"G O O D   M O R N I N G\" spanning the width, and beneath it a single line of small spaced Chinese text separated by thin vertical bars: \"清晨有光 | 步伐有力 | 生活有盼\".\n\nVisual style: clean editorial typography, airy composition, muted pastel palette dominated by white, pale blue, and soft peach, subtle paper grain texture, faint scattered orange speckles like petals or dust, calm and inspirational mood.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1792569137972_w1gvt2_HVHOI7HbsAAamk_.jpg",
-        "alt": "Serene Good Morning Watercolor Poster",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "小小东",
-      "url": "https://x.com/xiaoxiaodong"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/xiaoxiaodong/status/2112697054254543067#reversed-0"
-    },
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=36728",
-    "contentHash": "25bb942be6ebfa894ecde9c175ac4718e0e64b69"
   }
 ]
