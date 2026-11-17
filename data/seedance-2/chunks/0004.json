@@ -1,5 +1,38 @@
 [
   {
+    "id": "seedance-2:9659",
+    "sourceId": "seedance-2",
+    "tool": "Seedance 2",
+    "externalId": "9659",
+    "title": "Anime Character Good Morning Wake-up",
+    "category": null,
+    "description": "A comprehensive storyboard-style prompt for Seedance 2.5 designed to animate an anime girl waking up, stretching, and crawling towards the camera with specific camera locks and behavioral constraints.",
+    "promptText": "INPUT\nUse the attached reference image as the first frame of the video.\n\nFORMAT\n20 seconds, 24fps. No BGM. Only quiet indoor ambient sounds. Soft breathing sounds, rustling of clothes, and the faint sound of hands touching the floor.\n\nCAMERA LOCK\nCamera is completely fixed. No panning, tilting, zooming, or movement. One take. The angle only changes when the character themselves moves closer to the lens.\n\nFOCUS RULE\nThe focus is always on her body movements. No time is spent describing the background, light, or space. Ensure the screen is held by what she is doing at every moment. No single action lasts more than 3 seconds. Must move to the next action within 3 seconds. No moments of complete stillness.\n\nIDENTITY LOCK\nDo not change the face, hairstyle, hair color, eyes, or clothing from the first frame. Do not turn her into a different person.\n\nVISUAL STYLE\nMaintain the color tone, contrast, depth of field, and texture of the first frame throughout. Do not change the direction or intensity of the lighting.\n\nTIMELINE\n\n0.0-2.0s\nThe head drops forward and then lifts up with a start. The hair sways slightly delayed.\n\n2.0-4.0s\nRub one eye with the back of a clenched fist. Rub the other eye as well.\n\n4.0-6.0s\nA small stretch. The body leans to the side and then returns.\n\n6.0-8.0s\nEyes meet the lens. The neck tilts, and the upper body follows. The mouth opens slightly.\n\n8.0-10.0s\nPlace both hands on the floor in front, leaning the upper body forward. Hair falls forward from the shoulders.\n\n10.0-16.0s\nCrawls towards the lens on all fours. One hand at a time, the upper body swaying left and right with each movement. Hair sways beside the face. The face gradually gets larger in the frame. While approaching, eyes remain fixed on the lens.\n\n16.0-18.0s\nSuper close-up. The face occupies most of the screen. Corners of the mouth lift, eyes narrow, and says \"Good morning\" in a bright, bouncy voice.\n\n18.0-20.0s\nBacked away slightly. Eyes narrow into crescents, nose wrinkles, and cheeks lift. Shoulders sway slightly. Remains in that expression.\n\nNEGATIVE CONSTRAINTS\nCamera movement, zoom, and pan prohibited. No cuts. No periods of complete stillness. Prohibit single actions lasting more than 3 seconds. Prohibit using duration for background or scene descriptions. Poses, peace signs, winks, and blowing kisses prohibited. Quick or jumping movements prohibited. Standing up prohibited. Changing character identity prohibited. Real-life style conversion prohibited. No speech other than \"Good morning\".",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2090794906533212160/img/o4J6xVfUWKk3r79e.jpg",
+        "alt": "Anime Character Good Morning Wake-up",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "輪廻タヲ👁️‍🗨️👄👁️‍🗨️",
+      "url": "https://x.com/TaoRInne"
+    },
+    "source": {
+      "label": "Link",
+      "url": "https://x.com/TaoRInne/status/2090923147394519321"
+    },
+    "publishedAt": "2026-08-21T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/seedance-2-0-prompts?id=9659",
+    "contentHash": "1ae77dd9714948d960905e3717e4ddb757a18a9c"
+  },
+  {
     "id": "seedance-2:9654",
     "sourceId": "seedance-2",
     "tool": "Seedance 2",
@@ -4915,38 +4948,5 @@
     "publishedAt": "2026-08-14T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/seedance-2-0-prompts?id=9136",
     "contentHash": "d02d9332978ffeeef075f49bb9fe5f2cc1fce149"
-  },
-  {
-    "id": "seedance-2:9131",
-    "sourceId": "seedance-2",
-    "tool": "Seedance 2",
-    "externalId": "9131",
-    "title": "Modern Ninja Skyscraper Lobby Combat",
-    "category": null,
-    "description": "An action-packed video prompt for Seedance 2.5 featuring a combat sequence between a modern ninja and a female lead in a corporate lobby.",
-    "promptText": "[Asset Declaration]\n@ {{Mixed 1}} defines Pyona's face, hair, outfit, and overall style. @ {{Mixed 2}} defines the Ninja's face, hair, outfit, and accessories. \n\n[Summary]\nIn a modern building lobby, Ninja (@ {{Mixed 2}}) and Pyona (@ {{Mixed 1}}) engage in a high-speed cinematic action battle using swords, handguns, and shurikens.\n\n[Global Settings]\nEnvironment: Modern office lobby, polished marble floors, cold daylight through glass walls. Cinematic action film style, shallow depth of field, fine grain. Superhuman speed but grounded in weapon collisions (blocking, parrying).\n\n[Timestamp Storyboard]\n- 0-3s: Confrontation. Pyona fires her handgun; Ninja rushes.\n- 3-7s: Substitution. Bullet hits Ninja, who turns into a wooden log in a puff of wood chips.\n- 7-11s: Ambush. Ninja appears behind Pyona in smoke. Close-range weapon clash.\n- 11-21s: Close-quarters combat. A series of parries, gunshots to the ceiling, and sword blocks. They enjoy the fight.\n- 21-26s: Finisher. Ninja backflips and throws a shuriken. Tracking shot follows the shuriken as it pins Pyona's sleeve to the wall.\n- 26-30s: Ending. Close-up of Pyona smiling with interest at her opponent.\n\n[Consistency]\nExactly 2 people. Identity of Pyona and Ninja remains stable. Lobby structure and lighting consistent. No subtitles or BGM.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/amplify_video_thumb/2088250985097596928/img/jhCwKBoVpKUGN-mH.jpg",
-        "alt": "Modern Ninja Skyscraper Lobby Combat",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Pyona",
-      "url": "https://x.com/pyona_ai"
-    },
-    "source": {
-      "label": "Link",
-      "url": "https://x.com/pyona_ai/status/2088252499094647141"
-    },
-    "publishedAt": "2026-08-14T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/seedance-2-0-prompts?id=9131",
-    "contentHash": "0896bedf48b3943dacf57e340bbbdcd170042fdc"
   }
 ]

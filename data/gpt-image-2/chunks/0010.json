@@ -1,5 +1,200 @@
 [
   {
+    "id": "gpt-image-2:32291",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32291",
+    "title": "Glossy Tonkatsu Food Photo",
+    "category": "E-commerce Main Image",
+    "description": "A realistic close-up prompt for generating a Japanese tonkatsu plate with shredded cabbage and rich dark sauce.",
+    "promptText": "Create a realistic close-up food photograph of Japanese {argument name=\"dish name\" default=\"tonkatsu with dark demi-glace sauce\"} served on an oval rustic ceramic plate. The main subject is one breaded pork cutlet sliced into exactly 5 thick rectangular pieces, arranged diagonally from lower left to upper right, with crisp golden-brown panko breading and pale pork visible in the cut gaps. Pour a thick, glossy, very dark reddish-brown sauce generously across the center of all 5 cutlet pieces and let it pool heavily around the bottom half of the plate, with bright specular highlights and small chunky texture in the sauce. Behind the cutlet at the upper left, add a large mound of finely shredded {argument name=\"side garnish\" default=\"white cabbage\"} with exactly 3 thin orange carrot strips on top. Use a shallow depth of field, macro restaurant photography style, warm natural lighting, high detail, appetizing texture, and a slightly angled overhead view. The plate should be beige-gray stoneware with a dark rim and subtle speckles, sitting on a dark wooden table with a hint of warm orange background blur. No text, no utensils, no hands, no extra side dishes, no rice, no curry roux separate from the sauce.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "dish name",
+        "default": "tonkatsu with dark demi-glace sauce"
+      },
+      {
+        "name": "side garnish",
+        "default": "white cabbage"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787386285360_6b4hpv_HQP59-mb0AAlY07.jpg",
+        "alt": "Glossy Tonkatsu Food Photo",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小泉勝志郎",
+      "url": "https://x.com/koi_zoom1"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/koi_zoom1/status/2090789500230537702#reversed-0"
+    },
+    "publishedAt": "2026-08-21T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32291",
+    "contentHash": "41d67e9f29794b77e35c899aac0aa717bab69577"
+  },
+  {
+    "id": "gpt-image-2:32374",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32374",
+    "title": "Kawaii Jellyfish Sticker Sheet",
+    "category": "Game Asset",
+    "description": "Generates a 4×4 Japanese messaging sticker sheet of a cute orange jellyfish mascot with greeting, thanks, surprise, and tired expressions.",
+    "promptText": "Goal: Create a cute LINE-style animated sticker sprite sheet featuring a single mascot character, {argument name=\"character name\" default=\"orange jellyfish mascot\"}, with the appearance of a soft peach-orange jellyfish wearing a small cream seashell flower accessory on the upper left side of its bell. The character has glossy watercolor shading, rosy cheeks, rounded black eyes, a tiny smiling or expressive mouth, wavy tentacles, and clean dark reddish-brown outlines.\n\nCanvas: Square 1:1 image, about 1254×1254 px, arranged as a clean 4×4 sticker sheet on a light gray-and-white checkerboard background that looks like transparency. Leave even spacing between stickers and keep every sticker fully visible with no cropping.\n\nLayout: Use exactly 16 discrete sticker frames in a 4 columns × 4 rows grid. Each frame contains one jellyfish pose plus one white speech bubble with a dark reddish-brown outline and bold rounded Japanese text. Speech bubbles sit above each character, with a small tail pointing toward the jellyfish. Use orange motion marks, bubbles, and small emphasis lines where appropriate.\n\nSticker count and labels: Row 1 has 4 morning greeting stickers labeled 「おはよう!」: 1) front-facing happy jellyfish waving one tentacle, 2) smiling with closed crescent eyes and one long raised waving tentacle, 3) front-facing happy wave with small motion arcs, 4) rear/side view waving with the face partly turned away. Row 2 has 4 thank-you stickers labeled 「ありがとう!」: 5) shy bowing jellyfish with closed eyes and tentacles gathered, 6) straight-on deep bow with closed eyes, 7) small bowing pose with body lowered and side motion marks, 8) side-leaning bow with tentacles trailing to the right. Row 3 has 4 surprised stickers labeled 「びっくり!」: 9) front-facing wide-eyed shocked expression with small round mouth and orange exclamation mark, 10) similar front shocked pose with two emphasis marks, 11) smaller jellyfish startled upward with vertical speed lines beneath, 12) rear/side startled jump with bubbles and vertical motion lines. Row 4 has 4 tired stickers labeled 「おつかれさま」: 13) sleepy yawning jellyfish rubbing or holding a tentacle near the mouth, 14) larger yawning pose with closed eyes and drooping tentacles, 15) exhausted front pose with half-lidded eyes, small frown, and bubbles beside the head, 16) sleepy side-lying or drifting pose with closed eyes and open yawning mouth.\n\nVisual style: Kawaii Japanese sticker illustration, soft watercolor texture, warm coral-orange body, pale cream frilled rim, translucent tentacles, subtle highlights and blush, rounded shapes, polished digital art suitable for messaging stickers. Use consistent character design across all 16 frames.\n\nText content: Preserve the visible Japanese text exactly as shown: {argument name=\"morning text\" default=\"おはよう!\"}, {argument name=\"thank you text\" default=\"ありがとう!\"}, {argument name=\"surprise text\" default=\"びっくり!\"}, and {argument name=\"tired text\" default=\"おつかれさま\"}. The lettering should be thick, hand-drawn, rounded, dark brown, centered inside each bubble.\n\nConstraints: Exactly 16 stickers, exactly 4 columns and 4 rows, no extra characters, no watermark, no English text, no frame borders around individual stickers, keep the checkerboard background visible across the whole canvas as if it were transparent.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "orange jellyfish mascot"
+      },
+      {
+        "name": "morning text",
+        "default": "おはよう!"
+      },
+      {
+        "name": "thank you text",
+        "default": "ありがとう!"
+      },
+      {
+        "name": "surprise text",
+        "default": "びっくり!"
+      },
+      {
+        "name": "tired text",
+        "default": "おつかれさま"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472401244_v87szh_HQYDBnCbcAErbsT.jpg",
+        "alt": "Kawaii Jellyfish Sticker Sheet",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472401260_a4x5e9_HQYDB2faYAAgRaq.jpg",
+        "alt": "Kawaii Jellyfish Sticker Sheet",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472401230_f0mkl7_HQYDCCGa0AEAh9A.jpg",
+        "alt": "Kawaii Jellyfish Sticker Sheet",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Maki@Sunwood AI Labs.",
+      "url": "https://x.com/hAru_mAki_ch"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/hAru_mAki_ch/status/2091362413191057575#reversed-0"
+    },
+    "publishedAt": "2026-08-23T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32374",
+    "contentHash": "7210692a29a83279ebf1d680294d9b447df2fc88"
+  },
+  {
+    "id": "gpt-image-2:32348",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32348",
+    "title": "Ancient Chinese Fantasy Game Poster",
+    "category": "Game Asset",
+    "description": "A high-quality prompt for generating a 3D CG rendered game poster in ancient Chinese style, featuring a woman in a blue silk dress sitting in a pavilion.",
+    "promptText": "Aspect ratio: 21:9. Maintain high-completion 3D CG rendering media for an Oriental ancient style fantasy game promotion poster, low-saturation blue, white, gray, green and wood brown colors, warm soft courtyard light, delicate depth of field, and layered foreground texture. Change the protagonist to {argument name=\"character position\" default=\"a female ancient style character slightly above the middle right of the screen\"}, change to half-tied silver-black long hair and a light blue flower crown, face shape slightly round, eyes slightly drooping, gaze turned to the bird on the left, mouth with a slight smile; she wears a tight silk long robe in fog blue and ivory white and thicker layered skirt, with small metal decorations on the cuffs and waist belt, body sitting sideways on a higher wooden railing, left hand lightly touching the railing, right hand holding up a small golden bell ornament, skirt hem and hair ribbons fluttering to the lower right. The left side is changed to a blue-gray small bird perched on a cherry blossom branch, flower clusters are reduced but pink cherry blossom framing is kept; the background is changed to a semi-open water pavilion, keeping medium clarity for the tea ceremony, wooden beams, bonsai, and greenery on the right. The character's face, bell ornament, and hands are local sharpened focal points, edge petals and foreground branches and leaves are slightly soft-focused; the lower left retains a medium-sized calligraphy title and low-weight small text, the upper right retains a narrow vertical annotation and seal, text must not cover the face. Maintain gentle, ethereal, spring romance and flowing diagonal composition, avoid modern flat anime, real person photography, centered standing composition, over-saturation, title engulfing the subject, and background props becoming the protagonist.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character position",
+        "default": "a female ancient style character slightly above the middle right of the screen"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472376042_ncvun0_HQX787iaMAAyuWY.jpg",
+        "alt": "Ancient Chinese Fantasy Game Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472374376_rid8au_HQX787jbsAAlZ3-.jpg",
+        "alt": "Ancient Chinese Fantasy Game Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "波妞PONYO",
+      "url": "https://x.com/ponyodong"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/ponyodong/status/2091354925968298444"
+    },
+    "publishedAt": "2026-08-23T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32348",
+    "contentHash": "d5f50b579e43f27eba6a682e70bf998bfab09cd8"
+  },
+  {
+    "id": "gpt-image-2:32387",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32387",
+    "title": "Glitched Lost Save Anime Game Cover",
+    "category": "Game Asset",
+    "description": "A cyberpunk anime arcade cover prompt featuring a bugged protagonist, retro game HUD overlays, Japanese pixel text, and VHS glitch effects.",
+    "promptText": "Goal: Create a square cyberpunk anime game cover illustration styled like a corrupted retro arcade/VHS screen for {argument name=\"game title\" default=\"ロスト・セーブ\"}, with a dramatic close-up character reaching toward the viewer and a dense pixel UI overlay.\n\nCanvas: Square 1:1 composition, dark black background, neon cyan/blue/purple palette, glowing CRT border, scanlines, chromatic aberration, glitch artifacts, pixel dithering, slight fisheye perspective, high contrast cinematic lighting.\n\nMain subject: A young androgynous anime character named {argument name=\"player name\" default=\"ALOKU\"} leans forward from the center, holding a retro handheld game console/controller toward the camera in the lower left foreground. The hand and device are closest and slightly motion-blurred, while the face is sharp. The character has messy shoulder-length {argument name=\"hair color\" default=\"mint green hair fading into electric blue tips\"}, wet-looking strands, one eye partly hidden by bangs, a mischievous sharp-toothed grin, pale skin, small hoop/drop earrings, a black choker, layered dark streetwear, and a pendant necklace. Strong cyan rim light outlines the hair and shoulders.\n\nLayout and UI elements: Add exactly 14 visible retro game interface elements: 1 top-left “▶ PLAY” label, 1 top-right score block reading “HI-SCORE 00012026”, 1 pixel alien icon on the upper left, 1 player status block reading “1UP ALOKU”, 1 small square grid icon, 1 small star/spark icon, 1 hearts life meter with two filled hearts and three empty hearts, 1 tiny version label “ALOKU ver 1.00”, 1 vertical right-side text reading “INSERT ME IN YOUR HEART♡”, 1 speech bubble near the right center containing Japanese text “まだ 終われない。”, 1 vertical stack of four small skull icons, 1 “CHAPTER_01” block, 1 bottom choice prompt with two buttons “YES” and “NO”, and 1 bottom-left rarity badge reading “RARE”.\n\nText content: The main title must be large glowing pixel text across the lower center reading {argument name=\"game title\" default=\"ロスト・セーブ\"}, with the English subtitle “LOST SAVE” directly underneath. Below it add “> PRESS START_”. In the bottom right include small Japanese flavor text: “データが見つかりません だってボクは ‘バグった主人公’だから。” Bottom left under the RARE badge add two small bullet labels: “MUSIC JACKET” and “PIXEL EMO”.\n\nVisual style: Highly detailed anime key visual, glossy digital painting mixed with pixel art HUD, neon cyan typography, black and teal arcade interface, corrupted save-file aesthetic, emotional but playful bugged protagonist mood, dramatic depth of field, intense screen glow, tiny pixel noise, broken UI fragments, no clean modern UI.\n\nConstraints: Preserve the exact count of the 14 UI elements listed above, keep all text legible and positioned like a game start screen, avoid adding extra characters, avoid realistic photography, avoid watermark or logo unrelated to the design.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "game title",
+        "default": "ロスト・セーブ"
+      },
+      {
+        "name": "player name",
+        "default": "ALOKU"
+      },
+      {
+        "name": "hair color",
+        "default": "mint green hair fading into electric blue tips"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472410880_h2m69v_HQX5UOObkAAH85t.jpg",
+        "alt": "Glitched Lost Save Anime Game Cover",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "亞緑(あろく)",
+      "url": "https://x.com/aroku0626"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/aroku0626/status/2091351733050261773#reversed-0"
+    },
+    "publishedAt": "2026-08-23T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32387",
+    "contentHash": "71e1aa6e5bc1ce7b2b86a28373ff2f42a2bf5a90"
+  },
+  {
     "id": "gpt-image-2:32354",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6680,220 +6875,5 @@
     "publishedAt": "2026-08-20T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32014",
     "contentHash": "b0b75ca0a41bf8d54db456d16c7d79d77ac77453"
-  },
-  {
-    "id": "gpt-image-2:32021",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32021",
-    "title": "Candid Flash Photography Portrait",
-    "category": "Social Media Post",
-    "description": "A viral-style candid portrait prompt featuring a woman on a turquoise surface with a nostalgic digital-camera flash aesthetic.",
-    "promptText": "Ultra-realistic, irresistibly eye-catching candid portrait of a glamorous young woman lying sideways on a {argument name=\"background color\" default=\"rich turquoise-blue\"} surface, photographed from an intimate close-up angle with a slightly tilted composition. Her long, {argument name=\"hair style\" default=\"silky jet-black hair\"} naturally fans out around her head, with individual flyaway strands catching the flash. She has mesmerizing dark brown almond-shaped eyes with an intense yet playful gaze directly toward the camera, beautifully defined natural eyebrows, delicate feminine facial features, a softly sculpted nose, naturally glowing skin with realistic pores and subtle texture, soft rosy cheeks, and glossy vivid {argument name=\"lip color\" default=\"cherry-red\"} lips. She is caught in a spontaneous, radiant smile showing perfectly natural white teeth, creating an instantly warm and emotionally engaging expression. She wears a sleek black outfit with subtle patterned detailing and an elegant olive-green accent near the neckline. The vibrant turquoise background creates an exceptionally strong visual contrast against her black hair, dark outfit, glowing skin, and red lips. Viral visual direction: authentic candid energy, unexpected sideways composition, face filling most of the frame, powerful eye contact, irresistible smile, bold red-lip/turquoise color contrast, nostalgic digital-camera flash aesthetic, slightly imperfect framing that feels spontaneous rather than staged, realistic skin and hair, tiny natural imperfections, genuine emotion, visually addictive composition designed to make viewers stop scrolling. Direct on-camera flash, dramatic specular highlights, crisp facial details, subtle motion in loose hair strands, realistic shadows, high dynamic range, cinematic color depth, natural skin tones, shallow depth of field, sharp focus on both eyes and lips, professional fashion-editorial photography blended with nostalgic early-2000s candid photography. Photorealistic, ultra-detailed, 8K, premium editorial quality, authentic human appearance, no plastic skin, no excessive retouching, no artificial face, no distorted anatomy, no extra fingers, no warped features, no text, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "background color",
-        "default": "rich turquoise-blue"
-      },
-      {
-        "name": "hair style",
-        "default": "silky jet-black hair"
-      },
-      {
-        "name": "lip color",
-        "default": "cherry-red"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213770513_l564f9_HQIfuR9bwAAuNAb.jpg",
-        "alt": "Candid Flash Photography Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213770524_qmav5e_HQIfvOWacAAMwrP.jpg",
-        "alt": "Candid Flash Photography Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Jahan Zaib",
-      "url": "https://x.com/jzaib4269"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/jzaib4269/status/2090268085987267020"
-    },
-    "publishedAt": "2026-08-20T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32021",
-    "contentHash": "9bb5bd3025de2ecfc9cdc0fa69a8cdf7caa95901"
-  },
-  {
-    "id": "gpt-image-2:32059",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32059",
-    "title": "Giant Ice Cream Construction Scene",
-    "category": "Social Media Post",
-    "description": "A whimsical cinematic prompt for generating a miniature construction crew building a colossal vanilla soft-serve cone in a snowy landscape.",
-    "promptText": "Create a cinematic vertical surreal miniature construction scene: a colossal {argument name=\"dessert subject\" default=\"vanilla soft-serve ice cream cone\"} towers from a snowy white landscape like an architectural megaproject, centered in frame. The cone is a realistic golden waffle cone with deep grid texture, and the enormous spiral of glossy white soft-serve rises above it in stacked ridges, snowy and creamy at the same time. Around it are exactly 17 tiny construction workers in orange hard hats and safety gear, each doing a distinct task: 1 worker in a boom lift spraying white ice-cream/snow onto the upper left swirl, 1 worker near the peak holding a tool, 1 worker standing at the very top with a vertical pole, 1 worker on the upper left ridge climbing/inspecting, 1 worker on the upper front ridge smoothing the surface, 1 worker on the right upper ridge working with a tool, 1 worker on the left side carrying or bracing a ladder, 1 worker on the center ridge chiseling, 1 worker suspended at the right side by cables, 1 worker on a hanging platform at the right gesturing while spraying crumbs, 1 worker standing on the snowy ridge near the cone, 1 worker at the base of the cone digging, 1 worker walking in front of the cone, 1 worker beside the foreground loader, 1 worker near the excavator arm, 1 worker at the lower right edge, and 1 worker near the dump truck. Include exactly 6 construction machines or equipment items: 1 yellow telescoping boom lift on the left, 1 yellow bulldozer/loader at bottom left, 1 yellow excavator at bottom center-right, 1 orange dump truck filled with white material at lower right, 1 small backhoe/loader on the right ridge, and 1 suspended work platform hanging from crane cables on the right. Add two tall ladders leaning against the cone and ice cream, cable lines on the right, piles of shaved ice/snow covering the ground, and drifting white spray where workers are carving or applying material. Background: rich blue sky with puffy cumulus clouds, bright daylight, crisp shadows, whimsical yet photorealistic scale contrast, high detail, tilt-shift miniature feel, no text, no logos. Present the image inside a centered tall rounded-rectangle frame on a clean white page, with generous white margin around the artwork, as if it is a vertical poster or social media card. Use {argument name=\"aspect ratio\" default=\"4:5 vertical\"} composition, ultra-detailed cinematic lighting, realistic textures, vibrant colors, playful fantasy realism.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "dessert subject",
-        "default": "vanilla soft-serve ice cream cone"
-      },
-      {
-        "name": "aspect ratio",
-        "default": "4:5 vertical"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213827833_htifbi_HQIfBvkaoAA3L8b.jpg",
-        "alt": "Giant Ice Cream Construction Scene",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Alina Ai",
-      "url": "https://x.com/Alina_with_Ai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Alina_with_Ai/status/2090267550521385012#reversed-0"
-    },
-    "publishedAt": "2026-08-20T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32059",
-    "contentHash": "130ee06050d24b28eaa67e88dbd0b8ede3fb8bdb"
-  },
-  {
-    "id": "gpt-image-2:32029",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32029",
-    "title": "Monochromatic Minimalist Greeting Poster",
-    "category": "Social Media Post",
-    "description": "A design prompt for creating global morning greeting posters, featuring a narrow vertical imagery band, large monochromatic whitespace, and structured architectural typography.",
-    "promptText": "Task: Extract a core character that can be compressed into a silhouette or single object, placed at the bottom of a narrow, silent vertical image strip, surrounded by large light gray blank space. The primary visual is a cool imbalance between a tall empty gray entity on the left and sparse text on the right. Content appears at the bottom on a small scale. Uses monochromatic grayscale, low contrast, matte paper, and fine print noise. Text systems function as architectural elements; main titles use heavy geometric sans-serif fonts with compressed spacing. Auxiliary info is tiny and loose. Avoid color, dramatic lighting, or commercial layouts. Theme: Good Morning + Greeting + {argument name=\"city landmark\" default=\"city\"} + Quote + Weather + {argument name=\"date\" default=\"2026-08-20\"}.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "city landmark",
-        "default": "city"
-      },
-      {
-        "name": "date",
-        "default": "2026-08-20"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213780115_94fxx4_HQIMwyQaUAA_tsI.jpg",
-        "alt": "Monochromatic Minimalist Greeting Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213779936_shopqv_HQIMyUQagAA0w7b.jpg",
-        "alt": "Monochromatic Minimalist Greeting Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213779996_me5gx6_HQIM0DzbAAAQsFA.jpg",
-        "alt": "Monochromatic Minimalist Greeting Poster",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213780895_s7sg51_HQIM28ZbMAAIDfG.jpg",
-        "alt": "Monochromatic Minimalist Greeting Poster",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "小小东",
-      "url": "https://x.com/xiaoxiaodong01"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/xiaoxiaodong01/status/2090247658107777506"
-    },
-    "publishedAt": "2026-08-20T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32029",
-    "contentHash": "407fd829a7d1e4cb3e05b31ccd5bf12b6e96fbbf"
-  },
-  {
-    "id": "gpt-image-2:32066",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32066",
-    "title": "GeoPT Physics Simulation Overview Slide",
-    "category": "Infographic / Edu Visual",
-    "description": "A structured prompt for generating a polished scientific slide that explains GeoPT pre-training for physics simulation with a three-column visual pipeline.",
-    "promptText": "Goal: Create a clean 16:9 academic overview slide explaining {argument name=\"paper concept\" default=\"GeoPT: Scaling Physics Simulation via Lifted Geometric Pre-Training\"}, styled like a polished conference-deck infographic.\n\nCanvas: Widescreen white slide, navy-blue typography and accents, minimal shadows, high-resolution scientific illustration style. Use a thin blue footer line with small circular endpoints.\n\nHeader: Large bold dark-navy title at the top: {argument name=\"headline text\" default=\"GeoPT: Scaling Physics Simulation via Lifted Geometric Pre-Training\"}. Directly underneath, smaller blue subtitle: {argument name=\"subtitle text\" default=\"An intuitive overview of Wu et al. (2026)\"}.\n\nBig idea banner: Under the subtitle, place a rounded rectangle callout with a blue outline and very pale blue fill. On the left is a blue circular lightbulb icon. Text reads: “Big idea:” in bold blue, followed by “use abundant 3D geometry and synthetic motion to pre-train neural simulators before using scarce real simulation data.”\n\nMain layout: A three-column pipeline with exactly 4 rows, connected left-to-right by thick blue arrows. Column headings are: “3D Geometry”, “Physics Simulation (examples)”, and “Fields (pressure / velocity / stress)”. The left side also has 4 row labels: 1) Car, 2) Aircraft, 3) Ship hull, 4) Crash / Deformation.\n\nRow details: Row 1 shows a gray 3D car model, then a car in airflow simulation with blue streamlines and colorful vortices plus a small “t →” time marker, then a car colored with a rainbow heatmap field and a vertical color legend labeled “Pressure” with High at top and Low at bottom. Row 2 shows a gray aircraft model, then an airplane with airflow streamlines and colored wakes plus “t →”, then a rainbow heatmap aircraft with a legend labeled “Velocity” High/Low. Row 3 shows a gray ship hull model, then a ship hull moving through ocean waves with simulated water flow plus “t →”, then a rainbow heatmap ship hull with a legend labeled “Pressure” High/Low. Row 4 shows a damaged gray car body for crash/deformation, then a crash simulation with debris, deformation, and internal colored stress/field visualization plus “t →”, then a rainbow heatmap deformed car body with a legend labeled “Stress” High/Low.\n\nBottom explanation strip: Include exactly 3 circular icon-and-caption blocks connected by dotted blue arrows. Block 1 icon is a wireframe cube and title “Abundant geometry”, caption “Easily available 3D shapes from CAD repositories”. Block 2 icon is wind/flow lines and title “Synthetic dynamics”, caption “Scalable simulations produce diverse motion and fields”. Block 3 icon is a neural network graph and title “Better physics simulators”, caption “Pre-trained models that generalize better with limited real data”.\n\nFooter: Centered small gray citation text: {argument name=\"source citation\" default=\"Source paper: Haixu Wu et al., arXiv:2602.20399 (2026)\"}.\n\nVisual style: Crisp vector-slide composition mixed with realistic 3D renders, blue academic palette, white background, precise alignment, no clutter, no watermark, no extra rows or icons beyond the specified counts.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "paper concept",
-        "default": "GeoPT: Scaling Physics Simulation via Lifted Geometric Pre-Training"
-      },
-      {
-        "name": "headline text",
-        "default": "GeoPT: Scaling Physics Simulation via Lifted Geometric Pre-Training"
-      },
-      {
-        "name": "subtitle text",
-        "default": "An intuitive overview of Wu et al. (2026)"
-      },
-      {
-        "name": "source citation",
-        "default": "Source paper: Haixu Wu et al., arXiv:2602.20399 (2026)"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213832626_r2huod_HQG6_xEXYAAu-TN.jpg",
-        "alt": "GeoPT Physics Simulation Overview Slide",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213832592_a1wy70_HQG7En2WYAAjGx7.jpg",
-        "alt": "GeoPT Physics Simulation Overview Slide",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213832631_lg1rlp_HQG7G0jWAAAQXGA.jpg",
-        "alt": "GeoPT Physics Simulation Overview Slide",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213834954_ainwqa_HQG7JGLXIAASZA8.jpg",
-        "alt": "GeoPT Physics Simulation Overview Slide",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Yared W. Bekele",
-      "url": "https://x.com/yaredwb"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/yaredwb/status/2090157854938280429#reversed-0"
-    },
-    "publishedAt": "2026-08-19T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32066",
-    "contentHash": "0f936527a4935585ee3003b606e7c8e8dfc1d04d"
   }
 ]

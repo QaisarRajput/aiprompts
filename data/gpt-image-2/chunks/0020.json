@@ -1,5 +1,202 @@
 [
   {
+    "id": "gpt-image-2:29154",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29154",
+    "title": "Blue Hour Balcony Selfie Portrait",
+    "category": "Profile / Avatar",
+    "description": "Generates a realistic blue-hour balcony selfie portrait with natural skin texture and a minimalist editorial text overlay.",
+    "promptText": "Create a photorealistic vertical 4:5 smartphone selfie portrait at blue hour on an outdoor balcony. A young East Asian woman with {argument name=\"hair color and style\" default=\"shoulder-length dark brown tousled hair with soft face-framing bangs\"} is framed from the chest up with a wide-angle front-camera perspective, her right arm extended toward the camera so the sleeve is large in the foreground. She looks off to the viewer’s right with a calm, slightly wistful expression, glossy lips, natural makeup, visible skin texture, subtle cheek highlights, and realistic pores. She wears {argument name=\"outfit\" default=\"a cream ribbed off-shoulder long-sleeve knit top\"}, a delicate thin necklace, and small dark green hoop earrings. Lighting: deep blue twilight sky and clouds behind her, dark silhouetted trees and balcony/building lights in the background, but her face and upper body are lit by close soft phone fill/HDR flash, preserving natural skin tone, gentle specular highlights on nose, lips, cheeks, and collarbones, and a clear separation between warm foreground skin and cool blue environment. Composition: subject centered slightly right, head near upper third, shoulders diagonal, balcony railing and dark rooftops receding behind, shallow depth of field with mild phone-camera distortion, high dynamic range, crisp realistic detail, no beauty-filter plastic skin. Add a minimalist editorial overlay at the bottom left: exactly 2 text lines reading “{argument name=\"main label\" default=\"WILDCORE / VOL.01\"}” and “{argument name=\"caption line\" default=\"TEST 02 / V01 / BLUE-HOUR FILL / NATURAL SKIN\"}”; include exactly 2 graphic elements: one thin white horizontal rule stretching across the lower frame and one short orange dash at the left under the first line. Use clean small uppercase white sans-serif typography, cinematic lifestyle photography, natural color grading, no watermark, no extra text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color and style",
+        "default": "shoulder-length dark brown tousled hair with soft face-framing bangs"
+      },
+      {
+        "name": "outfit",
+        "default": "a cream ribbed off-shoulder long-sleeve knit top"
+      },
+      {
+        "name": "main label",
+        "default": "WILDCORE / VOL.01"
+      },
+      {
+        "name": "caption line",
+        "default": "TEST 02 / V01 / BLUE-HOUR FILL / NATURAL SKIN"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784450568261_dph0m8_HNgr14caoAAuToy.jpg",
+        "alt": "Blue Hour Balcony Selfie Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "WILDCORE",
+      "url": "https://x.com/wildcore_stuido"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/wildcore_stuido/status/2078459903241576944#reversed-0"
+    },
+    "publishedAt": "2026-07-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29154",
+    "contentHash": "e38db5e500e8568d428906af763a909df8bf6a00"
+  },
+  {
+    "id": "gpt-image-2:29082",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29082",
+    "title": "B&W Photobooth Contact Sheet",
+    "category": "Profile / Avatar",
+    "description": "Generates a 16-panel black-and-white photobooth contact sheet while maintaining strict identity consistency from a reference photo.",
+    "promptText": "Create a square 4x4 black-and-white photobooth contact sheet using the uploaded person as a strict identity reference. Preserve their exact face, recognizable features and hairstyle across all 16 portraits. Same {argument name=\"outfit\" default=\"black T-shirt\"}, {argument name=\"background\" default=\"gray backdrop\"}, frontal flash, tight head-and-shoulders framing, natural skin, sharp eyes, high contrast, subtle analog grain and thin white gutters.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "outfit",
+        "default": "black T-shirt"
+      },
+      {
+        "name": "background",
+        "default": "gray backdrop"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784450515524_uk9qt0_HNggCFBW0AA9PGN.jpg",
+        "alt": "B&W Photobooth Contact Sheet",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784450515538_e1u3e9_HNggCE1WgAAPSai.jpg",
+        "alt": "B&W Photobooth Contact Sheet",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "H A J R A",
+      "url": "https://x.com/codewithhajra"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/codewithhajra/status/2078446454029345158"
+    },
+    "publishedAt": "2026-07-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29082",
+    "contentHash": "791d4d0d9583585a436a6ee157ffe290b4b84ca1"
+  },
+  {
+    "id": "gpt-image-2:29148",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29148",
+    "title": "Semi-Realistic Fashion Studio Cover",
+    "category": "Profile / Avatar",
+    "description": "A vertical editorial magazine-cover style image of a semi-realistic anime-inspired swimsuit model in dramatic studio sunlight.",
+    "promptText": "Create a vertical fashion editorial cover image featuring a semi-realistic anime-inspired young woman posing in a sunlit studio. She has {argument name=\"hair color\" default=\"long tousled black hair\"}, pale glowing skin, delicate facial features, soft glossy lips, and a calm sultry expression. She wears a minimal {argument name=\"swimsuit color\" default=\"black\"} high-cut one-piece swimsuit with thin shoulder straps. Her pose is full-body and elegant: standing barefoot on white draped fabric, one knee bent forward, one hand resting on her thigh, the other hand placed at her waist/hip, torso slightly leaning, head tilted toward the viewer. Use polished semi-realistic AI illustration rendering with fashion-photography lighting, smooth skin highlights, subtle anatomy stylization, and refined manga beauty aesthetics. The background is a warm beige studio wall with a large diagonal rectangle of sunlight and strong window-frame shadows; include her crisp cast shadow on the wall to the right and soft folds of white fabric on the floor. Add tiny floating dust/sparkle flecks in the light. Compose like a magazine cover with large white high-contrast serif masthead text across the very top reading {argument name=\"studio name\" default=\"CHIYF STUDIO\"}. Under the masthead, add a thin horizontal rule and small uppercase subtitle text: {argument name=\"tagline text\" default=\"SEMI-REALISTIC AI VISUALS    EDITORIAL PORTRAITS • EST. 2026\"}. Keep the model centered, crop just above the head under the title area and at the feet, use a warm neutral color palette, premium editorial poster design, no extra logos, no watermark, no additional text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "long tousled black hair"
+      },
+      {
+        "name": "swimsuit color",
+        "default": "black"
+      },
+      {
+        "name": "studio name",
+        "default": "CHIYF STUDIO"
+      },
+      {
+        "name": "tagline text",
+        "default": "SEMI-REALISTIC AI VISUALS    EDITORIAL PORTRAITS • EST. 2026"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784450562517_p33gim_HNgJPuJaEAA1_xa.jpg",
+        "alt": "Semi-Realistic Fashion Studio Cover",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "千叶照相馆",
+      "url": "https://x.com/Chiyeaiart"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Chiyeaiart/status/2078421592409837809#reversed-0"
+    },
+    "publishedAt": "2026-07-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29148",
+    "contentHash": "fab9915b6a28a6b5a6fa9ad2ce1522c33ac0a65a"
+  },
+  {
+    "id": "gpt-image-2:29125",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29125",
+    "title": "Anime Strawberry 1500 Celebration Cake",
+    "category": "Profile / Avatar",
+    "description": "A warm anime-style celebration portrait featuring a smiling girl presenting a strawberry cake marked 1500, ideal for follower milestone thank-you visuals.",
+    "promptText": "Create a warm, cinematic anime-style celebration portrait: a beautiful young woman with {argument name=\"hair color\" default=\"long wavy chestnut-brown hair\"} and golden eyes leans forward behind a large round strawberry shortcake, smiling gently and holding both hands open toward the viewer as if presenting the cake. The cake is covered in cream frosting, piped rosettes, and many glossy strawberries; the number {argument name=\"cake number\" default=\"1500\"} is written large on top using small red strawberries, with an additional ring of strawberries around the top edge and sliced strawberries decorating the side. She wears an off-shoulder ivory lace dress with delicate floral texture, dangling earrings, and a small gold necklace. Set the scene indoors at a cozy party table with lace cloth, glowing amber bokeh lights, soft floating sparkles, and warm backlighting. In the background on the upper left, include metallic bronze balloons with readable celebration text: {argument name=\"balloon text\" default=\"1500 Thank you!!\"}. Add a small semi-transparent watermark text {argument name=\"watermark text\" default=\"CapCut AI\"} in the upper-left corner. Use a vertical 3:4 composition, close-up perspective, shallow depth of field, rich golden highlights, highly detailed semi-realistic anime rendering, romantic celebratory atmosphere, and no extra characters.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "long wavy chestnut-brown hair"
+      },
+      {
+        "name": "cake number",
+        "default": "1500"
+      },
+      {
+        "name": "balloon text",
+        "default": "1500 Thank you!!"
+      },
+      {
+        "name": "watermark text",
+        "default": "CapCut AI"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784450547843_k4sn30_HNgBFraasAAvZNS.jpg",
+        "alt": "Anime Strawberry 1500 Celebration Cake",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "春永睦月　Harunaga Mutsuki",
+      "url": "https://x.com/HarunagaMutsuki"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/HarunagaMutsuki/status/2078412651630342343#reversed-0"
+    },
+    "publishedAt": "2026-07-18T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29125",
+    "contentHash": "5b0b67ba3ec429dd4e8bcdc54df42403ac72dbcb"
+  },
+  {
     "id": "gpt-image-2:29095",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6931,169 +7128,5 @@
     "publishedAt": "2026-07-16T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28922",
     "contentHash": "408ad709ac8be1abe0d817bb5008d908bae5fc8a"
-  },
-  {
-    "id": "gpt-image-2:28936",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28936",
-    "title": "Cute Black Toy Poodle Collage",
-    "category": "Infographic / Edu Visual",
-    "description": "Generates a cozy annotated photo-collage introducing an energetic black toy poodle puppy for social media pet posts.",
-    "promptText": "Goal: Create a cute scrapbook-style photo collage introducing a tiny black toy poodle puppy named {argument name=\"dog name\" default=\"ぐり\"}, with playful handwritten Japanese annotations and heart/paw doodles.\n\nCanvas: Landscape 3:2 image, warm indoor lighting, cozy pet-room setting with beige fleece bedding and black metal crate bars in the background. Use realistic smartphone-style puppy photos combined into a clean collage, with thin white dividers between panels.\n\nLayout: Use exactly 5 photo panels. Panel 1 is a large top-left close-up of the black puppy biting a human finger, showing huge glossy eyes, fluffy curly black fur, long floppy ears, and a tiny muzzle. Panel 2 is a top-right action shot of the puppy jumping or bouncing on a beige pet bed with ears flying outward and mouth open. Panel 3 is a bottom-left full-body shot of the puppy standing on a soft beige blanket, facing forward. Panel 4 is a bottom-center close-up of the puppy gently mouthing a hand, tilted head, fluffy ears framing the face. Panel 5 is a large bottom-right action shot of the puppy running or leaping across the bed with one front paw stretched forward, ears flying, mouth open excitedly.\n\nCentral text block: Place a black cloud-shaped label near the upper center overlap area. In small handwritten white text above it write 「なまえは」, then large white text 「ぐり」 with a white paw-print icon beside the name. Below the name area, add exactly 4 white handwritten bullet points with heart bullets: 「足がちょっと短い」, 「すっごい暴れる」, 「コヤの中が大すき♡」, 「とにかく、かわいい。」\n\nHandwritten annotations: Add exactly 10 playful white handwritten Japanese callouts with black shadow/outline and small arrows or doodles: 1) near the top-left puppy ear, 「耳がちょっと上にある」 with an arrow pointing to the ear; 2) near the top center over the fluffy head/ear area, 「耳がでかい!! 毛がすっごく長いの♡」; 3) near the biting finger in the top-left panel, 「指を噛んでくる!!」 with an arrow; 4) near the bottom-left standing puppy, 「あそぼ!!」; 5) near the bottom-center hand-biting puppy, 「がぶっ♡」; 6) near the top-right jumping puppy, a small puff doodle; 7) near the top-right/bottom-right area, a simple motion doodle; 8) near the right side of the collage, 「コヤの中ですっごい暴れる!!」; 9) near the top of the bottom-right action panel, 「うぉぉぉー!!」; 10) near the bottom-right running puppy, a small motion-swoosh doodle.\n\nSubject details: The puppy is a very small black toy poodle with extremely fluffy curly fur, oversized floppy ears, shiny round black eyes, a short muzzle, tiny legs, and an energetic mischievous personality. Keep the dog adorable, lively, and slightly chaotic.\n\nVisual style: Realistic pet photography collage with cute social-media annotation style, white hand-drawn lettering, black drop shadows, little hearts, arrows, paw print, and motion doodles. The overall mood is affectionate, funny, and cozy.\n\nConstraints: Use exactly 5 photo panels and exactly the listed text elements. Do not add extra dogs, extra panels, logos, watermarks, or unrelated text. Keep the Japanese text legible and handwritten.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "dog name",
-        "default": "ぐり"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784278017937_ph6b9l_HNUJVlwagAAsLz6.jpg",
-        "alt": "Cute Black Toy Poodle Collage",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "がちもとさん",
-      "url": "https://x.com/sotongshi"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/sotongshi/status/2077577211058782452#reversed-0"
-    },
-    "publishedAt": "2026-07-16T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28936",
-    "contentHash": "3e3cd5d49be7c7af029a8694efee0fb7739cb53e"
-  },
-  {
-    "id": "gpt-image-2:28933",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28933",
-    "title": "Retro 2.5D Anime CRT Girl",
-    "category": "YouTube Thumbnail",
-    "description": "A cinematic retro anime thumbnail featuring a sharp-toothed gothic girl in a VHS-styled analog electronics room.",
-    "promptText": "Create a retro 2.5D anime thumbnail in a cinematic 16:9 frame, showing a close-up of {argument name=\"character name\" default=\"a mischievous gothic anime girl\"} leaning toward the camera in a cluttered analog electronics room. She has long straight {argument name=\"hair color\" default=\"black hair\"} with blunt bangs, teal-green eyes, pale skin, small blush marks, pointed ears, and a wide unsettling grin with sharp triangular teeth. She wears a black top and a thin black choker, with her face centered and dominating the composition, shoulders cropped at the bottom, direct eye contact, playful but eerie expression. The background is a dim retro tech studio with exactly two visible CRT televisions: one large CRT on the left displaying bright cyan static and one darker CRT on the lower right with a small blue glow; include shelves, cables, ceiling pipes, hanging wires, old equipment, and a high window with washed-out daylight. Use a NORINORI CORE-inspired retro 2.5D aesthetic: cel-shaded anime character over a semi-realistic grungy room, thick ink outlines, muted olive-gray shadows, teal and magenta chromatic aberration along edges, VHS scanline noise, slight fisheye wide-angle distortion, low-light atmosphere, crisp face details, gritty analog texture, 1990s cyberpunk anime mood. Keep the image text-free, no logos, no watermark, no extra characters.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "a mischievous gothic anime girl"
-      },
-      {
-        "name": "hair color",
-        "default": "black hair"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784278016278_pdv4tg_HNYup1JaIAApYy-.jpg",
-        "alt": "Retro 2.5D Anime CRT Girl",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Yosuke Yamaguchi",
-      "url": "https://x.com/yamy"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/yamy/status/2077900055839989933#reversed-0"
-    },
-    "publishedAt": "2026-07-16T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28933",
-    "contentHash": "b975ffc7b17de04d7b18d1ee7b2a1112a69fabe2"
-  },
-  {
-    "id": "gpt-image-2:28941",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28941",
-    "title": "Cosplay to Elfaria Anime Key Visual",
-    "category": "Comic / Storyboard",
-    "description": "Transforms a character cosplay reference into a polished fantasy anime portrait with a forest clearing, flowing hair, and cinematic sunlight.",
-    "promptText": "Using the provided reference image as the character base, transform the cosplay photo into a polished 2D anime key visual of {argument name=\"character name\" default=\"Elfaria Albis Serfort\"}. Keep the recognizable pale blue long hair, blue eyes, white-and-gold fantasy dress, off-shoulder sleeves, thigh-high stockings, and blue chest gem consistent with the reference, but redraw everything in clean high-quality anime line art with soft cel shading and luminous highlights.\n\nChange the pose and framing: make her appear in a graceful upright seated pose near the same outdoor tree setting, hands gently clasping the skirt at the knees, looking toward the viewer with a calm soft smile. Let her long hair flow dramatically to the left as if caught by a breeze.\n\nBackground additions: create an idealized bright forest clearing with a tree trunk on the right, leafy canopy above, strong diagonal sunbeams from the upper left, soft blue sky glow, white daisies near the lower edge, and a few drifting white flower petals. Use a vertical portrait composition, close-to-medium framing, vibrant fantasy-anime lighting, crisp details, and a romantic ethereal atmosphere. Avoid photorealism; make it look like an official anime illustration.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "Elfaria Albis Serfort"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784278021027_cayxnv_HNUkobSbkAAzHfh.jpg",
-        "alt": "Cosplay to Elfaria Anime Key Visual",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "AIAI.COM",
-      "url": "https://x.com/Aiaicom09"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Aiaicom09/status/2077773248503390548#reversed-0"
-    },
-    "publishedAt": "2026-07-16T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28941",
-    "contentHash": "c8e14dd4324e9b7d089a5f3912d174cc180097aa"
-  },
-  {
-    "id": "gpt-image-2:28864",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28864",
-    "title": "Miniature Man Household Survival Collage",
-    "category": "Comic / Storyboard",
-    "description": "A cinematic macro prompt creating a 6-panel collage of a tiny man facing humorous survival challenges against giant household items.",
-    "promptText": "Ultra-realistic cinematic macro miniature photography, a {argument name=\"layout\" default=\"6-panel vertical collage (2×3 grid)\"} featuring the same {argument name=\"character\" default=\"tiny stylized man\"} in every panel. He is finger-sized, with a slightly oversized head, expressive exaggerated facial expressions, short dark hair, trimmed beard, {argument name=\"clothing\" default=\"colorful Hawaiian shirt, yellow shorts, red sneakers\"}. Every panel tells a different humorous survival story where ordinary household objects become enormous life-threatening obstacles. Hyper-realistic textures, shallow depth of field, dramatic cinematic lighting, warm color grading, ultra-detailed skin and fabric, realistic proportions, DSLR macro lens, 85mm macro photography, f/2.8, volumetric lighting, HDR, 8K, photorealistic, Pixar-level facial expression but realistic human textures, consistent character design across all panels. Scene 1 – Giant Iced Coffee: The tiny man desperately clings to the slippery rim of a gigantic iced coffee mug covered with water droplets while huge ice cubes float beside him and an oversized green straw towers above. His terrified expression suggests he's about to fall into the drink. Scene 2 – Toothpaste Disaster: Inside a bathroom, the tiny man struggles to hold an enormous wooden toothbrush like a spear while a giant toothpaste tube squeezes out a massive wave of toothpaste toward him like a slow avalanche. Scene 3 – Remote Control Hanging: The tiny man hangs desperately from the edge of a gigantic TV remote control suspended above a sofa. His legs swing in the air while a blurred television glows in the background and a bowl of popcorn sits nearby. Scene 4 – Fighting Time: The tiny man braces himself with both hands against the minute hand of a gigantic vintage alarm clock, pushing with all his strength as if trying to stop time. His face shows panic and determination. Scene 5 – Burger Battle: Standing beside an enormous juicy cheeseburger, the tiny man grips a kitchen knife almost his own height, preparing to attack the giant burger with an exaggerated heroic expression. Giant crumbs scatter across the wooden table. Scene 6 – Washing Machine Flood: The tiny man rides a small yellow rubber duck through raging soapy water pouring from the open door of a massive washing machine. He reaches one hand toward the viewer in terror while white foam splashes dramatically around him. Negative Prompt: low quality, blurry, cartoon, anime, CGI, duplicate character, inconsistent face, deformed anatomy, extra limbs, bad hands, bad eyes, watermark, logo, text, oversaturated colors, flat lighting, unrealistic physics, cropped composition, low detail, noise, artifacts.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "layout",
-        "default": "6-panel vertical collage (2×3 grid)"
-      },
-      {
-        "name": "character",
-        "default": "tiny stylized man"
-      },
-      {
-        "name": "clothing",
-        "default": "colorful Hawaiian shirt, yellow shorts, red sneakers"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784277963051_m8tv6i_HNW5cFgbMAEKV1t.jpg",
-        "alt": "Miniature Man Household Survival Collage",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Nomi AI",
-      "url": "https://x.com/AiwithNomi"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AiwithNomi/status/2077770705706574271"
-    },
-    "publishedAt": "2026-07-16T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28864",
-    "contentHash": "22c50c59e97b7d461ad3f5ead3d0261db1fe5247"
   }
 ]

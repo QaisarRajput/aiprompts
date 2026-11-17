@@ -1,5 +1,195 @@
 [
   {
+    "id": "gpt-image-2:30111",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30111",
+    "title": "Premium Branding Poster Design",
+    "category": "Product Marketing",
+    "description": "A sophisticated poster-style prompt using a reference image to create a high-end fashion campaign look with double exposure and motion effects.",
+    "promptText": "Create a premium cinematic poster-style portrait of the {argument name=\"subject\" default=\"uploaded person\"} in a {argument name=\"background\" default=\"clean beige studio environment\"}, aspect ratio 4:5. The composition closely follows the reference design. A large side-profile portrait of the uploaded person dominates the background, occupying approximately 70-75% of the frame height, facing left with a calm, confident expression. Behind the large portrait, add strong horizontal motion blur streaks extending toward the right side, creating a dynamic sense of movement. In the foreground, place a smaller full-body version of the uploaded person standing in front of the larger portrait, occupying approximately 30-35% of the frame height. He is wearing stylish beige-tan casual clothing matching the reference aesthetic: a relaxed overshirt/jacket, light-wash loose-fit jeans, and casual sneakers. Add modern transparent eyeglasses. Both hands are casually tucked into his trouser pockets. His stance matches the reference exactly: one leg crossed naturally in front of the other, leaning slightly with a relaxed, confident posture. He is looking slightly toward the brand text area rather than directly at the camera. Place a large modern branding text element behind the foreground figure, partially obscured by his body, using the word \"{argument name=\"brand text\" default=\"PROMPT\"}\" in bold futuristic typography. The text should feel integrated into the design, with subtle transparency and layered depth effects. Add minimal geometric UI-style design elements and soft translucent panels around the text area for a contemporary creative-director look. Soft editorial lighting, luxury fashion campaign aesthetic, high-end digital poster design, ultra-detailed facial features, sharp focus on the subject, subtle shadows beneath the standing figure, clean background, premium color grading, realistic textures, professional photography, modern creative branding artwork. No logos, no watermarks, no extra text except \"PROMPT\".",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "uploaded person"
+      },
+      {
+        "name": "background",
+        "default": "clean beige studio environment"
+      },
+      {
+        "name": "brand text",
+        "default": "PROMPT"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785314956214_a01jh9_HOXZHPxa4AAyDvn.jpg",
+        "alt": "Premium Branding Poster Design",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Duet | AI",
+      "url": "https://x.com/Sheldon056"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Sheldon056/status/2082309134582423822"
+    },
+    "publishedAt": "2026-07-29T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30111",
+    "contentHash": "de3e51745680158c4db2449f2270bb92d006d8f0"
+  },
+  {
+    "id": "gpt-image-2:30104",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30104",
+    "title": "Hyper-Realistic Fashion Studio Portrait",
+    "category": "Product Marketing",
+    "description": "A structured technical prompt for high-end fashion advertising, featuring punchy contrast, golden rim lighting, and a vibrant gradient background.",
+    "promptText": "{\n  \"style_reference\": {\n    \"genre\": \"hyper-realistic editorial studio photography\",\n    \"subject\": {\n      \"name\": \"[PERSON_NAME]\",\n      \"type\": \"self-assured fashion model\",\n      \"wardrobe\": \"{argument name=\"outfit\" default=\"solid black polo shirt\"}\",\n      \"framing\": \"cropped at the waist\",\n      \"gaze\": \"tilted upward, eyes diverted from lens\",\n      \"expression\": \"bold, cinematic, emotionally charged\"\n    },\n    \"background\": {\n      \"palette\": \"{argument name=\"background\" default=\"blazing orange-into-red gradient\"}\",\n      \"treatment\": \"seamless, minimal, uncluttered\"\n    },\n    \"lighting\": {\n      \"rim_light\": \"radiant golden edge light tracing hair and shoulder line\",\n      \"backlight\": \"dramatic, high-contrast separation from background\",\n      \"key_light\": \"gentle beauty light sculpting the face\",\n      \"overall\": \"punchy contrast, controlled highlights and shadows\"\n    },\n    \"skin_and_detail\": {\n      \"texture\": \"immaculate, pore-level skin rendering\",\n      \"sharpness\": \"crisp, precise facial detail\"\n    },\n    \"aesthetic_direction\": {\n      \"category\": \"high-end commercial fashion advertising\",\n      \"use_case\": \"premium clothing brand campaign\",\n      \"color_grade\": \"warm, rich tonal balance\",\n      \"mood\": \"powerful, confident, editorial-grade\"\n    },\n    \"camera_specs\": {\n      \"lens\": \"85mm prime\",\n      \"aperture\": \"f/2.0\",\n      \"depth_of_field\": \"shallow, subject-isolating\",\n      \"focus\": \"tack-sharp on subject\"\n    },\n    \"technical_quality\": [\n      \"ultra-fine detail rendering\",\n      \"HDR dynamic range\",\n      \"photo-real fidelity\",\n      \"editorial magazine polish\",\n      \"balanced symmetrical composition\",\n      \"8K output resolution\"\n    ]\n  },\n  \"exclusions\": [\n    \"blur or softness\",\n    \"low-res or pixelated output\",\n    \"grain or digital noise\",\n    \"blown-out highlights\",\n    \"crushed/underexposed shadows\",\n    \"facial distortion or warping\",\n    \"extra or malformed limbs\",\n    \"anatomical errors\",\n    \"duplicated features\",\n    \"watermarks\",\n    \"logos or branding marks\",\n    \"embedded text\",\n    \"head cut off frame\",\n    \"cluttered or busy backdrop\",\n    \"artificial-looking skin\",\n    \"cartoon or illustrated style\",\n    \"painterly rendering\",\n    \"CGI or 3D-render look\",\n    \"oversaturation\",\n    \"motion blur artifacts\",\n    \"soft/out-of-focus result\",\n    \"flat or unflattering lighting\"\n  ]\n}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "outfit",
+        "default": "solid black polo shirt"
+      },
+      {
+        "name": "background",
+        "default": "blazing orange-into-red gradient"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785314947896_cowgjc_HOXRwnraIAAdzj3.jpg",
+        "alt": "Hyper-Realistic Fashion Studio Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785314947865_84gnkw_HOXRwnhboAAhuhk.jpg",
+        "alt": "Hyper-Realistic Fashion Studio Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Sairah",
+      "url": "https://x.com/Sairah_0"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Sairah_0/status/2082301052439953662"
+    },
+    "publishedAt": "2026-07-29T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30104",
+    "contentHash": "1911abc1c8d1507f77e1d596fa00782304501258"
+  },
+  {
+    "id": "gpt-image-2:30101",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30101",
+    "title": "Ultra-Realistic Beauty Portrait",
+    "category": "Product Marketing",
+    "description": "A highly detailed editorial beauty portrait prompt focusing on eye patterns, skin texture, and golden-hour lighting.",
+    "promptText": "Ultra-realistic extreme close-up beauty portrait of a breathtaking young woman with mesmerizing {argument name=\"eye color\" default=\"sage-green eyes\"} featuring luminous golden starburst patterns around the pupils and crystal-clear catchlights that instantly captivate the viewer. She gazes directly into the camera with a calm, intimate expression and slightly parted glossy blush-pink lips, creating an irresistible editorial beauty aesthetic. Her luminous porcelain-fair skin has a natural satin glow with visible pores, delicate freckles across the nose and cheeks, soft peach undertones, and authentic skin texture without excessive retouching. Thick feathered jet-black eyebrows, naturally long curled eyelashes, a refined straight nose, and softly sculpted facial features enhance her timeless beauty. Her {argument name=\"hair style\" default=\"shoulder-length jet-black hair\"} is slightly wet, with glossy textured strands falling freely around her face. Wispy bangs and loose damp locks partially frame one eye, creating a mysterious, effortlessly cinematic look. Tiny highlights on the damp hair catch the sunlight, adding depth and realism. {argument name=\"lighting\" default=\"Golden-hour sunlight\"} streams across her face through a nearby window, producing dramatic natural shadows, warm highlights, and luxurious contrast. The eyes sparkle with vivid reflections, while the softly blurred neutral background melts into creamy bokeh, keeping complete focus on her face. Luxury skincare campaign, Vogue beauty editorial, high-fashion portrait, cinematic realism, quiet luxury aesthetic, old-money elegance, premium natural beauty, ultra-photorealistic, 8K HDR, DSLR quality, 85mm prime lens, f/1.4, razor-sharp eye focus, shallow depth of field, realistic skin texture, global illumination, premium color grading, award-winning beauty photography, masterpiece, trending on Instagram, TikTok, Pinterest, and X, impossible-to-scroll-past composition.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "eye color",
+        "default": "sage-green eyes"
+      },
+      {
+        "name": "hair style",
+        "default": "shoulder-length jet-black hair"
+      },
+      {
+        "name": "lighting",
+        "default": "Golden-hour sunlight"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785314937754_bh2bjv_HOU1Na8a4AAju_Y.jpg",
+        "alt": "Ultra-Realistic Beauty Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785314938811_19s61x_HOU1OpTa4AAw1sJ.jpg",
+        "alt": "Ultra-Realistic Beauty Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Jahan Zaib",
+      "url": "https://x.com/jzaib4269"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/jzaib4269/status/2082128944162345241"
+    },
+    "publishedAt": "2026-07-28T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30101",
+    "contentHash": "6d53ee06b4b19bb55288561a6cfaeb91aeb4edcf"
+  },
+  {
+    "id": "gpt-image-2:30094",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30094",
+    "title": "Apple Style iPhone Product Campaign",
+    "category": "Product Marketing",
+    "description": "An ultra-premium Apple-inspired advertising campaign prompt that uses a reference photo to maintain facial identity in a high-tech keynote setting.",
+    "promptText": "Create an ultra-premium Apple-style product campaign using the uploaded image as the exact facial reference. Preserve my identity with maximum accuracy, including my face shape, hairstyle, beard, eyebrows, skin tone, eye proportions, lips, jawline, and every unique facial feature. Do not alter my age or recognizable appearance.\n\nI am wearing a {argument name=\"jacket\" default=\"sleek black premium bomber jacket\"} with a minimal futuristic aesthetic. I am confidently holding a {argument name=\"phone\" default=\"Silver iPhone 17 Pro\"} toward the camera in a dramatic low-angle perspective, with the phone dominating the foreground while my face remains perfectly sharp and cinematic. The iPhone features a luxurious brushed titanium silver finish with polished edges, realistic reflections, premium camera lenses, and authentic Apple design language.\n\nThe background is a {argument name=\"environment\" default=\"futuristic Apple keynote-inspired environment\"} with glowing white and cool blue volumetric lighting, clean architectural lines, and a massive illuminated “PRO” typography behind me. At the top, place a subtle Apple logo with “iPhone 17” in Apple’s minimalist style. Use high-end commercial lighting, realistic skin texture, natural hand proportions, sharp focus, premium depth of field, soft rim lighting, and flawless reflections on the phone. The composition should feel like an official Apple flagship advertisement, ultra-realistic, hyper-detailed, 8K, HDR, IMAX quality, magazine cover worthy, with a cool silver and blue color palette, luxury aesthetic, and perfect cinematic color grading.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "jacket",
+        "default": "sleek black premium bomber jacket"
+      },
+      {
+        "name": "phone",
+        "default": "Silver iPhone 17 Pro"
+      },
+      {
+        "name": "environment",
+        "default": "futuristic Apple keynote-inspired environment"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785314933564_hzurq2_HOUf1Z8boAAwDX3.jpg",
+        "alt": "Apple Style iPhone Product Campaign",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Snow",
+      "url": "https://x.com/iamrealsnow"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/iamrealsnow/status/2082105414179848549"
+    },
+    "publishedAt": "2026-07-28T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30094",
+    "contentHash": "85bc49030f2e6358fe0f6f5ba40725d69acdcedd"
+  },
+  {
     "id": "gpt-image-2:30168",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -7087,210 +7277,5 @@
     "publishedAt": "2026-07-25T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29694",
     "contentHash": "a2ee346615df2513b236a2b907dd5b1951d7c791"
-  },
-  {
-    "id": "gpt-image-2:29700",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29700",
-    "title": "Soft Japanese Lifestyle Portrait",
-    "category": "Profile / Avatar",
-    "description": "A photorealistic prompt for a gentle and minimalist indoor portrait of a woman, featuring soft natural lighting and realistic skin details in a Japanese lifestyle aesthetic.",
-    "promptText": "{argument name=\"subject\" default=\"A young adult East Asian woman\"} sitting in {argument name=\"setting\" default=\"a minimalist white interior space\"}, medium close-up to half-body composition, centered slightly left. Body leaning slightly forward, shoulders naturally inward, arms forward, pose is quiet, relaxed, and slightly fragile. Head slightly tilted, facing the camera, gaze is calm, soft, and slightly detached, lips naturally parted, no obvious smile.\n\nExquisite soft oval face, almond-shaped dark brown eyes, natural thin eyebrows, slender bridge of the nose, light nude pink lips. Very light makeup, only natural eyelashes, slight eyeliner, and soft blush. Fair warm skin tone, retaining real pores, fine peach fuzz, natural skin variations, soft highlights, and light shadows, no plastic smoothing.\n\nDeep dark brown long hair, naturally loose, voluminous with slight messy waves. Fluffy but real hair strands, with some wisps falling on forehead, eyes, cheeks, neck, and chest, creating a casual, unstyled home texture.\n\nShe wears {argument name=\"clothing\" default=\"a thin white loose shirt\"}, buttons partially undone, fabric soft and slightly wrinkled with a light semi-transparent gauzy feel; collar and one shoulder naturally sliding off, revealing neck, collarbone, and a white spaghetti strap camisole underneath. Overall clothing is fresh, clean, and subtle, not overexposed.\n\nBackground is a minimalist white or light gray wall, no clutter, quiet and clean space. Light is soft natural window light or high-key studio diffused light, coming from the front left, very shallow shadows, overall low saturation and low contrast, dominated by cream white, light gray, and natural skin tones. Photography style: 85mm portrait lens, f/1.8, shallow depth of field, eyes and face in focus, soft background blur, slight film grain, real photographic texture, Japanese soft lifestyle portrait, photorealistic.\n\nAvoid: Cartoon, CG, illustration, over-smoothing, heavy makeup, exaggerated expressions, exaggerated body, wrong fingers, deformed arms, messy background, strong HDR, over-sharpening, text, watermarks, logos.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "A young adult East Asian woman"
-      },
-      {
-        "name": "setting",
-        "default": "a minimalist white interior space"
-      },
-      {
-        "name": "clothing",
-        "default": "a thin white loose shirt"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784968594600_ntf3pl_HN86jS8XoAAkT8O.jpg",
-        "alt": "Soft Japanese Lifestyle Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784968593904_c8pb8m_HN86jS6W8AA7foI.jpg",
-        "alt": "Soft Japanese Lifestyle Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784968594938_6ck2o2_HN86jS6XwAAoR59.jpg",
-        "alt": "Soft Japanese Lifestyle Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "ToroJushiAi",
-      "url": "https://x.com/ToroJushiAi"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/ToroJushiAi/status/2080835426672357645"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29700",
-    "contentHash": "857facff2803155f03210180b2b127580d775c3d"
-  },
-  {
-    "id": "gpt-image-2:29693",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29693",
-    "title": "Seaside Shoreline Portrait",
-    "category": "Profile / Avatar",
-    "description": "A highly descriptive prompt for a realistic portrait of a woman on a rocky beach, featuring intricate details of skin, water droplets, and natural lighting.",
-    "promptText": "Theme:\n{argument name=\"theme\" default=\"profile cloaked in the tide\"}\n\nSubject:\nA realistic 3:4 portrait of a woman in her 20s standing on a rocky beach. The person is placed slightly to the right of the center, captured from the top of the head to the waist bone. The upper body occupies about 70% of the screen, with the arm and blue sea on the left, and a blurred rocky area on the lower right.\n\nCharacter and Expression:\nBright ivory-beige skin with natural pale pink color. Realistic skin texture with small glints on cheeks, nose tip, shoulders, and collarbone, showing pores and fine texture. Pale rose blush, champagne beige and pink-brown eye makeup, long thin eyelashes, natural eye bags, soft light brown eyebrows, and sheer pink-beige lips. A neat profile facing right, chin slightly tucked, gaze cast diagonally downward. Mouth lightly closed with a quiet and calm expression.\n\nClothing and Pose:\n{argument name=\"outfit\" default=\"An ivory triangle bikini with a delicate woven pattern. Thin shoulder and side straps follow the skin naturally, with light tension and fine wrinkles in the fabric.\"} The body is twisted about 30 degrees to the right, with the left shoulder slightly forward. The left arm is lowered near the waist with the elbow loosely bent. The abdomen is naturally extended, and the center of gravity between the shoulders, ribcage, and hips is continuous.\n\nEnvironment and Light:\n{argument name=\"environment\" default=\"A clear coastal day. The foreground is the person, the middle ground is the dark blue sea surface, and the background is an out-of-focus rocky reef and low coastline. Strong warm sunlight from the top left illuminates the forehead, bridge of the nose, shoulders, chest, and left side of the abdomen.\"} Soft blue reflections from the sky and sea are added on the opposite side, maintaining three-dimensionality without overly hard shadows. Fine water droplets are scattered on the skin and hair.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "theme",
-        "default": "profile cloaked in the tide"
-      },
-      {
-        "name": "outfit",
-        "default": "An ivory triangle bikini with a delicate woven pattern. Thin shoulder and side straps follow the skin naturally, with light tension and fine wrinkles in the fabric."
-      },
-      {
-        "name": "environment",
-        "default": "A clear coastal day. The foreground is the person, the middle ground is the dark blue sea surface, and the background is an out-of-focus rocky reef and low coastline. Strong warm sunlight from the top left illuminates the forehead, bridge of the nose, shoulders, chest, and left side of the abdomen."
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784968587473_ziy6ah_HN6S88PbwAARmL2.jpg",
-        "alt": "Seaside Shoreline Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2080824353457844621"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29693",
-    "contentHash": "d129b647512813fdc8b81f9132f4b5f5a71b2f89"
-  },
-  {
-    "id": "gpt-image-2:29695",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29695",
-    "title": "Rooftop Sheer Blouse Portrait",
-    "category": "Profile / Avatar",
-    "description": "A high-end fashion photography prompt for a woman in a sheer blouse on a city rooftop, featuring backlighting and a bright blue sky background.",
-    "promptText": "Theme:\n{argument name=\"theme\" default=\"white cloaked in the sky\"}\n\nSubject:\nA mature woman standing on a rooftop in a sunny city. The person is placed slightly to the right of center, captured from the top of the head to the thighs. The body occupies about 70% of the screen, looking quietly down at the low-positioned camera.\n\nCharacter and Expression:\nBright skin with a natural complexion, sophisticated facial features. Sophisticated Japanese-style makeup with pink-beige lips, pale rose blush, thin brown eyeliner, and eyelashes that emphasize length without being overdone. Dark brown shoulder-length bob with thin bangs and layers around the face, hair ends and loose hairs swaying in the wind. Chin slightly tucked, looking at the lens with a calm, mature gaze, lips slightly open.\n\nClothing and Pose:\n{argument name=\"outfit\" default=\"A lightly sheer ivory white blouse. Soft, not-too-deep V-neck, loose long sleeves, thin cuffs. Paired with a simple skin-toned beige camisole underneath, with just enough transparency for the chest and body silhouette to look elegant.\"} Bottom is a pale ecru high-waisted pleated mini skirt. Upper body slightly tilted forward, shoulders relaxed, arms naturally lowered at sides. The thin fabric of the blouse and skirt hem sway gently in the wind, creating natural folds and shadows around the waist.\n\nEnvironment and Light:\n{argument name=\"environment\" default=\"A rooftop of an urban apartment building. Metal fence at waist height, low-rise residential and apartment buildings in the distance, no text or logos. Most of the background is a vivid blue sky and three-dimensional white cumulus clouds. Warm backlighting from the low sun at the bottom left edges the hair, cheeks, neck, and thin blouse fabric in gold.\"} Soft reflected light from the sky and rooftop floor fills the face. One small circular lens flare is left near the waist.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "theme",
-        "default": "white cloaked in the sky"
-      },
-      {
-        "name": "outfit",
-        "default": "A lightly sheer ivory white blouse. Soft, not-too-deep V-neck, loose long sleeves, thin cuffs. Paired with a simple skin-toned beige camisole underneath, with just enough transparency for the chest and body silhouette to look elegant."
-      },
-      {
-        "name": "environment",
-        "default": "A rooftop of an urban apartment building. Metal fence at waist height, low-rise residential and apartment buildings in the distance, no text or logos. Most of the background is a vivid blue sky and three-dimensional white cumulus clouds. Warm backlighting from the low sun at the bottom left edges the hair, cheeks, neck, and thin blouse fabric in gold."
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784968588873_w894dx_HN1QZTvbEAAKu1l.jpg",
-        "alt": "Rooftop Sheer Blouse Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2080793902664351924"
-    },
-    "publishedAt": "2026-07-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29695",
-    "contentHash": "4433cef540d23ba836451bbcf7930e24fc965ac2"
-  },
-  {
-    "id": "gpt-image-2:29730",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29730",
-    "title": "Window Lit East Asian Portrait",
-    "category": "Profile / Avatar",
-    "description": "A realistic vertical portrait prompt for creating an intimate indoor window-lit photo of a young woman with natural hair and soft expression.",
-    "promptText": "Create a photorealistic vertical 3:4 portrait of a young East Asian woman with {argument name=\"hair color\" default=\"natural deep brown\"} long hair, slightly messy loose strands, and realistic airy texture. She sits indoors beside a bright window on the left, leaning slightly forward with one forearm resting across the lower frame and her other hand lifted near her hair in a delicate relaxed gesture. She looks directly at the viewer with calm, subtly alluring eyes, a soft neutral expression, natural makeup, smooth fair skin, softly defined brows, small nose, and slightly parted rosy lips. She wears a fitted {argument name=\"top color\" default=\"black\"} short-sleeve low scoop-neck top and a white lace choker with a small cross pendant. Use warm natural window light from the left, soft shadows on the right side of her face, gentle highlights in the hair, shallow depth of field, realistic skin texture, and a muted beige-gray wall background with a visible window ledge. Frame from upper torso to head, centered slightly right, intimate editorial portrait style, high-resolution DSLR realism, no hat, no glasses, no text, no watermark, no extra people.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "natural deep brown"
-      },
-      {
-        "name": "top color",
-        "default": "black"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784968625253_8irfjk_HOA31IoaYAApZSB.jpg",
-        "alt": "Window Lit East Asian Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784968625150_eqr5pg_HOA31IrbwAAbgJk.jpg",
-        "alt": "Window Lit East Asian Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784968626193_fodyn2_HOA31IobYAA0jYV.jpg",
-        "alt": "Window Lit East Asian Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1784968626160_352ba1_HOA31IlawAA8E4_.jpg",
-        "alt": "Window Lit East Asian Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "serein ｜买美股上币安",
-      "url": "https://x.com/you1873118"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/you1873118/status/2080724428133224484#reversed-0"
-    },
-    "publishedAt": "2026-07-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29730",
-    "contentHash": "e66385880779167a475886abc2bbfdc6e3b744a0"
   }
 ]

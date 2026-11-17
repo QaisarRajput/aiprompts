@@ -1,5 +1,222 @@
 [
   {
+    "id": "gpt-image-2:26988",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26988",
+    "title": "Anthropic Token Check Mockup",
+    "category": "Product Marketing",
+    "description": "Generates a realistic wide bank-check graphic for an AI token grant or tech announcement visual.",
+    "promptText": "Goal: Create a realistic oversized bank check styled as a high-resolution promotional mockup for an AI company token grant, shown straight-on with a pale blue security-paper background.\n\nCanvas: Wide horizontal check, approximately 1200×520 px, thin gray border, soft off-white/light-blue check paper, clean vector-print quality with slight scan-like realism.\n\nLayout: Top-left payer identity block; top-right date and check number corner strip; center payee and amount lines; lower-left bank and memo information; lower-right signature; bottom MICR banking numbers.\n\nText content: Use exactly 14 visible text groups: 1) top-left name “DARIO AMODEI”, 2) address block “Anthropic, PBC / 548 Market St, San Francisco, CA 94104”, 3) small label “PAY TO THE ORDER OF”, 4) payee “{argument name=\"payee\" default=\"Global Developers\"}”, 5) date label “DATE”, 6) date “{argument name=\"date\" default=\"June 28, 2026\"}”, 7) boxed numeric amount “{argument name=\"numeric amount\" default=\"T100,000,000,000.00\"}”, 8) written amount “{argument name=\"written amount\" default=\"One Hundred Billion and 00/100\"}” followed by a row of asterisks, 9) red unit label “TOKENS”, 10) bank name “BANK OF ANTHROPIC”, 11) bank subtitle “CONTEXT WINDOW DIVISION · N.A.”, 12) memo label and memo text “MEMO / {argument name=\"memo\" default=\"Software development\"}”, 13) cursive signature “Dario Amodei” with caption “AUTHORIZED SIGNATURE”, 14) bottom MICR line “:121000248:   4096 8192 0 ʺ 0480”.\n\nDesign details: Add the Anthropic starburst logo in rust red at top left beside the payer block, and a smaller navy star icon beside “BANK OF ANTHROPIC.” Use dark navy ink for most text, red for the “TOKENS” label and the diagonal corner strip. The payee, written amount, memo text, date, and signature should be italic serif or cursive, while labels and numbers are clean sans serif or monospaced. The numeric amount sits in a dark navy outlined rectangle on the right. Use a repeated faint diagonal watermark pattern across the whole check reading “ANTHROPICTOKENCHECK,” very low opacity. In the top-right corner place a diagonal rust-red security ribbon containing “NON-NEGOTIABLE,” with small check number text “0480” nearby and tiny routing-like numbers beneath.\n\nConstraints: Keep the check uncluttered, centered, and fully legible; do not add people, hands, background scenery, extra logos, or extra text beyond the listed groups.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "payee",
+        "default": "Global Developers"
+      },
+      {
+        "name": "date",
+        "default": "June 28, 2026"
+      },
+      {
+        "name": "numeric amount",
+        "default": "T100,000,000,000.00"
+      },
+      {
+        "name": "written amount",
+        "default": "One Hundred Billion and 00/100"
+      },
+      {
+        "name": "memo",
+        "default": "Software development"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782636867608_44ak93_HL103WoaQAAfE5X.jpg",
+        "alt": "Anthropic Token Check Mockup",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782636867647_yzxwdo_HL104v4aQAAmPz5.jpg",
+        "alt": "Anthropic Token Check Mockup",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782636867747_2uwe13_HL107U2asAAVJKW.jpg",
+        "alt": "Anthropic Token Check Mockup",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Ayaka",
+      "url": "https://x.com/Saturney_Erdong"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Saturney_Erdong/status/2070940056152682669#reversed-0"
+    },
+    "publishedAt": "2026-06-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26988",
+    "contentHash": "21a4ce2b8f52018600ce9c62e9dffb65eb5ef3e4"
+  },
+  {
+    "id": "gpt-image-2:26983",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26983",
+    "title": "Dark Halo Cyber-Goth Poster",
+    "category": "Product Marketing",
+    "description": "A cinematic glitch-fashion poster of a black-winged cyber-goth woman in a surveillance lab, ideal for dark editorial or album-cover visuals.",
+    "promptText": "Create a dark cyber-goth fashion editorial poster featuring an {argument name=\"character description\" default=\"adult Asian woman with long black wavy hair, pale skin, cool fragile makeup, dreamy but dangerous expression\"} sitting barefoot on the floor of a dim surveillance laboratory. She wears a {argument name=\"outfit\" default=\"black gothic techwear mini dress with a black leather corset-like top, lace choker, chain decorations, garter-like chain straps, black feather angel wings, and layered black skirt\"}. Pose her seated with one leg folded under and one leg extended, holding and touching a tall glowing white neon cable or light arc that curves from the bottom foreground up past her raised hand, creating a halo-like slash of light through the image. The environment is a cluttered dark monitoring room: walls covered with eye photographs, pupil printouts, taped old photos, paper scraps, and surveillance evidence; floor scattered with cables, a half-open old laptop in the foreground, black keyboard, loose eye sketches, CRT/monitor equipment, green light spill, and harsh moody shadows. Visual style: cinematic photorealism mixed with glitch poster design, cold gray-black palette with sickly green highlights, high contrast, film grain, scanline noise, chromatic aberration, analog VHS distortion, surveillance-dream atmosphere, dark angel/demon mood. Add distressed white pixel-glitch typography and small technical microtext overlays. Include exactly 5 main text elements: large title at upper left reading {argument name=\"main title\" default=\"ARC OF NOISE\"}; mid-right title reading {argument name=\"side title\" default=\"DARK HALO\"}; lower-right title reading {argument name=\"bottom title\" default=\"FEED ME STATIC\"}; tiny upper-right phrase reading \"THE SIGNAL BENDS. I LISTEN.\"; lower-left microtext blocks with fragments such as \"FEED_004B// VISUAL UNKNOWN\", \"NOISE IS NOT RANDOM. IT'S PRAYER. //23%\", and \"EYES OPEN. TRUTH CORRUPTED. BEYOND THE NOISE.\" Keep the composition vertical, poster-like, with the woman centered slightly right, the glowing arc dominating the foreground, and no extra characters.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character description",
+        "default": "adult Asian woman with long black wavy hair, pale skin, cool fragile makeup, dreamy but dangerous expression"
+      },
+      {
+        "name": "outfit",
+        "default": "black gothic techwear mini dress with a black leather corset-like top, lace choker, chain decorations, garter-like chain straps, black feather angel wings, and layered black skirt"
+      },
+      {
+        "name": "main title",
+        "default": "ARC OF NOISE"
+      },
+      {
+        "name": "side title",
+        "default": "DARK HALO"
+      },
+      {
+        "name": "bottom title",
+        "default": "FEED ME STATIC"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782636864826_3lexku_HL1w73BbcAAMORm.jpg",
+        "alt": "Dark Halo Cyber-Goth Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782636864585_1dku6g_HL1w73FbgAAAMlL.jpg",
+        "alt": "Dark Halo Cyber-Goth Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782636864587_dqqagc_HL1w73BbIAAYo1T.jpg",
+        "alt": "Dark Halo Cyber-Goth Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1782636865258_zyogf0_HL1w73BbQAA7Ow4.jpg",
+        "alt": "Dark Halo Cyber-Goth Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "serein",
+      "url": "https://x.com/you1873118"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/you1873118/status/2070935589059526831#reversed-0"
+    },
+    "publishedAt": "2026-06-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26983",
+    "contentHash": "3ecdfb399952eb8d0c8b7348625f0788b0ddc2a1"
+  },
+  {
+    "id": "gpt-image-2:26944",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26944",
+    "title": "Minimalist Chicken Roll Commercial",
+    "category": "Product Marketing",
+    "description": "A clean and modern food advertisement prompt featuring a model and oversized product placement with vibrant green highlights.",
+    "promptText": "Minimalist commercial ad featuring {argument name=\"subject\" default=\"oversized premium chicken rolls\"}, ultra-clean design. {argument name=\"character\" default=\"A young woman in all-white and green outfit\"} leans casually against the giant chicken roll, relaxed confident pose, eyes closed, also holding a regular-sized chicken roll piece in her hand. Soft gradient vibrant teal-green background with large bold white “Chicken Roll” text behind. Glossy reflective floor, soft studio lighting, modern high-end food/product photography. Small top-right text “Designed by shamus”. Bottom center tagline in small white font: “{argument name=\"tagline\" default=\"Feel the taste in, every bite\"}\"",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "oversized premium chicken rolls"
+      },
+      {
+        "name": "character",
+        "default": "A young woman in all-white and green outfit"
+      },
+      {
+        "name": "tagline",
+        "default": "Feel the taste in, every bite"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782636844302_n7jukd_HL1GPmkbsAEgz1M.jpg",
+        "alt": "Minimalist Chicken Roll Commercial",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Al-Shamus",
+      "url": "https://x.com/im_shahid7"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/im_shahid7/status/2070888648799600783"
+    },
+    "publishedAt": "2026-06-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26944",
+    "contentHash": "84daead6c4335ee3629f507a901d85921fc90ef7"
+  },
+  {
+    "id": "gpt-image-2:27004",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27004",
+    "title": "Anime Denim Gingham Girl",
+    "category": "Product Marketing",
+    "description": "Generates a full-body anime fashion illustration of a twin-tail girl in a denim romper and gingham skirt panel against a sunlit tiled wall.",
+    "promptText": "Create a polished anime-style full-body fashion illustration of a cute young woman standing against a beige tiled concrete wall in warm sunlight. She has {argument name=\"hair color\" default=\"glossy black\"} hair in high twin ponytails with short bangs and loose curled ends, each ponytail tied with a bright blue bow. Her expression is playful and slightly mischievous, with soft reddish-brown eyes, a small smile, and a gentle head tilt. She wears a black studded choker, a pale blue denim romper with structured bodice panels, ruffled shoulder straps, a sweetheart neckline, black lace-up front detail, belt loops, and short fitted shorts with one distressed ripped patch. Over one side is an asymmetrical blue-and-white gingham check skirt panel with frayed white hem, hanging ribbons, and layered fabric pieces. She also wears white mid-calf socks and chunky black lace-up platform combat boots. Pose her leaning casually with one hip cocked, one knee bent inward, arms relaxed at her sides, feet apart, and her body casting a crisp shadow on the wall. Use a vertical 2:3 composition, full body centered, detailed clean line art, smooth cel-shaded anime rendering, glossy highlights on hair and boots, soft skin shading, high-detail clothing folds, warm late-afternoon lighting, subtle wall stains and chips, no text, no watermark, no extra characters.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "hair color",
+        "default": "glossy black"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782636877126_bun4sg_HL0dJkuaYAE9maO.jpg",
+        "alt": "Anime Denim Gingham Girl",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Harf_Done",
+      "url": "https://x.com/half_done_yet"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/half_done_yet/status/2070846695194374644#reversed-0"
+    },
+    "publishedAt": "2026-06-27T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27004",
+    "contentHash": "d8159f5abca55dc93dab2f59d9f9254157bca3f8"
+  },
+  {
     "id": "gpt-image-2:26964",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6923,193 +7140,5 @@
     "publishedAt": "2026-06-24T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26688",
     "contentHash": "cd491286eda5fa0c2144d5bb612e391254a77e6b"
-  },
-  {
-    "id": "gpt-image-2:26651",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26651",
-    "title": "Sunny Bangkok City Street Selfie",
-    "category": "Profile / Avatar",
-    "description": "A high-contrast, hyper-realistic selfie of a woman in an outdoor Bangkok city setting under bright, direct sunlight.",
-    "promptText": "Hyper-realistic 8K close self-shot, {argument name=\"subject\" default=\"young European woman\"}, slightly low angle, arm extended holding phone, bright sunny daytime, direct harsh sunlight, sharp facial shadows, artistic high-contrast light and shadow, energetic intense atmosphere, slight gentle smile, fair pink-toned glowing smooth skin. Long waist-length curly hair, no bangs, naturally flowing curls at ends, gold hair clip. Thin winged eyeliner, full long lashes, soft peach blush, defined brows, glossy light pink ombre lips. Cream smartwatch, dainty gold necklace. Loose casual camisole top, high-waisted pleated midi skirt, lightweight knitted fringed shawl. Slightly tilted posture, squinting gently against sunlight, one hand raised to block glare. Outdoor {argument name=\"location\" default=\"Bangkok city\"} background, right side filled with urban scenery, lush green trees, crosswalk, bus stop bench, ultra-detailed, photorealistic.9：16",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "young European woman"
-      },
-      {
-        "name": "location",
-        "default": "Bangkok city"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782377881886_dek02l_HLje8cLXgAE8IaG.jpg",
-        "alt": "Sunny Bangkok City Street Selfie",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Stonic AI",
-      "url": "https://x.com/Stonic_AI"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Stonic_AI/status/2069649170429075962"
-    },
-    "publishedAt": "2026-06-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26651",
-    "contentHash": "ec844253f37970741871e2675dfed3fc70965d27"
-  },
-  {
-    "id": "gpt-image-2:26690",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26690",
-    "title": "Naive Digital Selfie Avatar",
-    "category": "Profile / Avatar",
-    "description": "Generates a casual square selfie-style illustrated avatar with a cap, shaggy hair, and textured naive digital painting aesthetics.",
-    "promptText": "Create a naive digital selfie avatar illustration of {argument name=\"character name\" default=\"a young person\"} from the shoulders up, centered and facing the viewer with a simple direct smile. Use a square 1:1 canvas with a plain pastel sky-blue background. The character has {argument name=\"hair color\" default=\"messy black\"} medium-length shaggy hair peeking out from under a {argument name=\"hat color\" default=\"green\"} backward baseball cap with a small metal ring detail on the left side. Dress them in a blue denim collared zip shirt layered under a beige-and-brown checkered jacket. Render in a playful naive digital painting style with rough crayon-like texture, visible brush strokes, soft flat colors, simplified anatomy, minimal facial detail, warm peach skin tones, and an everyday casual selfie composition. Keep the crop close, with the head large in frame and the shoulders filling the lower third. Avoid photorealism, hard outlines, text, logos, or complex background details.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "a young person"
-      },
-      {
-        "name": "hair color",
-        "default": "messy black"
-      },
-      {
-        "name": "hat color",
-        "default": "green"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782377905316_atjxg4_HLi8--oX0AAu__R.jpg",
-        "alt": "Naive Digital Selfie Avatar",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782377905101_tjtwad_HLi8_AHWMAALTYX.jpg",
-        "alt": "Naive Digital Selfie Avatar",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782377905129_3py286_HLi8--tWMAA660v.jpg",
-        "alt": "Naive Digital Selfie Avatar",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782377905908_s1jtx0_HLi8-9rWcAAdIAL.jpg",
-        "alt": "Naive Digital Selfie Avatar",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Eric Kang - Vogue AI",
-      "url": "https://x.com/Eric_Kangg"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Eric_Kangg/status/2069611821330227476#reversed-0"
-    },
-    "publishedAt": "2026-06-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26690",
-    "contentHash": "eb718985870b8a18e0ee7df189a97ae1ea07260a"
-  },
-  {
-    "id": "gpt-image-2:26665",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26665",
-    "title": "Hand-Drawn Chibi Doodle Illustration",
-    "category": "Profile / Avatar",
-    "description": "Transforms a real-life photo of a mother and child into a charming black-and-white chibi doodle illustration while keeping the original composition.",
-    "promptText": "Transform the uploaded photo into a cute black-and-white hand-drawn {argument name=\"illustration style\" default=\"chibi doodle illustration\"}. Preserve the exact pose, composition, facial expressions, clothing, sunglasses, and antler headband while converting the mother and child into adorable cartoon characters with oversized heads, tiny bodies, round eyes, soft smiles, and simplified features. Use clean black ink linework on a pure white background with subtle sketch hatching, playful hand-drawn texture, tiny hearts, sparkles, and cute doodle accents around them. Maintain the warm hug, joyful family connection, and candid photo-booth perspective. Kawaii manga-inspired art style, minimalist monochrome palette, sticker-pack aesthetic, wholesome children's storybook illustration, charming sketchbook drawing, expressive faces, soft rounded shapes, cozy and heartwarming mood, highly detailed line art, cute social media avatar style, masterpiece quality.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "illustration style",
-        "default": "chibi doodle illustration"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782377888965_oady6m_HLithOvb0AArsC8.jpg",
-        "alt": "Hand-Drawn Chibi Doodle Illustration",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782377889067_80jh96_HLithXobcAAQY_K.jpg",
-        "alt": "Hand-Drawn Chibi Doodle Illustration",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Jahan Zaib",
-      "url": "https://x.com/jzaib4269"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/jzaib4269/status/2069594832692261292"
-    },
-    "publishedAt": "2026-06-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26665",
-    "contentHash": "4b047cd8bcc83fd1dcc42c317eea6b1df10ab56f"
-  },
-  {
-    "id": "gpt-image-2:26662",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26662",
-    "title": "Top-Down Aerial Studio Portrait",
-    "category": "Profile / Avatar",
-    "description": "A minimalist, top-down aerial portrait focusing on subject isolation and modern aesthetic.",
-    "promptText": "Ultra-wide angle, 90-degree top-down aerial studio portrait of a {argument name=\"subject\" default=\"woman\"} looking straight up at the camera. Strict identity preservation from reference image, do not alter face, proportions, skin texture, or expression.\n\nComposition: full-body framing, large negative space surrounding the subject, dramatic isolation and graphic impact.\n\nSubject: woman with round thick-framed stylish glasses. Wearing a deep dark brown short-sleeve button-up shirt in corduroy or textured fabric, with a light beige off-white textured sweater underneath. Natural hairstyle with visible texture and volume, do not alter hair color or structure. Natural realistic skin tone, visible texture, not over-smoothed. Expression: engaging, slightly curious or inquisitive.\n\nBackground: {argument name=\"background\" default=\"minimalist studio backdrop\"}, soft gray gradient, darker at edges, lighter at center directly beneath the subject.\n\nLighting: soft uniform overhead lighting from above, subtle shadows defining facial features and clothing folds, even illumination, no harsh contrast.\n\nCamera: ISO 150-200, aperture f/1.28, shutter speed 1/200s, high-resolution ultra-detailed.\n\nColor grading: neutral modern tones, soft balanced contrast, clean contemporary look.\n\nMood: minimalist, modern, contemplative. Strong subject isolation and visual clarity.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "woman"
-      },
-      {
-        "name": "background",
-        "default": "minimalist studio backdrop"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782377887811_7lagtl_HLiVQ-NW4AAA-89.jpg",
-        "alt": "Top-Down Aerial Studio Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "PromptLab",
-      "url": "https://x.com/iamaiistudio"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/iamaiistudio/status/2069568331821318277"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26662",
-    "contentHash": "9f0592a0758f1bd4f74044af9afb738ccaee85d2"
   }
 ]
