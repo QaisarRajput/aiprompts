@@ -1,5 +1,76 @@
 [
   {
+    "id": "nano-banana-pro:35227",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "35227",
+    "title": "Terracotta Outfit Portrait on Cobblestone Street",
+    "category": "Social Media Post",
+    "description": "Generates a photorealistic portrait of a woman in a terracotta suit standing by a car door on a European street with bougainvillea.",
+    "promptText": "A high-resolution photorealistic eye level medium portrait of a stunning woman smiling at the camera standing beside an open car door She is wearing a chic {argument name=\"outfit color\" default=\"terracotta brown\"} monochrome business suit including a tailored blazer top and matching high waisted trousers with a leather belt. Her dark hair is styled in an elegant messy updo with loose strands framing her face She is wearing delicate golden hoop earrings and a thin gold necklace The background features a picturesque European Mediterranean cobblestone street with rustic stone buildings and vibrant blooming pink bougainvillea flowers Soft natural sunlight warm color palette sharp focus high fashion aesthetic, 8k resolution.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "outfit color",
+        "default": "terracotta brown"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790231558193_8eum56_HS31zrjaIAAsyQS.jpg",
+        "alt": "Terracotta Outfit Portrait on Cobblestone Street",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Lavinia",
+      "url": "https://x.com/laviniavelle"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/laviniavelle/status/2102606950391562639"
+    },
+    "publishedAt": "2026-09-23T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35227",
+    "contentHash": "ec19cc7066b8a976a08f485a6e20309926930e70"
+  },
+  {
+    "id": "nano-banana-pro:35225",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "35225",
+    "title": "Street Lamp Fashion Portrait",
+    "category": "Profile / Avatar",
+    "description": "A prompt for creating a stylish fashion portrait of a man holding a smartphone next to a street lamp, requiring facial consistency with a reference image.",
+    "promptText": "Keep the same features of the attached person, without changes. Reference picture: photo sent.\nFace: keep the exact same person as the reference picture. Format:\nA stylish young man standing outdoors beside a black street lamp, holding a smartphone with both hands and looking confidently to the side. He wears a navy blue button-up shirt with bright yellow inner collar and sleeve accents, beige slim-fit trousers, a smartwatch, and brown leather loafers. His pose is relaxed with crossed legs, creating a modern fashion-portrait look. Behind him is a massive artistic black-and-white close-up portrait of the same man’s face, filling the frame.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1790145229180_q1rg9t_HS3p6iuaQAAW-yC.jpg",
+        "alt": "Street Lamp Fashion Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Mr.AI",
+      "url": "https://x.com/Mr_Ai6"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Mr_Ai6/status/2102593808202645818"
+    },
+    "publishedAt": "2026-09-23T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35225",
+    "contentHash": "e9c6337e034513eeaed2c26a8257aa45a53d5dcb"
+  },
+  {
     "id": "nano-banana-pro:35229",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
@@ -6028,91 +6099,5 @@
     "publishedAt": "2026-08-25T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32582",
     "contentHash": "bdbf6c9a5cdc51ca34a6e30e78ef70ff971f65c6"
-  },
-  {
-    "id": "nano-banana-pro:33471",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "33471",
-    "title": "Artifact Diorama SQL Generation",
-    "category": "Game Asset",
-    "description": "A unique SQL-style generation prompt for creating intricate architectural dioramas with carved stone and antique gold textures.",
-    "promptText": "16:9 select * from artifact_diorama_archives where subject_media = '{argument name=\"media title\" default=\"[media_title]\"}' and base_structure = 'giant_hollowed_out_sphere_cracked_open' and exterior_shell = ( select manuscript_aesthetic, typography from cultural_heritage_db where lore = '{argument name=\"media title\" default=\"[media_title]\"}' format as 'flat_2d_painted_fresco_and_calligraphy_on_outer_curve' ) and interior_payload_strata = array[ (level: 'upper_apex', asset: 'infer_climactic_fortress_or_throne({argument name=\"media title\" default=\"[media_title]\"})'), (level: 'middle_caverns', asset: 'infer_mythological_creatures_and_terrain({argument name=\"media title\" default=\"[media_title]\"})'), (level: 'lower_basin', asset: 'infer_epic_armies_and_waterways({argument name=\"media title\" default=\"[media_title]\"})') ] and materials = 'carved_stone_wood_and_antiqued_gold' and optical_engine = 'macro_photography_depth_of_field';",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "media title",
-        "default": "[media_title]"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788591089116_kxrbhm_HRNiaKKWgAMDb5j.jpg",
-        "alt": "Artifact Diorama SQL Generation",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788591089335_efreai_HRNie_0WYAEf0-w.jpg",
-        "alt": "Artifact Diorama SQL Generation",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788591089108_nyvlo1_HRNiqRUXsAI99Ou.jpg",
-        "alt": "Artifact Diorama SQL Generation",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788591089932_h8rq63_HRNiysxXwAUodN4.jpg",
-        "alt": "Artifact Diorama SQL Generation",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Gadgetify",
-      "url": "https://x.com/Gdgtify"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Gdgtify/status/2095942973934698532"
-    },
-    "publishedAt": "2026-09-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33471",
-    "contentHash": "c32f2a8248a2098bd50a6cf7294431bd09d92318"
-  },
-  {
-    "id": "nano-banana-pro:33483",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "33483",
-    "title": "Woodpunk Kinetic Sculpture Automaton",
-    "category": "Game Asset",
-    "description": "A complex prompt system that transforms any subject into a mechanical wooden kinetic sculpture with clockwork details.",
-    "promptText": "1. The Semantic Inference Engine (Dynamic Material Mapping):  \nInput A is ANY Topic (Object, Animal, Plant, or Concept).\nAnalyze the subject's inherent properties and map them to Artisanal Materials:\nThe Primary Body (The Chassis): Infer the subject's main color/weight and assign a corresponding Hardwood. \nThe Accents (The Inlay): Infer the subject's patterns or details and assign a contrasting Marquetry Material. \nThe Mechanics (The Skeleton): Infer the subject's joints or power source and assign Metal Hardware.\n2. The \"Immutable\" Container (The Automaton):\nGoal: A \"Da Vinci Workshop\" Product Shot.\nThe Object: The subject is rendered as a complex, freestanding Wooden Mechanical Toy.\nThe Base: The model stands on a hand-carved wooden block representing its semantic environment.\nThe Scale: Macro photography of a tabletop object (approx. 12 inches tall).\n3. The Clockwork Interior (The Transformation):\nThe Cutaway: A section of the outer \"wood shell\" is visually removed or hinged open.\nThe Guts: Inside, the biological or mechanical inner workings are replaced by Clockwork Mechanics.\nRule: Visible gears, bicycle chains, watch springs, and brass flywheels must imply the object moves via wind-up power.\nThe Fasteners: Tiny brass screws, rivets, and hinges are visible along the seams of the wood.\n4. The Narrative Figure (The Operator):\nThe Character: A standard Jointed Wooden Mannequin (Artist's Doll style) is integrated into the scene.\nThe Role: The figure acts as the maintainer, rider, or operator of the subject.\nInteraction: They are climbing a ladder to polish the object, turning a giant wind-up key, or steering the beast/machine.\nThe Accessories: The doll wears carved wooden gear appropriate to the context.\n5. Lighting & Atmosphere:\nLighting: Softbox Studio Lighting. Diffused, high-end commercial lighting that creates long, elegant highlights on the varnished curves.\nBackground: Neutral Studio Grey. Seamless infinity backdrop to focus entirely on the material textures.\nTexture: High Gloss Varnish. The wood must look expensive, smooth, and deeply saturated.\nOutput: ONE image, 1:1 Aspect Ratio, Product Photography, \"Woodpunk\" aesthetic, 8k Resolution.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788591095766_6nq71i_HRP8n6XWcAEna6M.jpg",
-        "alt": "Woodpunk Kinetic Sculpture Automaton",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Gadgetify",
-      "url": "https://x.com/Gdgtify"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Gdgtify/status/2095854642882019392"
-    },
-    "publishedAt": "2026-09-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=33483",
-    "contentHash": "6ba187afe6c44775096a41c687188fe257018189"
   }
 ]
