@@ -1,5 +1,97 @@
 [
   {
+    "id": "gpt-image-2:31490",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31490",
+    "title": "Multi-Pose Wavy Dark Hair Portrait",
+    "category": "Profile / Avatar",
+    "description": "A prompt for generating three vertically stacked photos of a woman with long dark-brown wavy hair on a bed, using a reference image for identity.",
+    "promptText": "Create an ultra-realistic fashion portrait using the reference image as the exact identity source. Preserve facial features, proportions, skin tone, asymmetry, and natural skin texture without retouching or beautification.\n\n{argument name=\"poses\" default=\"Three vertically stacked smartphone-photo frames\"} of a young woman with {argument name=\"hair style\" default=\"long, voluminous dark-brown wavy hair\"} resting on a plush white bed:\n\nTop: Chin resting on one hand, looking at camera with a gentle smile.\n\nMiddle: Soft profile, looking away and smiling, hair flowing across face and shoulder.\n\nBottom: Cheek on hand, playful wink with an affectionate smile.\n\n{argument name=\"outfit\" default=\"Minimal black thin-strap top\"}, natural makeup, soft brows, pink lips, flushed cheeks. Bright minimalist bedroom, white bedding/walls, sheer curtain, dark-grey headboard. Soft natural morning side-light, realistic smartphone exposure, wide-angle selfie perspective, crisp facial focus, photorealistic, unedited, natural pores.\n\nNegative: CGI, 3D, cartoon, anime, deformed eyes, extra limbs, blur, heavy makeup, plastic/smooth skin, oversaturation, filters, harsh shadows, low resolution, bad anatomy.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "poses",
+        "default": "Three vertically stacked smartphone-photo frames"
+      },
+      {
+        "name": "hair style",
+        "default": "long, voluminous dark-brown wavy hair"
+      },
+      {
+        "name": "outfit",
+        "default": "Minimal black thin-strap top"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786781673379_0c5p7c_HPvtArHbgAAhX-m.jpg",
+        "alt": "Multi-Pose Wavy Dark Hair Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Eesha",
+      "url": "https://x.com/MissDelulu9"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/MissDelulu9/status/2088523465263366283"
+    },
+    "publishedAt": "2026-08-15T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31490",
+    "contentHash": "c3ab59ef56416d9faa6ff68d8bedbf7a4797fd26"
+  },
+  {
+    "id": "gpt-image-2:31487",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31487",
+    "title": "Cinematic East Asian Woman Portrait",
+    "category": "Profile / Avatar",
+    "description": "A cinematic studio portrait prompt for a young East Asian woman, featuring soft golden lighting and an editorial finish.",
+    "promptText": "Cinematic studio portrait of a young {argument name=\"ethnicity\" default=\"East Asian\"} woman with {argument name=\"hair type\" default=\"voluminous wavy dark hair\"}, and understated bronze makeup, gazing calmly toward the camera in a refined three-quarter pose. Wrapped in a {argument name=\"outfit\" default=\"glossy copper jacket\"} slipping from one shoulder, she is lit by soft golden highlights against a deep, blurred background for an elegant, editorial finish.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "ethnicity",
+        "default": "East Asian"
+      },
+      {
+        "name": "hair type",
+        "default": "voluminous wavy dark hair"
+      },
+      {
+        "name": "outfit",
+        "default": "glossy copper jacket"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786781671950_b33v4f_HPvVOA5boAAnhCU.jpg",
+        "alt": "Cinematic East Asian Woman Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Elisia",
+      "url": "https://x.com/AiwithElisia"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AiwithElisia/status/2088497296229163191"
+    },
+    "publishedAt": "2026-08-15T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31487",
+    "contentHash": "def942fd60941856284e517d516d564df34777fe"
+  },
+  {
     "id": "gpt-image-2:31493",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6973,112 +7065,5 @@
     "publishedAt": "2026-08-11T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31070",
     "contentHash": "9b90bd3b09f547068f1c17b1b80b42eb27207e6c"
-  },
-  {
-    "id": "gpt-image-2:31231",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31231",
-    "title": "Three Infinity Material Sculptures",
-    "category": "E-commerce Main Image",
-    "description": "A photorealistic studio render comparing glass, chrome, and marble figure-eight infinity sculptures for 3D material and product visualization.",
-    "promptText": "Create a photorealistic 3D studio product render showing exactly three upright infinity-loop sculptures shaped like the number 8, arranged side by side on a glossy reflective gray floor. The left sculpture is transparent clear glass with thick rounded edges, visible refraction, caustic highlights, and subtle internal reflections. The center sculpture is polished mirror chrome metal, highly reflective with dark and bright warped studio reflections across its smooth twisted surface. The right sculpture is white marble with soft gray veining, matte-satin stone texture, and rounded carved edges. All three objects have identical continuous Möbius-like figure-eight forms with an open oval hole at the top and bottom, standing vertically and casting soft shadows plus faint floor reflections. Use a minimalist warm-gray studio background with blurred rectangular softbox light reflections on the left and right walls, diffuse natural lighting, shallow depth of field, centered symmetrical composition, high-end luxury material study, no text, no people, no watermark. Use {argument name=\"object count\" default=\"three\"} sculptures, {argument name=\"left material\" default=\"transparent clear glass\"}, {argument name=\"center material\" default=\"polished mirror chrome metal\"}, {argument name=\"right material\" default=\"white marble with gray veining\"}, and {argument name=\"background color\" default=\"warm gray\"}.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "object count",
-        "default": "three"
-      },
-      {
-        "name": "left material",
-        "default": "transparent clear glass"
-      },
-      {
-        "name": "center material",
-        "default": "polished mirror chrome metal"
-      },
-      {
-        "name": "right material",
-        "default": "white marble with gray veining"
-      },
-      {
-        "name": "background color",
-        "default": "warm gray"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786523359926_h7st9v_HPZgWjdaUAABfIW.jpg",
-        "alt": "Three Infinity Material Sculptures",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Xsir",
-      "url": "https://x.com/Xsir01"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Xsir01/status/2086961762348478628#reversed-0"
-    },
-    "publishedAt": "2026-08-10T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31231",
-    "contentHash": "9fc3effa40f9a68118bfe659ca4189c41e131489"
-  },
-  {
-    "id": "gpt-image-2:31164",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "31164",
-    "title": "Stylized Hand-Painted 3D Game Asset",
-    "category": "Game Asset",
-    "description": "Creates clean, chunky 3D render assets with a hand-painted aesthetic, featuring beveled edges and a rich plum and navy color palette.",
-    "promptText": "3D render of {argument name=\"subject\" default=\"[SUBJECT]\"}, stylized hand-painted 3D game asset, chunky simplified geometry, broad readable shapes, softly beveled edges, matte painted wood and metal, subtle hand-painted surface variation, restrained material detail, deep plum and burgundy wood, dark teal and navy hardware, selective crimson and muted warm accents, soft diffuse lighting, gentle ambient occlusion, simple soft directional shadow, flat solid black background, no vignette, no dramatic lighting, no volumetric effects, elevated isometric three-quarter view, clean centered composition, compact game-ready silhouette, understated handcrafted atmosphere.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "[SUBJECT]"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786523300267_agrith_HPdIC33X0AAgmym.jpg",
-        "alt": "Stylized Hand-Painted 3D Game Asset",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786523300264_g5u1tl_HPdIC4CXsAA5X4D.jpg",
-        "alt": "Stylized Hand-Painted 3D Game Asset",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786523300446_w56wba_HPdIC4EWIAAZGYy.jpg",
-        "alt": "Stylized Hand-Painted 3D Game Asset",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786523301189_5knzwn_HPdIC4AWMAAHh5m.jpg",
-        "alt": "Stylized Hand-Painted 3D Game Asset",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Dogan Ural",
-      "url": "https://x.com/doganuraldesign"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/doganuraldesign/status/2087216179723043107"
-    },
-    "publishedAt": "2026-08-11T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31164",
-    "contentHash": "66d18c783d77dabf2f971deec3f3973371070088"
   }
 ]

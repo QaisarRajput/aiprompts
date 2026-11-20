@@ -1,5 +1,94 @@
 [
   {
+    "id": "gpt-image-2:29220",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29220",
+    "title": "Three Steps to a Happy Life Infographic",
+    "category": "Infographic / Edu Visual",
+    "description": "A warm red-orange hand-drawn Chinese infographic explaining happiness through three simple self-care, focus, and gratitude steps.",
+    "promptText": "Goal: Create a clean illustrated Chinese self-improvement infographic titled {argument name=\"headline text\" default=\"三步拥有幸福人生\"}, presenting happiness as three executable small steps like an instruction manual.\n\nCanvas: Wide horizontal 16:9 white background, airy margins, minimalist editorial poster layout. Use a hand-drawn red-orange marker style for all illustrations and large step numbers, with black Chinese body text. Overall feeling: warm, encouraging, simple, practical, like a WeChat article cover illustration.\n\nHeader: Center a large rough handwritten red-orange headline at the top: 「三步拥有幸福人生」, with small decorative red strokes on both sides. Under it, add a small black subtitle: 「像说明书一样，把幸福拆成可执行的小步骤」.\n\nLayout: Three equal columns across the lower two-thirds of the canvas, connected visually by red-orange dotted arrows moving left to right. Each column has one doodle illustration above, a thin red divider line, then a step label, huge red step number, bold black title, and three short black lines of explanatory text. Use exactly 3 steps.\n\nStep 1 column, left: Section label 「准备」. Huge red number 「01」 followed by bold title 「先照顾自己」. Body text has exactly 3 lines: 「睡够一点」, 「吃好一点，动一动」, 「把身体和情绪放回正位」. Illustration: a simple smiling person sitting on the floor beside a pillow or bed, holding a steaming mug; include a small smiling sun doodle, a heart speech bubble, and cozy rest/self-care feeling.\n\nStep 2 column, center: Section label 「操作」. Huge red number 「02」 followed by bold title 「认真投入」. Body text has exactly 3 lines: 「每天做好一件重要的小事」, 「专注、练习、持续积累」, 「让生活慢慢长出方向感」. Illustration: a person writing in a notebook, another person reading an open book, a small child watering a potted plant with a heart on the pot; include a checklist clipboard, a clock, books, dotted motion arrows, growth arrows, and a tall sprouting plant to symbolize progress.\n\nStep 3 column, right: Section label 「完成」. Huge red number 「03」 followed by bold title 「分享与感恩」. Body text has exactly 3 lines: 「和喜欢的人保持连接」, 「表达感谢，也庆祝小成就」, 「幸福会在分享中放大」. Illustration: two simple smiling people clinking mugs or cups, a basket of apples with a heart, a smiling sun, a heart speech bubble, and a small award ribbon with a check mark.\n\nVisual style: Red-orange sketch lines should look slightly imperfect and textured, as if drawn with a wax crayon or marker. Text should be crisp and readable, using bold sans-serif Chinese for headings and smaller black sans-serif for descriptions. Keep the design uncluttered, balanced, friendly, and high contrast.\n\nConstraints: Include exactly 3 columns and exactly 3 numbered steps: 01, 02, 03. Preserve the visible Chinese text exactly as specified. Do not add extra panels, photos, gradients, shadows, watermarks, logos, or additional explanatory paragraphs.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline text",
+        "default": "三步拥有幸福人生"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784537338084_4493nb_HNmhBSBaIAAyFp5.jpg",
+        "alt": "Three Steps to a Happy Life Infographic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小小东",
+      "url": "https://x.com/xiaoxiaodong01"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/xiaoxiaodong01/status/2078869781189677408#reversed-0"
+    },
+    "publishedAt": "2026-07-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29220",
+    "contentHash": "72cc71581629534e11a25472f452717bab2617d1"
+  },
+  {
+    "id": "gpt-image-2:29210",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "29210",
+    "title": "Educational Manga Generation Prompt",
+    "category": "Infographic / Edu Visual",
+    "description": "A comprehensive prompt for creating structured educational or training manga with consistent character designs and professional panel layouts.",
+    "promptText": "Common Character Settings + Drawing Rules: Strictly adhere to the character designs of the two protagonists.\n\nTeacher ({argument name=\"teacher name\" default=\"Midori-sensei\"}): Black straight hair in a ponytail with a single thin green highlight. Wears glasses. Wearing a large, ill-fitting white lab coat over baggy gym clothes. Expressive, energetic, and mischievous but proud of being a teacher. Uses large gestures and speaks passionately with hand movements.\nStudent ({argument name=\"student name\" default=\"Pink-chan\"}): Pale pink hair, slouched posture, with a single cowlick on top of her head. Always looks sleepy with half-closed eyes. Has a laid-back vibe and slow movements. On her desk are a drawing tablet (often used as a pillow), a half-finished strawberry milk, and a rabbit plushie pen case.\n\nStyle/Finish Specs: Generate in full color (no monochrome or grayscale). Saturation should be bright like a comedy manga; ensure Midori-sensei's green highlight and Pink-chan's pale pink hair are clearly colored.\nDo not display any panel numbers (1, 2, 3, etc.) inside the panels. Labels like 'Panel 1' below are for instruction only. Adhere strictly to the Japanese commercial manga reading order (right-to-left, top-to-bottom starting from top-right). Speech bubble placement should not obstruct this flow. Thick black panel borders. Large, readable Japanese text. Setting is a manga classroom with a whiteboard, desks, and drawing tablets.\n\n[Page 1] Vertical (3:4), 6 panels arranged R-to-L, Top-to-Bottom:\nPanel 1: Title panel. Large handwritten-style text: \"{argument name=\"manga title\" default=\"Master the Page-Turn, Master the Manga\"}\". Midori-sensei holds a book and exaggeratedly demonstrates turning a page. Pink-chan is leaning on her hand, half-asleep.\nPanel 2: Pink-chan asks lazily: 'Page-turn...? Does just turning a page really have a name...?' with a '?' above her head.\nPanel 3: Midori-sensei's glasses glint. 'Yes! From the last panel on the left page to the first on the right. This bridge is called the \"page-turn,\" and manga artists use every bit of their skill on it!' Background has focus lines.\nPanel 4: Diagram panel. A schematic on a whiteboard showing a book spread: labels for 'Hook' on the bottom-left, 'Turn = time eyes leave the paper' in the middle, and 'Rewarding image/line' on the top-right. Midori-sensei points to it with a marker.\nPanel 5: Metaphor panel. Midori-sensei speaks with her hand on her heart. 'Panel pacing is like human speech. There are fast parts and slow parts. Within that, the page-turn is—a breath.' Musical rest motifs in background.\nPanel 6: Pink-chan mutters: 'A breath... my whole life is like one long breath...' Midori-sensei's small bubble: 'Yours is a deep dive! (You're sleeping!)'.\n\n[Page 2] Vertical (3:4), 7 panels:\nPanel 1: Midori-sensei continues. 'Reader focus breaks during the turn. So the last panel on the left must be a \"hook\" or a natural scene change!' Small example illustration on the side.\nPanel 2: 'Then the first panel on the right. Because of the gap, reader expectations are up. You need a great line or image. It's the \"build-up\" before a big scene!' Example showing a double-page spread feel.\nPanel 3: Midori-sensei starts a demo, placing a book in front of Pink-chan excitedly. 'Try it! Look at this last panel... makes you want to turn it, right?'\nPanel 4: Pink-chan leans in, eyes slightly wider, reaching for the page. 'Oh... true... I'm curious... about what's next...' A tiny highlight in her eye.\nPanel 5: Peak of passion. Midori-sensei's coat flutters. 'Exactly!! When that curiosity stacks, you get a work where the reader can't stop turning pages! It's a gift to the reader!!' Warm heat-tone background.\nPanel 6: Pink-chan is face-down on the open book, fast asleep using it as a pillow. 'Zzz...' The page is slightly folded under her cheek.\nPanel 7: Midori-sensei collapses. 'Every day!! And using the book as a pillow!!' Small bubble: '...I guess the page-turning stopped.'",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "teacher name",
+        "default": "Midori-sensei"
+      },
+      {
+        "name": "student name",
+        "default": "Pink-chan"
+      },
+      {
+        "name": "manga title",
+        "default": "Master the Page-Turn, Master the Manga"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784537330557_f08riq_HNCJ6g1aEAAD5Z-.jpg",
+        "alt": "Educational Manga Generation Prompt",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1784537330552_h6fjmu_HNCMS-8bEAIDdgC.jpg",
+        "alt": "Educational Manga Generation Prompt",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "あお @AI漫画",
+      "url": "https://x.com/tryholonica"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/tryholonica/status/2078818022761124118"
+    },
+    "publishedAt": "2026-07-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29210",
+    "contentHash": "ad97234ea0f93f330a3a578dbd30edce6b7a2a60"
+  },
+  {
     "id": "gpt-image-2:29242",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -7059,84 +7148,5 @@
     "publishedAt": "2026-07-16T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28904",
     "contentHash": "26818084a11d83f0b7ee5c4030c64329cfbc6f59"
-  },
-  {
-    "id": "gpt-image-2:28902",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28902",
-    "title": "Summer Seaside Jump Portrait",
-    "category": "Social Media Post",
-    "description": "A highly detailed prompt for a realistic portrait of a woman jumping at a Japanese seaside town during mid-summer.",
-    "promptText": "Subject: The moment of kicking the sea breeze\n\nMain Subject: {argument name=\"main subject\" default=\"A moment in a mid-summer seaside town where an adult woman jumps from a low concrete platform in the bottom right of the screen to a flat paved road on the left\"}. The person is placed largely in the center-left of the screen, with the whole body occupying about 75% of the vertical frame. Both feet are off the ground in a natural mid-air posture just before landing.\n\nCharacter/Expression: A woman with a mature, well-proportioned body. Healthy and realistic proportions, long dark brown hair. Strong sea breeze causes hair to flow significantly from the front of the face toward the upper left of the screen. The face is turned slightly upward and left, with a broad, open smile and narrowed eyes. Natural light makeup, with the summer sun hitting the cheeks, giving a bright and active impression.\n\nClothing/Pose: {argument name=\"clothing\" default=\"White thin-strap V-neck camisole\"}. Ribbed material that fits the body comfortably, with small buttons lined up at the front center. Pale light blue and white checkered mini pleated skirt, white middle-length socks, white canvas sneakers. The entire skirt catches a strong wind blowing from the back right to the front left, spreading lightly in a large continuous arc from the waist to the hem. Layers of fabric and pleats hang naturally with gravity, fluttering smoothly as a single piece of cloth rather than multiple small waves. Right arm extended to the right, left arm lowered loosely by the side. Knees slightly bent, feet slightly staggered in preparation for landing.\n\nBackground/Light: {argument name=\"background\" default=\"Blue sea and low waves on the left, with green mountains in the distance\"}. In the far right, Japanese seaside houses on a slope, utility poles, power lines, and yellow-and-black railroad crossing equipment. The low concrete platform at the bottom right shows its shape and position clearly, and the area to its left is a wide, flat paved road with no steps or cliffs. Vivid blue sky with three-dimensional white cumulus clouds. Strong natural noon light shines from the upper left, brightly illuminating the left side of the face, shoulders, and legs. Shadows of the person and the platform fall toward the bottom right of the paved road.\n\nComposition/Camera: Vertical 3:4 aspect ratio. A bold low-angle full-body shot looking up from near the ground. Slightly wide-angle but with minimal body distortion. Ample blue sky left above the person's head, with a composition where the platform at the bottom right, the flat ground at the bottom left, and the sea in the back left are understood as a continuous space. High shutter speed freezes the person's silhouette, while leaving faint movement only at the tips of the hair and the edges of the skirt. Sharp focus on the person, with natural medium background blur.\n\nTexture/Style: A realistic Japanese portrait photo capturing the feeling of summer sunlight. Based on transparent blue and white tones, skin has natural texture and subtle sheen. Fine expression of pleats, ribs, individual strands of hair, and the coarse surface of concrete. Refreshing and high saturation, but skin tones are not overexposed, resulting in a clean and natural finish like a magazine photo.\n\nNegative: Underage-looking persons, unnatural body shapes, unnatural skirt shapes, stiff cloth, petal-like split hems, anti-gravity cloth, extra limbs, missing fingers, joint failures, fused feet, floating sensation, landing points with cliffs or steps, incorrect perspective, inconsistent shadow direction, excessive skin retouching, plastic-like skin, garbled text, logos, watermarks.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "main subject",
-        "default": "A moment in a mid-summer seaside town where an adult woman jumps from a low concrete platform in the bottom right of the screen to a flat paved road on the left"
-      },
-      {
-        "name": "clothing",
-        "default": "White thin-strap V-neck camisole"
-      },
-      {
-        "name": "background",
-        "default": "Blue sea and low waves on the left, with green mountains in the distance"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784277991837_lwovo8_HNMOA_nbcAE1ihp.jpg",
-        "alt": "Summer Seaside Jump Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2077880958557258134"
-    },
-    "publishedAt": "2026-07-16T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28902",
-    "contentHash": "f2c216d0de953d4a5d2b5b2fef1a4ca390ed362b"
-  },
-  {
-    "id": "gpt-image-2:28942",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "28942",
-    "title": "Lost in Russia Travel Collage",
-    "category": "Social Media Post",
-    "description": "A detailed prompt for creating a vintage scrapbook-style Russia travel poster featuring a tourist, Moscow landmarks, maps, stamps, food, and bold typography.",
-    "promptText": "Create a vertical vintage travel-poster collage about a solo traveler in Russia, using a gritty torn-paper scrapbook aesthetic, muted beige paper texture, halftone dots, rough paint strokes, distressed print grain, and high-contrast editorial photomontage. The main headline should dominate the top half: a black torn strip with white uppercase text “LOST IN” above enormous distressed red block letters “RUSSIA”. Center foreground: a stylish male tourist in his early 30s with short brown hair, trimmed beard, black sunglasses, tan overshirt jacket, gray T-shirt, black backpack straps, wristwatch, and a black camera hanging from his neck; he holds an unfolded paper map at waist level and looks confidently toward the right. Background and collage elements: on the right, large colorful onion domes of St. Basil’s Cathedral; on the left, an urban Moscow street scene with old buildings, pedestrians, and a red vintage car driving forward; include a red Moscow Metro “M” sign and a dark directional signboard with exactly 3 arrows labeled “RED SQUARE”, “GUM DEPARTMENT STORE”, and “ST. BASIL’S CATHEDRAL” with smaller Russian text above each English line. Add a blue brush-stroke caption near the upper left-center reading “WHERE STORIES LIVE FOREVER”. Include exactly 3 travel stamp/sticker elements: a round “ADVENTURE AWAITS” airplane stamp in the upper left, a small tan “RUSSIA” postage sticker in the upper right with Cyrillic text, and a round visa/passport stamp near the lower left. Add exactly 3 cultural/food stickers in the lower right: a bowl of red borscht with sour cream, and 3 nested matryoshka dolls grouped beside it. Add a torn black note panel in the bottom right with exactly 3 bullet lines: red star “ICONIC LANDMARKS”, blue star “RICH CULTURE”, white star “UNFORGETTABLE JOURNEYS”. Add a bottom-left torn label reading “RUSSIA MADE FOR EXPLORERS”. Keep the composition busy but readable, with layered ripped paper edges, blue and red paint accents, realistic photographic subject, poster-like typography, and no extra logos or watermarks.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1784278021041_hj9tmm_HNYHEToW8AAvbAF.jpg",
-        "alt": "Lost in Russia Travel Collage",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "𝔸𝕝𝕖𝕛𝕒𝕟𝕕𝕣𝕠 𝔾.",
-      "url": "https://x.com/a_galaktionov"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/a_galaktionov/status/2077856058274447633#reversed-0"
-    },
-    "publishedAt": "2026-07-16T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=28942",
-    "contentHash": "8d344c11f3d16a85702125a946e2c3bd493a2689"
   }
 ]

@@ -1,5 +1,98 @@
 [
   {
+    "id": "gpt-image-2:30903",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30903",
+    "title": "Dark Fantasy Worldbuilding Board",
+    "category": "Infographic / Edu Visual",
+    "description": "A cinematic grid presentation showing a consistent medieval archer character, snowy locations, and props for worldbuilding or image-generation showcases.",
+    "promptText": "Goal: Create a dark cinematic presentation board for a worldbuilding / image-generation workflow, showing how a consistent fantasy character, locations, and props are built image by image.\n\nCanvas: Wide 4:3 composition on a nearly black background with rounded rectangular cards arranged in a clean grid, soft gaps, subtle shadows, and a muted premium UI feel.\n\nLayout: Use exactly 6 visible cards. Card 1 is a tall text card on the upper left. Card 2 is a large wide character card on the upper right. Cards 3 and 4 are two medium landscape location cards across the middle row. Cards 5 and 6 are two smaller prop cards along the lower left and lower center, with a third lower-right character card partially visible/cropped at the edge if the canvas framing allows. Each image card has a small dark pill label in the top-left corner.\n\nText content: On the upper-left text card, include small spaced uppercase text “ONE WORLD” near the top. In the lower half, include the headline “Built image by image” and the body text “A character, her locations, and the props she carries — generated separately, holding one look.” Use clean modern sans-serif typography, white headline, muted gray body text.\n\nVisible labeled image cards: 5 fully visible labeled image cards plus 1 text card. The labels are: 2 cards labeled “Character,” 2 cards labeled “Location,” and 2 cards labeled “Prop” if the lower-right crop is included; otherwise keep the main visible set as 1 Character, 2 Location, and 2 Prop. Do not add extra labels.\n\nSubject details: The main character is {argument name=\"character description\" default=\"a pale young blonde medieval archer girl with braided hair, serious expression, wool cloak and leather quiver of arrows\"}. Place her in a snowy stone castle courtyard, holding a long wooden bow, with cold blue-gray lighting and shallow cinematic depth of field. The locations show {argument name=\"world setting\" default=\"a grim Nordic medieval winter world\"}: one frozen harbor with Viking-style longships trapped in ice, torchlight, mountains and snow; one fortified snowy military camp with tents, wooden palisades, watchtowers, smoke rising, and stormy clouds. The props show exactly 2 close-up items: a weathered leather pouch or wrist guard marked with pale runic symbols and small bones, and a row of antler or horn pieces in snow with blurred background.\n\nVisual style: Photorealistic cinematic dark fantasy, desaturated blue-gray winter palette, falling snow, realistic textures, high detail, moody natural lighting, consistent medieval wardrobe and materials across all cards. Rounded card corners, elegant spacing, no bright colors.\n\nConstraints: Keep the interface minimal and editorial, like a premium AI image-generation case study. Preserve the exact headline and body copy. Avoid logos, watermarks, charts, anime style, modern objects, or extra UI clutter.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character description",
+        "default": "a pale young blonde medieval archer girl with braided hair, serious expression, wool cloak and leather quiver of arrows"
+      },
+      {
+        "name": "world setting",
+        "default": "a grim Nordic medieval winter world"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786263560716_d219au_HPL5AoraYAAlYpZ.jpg",
+        "alt": "Dark Fantasy Worldbuilding Board",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "宮本 達朗@中小企業向けのAI活用・DX伴走",
+      "url": "https://x.com/mt_pb_ai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/mt_pb_ai/status/2086034181818060957#reversed-0"
+    },
+    "publishedAt": "2026-08-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30903",
+    "contentHash": "45ad53f1f8e0fc2fdec4c962fb3573f8ab68e952"
+  },
+  {
+    "id": "gpt-image-2:30904",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30904",
+    "title": "Four Cloudflare WebMCP Infographic Posters",
+    "category": "Infographic / Edu Visual",
+    "description": "Creates a wide four-panel Japanese technical infographic explaining Cloudflare WebMCP for social media or blog use.",
+    "promptText": "Goal: Create a wide comparison image showing exactly 4 separate Japanese infographic poster pages side by side, each explaining {argument name=\"topic\" default=\"Cloudflare WebMCP\"}. The posters should look like polished AI-generated tech explainer slides for social media, with dense but readable Japanese copy, Cloudflare branding, icons, diagrams, and section cards.\n\nCanvas: Extra-wide horizontal canvas, approximately 3:1 aspect ratio, with 4 tall white infographic pages arranged left-to-right. Each page is separated by thin black vertical gaps or borders. Each page has a clean white background, rounded pastel section boxes, colored headers, small icons, arrows, and a bottom-right semi-transparent dark rounded button overlay on some pages.\n\nOverall visual style: Modern Japanese SaaS/technical infographic design, Cloudflare orange-and-blue palette, flat vector icons, thin gray borders, rounded cards, tiny code blocks, flow diagrams, checkmarks, warning triangles, shield/security icons, robots, browser windows, AI agent icons, databases, clouds, and network arrows. Use a crisp printed-slide look with very small but believable Japanese text. Include Cloudflare cloud logo marks and the word “cloudflare” near the top of each page. Highlight “WebMCP” in orange.\n\nPage layout: Include exactly 4 infographic pages:\n1. Left page: Title “Cloudflare WebMCPとは?” with orange “WebMCP”, subtitle about WebMCP as a bridge connecting web sites and AI agents. Include exactly 6 numbered horizontal sections: 1) “WebMCPって何?” with a simple web page to AI-agent diagram and green “ポイント” bullets; 2) “なぜ必要なの?” with red X problem bullets and orange solution bullets; 3) “WebMCPの仕組み” with a 5-step icon flow; 4) “Webサイト側の実装イメージ” with a dark code snippet block on the left and benefit cards on the right; 5) “セキュリティ” with green checklist and Chrome/WebMCP tool card; 6) “まとめ: WebMCPのメリット” with four benefit icons.\n2. Second page: Title “Cloudflare WebMCPとは?” with a small orange Cloudflare logo and explanatory paragraph. Include exactly 5 numbered sections: 1) “WebMCPとは?” showing AI agent, web application, and Cloudflare WebMCP connection; 2) “仕組み: WebMCPはどのように動作する?” with a left-to-right flow from AI agent to WebMCP endpoint to user approval to tool execution; 3) “Cloudflare が WebMCP を簡単にできる理由” with purple feature cards and a code snippet; 4) “導入の流れ” with orange step cards for Workers/Pages, API definition, endpoint, MCP setup, and AI use; 5) “セキュリティと権限の考え方” with red warning/security cards. Add a dark pill overlay at lower right reading “もっと生成”.\n3. Third page: Title “Cloudflare WebMCPとは?” with subtitle about publishing tools on web sites for AI agents. Include exactly 7 numbered sections with compact cards: 1) “WebMCPの主な概念” with three cards for AI agent, WebMCP, and security/permission; 2) “Cloudflareが提供するWebMCPの仕組み” with a detailed architecture diagram using browser, Cloudflare, worker, API, and data-store icons; 3) “WebMCPの活用例” with multiple small use-case cards; 4) “なぜCloudflareでWebMCPが使いやすい?” in an orange band with benefit icons; 5) “実装例: シンプルなサイト連携” with a small form/table and tool cards; 6) “導入ステップ” with a 5-step horizontal flow; 7) “セキュリティのポイント” with green checklist cards. Add a dark pill overlay near the bottom reading “さらに深く考える”.\n4. Right page: Title “Cloudflare WebMCPとは?” with an orange Cloudflare logo and a small browser/address-bar illustration at top right plus an AI agent icon. Include exactly 6 numbered sections: 1) “WebMCPとは?” with definition bullets and a diagram from web app to AI agent; 2) “なぜCloudflareがWebMCPを推進している?” with exactly 4 cards describing AI-friendly web, security, open standards, and Cloudflare ecosystem; 3) “WebMCPの仕組み” with exactly 5 icon steps from site/API to MCP endpoint to AI request to tool execution to result; 4) “WebMCP manifest のイメージ” with a dark code block and a green checklist card; 5) “セキュリティとして重要” with warning and permission cards; 6) “まとめ: WebMCPの価値” with four blue/purple benefit cards.\n\nText content: The main headline on every page must include {argument name=\"headline text\" default=\"Cloudflare WebMCPとは?\"}. Keep all visible body text in Japanese. Use credible Japanese labels such as “AIエージェント”, “Webサイト”, “MCPサーバー”, “ツール定義”, “認可”, “権限管理”, “Workers”, “Pages”, “API”, “manifest”, “セキュリティ”, and “導入ステップ”. Use tiny text where necessary but keep major section titles legible.\n\nBranding and colors: Use {argument name=\"brand name\" default=\"Cloudflare\"} branding, orange cloud logos, blue section headers, green success boxes, orange highlight boxes, purple feature boxes, red security/warning boxes, and gray explanatory cards. Maintain a professional Japanese tech-blog infographic aesthetic.\n\nConstraints: Show exactly 4 pages, exactly 6 sections on page 1, 5 sections on page 2, 7 sections on page 3, and 6 sections on page 4. Do not include people or photorealistic scenes. Do not add watermarks. Make the image information-dense, like a generated social-media comparison of four alternate infographic designs.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "topic",
+        "default": "Cloudflare WebMCP"
+      },
+      {
+        "name": "headline text",
+        "default": "Cloudflare WebMCPとは?"
+      },
+      {
+        "name": "brand name",
+        "default": "Cloudflare"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786263560684_0dt8xz_HPLPQ0-bQAAOlFq.jpg",
+        "alt": "Four Cloudflare WebMCP Infographic Posters",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786263560688_vy59pt_HPLPj7tbAAAyQIJ.jpg",
+        "alt": "Four Cloudflare WebMCP Infographic Posters",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "池田 智彦｜生成AIで事業開発",
+      "url": "https://x.com/CEO_Spovisor"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CEO_Spovisor/status/2085958439973642624#reversed-0"
+    },
+    "publishedAt": "2026-08-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30904",
+    "contentHash": "f953ee0c56dc47ab619f810676b65db8e76ad63b"
+  },
+  {
     "id": "gpt-image-2:30795",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -7051,101 +7144,5 @@
     "publishedAt": "2026-07-31T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30382",
     "contentHash": "83acea74e6bc1a6974caa4e187afbe85274d476d"
-  },
-  {
-    "id": "gpt-image-2:30419",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30419",
-    "title": "Steampunk Clock Girl with Japanese Sign",
-    "category": "Infographic / Edu Visual",
-    "description": "Generates a warm photorealistic Japanese AI-art portrait featuring a clock-themed woman holding an educational acrylic signboard.",
-    "promptText": "Create a vertical 3:4 photorealistic AI-art portrait of a young Japanese woman in a warm steampunk clock-themed setting. She stands on the right side of the frame, looking slightly to the viewer's right with a gentle smile, long wavy dark brown hair half-up with straight bangs, and small antique clock-and-gear hair accessories. She wears a cream-white corset dress printed with black Roman numerals and clock markings, gold trim, delicate ruffles, a black choker with a small clock pendant, and exactly 2 large round antique clock ornaments hanging on the front of the bodice with gold chains. The background is softly blurred with golden bokeh lights, brass tones, and one enormous vintage clock face behind her on the upper right, using shallow depth of field and cinematic warm lighting.\n\nOn the left side, she holds a transparent acrylic signboard with rounded corners, visible screw caps at the corners, and handwritten Japanese text in black, purple, blue, and a small yellow sparkle doodle. The signboard should be clear enough to read, with a realistic hand holding its left edge. Include exactly 5 visible screw caps on the acrylic board: one near each corner and one along the upper edge. The board text should read:\n「AI が勝手に考えた\n今日のテーマ♡\n“ジャネーの法則”\n\n子どもは初めての経験が多くて\n記憶に残りやすいのに対し、\n大人は慣れた日常が多くて\n感動が減るため、時間が\n早く過ぎると感じます。\n体感上の人生の半分は\n『20歳』で終わると\n言われています。\n\nおすすめ\n・新しいことにチャレンジする\n・いつもと違う道を通ってみる\n\n衣装のポイント3\n時計の歯車と数字で\n時間の流れを表現！\n\n※間違えてたらごめんなさい」\n\nAt the lower right of the signboard, draw exactly 1 tiny simple doodle of a smiling girl face. The image should feel like a polished Japanese social-media AI art post: elegant, cute, educational, warm, detailed, high-resolution, with realistic skin texture and glossy acrylic reflections. Use the customizable subject as {argument name=\"character description\" default=\"a young Japanese woman with long wavy dark brown hair and soft makeup\"}, the outfit theme as {argument name=\"outfit theme\" default=\"cream-white steampunk clock dress with Roman numerals and antique clock ornaments\"}, the board title as {argument name=\"board title\" default=\"ジャネーの法則\"}, the background as {argument name=\"background setting\" default=\"warm antique clock workshop with golden bokeh and a giant clock face\"}, and the mood as {argument name=\"mood\" default=\"gentle morning greeting, elegant and hopeful\"}.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character description",
-        "default": "a young Japanese woman with long wavy dark brown hair and soft makeup"
-      },
-      {
-        "name": "outfit theme",
-        "default": "cream-white steampunk clock dress with Roman numerals and antique clock ornaments"
-      },
-      {
-        "name": "board title",
-        "default": "ジャネーの法則"
-      },
-      {
-        "name": "background setting",
-        "default": "warm antique clock workshop with golden bokeh and a giant clock face"
-      },
-      {
-        "name": "mood",
-        "default": "gentle morning greeting, elegant and hopeful"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785487801245_p6tqvh_HOgX0iVb0AAqvjk.jpg",
-        "alt": "Steampunk Clock Girl with Japanese Sign",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "ai_ohayou_mio",
-      "url": "https://x.com/AI_ohayou_mio"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AI_ohayou_mio/status/2082941024155091272#reversed-0"
-    },
-    "publishedAt": "2026-07-30T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30419",
-    "contentHash": "63ec49bca9092707c85f3bd08c1812bf3de3e239"
-  },
-  {
-    "id": "gpt-image-2:30467",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30467",
-    "title": "Dessert Livestream Branding Cover System",
-    "category": "YouTube Thumbnail",
-    "description": "A comprehensive prompt for creating a marketing design matrix for baking livestreams, featuring specific color hex codes and kitchen textures.",
-    "promptText": "Create a marketing and operational design-focused livestream cover system main image with the theme \"{argument name=\"livestream theme\" default=\"Every Wednesday at 8 PM, follow the pastry chef to turn failed cakes into the next surprise\"}.\" The visual is not a single cover but a matrix of six vertical covers with a unified channel language, spread out as if pinned to a baking workstation backboard. Each cover showcases a moment of transformation from a failed scenario (e.g., collapsed cream, cracked chiffon, burnt caramel, failed cookies), maintaining a relaxed, professional, and authentic atmosphere. The composition features one main cover enlarged in the center, with others arranged around it, featuring small episode numbers, durations, and column badges on the edges. Lighting varies slightly within each cover but is unified by kitchen warm white light and reflections on stainless steel surfaces. The color system must include hex values: Cream White #F3E9DA, Butter Gold #D9B46B, Caramel Brown #9A6644, Stainless Steel Gray #B8BABC, Berry Dark Red #8F4B4E, Mint Ash Green #9AA99B. Material focus includes {argument name=\"material details\" default=\"cream texture, baking paper, mixing bowl reflections, icing particles, and channel card lamination\"}. Requires a small amount of Chinese text for series name, episode, and time, with short English subtitles, in a unified layout suitable for social platform distribution.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "livestream theme",
-        "default": "Every Wednesday at 8 PM, follow the pastry chef to turn failed cakes into the next surprise"
-      },
-      {
-        "name": "material details",
-        "default": "cream texture, baking paper, mixing bowl reflections, icing particles, and channel card lamination"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573843208_t4ezzg_HOms1ZwaIAAJ5qI.jpg",
-        "alt": "Dessert Livestream Branding Cover System",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Mr.pinecone",
-      "url": "https://x.com/Mrpinecone888"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Mrpinecone888/status/2083386473697677542"
-    },
-    "publishedAt": "2026-08-01T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30467",
-    "contentHash": "ec1bd8e53e4cf82e5cc4d5ddd6a4baf5a34d23b2"
   }
 ]

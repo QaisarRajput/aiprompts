@@ -1,5 +1,89 @@
 [
   {
+    "id": "gpt-image-2:32853",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32853",
+    "title": "Object and Watermark Removal Instruction",
+    "category": "Product Marketing",
+    "description": "A clean-up prompt designed to remove watermarks and distracting overlays from images while reconstructing the underlying details naturally.",
+    "promptText": "Remove all {argument name=\"removals\" default=\"generic watermarks, sample text, preview text, overlays, and distracting graphics\"} from this image while preserving the original photo quality, details, textures, lighting, colors, and composition. Reconstruct hidden areas naturally so the image looks clean, realistic, and untouched.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "removals",
+        "default": "generic watermarks, sample text, preview text, overlays, and distracting graphics"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787990031835_dz851t_HQ0nbFwXQAAaYds.jpg",
+        "alt": "Object and Watermark Removal Instruction",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Abkr Sadiq",
+      "url": "https://x.com/abs_uiux"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/abs_uiux/status/2093372762962157623"
+    },
+    "publishedAt": "2026-08-28T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32853",
+    "contentHash": "d2bc9fa51c521910d5c17f415a282031d3ccd27e"
+  },
+  {
+    "id": "gpt-image-2:32875",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32875",
+    "title": "Glass Mushroom Gown in Cosmic Nebula",
+    "category": "Product Marketing",
+    "description": "A highly detailed surrealist prompt for a woman wearing a gown made of glowing glass mushrooms against a cosmic nebula background.",
+    "promptText": "Photorealistic editorial photograph of a {argument name=\"subject\" default=\"gorgeous woman\"} in a {argument name=\"outfit\" default=\"gown of glass mushrooms\"} growing in vivid clusters — caps in translucent amber, magenta, teal and violet with glowing spores inside, moss and tiny ferns sprouting between the stems, a real butterfly resting on one cap. Background: {argument name=\"background\" default=\"a breathtaking cosmos\"} — a deep nebula in rose and gold swirling behind her, shooting stars streaking across a starfield, aurora light washing over distant mountain peaks visible below. Dreamy cosmic glow mixed with warm natural light, 85mm, nature-meets-universe collage surrealism, hyperrealistic, photorealistic skin.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "gorgeous woman"
+      },
+      {
+        "name": "outfit",
+        "default": "gown of glass mushrooms"
+      },
+      {
+        "name": "background",
+        "default": "a breathtaking cosmos"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787990055297_sktnox_HQ0ewZwW8AAoMsy.jpg",
+        "alt": "Glass Mushroom Gown in Cosmic Nebula",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "AlexAImaginator",
+      "url": "https://x.com/TraffAlex"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/TraffAlex/status/2093363240965206481"
+    },
+    "publishedAt": "2026-08-28T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32875",
+    "contentHash": "3e04aee86c4808bd2e0a27cada9ecbca75bcfbee"
+  },
+  {
     "id": "gpt-image-2:32881",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6742,94 +6826,5 @@
     "publishedAt": "2026-08-26T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32623",
     "contentHash": "ed515779437be0d3f3a06e1e0ed344a6efddb9e3"
-  },
-  {
-    "id": "gpt-image-2:32634",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32634",
-    "title": "Solemn Knight on Ashen Battlefield",
-    "category": "Game Asset",
-    "description": "A cinematic fantasy portrait of a grieving armored knight standing amid embers, ruins, and storm clouds for dramatic character art.",
-    "promptText": "Create a dark cinematic fantasy portrait in a vertical 9:16 frame: a solemn {argument name=\"character gender\" default=\"female\"} knight stands in left profile on a scorched battlefield, head bowed and eyes downcast, conveying grief and exhaustion after battle. She wears polished but battle-worn dark steel plate armor with engraved details, layered gauntlets and greaves, and a long heavy {argument name=\"cape color\" default=\"deep burgundy\"} cloak draped from her shoulders and trailing to the ground. Her {argument name=\"hair color\" default=\"blonde\"} hair is braided in a medieval style with loose strands blowing around her face. One long sword is held point-down in front of her, its tip planted in the black ash-covered earth. The background is a desolate volcanic war-torn landscape with muddy ridges, smoke, drifting embers, small orange fires, distant ruined castle towers on the right, and low mountains fading into haze. Above her, dramatic storm clouds fill the sky with a bright opening of pale light behind the clouds, creating a subtle halo and rim light on the armor. Use realistic high-detail digital painting, cinematic lighting, muted charcoal gray and blue tones contrasted with warm ember glows, shallow atmospheric depth, soft fog, no text, no watermark, no modern objects.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character gender",
-        "default": "female"
-      },
-      {
-        "name": "cape color",
-        "default": "deep burgundy"
-      },
-      {
-        "name": "hair color",
-        "default": "blonde"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787732171895_lqu8ud_HQjrhzsXwAAWpI5.jpg",
-        "alt": "Solemn Knight on Ashen Battlefield",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "DrSadek 🪶",
-      "url": "https://x.com/DrSadek_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/DrSadek_/status/2092181042375401767#reversed-0"
-    },
-    "publishedAt": "2026-08-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32634",
-    "contentHash": "ce41a54c6d01fb2d00cbe9572f18152cefa51995"
-  },
-  {
-    "id": "gpt-image-2:32649",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32649",
-    "title": "Chibi Anime Ninja Sticker Sheet",
-    "category": "Game Asset",
-    "description": "Generates a square 3×3 set of expressive chibi anime ninja reaction stickers for social media, merch mockups, or sticker-pack concepts.",
-    "promptText": "Goal: Create a 3×3 sticker sheet of chibi anime ninja reactions featuring {argument name=\"character name\" default=\"Naruto Uzumaki\"}, drawn as a playful parody of a classic shonen manga style.\n\nCanvas: Square 1:1 image on a solid black background. Arrange exactly 9 separate die-cut stickers in an evenly spaced 3×3 grid. Each sticker has a thick white border and a thin dark outline, like printable vinyl stickers.\n\nCharacter design: The same young blond spiky-haired ninja appears in every sticker, wearing an orange jumpsuit with dark navy accents, a fluffy white collar, blue open-toe sandals, and a dark blue forehead band with a silver metal plate engraved with a leaf-like spiral symbol. He has three whisker-like cheek marks on each side, exaggerated chibi proportions, oversized expressions, energetic manga linework, saturated colors, and hand-drawn marker shading.\n\nSticker count and poses: Include exactly 9 stickers:\n1. Top left: sitting and crying dramatically, mouth wide open, fists near face, huge blue streams of tears flooding outward with splash droplets.\n2. Top center: confused standing pose, tilted head, skeptical frown, surrounded by colorful question marks in yellow, red, and blue.\n3. Top right: terrified screaming pose, bulging eyes, sweat drops, hands clawed forward, red punctuation marks behind the head.\n4. Middle left: smug cool pose, sitting with pixelated black sunglasses, finger-gun gesture, sparkling yellow star effects.\n5. Middle center: silly face pose, winking, pulling cheeks with both fingers, tongue sticking out, yellow exclamation marks and motion swirls.\n6. Middle right: affectionate pose, kneeling while hugging a large pink heart, laughing with blush, surrounded by multiple pink hearts.\n7. Bottom left: triumphant launch pose, jumping upward from a fiery rocket-like blast cloud, starry eyes, clenched fists, small cartoon rocket and stars nearby.\n8. Bottom center: party celebration pose, laughing with one leg kicked up, wearing a party hat, holding a red cup and a green bottle, surrounded by colorful confetti.\n9. Bottom right: exhausted unimpressed bust portrait, half-lidded eyes, dark under-eye shadow, blank expression, speech bubble with three dots and a scribbly frustration cloud.\n\nVisual style: Bold anime sticker art, expressive comedy reactions, dynamic black ink outlines, watercolor/marker texture, bright orange, yellow, blue, pink, and red accents. Keep each sticker isolated with visible black gaps between them.\n\nConstraints: No extra characters, no readable text besides simple punctuation marks, no watermark, no logo, no realistic rendering, no photo style.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "Naruto Uzumaki"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787732181918_30yvwd_HQjiHB8WwAAfMOd.jpg",
-        "alt": "Chibi Anime Ninja Sticker Sheet",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787732182043_swxrcf_HQjiIq2WYAIT0J0.jpg",
-        "alt": "Chibi Anime Ninja Sticker Sheet",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Mirochill",
-      "url": "https://x.com/mirochill"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/mirochill/status/2092171184800485468#reversed-0"
-    },
-    "publishedAt": "2026-08-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32649",
-    "contentHash": "daf195c69653839dc0c6a2871b607b06ffe7441b"
   }
 ]

@@ -1,5 +1,51 @@
 [
   {
+    "id": "nano-banana-pro:28668",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "28668",
+    "title": "Studio Portrait with Finger Heart Gesture",
+    "category": "Profile / Avatar",
+    "description": "A prompt for high-end editorial studio portraits, focusing on preserving facial identity and incorporating friendly gestures.",
+    "promptText": "Professional studio portrait, using the face and likeness from the uploaded photo, subject making a {argument name=\"gesture\" default=\"finger heart gesture\"} with one hand raised near chest height, thumb and index finger forming a small heart shape, warm friendly smile, {argument name=\"outfit\" default=\"casual black outfit\"}, soft even studio lighting, {argument name=\"background\" default=\"clean neutral gray background\"}, sharp focus on face and hand, natural skin texture, high-end editorial photography, consistent facial identity preserved from the uploaded photo, vertical portrait format, high resolution",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "gesture",
+        "default": "finger heart gesture"
+      },
+      {
+        "name": "outfit",
+        "default": "casual black outfit"
+      },
+      {
+        "name": "background",
+        "default": "clean neutral gray background"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1784098933565_rvbww6_HNMY47RacAAF5Be.jpg",
+        "alt": "Studio Portrait with Finger Heart Gesture",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Maddox",
+      "url": "https://x.com/Maddox_Digital"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Maddox_Digital/status/2077031227455156463"
+    },
+    "publishedAt": "2026-07-14T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=28668",
+    "contentHash": "f2873692ee3c1623aff3a0629dc344d380a50417"
+  },
+  {
     "id": "nano-banana-pro:28667",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
@@ -7175,47 +7221,5 @@
     "publishedAt": "2026-06-28T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=27028",
     "contentHash": "7e9ff5ee2550ddfa64fe1fd5957d69faff7f9e6d"
-  },
-  {
-    "id": "nano-banana-pro:26570",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "26570",
-    "title": "3D Miniature Diorama of New York City",
-    "category": "Game Asset",
-    "description": "An ultra-realistic promotional prompt for creating a stylized miniature 3D diorama of New York City landmarks emerging from a central device.",
-    "promptText": "Create a stylized miniature 3D diorama viewed from a 45-degree angled perspective, emphasizing careful scale, clean geometry, and fine craftsmanship. {argument name=\"base device\" default=\"WATER GLASS\"} device serves as the central base of the composition. From within or above this device, a miniature interpretation of the selected {argument name=\"location\" default=\"NEW YORK\"} emerges naturally, forming a compact, self contained world.\nThe scene highlights recognizable landmarks, terrain features, or symbolic structures associated with the {argument name=\"location\" default=\"NEW YORK\"}, arranged harmoniously and rendered with precise detail. Miniature roads, pathways, environmental elements, and tiny human figures interact naturally with the Nano Banana Pro, reinforcing its presence as the foundation of the world.\nUse cinematic lighting, soft highlights, reflections on premium surfaces, and selective depth-of-field blur to create a magical, dreamlike, ultra realistic promotional atmosphere. Emphasize the product’s premium materials, sleek design, and futuristic aesthetic,Image size 4 5..",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "base device",
-        "default": "WATER GLASS"
-      },
-      {
-        "name": "location",
-        "default": "NEW YORK"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782286586856_qt7g7z_HLdt7loXwAACvWO.jpg",
-        "alt": "3D Miniature Diorama of New York City",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Maddox",
-      "url": "https://x.com/Maddox_Digital"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Maddox_Digital/status/2069243460226302224"
-    },
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=26570",
-    "contentHash": "f75c8625b686fdcc455cffa60d570ed59eba163b"
   }
 ]
