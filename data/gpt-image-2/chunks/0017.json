@@ -1,5 +1,200 @@
 [
   {
+    "id": "gpt-image-2:30185",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30185",
+    "title": "Cyberpunk Lightcycle Storyboard",
+    "category": "Comic / Storyboard",
+    "description": "Generates a 9-panel cinematic cyberpunk action storyboard sheet for a rain-soaked lightcycle ambush sequence.",
+    "promptText": "Goal: Create a cinematic cyberpunk action storyboard sheet for {argument name=\"project name\" default=\"X-01\"}, showing a black armored hero ambushed in a rain-soaked neon megacity and arriving on a red-glowing lightcycle before launching into combat.\n\nCanvas: Wide 16:9 storyboard board, dark sci-fi presentation style, black background with thin red grid borders. Arrange exactly 9 widescreen panels in a 3-column by 3-row grid, each panel numbered in small red numerals at the top-left. Add a bottom production strip with project metadata.\n\nVisual style: Hyper-detailed dark cyberpunk concept art, cinematic storyboard frames, wet reflective asphalt, heavy rain, blue-black city atmosphere, red neon accents, volumetric haze, motion blur, sparks, plasma arcs, chrome-black armor, high contrast lighting. The hero wears a sleek black futuristic exosuit with a glowing red visor and red energy highlights. Enemies are bulky armored enforcers with orange electrical weapons. The lightcycle is a low black futuristic motorcycle with oversized circular wheels glowing red.\n\nPanel layout and required captions: Include exactly 9 discrete storyboard panels with these actions and captions:\n1. Establishing wide shot: several DTR enforcers hold a rainy neon street in a tense standoff; distant holographic skull and red corporate sign. Caption: \"ESTABLISHING SHOT. DTR ENFORCERS HOLD THE STREET IN A TENSE STANDOFF.\"\n2. Side tracking shot: the hero speeds into the scene on the red-lit lightcycle, intense motion blur and rain streaks. Caption: \"THE HERO SPEEDS INTO THE SCENE ON THE LIGHTCYCLE.\"\n3. Rear/low angle: the bike cuts through the wet street toward surrounding henchmen, red water spray exploding from the wheel. Caption: \"THE BIKE CUTS THROUGH THE STREET TOWARD THE SURROUNDING HENCHMEN.\"\n4. Central skid shot: the hero skids the lightcycle into the middle as enemies close in from all sides, red reflections across puddles. Caption: \"THE HERO SKIDS INTO THE CENTER AS HENCHMEN CLOSE IN FROM ALL SIDES.\"\n5. Launch shot: the hero springs upward off the lightcycle while enemies watch from the foreground. Caption: \"THE HERO LAUNCHES UPWARD OFF THE LIGHTCYCLE.\"\n6. High aerial action: the hero performs a mid-air flip above the henchmen, agile silhouette against rainy skyscrapers. Caption: \"MID-AIR FLIP ABOVE THE HENCHMEN. AGILE. PRECISE. UNSTOPPABLE.\"\n7. Rotating aerial close shot: the hero twists through the air, preparing to land and draw weapons, enemies framing the sides. Caption: \"ROTATING THROUGH THE AIR, PREPARING TO LAND AND DRAW WEAPONS.\"\n8. Hero landing shot: the hero lands in a stylish crouched stance, drawing exactly 2 red plasma katanas. Caption: \"HERO LANDS IN A STYLISH STANCE, DRAWING BOTH PLASMA KATANAS.\"\n9. Battle start shot: both katanas are drawn, red circular light trails cut through the rain around the hero as enemies surround him. Caption: \"BOTH KATANAS DRAWN. RED LIGHT TRAILS SLICE THE RAIN AS BATTLE BEGINS.\"\n\nVisible text and branding: Use the corporate sign text {argument name=\"corporate sign text\" default=\"DTR CORP\"} in multiple city-background signs. In the bottom production strip include: \"PROJECT:\" then {argument name=\"project name\" default=\"X-01\"}, \"STORYBOARD\", \"SEQUENCE:\" then {argument name=\"sequence title\" default=\"LIGHTCYCLE AMBUSH\"}, \"DATE:\" then {argument name=\"date\" default=\"05-22-2024\"}, and \"ARTIST:\" then {argument name=\"artist credit\" default=\"NEO-CORE VISUALS\"}. Add a small angular red triangular emblem at the bottom-right.\n\nConstraints: Keep all captions in small uppercase condensed white text beneath each panel. Maintain exactly 9 panels, exactly 2 plasma katanas in panels 8 and 9, and a cohesive red/black/blue cyberpunk palette. No extra panels, no speech bubbles, no watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "project name",
+        "default": "X-01"
+      },
+      {
+        "name": "corporate sign text",
+        "default": "DTR CORP"
+      },
+      {
+        "name": "sequence title",
+        "default": "LIGHTCYCLE AMBUSH"
+      },
+      {
+        "name": "date",
+        "default": "05-22-2024"
+      },
+      {
+        "name": "artist credit",
+        "default": "NEO-CORE VISUALS"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785315030990_yayay1_HOW8ALvX0AANgr6.jpg",
+        "alt": "Cyberpunk Lightcycle Storyboard",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "LANDCÄSTER",
+      "url": "https://x.com/LANDCASTER_92"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/LANDCASTER_92/status/2082277122983248318#reversed-0"
+    },
+    "publishedAt": "2026-07-29T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30185",
+    "contentHash": "847cf2cb08c78176b387bf448c0a83ce0511ae67"
+  },
+  {
+    "id": "gpt-image-2:30183",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30183",
+    "title": "Cyber Ninja Character Sheet",
+    "category": "Comic / Storyboard",
+    "description": "A detailed cyberpunk character design sheet showing front, side, back, armor, helmet, and plasma katana specifications for concept art use.",
+    "promptText": "Goal: Create a dark futuristic cyberpunk character sheet for {argument name=\"character name\" default=\"Cyber Ninja\"}, an elite cybernetic assassin in black exo-armor with glowing red plasma accents.\n\nCanvas: Wide 16:9 technical concept-art board, black and charcoal background with faint grid lines, thin red HUD borders, blueprint-style panel divisions, subtle scanlines, high-contrast cinematic lighting, red and cyan rim highlights.\n\nLayout: Left column contains the large title “CYBER NINJA” with small Japanese subtitle “サイバー・ニンジャ”, a red triangular emblem, and three labeled info panels: Profile, Overview, and Statistics. Center area shows exactly 3 full-body orthographic character views labeled FRONT, SIDE, and BACK. Right side contains exactly 4 technical feature panels plus one tall weapon panel: Helmet Close-Up, Armor Detail, Cloth & Gear, Plasma Katanas, and a small Sheath (Dual) inset near the bottom.\n\nSubject details: The character is a tall armored ninja assassin wearing a glossy black segmented cybernetic suit, angular helmet with red glowing V-shaped visor, black tactical scarf/hood, layered torn waist cloth, utility belt, armored boots and gauntlets, red illuminated circuitry lines, small cyan reflections, and a vertical red kanji-like strip hanging from the belt. The front view stands facing forward with arms relaxed; the side view shows the profile with a sheathed sword at the hip/back; the back view shows rear armor plates, cloak folds, and a glowing red spine module.\n\nCounted visible elements: Include exactly 3 main character views: 1 front, 1 side, 1 back. Include exactly 1 helmet close-up portrait. Include exactly 4 armor-detail thumbnails showing chest/shoulder plating, shoulder/back plating, glowing arm detail, and illuminated torso spine/core detail. Include exactly 1 cloth-and-gear thumbnail showing the waist cloth and belt. Include exactly 2 vertical plasma katanas, both glowing red with black handles. Include exactly 1 small dual-sheath inset containing 2 sheathed blades.\n\nText content: Use compact sci-fi UI typography in red, white, and gray. Left profile text should read: “CLASS: ASSASSIN”, “MODEL: CN-07 ‘KUREN’”, “HEIGHT: 188 CM”, “WEIGHT: 82 KG”, “AFFILIATION: UNKNOWN”, “ORIGIN: UNKNOWN”. Overview text should describe an elite cybernetic assassin enhanced with experimental exo-armor and plasma weaponry, built for stealth, speed, and precision. Statistics panel should show exactly 6 labeled bars: Strength, Speed, Agility, Durability, Stealth, Intelligence. Helmet panel should include small bullet labels: HUD / Targeting, Thermal Vision, Audio Scan, Environmental Filter, Neural Link. Weapon specs should identify the weapon type as Plasma Katana with blade length 72 cm, overall length 102 cm, weight 1.2 kg, power source mini plasma core, and features including monomolecular edge, thermal disruption, and energy drain. Bottom label should read “DESIGNATION: CN-07 ‘KUREN’”.\n\nVisual style: Ultra-detailed AAA video game concept art, realistic hard-surface armor design, sleek mecha-ninja silhouette, gritty military techwear, red neon energy glow, glossy black metal, subtle scratches and wear, dramatic studio lighting, crisp panel lines, professional character design sheet presentation.\n\nConstraints: Keep the composition clean and symmetrical, preserve all specified panel counts, do not add extra characters, do not use bright backgrounds, avoid cartoon/anime proportions, avoid watermarks or logos unrelated to the design.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "Cyber Ninja"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785315029941_yl52vm_HOW70GXXMAApbg-.jpg",
+        "alt": "Cyber Ninja Character Sheet",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "LANDCÄSTER",
+      "url": "https://x.com/LANDCASTER_92"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/LANDCASTER_92/status/2082276918439637015#reversed-0"
+    },
+    "publishedAt": "2026-07-29T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30183",
+    "contentHash": "60bedd675c130b55fd10c9139fd16da78c7dafc9"
+  },
+  {
+    "id": "gpt-image-2:30164",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30164",
+    "title": "Chibi Anime Surveillance Picnic",
+    "category": "Comic / Storyboard",
+    "description": "A wide anime comedy illustration of three chibi military girls spying on a romantic wedding fantasy from a hill above a night city.",
+    "promptText": "Create a wide 16:9 anime-style humorous night scene on a grassy hill overlooking a city. Three chibi military-girl characters are having a picnic-like surveillance session under a dark blue starry sky, with glowing apartment buildings in the valley below. On the left foreground, show exactly 3 chibi girls: first, a small pale lavender-haired girl in a white sailor-style military uniform and white peaked cap, wearing oversized red glasses, standing beside a giant red popcorn bucket labeled “Popcorn” and a hot dog; second, a blonde girl in a dark gray military outfit with a red-accented cap and rifle, standing with a skeptical expression; third, a blonde girl in black-and-orange tactical clothing sitting on a checkered picnic blanket, holding large binoculars to her eyes while drooling comically. Add a second pair of binoculars lying on the blanket in front. Include exactly 2 Japanese speech bubbles above the standing girls: {argument name=\"left speech bubble\" default=\"元アイドルですね。\"} and {argument name=\"right speech bubble\" default=\"アイドルよね？\"}. On the right upper half, add a large fluffy thought bubble from the binocular girl showing a romantic fantasy: a young woman in a white wedding dress with long light-brown hair and a handsome dark-haired man in a decorated black military dress uniform, almost kissing, surrounded by sparkles, soft pink light, and falling rose petals. On the lower right over the city, add one circular inset speech-bubble frame showing a room interior where a seated woman watches a screen or framed image of the romantic couple. Use clean high-detail anime line art, soft cel shading, cute chibi proportions for the observers, more polished romantic shoujo rendering inside the fantasy bubble, saturated colors, crisp outlines, playful comedy mood, no watermark, no extra characters, no extra text beyond the specified labels.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "left speech bubble",
+        "default": "元アイドルですね。"
+      },
+      {
+        "name": "right speech bubble",
+        "default": "アイドルよね？"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785315012522_vm4e4c_HOU_4mHaMAAoeD0.jpg",
+        "alt": "Chibi Anime Surveillance Picnic",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785315013217_vkxzsc_HOU_47BaMAEag34.jpg",
+        "alt": "Chibi Anime Surveillance Picnic",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785315013222_xjx6u9_HOU_589aMAAUoxi.jpg",
+        "alt": "Chibi Anime Surveillance Picnic",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785315013919_85gmek_HOU_7-1aMAQuqU9.jpg",
+        "alt": "Chibi Anime Surveillance Picnic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "まるるん＠NIKKE好き",
+      "url": "https://x.com/TachMaru"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/TachMaru/status/2082141028124102732#reversed-0"
+    },
+    "publishedAt": "2026-07-28T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30164",
+    "contentHash": "3760f5df641e048f34ce08c6f091d951244f7f04"
+  },
+  {
+    "id": "gpt-image-2:30174",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30174",
+    "title": "Moonlit Anime Graveyard Chase",
+    "category": "Comic / Storyboard",
+    "description": "Generates a cinematic anime fantasy scene of a girl fleeing a jester magician’s rainbow spell in a spooky graveyard.",
+    "promptText": "Create a dramatic anime-style fantasy action illustration set in a moonlit graveyard at night. The scene contains exactly 2 main characters: on the left, a frightened young blonde girl, {argument name=\"heroine name\" default=\"girl Arthur\"}, running toward the viewer-left while looking back over her shoulder with wide blue eyes and an open screaming mouth; on the right, a sinister magician/jester monster, {argument name=\"villain name\" default=\"evil magician\"}, standing on one leg near a treasure chest and pointing at her as he casts a spell. The girl wears an orange long-sleeve dress, a white frilled apron, a white bonnet with an orange bow, white socks, and pale blue Mary Jane shoes; her long wavy blonde hair streams backward, and puffs of white transformation smoke surround her dress and trail behind her. The villain wears a blue jester hood with two floppy points tipped by red balls, glowing red eyes, a skull-like gray face, sharp teeth, a purple ruffled collar and cuffs, a blue tunic with red buttons, orange tights, red curled boots, and a dark cape. Between them, show exactly 1 rainbow spiral magic projectile, glowing like a colorful vortex with red, orange, yellow, green, cyan, blue, and magenta trails, flying from the villain’s pointed finger toward the girl. Include exactly 1 large full moon centered high in the sky, partly veiled by dark purple storm clouds. Include exactly 1 closed wooden treasure chest with brass bands and a central lock in the lower right-middle foreground. Include 7 prominent gravestones: 1 large tilted stone on the far left, 1 rounded stone near the center behind the girl, 1 small dark stone behind the treasure chest, 1 narrow stone just right of the villain, 1 large tilted stone at the far right foreground, and 2 additional partially obscured stones in the midground. The graveyard ground should be dark, muddy, and rocky with scattered tufts of grass, bare twisted trees on both sides, and a gothic horror atmosphere. Use dynamic composition, cinematic lighting, strong rim light from the moon, saturated anime colors, crisp linework, detailed fabric folds, expressive faces, and motion blur only in the smoke and magic trails. No captions, no UI, no watermark, no extra characters. Use a 16:9 landscape canvas. The overall mood should be {argument name=\"mood\" default=\"spooky but adventurous\"}, inspired by retro side-scrolling dark fantasy game art transformed into a polished modern anime illustration.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "heroine name",
+        "default": "girl Arthur"
+      },
+      {
+        "name": "villain name",
+        "default": "evil magician"
+      },
+      {
+        "name": "mood",
+        "default": "spooky but adventurous"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785315021955_m4oejb_HOU_hiWaMAUvPWc.jpg",
+        "alt": "Moonlit Anime Graveyard Chase",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "犬神 潤",
+      "url": "https://x.com/Inugami_jyun"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Inugami_jyun/status/2082140322377912567#reversed-0"
+    },
+    "publishedAt": "2026-07-28T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30174",
+    "contentHash": "325b3435b6c026d7d0b6d90ac7ec3b4d4ec58823"
+  },
+  {
     "id": "gpt-image-2:30186",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -7019,196 +7214,5 @@
     "publishedAt": "2026-07-25T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29797",
     "contentHash": "8205dc2d83edb59305e1504dbcdecd28aae51f52"
-  },
-  {
-    "id": "gpt-image-2:29817",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29817",
-    "title": "Real Woman With Doodle Alter Ego",
-    "category": "Social Media Post",
-    "description": "Generates a trendy photoreal portrait of a shy woman beside a chaotic manga-style doodle version of herself drawn on the wall.",
-    "promptText": "Create a single 4:5 vertical editorial photo-real image of a young woman standing beside a black hand-drawn doodle alter ego on a plain indoor wall. The real person is {argument name=\"character description\" default=\"a shy young East Asian woman with long dark brown hair and straight bangs\"}, full body, positioned on the left third of the frame, leaning lightly against an off-white concrete wall, smiling bashfully with one hand covering her mouth and the other arm relaxed down. She wears {argument name=\"outfit\" default=\"a cream fitted camisole, dark denim cutoff shorts, bracelets, and black platform flip-flops\"}. Use soft natural sunlight from the upper left, with diagonal window-shadow shapes on the wall and concrete floor, realistic skin, realistic fabric, quiet minimal background, no text.\n\nOn the right two-thirds of the wall, draw exactly 1 energetic manga-style black ink doodle character as if sketched directly on the wall: a cartoon version of the same woman with long hair and bangs, huge laughing open mouth, closed happy eyes, freckles, sleeveless top, dark shorts, bracelets, and flip-flops. The doodle character is mid-jump with arms stretched wide, one leg bent backward, body tilted forward, and one sketched hand reaching toward the real woman’s shoulder as if her chaotic inner self is bursting out beside her. The doodle should be monochrome black line art with expressive hatching, messy sketch strokes, motion lines, and no color fill except black ink shading.\n\nSurround the doodle with exactly 15 decorative doodle elements: 4 stars/sparkles, 3 hearts, 2 cloud puffs, 1 speech bubble containing a heart, 1 exclamation mark cluster above the head, and 4 short motion-burst line groups. Keep the contrast between the composed real woman and the wild doodle persona clear and humorous. Composition should feel like a trendy social-media portrait, clean wall backdrop, realistic photography blended seamlessly with wall-drawn illustration, high detail, natural perspective, no collage, no split panels, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character description",
-        "default": "a shy young East Asian woman with long dark brown hair and straight bangs"
-      },
-      {
-        "name": "outfit",
-        "default": "a cream fitted camisole, dark denim cutoff shorts, bracelets, and black platform flip-flops"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785055081727_w4uaga_HOFwRNsaEAAPzwI.jpg",
-        "alt": "Real Woman With Doodle Alter Ego",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785055081768_g1sznn_HOFwRNsbMAAmYzx.jpg",
-        "alt": "Real Woman With Doodle Alter Ego",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785055081717_py38k1_HOFwRNcaMAAjAxU.jpg",
-        "alt": "Real Woman With Doodle Alter Ego",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785055083107_0s5mer_HOFwRNsbAAE2BUL.jpg",
-        "alt": "Real Woman With Doodle Alter Ego",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "serein ｜买美股上币安",
-      "url": "https://x.com/you1873118"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/you1873118/status/2081067959708180890#reversed-0"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29817",
-    "contentHash": "f3943b3c15e0b6f285339dc3a273da3e75ac2ec0"
-  },
-  {
-    "id": "gpt-image-2:29814",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29814",
-    "title": "Night Walk Portrait Triptych",
-    "category": "Social Media Post",
-    "description": "Creates a realistic three-panel smartphone night portrait sequence of a young woman posing along a reflective tiled city sidewalk.",
-    "promptText": "Goal: Create a realistic vertical mobile-night-photography triptych of the same young woman during a late-night city walk, with the feeling of three consecutive casual snapshots captured on a phone.\n\nCanvas: A tall vertical 9:16 image divided into exactly 3 equal horizontal photo panels stacked top to bottom, edge-to-edge with no captions, borders, logos, or watermark.\n\nSubject: The same {argument name=\"character description\" default=\"young East Asian woman in her early 20s with long loose dark brown hair, natural makeup, soft smile, slim build\"} appears in all 3 panels. She wears {argument name=\"outfit\" default=\"a fitted gray sleeveless tank top, loose light blue jeans, and a small black leather shoulder bag with thin straps\"}. Keep her face consistent across all panels.\n\nSetting: Late-night urban sidewalk beside a glossy white rectangular-tile wall on the right, with a quiet road, crosswalk markings, metal poles, railings, glass reflections, distant apartment windows, traffic lights, and streetlights on the left. Use mixed cool and warm street lighting, reflective white tiles, wet-looking highlights, and soft city bokeh in the background.\n\nPanel count and poses: Use exactly 3 panels. Panel 1, top: medium shot from behind and slightly to the side as she walks along the sidewalk, turning her head back over her shoulder toward the camera with a gentle smile. Panel 2, middle: closer portrait, she faces the camera and reaches one open hand toward the lens to block it playfully; the hand is large and motion-blurred in the foreground while her smiling face remains visible behind it. Panel 3, bottom: seated crouching pose beside the tiled wall, knees bent, one elbow resting on her knee and cheek leaning on her hand, looking up at the camera with a relaxed affectionate smile; black shoulder bag visible near her side.\n\nCamera and style: Hyper-realistic candid smartphone night mode photography, natural skin texture, shallow depth of field, 28mm wide-angle mobile lens feel, slight handheld perspective, high ISO but clean, realistic motion blur only on the reaching hand, cinematic urban lighting, soft highlights on hair and tiles, muted gray-blue night palette with warm amber reflections.\n\nConstraints: Keep the scene text-free. Do not add extra people. Do not change clothing between panels. Maintain believable anatomy, consistent facial identity, and realistic phone-photo composition.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character description",
-        "default": "young East Asian woman in her early 20s with long loose dark brown hair, natural makeup, soft smile, slim build"
-      },
-      {
-        "name": "outfit",
-        "default": "a fitted gray sleeveless tank top, loose light blue jeans, and a small black leather shoulder bag with thin straps"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785055080782_l0q4y9_HOFtSczaAAAQIr_.jpg",
-        "alt": "Night Walk Portrait Triptych",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "小森映像",
-      "url": "https://x.com/komorimedia"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/komorimedia/status/2081064706035589250#reversed-0"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29814",
-    "contentHash": "7b2f3be31ac8205a994bd2f04aebb231d945cd0b"
-  },
-  {
-    "id": "gpt-image-2:29811",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29811",
-    "title": "Real Girl in Anime Mural Room",
-    "category": "Social Media Post",
-    "description": "A photorealistic cozy portrait prompt for placing a real young woman and cat in front of a warm beige wall filled with cute anime-style doodles.",
-    "promptText": "Create a cozy ultra-realistic vertical full-body portrait of a young woman standing casually indoors in front of a warm beige wall covered with simple black line-art anime doodles, blending a real person into a cute anime world. The woman is {argument name=\"character age and appearance\" default=\"a young woman in her late teens with long dark brown hair, soft curtain layers, natural makeup, and a calm gentle expression\"}, facing the camera with a relaxed posture, both hands tucked into the pockets of an oversized {argument name=\"jacket color\" default=\"olive-brown\"} jacket. She wears a plain white T-shirt, loose light-blue wide-leg jeans, and beige sneakers. To her right on the floor sits {argument name=\"real cat\" default=\"a gray-and-white cat wearing a small brown checkered bandana\"}, looking toward the camera. Behind her, draw exactly 10 visible black doodle elements on the wall: 1 large winking anime girl mural on the left making a peace sign, 1 cute cartoon cat below it with both paws raised and a small collar charm, 3 heart doodles, 3 star or sparkle doodles, and 2 small motion/accent mark clusters. Use warm golden sunlight entering from the left, casting diagonal window-shadow stripes across the wall, mural, woman, floor, and cat. The floor is plain gray concrete, the wall is matte beige, and the mood is soft, cozy, nostalgic, and magical. Keep the real woman and real cat photorealistic with natural skin texture, realistic fabric folds, and accurate shadows, while the wall art remains hand-drawn manga-style line work. Shoot at eye level with a 35mm editorial portrait feel, full body visible from head to shoes, centered composition with the woman slightly right of the anime mural, warm color grading, shallow-to-moderate depth of field, high detail, no extra people, no text, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character age and appearance",
-        "default": "a young woman in her late teens with long dark brown hair, soft curtain layers, natural makeup, and a calm gentle expression"
-      },
-      {
-        "name": "jacket color",
-        "default": "olive-brown"
-      },
-      {
-        "name": "real cat",
-        "default": "a gray-and-white cat wearing a small brown checkered bandana"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785055079091_zqxz0u_HOFO0wrbYAAcAD4.jpg",
-        "alt": "Real Girl in Anime Mural Room",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Arina Ai",
-      "url": "https://x.com/Arina_hoqe"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Arina_hoqe/status/2081031235594572263#reversed-0"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29811",
-    "contentHash": "d41945fb42880400925765331d10c5efe60109e7"
-  },
-  {
-    "id": "gpt-image-2:29824",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "29824",
-    "title": "Black Cat Under Shaved Ice Machine",
-    "category": "Social Media Post",
-    "description": "A humorous photorealistic image of a startled black cat being covered in shaved ice beneath a vintage Japanese kakigori machine.",
-    "promptText": "Create a photorealistic low-angle summer street photo of a startled {argument name=\"cat color\" default=\"black\"} cat standing directly under a vintage Japanese hand-cranked shaved-ice machine, with a mound of bright white crushed ice piling on the cat’s head like a snowy hat while ice flakes spray and fall around its face. The cat has wide green-yellow eyes, an open tiny mouth with small fangs visible, wet whiskers, and a red collar with a small gold bell. The shaved-ice machine is tall, weathered, and painted teal-blue, with ornate metal legs framing the cat, a large circular crank wheel on the upper right, and a cylindrical ice-shaving drum above the cat. At the top of the machine is a decorative sign with the red kanji {argument name=\"top sign text\" default=\"氷\"} surrounded by blue wave motifs and small red flowers. On the left side in the background, include exactly 1 hanging fabric banner angled in the breeze, printed vertically with {argument name=\"banner text\" default=\"かき氷\"} in red and blue wave graphics near the bottom. Set the scene outdoors under a vivid blue sky with scattered fluffy white clouds, strong midday sunlight, crisp shadows, sparkling ice particles, realistic fur detail, shallow depth of field, and a humorous candid snapshot feeling. Use a square 1:1 composition, the cat centered in the lower half, the shaved-ice machine towering above it, no extra animals, no extra people, and no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "cat color",
-        "default": "black"
-      },
-      {
-        "name": "top sign text",
-        "default": "氷"
-      },
-      {
-        "name": "banner text",
-        "default": "かき氷"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785055088482_9rsftf_HOFNpckb0AEqNt8.jpg",
-        "alt": "Black Cat Under Shaved Ice Machine",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "カーブミラー",
-      "url": "https://x.com/kabumira862571"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/kabumira862571/status/2081029891764736460#reversed-0"
-    },
-    "publishedAt": "2026-07-25T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=29824",
-    "contentHash": "7f1c8b1dbb4fadac6ad8205878bc2392d8939d9e"
   }
 ]

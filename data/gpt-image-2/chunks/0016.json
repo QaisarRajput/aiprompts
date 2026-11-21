@@ -1,5 +1,200 @@
 [
   {
+    "id": "gpt-image-2:30401",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30401",
+    "title": "Chinese Idiom Bell Theft Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "Creates a vintage illustrated Chinese idiom poster visualizing “covering ears while stealing a bell” for educational or editorial use.",
+    "promptText": "Goal: Create a vintage Chinese idiom visualization poster for {argument name=\"idiom title\" default=\"掩耳盗铃\"}, showing the literal scene of a man covering his ears while trying to steal a ringing bell.\n\nCanvas: Vertical poster, 3:4 aspect ratio, aged beige rice-paper background with subtle stains, worn ink texture, and an antique educational print feel.\n\nLayout: Large black brush-calligraphy title centered at the top. Directly below it, place the English subtitle in small serif capitals: “COVERING EARS DOES NOT STOP SOUND”. Under the subtitle, add a small red outlined label reading {argument name=\"story label\" default=\"成语事故现场 02\"}. The main illustration fills the lower two-thirds of the poster.\n\nScene: An ancient Chinese courtyard rendered in monochrome black ink with muted sepia shading. On the left, a massive bronze temple bell hangs from a rough wooden beam and iron chains. The bell is tilted slightly, vibrating, with engraved patterns, rivets, and a scalloped lower rim. On the right foreground, a thief in dark traditional clothing crouches low and pulls a rope attached to the bell while pressing both hands over his ears; his posture is tense and foolish, one knee bent forward and one leg stretched back. Behind him are courtyard paving stones, an old wall, a traditional tiled roof gate on the right, and delicate tree branches above the wall.\n\nAnnotated elements: Include exactly 3 red numbered callouts: “01” near the hanging bell and sound source, “02” near the thief covering his ears, and “03” near the stone ground in the lower left foreground. Draw thin red leader lines from each number to its target.\n\nGraphic effects: Use many thin red concentric sound-wave rings radiating outward from the bell across the whole courtyard, passing behind the thief and architecture. Add small black vibration marks around the bell. Keep the red lines slightly faded and printed like old ink.\n\nVisual style: Detailed hand-drawn Chinese historical engraving, ink wash and woodblock print aesthetic, high line density, muted black-gray sepia palette with red annotation ink, realistic perspective, weathered archival poster design.\n\nConstraints: Use exactly one bell, one thief, three numbered red callouts, and one set of expanding sound-wave rings. Do not add modern objects, bright colors, cartoon styling, extra characters, watermark, or logo.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "idiom title",
+        "default": "掩耳盗铃"
+      },
+      {
+        "name": "story label",
+        "default": "成语事故现场 02"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573888355_fskekv_HOiPzsaa4AAPT4p.jpg",
+        "alt": "Chinese Idiom Bell Theft Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "楊哥 | Yang Onchain",
+      "url": "https://x.com/YangOnchain"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/YangOnchain/status/2083073278525247491#reversed-0"
+    },
+    "publishedAt": "2026-07-31T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30401",
+    "contentHash": "d4f9abf530766420460343cb2b5255720e33420d"
+  },
+  {
+    "id": "gpt-image-2:30527",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30527",
+    "title": "AI Image Degradation Collage",
+    "category": "Infographic / Edu Visual",
+    "description": "Creates a dark documentary-style collage showing repeated fantasy image generations degrading across a session.",
+    "promptText": "Goal: Create a dark social-media style evidence collage illustrating iterative AI image degradation and repeated pattern accumulation, using a fantasy castle scene as the repeated subject.\n\nCanvas: Tall vertical screenshot format, approximately 490 × 957 px, charcoal-black background with narrow margins and a feed-post look.\n\nLayout: At the top, place a 2 × 2 grid of exactly 4 small landscape thumbnails with thin dark gutters. Beneath the grid, add a tiny two-character mark that looks like “**” or two small white dots. Below that, place 1 large landscape fantasy image spanning almost the full width. Under the large image, add exactly 3 short lines of white caption text aligned left. At the bottom, place 1 final large landscape fantasy image spanning almost the full width. Total visible image panels: exactly 6, consisting of 4 small thumbnails, 1 middle large panel, and 1 bottom large panel.\n\nFantasy image subject: Each panel should depict a similar epic gothic fantasy avenue leading toward a floating black spired castle or citadel, with wet reflective cobblestone paving, ornate lamp posts and railings, red and orange autumn trees on both sides, misty blue atmospheric depth, waterfalls or vertical light beams, and a luminous swirling rainbow vortex in the sky above the castle. The style should resemble highly detailed digital fantasy concept art with dramatic perspective, painterly lighting, and ornate architecture.\n\nDegradation concept: The 4 thumbnails should look very similar to each other, as if the same scene is being regenerated repeatedly. The middle large image should be sharper and grand, but already show repeated texture patterns and overlaid effects. The bottom image should look noticeably degraded: noisy, smeared, oversaturated, speckled, warped details, doubled edges, crunchy textures, and excessive accumulated brush-like artifacts, while still recognizable as the same fantasy castle avenue.\n\nText content: Use exactly these 3 caption lines under the middle image in small bold white sans-serif text: “Here every prompt was different, this is the 5 generation:” “Same effect, it keeps data from the previous pictures.” “The destruction is even worse, because of the differences of the image data each step.”\n\nVisual style: Dark UI screenshot aesthetic, no decorative border, compact spacing, high contrast white text, images cropped as landscape rectangles. Make the collage feel like a forum or tweet screenshot documenting a model failure.\n\nCustomizable details: Use {argument name=\"main scene\" default=\"floating gothic castle avenue under a rainbow vortex\"}, {argument name=\"caption line one\" default=\"Here every prompt was different, this is the 5 generation:\"}, {argument name=\"caption line two\" default=\"Same effect, it keeps data from the previous pictures.\"}, {argument name=\"caption line three\" default=\"The destruction is even worse, because of the differences of the image data each step.\"}, and {argument name=\"background color\" default=\"charcoal black\"}.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "main scene",
+        "default": "floating gothic castle avenue under a rainbow vortex"
+      },
+      {
+        "name": "caption line one",
+        "default": "Here every prompt was different, this is the 5 generation:"
+      },
+      {
+        "name": "caption line two",
+        "default": "Same effect, it keeps data from the previous pictures."
+      },
+      {
+        "name": "caption line three",
+        "default": "The destruction is even worse, because of the differences of the image data each step."
+      },
+      {
+        "name": "background color",
+        "default": "charcoal black"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573893960_cpn9xu_HOiAOePbEAA_wFx.jpg",
+        "alt": "AI Image Degradation Collage",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Samuel Ferrero.",
+      "url": "https://x.com/MiMundoConIA"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/MiMundoConIA/status/2083055816194867597#reversed-1"
+    },
+    "publishedAt": "2026-07-31T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30527",
+    "contentHash": "ec23770ba86e329af5ec2fb7e884f20e2df1f554"
+  },
+  {
+    "id": "gpt-image-2:30385",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30385",
+    "title": "Multi-Cultural Morning Greeting Infographic Slide",
+    "category": "Infographic / Edu Visual",
+    "description": "Creates professional, high-quality information slides for social media or presentations, focusing on cultural greetings and educational content with varied typography.",
+    "promptText": "Theme: {argument name=\"theme\" default=\"10 ethnic minorities, how to say good morning in dialects\"}. A total of 10 images, each with a different name theme and unique layout. Each image should contain 3-5 knowledge points presented in various ways. Professional, collection-grade layout and typography. Aspect ratio 3:4. Do not use serial number logic.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "theme",
+        "default": "10 ethnic minorities, how to say good morning in dialects"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573854552_umvj3e_HOhVB7bboAAAz6J.jpg",
+        "alt": "Multi-Cultural Morning Greeting Infographic Slide",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573854585_fvvd1l_HOhUdoBaEAApEBP.jpg",
+        "alt": "Multi-Cultural Morning Greeting Infographic Slide",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573854613_tlmr0t_HOhUfglagAAhGDj.jpg",
+        "alt": "Multi-Cultural Morning Greeting Infographic Slide",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573855458_r6yg2j_HOhUlHVaUAAjjqs.jpg",
+        "alt": "Multi-Cultural Morning Greeting Infographic Slide",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小小东",
+      "url": "https://x.com/xiaoxiaodong01"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/xiaoxiaodong01/status/2083008371448528896"
+    },
+    "publishedAt": "2026-07-31T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30385",
+    "contentHash": "63e52086d74aa26b6da66239d0760317289a0ac9"
+  },
+  {
+    "id": "gpt-image-2:30382",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30382",
+    "title": "Premium Spirits Packaging Design Proposal Board",
+    "category": "Infographic / Edu Visual",
+    "description": "A comprehensive prompt for generating a professional packaging design proposal board for high-end Chinese spirits, including hero shots, structural diagrams, and material swatches.",
+    "promptText": "Design a professional packaging proposal board for a {argument name=\"product concept\" default=\"unofficial concept\"} {argument name=\"capacity\" default=\"500ml\"} high-end {argument name=\"flavor profile\" default=\"sauce-aroma\"} Chinese spirit (Baijiu). The category is premium spirits/liquor gift packaging, targeting high-net-worth gifting, personal collection, corporate gifts, and business banquets. The sales and transport scenarios include boutique retail display, festival gifting, e-commerce shipping, and secondary outer carton transport. The style is a combination derived from 'Auto Mode': the primary style is traditional heritage craft, supplemented by modern international information hierarchy and modular order, emphasizing brewing techniques, aging, origin culture, and modern premium brand expression, avoiding cliché black-and-gold, red-and-gold, or over-traditional symbols. The core concept is 'Contemporary Expression of Ancient Craftsmanship': using a restrained high-end color palette of kiln brown, rice paper ivory, deep indigo, and oxidized copper accents. The visual has an oriental charm but is not dated, with an international luxury feel that is not cold.\nMain packaging uses a vertical rigid gift box structure. Recommended values for prototype: lift-off lid with a neck shoulder structure made of greyboard wrapped in specialty paper, holding one 500ml glass bottle inside. The gift box body is a high-rigidity structure, slender and stable, opening vertically. The inner tray clearly supports the bottle, suitable for luxury display. The bottle is a 500ml transparent or light smoky grey glass bottle, with proportions typical of high-end Baijiu (approx. 280–320 mm height, 85–95 mm diameter, total weight 1.2–1.5 kg). Internal protection must follow glass bottle safety logic: bottom load-bearing support + body stabilization + independent neck control, avoiding stress solely on the cap. The insert should be molded pulp or high-density paper, fitting the bottle contour with specific slots for shoulders and neck, ensuring no movement, glass-on-glass collision, or lid compression during transit. Must clearly distinguish between the main gift box and e-commerce shipping protection, including a B-flute or reinforced corrugated outer shipper with cushioning.\nBrand identity and graphics must fit high-end spirits: restrained and recognizable vertical or centered composition. Use conceptual placeholders for names like 'Heritage Collection' and brief English labels like 'SAUCE-AROMA BAIJIU', 'HERITAGE CRAFT', '500 mL'. Text must be minimal and precise. The font style combines oriental calligraphy charm with modern high-end serif/sans-serif typography. Materials should be realistic: specialty paper with fiber texture or rice paper feel, using restrained copper/matte gold foil, embossing, debossing, spot UV, or micro-relief, but only on logos or seals. Abstract brewing tools, fermentation textures, or landscape contours can be used, but must be abstract and high-end, avoiding realistic illustrations or cliché dragon/phoenix symbols.\nThe board must be a 16:9 landscape composition on a clean white or light warm grey studio background. Place a large main packaging 45° perspective view in the center as the primary focal point (45%–60% of visual). Surround it with 7–9 smaller modular auxiliary views: front/back/side projections, unboxing effect, exploded view of the insert, bottle placement, e-commerce shipper structure, production-intent dieline, material swatches, and labels. Maintain clear professional order without clutter.\nMust include a production-intent visualization dieline with professional legend: red for trim, blue dashed for creases, green for bleed, purple for safety, grey for reference, yellow for adhesive, light brown for insert, gold for foil, and bright white for spot UV. Use placeholders for barcodes, QR codes, and regulatory marks. Technical specs include units in mm, 3mm bleed, 5mm safety margin, and standard tolerances, presented as a concept board, not a dense blueprint.\nLighting and rendering must combine hyper-realistic 3D packaging with high-end paper photography. Paper fibers, embossing, corner details, board thickness, and glass reflections must be credible. Use a professional product photography angle, slightly above the table (45° tilt). The overall look is clean, expensive, and award-level, matching top-tier international packaging design standards. Keywords: premium sauce-aroma baijiu packaging proposal board, heritage craft inspired luxury liquor gift box, oversized hero rigid box mockup, molded pulp insert structure, ecommerce protective shipper, production-intent dieline visualization, elegant oriental contemporary packaging, premium Chinese spirits brand concept, tactile specialty paper, realistic emboss and foil details, photorealistic packaging design presentation, clean studio background, ultra detailed, high resolution.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "product concept",
+        "default": "unofficial concept"
+      },
+      {
+        "name": "capacity",
+        "default": "500ml"
+      },
+      {
+        "name": "flavor profile",
+        "default": "sauce-aroma"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1785573839933_y7f04j_HOhRc-7boAA-u8e.jpg",
+        "alt": "Premium Spirits Packaging Design Proposal Board",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Mr.pinecone",
+      "url": "https://x.com/Mrpinecone888"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Mrpinecone888/status/2083004581110497696"
+    },
+    "publishedAt": "2026-07-31T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30382",
+    "contentHash": "83acea74e6bc1a6974caa4e187afbe85274d476d"
+  },
+  {
     "id": "gpt-image-2:30419",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6864,200 +7059,5 @@
     "publishedAt": "2026-07-28T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30134",
     "contentHash": "cb83c329046ae11c56c59a834346c5dfc9fab6d2"
-  },
-  {
-    "id": "gpt-image-2:30185",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30185",
-    "title": "Cyberpunk Lightcycle Storyboard",
-    "category": "Comic / Storyboard",
-    "description": "Generates a 9-panel cinematic cyberpunk action storyboard sheet for a rain-soaked lightcycle ambush sequence.",
-    "promptText": "Goal: Create a cinematic cyberpunk action storyboard sheet for {argument name=\"project name\" default=\"X-01\"}, showing a black armored hero ambushed in a rain-soaked neon megacity and arriving on a red-glowing lightcycle before launching into combat.\n\nCanvas: Wide 16:9 storyboard board, dark sci-fi presentation style, black background with thin red grid borders. Arrange exactly 9 widescreen panels in a 3-column by 3-row grid, each panel numbered in small red numerals at the top-left. Add a bottom production strip with project metadata.\n\nVisual style: Hyper-detailed dark cyberpunk concept art, cinematic storyboard frames, wet reflective asphalt, heavy rain, blue-black city atmosphere, red neon accents, volumetric haze, motion blur, sparks, plasma arcs, chrome-black armor, high contrast lighting. The hero wears a sleek black futuristic exosuit with a glowing red visor and red energy highlights. Enemies are bulky armored enforcers with orange electrical weapons. The lightcycle is a low black futuristic motorcycle with oversized circular wheels glowing red.\n\nPanel layout and required captions: Include exactly 9 discrete storyboard panels with these actions and captions:\n1. Establishing wide shot: several DTR enforcers hold a rainy neon street in a tense standoff; distant holographic skull and red corporate sign. Caption: \"ESTABLISHING SHOT. DTR ENFORCERS HOLD THE STREET IN A TENSE STANDOFF.\"\n2. Side tracking shot: the hero speeds into the scene on the red-lit lightcycle, intense motion blur and rain streaks. Caption: \"THE HERO SPEEDS INTO THE SCENE ON THE LIGHTCYCLE.\"\n3. Rear/low angle: the bike cuts through the wet street toward surrounding henchmen, red water spray exploding from the wheel. Caption: \"THE BIKE CUTS THROUGH THE STREET TOWARD THE SURROUNDING HENCHMEN.\"\n4. Central skid shot: the hero skids the lightcycle into the middle as enemies close in from all sides, red reflections across puddles. Caption: \"THE HERO SKIDS INTO THE CENTER AS HENCHMEN CLOSE IN FROM ALL SIDES.\"\n5. Launch shot: the hero springs upward off the lightcycle while enemies watch from the foreground. Caption: \"THE HERO LAUNCHES UPWARD OFF THE LIGHTCYCLE.\"\n6. High aerial action: the hero performs a mid-air flip above the henchmen, agile silhouette against rainy skyscrapers. Caption: \"MID-AIR FLIP ABOVE THE HENCHMEN. AGILE. PRECISE. UNSTOPPABLE.\"\n7. Rotating aerial close shot: the hero twists through the air, preparing to land and draw weapons, enemies framing the sides. Caption: \"ROTATING THROUGH THE AIR, PREPARING TO LAND AND DRAW WEAPONS.\"\n8. Hero landing shot: the hero lands in a stylish crouched stance, drawing exactly 2 red plasma katanas. Caption: \"HERO LANDS IN A STYLISH STANCE, DRAWING BOTH PLASMA KATANAS.\"\n9. Battle start shot: both katanas are drawn, red circular light trails cut through the rain around the hero as enemies surround him. Caption: \"BOTH KATANAS DRAWN. RED LIGHT TRAILS SLICE THE RAIN AS BATTLE BEGINS.\"\n\nVisible text and branding: Use the corporate sign text {argument name=\"corporate sign text\" default=\"DTR CORP\"} in multiple city-background signs. In the bottom production strip include: \"PROJECT:\" then {argument name=\"project name\" default=\"X-01\"}, \"STORYBOARD\", \"SEQUENCE:\" then {argument name=\"sequence title\" default=\"LIGHTCYCLE AMBUSH\"}, \"DATE:\" then {argument name=\"date\" default=\"05-22-2024\"}, and \"ARTIST:\" then {argument name=\"artist credit\" default=\"NEO-CORE VISUALS\"}. Add a small angular red triangular emblem at the bottom-right.\n\nConstraints: Keep all captions in small uppercase condensed white text beneath each panel. Maintain exactly 9 panels, exactly 2 plasma katanas in panels 8 and 9, and a cohesive red/black/blue cyberpunk palette. No extra panels, no speech bubbles, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "project name",
-        "default": "X-01"
-      },
-      {
-        "name": "corporate sign text",
-        "default": "DTR CORP"
-      },
-      {
-        "name": "sequence title",
-        "default": "LIGHTCYCLE AMBUSH"
-      },
-      {
-        "name": "date",
-        "default": "05-22-2024"
-      },
-      {
-        "name": "artist credit",
-        "default": "NEO-CORE VISUALS"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785315030990_yayay1_HOW8ALvX0AANgr6.jpg",
-        "alt": "Cyberpunk Lightcycle Storyboard",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "LANDCÄSTER",
-      "url": "https://x.com/LANDCASTER_92"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/LANDCASTER_92/status/2082277122983248318#reversed-0"
-    },
-    "publishedAt": "2026-07-29T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30185",
-    "contentHash": "847cf2cb08c78176b387bf448c0a83ce0511ae67"
-  },
-  {
-    "id": "gpt-image-2:30183",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30183",
-    "title": "Cyber Ninja Character Sheet",
-    "category": "Comic / Storyboard",
-    "description": "A detailed cyberpunk character design sheet showing front, side, back, armor, helmet, and plasma katana specifications for concept art use.",
-    "promptText": "Goal: Create a dark futuristic cyberpunk character sheet for {argument name=\"character name\" default=\"Cyber Ninja\"}, an elite cybernetic assassin in black exo-armor with glowing red plasma accents.\n\nCanvas: Wide 16:9 technical concept-art board, black and charcoal background with faint grid lines, thin red HUD borders, blueprint-style panel divisions, subtle scanlines, high-contrast cinematic lighting, red and cyan rim highlights.\n\nLayout: Left column contains the large title “CYBER NINJA” with small Japanese subtitle “サイバー・ニンジャ”, a red triangular emblem, and three labeled info panels: Profile, Overview, and Statistics. Center area shows exactly 3 full-body orthographic character views labeled FRONT, SIDE, and BACK. Right side contains exactly 4 technical feature panels plus one tall weapon panel: Helmet Close-Up, Armor Detail, Cloth & Gear, Plasma Katanas, and a small Sheath (Dual) inset near the bottom.\n\nSubject details: The character is a tall armored ninja assassin wearing a glossy black segmented cybernetic suit, angular helmet with red glowing V-shaped visor, black tactical scarf/hood, layered torn waist cloth, utility belt, armored boots and gauntlets, red illuminated circuitry lines, small cyan reflections, and a vertical red kanji-like strip hanging from the belt. The front view stands facing forward with arms relaxed; the side view shows the profile with a sheathed sword at the hip/back; the back view shows rear armor plates, cloak folds, and a glowing red spine module.\n\nCounted visible elements: Include exactly 3 main character views: 1 front, 1 side, 1 back. Include exactly 1 helmet close-up portrait. Include exactly 4 armor-detail thumbnails showing chest/shoulder plating, shoulder/back plating, glowing arm detail, and illuminated torso spine/core detail. Include exactly 1 cloth-and-gear thumbnail showing the waist cloth and belt. Include exactly 2 vertical plasma katanas, both glowing red with black handles. Include exactly 1 small dual-sheath inset containing 2 sheathed blades.\n\nText content: Use compact sci-fi UI typography in red, white, and gray. Left profile text should read: “CLASS: ASSASSIN”, “MODEL: CN-07 ‘KUREN’”, “HEIGHT: 188 CM”, “WEIGHT: 82 KG”, “AFFILIATION: UNKNOWN”, “ORIGIN: UNKNOWN”. Overview text should describe an elite cybernetic assassin enhanced with experimental exo-armor and plasma weaponry, built for stealth, speed, and precision. Statistics panel should show exactly 6 labeled bars: Strength, Speed, Agility, Durability, Stealth, Intelligence. Helmet panel should include small bullet labels: HUD / Targeting, Thermal Vision, Audio Scan, Environmental Filter, Neural Link. Weapon specs should identify the weapon type as Plasma Katana with blade length 72 cm, overall length 102 cm, weight 1.2 kg, power source mini plasma core, and features including monomolecular edge, thermal disruption, and energy drain. Bottom label should read “DESIGNATION: CN-07 ‘KUREN’”.\n\nVisual style: Ultra-detailed AAA video game concept art, realistic hard-surface armor design, sleek mecha-ninja silhouette, gritty military techwear, red neon energy glow, glossy black metal, subtle scratches and wear, dramatic studio lighting, crisp panel lines, professional character design sheet presentation.\n\nConstraints: Keep the composition clean and symmetrical, preserve all specified panel counts, do not add extra characters, do not use bright backgrounds, avoid cartoon/anime proportions, avoid watermarks or logos unrelated to the design.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "Cyber Ninja"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785315029941_yl52vm_HOW70GXXMAApbg-.jpg",
-        "alt": "Cyber Ninja Character Sheet",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "LANDCÄSTER",
-      "url": "https://x.com/LANDCASTER_92"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/LANDCASTER_92/status/2082276918439637015#reversed-0"
-    },
-    "publishedAt": "2026-07-29T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30183",
-    "contentHash": "60bedd675c130b55fd10c9139fd16da78c7dafc9"
-  },
-  {
-    "id": "gpt-image-2:30164",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30164",
-    "title": "Chibi Anime Surveillance Picnic",
-    "category": "Comic / Storyboard",
-    "description": "A wide anime comedy illustration of three chibi military girls spying on a romantic wedding fantasy from a hill above a night city.",
-    "promptText": "Create a wide 16:9 anime-style humorous night scene on a grassy hill overlooking a city. Three chibi military-girl characters are having a picnic-like surveillance session under a dark blue starry sky, with glowing apartment buildings in the valley below. On the left foreground, show exactly 3 chibi girls: first, a small pale lavender-haired girl in a white sailor-style military uniform and white peaked cap, wearing oversized red glasses, standing beside a giant red popcorn bucket labeled “Popcorn” and a hot dog; second, a blonde girl in a dark gray military outfit with a red-accented cap and rifle, standing with a skeptical expression; third, a blonde girl in black-and-orange tactical clothing sitting on a checkered picnic blanket, holding large binoculars to her eyes while drooling comically. Add a second pair of binoculars lying on the blanket in front. Include exactly 2 Japanese speech bubbles above the standing girls: {argument name=\"left speech bubble\" default=\"元アイドルですね。\"} and {argument name=\"right speech bubble\" default=\"アイドルよね？\"}. On the right upper half, add a large fluffy thought bubble from the binocular girl showing a romantic fantasy: a young woman in a white wedding dress with long light-brown hair and a handsome dark-haired man in a decorated black military dress uniform, almost kissing, surrounded by sparkles, soft pink light, and falling rose petals. On the lower right over the city, add one circular inset speech-bubble frame showing a room interior where a seated woman watches a screen or framed image of the romantic couple. Use clean high-detail anime line art, soft cel shading, cute chibi proportions for the observers, more polished romantic shoujo rendering inside the fantasy bubble, saturated colors, crisp outlines, playful comedy mood, no watermark, no extra characters, no extra text beyond the specified labels.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "left speech bubble",
-        "default": "元アイドルですね。"
-      },
-      {
-        "name": "right speech bubble",
-        "default": "アイドルよね？"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785315012522_vm4e4c_HOU_4mHaMAAoeD0.jpg",
-        "alt": "Chibi Anime Surveillance Picnic",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785315013217_vkxzsc_HOU_47BaMAEag34.jpg",
-        "alt": "Chibi Anime Surveillance Picnic",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785315013222_xjx6u9_HOU_589aMAAUoxi.jpg",
-        "alt": "Chibi Anime Surveillance Picnic",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785315013919_85gmek_HOU_7-1aMAQuqU9.jpg",
-        "alt": "Chibi Anime Surveillance Picnic",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "まるるん＠NIKKE好き",
-      "url": "https://x.com/TachMaru"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/TachMaru/status/2082141028124102732#reversed-0"
-    },
-    "publishedAt": "2026-07-28T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30164",
-    "contentHash": "3760f5df641e048f34ce08c6f091d951244f7f04"
-  },
-  {
-    "id": "gpt-image-2:30174",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30174",
-    "title": "Moonlit Anime Graveyard Chase",
-    "category": "Comic / Storyboard",
-    "description": "Generates a cinematic anime fantasy scene of a girl fleeing a jester magician’s rainbow spell in a spooky graveyard.",
-    "promptText": "Create a dramatic anime-style fantasy action illustration set in a moonlit graveyard at night. The scene contains exactly 2 main characters: on the left, a frightened young blonde girl, {argument name=\"heroine name\" default=\"girl Arthur\"}, running toward the viewer-left while looking back over her shoulder with wide blue eyes and an open screaming mouth; on the right, a sinister magician/jester monster, {argument name=\"villain name\" default=\"evil magician\"}, standing on one leg near a treasure chest and pointing at her as he casts a spell. The girl wears an orange long-sleeve dress, a white frilled apron, a white bonnet with an orange bow, white socks, and pale blue Mary Jane shoes; her long wavy blonde hair streams backward, and puffs of white transformation smoke surround her dress and trail behind her. The villain wears a blue jester hood with two floppy points tipped by red balls, glowing red eyes, a skull-like gray face, sharp teeth, a purple ruffled collar and cuffs, a blue tunic with red buttons, orange tights, red curled boots, and a dark cape. Between them, show exactly 1 rainbow spiral magic projectile, glowing like a colorful vortex with red, orange, yellow, green, cyan, blue, and magenta trails, flying from the villain’s pointed finger toward the girl. Include exactly 1 large full moon centered high in the sky, partly veiled by dark purple storm clouds. Include exactly 1 closed wooden treasure chest with brass bands and a central lock in the lower right-middle foreground. Include 7 prominent gravestones: 1 large tilted stone on the far left, 1 rounded stone near the center behind the girl, 1 small dark stone behind the treasure chest, 1 narrow stone just right of the villain, 1 large tilted stone at the far right foreground, and 2 additional partially obscured stones in the midground. The graveyard ground should be dark, muddy, and rocky with scattered tufts of grass, bare twisted trees on both sides, and a gothic horror atmosphere. Use dynamic composition, cinematic lighting, strong rim light from the moon, saturated anime colors, crisp linework, detailed fabric folds, expressive faces, and motion blur only in the smoke and magic trails. No captions, no UI, no watermark, no extra characters. Use a 16:9 landscape canvas. The overall mood should be {argument name=\"mood\" default=\"spooky but adventurous\"}, inspired by retro side-scrolling dark fantasy game art transformed into a polished modern anime illustration.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "heroine name",
-        "default": "girl Arthur"
-      },
-      {
-        "name": "villain name",
-        "default": "evil magician"
-      },
-      {
-        "name": "mood",
-        "default": "spooky but adventurous"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785315021955_m4oejb_HOU_hiWaMAUvPWc.jpg",
-        "alt": "Moonlit Anime Graveyard Chase",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "犬神 潤",
-      "url": "https://x.com/Inugami_jyun"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Inugami_jyun/status/2082140322377912567#reversed-0"
-    },
-    "publishedAt": "2026-07-28T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30174",
-    "contentHash": "325b3435b6c026d7d0b6d90ac7ec3b4d4ec58823"
   }
 ]

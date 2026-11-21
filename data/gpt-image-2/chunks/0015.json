@@ -1,5 +1,162 @@
 [
   {
+    "id": "gpt-image-2:30934",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30934",
+    "title": "Chinese Home Compute Buying Guide",
+    "category": "Infographic / Edu Visual",
+    "description": "A vertical Chinese infographic comparing four home computing purchase options with prices, power usage, audiences, and drawbacks.",
+    "promptText": "Goal: Create a vertical Chinese product comparison infographic on a white background with a clean flat-design style. The main title at the top is {argument name=\"headline text\" default=\"2026 家庭算力采购指南\"}, in large bold black Chinese type, centered.\n\nCanvas: Portrait 2:3 aspect ratio, approximately 768×1152 px. Use generous white margins, crisp vector lines, and a balanced grid layout.\n\nLayout: Place exactly 4 tall rounded-rectangle comparison cards in one horizontal row beneath the title. Each card has a colored header bar, a matching thin border, a simple line icon near the top, then five stacked information sections separated by pale gray horizontal divider lines. Use neat left-aligned Chinese text inside each card.\n\nCards, colors, icons, and text content:\n1. Blue card header: “Mac mini M4”. Icon: simple blue outline Mac mini with Apple logo and two small front dots. Sections: “型号:” / “M4 10核 CPU / 10核 GPU”; “参考价 (¥):” / “4,499 起”; “功耗 (W):” / “约 65”; “适合人群:” / “开发、轻量 AI、家庭服务器”; “一句话缺点:” / “内存与硬盘升级成本高”.\n2. Green card header: “RTX 5090 主机”. Icon: green outline desktop tower with four fan circles and side panel. Sections: “型号:” / “RTX 5090 32GB”; “参考价 (¥):” / “30,000 起”; “功耗 (W):” / “约 800–1,000”; “适合人群:” / “本地大模型、渲染、重度创作”; “一句话缺点:” / “价格高，耗电与散热压力大”.\n3. Purple card header: “云 GPU 包月”. Icon: purple outline cloud containing a server rack. Sections: “型号:” / “按需选择 GPU”; “参考价 (¥):” / “1,000–8,000 / 月”; “功耗 (W):” / “本地几乎为 0”; “适合人群:” / “短期项目、弹性需求、团队协作”; “一句话缺点:” / “长期使用成本不可控”.\n4. Orange card header: “二手矿卡”. Icon: orange outline dual-fan graphics card. Sections: “型号:” / “RTX 3090 等”; “参考价 (¥):” / “3,500–6,000”; “功耗 (W):” / “约 350–500”; “适合人群:” / “预算有限、愿意折腾的玩家”; “一句话缺点:” / “寿命、保修与稳定性风险高”.\n\nFooter: Center a small gray footnote along the bottom: “数据仅供参考 · 更新于 2026-08-08 · 非投资建议”.\n\nVisual style: Minimal flat infographic, Chinese sans-serif font, high readability, accurate alignment, consistent spacing, no shadows, no photos, no decorative background. Ensure all Chinese text is sharp and legible, with the section labels colored to match each card’s header.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline text",
+        "default": "2026 家庭算力采购指南"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786263581764_vqvl0s_HPPeuj8b0AAJsIJ.jpg",
+        "alt": "Chinese Home Compute Buying Guide",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1786263581839_0pu4d7_HPPeuj7aAAA1oli.jpg",
+        "alt": "Chinese Home Compute Buying Guide",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "码农暖爸",
+      "url": "https://x.com/Delroy715"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Delroy715/status/2086255952832118875#reversed-0"
+    },
+    "publishedAt": "2026-08-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30934",
+    "contentHash": "ece79049672a0f52940b501f9df5248cbdff47a7"
+  },
+  {
+    "id": "gpt-image-2:30921",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30921",
+    "title": "AI Time-Travel Street Panorama",
+    "category": "Infographic / Edu Visual",
+    "description": "A cinematic historical city street scene blended with blue holographic reconstruction effects for a time-travel GeoGuessr-style visual.",
+    "promptText": "Create a cinematic ultra-wide historical street-view scene showing {argument name=\"location and year\" default=\"New York City, 1827\"} as if reconstructed by an AI time-travel panorama. The camera is low in the middle of a wet cobblestone street, looking straight down a long urban canyon of brick buildings in one-point perspective. Include horse-drawn carriages, pedestrians in early 19th-century clothing, gas street lamps, distant ship masts at the end of the street, misty golden morning light, and realistic period architecture. Add a futuristic digital reconstruction effect around the left and right edges: glowing blue wireframe building overlays, translucent grid lines, scan particles, and many small luminous blue square pixels dissolving into the historical scene, while the center remains mostly photorealistic. The mood should feel like a 360-degree generated panorama or time-travel GeoGuessr interface, but with no UI text, no logos, and no watermark. Use a 16:9 horizontal composition, high realism, cinematic depth of field, detailed wet stone reflections, atmospheric haze, and a seamless blend between authentic 1820s street life and advanced AI holographic visualization.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "location and year",
+        "default": "New York City, 1827"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786263572478_nb050p_HPPBsBFWoAAgH0e.jpg",
+        "alt": "AI Time-Travel Street Panorama",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Nicolas Guyon - e/acc",
+      "url": "https://x.com/nico16184"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/nico16184/status/2086224017002819821#reversed-0"
+    },
+    "publishedAt": "2026-08-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30921",
+    "contentHash": "4cd43dbc448de9bb28802fcb0d58f00b6a622501"
+  },
+  {
+    "id": "gpt-image-2:30907",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30907",
+    "title": "Japanese AI Fantasy Image Comparison Slide",
+    "category": "Infographic / Edu Visual",
+    "description": "Creates a polished Japanese infographic comparing 2025 and 2026 fantasy AI image outputs from the same simple prompt.",
+    "promptText": "Goal: Create a Japanese comparison infographic slide about how AI image generation changes when given only the prompt {argument name=\"prompt phrase\" default=\"幻想的な画像\"}, comparing August 2025 and August 2026 outputs.\n\nCanvas: 4:3 horizontal presentation slide, dark navy gradient background, polished tech-report style. Use crisp white Japanese typography, glowing borders, and subtle blue/purple highlights. Overall mood should feel like a serious visual analysis of fantasy AI art evolution.\n\nHeader: At the top center, large bold Japanese title: 「『幻想的な画像』とだけ指示したときの比較」. Directly underneath, smaller subtitle: 「AI画像生成の進化：2025年8月 vs 2026年8月」.\n\nLayout: Use exactly 2 large rounded comparison panels side by side.\n- Left panel: blue theme, labeled 「2025年8月（GPT Image / 従来世代）」.\n- Right panel: purple theme, labeled 「2026年8月（ChatGPT Images 2.0）」.\nEach panel has a pale prompt strip near the top reading 「プロンプト：幻想的な画像」.\n\nLeft panel content: Show exactly 1 fantasy artwork: a traditional painterly fantasy landscape with a huge full moon, deep blue night sky, forest silhouettes, a winding glowing river, small firefly-like lights, and a distant dark castle with spires. It should look like a complete single illustration, warm and nostalgic, with a restrained composition.\nBelow the artwork, create exactly 2 analysis boxes:\n1. Box title 「特徴」 with exactly 3 bullet points: 「月・森・城の定番モチーフに収束」, 「全体にやや黄ばんだ暖色の光」, 「シンプルで一枚の完成形として出力」.\n2. Box title 「色調の傾向」 with a small horizontal color palette of exactly 4 swatches: deep blue, teal green, warm yellow, golden ocher. Add explanatory text: 「青＋緑＋黄のバランスで、古典的ファンタジー絵画のような温かみのある色調」.\n\nRight panel content: Show exactly 2 fantasy artworks side by side inside the panel, separated by a thin vertical divider.\n1. Left artwork: a luminous fantasy city at night with a crescent moon, starry sky, distant towers, glowing waterfront, and a long-haired woman in a flowing dress standing on a balcony or bridge, looking toward the city.\n2. Right artwork: an opulent celestial castle floating above clouds, white and lavender architecture, sparkling sky, crystalline towers, pink-purple blossoms, and a small robed figure looking into the glowing city.\nThe right panel art should feel more complex, cinematic, saturated, and concept-art-like than the left panel.\nBelow the artworks, create exactly 2 analysis boxes:\n1. Box title 「特徴」 with exactly 3 bullet points: 「複数の解釈を提示（2パターン）」, 「天空都市・星空・人物などより多様で壮大な構図」, 「色彩が鮮やかで幻想性が高い」.\n2. Box title 「色調の傾向」 with a small horizontal color palette of exactly 5 swatches: cyan blue, violet, pale pink, white, light sky blue. Add explanatory text: 「青＋紫＋ピンク＋白が中心で、デジタルファンタジー／コンセプトアート的な冷色系」.\n\nBottom summary bar: Across the full width at the bottom, add a rounded dark blue box. On the left, a small label button reading 「まとめ」. To the right, summary text: 「2025年は『典型的な幻想風景を一枚』に収束していたのに対し、2026年は『幻想的』という概念から複数の解釈を生成し、色彩・構図・世界観の幅が大きく拡張している。」\n\nVisual style: Clean Japanese infographic, presentation slide, thin neon blue/purple borders, subtle drop shadows, high readability, balanced margins, precise alignment. Use fantasy images that look like embedded generated examples rather than photographs.\n\nConstraints: Include exactly 3 fantasy artworks total, exactly 2 main comparison panels, exactly 4 analysis boxes, and exactly 2 color palettes. Keep all Japanese text legible and do not add extra labels, logos, watermarks, or irrelevant decorations.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "prompt phrase",
+        "default": "幻想的な画像"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786263562766_tg0q1k_HPM1gB8aoAAJxDj.jpg",
+        "alt": "Japanese AI Fantasy Image Comparison Slide",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "MAYA a.k.a.手羽先亭ひつまぶし",
+      "url": "https://x.com/MAyamaYA_69_"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/MAyamaYA_69_/status/2086069881464824153#reversed-0"
+    },
+    "publishedAt": "2026-08-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30907",
+    "contentHash": "83ba5fcc80a667da6c0ff7bae27eb031e09c56b6"
+  },
+  {
+    "id": "gpt-image-2:30912",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30912",
+    "title": "AI Agent LP Ecosystem Infographic",
+    "category": "Infographic / Edu Visual",
+    "description": "A wide Japanese isometric workflow infographic showing how an AI agent coordinates planning, research, creation, review, and publication for landing page production.",
+    "promptText": "Goal: Create a wide 16:9 Japanese isometric infographic explaining an AI-agent ecosystem that completes landing page production through a “command tower” model, with the headline {argument name=\"headline text\" default=\"AIエージェント：LP制作を完遂する「司令塔」のエコシステム\"} across the top.\n\nCanvas: Horizontal slide, light sky-blue background with soft clouds, simple city-map roads, tiny trees, pedestrians, cars, and technology buildings. Use a clean blue, cyan, white, and black palette with thick rounded vector outlines, friendly SaaS/tech illustration style, crisp readable labels, and subtle halftone texture. No photorealism.\n\nLayout: Center a large circular roundabout containing the main AI Agent command-center building, with a domed roof, clock, gears, and brain icon. Around it place exactly 4 main workflow buildings/cards connected by roads and directional arrows: 1) PLAN at upper left, 2) RESEARCH at upper right, 3) CREATE at lower left, 4) TEST & APPROVE at lower right. Add a final publication destination on the far right: a storefront labeled as the publishing/operation start point with a rocket launch building nearby. Include supporting city objects: exactly 3 satellite dishes on the research building roof area, exactly 3 database/server stack icons near the upper right, exactly 2 tall office towers at the far right, exactly 1 small bank/store building at far upper left, exactly 1 office block at bottom left, and exactly 1 foreground dome building at bottom center.\n\nText content: Use Japanese text throughout. Top title must read {argument name=\"headline text\" default=\"AIエージェント：LP制作を完遂する「司令塔」のエコシステム\"}. Central circle label: “AI AGENT：理解・計画・判断を担う中心地”. Inside the central building, add a small panel saying the agent understands user goals and automatically assembles necessary tasks. Left side user note: “ユーザー依頼：LPを作って！”\n\nSections: Show exactly 4 labeled production modules with these visible labels and contents. PLAN module: title “PLAN：依頼を5つのタスクへ分解”; list exactly 5 numbered items: 1 調査, 2 構成, 3 制作, 4 検証, 5 公開; add a caption saying the request is decomposed into five tasks and execution priority is determined. RESEARCH module: title “RESEARCH：外部と内部の情報を統合”; show exactly 2 content icons labeled “Webデータ” and “内部資料”; caption about integrating competitor, market, and internal product information. CREATE module: title “CREATE：複数ツールの使い分け”; show exactly 3 tool icons labeled “キャッチコピー AIライティング”, “画像生成 AIデザイン”, and “コーディング AI開発”; caption saying copy, images, and coding are produced using appropriate specialized tools. TEST & APPROVE module: title “TEST & APPROVE：品質検証と人間の承認”; show exactly 3 verification icons: an AI chip, a checked monitor, and people/approval; include labels for display check, quality check, and brand/person-in-charge approval; caption saying AI handles display and quality checks and the final human approval begins publication.\n\nSubject details: Roads should visually connect every module to the central AI Agent hub, emphasizing relationships rather than a strict linear flow. Place the publish destination on the right with an arrow leading to a striped storefront labeled “公開・運用開始”. Add small decorative tech details such as antennas, document icons, code brackets, magnifying glass, gears, cloud shapes, and tiny people walking between buildings, but keep them secondary.\n\nStyle constraints: Isometric 2.5D diagram, flat vector illustration, blue monochrome emphasis, black outlines, clean infographic composition, high legibility, no watermark except a tiny unobtrusive “Gemini Notebook” style credit in the bottom right if needed. Keep all labels compact and aligned inside white rounded panels.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline text",
+        "default": "AIエージェント：LP制作を完遂する「司令塔」のエコシステム"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786263565737_8m9f39_HPMXeIKaoAAt8nh.png",
+        "alt": "AI Agent LP Ecosystem Infographic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "ハル | AI活用沼",
+      "url": "https://x.com/haru_ai_numa"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/haru_ai_numa/status/2086036911865700717#reversed-0"
+    },
+    "publishedAt": "2026-08-08T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30912",
+    "contentHash": "9aba3cf94fa94442cdd22f363f63254528878f73"
+  },
+  {
     "id": "gpt-image-2:30903",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6949,200 +7106,5 @@
     "publishedAt": "2026-07-31T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30482",
     "contentHash": "8307eeea634b260a4d64f5a4df8e6a4bfc6cd3d9"
-  },
-  {
-    "id": "gpt-image-2:30401",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30401",
-    "title": "Chinese Idiom Bell Theft Poster",
-    "category": "Infographic / Edu Visual",
-    "description": "Creates a vintage illustrated Chinese idiom poster visualizing “covering ears while stealing a bell” for educational or editorial use.",
-    "promptText": "Goal: Create a vintage Chinese idiom visualization poster for {argument name=\"idiom title\" default=\"掩耳盗铃\"}, showing the literal scene of a man covering his ears while trying to steal a ringing bell.\n\nCanvas: Vertical poster, 3:4 aspect ratio, aged beige rice-paper background with subtle stains, worn ink texture, and an antique educational print feel.\n\nLayout: Large black brush-calligraphy title centered at the top. Directly below it, place the English subtitle in small serif capitals: “COVERING EARS DOES NOT STOP SOUND”. Under the subtitle, add a small red outlined label reading {argument name=\"story label\" default=\"成语事故现场 02\"}. The main illustration fills the lower two-thirds of the poster.\n\nScene: An ancient Chinese courtyard rendered in monochrome black ink with muted sepia shading. On the left, a massive bronze temple bell hangs from a rough wooden beam and iron chains. The bell is tilted slightly, vibrating, with engraved patterns, rivets, and a scalloped lower rim. On the right foreground, a thief in dark traditional clothing crouches low and pulls a rope attached to the bell while pressing both hands over his ears; his posture is tense and foolish, one knee bent forward and one leg stretched back. Behind him are courtyard paving stones, an old wall, a traditional tiled roof gate on the right, and delicate tree branches above the wall.\n\nAnnotated elements: Include exactly 3 red numbered callouts: “01” near the hanging bell and sound source, “02” near the thief covering his ears, and “03” near the stone ground in the lower left foreground. Draw thin red leader lines from each number to its target.\n\nGraphic effects: Use many thin red concentric sound-wave rings radiating outward from the bell across the whole courtyard, passing behind the thief and architecture. Add small black vibration marks around the bell. Keep the red lines slightly faded and printed like old ink.\n\nVisual style: Detailed hand-drawn Chinese historical engraving, ink wash and woodblock print aesthetic, high line density, muted black-gray sepia palette with red annotation ink, realistic perspective, weathered archival poster design.\n\nConstraints: Use exactly one bell, one thief, three numbered red callouts, and one set of expanding sound-wave rings. Do not add modern objects, bright colors, cartoon styling, extra characters, watermark, or logo.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "idiom title",
-        "default": "掩耳盗铃"
-      },
-      {
-        "name": "story label",
-        "default": "成语事故现场 02"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573888355_fskekv_HOiPzsaa4AAPT4p.jpg",
-        "alt": "Chinese Idiom Bell Theft Poster",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "楊哥 | Yang Onchain",
-      "url": "https://x.com/YangOnchain"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/YangOnchain/status/2083073278525247491#reversed-0"
-    },
-    "publishedAt": "2026-07-31T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30401",
-    "contentHash": "d4f9abf530766420460343cb2b5255720e33420d"
-  },
-  {
-    "id": "gpt-image-2:30527",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30527",
-    "title": "AI Image Degradation Collage",
-    "category": "Infographic / Edu Visual",
-    "description": "Creates a dark documentary-style collage showing repeated fantasy image generations degrading across a session.",
-    "promptText": "Goal: Create a dark social-media style evidence collage illustrating iterative AI image degradation and repeated pattern accumulation, using a fantasy castle scene as the repeated subject.\n\nCanvas: Tall vertical screenshot format, approximately 490 × 957 px, charcoal-black background with narrow margins and a feed-post look.\n\nLayout: At the top, place a 2 × 2 grid of exactly 4 small landscape thumbnails with thin dark gutters. Beneath the grid, add a tiny two-character mark that looks like “**” or two small white dots. Below that, place 1 large landscape fantasy image spanning almost the full width. Under the large image, add exactly 3 short lines of white caption text aligned left. At the bottom, place 1 final large landscape fantasy image spanning almost the full width. Total visible image panels: exactly 6, consisting of 4 small thumbnails, 1 middle large panel, and 1 bottom large panel.\n\nFantasy image subject: Each panel should depict a similar epic gothic fantasy avenue leading toward a floating black spired castle or citadel, with wet reflective cobblestone paving, ornate lamp posts and railings, red and orange autumn trees on both sides, misty blue atmospheric depth, waterfalls or vertical light beams, and a luminous swirling rainbow vortex in the sky above the castle. The style should resemble highly detailed digital fantasy concept art with dramatic perspective, painterly lighting, and ornate architecture.\n\nDegradation concept: The 4 thumbnails should look very similar to each other, as if the same scene is being regenerated repeatedly. The middle large image should be sharper and grand, but already show repeated texture patterns and overlaid effects. The bottom image should look noticeably degraded: noisy, smeared, oversaturated, speckled, warped details, doubled edges, crunchy textures, and excessive accumulated brush-like artifacts, while still recognizable as the same fantasy castle avenue.\n\nText content: Use exactly these 3 caption lines under the middle image in small bold white sans-serif text: “Here every prompt was different, this is the 5 generation:” “Same effect, it keeps data from the previous pictures.” “The destruction is even worse, because of the differences of the image data each step.”\n\nVisual style: Dark UI screenshot aesthetic, no decorative border, compact spacing, high contrast white text, images cropped as landscape rectangles. Make the collage feel like a forum or tweet screenshot documenting a model failure.\n\nCustomizable details: Use {argument name=\"main scene\" default=\"floating gothic castle avenue under a rainbow vortex\"}, {argument name=\"caption line one\" default=\"Here every prompt was different, this is the 5 generation:\"}, {argument name=\"caption line two\" default=\"Same effect, it keeps data from the previous pictures.\"}, {argument name=\"caption line three\" default=\"The destruction is even worse, because of the differences of the image data each step.\"}, and {argument name=\"background color\" default=\"charcoal black\"}.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "main scene",
-        "default": "floating gothic castle avenue under a rainbow vortex"
-      },
-      {
-        "name": "caption line one",
-        "default": "Here every prompt was different, this is the 5 generation:"
-      },
-      {
-        "name": "caption line two",
-        "default": "Same effect, it keeps data from the previous pictures."
-      },
-      {
-        "name": "caption line three",
-        "default": "The destruction is even worse, because of the differences of the image data each step."
-      },
-      {
-        "name": "background color",
-        "default": "charcoal black"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573893960_cpn9xu_HOiAOePbEAA_wFx.jpg",
-        "alt": "AI Image Degradation Collage",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Samuel Ferrero.",
-      "url": "https://x.com/MiMundoConIA"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/MiMundoConIA/status/2083055816194867597#reversed-1"
-    },
-    "publishedAt": "2026-07-31T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30527",
-    "contentHash": "ec23770ba86e329af5ec2fb7e884f20e2df1f554"
-  },
-  {
-    "id": "gpt-image-2:30385",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30385",
-    "title": "Multi-Cultural Morning Greeting Infographic Slide",
-    "category": "Infographic / Edu Visual",
-    "description": "Creates professional, high-quality information slides for social media or presentations, focusing on cultural greetings and educational content with varied typography.",
-    "promptText": "Theme: {argument name=\"theme\" default=\"10 ethnic minorities, how to say good morning in dialects\"}. A total of 10 images, each with a different name theme and unique layout. Each image should contain 3-5 knowledge points presented in various ways. Professional, collection-grade layout and typography. Aspect ratio 3:4. Do not use serial number logic.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "theme",
-        "default": "10 ethnic minorities, how to say good morning in dialects"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573854552_umvj3e_HOhVB7bboAAAz6J.jpg",
-        "alt": "Multi-Cultural Morning Greeting Infographic Slide",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573854585_fvvd1l_HOhUdoBaEAApEBP.jpg",
-        "alt": "Multi-Cultural Morning Greeting Infographic Slide",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573854613_tlmr0t_HOhUfglagAAhGDj.jpg",
-        "alt": "Multi-Cultural Morning Greeting Infographic Slide",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573855458_r6yg2j_HOhUlHVaUAAjjqs.jpg",
-        "alt": "Multi-Cultural Morning Greeting Infographic Slide",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "小小东",
-      "url": "https://x.com/xiaoxiaodong01"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/xiaoxiaodong01/status/2083008371448528896"
-    },
-    "publishedAt": "2026-07-31T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30385",
-    "contentHash": "63e52086d74aa26b6da66239d0760317289a0ac9"
-  },
-  {
-    "id": "gpt-image-2:30382",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30382",
-    "title": "Premium Spirits Packaging Design Proposal Board",
-    "category": "Infographic / Edu Visual",
-    "description": "A comprehensive prompt for generating a professional packaging design proposal board for high-end Chinese spirits, including hero shots, structural diagrams, and material swatches.",
-    "promptText": "Design a professional packaging proposal board for a {argument name=\"product concept\" default=\"unofficial concept\"} {argument name=\"capacity\" default=\"500ml\"} high-end {argument name=\"flavor profile\" default=\"sauce-aroma\"} Chinese spirit (Baijiu). The category is premium spirits/liquor gift packaging, targeting high-net-worth gifting, personal collection, corporate gifts, and business banquets. The sales and transport scenarios include boutique retail display, festival gifting, e-commerce shipping, and secondary outer carton transport. The style is a combination derived from 'Auto Mode': the primary style is traditional heritage craft, supplemented by modern international information hierarchy and modular order, emphasizing brewing techniques, aging, origin culture, and modern premium brand expression, avoiding cliché black-and-gold, red-and-gold, or over-traditional symbols. The core concept is 'Contemporary Expression of Ancient Craftsmanship': using a restrained high-end color palette of kiln brown, rice paper ivory, deep indigo, and oxidized copper accents. The visual has an oriental charm but is not dated, with an international luxury feel that is not cold.\nMain packaging uses a vertical rigid gift box structure. Recommended values for prototype: lift-off lid with a neck shoulder structure made of greyboard wrapped in specialty paper, holding one 500ml glass bottle inside. The gift box body is a high-rigidity structure, slender and stable, opening vertically. The inner tray clearly supports the bottle, suitable for luxury display. The bottle is a 500ml transparent or light smoky grey glass bottle, with proportions typical of high-end Baijiu (approx. 280–320 mm height, 85–95 mm diameter, total weight 1.2–1.5 kg). Internal protection must follow glass bottle safety logic: bottom load-bearing support + body stabilization + independent neck control, avoiding stress solely on the cap. The insert should be molded pulp or high-density paper, fitting the bottle contour with specific slots for shoulders and neck, ensuring no movement, glass-on-glass collision, or lid compression during transit. Must clearly distinguish between the main gift box and e-commerce shipping protection, including a B-flute or reinforced corrugated outer shipper with cushioning.\nBrand identity and graphics must fit high-end spirits: restrained and recognizable vertical or centered composition. Use conceptual placeholders for names like 'Heritage Collection' and brief English labels like 'SAUCE-AROMA BAIJIU', 'HERITAGE CRAFT', '500 mL'. Text must be minimal and precise. The font style combines oriental calligraphy charm with modern high-end serif/sans-serif typography. Materials should be realistic: specialty paper with fiber texture or rice paper feel, using restrained copper/matte gold foil, embossing, debossing, spot UV, or micro-relief, but only on logos or seals. Abstract brewing tools, fermentation textures, or landscape contours can be used, but must be abstract and high-end, avoiding realistic illustrations or cliché dragon/phoenix symbols.\nThe board must be a 16:9 landscape composition on a clean white or light warm grey studio background. Place a large main packaging 45° perspective view in the center as the primary focal point (45%–60% of visual). Surround it with 7–9 smaller modular auxiliary views: front/back/side projections, unboxing effect, exploded view of the insert, bottle placement, e-commerce shipper structure, production-intent dieline, material swatches, and labels. Maintain clear professional order without clutter.\nMust include a production-intent visualization dieline with professional legend: red for trim, blue dashed for creases, green for bleed, purple for safety, grey for reference, yellow for adhesive, light brown for insert, gold for foil, and bright white for spot UV. Use placeholders for barcodes, QR codes, and regulatory marks. Technical specs include units in mm, 3mm bleed, 5mm safety margin, and standard tolerances, presented as a concept board, not a dense blueprint.\nLighting and rendering must combine hyper-realistic 3D packaging with high-end paper photography. Paper fibers, embossing, corner details, board thickness, and glass reflections must be credible. Use a professional product photography angle, slightly above the table (45° tilt). The overall look is clean, expensive, and award-level, matching top-tier international packaging design standards. Keywords: premium sauce-aroma baijiu packaging proposal board, heritage craft inspired luxury liquor gift box, oversized hero rigid box mockup, molded pulp insert structure, ecommerce protective shipper, production-intent dieline visualization, elegant oriental contemporary packaging, premium Chinese spirits brand concept, tactile specialty paper, realistic emboss and foil details, photorealistic packaging design presentation, clean studio background, ultra detailed, high resolution.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "product concept",
-        "default": "unofficial concept"
-      },
-      {
-        "name": "capacity",
-        "default": "500ml"
-      },
-      {
-        "name": "flavor profile",
-        "default": "sauce-aroma"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573839933_y7f04j_HOhRc-7boAA-u8e.jpg",
-        "alt": "Premium Spirits Packaging Design Proposal Board",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Mr.pinecone",
-      "url": "https://x.com/Mrpinecone888"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Mrpinecone888/status/2083004581110497696"
-    },
-    "publishedAt": "2026-07-31T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30382",
-    "contentHash": "83acea74e6bc1a6974caa4e187afbe85274d476d"
   }
 ]

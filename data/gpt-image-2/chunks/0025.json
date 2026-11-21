@@ -1,5 +1,197 @@
 [
   {
+    "id": "gpt-image-2:27559",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27559",
+    "title": "Chiaroscuro High-Contrast Male Portrait",
+    "category": "Profile / Avatar",
+    "description": "A dramatic, high-fidelity portrait prompt focusing on extreme light and shadow for a mysterious and intense look.",
+    "promptText": "Ultra high fidelity photorealistic image. Reproduce every visible detail with high accuracy.\n\nVertical close-up portrait, tight framing on face with {argument name=\"atmosphere\" default=\"extreme high-contrast dramatic atmosphere\"}.\n\nExtreme chiaroscuro lighting with strong side light creating bright highlights on hair, eyes and hand edges against deep black shadows covering half the face and body, cool dark moody color tone with intense contrast.\n\nMysterious intense pose, direct gaze toward viewer, lower face partially obscured by hand and deep shadow.\n\nShort dark masculine hair with messy textured bangs and loose strands falling across the forehead, natural volume with strong rim highlights from side lighting.\n\n{argument name=\"subject\" default=\"Handsome young man\"} with pale fair cool-toned skin, smooth even complexion, soft matte texture, completely matte with no oily or shiny areas.\n\nIntense dark eyes with sharp catchlights, naturally defined masculine eyebrows, subtle under-eye depth, strong facial structure with a defined jawline. Lips barely visible in shadow with a natural tone.\n\nDark masculine garment with a high collar or {argument name=\"clothing detail\" default=\"black fabric pulled up covering the lower face and neck\"}.\n\nOne hand raised with fingers gently touching near the nose and cheek, natural masculine hand anatomy with realistic skin texture and nail details, partially illuminated by side light.\n\nCompletely black featureless dark background enhancing the dramatic light and shadow.\n\nUltra-realistic, cinematic, hyper-detailed, 8K, DSLR quality, razor-sharp focus, realistic skin pores, natural facial texture, dramatic rim lighting, masterpiece, no watermark, no signature, no overlay text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "atmosphere",
+        "default": "extreme high-contrast dramatic atmosphere"
+      },
+      {
+        "name": "subject",
+        "default": "Handsome young man"
+      },
+      {
+        "name": "clothing detail",
+        "default": "black fabric pulled up covering the lower face and neck"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783154563826_9kvbfo_HMQ3aDtboAAoq5g.jpg",
+        "alt": "Chiaroscuro High-Contrast Male Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Mr. Tariq",
+      "url": "https://x.com/AiWithTariq"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AiWithTariq/status/2072842653461553158"
+    },
+    "publishedAt": "2026-07-03T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27559",
+    "contentHash": "c9a69ef11998c489c7fa6c49b7256d377f8e2aa6"
+  },
+  {
+    "id": "gpt-image-2:27435",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27435",
+    "title": "Red Satin Mirror Selfie Photography",
+    "category": "Profile / Avatar",
+    "description": "A detailed photographic prompt for a realistic mirror selfie featuring a subject in a red satin dress within a modern bedroom setting.",
+    "promptText": "{\n  \"project_metadata\": {\n    \"version\": \"2.0\",\n    \"style_preset\": \"Ultra realistic photographic realism\",\n    \"resolution_target\": \"8K UHD\",\n    \"aspect_ratio\": \"3:4\",\n    \"composition\": {\n      \"framing\": \"vertical mirror selfie\",\n      \"shot_type\": \"medium full body crop\",\n      \"perspective\": \"first person reflection in a mirror\"\n    }\n  },\n  \"subject\": {\n    \"identity\": {\n      \"description\": \"{argument name=\"subject description\" default=\"young woman\"}\",\n      \"estimated_age\": \"early twenties\",\n      \"ethnicity\": \"unspecified, with a subtle Mediterranean look\"\n    },\n    \"physiognomy\": {\n      \"hair\": {\n        \"color\": \"rich dark brunette\",\n        \"style\": \"long voluminous waves\",\n        \"texture\": \"silky hair with clearly separated strands\"\n      },\n      \"face\": {\n        \"expression\": \"playful soft pout\",\n        \"makeup\": {\n          \"style\": \"soft glam beauty makeup\",\n          \"details\": [\n            \"delicate winged eyeliner\",\n            \"fresh dewy skin\",\n            \"neutral glossy lips\",\n            \"soft blush on the cheeks\"\n          ]\n        }\n      }\n    },\n    \"pose_and_action\": {\n      \"primary_hand\": \"right hand holding an iPhone 16 Pro Max at chest height\",\n      \"secondary_hand\": \"left fingertips gently touching the cowl neckline\",\n      \"body_language\": \"relaxed standing pose with a slight hip tilt\"\n    }\n  },\n  \"attire_and_props\": {\n    \"main_garment\": {\n      \"type\": \"mini dress\",\n      \"material\": \"{argument name=\"dress material\" default=\"shiny red satin\"}\",\n      \"color_profile\": \"vivid scarlet crimson\",\n      \"design_elements\": {\n        \"top\": \"thin spaghetti straps with an elegant draped cowl neckline\",\n        \"body\": \"detailed ruching gathered across the waist\",\n        \"skirt\": \"fitted mini skirt with folded gathered fabric\"\n      }\n    },\n    \"tech_prop\": {\n      \"device\": \"iPhone 16 Pro Max\",\n      \"finish\": \"silver gray titanium\",\n      \"details\": \"triple lens camera module visible in the mirror reflection\"\n    }\n  },\n  \"environment_architecture\": {\n    \"room_type\": \"{argument name=\"room type\" default=\"modern primary bedroom\"}\",\n    \"flooring\": {\n      \"material\": \"pale oak hardwood\",\n      \"overlay\": \"soft beige rug with a quiet geometric pattern\"\n    },\n    \"background_elements\": [\n      {\n        \"element\": \"floor to ceiling window\",\n        \"window_treatments\": [\n          \"translucent white sheer curtains\",\n          \"heavy charcoal gray drapes\"\n        ]\n      },\n      {\n        \"element\": \"bed\",\n        \"description\": \"minimal white bedding, partly visible near the edge of the frame\"\n      }\n    ]\n  },\n  \"lighting_and_optics\": {\n    \"primary_light\": {\n      \"source\": \"natural light from the window\",\n      \"direction\": \"side lit from a 45 degree angle\",\n      \"quality\": \"soft diffused airy daylight\"\n    },\n    \"optical_effects\": [\n      \"bright specular highlights on the satin dress\",\n      \"convincing mirror reflection behavior\",\n      \"gentle background bokeh\"\n    ]\n  }\n}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject description",
+        "default": "young woman"
+      },
+      {
+        "name": "dress material",
+        "default": "shiny red satin"
+      },
+      {
+        "name": "room type",
+        "default": "modern primary bedroom"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783154562686_d5x23s_HMQbtkIbQAAYMNM.jpg",
+        "alt": "Red Satin Mirror Selfie Photography",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "PromptLab",
+      "url": "https://x.com/iamaiistudio"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/iamaiistudio/status/2072812629710831665"
+    },
+    "publishedAt": "2026-07-02T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27435",
+    "contentHash": "d9ca0f5721dfc707aab23de9fffff96690f6ac6b"
+  },
+  {
+    "id": "gpt-image-2:27567",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27567",
+    "title": "Soft Summer Afternoon Sunshine Portrait",
+    "category": "Social Media Post",
+    "description": "A highly detailed prompt for a Japanese-style realistic photo of a woman sitting outdoors in soft summer sunlight, focusing on skin textures and delicate lighting.",
+    "promptText": "Subject:\n{argument name=\"subject\" default=\"Sunlight patch\"}\n\nPerson/Expression:\n{argument name=\"person\" default=\"Woman in her 20s\"}. Fair skin leaning towards bright ivory beige, smooth with a hint of pink. Soft highlights on cheeks, nose, shoulders, and collarbones. Delicate texture preserving natural skin grain. Features of a mature Japanese photo model, not youthful. Expression is a soft smile towards the camera. Pale rose pink blush, champagne beige and pink brown eyeshadow, long thin eyelashes, natural eye bags, light brown eyebrows, sheer pink-beige gloss. Small clear catchlights in the eyes.\n\nClothing/Pose:\nLight milk tea ash brown medium-long hair. Thin see-through bangs, face-framing layers, slightly curled ends. Soft airy feel, natural hair bundles, fine highlights. Clothing is an ivory ribbed sleeveless V-neck knit. Elegant and natural fit, showing mature body curves but modest and refined. High-waist beige shorts, white ribbed socks, white sneakers without logos. Sitting on the floor leaning against a blue-toned wall, knees up, legs extended towards the camera. Right hand supports the body on the floor, left hand lightly on one knee.\n\nBackground/Light:\n{argument name=\"background\" default=\"A corner of an outdoor area reminiscent of a quiet building wall\"}. Behind is a slightly aged blue-grey painted wall, white wall with thin green ivy on the left, cobblestones and small white gravel at the feet. Strong natural summer afternoon light from the top left, creating bright highlights on hair, cheeks, shoulders, collarbones, knees, and sneakers. Shadows fall towards the bottom right; the blue wall looks cool while skin and clothes look warm.\n\nComposition/Camera:\nVertical composition, 3:4. Low-angle seated portrait. Camera slightly lower than knee height, subject centered. White sneakers and legs prominently in the foreground, face and upper body in the top center. Natural wide-angle feel around 35mm, perspective in the feet, focus on the face. Background is light and soft, wall texture preserved.\n\nTexture/Style:\nHigh-quality Japanese realistic photo. Natural light portrait, clean summer air, soft film-like gradations. Skin not over-polished, preserving natural pores and luster. Detailed rendering of knit ribs, cobblestones, wall grain, and fine hair bundles. No excessive HDR or plastic skin.\n\nNegative:\nUnderage, youthful face, unnatural face, asymmetrical eyes, excessive skin retouching, plastic-like skin, excessive breast emphasis, vulgar sexual expression, overexposure, transparent clothes, nipples, underwear-like, extra fingers, missing fingers, fused limbs, broken joints, distorted legs, deformed shoes, shadows inconsistent with light source, collapsed background, text, logo, watermark, excessive AI feel.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "Sunlight patch"
+      },
+      {
+        "name": "person",
+        "default": "Woman in her 20s"
+      },
+      {
+        "name": "background",
+        "default": "A corner of an outdoor area reminiscent of a quiet building wall"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783154567640_j50zdi_HMQ1E93agAAYy0u.jpg",
+        "alt": "Soft Summer Afternoon Sunshine Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Prompt アトリエ｜AI画像プロンプト",
+      "url": "https://x.com/CyberTotal2026"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/CyberTotal2026/status/2073247678733988334"
+    },
+    "publishedAt": "2026-07-04T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27567",
+    "contentHash": "246c191254e42e8d63df0a7781c5323a4538d57a"
+  },
+  {
+    "id": "gpt-image-2:27603",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27603",
+    "title": "Surreal Koi Pond Portrait Artist",
+    "category": "Social Media Post",
+    "description": "A cinematic magical-realism park scene of a young artist painting a giant woman’s face into a koi-filled pond.",
+    "promptText": "Create a surreal, ultra-detailed photorealistic scene in a sunny public park pond: a young female artist, {argument name=\"artist appearance\" default=\"East Asian woman in her early 20s with long black hair in two loose braids\"}, stands waist-deep in clear water wearing an oversized off-white button-up shirt splattered with paint. She holds an oval painter’s palette covered in vivid orange, blue, white, and gold paint in one hand and uses a thin brush in the other to paint directly onto the surface of the pond. Beneath the water, the painting becomes an enormous floating portrait of {argument name=\"portrait subject\" default=\"a beautiful pale woman’s face with blue eyes, glossy pink lips, rosy cheeks, and wet porcelain-like skin\"}, with the face tilted diagonally across the lower right half of the image. The portrait’s hair transforms into a swirling school of exactly 55 koi fish, individually visible, in orange, red, white, gold, black-speckled, and bright blue patterns, flowing around the face like living hair. The brush tip touches a circular ripple on the painted forehead, creating delicate concentric rings. Around the pond are exactly 12 visible background people: 1 tall woman in a black sleeveless dress on the far left, 1 bearded man in sunglasses and a white shirt, 1 woman in a white summer dress, 1 seated person on a bench, 4 tiny distant park visitors near the center walkway, and 4 onlookers on the right consisting of 3 women in light dresses and 1 man in a black shirt. The setting is a manicured city park with stone pond edges, wooden benches, black lampposts, lush green trees, trimmed grass, and a blue sky with scattered white clouds. Use a low eye-level wide-angle composition from the waterline, with the artist centered slightly left and the giant face dominating the foreground. Style: {argument name=\"visual style\" default=\"cinematic hyperrealism with magical realism, crisp 8k detail, natural daylight, rich reflections, realistic water refraction, painterly color accents\"}. Mood: {argument name=\"mood\" default=\"dreamlike, contemplative, astonishing, serene\"}. Add a small elegant artist signature in the bottom right reading {argument name=\"signature text\" default=\"Kabumisa\"}. Avoid text elsewhere, avoid cartoon styling, avoid distorted anatomy, keep the water transparent and reflective, and make the koi and portrait blend seamlessly into the pond surface.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "artist appearance",
+        "default": "East Asian woman in her early 20s with long black hair in two loose braids"
+      },
+      {
+        "name": "portrait subject",
+        "default": "a beautiful pale woman’s face with blue eyes, glossy pink lips, rosy cheeks, and wet porcelain-like skin"
+      },
+      {
+        "name": "visual style",
+        "default": "cinematic hyperrealism with magical realism, crisp 8k detail, natural daylight, rich reflections, realistic water refraction, painterly color accents"
+      },
+      {
+        "name": "mood",
+        "default": "dreamlike, contemplative, astonishing, serene"
+      },
+      {
+        "name": "signature text",
+        "default": "Kabumisa"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1783154585462_qon5i8_HMWHDSaagAAPsSq.jpg",
+        "alt": "Surreal Koi Pond Portrait Artist",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "カーブミラー",
+      "url": "https://x.com/kabumira862571"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/kabumira862571/status/2073211703421198648#reversed-0"
+    },
+    "publishedAt": "2026-07-04T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27603",
+    "contentHash": "2d879b92b767920e03c2f2e0ccef67e9dbec6dbf"
+  },
+  {
     "id": "gpt-image-2:27584",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6962,181 +7154,5 @@
     "publishedAt": "2026-06-30T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27252",
     "contentHash": "72cbc07f8e11b9287d4ffa27764ab0ad02a8d823"
-  },
-  {
-    "id": "gpt-image-2:27148",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27148",
-    "title": "Quiet Japanese Film Aesthetic Portrait",
-    "category": "Profile / Avatar",
-    "description": "A 35mm analog film aesthetic prompt for generating minimalist and airy portraits of a young woman with a gentle Japanese cinematic feel.",
-    "promptText": "35mm analog film photo, {argument name=\"aesthetic\" default=\"soft Japanese minimalist aesthetic\"}, airy and slightly overexposed, gentle diffused natural light from a window with white sheer curtains, pastel color tones, low contrast, soft highlights, simple indoor backdrop with clean light wall, natural eye-level composition, slightly closer full-body framing from mid-thigh to head, {argument name=\"subject\" default=\"young East Asian woman\"}, minimal natural-looking makeup, soft realistic skin, long slightly tousled dark hair, {argument name=\"clothing\" default=\"oversized white button-up shirt\"}, light casual shorts, barefoot, effortlessly relaxed styling, standing naturally with arms loosely at sides or gently behind, facing camera with a soft smile and quiet stillness, warm dreamy film grain, understated everyday atmosphere --ar 9:16",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "aesthetic",
-        "default": "soft Japanese minimalist aesthetic"
-      },
-      {
-        "name": "subject",
-        "default": "young East Asian woman"
-      },
-      {
-        "name": "clothing",
-        "default": "oversized white button-up shirt"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782896951467_vcuce1_HMCFz4WW0AA8D2r.jpg",
-        "alt": "Quiet Japanese Film Aesthetic Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "PromptLab",
-      "url": "https://x.com/iamaiistudio"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/iamaiistudio/status/2071803126857048198"
-    },
-    "publishedAt": "2026-06-30T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27148",
-    "contentHash": "fb264e9fdbc83d6007bd9ae0fe38e95a9dc58adc"
-  },
-  {
-    "id": "gpt-image-2:27267",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27267",
-    "title": "Crystal Gown Mountain Portrait",
-    "category": "Profile / Avatar",
-    "description": "A photorealistic fantasy fashion portrait of a woman in an iridescent crystal gown on a misty mountaintop at golden hour.",
-    "promptText": "Create a photorealistic golden-hour fantasy portrait of {argument name=\"character name\" default=\"a beautiful young woman\"} standing naturally on a quiet mountaintop viewpoint path after rain. She has long flowing dark brown hair, soft natural makeup, delicate drop earrings, and a serene smile while looking at her raised right hand. She wears an ethereal sheer white crystal-embellished gown covered with countless iridescent beads, rhinestones, hanging strands, and large prism-like teardrop crystals; her left hand gently lifts part of the sparkling skirt. Around her, floating transparent crystal shards and prisms catch the sunlight and create vivid rainbow refractions, small lens flares, and glittering specks across the dress and air. The background shows misty green mountain ridges, a wet stone trail with a tiny group of hikers far behind on the left, wild greenery on the right, and dramatic clouds lit by a bright low sun in the upper right. Use shallow depth of field, cinematic backlighting, realistic skin texture, wind-blown hair, luminous highlights, high-detail fabric and jewelry, dreamy magical realism, vertical 2:3 composition, ultra-realistic fashion photography. Avoid text, logos, watermarks, distorted hands, extra fingers, or plastic-looking skin.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "a beautiful young woman"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782896960747_scvujw_HMBcAJ7bIAAmTsi.jpg",
-        "alt": "Crystal Gown Mountain Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Hania Ai",
-      "url": "https://x.com/HaniaAi12"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/HaniaAi12/status/2071757651013464561#reversed-0"
-    },
-    "publishedAt": "2026-06-30T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27267",
-    "contentHash": "9e244e999be6892760e15a4e8ab5be3b340886a3"
-  },
-  {
-    "id": "gpt-image-2:27206",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27206",
-    "title": "Chibi Anime Morning Greeting Sticker",
-    "category": "Profile / Avatar",
-    "description": "Generates a kawaii chibi virtual idol sticker with Japanese morning-greeting text, ideal for social posts, emotes, or streamer graphics.",
-    "promptText": "Create a cute chibi anime sticker illustration on a black background, with a thick white die-cut sticker border and a teal outline. Center a tiny cheerful virtual idol girl, {argument name=\"character name\" default=\"Hatsune Miku-inspired chibi mascot\"}, with bright {argument name=\"hair color\" default=\"turquoise twin-tail hair\"}, one large teal-green eye open and the other eye winking, rosy cheeks, and an open smiling mouth. She wears oversized black headphones with teal accents and a yellow sunflower decoration on one side, a white hoodie with teal cuffs and hem, small peach bows tying the twin tails, short socks, and teal shoes; the hoodie has a simple red-and-green emblem on the chest. Pose her floating or bouncing forward, left hand raised in a friendly wave with five fingers visible, right hand clenched happily near her side. Place a large rounded speech-bubble sign above and behind her, filled white with teal trim, containing big playful Japanese text {argument name=\"greeting text\" default=\"おはよー\"} in thick rounded orange letters with cream highlights, dark brown shadow outline, and a white sticker-like stroke. Add a stylized orange sun paw-print icon in the upper left of the bubble, three yellow exclamation rays in the upper right, small pastel confetti dots, one yellow sparkle, and exactly 4 simple flowers around the sticker: two pink flowers with white centers and two teal flowers with white centers. Add exactly 3 yellow star-like accent shapes around the lower half. Include a black studio microphone on a boom/shock mount at the lower left, angled diagonally upward toward the character. Overall style: glossy kawaii anime art, clean bold outlines, soft cel shading, vibrant pastel palette, rounded sticker aesthetic, high detail but uncluttered, vertical composition.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "Hatsune Miku-inspired chibi mascot"
-      },
-      {
-        "name": "hair color",
-        "default": "turquoise twin-tail hair"
-      },
-      {
-        "name": "greeting text",
-        "default": "おはよー"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782896964009_9b1atb_HMBbzWybMAA_9WX.jpg",
-        "alt": "Chibi Anime Morning Greeting Sticker",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "アマドウマ",
-      "url": "https://x.com/amadouma_s"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/amadouma_s/status/2071756768976458172#reversed-0"
-    },
-    "publishedAt": "2026-06-30T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27206",
-    "contentHash": "ed37db166bcc348cd6b4bc89588e699ff6b33074"
-  },
-  {
-    "id": "gpt-image-2:27165",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "27165",
-    "title": "Cyberpunk Chrome Sci-Fi Portrait",
-    "category": "Profile / Avatar",
-    "description": "A photorealistic sci-fi editorial portrait of a woman in a mirror-finish chrome jacket and futuristic helmet.",
-    "promptText": "Photorealistic sci-fi portrait, {argument name=\"subject\" default=\"young woman\"} in left-facing side profile, dressed in a {argument name=\"jacket style\" default=\"mirror-finish chrome-blue jacket\"} and a futuristic helmet with a wide glossy visor obscuring her eyes. Helmet features smooth curves, white trim, clear side panels with subtle tech detailing. Visor has a cool blue reflective sheen, cyberpunk meets space-age fashion. Clean, minimal framing against a {argument name=\"background style\" default=\"gradient blue backdrop\"}. Cinematic studio lighting, high contrast, mirror-like reflections across jacket and helmet surfaces. Razor-sharp detail on facial features and material textures, slight bokeh, 8K resolution, hyper-realistic editorial aesthetic.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "young woman"
-      },
-      {
-        "name": "jacket style",
-        "default": "mirror-finish chrome-blue jacket"
-      },
-      {
-        "name": "background style",
-        "default": "gradient blue backdrop"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782896947995_gx1qmh_HMAzWwqbAAAkvrM.jpg",
-        "alt": "Cyberpunk Chrome Sci-Fi Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "PromptLab",
-      "url": "https://x.com/iamaiistudio"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/iamaiistudio/status/2071712457262080034"
-    },
-    "publishedAt": "2026-06-29T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27165",
-    "contentHash": "5ab153617cb5936b857416bf33b57ac17ac704e7"
   }
 ]

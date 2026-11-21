@@ -1,5 +1,85 @@
 [
   {
+    "id": "nano-banana-pro:37658",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "37658",
+    "title": "Realistic Beach Portrait Prompt",
+    "category": "Profile / Avatar",
+    "description": "A prompt for generating an ultra-realistic portrait of a young European woman at a seaside beach with specific lighting and camera details.",
+    "promptText": "Create an ultra-realistic, high-quality portrait of a beautiful European young adult woman at a seaside beach. She has fair skin, long naturally wavy light-brown hair blowing gently in the ocean breeze, blue eyes, delicate facial features, and a soft natural smile. She is wearing an elegant white floral embroidered dress with sheer sleeves, delicate jewelry, and subtle makeup. She is sitting on the sandy beach, resting her cheek gently on one hand, looking directly at the camera. Beautiful turquoise ocean waves, clear blue sky, warm golden sunlight, soft wind in her hair, peaceful summer atmosphere, natural skin texture, realistic details, cinematic photography, DSLR, 85mm lens, shallow depth of field, luxury fashion photoshoot, soft natural lighting, photorealistic, 4K, vertical portrait, 9:16.",
+    "promptFormat": "text",
+    "templateArguments": [],
+    "raycastFriendly": false,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1795155693390_jif9m3_HXfiw3MaQAAtOIY.jpg",
+        "alt": "Realistic Beach Portrait Prompt",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Aynelle",
+      "url": "https://x.com/aynellex"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/aynellex/status/2123415106650611885"
+    },
+    "publishedAt": "2026-11-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=37658",
+    "contentHash": "0a36e12dbea2aa8726cd9d5a0258ef56de5287a2"
+  },
+  {
+    "id": "nano-banana-pro:37659",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "37659",
+    "title": "Surreal High-Fashion Portrait Prompt for Nano Banana Pro",
+    "category": "Social Media Post",
+    "description": "A detailed JSON-structured prompt for generating a surreal, high-fashion editorial portrait of Dakota Johnson using Gemini Nano Banana Pro, featuring specific lighting, wardrobe, and atmospheric details.",
+    "promptText": "{\n  \"vibe_title_en\": \"{argument name=\"vibe title\" default=\"The Weighted Silence of the Aftermath\"}\",\n  \"master_prompt\": \"A voyeuristic 200mm telephoto shot of The Protagonist in the heavy stillness of an aftermath. Shot through a partially open, moth-eaten velvet curtain, creating heavy foreground occlusion. The subject slumps heavily against a damp, decaying stone wall in a dimly lit, abandoned backstage crypt. They wear a deconstructed, voluminous ivory silk garment, dirtied at the hem. Suspended symmetrically around them by taut pearl strings and thin steel wires are multiple pristine white porcelain masks with glossy red lips, treated as a high-budget physical practical effect. The subject's head hangs low, shoulders dropped in beautiful disarray. High-fashion makeup: extreme matte porcelain skin, smudged glossy obsidian eyelids, blurred oxblood lip stain. Hair: long, disheveled architectural wet-look waves in icy silver-blonde. Lighting: Blue hour ambient light spilling from above, dim, indirect cool tones with deep chiaroscuro shadows. Shot on Hasselblad H6D-100c, 200mm f/2.8 lens, Kodak Portra 800. Hyper-realistic skin pores, tangible fabric weaves, heavy analog film grain. NO NEON.\",\n  \"meta\": {\n    \"intent\": \"Create a surreal, high-fashion editorial portrait combining heavy aftermath emotion with physical impossibility and voyeuristic framing.\",\n    \"priorities\": \"Voyeuristic composition, practical surrealism, cinematic blue hour lighting, heavy analog texture.\",\n    \"device_profile\": \"Hasselblad H6D-100c\"\n  },\n  \"frame\": {\n    \"aspect\": \"3:4\",\n    \"composition\": \"Heavy foreground occlusion framing a central subject\",\n    \"layout\": \"Voyeuristic long-lens compression\",\n    \"camera_angle\": \"Slightly distant, eye-level observation\",\n    \"tilt_roll_degrees\": \"0\"\n  },\n  \"subject\": {\n    \"gender\": \"Female\",\n    \"identity\": \"{argument name=\"subject identity\" default=\"The Protagonist\"}\",\n    \"demographics\": \"Ageless adult\",\n    \"face\": \"Exhausted, serene, heavy-lidded\",\n    \"hair\": \"Long, disheveled architectural wet-look waves, icy silver-blonde\",\n    \"makeup\": \"Extreme matte porcelain foundation, smudged glossy obsidian eyelids, blurred oxblood lip stain\",\n    \"body\": \"Relaxed, weighted, slumped posture\",\n    \"expression\": \"Quiet exhaustion, aftermath calm\",\n    \"pose\": \"Leaning heavily against a wall, shoulders dropped, beautiful disarray\"\n  },\n  \"wardrobe_accessories\": {\n    \"garments\": [\n      {\n        \"item\": \"Deconstructed draped gown\",\n        \"material\": \"Ivory silk, dirtied at the hem\",\n        \"color\": \"Ivory\",\n        \"fit\": \"Voluminous, loose\"\n      }\n    ],\n    \"accessories\": [\n      {\n        \"item\": \"Suspended masks\",\n        \"color\": \"White and red\",\n        \"material\": \"Porcelain, pearls, steel wire\",\n        \"brand_style\": \"Avant-garde theater prop\"\n      },\n      {\n        \"item\": \"Crucifix necklace\",\n        \"color\": \"Silver\",\n        \"material\": \"Metal\",\n        \"brand_style\": \"Gothic antique\"\n      }\n    ]\n  },\n  \"environment\": {\n    \"setting\": \"Abandoned backstage crypt\",\n    \"details\": \"Damp, decaying stone walls, moth-eaten velvet curtains\"\n  }\n}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "vibe title",
+        "default": "The Weighted Silence of the Aftermath"
+      },
+      {
+        "name": "subject identity",
+        "default": "The Protagonist"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1795155695568_qxcnfy_HXgvmgMWAAAPa-e.jpg",
+        "alt": "Surreal High-Fashion Portrait Prompt for Nano Banana Pro",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1795155695564_tgd9hl_HXgvmgnW4AEOvsW.jpg",
+        "alt": "Surreal High-Fashion Portrait Prompt for Nano Banana Pro",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "timedoctor.eth",
+      "url": "https://x.com/timedoctor_nft"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/timedoctor_nft/status/2123499567270248845"
+    },
+    "publishedAt": "2026-11-19T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=37659",
+    "contentHash": "a56a9ea4654723077b55d4a72e9b91a838a1fdac"
+  },
+  {
     "id": "nano-banana-pro:37620",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
@@ -5910,71 +5990,5 @@
     "publishedAt": "2026-09-24T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35391",
     "contentHash": "1407354690218bd2b0a8ca1eb55c94537e2c9c84"
-  },
-  {
-    "id": "nano-banana-pro:35312",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "35312",
-    "title": "Cinematic Tea Party Portrait Prompt",
-    "category": "Profile / Avatar",
-    "description": "A prompt for creating a photorealistic cinematic portrait of a woman at an outdoor tea party, preserving facial identity from a reference image.",
-    "promptText": "Use the uploaded reference image as the exact face and identity reference. Preserve the woman’s facial identity, facial structure, eyes, nose, lips, jawline, skin tone, and natural facial proportions consistently — same reference face, identity locked, no face alteration.\n\nCreate a photorealistic cinematic portrait of the same woman sitting at an elegant outdoor afternoon tea in a lush sunlit garden. Keep her face identical to the reference while giving her long softly curled brown hair styled half-up with a delicate pale pink ribbon. She wears a dreamy pastel powder-blue vintage dress with tiny floral embroidery, puff sleeves, intricate white lace trim and a romantic square neckline, with pearl necklace, elegant earrings, and delicate white lace gloves.\n\nShe rests her cheek gently against her gloved hand with a calm, graceful expression. A vintage white porcelain teapot, fine china, pastries and delicate blush-pink roses decorate the table. Warm golden-hour sunlight filters through the trees, creating soft highlights, natural shadows and creamy background bokeh.\n\n85mm portrait lens, shallow depth of field, cinematic composition, realistic skin pores and texture, natural facial details, realistic hands, fine fabric and lace detail, soft film photography aesthetic, elegant romantic garden atmosphere, premium editorial photography, photorealistic, ultra-detailed, vertical 9:16.\n\nNegative prompt: same exact face as reference, preserve facial proportions and recognizable features, no face swap distortion, no beautification that changes identity, no different person.\nNegative: altered face, different identity, facial distortion, plastic skin, over-smoothed skin, extra fingers, deformed hands, CGI, cartoon, text, logo, watermark.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1790231558229_mthu7x_HS6ApM2asAANKg-.jpg",
-        "alt": "Cinematic Tea Party Portrait Prompt",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Elvorya",
-      "url": "https://x.com/Elvorya"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Elvorya/status/2102759532867035239"
-    },
-    "publishedAt": "2026-09-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35312",
-    "contentHash": "320aa0b0e0e46d4356409f0a2a7c2b262baded73"
-  },
-  {
-    "id": "nano-banana-pro:35311",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "35311",
-    "title": "Sunset Burger Scene Prompt",
-    "category": "Social Media Post",
-    "description": "A detailed prompt for creating a realistic lifestyle photo of a man with burgers and a car at sunset, specifically noting 'Nano banana Pro' at the end.",
-    "promptText": "Color street photography in lifestyle style, shot on iPhone 17, 24 mm wide-angle lens, realistic style, high detail, natural lighting, light grain, 3:4 format. Composition: I, a man, sitting on a folding camping chair in the foreground, back to the camera but with my head turned over my shoulder looking straight into the camera, a slight smile on my face. One hand holds a glass of champagne, the other rests on my knee. The chair and torso are slightly turned toward the table. I am wearing a light oversized cotton or linen shirt, light loose trousers, light sneakers, thin-framed sunglasses.\n\nBehind me, across the table, opposite me, stands a white BMW 3 Series sport sedan (in M-package style). The car is positioned on the other side of the table, front facing me, headlights on and shining onto the table and me, creating warm light. Black kidney grille, LED headlights, black multi-spoke wheels, glossy white body.\n\nLocation: endless field of dry yellow grass, in the background — hills and mountains in haze, evening sky with warm orange clouds, sunset. Between me and the car stands a table covered with a white tablecloth: a gold candelabra with three candles, champagne glasses, a bottle of champagne, plates with burgers and snacks, white flowers in a vase, and next to the champagne bottle a bottle of motor oil. Lighting: natural sunset light, warm reflections from the headlights and candles, soft shadows, realistic color rendering. Angle: view from behind-side, as if the photo was taken from table level. Color palette: white, yellow, golden, orange, gray.\n\nThe shot looks like an amateur photo taken on a mobile phone: natural lighting, slight motion blur, digital noise and grain, camera imperfections. The frame is spontaneous and documentary. No staged photoshoot look and no artificial processing. Do not allow visual AI artifacts and do not change the person’s appearance.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1790231558336_cfmmzk_HS6TVz5acAAS20f.jpg",
-        "alt": "Sunset Burger Scene Prompt",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Dr. Samia",
-      "url": "https://x.com/oye_samia"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/oye_samia/status/2102780087955509454"
-    },
-    "publishedAt": "2026-09-23T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=35311",
-    "contentHash": "586b56afb1175b5e45b153b809ba4118d35739d7"
   }
 ]
