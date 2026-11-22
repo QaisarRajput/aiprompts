@@ -1,5 +1,89 @@
 [
   {
+    "id": "gpt-image-2:32869",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32869",
+    "title": "Surreal Ink Pen Drawing Style",
+    "category": "Comic / Storyboard",
+    "description": "A prompt for generating surreal, stylized ink pen illustrations with irregular lines and simplified character designs, suitable for quirky and artistic results.",
+    "promptText": "[{argument name=\"theme\" default=\"Illustration content or theme here\"}]\n\nAn illustration that looks like it was drawn with an ink pen with irregular, slightly shaky but firm lines. The line thickness should not be uniform. Deformed, simple silhouette, with dark areas filled in with pen. Quite surreal, chaotic, and a bit wild, but avoid gruesome things as much as possible. Temperature is 1.2. Simple and simplified character design, abandoning anatomy, symbolic body, short and simplified limbs, intentionally drawn a bit clumsily with a low-information silhouette. Keep the colors within 5 colors and do not over-use them. If there is a reference image, do not copy it completely, but deform it into a simple shape while leaving the characteristics and atmosphere.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "theme",
+        "default": "Illustration content or theme here"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787990049605_x0kp40_HQzWwGBbIAAokGF.jpg",
+        "alt": "Surreal Ink Pen Drawing Style",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "tane@AI",
+      "url": "https://x.com/gin1910410"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/gin1910410/status/2093284053592203705"
+    },
+    "publishedAt": "2026-08-28T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32869",
+    "contentHash": "42045defc64bfb3b54480920e891234746b635e7"
+  },
+  {
+    "id": "gpt-image-2:32856",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32856",
+    "title": "High-End Footwear Commercial Poster",
+    "category": "Product Marketing",
+    "description": "Generates a luxury footwear advertisement featuring a male model and oversized product placement with clean minimalist graphics.",
+    "promptText": "Create an ultra-realistic, high-end commercial advertising poster inspired by the reference image’s clean fashion campaign aesthetic, but featuring a {argument name=\"subject\" default=\"handsome young man in his early 20s\"} as the model. A {argument name=\"product\" default=\"large oversized white ergonomic clog shoe\"} dominates the foreground, positioned dramatically at a slight angle to showcase its shape, ventilation holes, textured sole, heel strap, and premium material. Behind and beside the shoe stands a strikingly handsome young man with thick naturally wavy jet-black hair, expressive deep-brown eyes, strong eyebrows, straight sculpted nose, prominent cheekbones, sharp masculine jawline, naturally defined lips, and a neat short beard. He wears a minimalist all-white oversized sweatshirt and relaxed white trousers, paired with matching white clogs. His pose is confident, relaxed and stylish, slightly leaning backward with one hand casually in his pocket, creating a premium fashion-editorial attitude. Background: {argument name=\"background\" default=\"soft pastel sky-blue studio backdrop\"} with enormous bold white abstract typography/shapes extending vertically across the background, creating a modern minimalist graphic design. Add a glossy reflective floor with subtle reflections beneath the shoe and model. Lighting: soft high-key studio lighting, bright diffused illumination, subtle shadows, realistic skin texture, premium product photography, gentle rim lighting, clean highlights on the shoe. Composition: vertical 4:5 advertising poster, oversized shoe in the lower-left/center foreground, handsome male model positioned behind it on the right, strong depth and scale contrast, centered visual balance, luxury footwear campaign aesthetic. Add small elegant text at the top: “DESIGNED WITH AI” Add refined advertising copy at the bottom: “MADE FOR COMFORT, BUILT FOR CONFIDENCE.” “Because every step should feel better.” Photorealistic, cinematic commercial photography, ultra-detailed, realistic materials, realistic anatomy, sophisticated fashion campaign, premium branding aesthetic, sharp focus, 8K quality, no watermark, no distorted hands, no extra limbs, no duplicate shoes.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "handsome young man in his early 20s"
+      },
+      {
+        "name": "product",
+        "default": "large oversized white ergonomic clog shoe"
+      },
+      {
+        "name": "background",
+        "default": "soft pastel sky-blue studio backdrop"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787990036341_rozmye_HQ3NRoMb0AAnoTI.jpg",
+        "alt": "High-End Footwear Commercial Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "HeisenLegacy",
+      "url": "https://x.com/MohdAdnanA86218"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/MohdAdnanA86218/status/2093555114556723418"
+    },
+    "publishedAt": "2026-08-29T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32856",
+    "contentHash": "14d6ff91276d40dbef80dd8d58ad64301b0106ac"
+  },
+  {
     "id": "gpt-image-2:32908",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6692,120 +6776,5 @@
     "publishedAt": "2026-08-24T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32551",
     "contentHash": "8d3b3d7c2fb5fa6c9dc240f4c4dd76e87435019e"
-  },
-  {
-    "id": "gpt-image-2:32659",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32659",
-    "title": "Shoujo Manga Famous Quote Page",
-    "category": "Comic / Storyboard",
-    "description": "Generates a dramatic monochrome shoujo manga page starring a custom heroine in an emotional chapter-title and quote scene.",
-    "promptText": "Goal: Create a dramatic black-and-white shoujo manga magazine page where {argument name=\"character name\" default=\"a quiet blue-eyed heroine\"} looks like the protagonist of an emotional “famous quote” chapter.\n\nCanvas: Vertical manga page, 4:5 aspect ratio, high-resolution monochrome ink with screentones, delicate linework, cinematic panel composition. Mostly grayscale, but keep the heroine’s eyes subtly colored pale blue for a striking focal point.\n\nLayout: Use exactly 4 distinct manga areas: 1) a large main right-side panel occupying about two-thirds of the page with the heroine seated among flowers, 2) a small top-left inset panel showing only black lace-up boots stepping on scattered papers with a small speech balloon, 3) a middle-left inset panel showing a hand holding or reaching toward a letter with a speech balloon, and 4) a narrow lower-left background panel with a fence, trees, flowers, and large hand-drawn sound effects. Add diagonal panel borders and overlapping art elements so flowers and hair break across panel edges.\n\nMain subject details: The heroine is a beautiful teenage manga girl with long flowing dark hair, thick bangs, large luminous blue eyes, a calm but determined expression, and soft blush shading. She wears a romantic floral-patterned kimono or dress with layered fabric, a dark bow at the chest, and small flower ornaments woven into her hair near one ear. She reaches one hand toward the viewer in the foreground, fingers elegant and slightly foreshortened. Surround her with many blooming flowers, drifting petals, leaves, and wind-swept hair strands.\n\nText content: Include a large Japanese chapter title across the left-center in ornate manga lettering: {argument name=\"chapter title\" default=\"深灰青に咲く、嘘と願いの記憶\"}. Beneath it add the smaller subtitle: {argument name=\"episode label\" default=\"第7話「綻ぶ手紙」\"}. In the top-left boot panel, add a small vertical speech balloon reading {argument name=\"small speech bubble\" default=\"もう読んだよ\"}. In the middle-left letter panel, add handwritten Japanese text reading \"君には、この街のために力になってほしい\". In the large main panel, place one tall oval speech balloon on the lower right with bold vertical Japanese dialogue: {argument name=\"main quote\" default=\"誰かの都合で私の未来は決めさせない。\"}. Add expressive Japanese manga sound effects including \"カサッ\", \"ポタ…\", and a large sweeping \"ヒュオオオーー…\" across the lower area.\n\nVisual style: Authentic serialized manga page, shoujo drama, elegant emotional atmosphere, crisp black ink, halftone gradients, detailed hair highlights, floral motifs, subtle paper texture, dynamic wind and petals. The composition should feel like a climactic quote scene from a manga chapter.\n\nConstraints: No color except the heroine’s pale blue eyes, no modern UI, no watermark, no extra panels beyond the 4 specified areas, keep all Japanese text legible and integrated into the manga artwork.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character name",
-        "default": "a quiet blue-eyed heroine"
-      },
-      {
-        "name": "chapter title",
-        "default": "深灰青に咲く、嘘と願いの記憶"
-      },
-      {
-        "name": "episode label",
-        "default": "第7話「綻ぶ手紙」"
-      },
-      {
-        "name": "small speech bubble",
-        "default": "もう読んだよ"
-      },
-      {
-        "name": "main quote",
-        "default": "誰かの都合で私の未来は決めさせない。"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787732190181_xpukgt_HQesXA1aoAALNIr.jpg",
-        "alt": "Shoujo Manga Famous Quote Page",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787732188616_n48t19_HQescBiagAE0Nbn.jpg",
-        "alt": "Shoujo Manga Famous Quote Page",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787732188653_o22u8l_HQesgCHasAAe92i.jpg",
-        "alt": "Shoujo Manga Famous Quote Page",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787732189678_s07g7t_HQesiChagAACT1q.jpg",
-        "alt": "Shoujo Manga Famous Quote Page",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "のぞむ＊AIイラスト",
-      "url": "https://x.com/ArtistaNozomu"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/ArtistaNozomu/status/2091831291658543613#reversed-0"
-    },
-    "publishedAt": "2026-08-24T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32659",
-    "contentHash": "80aec35a9afc3b864d8fd010986df9db0f6ca655"
-  },
-  {
-    "id": "gpt-image-2:32627",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32627",
-    "title": "Apple-Style iPhone 17 Pro Hero Screenshot",
-    "category": "Product Marketing",
-    "description": "Generates a dark ChatGPT-framed Apple-style landing page mockup for a copper iPhone 17 Pro hero advertisement.",
-    "promptText": "Goal: Create a realistic screenshot-style comparison image showing an AI-generated Apple-style product landing page inside a dark ChatGPT image result frame.\n\nCanvas: Square 4:3 image, about 800×800 px, dark charcoal background. Add a thin rounded neon-green outline around the outer result container. At the very top center, include a small white speech-bubble pointer tab peeking down.\n\nOuter frame: Dark UI container with rounded corners. Top bar height about 52 px. On the left show the OpenAI swirl icon and green monospace label “{argument name=\"model label\" default=\"gpt-image-2 (medium)\"}”. On the right show exactly 2 controls: a small download icon and a rounded “Edit” button with a pencil icon. Keep the interface minimal and dark.\n\nInner webpage: Center a large Apple-like homepage screenshot with black background, slightly inset from the outer frame. The webpage should be cropped so the far left and right edges are slightly cut off. At the top is a black navigation bar with exactly 8 visible menu items, spaced horizontally: “iPad” partially clipped on the far left, “iPhone”, “Watch”, “Vision”, “AirPods”, “TV & Home”, “Entertainment”, and “Accessories” partially clipped on the far right.\n\nHero section: Create an Apple-style product hero for “{argument name=\"product name\" default=\"iPhone 17 Pro\"}”. Place the small orange product name centered near the top. Below it, make a huge bold headline reading “{argument name=\"headline text\" default=\"PRO. BEYOND.\"}” with a metallic silver-to-orange gradient, glossy dimensional lettering, and period marks after both words. Under the headline, include a two-line Spanish subtitle: “El iPhone más potente y avanzado hasta ahora.” and “Diseñado para lo que viene.” Below the subtitle place exactly 2 call-to-action links: a blue rounded button labeled “Más información” and a blue text link labeled “Comprar >”.\n\nProduct image: The bottom two-thirds of the webpage is dominated by a close-up macro render of an orange/copper iPhone back, cropped large so only the upper back and camera island are visible. Show exactly 3 raised black camera lenses in triangular arrangement on the left side of the camera plateau, exactly 1 silver circular flash near the upper right, exactly 1 tiny dot sensor below it, and exactly 1 black oval/circle sensor on the right. The phone has rounded corners, polished copper edges, realistic reflections, embossed Apple logo barely visible near the bottom center, and studio lighting.\n\nVisual style: Hyper-realistic product render mixed with a clean web mockup, glossy Apple-like advertising aesthetics, high contrast black background, orange accents, sharp typography, no people.\n\nConstraints: Preserve the Spanish text exactly as written, keep all counts exact, do not add extra buttons, icons, navigation labels, or product features, and avoid watermarks or captions outside the screenshot frame.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "model label",
-        "default": "gpt-image-2 (medium)"
-      },
-      {
-        "name": "product name",
-        "default": "iPhone 17 Pro"
-      },
-      {
-        "name": "headline text",
-        "default": "PRO. BEYOND."
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787732167066_gddqyf_HQnfhvRX0AAOk7N.png",
-        "alt": "Apple-Style iPhone 17 Pro Hero Screenshot",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Nixus",
-      "url": "https://x.com/nixus404"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/nixus404/status/2092449810250916197#reversed-1"
-    },
-    "publishedAt": "2026-08-26T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32627",
-    "contentHash": "429035be80bb041682cf19a6490d4cc4a52b1202"
   }
 ]

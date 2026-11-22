@@ -1,5 +1,89 @@
 [
   {
+    "id": "gpt-image-2:34030",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "34030",
+    "title": "Chibi Mascot Fighting Sprite Sheet",
+    "category": "Game Asset",
+    "description": "Creates a 16-frame 3D chibi mascot battle animation sprite sheet for GIFs, games, or character motion studies.",
+    "promptText": "Goal: Create a clean 3D chibi fighting animation sprite sheet for a cute mascot character, suitable for making a looping GIF.\n\nCanvas: Square 1:1 canvas, about 1200 x 1200 px, with a transparent-background preview shown as a light gray checkerboard. Arrange the sprites in an evenly spaced 4 columns by 4 rows grid, for exactly 16 separate animation frames. Leave generous padding around each character and keep all frames at a consistent scale.\n\nCharacter: A toy-like glossy 3D chibi mascot with a peach-colored round onion/droplet-shaped head and a small pointed top, tiny smiling mouth, rosy cheeks, oversized black sunglasses, and the black number {argument name=\"forehead number\" default=\"29\"} printed on the upper forehead. The body is small and heroic, wearing a bright {argument name=\"suit color\" default=\"blue\"} long-sleeve bodysuit with a white belt stripe, a red scarf/capelet at the neck, a small white circuit-like emblem on the chest, red gloves or rounded fists, and shiny red boots. Use soft studio lighting, smooth plastic/vinyl toy material, rounded proportions, and a cheerful confident expression.\n\nSprite actions: Depict exactly 16 frames of a simple battle motion sequence, all facing mostly forward with slight 3/4 turns. Count and show these frames in order from left to right, top to bottom: 1 neutral guard stance with both fists raised; 2 wider guard stance; 3 right-arm straight punch beginning; 4 right-arm punch fully extended; 5 reset guard stance; 6 guard stance leaning slightly; 7 long straight punch across the body; 8 return to guard; 9 left knee lift preparation; 10 higher knee lift; 11 side kick fully extended to the right; 12 second extended side kick frame; 13 knee lift recovery; 14 neutral guard stance; 15 neutral guard stance variation; 16 final neutral guard stance.\n\nVisual style: High-quality cute 3D render, Nintendo-like mascot toy aesthetic, crisp edges, saturated primary colors, soft shadows, consistent camera angle, consistent character size, no motion blur, no outlines except natural 3D shading.\n\nConstraints: No text labels other than the forehead number. Do not add weapons, backgrounds, UI elements, frame borders, watermarks, or extra characters. Keep the checkerboard transparency preview visible behind every frame.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "forehead number",
+        "default": "29"
+      },
+      {
+        "name": "suit color",
+        "default": "blue"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942348687_oub1q3_HRvahSkaYAAD7hr.jpg",
+        "alt": "Chibi Mascot Fighting Sprite Sheet",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "にく",
+      "url": "https://x.com/29meat_ai"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/29meat_ai/status/2097511262477603307#reversed-0"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=34030",
+    "contentHash": "6fb3ba67c7239e069bfc62b4ddf8d34317075940"
+  },
+  {
+    "id": "gpt-image-2:33929",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "33929",
+    "title": "Futuristic Building Transformation",
+    "category": "Game Asset",
+    "description": "A simple image-to-image instruction to transform a standard building into a futuristic architectural design.",
+    "promptText": "turn {argument name=\"target\" default=\"it\"} into a {argument name=\"style\" default=\"future building\"}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "target",
+        "default": "it"
+      },
+      {
+        "name": "style",
+        "default": "future building"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1788942270773_mhxzv7_HRvUPvMaIAAMWkE.jpg",
+        "alt": "Futuristic Building Transformation",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "zdhpeter",
+      "url": "https://x.com/peter6759"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/peter6759/status/2097503664789430530"
+    },
+    "publishedAt": "2026-09-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33929",
+    "contentHash": "0833ad341f8e64a6b9b6f6f72990382d580b2346"
+  },
+  {
     "id": "gpt-image-2:33799",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6685,94 +6769,5 @@
     "publishedAt": "2026-09-04T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33488",
     "contentHash": "6df868de43f76815db84b68b69e88f0142321a46"
-  },
-  {
-    "id": "gpt-image-2:33401",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33401",
-    "title": "Handwritten Essay Photo Simulation",
-    "category": "Infographic / Edu Visual",
-    "description": "Generates a realistic photo of a handwritten essay, mimicking a specific person's handwriting style as if taken by a mobile phone.",
-    "promptText": "a photorealistic, taken by phone photo of a handwritten essay in {argument name=\"writing style\" default=\"Einstein's handwriting\"}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "writing style",
-        "default": "Einstein's handwriting"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788595153295_fcy4id_HRToxf0acAEd4I_.jpg",
-        "alt": "Handwritten Essay Photo Simulation",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1788595152869_49u0n8_HRTozFXbwAAMDqF.jpg",
-        "alt": "Handwritten Essay Photo Simulation",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Sahil Verma",
-      "url": "https://x.com/sahilvermaai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/sahilvermaai/status/2095556181012128005"
-    },
-    "publishedAt": "2026-09-03T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33401",
-    "contentHash": "dacd3e4ece54472375602e0daf1dfdd4f47e33e8"
-  },
-  {
-    "id": "gpt-image-2:33421",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "33421",
-    "title": "Woman Doing Lat Pulldowns in Sunlit Gym",
-    "category": "Profile / Avatar",
-    "description": "A photorealistic prompt describing a woman exercising in a gym with detailed focus on lighting, physique, and equipment texture.",
-    "promptText": "Subject:\n{argument name=\"subject\" default=\"Blue bar in gym light\"}\n\nMain Body:\n{argument name=\"main subject\" default=\"A vertical portrait of an adult woman sitting at a lat pulldown machine in the center of a bright gym, pulling a blue curved bar wide with both hands toward her chest.\"}\n\nCharacter/Expression:\nFace turned slightly upward and toward the right side of the frame, eyes also looking top right. Focused expression with mouth closed. Gentle oval face, natural eyebrows, elongated brown eyes, small nose, and pale pink lips. Dark brown hair tied in a high round bun with thin bangs and wisps at the temples.\n\nClothing/Pose:\n{argument name=\"clothing\" default=\"Light blue thin-strap sports bra with fine gathers at the chest center and short black drawstring shorts.\"} Sitting facing the machine with a straight back, arms opened wide to the upper left and right, pulling the bar to the upper chest.\n\nBackground/Light:\nSoft daylight enters from a large window on the left, highlighting the woman's left silhouette. In the background, gray training machines and cables are softly blurred with shallow depth of field.\n\nComposition/Camera:\n3:4 vertical composition, waist-up portrait from slightly below eye level. The subject is large in the center, with the blue bar captured in an arc from top to chest, without cutting off the arms at the edges. Focus on face and upper body, background naturally blurred.\n\nTexture/Style:\nPhotorealistic live-action photography. Detailed rendering of natural skin texture, stretch of sports fabric, blue paint on the metal bar, and soft shadows from window light.\n\nNegative:\nDo not change the shape or grip of the bar; do not let the hair down.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "Blue bar in gym light"
-      },
-      {
-        "name": "main subject",
-        "default": "A vertical portrait of an adult woman sitting at a lat pulldown machine in the center of a bright gym, pulling a blue curved bar wide with both hands toward her chest."
-      },
-      {
-        "name": "clothing",
-        "default": "Light blue thin-strap sports bra with fine gathers at the chest center and short black drawstring shorts."
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1788509877973_d8404f_HRIdy4IbYAAqAJi.jpg",
-        "alt": "Woman Doing Lat Pulldowns in Sunlit Gym",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Prompt アトリエ｜AI画像プロンプト",
-      "url": "https://x.com/CyberTotal2026"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CyberTotal2026/status/2095773607742099548"
-    },
-    "publishedAt": "2026-09-04T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=33421",
-    "contentHash": "04e57cc5ee93a1eeb15ee195f1aae485caaca165"
   }
 ]

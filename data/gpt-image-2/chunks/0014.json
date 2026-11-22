@@ -1,5 +1,105 @@
 [
   {
+    "id": "gpt-image-2:31163",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31163",
+    "title": "Editorial City Poster Design",
+    "category": "Product Marketing",
+    "description": "A complex prompt for creating premium editorial city posters that layer oversized typography over a subject while preserving their identity.",
+    "promptText": "Recreate the reference image as a premium editorial city poster. Replace the original person with {argument name=\"subject\" default=\"the person from the uploaded image\"} while preserving {argument name=\"subject reference\" default=\"SUBJECT\"}'s identity, facial features, hairstyle, hair color, skin tone, and natural appearance. {argument name=\"subject reference\" default=\"SUBJECT\"} must be standing in the SAME pose, SAME body orientation, SAME framing, SAME scale, and approximately the SAME position as the reference subject.\n\nReplace the original city with {argument name=\"city name\" default=\"CITY_NAME\"} and rebuild the surrounding skyline, landmarks, architecture, bridge, and urban photography specifically for {argument name=\"city name\" default=\"CITY_NAME\"}. Replace all city-specific labels, coordinates, location information, and captions accordingly.\n\nCRITICAL TYPOGRAPHY COMPOSITION: The oversized {argument name=\"city name\" default=\"CITY_NAME\"} typography must be physically layered OVER the standing character, exactly like the reference. Do NOT place all of the city text behind the subject. The large {argument name=\"city name\" default=\"CITY_NAME\"} letters must pass across the subject's body and overlap her clothing and lower torso, visibly covering portions of her. At the same time, some portions of the typography should remain behind her head and shoulders. Create a true foreground/background collage: BACKGROUND CITY IMAGERY → SUBJECT → FOREGROUND OVERSIZED {argument name=\"city name\" default=\"CITY_NAME\"} LETTERS. The foreground letters must visibly obscure portions of the subject while the subject remains recognizable through the gaps and around the typography. The large letters should intersect the character naturally rather than appearing as text floating beside her.\n\nThe oversized {argument name=\"city name\" default=\"CITY_NAME\"} typography should dominate the composition and extend almost across the entire poster width. Integrate grayscale city photography inside selected portions of the letters. Keep the typography bold, geometric, heavy, and editorial. Make the letters large enough to cross directly over the subject's torso and lower body.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "subject",
+        "default": "the person from the uploaded image"
+      },
+      {
+        "name": "subject reference",
+        "default": "SUBJECT"
+      },
+      {
+        "name": "city name",
+        "default": "CITY_NAME"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523299169_qvqopi_HPbquanbgAAJ-Jf.jpg",
+        "alt": "Editorial City Poster Design",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Maercih",
+      "url": "https://x.com/Maercihh"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Maercihh/status/2087113728185749607"
+    },
+    "publishedAt": "2026-08-11T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31163",
+    "contentHash": "2f494e7fea269cb514669b0d7bb171954e56451e"
+  },
+  {
+    "id": "gpt-image-2:31251",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "31251",
+    "title": "Futuristic VTuber Debut Poster",
+    "category": "Product Marketing",
+    "description": "A vibrant anime VTuber teaser poster featuring a silver-haired idol reaching toward the viewer in a neon futuristic city.",
+    "promptText": "Goal: Create a glossy VTuber-style teaser key visual for a futuristic idol debut, centered on {argument name=\"character name\" default=\"Amaha Mirai\"}, with strong character presence and high-energy anime advertising design.\n\nCanvas: Vertical 3:4 poster, full bleed, ultra-detailed anime illustration, vibrant cyan, electric blue, magenta, lavender, and white lighting, sparkling bloom effects, clean commercial finish.\n\nLayout: Put a huge glowing Japanese title across the top reading {argument name=\"main title text\" default=\"天羽ミライ\"}, with small spaced roman letters above it reading “AMAHA MIRAI”. Center-right foreground shows the VTuber idol reaching one hand toward the viewer in dynamic perspective. The background is a bright futuristic city canyon with holographic billboards and glass skyscrapers. Across the lower middle, add a glowing slogan line reading {argument name=\"slogan text\" default=\"きらめく未来に、ログイン。\"}. At the very bottom, add a smaller launch notice reading {argument name=\"launch text\" default=\"近日始動\"}, framed by tiny star symbols and decorative sci-fi divider lines.\n\nSubject details: Draw one cheerful young anime idol girl with long flowing {argument name=\"hair color\" default=\"silvery white with pale blue and pink highlights\"} hair, large blue-violet eyes, open smiling mouth, soft blush, and a headset microphone. She wears a futuristic cropped idol jacket in white and pastel blue with pink accents, star pins, metallic trims, a short layered translucent skirt, belts, straps, and iridescent fabric details. Add hair accessories: exactly 3 visible accessories — one large bow-and-ribbon ornament on the right side of her head, one small star clip near the left bangs, and two small pink hairpins grouped on the right bangs as a single accessory cluster.\n\nBackground elements: Include exactly 5 prominent futuristic promotional elements — one giant holographic billboard on the left showing the same idol with “LIVE” styling, one small flying camera drone near the upper-left sky, one central needle-like tower, one neon triangular sign in the lower-left corner, and one bright holographic sign on the right building. Fill the scene with pink flower-petal confetti, star sparkles, lens flares, and light streaks.\n\nVisual style: Modern Japanese anime poster, high-saturation cyber-pop city, luminous rim lighting, crisp linework, detailed hair strands, polished VTuber debut advertisement aesthetic, energetic perspective, dreamy yet sharp.\n\nConstraints: Keep the image as a single poster, no extra characters, no logo watermark, make all text large and decorative but legible, preserve the Japanese text exactly as specified in the slots, and avoid cluttering the face or outstretched hand with text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "Amaha Mirai"
+      },
+      {
+        "name": "main title text",
+        "default": "天羽ミライ"
+      },
+      {
+        "name": "slogan text",
+        "default": "きらめく未来に、ログイン。"
+      },
+      {
+        "name": "launch text",
+        "default": "近日始動"
+      },
+      {
+        "name": "hair color",
+        "default": "silvery white with pale blue and pink highlights"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786523374005_4j3qs6_HPbewM4aYAAvNX4.jpg",
+        "alt": "Futuristic VTuber Debut Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "みかみ｜AI発信と副業",
+      "url": "https://x.com/kotsu_kotsu_san"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/kotsu_kotsu_san/status/2087100775499706741#reversed-1"
+    },
+    "publishedAt": "2026-08-11T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=31251",
+    "contentHash": "76a061db901da270713ae0554b9197fd48815a17"
+  },
+  {
     "id": "gpt-image-2:31086",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -7034,105 +7134,5 @@
     "publishedAt": "2026-08-09T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30892",
     "contentHash": "042d8783b08774fe14747c6502a90315c81167e0"
-  },
-  {
-    "id": "gpt-image-2:30931",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30931",
-    "title": "DNA Nucleotides 3D Infographic",
-    "category": "Infographic / Edu Visual",
-    "description": "A detailed 3D educational biology infographic showing a labeled DNA double helix with nucleotide base pairs, hydrogen bonds, backbone, and emerging RNA.",
-    "promptText": "Goal: Create a polished 3D scientific educational infographic titled {argument name=\"headline text\" default=\"DNA Nucleotides\"}, showing a close-up view of a DNA double helix with labeled nucleotide bases and molecular structure.\n\nCanvas: Landscape 4:3 composition, bright white laboratory-style background with soft depth-of-field molecular clusters in pale blue, lavender, mint, and purple around the edges. Use a clean, high-resolution textbook/medical visualization style with realistic glossy translucent spheres and rods, soft shadows, and shallow depth of field.\n\nLayout: Center the title at the top in large dark navy bold type, with the subtitle {argument name=\"subtitle text\" default=\"A close-up view of the DNA double helix\"} directly beneath in smaller medium-blue type. Fill the frame with a large twisting DNA double helix running from the left foreground through the center to the right side, with a second orange strand crossing diagonally through the lower right foreground. Keep the central base-pair region open and readable for labels.\n\nSubject details: Render the DNA as a molecular ball-and-stick model combined with translucent bead-like backbone surfaces. The sugar-phosphate backbone should be two twisting chains made of semi-transparent bluish-gray spheres with orange/gold connector rods and small red atoms. In the center, show exactly 4 labeled nucleotide bases: Adenine (A) in green at upper left center, Thymine (T) in purple at upper right center, Guanine (G) in blue at lower left center, and Cytosine (C) in orange at lower right center. Adenine pairs with Thymine across the top using dotted pale blue hydrogen bonds, and Guanine pairs with Cytosine below using three dotted pale blue hydrogen-bond rows. Molecular rings should be flat aromatic ring structures with small colored atom spheres and white hydrogen atoms.\n\nText content and labels: Include exactly 7 callout labels with thin black pointer lines: “Adenine (A)” in green pointing to the green upper-left base; “Thymine (T)” in purple pointing to the purple upper-right base; “Guanine (G)” in blue pointing to the blue lower-left base; “Cytosine (C)” in orange pointing to the orange lower-right base; “Sugar-phosphate backbone” in black pointing to the right-side helical backbone; “Hydrogen bonds” in black pointing to the dotted bond lines between base pairs; and “Emerging RNA” in orange pointing to the orange strand crossing the lower foreground. Use crisp sans-serif typography and avoid crowding.\n\nVisual style: Hyper-detailed scientific 3D render, glossy translucent molecular beads, realistic refraction, soft bokeh background, professional biology textbook infographic, balanced educational clarity and cinematic depth.\n\nConstraints: Use exactly the 4 nucleotide labels and exactly the 3 structural labels listed above; do not add extra labels, icons, captions, legends, watermarks, or borders. Keep all text sharp and correctly spelled.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "headline text",
-        "default": "DNA Nucleotides"
-      },
-      {
-        "name": "subtitle text",
-        "default": "A close-up view of the DNA double helix"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263579783_8m7xf7_HPP0xj5XYAA1B8A.jpg",
-        "alt": "DNA Nucleotides 3D Infographic",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "wren",
-      "url": "https://x.com/gnostic_snakes"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/gnostic_snakes/status/2086280356227907785#reversed-0"
-    },
-    "publishedAt": "2026-08-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30931",
-    "contentHash": "8fc74d18fef51e806beb7e8d37bb1b958055e9e5"
-  },
-  {
-    "id": "gpt-image-2:30926",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30926",
-    "title": "Gothic AI Stack Diagram",
-    "category": "Infographic / Edu Visual",
-    "description": "Creates a dark gothic illustrated AI-tool stack diagram for social posts, tech commentary, or personal workflow branding.",
-    "promptText": "Goal: Create a dark gothic hand-painted infographic poster titled {argument name=\"headline text\" default=\"THE AI STACK\"}, showing an interconnected personal AI-tool stack as a mysterious occult network.\n\nCanvas: Square 1:1 composition, black and charcoal textured canvas with visible rough brush strokes, scratched chalk marks, muted cream ink, and subtle sepia highlights. The mood is eerie, nocturnal, vintage, and slightly haunted.\n\nLayout: Place a large central circular node labeled {argument name=\"main tool\" default=\"CLAUDE\"} with a simple eight-point starburst symbol inside it. Four rounded rectangular tool cards connect to the central node with pale hand-drawn cables and small circular connector dots. Use exactly 4 outer cards: top-left card labeled {argument name=\"tool 1\" default=\"CODEX\"} with a browser-window code icon, top-right card labeled {argument name=\"tool 2\" default=\"GPT IMAGE 2\"} with a framed landscape/image icon, bottom-left card labeled {argument name=\"tool 3\" default=\"ANTIGRAVITY\"} with a starry mountain or sparkling night icon, and bottom-right card labeled {argument name=\"tool 4\" default=\"HERMES\"} with a crossed-arrows or janitor-like routing symbol. Keep all text in uppercase, widely spaced, distressed serif/typewriter lettering.\n\nScene details: Add a glowing full moon centered above the main node, a small spiderweb and tiny spider in the upper-left corner, a dark gothic castle silhouette in the right background, fog and smoky clouds along the bottom, a wilted flower with a bent stem leaning across the left side of the central node, one fallen brown leaf near the base of the flower, and an antique skeleton key lying at the bottom right. Include a tiny creator handle centered at the bottom: @AunySillyMe.\n\nVisual style: Painterly gothic chalkboard illustration, rough impasto texture, off-white linework on black, muted gold-brown accents on the dead flower and leaf, softly glowing moon, handmade imperfect borders, no clean vector polish.\n\nConstraints: Use exactly 1 central circle, exactly 4 connected outer cards, exactly 4 outer tool labels, exactly 1 moon, exactly 1 spiderweb, exactly 1 spider, exactly 1 wilted flower, exactly 1 fallen leaf, exactly 1 castle silhouette, and exactly 1 key. Do not add extra cards, extra tools, bright colors, modern UI gloss, or photorealism.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "headline text",
-        "default": "THE AI STACK"
-      },
-      {
-        "name": "main tool",
-        "default": "CLAUDE"
-      },
-      {
-        "name": "tool 1",
-        "default": "CODEX"
-      },
-      {
-        "name": "tool 2",
-        "default": "GPT IMAGE 2"
-      },
-      {
-        "name": "tool 3",
-        "default": "ANTIGRAVITY"
-      },
-      {
-        "name": "tool 4",
-        "default": "HERMES"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786263575473_9injg3_HPPnW_pbAAAapxN.jpg",
-        "alt": "Gothic AI Stack Diagram",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Auny 🧡",
-      "url": "https://x.com/AunySillyMe"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/AunySillyMe/status/2086265439223779369#reversed-0"
-    },
-    "publishedAt": "2026-08-09T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30926",
-    "contentHash": "50f18148ea7c8a44f6c4f8baa95f9b6a389bf740"
   }
 ]

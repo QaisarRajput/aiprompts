@@ -1,5 +1,105 @@
 [
   {
+    "id": "gpt-image-2:30931",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30931",
+    "title": "DNA Nucleotides 3D Infographic",
+    "category": "Infographic / Edu Visual",
+    "description": "A detailed 3D educational biology infographic showing a labeled DNA double helix with nucleotide base pairs, hydrogen bonds, backbone, and emerging RNA.",
+    "promptText": "Goal: Create a polished 3D scientific educational infographic titled {argument name=\"headline text\" default=\"DNA Nucleotides\"}, showing a close-up view of a DNA double helix with labeled nucleotide bases and molecular structure.\n\nCanvas: Landscape 4:3 composition, bright white laboratory-style background with soft depth-of-field molecular clusters in pale blue, lavender, mint, and purple around the edges. Use a clean, high-resolution textbook/medical visualization style with realistic glossy translucent spheres and rods, soft shadows, and shallow depth of field.\n\nLayout: Center the title at the top in large dark navy bold type, with the subtitle {argument name=\"subtitle text\" default=\"A close-up view of the DNA double helix\"} directly beneath in smaller medium-blue type. Fill the frame with a large twisting DNA double helix running from the left foreground through the center to the right side, with a second orange strand crossing diagonally through the lower right foreground. Keep the central base-pair region open and readable for labels.\n\nSubject details: Render the DNA as a molecular ball-and-stick model combined with translucent bead-like backbone surfaces. The sugar-phosphate backbone should be two twisting chains made of semi-transparent bluish-gray spheres with orange/gold connector rods and small red atoms. In the center, show exactly 4 labeled nucleotide bases: Adenine (A) in green at upper left center, Thymine (T) in purple at upper right center, Guanine (G) in blue at lower left center, and Cytosine (C) in orange at lower right center. Adenine pairs with Thymine across the top using dotted pale blue hydrogen bonds, and Guanine pairs with Cytosine below using three dotted pale blue hydrogen-bond rows. Molecular rings should be flat aromatic ring structures with small colored atom spheres and white hydrogen atoms.\n\nText content and labels: Include exactly 7 callout labels with thin black pointer lines: “Adenine (A)” in green pointing to the green upper-left base; “Thymine (T)” in purple pointing to the purple upper-right base; “Guanine (G)” in blue pointing to the blue lower-left base; “Cytosine (C)” in orange pointing to the orange lower-right base; “Sugar-phosphate backbone” in black pointing to the right-side helical backbone; “Hydrogen bonds” in black pointing to the dotted bond lines between base pairs; and “Emerging RNA” in orange pointing to the orange strand crossing the lower foreground. Use crisp sans-serif typography and avoid crowding.\n\nVisual style: Hyper-detailed scientific 3D render, glossy translucent molecular beads, realistic refraction, soft bokeh background, professional biology textbook infographic, balanced educational clarity and cinematic depth.\n\nConstraints: Use exactly the 4 nucleotide labels and exactly the 3 structural labels listed above; do not add extra labels, icons, captions, legends, watermarks, or borders. Keep all text sharp and correctly spelled.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline text",
+        "default": "DNA Nucleotides"
+      },
+      {
+        "name": "subtitle text",
+        "default": "A close-up view of the DNA double helix"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786263579783_8m7xf7_HPP0xj5XYAA1B8A.jpg",
+        "alt": "DNA Nucleotides 3D Infographic",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "wren",
+      "url": "https://x.com/gnostic_snakes"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/gnostic_snakes/status/2086280356227907785#reversed-0"
+    },
+    "publishedAt": "2026-08-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30931",
+    "contentHash": "8fc74d18fef51e806beb7e8d37bb1b958055e9e5"
+  },
+  {
+    "id": "gpt-image-2:30926",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "30926",
+    "title": "Gothic AI Stack Diagram",
+    "category": "Infographic / Edu Visual",
+    "description": "Creates a dark gothic illustrated AI-tool stack diagram for social posts, tech commentary, or personal workflow branding.",
+    "promptText": "Goal: Create a dark gothic hand-painted infographic poster titled {argument name=\"headline text\" default=\"THE AI STACK\"}, showing an interconnected personal AI-tool stack as a mysterious occult network.\n\nCanvas: Square 1:1 composition, black and charcoal textured canvas with visible rough brush strokes, scratched chalk marks, muted cream ink, and subtle sepia highlights. The mood is eerie, nocturnal, vintage, and slightly haunted.\n\nLayout: Place a large central circular node labeled {argument name=\"main tool\" default=\"CLAUDE\"} with a simple eight-point starburst symbol inside it. Four rounded rectangular tool cards connect to the central node with pale hand-drawn cables and small circular connector dots. Use exactly 4 outer cards: top-left card labeled {argument name=\"tool 1\" default=\"CODEX\"} with a browser-window code icon, top-right card labeled {argument name=\"tool 2\" default=\"GPT IMAGE 2\"} with a framed landscape/image icon, bottom-left card labeled {argument name=\"tool 3\" default=\"ANTIGRAVITY\"} with a starry mountain or sparkling night icon, and bottom-right card labeled {argument name=\"tool 4\" default=\"HERMES\"} with a crossed-arrows or janitor-like routing symbol. Keep all text in uppercase, widely spaced, distressed serif/typewriter lettering.\n\nScene details: Add a glowing full moon centered above the main node, a small spiderweb and tiny spider in the upper-left corner, a dark gothic castle silhouette in the right background, fog and smoky clouds along the bottom, a wilted flower with a bent stem leaning across the left side of the central node, one fallen brown leaf near the base of the flower, and an antique skeleton key lying at the bottom right. Include a tiny creator handle centered at the bottom: @AunySillyMe.\n\nVisual style: Painterly gothic chalkboard illustration, rough impasto texture, off-white linework on black, muted gold-brown accents on the dead flower and leaf, softly glowing moon, handmade imperfect borders, no clean vector polish.\n\nConstraints: Use exactly 1 central circle, exactly 4 connected outer cards, exactly 4 outer tool labels, exactly 1 moon, exactly 1 spiderweb, exactly 1 spider, exactly 1 wilted flower, exactly 1 fallen leaf, exactly 1 castle silhouette, and exactly 1 key. Do not add extra cards, extra tools, bright colors, modern UI gloss, or photorealism.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline text",
+        "default": "THE AI STACK"
+      },
+      {
+        "name": "main tool",
+        "default": "CLAUDE"
+      },
+      {
+        "name": "tool 1",
+        "default": "CODEX"
+      },
+      {
+        "name": "tool 2",
+        "default": "GPT IMAGE 2"
+      },
+      {
+        "name": "tool 3",
+        "default": "ANTIGRAVITY"
+      },
+      {
+        "name": "tool 4",
+        "default": "HERMES"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1786263575473_9injg3_HPPnW_pbAAAapxN.jpg",
+        "alt": "Gothic AI Stack Diagram",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Auny 🧡",
+      "url": "https://x.com/AunySillyMe"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/AunySillyMe/status/2086265439223779369#reversed-0"
+    },
+    "publishedAt": "2026-08-09T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30926",
+    "contentHash": "50f18148ea7c8a44f6c4f8baa95f9b6a389bf740"
+  },
+  {
     "id": "gpt-image-2:30934",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -7003,108 +7103,5 @@
     "publishedAt": "2026-07-31T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30539",
     "contentHash": "672b30492e240907c707730eff7877655030fa40"
-  },
-  {
-    "id": "gpt-image-2:30478",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30478",
-    "title": "English Vocabulary Study Card Template",
-    "category": "Infographic / Edu Visual",
-    "description": "A detailed prompt for creating professional educational flashcards with a vibrant, editorial illustration style. It features organized layouts for definitions, pronunciations, examples, and collocations, set against a warm classroom-inspired color palette.",
-    "promptText": "Create an exquisite 4:5 vertical English vocabulary study card for A2–B1 level learners.\n\nCard Type: Comprehensive Vocabulary Card\nTheme: {argument name=\"card theme\" default=\"vibrant editorial illustration\"}\nPalette: Sunshine Classroom\nColors: {argument name=\"color scheme\" default=\"Primary Cobalt Blue #2563EB, Secondary Coral Red #FF6B5C, Secondary Lemon Yellow #FFD84D, Secondary Sky Blue #7DD3FC, Dark Text #17324D, Warm Cream Background #FFF9E8\"}.\n\nAccurately display the following text:\n\n{argument name=\"word\" default=\"library\"}\n/ˈlaɪ.brər.i/\nnoun\n\n图书馆\n\nPlaces where people can read or borrow books and other materials.\n\nWe borrowed two books from the library.\nWe borrowed two books from the library.\n\nCOMMON COLLOCATIONS\nGo to the library (go to the library)\nBorrow from the library (borrow from the library)\nPublic library (public library)\nLibrary card (library card)\n\nGRAMMAR\nCountable noun (a countable noun)\nPlural form: libraries (plural: libraries)\n\nRELATED WORDS\nLibrarian (librarian) · Shelf (shelf) · Catalogue (catalogue)\n\nCreate a warm, modern library flat vector cross-section illustration. Show a learner borrowing two books from a librarian, naturally including bookshelves and a library card. Keep character figures friendly but editorial rather than childish.\n\nArrange information like a professionally published learner's dictionary page: prominent headword, compact pronunciation line, clear definitions, highlighted example sentences, and neatly grouped learning modules. Use generous white space.\n\nUse pure flat colors and clean line art. No gradients, shadows, 3D, gloss effects, photorealism, visual clutter, logos, or watermarks. Keep all body text dark and legible. Accurately replicate provided English, IPA, and Simplified Chinese without adding extra text.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "card theme",
-        "default": "vibrant editorial illustration"
-      },
-      {
-        "name": "color scheme",
-        "default": "Primary Cobalt Blue #2563EB, Secondary Coral Red #FF6B5C, Secondary Lemon Yellow #FFD84D, Secondary Sky Blue #7DD3FC, Dark Text #17324D, Warm Cream Background #FFF9E8"
-      },
-      {
-        "name": "word",
-        "default": "library"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573849939_tuvlpk_HOnRAAHbMAAenuo.jpg",
-        "alt": "English Vocabulary Study Card Template",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Mr.pinecone",
-      "url": "https://x.com/Mrpinecone888"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Mrpinecone888/status/2083426163700158580"
-    },
-    "publishedAt": "2026-08-01T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30478",
-    "contentHash": "eec0882d8b9babdb3678373c0088ffdf52d56475"
-  },
-  {
-    "id": "gpt-image-2:30482",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "30482",
-    "title": "Minimalist Editorial Graphic Design Prompt",
-    "category": "Infographic / Edu Visual",
-    "description": "A sophisticated minimalist prompt for creating professional editorial-style graphic designs with high-contrast imagery, geometric color blocks, and strong typography.",
-    "promptText": "Generate a minimalist, editorial-style graphic image centered around {argument name=\"subject\" default=\"any subject\"}. It features large areas of clean white space for \"breathing,\" with the core subject rendered as a high-contrast black-and-white icon at the visual center with sharp edges. Part of the subject overlaps a {argument name=\"color block\" default=\"solid color\"} rectangular field, creating a stage-like layering effect. The information layer uses a heavy dark text block at the bottom, creating a visual impact where the image is truncated by text, which in turn supports the image. The main sentence uses bold, sans-serif light-colored characters in a tight multi-line layout with clean spacing and strong leading. An enlarged quotation mark or theme symbol serves as a rhythmic anchor at the top, while thin, lightweight credits at the bottom provide contrast, finishing with a tiny logo. Colors are extracted from the theme's material and mood: a high-brightness, clean background, black and white for the main subject's structure, and a mid-to-high saturation emotional color for the color field. The overall tone is bright, direct, and modern, with the energy of a public statement and the order of a publication. Avoid complex scenes, decorative textures, vintage filters, and loose layouts.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "any subject"
-      },
-      {
-        "name": "color block",
-        "default": "solid color"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573854264_cyymvf_HOj7VTZaMAAcKq9.jpg",
-        "alt": "Minimalist Editorial Graphic Design Prompt",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573854222_pxui9i_HOj7d_Vb0AAbcmz.jpg",
-        "alt": "Minimalist Editorial Graphic Design Prompt",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573854204_e9nqqo_HOj7bFLaoAAmovm.jpg",
-        "alt": "Minimalist Editorial Graphic Design Prompt",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1785573855822_cbr7x7_HOj7YhDboAAonM0.jpg",
-        "alt": "Minimalist Editorial Graphic Design Prompt",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "小小东",
-      "url": "https://x.com/xiaoxiaodong01"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/xiaoxiaodong01/status/2083191399873491263"
-    },
-    "publishedAt": "2026-07-31T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=30482",
-    "contentHash": "8307eeea634b260a4d64f5a4df8e6a4bfc6cd3d9"
   }
 ]

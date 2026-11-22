@@ -1,5 +1,43 @@
 [
   {
+    "id": "nano-banana-pro:32515",
+    "sourceId": "nano-banana-pro",
+    "tool": "Nano Banana Pro",
+    "externalId": "32515",
+    "title": "AI Shaved Ice Texture Correction",
+    "category": "Social Media Post",
+    "description": "A specific prompt for Nano Banana Pro designed to refine and smooth out grainy or unnatural textures in AI-generated food images, specifically for shaved ice, while preserving the original color scheme.",
+    "promptText": "Reduce the unpleasantness of the {argument name=\"dish name\" default=\"shaved ice\"} and correct it to a natural shape. The grain is coarse and looks unappetizingly weird, so do not change anything else, including the color tone.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "dish name",
+        "default": "shaved ice"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "ja",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787639847798_7zkqo6_HQfGav_bgAAv-UE.jpg",
+        "alt": "AI Shaved Ice Texture Correction",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "🍣お寿司職人｜AIゲーム・アニメ",
+      "url": "https://x.com/SushiNFTart"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/SushiNFTart/status/2091869732010164229"
+    },
+    "publishedAt": "2026-08-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32515",
+    "contentHash": "8b7f3e5b8d16c523768ead5f87918143aac754dd"
+  },
+  {
     "id": "nano-banana-pro:32512",
     "sourceId": "nano-banana-pro",
     "tool": "Nano Banana Pro",
@@ -7389,66 +7427,5 @@
     "publishedAt": "2026-08-13T00:00:00.000Z",
     "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=31351",
     "contentHash": "93021131ed9d72c896bc6476f3fbcaeefff7c5a0"
-  },
-  {
-    "id": "nano-banana-pro:31349",
-    "sourceId": "nano-banana-pro",
-    "tool": "Nano Banana Pro",
-    "externalId": "31349",
-    "title": "Spirited Away Watercolor Portrait",
-    "category": "Profile / Avatar",
-    "description": "Transforms a personal portrait into a whimsical Ghibli-inspired watercolor illustration while maintaining facial likeness.",
-    "promptText": "Transform my portrait into a whimsical {argument name=\"art style\" default=\"hand-painted watercolor anime illustration\"} inspired by {argument name=\"inspiration\" default=\"Spirited Away\"}, while preserving my exact facial features, hairstyle, skin tone, expression, and overall likeness. Soft watercolor textures, delicate ink outlines, {argument name=\"color palette\" default=\"warm pastel colors\"}, dreamy natural lighting, expressive anime eyes, lush magical Japanese scenery, gentle atmospheric haze, subtle fantasy details, cinematic composition, charming hand-painted imperfections, nostalgic and enchanting mood, highly detailed.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "art style",
-        "default": "hand-painted watercolor anime illustration"
-      },
-      {
-        "name": "inspiration",
-        "default": "Spirited Away"
-      },
-      {
-        "name": "color palette",
-        "default": "warm pastel colors"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1786690130507_lpd393_HPlKoEGbkAA98oO.jpg",
-        "alt": "Spirited Away Watercolor Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786690130556_3j69vx_HPlKorVbQAEL-LJ.jpg",
-        "alt": "Spirited Away Watercolor Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786690130800_o2pwnr_HPlKpHEakAAjJhK.jpg",
-        "alt": "Spirited Away Watercolor Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1786690131547_aoetnv_HPlKphnaAAEz0Et.jpg",
-        "alt": "Spirited Away Watercolor Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Shushant Lakhyani",
-      "url": "https://x.com/shushant_l"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/shushant_l/status/2087781983577645232"
-    },
-    "publishedAt": "2026-08-13T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/en-US/nano-banana-pro-prompts?id=31349",
-    "contentHash": "6741475743c001064bf3d5e18c634a4a82657dd4"
   }
 ]
