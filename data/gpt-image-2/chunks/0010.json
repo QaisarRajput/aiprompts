@@ -1,5 +1,101 @@
 [
   {
+    "id": "gpt-image-2:32375",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32375",
+    "title": "Hamster Milk Tea Manga Page",
+    "category": "Comic / Storyboard",
+    "description": "A vertical Japanese manga comic page showing a skeptical hamster trying iced milk tea and becoming emotionally overwhelmed by how delicious it is.",
+    "promptText": "Goal: Create a vertical Japanese manga page about a fluffy hamster reluctantly trying convenience-store milk tea and instantly falling in love with it. Use black-and-white manga line art for most panels, then switch to full color for the final dramatic reaction panel.\n\nCanvas: Tall comic page, approximately 2:3 aspect ratio, clean white margins, thin black panel borders, right-to-left manga reading feel. Add a small top header reading {argument name=\"top caption\" default=\"セ○ンのミルクティー舐めてた\"} at the upper left and “1/1” at the upper right.\n\nLayout: Use exactly 6 discrete comic panels. Panel 1 is the top-left setup panel with the hamster in a nest. Panel 2 is the top-right product rumor panel showing an iced milk tea cup. Panel 3 is a wide middle panel showing the exterior of a convenience store on a bright day. Panel 4 is a narrow horizontal panel showing the purchased drink and the hamster debating the price. Panel 5 is another narrow horizontal panel showing the hamster taking the first sip. Panel 6 is the large bottom climax panel in color, filled with flowers and sparkling emotion.\n\nSubject details: The main character is {argument name=\"character\" default=\"a round, fluffy dwarf hamster\"}, drawn cute but slightly cynical at first, with tiny paws, small ears, soft fur texture, and expressive eyes. The drink is {argument name=\"drink\" default=\"iced convenience-store milk tea in a clear plastic cup with ice, straw, and domed lid\"}. In panels 1–5, keep the hamster grayscale with delicate hatching and screentone shading. In the final panel, make the hamster blush deeply with enormous glittering eyes, both paws gripping the cup, straw in mouth, overwhelmed by deliciousness.\n\nPanel-by-panel details and text: Include exactly 12 visible Japanese text elements: 1) top caption “セ○ンのミルクティー舐めてた”; 2) panel 1 narration box “今日は日曜日なので、朝活がてらチャレンジしようと思う”; 3) panel 2 narration box “昔に聞く某コンビニのミルクティーが美味しいという噂”; 4) panel 2 smaller narration box “聞いてはいたが、まだ飲んでいない”; 5) panel 3 narration box “……まぁ なんとなく「ロイヤルミルクティーでござい」って感じなんだろう。”; 6) panel 3 speech bubble “いらっしゃいませー”; 7) panel 3 narration box “と思い後回しにしてたんだよね……” ; 8) panel 4 vertical narration “——買ってきた”; 9) panel 4 speech bubble “なんだかんだ「こー言う感じね」”; 10) panel 4 speech bubble “「まぁ二回目はいいかなー」ってなるんだろうけど…”; 11) panel 4 price bubble “300円 ※Lサイズはお高いよね……” ; 12) panel 6 large narration box “また買おうと決意したハムスターであった”. Also add a dramatic reaction bubble in the final panel reading {argument name=\"reaction text\" default=\"——ッ!?\"} and a small slurping sound effect near the straw reading “ズズ……” or “はむ”.\n\nVisual style: Hand-drawn seinen manga style, precise black ink, soft gray screentones, detailed fur hatching, realistic convenience-store architecture, clear plastic cup transparency, ice cubes visible, gentle comedy timing. The final panel should become lush and romantic: pastel pink, peach, and cream flowers, falling petals, warm golden sparkles, glossy star-filled eyes, strong contrast between previous monochrome skepticism and final colorful bliss.\n\nConstraints: Keep the page readable as a single comic page, no watermark, no extra panels, no extra characters except tiny background shoppers if needed, preserve the Japanese text exactly as shown, and emphasize the humorous “instant conversion” from skeptical hamster to devoted milk-tea fan.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "top caption",
+        "default": "セ○ンのミルクティー舐めてた"
+      },
+      {
+        "name": "character",
+        "default": "a round, fluffy dwarf hamster"
+      },
+      {
+        "name": "drink",
+        "default": "iced convenience-store milk tea in a clear plastic cup with ice, straw, and domed lid"
+      },
+      {
+        "name": "reaction text",
+        "default": "——ッ!?"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472401411_t8tqls_HQX0CunbwAAmS3Q.jpg",
+        "alt": "Hamster Milk Tea Manga Page",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "🐹🐹",
+      "url": "https://x.com/hmst_yyyy"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/hmst_yyyy/status/2091345934752022973#reversed-0"
+    },
+    "publishedAt": "2026-08-23T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32375",
+    "contentHash": "936258bafdb1e3a62622722e87beb5bdb887a562"
+  },
+  {
+    "id": "gpt-image-2:32391",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32391",
+    "title": "Durarara-Style Tokyo Crossing Key Visual",
+    "category": "Comic / Storyboard",
+    "description": "A cinematic anime ensemble poster showing five urban characters around a black motorcycle in a neon Tokyo crossing.",
+    "promptText": "Create a polished anime key visual inspired by Durarara!!, set in a busy Ikebukuro/Shibuya-style Tokyo crossing at midday under a vivid blue sky with scattered clouds. The scene features exactly five main characters arranged across the foreground and midground: 1) at far left, a slim black-haired teenage boy in a dark school uniform, hands in pockets, carrying a shoulder bag, looking serious and slightly away from camera; 2) left-center behind the motorcycle, a cheerful blond teenage boy in casual school clothes holding a smartphone and smiling; 3) center foreground, a headless female rider based on {argument name=\"character name\" default=\"Celty Sturluson\"}, wearing a glossy black leather catsuit and a reflective gold cat-eared helmet with a blue mirrored visor, seated beside or leaning on a sleek black futuristic sport motorcycle, with dark smoky shadow tendrils drifting from the neck area; 4) right-center, a shy black-haired schoolgirl with glasses in a blue sailor-style uniform with red neck ribbon, holding her schoolbag straps; 5) far right, a tall blond man in an immaculate white bartender suit and black shirt, sunglasses, casually holding a metal street sign pole across one shoulder. Use dramatic cinematic perspective with the large black motorcycle dominating the lower half of the image, wet reflective pavement, dense pedestrian crowds in the background, red traffic light overhead, and towering buildings covered in colorful Japanese neon billboards and signs including visible shop signage such as {argument name=\"store sign text\" default=\"TSUTAYA\"}. Visual style: high-detail modern anime illustration, sharp linework, glossy highlights, saturated cyan-magenta city lighting, realistic reflections, dynamic urban depth, no borders or watermark. Mood: stylish, cool, mysterious, ensemble cast promotional poster. Include the quote atmosphere of {argument name=\"quote theme\" default=\"The world is not as cruel a place as you think\"} without adding large readable quote text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "Celty Sturluson"
+      },
+      {
+        "name": "store sign text",
+        "default": "TSUTAYA"
+      },
+      {
+        "name": "quote theme",
+        "default": "The world is not as cruel a place as you think"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472415424_ay13vj_HQXOptvagAAT0Jc.jpg",
+        "alt": "Durarara-Style Tokyo Crossing Key Visual",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "DRAGON@AIイラスト",
+      "url": "https://x.com/DRAGON08636282"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/DRAGON08636282/status/2091304823148990552#reversed-0"
+    },
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32391",
+    "contentHash": "4f871fce5f2bf5b97dadfa7dcaf0183435f34972"
+  },
+  {
     "id": "gpt-image-2:32388",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6806,104 +6902,5 @@
     "publishedAt": "2026-08-20T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32054",
     "contentHash": "33f4a7ad82165bda26831c8349e8e938ff175335"
-  },
-  {
-    "id": "gpt-image-2:32062",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32062",
-    "title": "Candid Night Market Dinner Portrait",
-    "category": "Profile / Avatar",
-    "description": "A realistic vertical phone-photo prompt for generating a smiling woman eating at a busy outdoor night market food stall.",
-    "promptText": "Create a candid, realistic smartphone-style photo of a smiling young woman at a lively outdoor night market food court. She is seated at a red-and-white checkered plastic tablecloth table, leaning slightly toward the camera and looking directly into the lens with a warm natural smile. She has long wavy {argument name=\"hair color\" default=\"dark brown\"} hair worn loose, natural makeup, small gold hoop earrings, layered delicate gold necklaces, and a bright {argument name=\"hoodie color\" default=\"royal blue\"} oversized hoodie with black bottoms. Her left hand holds a black smartphone near the lower-left of the frame, and her right hand rests near a clear plastic cup of water on the lower-right. In the foreground are exactly 2 white disposable paper bowls: one bowl on the left filled with glossy grilled meat in dark sauce, and one bowl on the right filled with white rice topped by a sunny-side-up fried egg with a bright orange yolk. Add one clear plastic cup of water beside the rice bowl and a partial white plastic fork at the far lower-left edge. The setting is a crowded night market under a black tarp canopy with metal poles and scaffolding, bright overhead bulbs, blurred diners sitting on stools, food stalls in the background, and a visible sign reading {argument name=\"stall sign text\" default=\"THAI FOOD\"}. Use realistic ambient night lighting, slight wide-angle phone-camera perspective, shallow depth of field, wet reflective pavement, casual candid composition, high detail skin texture, natural facial proportions, and no studio polish. Make it feel like an authentic travel dinner snapshot taken with a phone, vertical 3:4 framing, subject centered, food prominently visible in the foreground.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "dark brown"
-      },
-      {
-        "name": "hoodie color",
-        "default": "royal blue"
-      },
-      {
-        "name": "stall sign text",
-        "default": "THAI FOOD"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213829438_3ojylg_HQHSd-5bAAAUJl1.jpg",
-        "alt": "Candid Night Market Dinner Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213829461_7ls2ix_HQHSet5a8AAh16l.jpg",
-        "alt": "Candid Night Market Dinner Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213829408_a5ueuq_HQHSfYLagAAHWxS.jpg",
-        "alt": "Candid Night Market Dinner Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Harshith",
-      "url": "https://x.com/HarshithLucky3"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/HarshithLucky3/status/2090183148391076343#reversed-0"
-    },
-    "publishedAt": "2026-08-19T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32062",
-    "contentHash": "359f75ff3e00d2b399968aec9d13255afcb1ff60"
-  },
-  {
-    "id": "gpt-image-2:32061",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32061",
-    "title": "Gothic Vampire Noble Portrait",
-    "category": "Profile / Avatar",
-    "description": "A cinematic portrait prompt for generating a refined vampire nobleman in a candlelit Gothic mansion interior.",
-    "promptText": "Create a cinematic full-body portrait of a charismatic {argument name=\"character type\" default=\"young vampire nobleman\"} standing in a dark Gothic mansion hall at night. He faces the camera with a confident friendly smile, pale skin, slicked-back dark hair, sharp features, and subtle fangs visible. Dress him in an elegant black Victorian formal suit with a white high collar, black waistcoat, decorative chain brooch, polished black shoes, and a long black cape with a high Dracula-style collar and faint embroidered details. The setting is an opulent old interior with dark carved wood wall panels, deep red velvet curtains, glossy black marble floor with warm reflections, a staircase receding into shadow, ornate gold-framed ancestral portraits on the walls, and exactly three visible candle groupings: one red candelabrum with four lit candles on the left, one tall standing candelabrum with five lit candles behind him, and one gold candelabrum with six lit candles on the right. Use warm candlelight against deep shadows, shallow depth of field, realistic photography, dramatic chiaroscuro, rich burgundy and black tones, vertical composition, centered subject, high detail, no text, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "character type",
-        "default": "young vampire nobleman"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213827781_vxfg90_HQGZoHGacAA0NGu.jpg",
-        "alt": "Gothic Vampire Noble Portrait",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213828161_d1l29r_HQGZohYacAA781D.jpg",
-        "alt": "Gothic Vampire Noble Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Rodrigo Bressane",
-      "url": "https://x.com/bressane"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/bressane/status/2090120626845650956#reversed-0"
-    },
-    "publishedAt": "2026-08-19T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32061",
-    "contentHash": "f32450950ba97fd37bd2228b0ab0f00a1473e61a"
   }
 ]

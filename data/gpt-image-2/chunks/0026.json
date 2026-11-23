@@ -1,5 +1,89 @@
 [
   {
+    "id": "gpt-image-2:27263",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27263",
+    "title": "Embroidered Floral Fine-Art Portrait",
+    "category": "Profile / Avatar",
+    "description": "Generates a realistic vintage portrait framed by tactile floral embroidery on beige linen for elegant profile or keepsake artwork.",
+    "promptText": "Create an ultra-realistic fine-art portrait of a young woman using {argument name=\"character name\" default=\"the uploaded person\"} as the primary face reference with extreme identity preservation. She faces forward in a centered bust-length composition, calm soft smile, large natural eyes, smooth luminous skin, and natural makeup. Style her with {argument name=\"hair color\" default=\"warm chestnut brown\"} hair parted in the middle and arranged in a vintage low bun with curled side tendrils. She wears an off-shoulder ivory lace dress with ornate scalloped lace trim and {argument name=\"earrings\" default=\"pink gemstone drop earrings\"}. Frame her head and shoulders with handcrafted raised floral embroidery on coarse beige linen: exactly 6 large prominent flowers visible around her, including a large pink daisy-like flower at upper left, a pink peony at upper right, a large peony at lower left, a large central bottom pink blossom, a peach flower at lower right, and a smaller pink flower near her right temple, plus many embroidered green leaves, winding stems, and unopened buds. The embroidery should look tactile and three-dimensional with thread texture, satin stitches, knots, and layered petals partially overlapping the portrait, especially across the lower foreground. Use soft studio lighting, warm cinematic color grading, shallow depth of field, extremely detailed fabric fibers, elegant romantic vintage mood, 8K masterpiece quality, vertical portrait format. No text, no watermark, no modern accessories, no harsh shadows.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "the uploaded person"
+      },
+      {
+        "name": "hair color",
+        "default": "warm chestnut brown"
+      },
+      {
+        "name": "earrings",
+        "default": "pink gemstone drop earrings"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782896958876_49o1rb_HMCu3WvXIAAl-G1.jpg",
+        "alt": "Embroidered Floral Fine-Art Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Arina Ai",
+      "url": "https://x.com/Arina_hoqe"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Arina_hoqe/status/2071848954543968537#reversed-0"
+    },
+    "publishedAt": "2026-06-30T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27263",
+    "contentHash": "e225f8eb78f089ff6349dfe73872783f137f19cf"
+  },
+  {
+    "id": "gpt-image-2:27241",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "27241",
+    "title": "Realistic Indian Man Mirror Selfie",
+    "category": "Profile / Avatar",
+    "description": "A professional photography prompt for a highly detailed mirror selfie, specifically using an uploaded photo as a facial reference.",
+    "promptText": "Ultra-realistic mirror selfie of a handsome {argument name=\"ethnicity\" default=\"Indian\"} man using the uploaded face as the 100% exact facial reference with no changes to facial characteristics. Vertical 9:16 composition, mid-torso to upper-thigh crop. Camera positioned at chest height facing the mirror, creating a straight-on perspective with a subtle downward visual axis from the subject's lowered gaze. The subject stands upright with relaxed shoulders, holding a smartphone naturally in his right hand at sternum level while taking the mirror selfie. Thick wavy black hair, neatly groomed full beard, clear skin with natural texture, realistic eyes, and a calm, confident expression. Wearing a premium casual outfit in neutral tones. Soft cinematic indoor lighting with realistic reflections on the mirror, shallow depth of field, luxurious modern interior, ultra-detailed textures, HDR, DSLR photography, 85mm lens, f/1.8, photorealistic, natural skin tones, sharp focus, 8K quality.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "ethnicity",
+        "default": "Indian"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782896946218_pm9wx0_HMCrg2rWsAAC93G.jpg",
+        "alt": "Realistic Indian Man Mirror Selfie",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Muhammad Jamil",
+      "url": "https://x.com/JamilAI55"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/JamilAI55/status/2071844463354478639"
+    },
+    "publishedAt": "2026-06-30T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27241",
+    "contentHash": "10c9e6b55c91d2b189c70b5a526a36c290223abc"
+  },
+  {
     "id": "gpt-image-2:27237",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6997,97 +7081,5 @@
     "publishedAt": "2026-06-27T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=27001",
     "contentHash": "6d88f82b14af430079685942565389211c5a1324"
-  },
-  {
-    "id": "gpt-image-2:26955",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26955",
-    "title": "Girl Watching Fireflies on a Summer Veranda",
-    "category": "Social Media Post",
-    "description": "A poetic prompt for GPT Image 2 capturing a girl and her friend watching fireflies in a cage on a traditional Japanese veranda in summer.",
-    "promptText": "A {argument name=\"subject\" default=\"girl\"} looking at a firefly cage on a {argument name=\"season\" default=\"summer\"} veranda side-by-side with an {argument name=\"friend\" default=\"international student friend\"}.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "subject",
-        "default": "girl"
-      },
-      {
-        "name": "season",
-        "default": "summer"
-      },
-      {
-        "name": "friend",
-        "default": "international student friend"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ja",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782636850508_hzgtj3_HL0gqVYaAAIeSjU.jpg",
-        "alt": "Girl Watching Fireflies on a Summer Veranda",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "もしもし@Aiart",
-      "url": "https://x.com/moshimoshi_ai"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/moshimoshi_ai/status/2070847354727731506"
-    },
-    "publishedAt": "2026-06-27T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26955",
-    "contentHash": "30cec03055a2ce9b7ca1c29010531d1bcd17d5ff"
-  },
-  {
-    "id": "gpt-image-2:26984",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26984",
-    "title": "3D AI Prompt Library Workspace",
-    "category": "Social Media Post",
-    "description": "A premium 3D isometric hero illustration of floating UI cards, planning tablets, folders, and cloud-sync elements for creator tools or SaaS visuals.",
-    "promptText": "Goal: Create a polished 3D isometric tech workspace illustration showing a reusable AI design prompt library and digital content planning tools.\n\nCanvas: Ultra-wide horizontal banner, approximately 2.5:1 aspect ratio, dark navy-to-teal gradient background, cinematic studio lighting, clean empty margins at the left and top for possible overlay text.\n\nMain subject and layout: Arrange a layered cluster of floating and tabletop productivity elements across the center-right of the canvas. Use {argument name=\"primary color palette\" default=\"deep navy, teal, cyan, white, violet, and warm gold accents\"}. The scene should feel like a premium SaaS/productivity hero image, with soft shadows, glossy bevels, subtle reflections, and rounded corners.\n\nDiscrete visible elements: Include exactly 13 main objects: 1 large central desktop browser window with a dark top bar and wireframe layout blocks; 1 dark grid dashboard panel behind it on the left with nine square tiles; 1 small white analytics/card panel in front with left-side list dots and bottom mini buttons; 1 teal UI card on the right with four main content blocks and three narrow side rows; 1 purple UI card farther right with five rounded modules; 1 spreadsheet/calendar tablet lying flat in the foreground left with turquoise row header and purple top bar; 1 open report/document tablet in the foreground center with four colored chart blocks; 1 stacked pile of papers or folders in the foreground right topped by a blank white sheet; 1 small stack of rounded square app tiles in the foreground; 1 dark smartphone or slim rectangular device at the bottom center; 1 large stack of dark binders or file folders standing vertically in the back right with teal and gold edges; 1 floating cloud icon in the upper right outlined with gold rim lighting; 1 dark cylindrical pen cup on the far right containing three writing instruments.\n\nBackground accents: Add thin golden orbital connector lines arcing above the panels with three small gold nodes, a tiny cyan cube near the upper right, and translucent glass-like panel outlines behind the main windows. Keep these accents delicate and secondary.\n\nStyle: High-end 3D render, rounded clay-like UI components, glassmorphism, soft ambient occlusion, beveled edges, metallic gold highlights, modern creator-tool aesthetic, no people. Use {argument name=\"lighting mood\" default=\"moody cinematic blue studio lighting with bright cyan rim highlights\"} and {argument name=\"render style\" default=\"premium 3D isometric SaaS illustration\"}.\n\nText constraints: No readable words, no logos, no watermark. Any interface marks should be abstract lines, dots, grids, and blank cards only.\n\nComposition constraints: Keep the main cluster centered slightly right, preserve strong depth layering from flat foreground tablets to floating background panels, keep the cloud in the upper-right corner, and leave the far-left background mostly uncluttered.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "primary color palette",
-        "default": "deep navy, teal, cyan, white, violet, and warm gold accents"
-      },
-      {
-        "name": "lighting mood",
-        "default": "moody cinematic blue studio lighting with bright cyan rim highlights"
-      },
-      {
-        "name": "render style",
-        "default": "premium 3D isometric SaaS illustration"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782636865474_8rfmfo_HL0bYuqa8AAAJuy.jpg",
-        "alt": "3D AI Prompt Library Workspace",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "张扬Zhang",
-      "url": "https://x.com/oMnEMdSISVHGiLD"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/oMnEMdSISVHGiLD/status/2070841817801933122#reversed-0"
-    },
-    "publishedAt": "2026-06-27T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26984",
-    "contentHash": "317ba87f0ff3b04010655252af376c4b239306b5"
   }
 ]

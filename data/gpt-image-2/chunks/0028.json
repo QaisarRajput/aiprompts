@@ -1,5 +1,101 @@
 [
   {
+    "id": "gpt-image-2:26819",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26819",
+    "title": "Zareya Desert Kingdom Storyboard",
+    "category": "Comic / Storyboard",
+    "description": "A cinematic 16-panel fantasy storyboard contact sheet about a desert bard whose song awakens the memory of a buried kingdom.",
+    "promptText": "Goal: Create a cinematic 16-panel storyboard contact sheet for {argument name=\"story title\" default=\"ZAREYA — The Song That Buried a Kingdom\"}, showing a mythic desert singer wandering through the ruins of a buried empire. The mood is epic, tragic, mystical, and wind-swept, like 2.5D cel-shaded animation concept art with painterly anime backgrounds, stylized lighting, soft bloom, sand particle simulation, and warm sunset grading.\n\nCanvas: Wide 16:9 storyboard sheet, arranged as an exact 4-column by 4-row grid with thin pale dividing lines. Each panel is a separate cinematic shot with consistent golden-orange desert lighting, high detail, and no visible UI. Use a warm amber, bronze, ochre, and sepia palette, with occasional turquoise magical light.\n\nVisual style: Studio Ghibli atmosphere mixed with Arcane-style painterly rendering and Prince of Persia fantasy architecture. Highly cinematic composition, dramatic backlight, volumetric dust, wind-driven cloth, flowing hair, ornate jewelry, ancient sandstone ruins, colossal statues, and swirling sand. The heroine is {argument name=\"main character\" default=\"Zareya\"}, a solitary desert bard/princess with long dark braided hair, turquoise beads, gold ornaments, patterned desert robes, bangles, and a wooden flute. Her face is partly obscured or cropped in several close-ups; include flat dark-brown rectangular censor-like blocks over the face in exactly 3 panels to match the generated contact sheet.\n\nPanel layout: Include exactly 16 discrete panels:\n1. Extreme close-up of the heroine's closed eye, eyelashes, hanging gold chains, turquoise beads, and dust motes glowing in sunset light.\n2. Another close-up of the closed eye and cheek, framed by windblown hair and a dangling turquoise ornament.\n3. Low-angle wide shot of the heroine standing on a broken stone statue or fallen colossal head, cloak and hair blown by a sandstorm under a glowing sky.\n4. Close side view of braided hair, bead strands, and patterned headscarf, with a dark-brown rectangular block covering the face area.\n5. Medium close-up of the heroine playing a wooden flute, hands covered in bracelets, hair whipping in the wind, face hidden by a dark-brown rectangular block.\n6. Full-body shot of her walking alone through a circular vortex of sand and cloud, centered in a golden storm.\n7. Tiny figure walking toward monumental ruined columns and stone giants in a buried kingdom, sand curling around the architecture.\n8. Grand ruin vista with towering statues and palace remnants, the heroine as a small silhouette at the bottom, sky full of dust and light.\n9. Wide fantasy shot of enormous serpentine sand-dragon forms or storm spirits arcing above ancient ruins while the heroine stands on a rock ledge.\n10. Heroic medium shot of the heroine holding the flute near her shoulder, robe billowing, a dragon-shaped sandstorm behind her, face covered by a dark-brown rectangular block.\n11. Symmetrical temple-gate shot with two colossal statues, the heroine facing a tall vertical turquoise glow in the doorway, sand waves rising on both sides.\n12. Interior or gate shot looking into a vast carved doorway flooded with cyan-blue magical light, a small human silhouette standing at the threshold, sand drifting inward.\n13. Rear view of the heroine walking toward the glowing turquoise temple gate, cloak tattered and windblown, ornate ruins on both sides.\n14. Very wide desert landscape with rolling dunes, distant buried city, and a tiny lone traveler approaching a small blue-lit portal or doorway.\n15. Extreme wide aerial-like view of endless golden dunes and mountains, the traveler reduced to a tiny dark figure in the lower center.\n16. Final black title card with centered small serif text reading exactly: {argument name=\"closing text\" default=\"Every forgotten kingdom\\nstill remembers her song.\"}\n\nText content: Only the final panel contains text. Use elegant off-white serif typography, centered slightly right of the middle on a pure black background. Keep the line break between the two lines.\n\nConstraints: Maintain the exact 4x4 grid and exactly 16 panels. Do not add extra captions, logos, watermarks, speech bubbles, modern objects, sci-fi machinery, or additional characters. Keep the character design consistent across all panels. Emphasize wind-driven fabric, flying sand particles, painterly brush texture, cinematic sunset lighting, and the contrast between amber desert ruins and turquoise sacred light.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "story title",
+        "default": "ZAREYA — The Song That Buried a Kingdom"
+      },
+      {
+        "name": "main character",
+        "default": "Zareya"
+      },
+      {
+        "name": "closing text",
+        "default": "Every forgotten kingdom\\nstill remembers her song."
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464891900_q6y76b_HLnls4zbAAAFpq0.jpg",
+        "alt": "Zareya Desert Kingdom Storyboard",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "PixieVerse",
+      "url": "https://x.com/itsPixieVerse"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/itsPixieVerse/status/2069939536390664563#reversed-0"
+    },
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26819",
+    "contentHash": "9e3ae6d466889b769398b531cbfffc2a59f17873"
+  },
+  {
+    "id": "gpt-image-2:26802",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "26802",
+    "title": "Polished Anime Character Sheet",
+    "category": "Comic / Storyboard",
+    "description": "Transforms a rough bust sketch into a clean watercolor anime character concept sheet with handwritten Japanese profile notes.",
+    "promptText": "Using REFERENCE_0 as the character base, redraw the rough black-and-white sketch into a polished, original anime character design sheet while keeping the same bust-up composition, short bob hairstyle, blazer-and-blouse outfit, and face-obscuring rectangle placement. Convert the sketch into clean expressive ink lines with soft watercolor-style coloring: warm brown hair, natural skin tones, a light beige blazer, white blouse, and a small delicate necklace. Keep the background plain white and expand the canvas horizontally so there is empty space on the left for handwritten character notes.\n\nAdd exactly 4 handwritten Japanese text lines on the left side, in black ink with subtle pink underline accents:\n1. {argument name=\"character name\" default=\"桜井 梓（35）\"}\n2. {argument name=\"profile line one\" default=\"仕事はデキるけど、\"}\n3. {argument name=\"profile line two\" default=\"恋愛はちょっぴり不器用。\"}\n4. {argument name=\"profile line three\" default=\"本当は素直になりたい。\"}\n\nStyle: refined but still sketch-like anime illustration, clean corrected anatomy, loose hand-drawn linework, soft marker/watercolor shading, gentle contemporary character-concept art feel. Do not add a detailed background, props, or extra characters.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "character name",
+        "default": "桜井 梓（35）"
+      },
+      {
+        "name": "profile line one",
+        "default": "仕事はデキるけど、"
+      },
+      {
+        "name": "profile line two",
+        "default": "恋愛はちょっぴり不器用。"
+      },
+      {
+        "name": "profile line three",
+        "default": "本当は素直になりたい。"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1782464879875_vujn5l_HLk37cBWoAA93yA.jpg",
+        "alt": "Polished Anime Character Sheet",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "PiNKICK🇯🇵AI Visionary",
+      "url": "https://x.com/pinkick"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/pinkick/status/2069748500829806771#reversed-1"
+    },
+    "publishedAt": "2026-06-24T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26802",
+    "contentHash": "7c4002d357d4a8a1c4389e309a989c7042e37f89"
+  },
+  {
     "id": "gpt-image-2:26738",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -7001,94 +7097,5 @@
     "publishedAt": "2026-06-22T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26498",
     "contentHash": "274ea3be91fd6662939a4adc23579a2609691f68"
-  },
-  {
-    "id": "gpt-image-2:26523",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26523",
-    "title": "Cybernetic Bioluminescent Flower Infographic",
-    "category": "Infographic / Edu Visual",
-    "description": "A complex prompt for creating futuristic, cybernetic bioluminescent floral infographics with detailed HUD elements and lab-style aesthetics.",
-    "promptText": "Cybernetic translucent bioluminescent flower concept infographic, 9:16 vertical version. In the center is a hyper-realistic 3D cyber-flower, suspended in a cold black futuristic laboratory void. Petals and leaves have a translucent frosted glass texture, with subsurface scattering, X-ray transparency, thin-film refraction, and microscopic water droplets; internal plant veins are transformed into PCB circuits, optical fibers, luminescent capillaries, and energy fluids. Maintain a real plant structure: 65% organic lifeform, 35% digital circuitry. Adopt a \"star-satellite\" composition: the central 3D flower occupies about 30%, while the periphery 70% is a high-density 2D HUD information system. 10 independent data modules are accurately arranged at the edge of the screen, strictly aligned to a hidden grid, connected to petals, leaf veins, stems, stamens, and circuit nodes with 0.5pt ultra-fine straight lines and 90-degree mechanical folded lines. Modules embed miniature bar charts, waveforms, spectral curves, contour profiles, topological nodes, and dot matrix scales. Visual style: Hyper-realistic biological X-ray rendering × cold orthogonal HUD interface × futuristic plant experimental archives. Background is an infinite void close to black, with extremely weak digital grain, scan lines, dot matrix grids, and volumetric fog. The subject integrates naturally into the background without a frame, and the peripheral UI adopts hard-edged modular cutting. Avoid ordinary game interfaces, cheap cyberpunk, cartoon textures, and random mechanical parts collage. **Color Theme: {argument name=\"theme name\" default=\"Tulip\"}*** Background Base: {argument name=\"dark background\" default=\"cold black\"}* Translucent Structural Color: {low saturation glass color}* Main Bio-fluorescence: {main color}* Auxiliary Fluorescence: {auxiliary color}* Single Accent Color: {accent color}* Technical Text Color: {text color}Color rules: Background and structural color occupy about 60%, main and auxiliary fluorescence occupy about 30%, and the accent color occupies only 5%-10%. A maximum of two fluorescent colors and one accent color per screen. The accent color is strictly used for stamen energy cores, circuit nodes, key arrows, danger parameters, and data peaks; large-area use and random rainbow gradients are prohibited. Font adopts condensed technical document typography. A super-large pure Chinese bold title is set at the top, about 64px; Pinyin, English, and mixed Chinese-English are prohibited. 10 modules use monospaced subtitles, technical sans-serif body text, and high-density micro-text. Text becomes denser from the center to the edges, does not block the subject, and no garbled characters appear. Subject color mapping: Petals use transparent structural colors, petal edges and leaf veins use the main fluorescent color, internal fine veins and optical fibers use the auxiliary fluorescent color, and PCB intersection nodes and stamen cores only use the accent color. Peripheral HUD brightness must not exceed the central flower. High detail, cinematic lighting, real refraction, volumetric glow, sharp edges, precision layout, print-grade quality, unified composition, extremely high information density. Subject: {argument name=\"subject\" default=\"tulip\"}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "theme name",
-        "default": "Tulip"
-      },
-      {
-        "name": "dark background",
-        "default": "cold black"
-      },
-      {
-        "name": "subject",
-        "default": "tulip"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "zh",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205405647_y46vei_HLbiFiHaQAAooEn.jpg",
-        "alt": "Cybernetic Bioluminescent Flower Infographic",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205405681_vhsdel_HLbiFiFaIAEiu2c.jpg",
-        "alt": "Cybernetic Bioluminescent Flower Infographic",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205405675_jszjl4_HLbiFiIaYAAgVmO.jpg",
-        "alt": "Cybernetic Bioluminescent Flower Infographic",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "知识猫图解",
-      "url": "https://x.com/GeekCatX"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/GeekCatX/status/2069089696978976877"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26523",
-    "contentHash": "821386cba4cedec3dcc69f15b597d09cddcf45e3"
-  },
-  {
-    "id": "gpt-image-2:26528",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "26528",
-    "title": "South Asian Rural Bioscope Documentary",
-    "category": "Infographic / Edu Visual",
-    "description": "A nostalgic prompt for a black-and-white documentary-style photograph depicting curious village children gathered around a traditional bioscope in mid-20th century South Asia.",
-    "promptText": "A black-and-white realistic documentary photograph from the old days. A traditional wooden bioscope stands beside a dusty unpaved village road. Four to five poor village children are looking through the small holes of the bioscope with deep curiosity and wonder. Some are wearing simple old clothes, some are bare-chested, and most are barefoot. Expressions of pure childhood joy, wonder, and fascination are clear on the children's faces.\n\nBehind the bioscope, an elderly rural man is calmly operating the machine. He is dressed in simple traditional attire, with the marks of time on his face. The surroundings depict a simple rural lifestyle, with a dusty path, trees, and the atmosphere of a quiet village.\n\nNatural lighting, soft shadows, high-quality documentary photography, grainy texture of old film, a deeply emotional and nostalgic environment, mid-20th century South Asian rural life, a historical photograph feel, highly realistic, rich in fine detail, photorealistic, high resolution, perfect presentation of depth and reality.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1782205410193_sla5n5_HLal_zoaIAAu8yV.jpg",
-        "alt": "South Asian Rural Bioscope Documentary",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "BMX",
-      "url": "https://x.com/bmx_ai13"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/bmx_ai13/status/2069023876110278960"
-    },
-    "publishedAt": "2026-06-22T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=26528",
-    "contentHash": "604ff230b655a0200dc89eefc0c0b7dc40e90721"
   }
 ]
