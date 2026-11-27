@@ -1,5 +1,443 @@
 [
   {
+    "id": "gpt-image-2:32283",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32283",
+    "title": "Dark Tech Carousel-to-Video Slide",
+    "category": "Infographic / Edu Visual",
+    "description": "A premium vertical marketing slide showing how to turn social media carousels into short-form videos using GPT Image 2 and HyperFrames.",
+    "promptText": "Goal: Create a dark, premium tech carousel slide promoting {argument name=\"headline text\" default=\"Social media carousels as video\"}, branded as DSIV Music, with a cinematic desktop-production setup and instructional marketing copy.\n\nCanvas: Vertical 3:4 poster, about 900 × 1200 px, black charcoal background with subtle grain, thin gray border, faint geometric arcs, crosshair marks, dotted grid accents, and warm amber highlight lines.\n\nLayout: Use a left-heavy editorial layout with a product mockup on the right. Top left shows the brand text “DSIV” with “MUSIC” beneath it; top right shows “DSIVMUSIC.COM”. Under the brand, place the slide number “04” with a thin horizontal rule. Below that, add a small outlined amber pill label reading {argument name=\"tool label\" default=\"GPT Image 2 + HyperFrames\"}. The main headline occupies the left center in very large bold white sans-serif type across four lines. Beneath it, add the subheading: {argument name=\"subheading text\" default=\"Turn matching image slides into TikToks, Reels, and Shorts with motion, captions, and timing.\"}\n\nRight visual: Show a realistic dark monitor angled slightly in perspective on a desk, with a keyboard and small audio/control device in shadow. On the monitor, display a carousel-to-video editing interface: exactly 5 vertical slide cards across the top, numbered 01, 02, 03, 04, and 05. Card 01 reads “3 Codex prompts” with smaller text “music producers can actually use”; card 02 reads “Most AI prompts are too broad.”; card 03 reads “Generate better MIDI variations”; card 04 reads “Build a session roadmap”; card 05 is partially cropped and begins with “Turn...” as if continuing offscreen. Below the cards, show exactly 3 labeled timeline rows: “CAPTIONS”, “MUSIC / VO”, and “TRANSITIONS”, with beige caption blocks, an orange audio waveform, and small purple/gray transition blocks.\n\nMiddle-left section: Add a small amber divider line, then the spaced uppercase label “WHY IT WORKS”. Under it list exactly 2 benefits, each preceded by a circled plus icon: “One idea, many formats” and “Fast repurposing”.\n\nBottom section: Add a large rounded rectangle prompt box outlined in amber. Header text inside the box says “MAX PROMPT”. Body text uses a monospaced typewriter style and reads: “Generate 5–8 matching carousel slides for [TOPIC] with consistent typography, spacing, and visuals. Then create a HyperFrames sequence with slide timing, transition ideas, kinetic captions, music/VO timing, and deterministic render settings for a vertical short-form video.” End with a small terminal-style “>_”. Bottom left footer reads “@DSIVMUSIC”; bottom right has a small abstract circular DSIV-style mark.\n\nVisual style: Sleek black-and-white SaaS/creator-economy aesthetic, high contrast typography, warm amber accents, subtle photographic realism on the monitor and desk, clean modern Swiss grid composition, cinematic lighting, crisp legible text, no extra logos beyond DSIV branding.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "headline text",
+        "default": "Social media carousels as video"
+      },
+      {
+        "name": "tool label",
+        "default": "GPT Image 2 + HyperFrames"
+      },
+      {
+        "name": "subheading text",
+        "default": "Turn matching image slides into TikToks, Reels, and Shorts with motion, captions, and timing."
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787386274357_w2aiqz_HQQ5JzkaMAAzBEV.jpg",
+        "alt": "Dark Tech Carousel-to-Video Slide",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "DSIV",
+      "url": "https://x.com/dsivmusic"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/dsivmusic/status/2091055266985103567#reversed-0"
+    },
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32283",
+    "contentHash": "8a72fa4ed57c49b55b48f6dacae5a9ff86f16f56"
+  },
+  {
+    "id": "gpt-image-2:32396",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32396",
+    "title": "Transparent Background Comparison Grid",
+    "category": "Infographic / Edu Visual",
+    "description": "Creates a six-panel studio comparison showing two full-body cutout models on checkerboard, white, and black backgrounds for demonstrating transparent image generation.",
+    "promptText": "Goal: Create a clean comparison grid demonstrating background handling for cutout portrait images generated by {argument name=\"image model\" default=\"GPT Image 2\"}.\n\nCanvas: Square 1:1 canvas, approximately 1200 x 1200 px, with a very light gray page background and narrow gutters between panels.\n\nLayout: Use exactly 6 rectangular panels arranged in a 2-row by 3-column grid. Each panel contains one full-body studio cutout subject centered vertically and horizontally with ample margin. The three columns compare background types: left column shows a gray-and-white checkerboard transparency pattern, middle column shows a plain white background, right column shows a solid black background. No captions, no logos, no text.\n\nSubjects: Use exactly 2 human models. Top row: a {argument name=\"female model description\" default=\"young woman with long voluminous curly brown hair, neutral expression, barefoot, wearing a loose cream chunky-knit cardigan over a light camisole and wide beige lounge pants\"}. She stands front-facing in a relaxed fashion pose, one arm folded across her body and the other hanging down, soft studio lighting, realistic photographic detail. Bottom row: a {argument name=\"male model description\" default=\"middle-aged man with short dark hair and salt-and-pepper beard, serious expression, walking toward camera, wearing a long dark charcoal overcoat, gray knit sweater, navy trousers, and polished dark brown dress shoes\"}. He appears mid-stride with one hand in his trouser pocket and the coat slightly flaring outward.\n\nPanel details: Count of repeated elements is exactly 6 panels: 1) woman on checkerboard transparent-style background, 2) woman on white background, 3) woman on black background, 4) man on checkerboard transparent-style background, 5) man on white background, 6) man on black background. Keep the same subject pose, scale, lighting, and crop consistent across each row so only the background changes.\n\nVisual style: Hyperrealistic studio product-demo photography, crisp full-body cutouts, clean edges around hair and clothing, neutral soft shadows only if subtle, high contrast on black backgrounds, bright clean white backgrounds, and a standard transparency checkerboard pattern made of evenly sized alternating light gray and white squares.\n\nConstraints: Do not include any visible text, labels, watermark, interface chrome, decorative icons, or extra objects. Maintain realistic proportions, full bodies visible from head to feet, centered composition, and consistent spacing between all grid cells.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "image model",
+        "default": "GPT Image 2"
+      },
+      {
+        "name": "female model description",
+        "default": "young woman with long voluminous curly brown hair, neutral expression, barefoot, wearing a loose cream chunky-knit cardigan over a light camisole and wide beige lounge pants"
+      },
+      {
+        "name": "male model description",
+        "default": "middle-aged man with short dark hair and salt-and-pepper beard, serious expression, walking toward camera, wearing a long dark charcoal overcoat, gray knit sweater, navy trousers, and polished dark brown dress shoes"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472418581_f31fvy_HQTibb_XYAAiKmL.jpg",
+        "alt": "Transparent Background Comparison Grid",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Alessio Pomaro",
+      "url": "https://x.com/alepom"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/alepom/status/2091045117662568926#reversed-0"
+    },
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32396",
+    "contentHash": "26634c091327534521c5edaa6fa7e036557933fd"
+  },
+  {
+    "id": "gpt-image-2:32313",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32313",
+    "title": "Verified Post with Kawaii Cactus Sticker",
+    "category": "Infographic / Edu Visual",
+    "description": "Generates a social-media announcement screenshot featuring a transparent-background kawaii cactus sticker preview for showcasing GPT-Image-2 transparency support.",
+    "promptText": "Create a realistic social-media post screenshot on a white interface, like an X/Twitter post, showing a verified user announcing transparent background images. At the top left, include a small circular profile photo of a smiling man, the display name {argument name=\"display name\" default=\"Tibo\"} in bold with a blue verified checkmark, and the handle {argument name=\"handle\" default=\"@thsottiaux\"} in gray beneath it. At the top right show two small interface icons: a circular refresh-like icon and a three-dot menu. The post text should be large black sans-serif and contain exactly two paragraphs: first, “{argument name=\"English post text\" default=\"Yay, you can now make transparent images in ChatGPT and through the API with GPT-Image-2. Here is a cactus cactus I am about to print and put on my laptop.\"}” and second, Chinese text “{argument name=\"Chinese post text\" default=\"太棒了！现在你可以使用 ChatGPT 和 GPT-Image-2 API 制作透明图像了。这是我准备打印出来贴到笔记本电脑上的仙人掌图片。\"}”. Below the text, embed one large rounded-corner image preview with a light gray-and-white checkerboard transparency pattern. Centered inside the preview is a glossy kawaii sticker illustration of a potted cactus on a transparent background: exactly 1 central tall oval cactus body, exactly 2 raised side arms, exactly 1 terracotta flowerpot, exactly 1 pink-red flower with yellow center dots on top, many small cream-colored star-shaped spines, black cute oval eyes with white highlights, rosy pink cheeks, and an open smiling mouth. Use vibrant saturated greens, thick dark green sticker outline, shiny highlights, soft shadows, and a clean sticker-print style. Keep the screenshot composition vertical, cropped around the post, with generous white margins and no extra UI elements or watermark.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "display name",
+        "default": "Tibo"
+      },
+      {
+        "name": "handle",
+        "default": "@thsottiaux"
+      },
+      {
+        "name": "English post text",
+        "default": "Yay, you can now make transparent images in ChatGPT and through the API with GPT-Image-2. Here is a cactus cactus I am about to print and put on my laptop."
+      },
+      {
+        "name": "Chinese post text",
+        "default": "太棒了！现在你可以使用 ChatGPT 和 GPT-Image-2 API 制作透明图像了。这是我准备打印出来贴到笔记本电脑上的仙人掌图片。"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472412375_cxef11_HQTY4iHbAAAmYkC.jpg",
+        "alt": "Verified Post with Kawaii Cactus Sticker",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Harold W. Chen 左尔文",
+      "url": "https://x.com/Harold_W_Chen"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Harold_W_Chen/status/2091034694431490261#reversed-0"
+    },
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32313",
+    "contentHash": "bccf0c584e0e1629075e7a61e65759b88677515a"
+  },
+  {
+    "id": "gpt-image-2:32239",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32239",
+    "title": "Isometric Da Vinci Design Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "A sophisticated prompt that transforms uploaded photos into high-end design posters, featuring an isometric architectural reconstruction in the style of Da Vinci's manuscripts.",
+    "promptText": "Please turn each uploaded photo into a standalone high-end design poster. Use a 3:4 vertical composition, split 1:1 between top and bottom halves. The upper half preserves the original photo with artistic color grading. The lower half extracts the subject's structure and reconstructs it using isometric spatial logic, blending architectural modeling with editorial illustration. Incorporate a {argument name=\"theme image\" default=\"symbolic concept\"} that is geometrized and integrated into the composition. Use high-brightness, soft Japanese-style colors and matte textures. Add Da Vinci-style manuscript research traces like sketches, structural lines, and annotations around the subject. Feature a short English title arranged along the isometric axes. The result combines thematic metaphor, isometric order, and refined editorial design.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "theme image",
+        "default": "symbolic concept"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472365699_so2yzb_HQS6jpxa4AAlfjB.jpg",
+        "alt": "Isometric Da Vinci Design Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472365761_yx9v3f_HQS6mtfbAAAYARn.jpg",
+        "alt": "Isometric Da Vinci Design Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472366213_8yuc9z_HQS6oYFbQAAQ5rx.jpg",
+        "alt": "Isometric Da Vinci Design Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472366548_o5ctsh_HQS6qc_aUAAvrBO.jpg",
+        "alt": "Isometric Da Vinci Design Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小小东",
+      "url": "https://x.com/xiaoxiaodong01"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/xiaoxiaodong01/status/2091001986519068891"
+    },
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32239",
+    "contentHash": "9e1d2f7a938abd905a6ea6cf72038d2f101431f8"
+  },
+  {
+    "id": "gpt-image-2:32274",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32274",
+    "title": "Dark Infographic-to-Video Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "A premium dark social poster explaining an infographic-to-video workflow with a dashboard monitor, benefit callouts, and a reusable max prompt box.",
+    "promptText": "Goal: Create a premium dark editorial poster/slide teaching how to turn infographics into animated videos using {argument name=\"tool pairing\" default=\"GPT Image 2 + HyperFrames\"}. The design should feel like a high-end tech/music brand case-study card: minimal, cinematic, black background, white typography, warm amber accent lines, and a realistic workstation monitor showing a business dashboard.\n\nCanvas: Portrait 4:5 social post, approximately 900 × 1200 px. Use a thin gray border around the whole canvas, deep black charcoal background, subtle concentric arcs, dotted grid texture, small plus-sign drafting marks, and very low-contrast technical linework.\n\nLayout: Left side contains the branding, issue number, main headline, explanation, and two benefit bullets. Right side contains a realistic angled computer monitor on a dark desk. Bottom third contains a large rounded rectangle prompt box. Keep generous negative space and strong reading order from top-left to right monitor to bottom prompt box.\n\nBranding and top details: In the top-left, place the logo text “DSIV” with spaced letters and smaller “MUSIC” underneath. In the top-right, place “DSIVMUSIC.COM”. Below the logo, add the issue number “03” with a thin horizontal line extending right. Add one small rounded amber-outline pill reading “GPT Image 2 + HyperFrames”.\n\nMain headline: Large bold off-white sans-serif text on the left, split across two lines: “Infographic-” and “to-video”. Under it, add the subtitle: “Generate dense, text-accurate graphics with GPT Image 2, then animate layers in HyperFrames.”\n\nBenefit section: Add the amber spaced heading “WHY IT WORKS”. Include exactly 2 benefit rows with circular outline icons: 1) an open-book icon labeled “Better reading order”; 2) a play-triangle icon labeled “More retention from motion”.\n\nRight monitor content: Show a black desktop monitor angled slightly in perspective. On the screen is a clean dashboard titled “REVENUE GROWTH ROADMAP” with the subtitle “Q2 PLAN OVERVIEW”. Include exactly 4 key metric cards across the top: 1) chart-arrow icon, “$2.4M”, “Total Revenue”, “+28% vs Q1”; 2) group icon, “12.5K”, “New Customers”, “+35% vs Q1”; 3) shopping cart icon, “$192”, “Avg. Order Value”, “+12% vs Q1”; 4) donut-chart icon, “24.8%”, “Gross Margin”, “+6.3pp vs Q1”. Below, include exactly 1 orange line chart labeled “GROWTH TREND” with months JAN, FEB, MAR, APR, MAY, JUN along the bottom and rising data points. To the right, include exactly 4 growth driver rows with small amber circular icons: “Product Innovation”, “Marketing Efficiency”, “Sales Expansion”, and “Customer Retention”. Along the bottom of the dashboard, include exactly 4 connected roadmap boxes with arrows between them: “AWARENESS / Expand reach” → “CONVERSION / Optimize funnel” → “RETENTION / Drive loyalty” → “GROWTH / Scale impact”.\n\nDesk details: Under the monitor, include a dark audio rack or amplifier with small knobs and indicator lights, a low-profile keyboard in shadow, and a small control surface at the bottom-right. Keep these objects subtle and nearly black, with faint highlights.\n\nBottom prompt box: Create a wide rounded rectangle with a thin gray outline and amber heading “MAX PROMPT”. Add a small terminal-style symbol “>_” in the upper-right of the box. Inside, use white monospaced type with this exact text: “Create a clean infographic for [TOPIC] with accurate labels, metrics, icons, arrows, and chart elements. Leave visual breathing room. Then convert it into a HyperFrames plan that animates count-ups, line draws, arrows, highlights, captions, and voiceover timing in a deterministic 9:16 or 16:9 MP4.”\n\nFooter: Bottom-left small text “@DSIVMUSIC”. Bottom-right add a small abstract circular DSIV-style mark. Use tiny plus marks and faint arcs behind the footer.\n\nVisual style: Dark monochrome luxury tech aesthetic, crisp vector typography mixed with realistic rendered monitor hardware, high contrast but restrained, amber accents only for highlights, thin strokes, clean grid alignment, accurate legible text, no clutter.\n\nConstraints: Use exactly 4 dashboard metric cards, 4 growth driver rows, 4 roadmap boxes, and 2 benefit rows. Do not add extra sections, people, bright colors, or decorative elements that compete with the text. Keep all typography sharp and readable.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "tool pairing",
+        "default": "GPT Image 2 + HyperFrames"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472402873_bfh7x4_HQQ5C39bgAAKpLR.jpg",
+        "alt": "Dark Infographic-to-Video Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "DSIV",
+      "url": "https://x.com/dsivmusic"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/dsivmusic/status/2090994617441288586#reversed-0"
+    },
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32274",
+    "contentHash": "d8802a1c5ac68e7846c235389208f9c46e05e79c"
+  },
+  {
+    "id": "gpt-image-2:32132",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32132",
+    "title": "Hand-drawn Breakfast Journal Aesthetic Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "A detailed prompt for creating charming, hand-drawn style informational journal pages about breakfast, featuring sketches and handwritten annotations.",
+    "promptText": "Create a relaxed, hand-drawn observation map around any subject: a large area of clean white paper serves as the main space, with the theme content broken down into several small object-like graphics, cross-sections, small connected pieces, short repetitive items, and close-ups, scattered across the upper and middle sections of the paper. Instead of a formal table, they are connected by loose line spacing, staggered white space, and handwritten phrases that simulate horizontal reading, forming an intimate rhythm as if taste, touch, sound, or movement were recorded casually. Small graphics use theme-derived materials and colors, maintaining small scales, rounded outlines, slight perspective, and hand-painted traces, with local preservation of grain, burnt edges, crumbs, textures, or section details; do not let them become unified icons, they should look like physical notes between picture book food illustrations and journal stickers. Text is the skeleton of the picture: use thin black lines with a sense of handwritten kana or childish handwriting, loose spacing, slightly jumping baselines, short words interspersed around the graphics, some strings close to the edges of the graphics, and some floating independently in the blank space, with a line of small signature-style explanation at the bottom. The color is derived from the theme itself, with white paper occupying the largest area and fine black characters carrying information; the main color remains warm, clean, and slightly high-brightness; a small amount of high-saturation warm colors or dark colors are only used for the focal points, shadows, and textures of the graphics, with dots of green, brown, or other thematic auxiliary colors as minimal rhythm. The overall image maintains a slight softening and natural compression feel of scanned paper, with hand-drawn unevenness and pigment absorption at the edges, without heavy shadows, decorative borders, or modern typography; the focus is to let the graphics and onomatopoeic handwriting together create a refreshing and childlike information page.\n\nTheme: {argument name=\"theme\" default=\"Good Morning + Greeting + GOOD MORNING + City + Quote + Weather + 2026-08-21\"}",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "theme",
+        "default": "Good Morning + Greeting + GOOD MORNING + City + Quote + Weather + 2026-08-21"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472391614_9ikgfa_HQNQSUaagAA-upE.jpg",
+        "alt": "Hand-drawn Breakfast Journal Aesthetic Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472391629_qlgrg2_HQNQZb2bkAAoMHo.jpg",
+        "alt": "Hand-drawn Breakfast Journal Aesthetic Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472391649_vif5qi_HQNQahnbAAAGAZB.jpg",
+        "alt": "Hand-drawn Breakfast Journal Aesthetic Poster",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472392463_e9vlp3_HQNQbiGakAA6mrn.jpg",
+        "alt": "Hand-drawn Breakfast Journal Aesthetic Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "小小东",
+      "url": "https://x.com/xiaoxiaodong01"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/xiaoxiaodong01/status/2090603326975181228"
+    },
+    "publishedAt": "2026-08-21T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32132",
+    "contentHash": "5cfe1fd7cf9c4d3eaeb9855c704411b1ee49ed32"
+  },
+  {
+    "id": "gpt-image-2:32314",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32314",
+    "title": "Isometric France Diorama Poster",
+    "category": "Infographic / Edu Visual",
+    "description": "Generates a polished travel-atlas style isometric miniature map of France with landmarks, terrain, flag, and headline text.",
+    "promptText": "Create a highly detailed isometric country diorama poster of {argument name=\"country\" default=\"France\"} shaped exactly like the national map outline, floating on a clean off-white background with soft studio shadows. At the top, add centered typography: small spaced uppercase continent label “{argument name=\"continent label\" default=\"EUROPE\"}”, a huge bold uppercase title “{argument name=\"country title\" default=\"FRANCE\"}” in dark charcoal, the national flag to the right of the title as three vertical stripes blue, white, red, and a smaller spaced subtitle “{argument name=\"capital and population\" default=\"PARIS • 67.4 MILLION\"}”. The map should be a miniature 3D terrain slab with vertical rocky cliff sides around the entire coastline and borders, showing lush green countryside, patchwork farmland, forests, rivers, highways, and tiny towns. Include exactly 9 major landmark/region features: 1 central Paris area with the Eiffel Tower rising prominently, 2 a Gothic cathedral landmark in the north, 3 a western Atlantic harbor with docks, sailboats, and a lighthouse, 4 a northern coastal city cluster, 5 a broad mountain range with snowy peaks along the southeast, 6 a smaller snowy mountain range along the southwest, 7 a Mediterranean bay with marina, sailboats, and coastal city at the south, 8 a river valley network crossing the center and east, and 9 the separate island of Corsica as a smaller rocky diorama piece floating to the lower right with miniature terrain and towns. Use realistic miniature-model detail, crisp isometric perspective from above, warm daylight, saturated natural greens and blues, shallow depth of field, polished travel-atlas infographic aesthetics, no border, no watermark, no extra labels beyond the title, flag, continent, and capital/population text.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "country",
+        "default": "France"
+      },
+      {
+        "name": "continent label",
+        "default": "EUROPE"
+      },
+      {
+        "name": "country title",
+        "default": "FRANCE"
+      },
+      {
+        "name": "capital and population",
+        "default": "PARIS • 67.4 MILLION"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472419518_a9ru6z_HQLhgUXXgAEITdu.jpg",
+        "alt": "Isometric France Diorama Poster",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "TechieSA",
+      "url": "https://x.com/TechieBySA"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/TechieBySA/status/2090481131762114750#reversed-0"
+    },
+    "publishedAt": "2026-08-20T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32314",
+    "contentHash": "2289614f4222a83f605ee37bf516897c28c76c4d"
+  },
+  {
+    "id": "gpt-image-2:32260",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32260",
+    "title": "Cinematic Action Movie Portrait",
+    "category": "YouTube Thumbnail",
+    "description": "A highly detailed prompt for generating a professional cinematic action movie screenshot with specific lighting and lens characteristics.",
+    "promptText": "16:9. US action movie screenshot style. Lighting: rim light + {argument name=\"tone\" default=\"cool tone\"}, dark, {argument name=\"light color\" default=\"cold blue\"} tone light source, low light, dark, dim. Close-up of {argument name=\"subject\" default=\"a male in image 1\"} from the waist up (clothing + facial features must be consistent), with some sparks floating in the blurred foreground air. Black background. Shot with the visual effect of an equivalent 85mm portrait lens, depth of field approximately f/2.8, facial features must be in sharp focus. The character's hairstyle must retain its original styling, natural hair texture, and volume, with individual hairs clearly visible. Cinematic contrast. Professional commercial portrait grade retouching, only slightly evening out skin tone. No beauty filters, no artificial, plastic, or obvious AI-generated texture.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "tone",
+        "default": "cool tone"
+      },
+      {
+        "name": "light color",
+        "default": "cold blue"
+      },
+      {
+        "name": "subject",
+        "default": "a male in image 1"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "zh",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787386246236_1925oj_HQQyH6EasAALtWB.jpg",
+        "alt": "Cinematic Action Movie Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787386246189_ubeena_HQQyH6EaQAAE-Mp.jpg",
+        "alt": "Cinematic Action Movie Portrait",
+        "width": 600
+      },
+      {
+        "url": "https://cms-assets.youmind.com/media/1787386246250_24qr0z_HQQyH6LaMAAy_rc.jpg",
+        "alt": "Cinematic Action Movie Portrait",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "Luber",
+      "url": "https://x.com/Luber_AI"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Luber_AI/status/2090851717390926032"
+    },
+    "publishedAt": "2026-08-21T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32260",
+    "contentHash": "96f9582a6259d68c18ba8a5f2ba0daa69b4bf137"
+  },
+  {
+    "id": "gpt-image-2:32326",
+    "sourceId": "gpt-image-2",
+    "tool": "GPT Image 2",
+    "externalId": "32326",
+    "title": "Premium Beverage Commercial Storyboard",
+    "category": "Comic / Storyboard",
+    "description": "Creates a high-end 8-scene storyboard for a luxury beverage advertisement, emphasizing cinematic lighting, macro liquid photography, and professional presentation.",
+    "promptText": "TITLE:\nPremium {argument name=\"product\" default=\"Sparkling Fruit Drink\"} Product Commercial Storyboard\n\nFORMAT:\n• Single-page premium storyboard\n• {argument name=\"ratio\" default=\"3:4 Portrait ratio\"}\n• Luxury beverage product campaign\n• 8 cinematic storyboard scenes\n• Product remains the central hero\n• Premium advertising agency presentation\n\nHEADER:\n• Modern luxury typography\n• Information cards:\n\nDuration: {argument name=\"duration\" default=\"10 Seconds\"}\n\nStyle: Cinematic Beverage Commercial\n\nProduct: Sparkling Fruit Drink\n\nAudio: Fizz + Refreshing Liquid ASMR\n• Why This Style Works section\n• Silver, citrus orange and deep blue aesthetic\n• Minimal premium decorative accents\n\nSTORYBOARD:\n\n1. Chilled sparkling drink bottle covered in condensation\n\n2. Bottle cap opening with a burst of carbonation\n\n3. Extreme macro shot of bubbles racing through the drink\n\n4. Sparkling drink pouring into a crystal glass\n\n5. Ice cubes falling into the glass in slow motion\n\n6. Fresh citrus slices creating a dramatic splash\n\n7. Macro shot of condensation and carbonation bubbles\n\n8. Final hero bottle and glass surrounded by frozen splash\n\nEVERY PANEL:\n• Scene number\n• Duration badge\n• Camera direction\n• Visual\n• Action\n• Product detail\n\nCAMERA:\nHigh-speed liquid photography, extreme macro, frozen splash capture, slow-motion pour, dramatic backlighting, condensation close-up, cinematic product hero framing.\n\nSTYLE:\nUltra-realistic beverage advertising, realistic carbonation, detailed water droplets, dynamic liquid splash, premium glass reflections, studio lighting, luxury branding, commercial photography, 8K.",
+    "promptFormat": "text",
+    "templateArguments": [
+      {
+        "name": "product",
+        "default": "Sparkling Fruit Drink"
+      },
+      {
+        "name": "ratio",
+        "default": "3:4 Portrait ratio"
+      },
+      {
+        "name": "duration",
+        "default": "10 Seconds"
+      }
+    ],
+    "raycastFriendly": true,
+    "featured": false,
+    "language": "en",
+    "images": [
+      {
+        "url": "https://cms-assets.youmind.com/media/1787472347233_r35rwl_HQYa9tIbUAAKnxi.jpg",
+        "alt": "Premium Beverage Commercial Storyboard",
+        "width": 600
+      }
+    ],
+    "author": {
+      "name": "𝐌",
+      "url": "https://x.com/Strength04_X"
+    },
+    "source": {
+      "label": "Twitter Post",
+      "url": "https://x.com/Strength04_X/status/2091388744599486491"
+    },
+    "publishedAt": "2026-08-23T00:00:00.000Z",
+    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32326",
+    "contentHash": "12cc8fff3f719c37639d30d3bb1a5dcd901adeb8"
+  },
+  {
     "id": "gpt-image-2:32375",
     "sourceId": "gpt-image-2",
     "tool": "GPT Image 2",
@@ -6519,388 +6957,5 @@
     "publishedAt": "2026-08-21T00:00:00.000Z",
     "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32161",
     "contentHash": "df0990fc92cb6cdbd5e0adb726a8e81814f7cbc8"
-  },
-  {
-    "id": "gpt-image-2:32141",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32141",
-    "title": "Kawaii Smiling Cactus Sticker",
-    "category": "Game Asset",
-    "description": "Generates a cute transparent-background cactus mascot sticker with a terracotta pot, flower, glossy highlights, and bold outline for web assets or decals.",
-    "promptText": "Create a cute kawaii sticker-style illustration of a smiling potted cactus mascot on a transparent background, shown over a faint gray checkerboard transparency preview. The cactus is bright {argument name=\"cactus color\" default=\"lime green\"}, glossy, and vertically ribbed, with a large rounded central body and exactly 2 raised curved arms, one on each side. Give it a happy face with exactly 2 big black oval eyes with white highlights, 2 pink circular blush cheeks, and a wide open smiling mouth with a red interior and pink tongue. Add many small cream-colored starburst cactus spines with orange bases across the body and arms, keeping them cute rather than sharp. Place exactly 1 large flower on the upper left of the cactus head: {argument name=\"flower color\" default=\"coral red\"} petals, yellow round stamens, and a dark green outline. Put the cactus in exactly 1 terracotta flower pot, warm orange with darker shading, glossy highlights, a thick rounded rim, and visible brown pebbles/soil along the top. Use a bold dark green/black outline around all major shapes plus a thick soft white sticker border around the entire character. Style should be polished vector-like digital art with soft gradients, shiny highlights, high saturation, rounded forms, centered composition, no text, no watermark, isolated asset suitable for web or sticker use. {argument name=\"background\" default=\"transparent checkerboard preview\"}",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "cactus color",
-        "default": "lime green"
-      },
-      {
-        "name": "flower color",
-        "default": "coral red"
-      },
-      {
-        "name": "background",
-        "default": "transparent checkerboard preview"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787299940533_ioxv7d_HQNqPjjbYAA1TbV.png",
-        "alt": "Kawaii Smiling Cactus Sticker",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "kogu",
-      "url": "https://x.com/koguGameDev"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/koguGameDev/status/2090632136424591837#reversed-0"
-    },
-    "publishedAt": "2026-08-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32141",
-    "contentHash": "4fc0c9ff8cf854a2c86979af7ac4f168facd701a"
-  },
-  {
-    "id": "gpt-image-2:32139",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32139",
-    "title": "Cute Cactus Sticker",
-    "category": "Game Asset",
-    "description": "A prompt for generating a kawaii transparent-background cactus sticker suitable for printing or decorating a laptop.",
-    "promptText": "Create a cute transparent-background sticker illustration of a happy cartoon cactus in a terracotta flower pot. The cactus is bright lime green, glossy, and rounded, with one large central oval barrel cactus body and exactly two raised side arms, one on each side, shaped like curved saguaro arms. Add dark green rib lines and soft highlights on every cactus segment. The face is centered on the main cactus: two large black oval eyes with white sparkle highlights, two small curved closed-looking eyebrow marks above them, round pink blush cheeks, and a wide open smiling mouth with a dark interior and pink tongue. Place a single red-pink flower on top-left of the cactus crown, with exactly 6 rounded petals and a yellow center made of small bead-like dots. Cover the cactus with many small star-shaped pale yellow spines emerging from tiny orange bumps, distributed across the main body and both arms. The pot is orange terracotta with a thick rounded rim, darker red-orange shading, subtle speckles, and glossy white highlights; show brown soil and several rounded pebbles visible above the rim. Use a kawaii vector sticker style with thick dark green outlines, soft gradients, high saturation, clean edges, and a bold white sticker border around the whole cactus and pot. The image should sit on a transparent checkerboard background, centered, with no text, no watermark, and no extra objects.",
-    "promptFormat": "text",
-    "templateArguments": [],
-    "raycastFriendly": false,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787299936737_4gh6he_HQNqPjjbYAA1TbV.png",
-        "alt": "Cute Cactus Sticker",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Tibo",
-      "url": "https://x.com/thsottiaux"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/thsottiaux/status/2090631723302469995#reversed-0"
-    },
-    "publishedAt": "2026-08-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32139",
-    "contentHash": "3eac2cc0f4dd6046b40a8c216a0914c04265faeb"
-  },
-  {
-    "id": "gpt-image-2:32169",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32169",
-    "title": "Excited Kawaii Kitten OMG Sticker",
-    "category": "Game Asset",
-    "description": "Generates a transparent-background chibi animal reaction sticker with comic lettering for chats, merch, and social media.",
-    "promptText": "Create a cute kawaii sticker illustration on a transparent background featuring an excited chibi {argument name=\"animal\" default=\"orange tabby kitten\"} reacting dramatically. The kitten is centered, facing forward, with orange striped fur, cream muzzle and belly, pink inner ears, huge glossy amber eyes filled with star highlights, rosy blush cheeks, an open happy shocked mouth, and both front paws raised against its cheeks. Add a thick white sticker outline with a thin dark shadow/edge around the entire character and graphics. Include exactly 1 large comic word at the upper left reading {argument name=\"comic text\" default=\"OMG!\"} in bold rounded yellow-orange bubble letters with black outline and white outer stroke. Add exactly 2 separate yellow exclamation marks to the upper right of the kitten, exactly 2 small yellow sparkle icons, one on the left and one on the right, and exactly 3 short white motion lines near the right cheek. Use a vibrant anime sticker style, clean vector-like line art, warm orange gradients, high contrast, playful expression, no extra objects, no background pattern, no watermark.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "animal",
-        "default": "orange tabby kitten"
-      },
-      {
-        "name": "comic text",
-        "default": "OMG!"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787299961983_7jsdq9_HQNYabXa4AEslei.png",
-        "alt": "Excited Kawaii Kitten OMG Sticker",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "eXphinx",
-      "url": "https://x.com/EXphinx"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/EXphinx/status/2090612889824657762#reversed-0"
-    },
-    "publishedAt": "2026-08-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32169",
-    "contentHash": "a039ead51004d695285316546845d118275f5d0b"
-  },
-  {
-    "id": "gpt-image-2:32140",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32140",
-    "title": "Cyberpunk Cliffside Megacity Wallpaper",
-    "category": "Game Asset",
-    "description": "Transforms a cliffside fantasy city reference into a cinematic futuristic East Asian cyberpunk megacity wallpaper at sunset.",
-    "promptText": "Using the provided reference image as the base composition, transform the cliffside fantasy city into a {argument name=\"city style\" default=\"futuristic East Asian cyberpunk megacity\"} while keeping the dramatic vertical cliff setting, high-altitude scale, and wide 16:9 desktop-wallpaper framing. Replace the rustic cliff dwellings and ancient fortress feel with dense neon-lit pagoda architecture fused with towering sci-fi skyscrapers, cylindrical megastructures, antennas, platforms, glowing windows, holographic signs, and layered sky docks built into the rock face.\n\nChange the atmosphere to {argument name=\"time of day\" default=\"orange-red sunset above clouds\"}: a huge low sun on the right horizon, warm peach sky, purple-blue shadows, misty clouds below the city, and cinematic volumetric haze. Make the scene feel more futuristic and populated, with red lanterns, vertical illuminated signs, small lit storefronts, and cyberpunk blue/red accent lights.\n\nAdd exactly 12 prominent flying vehicles to the sky and city airspace: 1 large foreground transport with two bright blue engines at lower right, 1 partially visible vehicle at lower left, 1 large patrol craft near the upper right, 1 small craft above the central towers, 1 small craft near the upper center-left, 1 pink-lit craft near the center sky, 1 elongated craft near the central building platforms, 1 tiny silhouette crossing the sun, and 4 additional small distant aircraft scattered across the right-side sunset sky. Keep the vehicles consistent with a rugged futuristic sci-fi design.\n\nPreserve the grand sense of altitude and cliff-edge architecture from the reference, but remove the waterfall and replace the medieval/fantasy tone with a polished {argument name=\"visual style\" default=\"ultra-detailed cinematic 4K sci-fi concept art\"}. No text overlays, no watermark, no border.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "city style",
-        "default": "futuristic East Asian cyberpunk megacity"
-      },
-      {
-        "name": "time of day",
-        "default": "orange-red sunset above clouds"
-      },
-      {
-        "name": "visual style",
-        "default": "ultra-detailed cinematic 4K sci-fi concept art"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787299938532_xww5ni_HQIytUMakAAjgs-.jpg",
-        "alt": "Cyberpunk Cliffside Megacity Wallpaper",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Sophia_ammy",
-      "url": "https://x.com/JessyRosyyy"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/JessyRosyyy/status/2090604804758265975#reversed-1"
-    },
-    "publishedAt": "2026-08-21T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32140",
-    "contentHash": "ce5098dfee2ce95e340d3890d98d3e429d735efc"
-  },
-  {
-    "id": "gpt-image-2:32166",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32166",
-    "title": "Chibi Tactical Police Girl with Halo",
-    "category": "Game Asset",
-    "description": "Generates a polished chibi anime police officer character sticker with tactical gear and a glowing futuristic halo.",
-    "promptText": "Create a full-body chibi anime character sticker on a transparent-looking black background: a serious young female tactical police officer with an oversized head and small body, standing in a confident contrapposto pose. She has {argument name=\"hair color\" default=\"short glossy black\"} bob-cut hair with heavy bangs covering her left eye, one visible muted gray-violet eye, pale skin, and a neutral slightly stern expression. Add a luminous futuristic halo above her head: a thin glowing blue-white elliptical ring with broken arc segments and one bright star-like cross flare at the front-right of the ring. Outfit: navy police jacket worn open, light blue button-up uniform shirt, black necktie, dark navy tactical pants, black belt with silver buckle, black gloves, and black lace-up combat boots. Include exactly 8 visible police/tactical accessories and insignia: 1 gold chest badge on the shirt, 1 shoulder patch on the jacket sleeve, 1 pale reflective armband on the upper arm, 1 handheld radio clipped near the shoulder with an antenna and coiled cable, 1 belt pouch on the right hip, 1 large thigh holster on the left leg, 1 strapped thigh pouch on the left thigh, and 1 cargo pocket on the right thigh. Use polished high-quality Japanese gacha-game chibi art, clean linework, soft cel shading, glossy hair highlights, subtle fabric folds, compact proportions, and crisp edges suitable for a transparent PNG sticker. Center the character vertically, leave a small margin around the halo and boots, no text, no watermark, no extra characters, no scenery.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "short glossy black"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787299956928_bt5zgb_HQMglMCawAAwFkC.jpg",
-        "alt": "Chibi Tactical Police Girl with Halo",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "ブラックネオンテトラ🖥️AIイラスト",
-      "url": "https://x.com/Hyper_Gildaria"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Hyper_Gildaria/status/2090550480665723109#reversed-0"
-    },
-    "publishedAt": "2026-08-20T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32166",
-    "contentHash": "5f8b7a9e0b952f2bfaff5ad3616fd62933c61ba3"
-  },
-  {
-    "id": "gpt-image-2:32159",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32159",
-    "title": "Colossal Ring on Earth",
-    "category": "Game Asset",
-    "description": "A cinematic photorealistic sci-fi landscape prompt for generating a vast meadow dominated by a single impossible ring megastructure.",
-    "promptText": "Create a cinematic science-fiction landscape titled {argument name=\"title concept\" default=\"The Ring on Earth\"}: a colossal vertical ring megastructure standing on the horizon in a vast grassy plain, so enormous it dwarfs mountains and dominates the sky. The ring is a single continuous circular band, slightly tilted in perspective, made of weathered gray metal and concrete-like panels with intricate industrial seams, layered armor plates, faint windows, exposed structural ribs, and one visible circular mechanical docking module on the right side. The bottom edges of the ring disappear into atmospheric haze near the ground, suggesting impossible scale. Foreground: a quiet wet meadow with wild grasses, small flowers, scattered dark rocks, and a shallow reflective pond occupying the lower center, mirroring the sky softly. Midground: rolling green fields, low hills, tiny waterways, and distant mountain silhouettes, with a few snowy peaks far right. Background: pale blue sky with soft clouds, warm low-angle sunlight from the left, mist and volumetric haze around the ring. Style: ultra-detailed photorealistic concept art, epic scale, naturalistic lighting, muted greens and blue-grays, soft golden highlights, serene yet awe-inspiring mood, 4:5 vertical composition, wide-angle lens feel, high dynamic range, subtle film grain. Constraints: no people, no vehicles, no text, no logo, no watermark; keep exactly one giant ring structure and one foreground pond.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "title concept",
-        "default": "The Ring on Earth"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787299952126_vjyw6v_HQK1pHKbIAARt9X.jpg",
-        "alt": "Colossal Ring on Earth",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "カーブミラー",
-      "url": "https://x.com/kabumira862571"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/kabumira862571/status/2090432903713058989#reversed-0"
-    },
-    "publishedAt": "2026-08-20T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32159",
-    "contentHash": "adab7c5bf75ff03de3c61cf18b2bf092cdba8d28"
-  },
-  {
-    "id": "gpt-image-2:32082",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32082",
-    "title": "Cat-Eared Maid Portrait",
-    "category": "Profile / Avatar",
-    "description": "A vertical anime illustration prompt for generating a cute cat-eared maid girl posing in a sunlit Victorian interior.",
-    "promptText": "Create a polished anime-style vertical portrait illustration of a cute kemonomimi maid girl leaning toward the viewer in a bright Victorian room. The subject is a young cat-eared girl with {argument name=\"hair color\" default=\"silvery ash gray\"} twin-tail hair, soft curled side locks tied with small black ribbons, large fluffy cat ears with pale fur and pink inner ears, and big {argument name=\"eye color\" default=\"pinkish purple\"} sparkling eyes. She has a small gentle smile, rosy cheeks, a soft childlike face, and glossy highlights on her hair and eyes. She wears a classic black-and-white maid outfit: black long-sleeved dress, white rounded collar, black bow at the neck, white frilled apron, puffed white shoulder frills, white cuffs, and a large white ruffled maid headband. Pose her in a close-up three-quarter view, upper body filling most of the frame, leaning forward with her head slightly tilted and one hand extended toward the camera in a friendly wave with five visible fingers. Place her in front of tall sunlit window panels with cream curtains, carved dark wooden trim, faint patterned wallpaper, and soft greenery visible outside. Use warm morning backlight streaming through the windows, delicate rim light on the ears and hair, bright high-key highlights, soft shadows, shallow depth of field, and a clean highly detailed Japanese anime illustration style with smooth linework, vibrant pastel lighting, and no text or watermark. Composition should be vertical 3:4, intimate and cute, with the character centered and cropped around the waist.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "hair color",
-        "default": "silvery ash gray"
-      },
-      {
-        "name": "eye color",
-        "default": "pinkish purple"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213850970_2gm16r_HQJdbrqacAAECPY.jpg",
-        "alt": "Cat-Eared Maid Portrait",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "Matsubon",
-      "url": "https://x.com/Matsubon_Q7"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/Matsubon_Q7/status/2090335912123392155#reversed-0"
-    },
-    "publishedAt": "2026-08-20T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32082",
-    "contentHash": "19d1f3a2c81a83a193edb588e4ddc1e8b385d1e0"
-  },
-  {
-    "id": "gpt-image-2:32011",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32011",
-    "title": "Playful park portrait photography",
-    "category": "Profile / Avatar",
-    "description": "A prompt for a candid outdoor portrait of an East Asian woman in a park with warm late-afternoon sunlight.",
-    "promptText": "Photorealistic candid outdoor portrait of a young {argument name=\"ethnicity\" default=\"East Asian\"} woman enjoying a sunny afternoon in a quiet green park. She has smooth shoulder-length dark brown hair with full straight bangs, naturally framing her face, soft fair skin, subtle rosy cheeks, and large expressive eyes. She makes a cute playful {argument name=\"expression\" default=\"pout\"} while looking slightly to the side, with one arm raised above her head and her palm held like a small sunshade over her forehead. She wears an oversized black graphic T-shirt with a simple floral design and loose sleeves, along with a delicate beaded bracelet on her wrist. The background features a wide freshly cut green lawn, leafy trees, tall grass, a white wooden fence, and a peaceful rural-style landscape. Warm late-afternoon sunlight shines from behind her, creating a bright glowing sky, gentle rim light around her hair, soft natural highlights, and a dreamy summer atmosphere. Casual smartphone photography, slightly soft focus, natural exposure, subtle lens flare, realistic skin and hair texture, authentic candid pose, shallow depth of field, natural green tones, high-resolution photorealistic image, vertical composition, youthful carefree mood.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "ethnicity",
-        "default": "East Asian"
-      },
-      {
-        "name": "expression",
-        "default": "pout"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "en",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213762180_tw7nk3_HQIu8z5WwAAVZMG.jpg",
-        "alt": "Playful park portrait photography",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213762163_6j60tb_HQIu9awWUAAHCHM.jpg",
-        "alt": "Playful park portrait photography",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "𝗦𝗮𝗻𝗶𝗮",
-      "url": "https://x.com/saniaspeaks_"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/saniaspeaks_/status/2090284820069048481"
-    },
-    "publishedAt": "2026-08-20T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32011",
-    "contentHash": "710a7b31e04d1f580b6b81eab2dc87853949729b"
-  },
-  {
-    "id": "gpt-image-2:32054",
-    "sourceId": "gpt-image-2",
-    "tool": "GPT Image 2",
-    "externalId": "32054",
-    "title": "Y2K Retro Indie Pop Girl with Blue LP",
-    "category": "Profile / Avatar",
-    "description": "A comprehensive prompt for creating a nostalgic Y2K indie pop aesthetic featuring a girl with long black hair holding a bright cyan LP cover, using studio flash lighting for a vintage magazine feel.",
-    "promptText": "[Character] Image 1 [Signature] In the lower right corner, there is a small {argument name=\"logo name\" default=\"Threads\"} logo, and above it, \"{argument name=\"signature text\" default=\"CHAse\"}\" is written in small white cursive like a signature. [Pose and Expression] Pose and Composition: A centered medium shot capturing a cheerful moment of holding a blue vinyl LP cover with both hands over the head. Pose: Holding both arms in a triangle shape with the LP cover held slightly upside down, tilting the upper body pleasantly to the left. The free-spirited upper body line and sculptural beauty of the arms create an indie artist's vibe. Expression: Not looking directly at the camera lens but glancing to the upper right with a curious and playful look. The slightly parted lips and transparent mask evoke a witty aura characteristic of Y2K indie pop. [Outfit and Props] Outfit: Top: A deep blue sleeveless ribbed crop top with a three-dimensional texture. Bottom: A minimal linen/denim texture long skirt in light sky blue with natural shirring at the waist, completing a sophisticated tone-on-tone blue look. Props: LP Cover ({argument name=\"album title\" default=\"CHASE - Love Wins All\"}): A bright cyan blue LP paper cover held above the head as a retro rock visual point. Nails: Neatly groomed pure white nail art providing a clear contrast with the blue tones. [Hair and Makeup] Hair: Rich jet black long natural straight hair falling over shoulders and back. Makeup: Clear porcelain skin under direct flash lighting with subtle brown shadow and moist pinkish coral glossy lips. [Lighting] Source: Direct studio camera flash from the front. Effect: Creates deep drop shadows on the background wall following the silhouette, producing a 90s vintage magazine contrast. [Texture and Color Mood] Colors: Deep blue, sky blue, and cyan blue creating a 'Cool Retro Indie Pop' mood. Texture Details: Matte and hard paper texture of the LP sleeve, ribbed fabric of the top, and glossy skin with sharp shadow edges. [Camera] Composition: Horizontal eye-level shot. Features: Deep depth of field and sharp focus ensuring model features and LP typography are crystal clear. [Background] Space: Minimalist light cool gray/ivory studio horizon wall focusing entirely on the subject.",
-    "promptFormat": "text",
-    "templateArguments": [
-      {
-        "name": "logo name",
-        "default": "Threads"
-      },
-      {
-        "name": "signature text",
-        "default": "CHAse"
-      },
-      {
-        "name": "album title",
-        "default": "CHASE - Love Wins All"
-      }
-    ],
-    "raycastFriendly": true,
-    "featured": false,
-    "language": "ko",
-    "images": [
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213820653_ykgfvd_HOMLfs5aQAAkV54.jpg",
-        "alt": "Y2K Retro Indie Pop Girl with Blue LP",
-        "width": 600
-      },
-      {
-        "url": "https://cms-assets.youmind.com/media/1787213820081_477z41_HOMLfs9a4AAWL8M.jpg",
-        "alt": "Y2K Retro Indie Pop Girl with Blue LP",
-        "width": 600
-      }
-    ],
-    "author": {
-      "name": "CHAse",
-      "url": "https://x.com/CHAseUnre"
-    },
-    "source": {
-      "label": "Twitter Post",
-      "url": "https://x.com/CHAseUnre/status/2090232345194377301"
-    },
-    "publishedAt": "2026-08-20T00:00:00.000Z",
-    "externalUrl": "https://youmind.com/gpt-image-2-prompts?id=32054",
-    "contentHash": "33f4a7ad82165bda26831c8349e8e938ff175335"
   }
 ]
